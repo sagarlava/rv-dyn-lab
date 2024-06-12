@@ -61,6 +61,7 @@
         }
       },
       "fields": {
+        "setupVisible": true,
         "type": {
           "original": "Type",
           "singular": "Type",
@@ -6483,6 +6484,53 @@
         "allowedFileSize": "File size should be less than 25MB"
       }
     },
+    "history": {
+      "setupVisible": true,
+      "label": {
+        "original": "History",
+        "singular": "History",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fields": {
+        "setupVisible": true,
+        "timeDate": {
+          "original": "Time & Date",
+          "singular": "Time & Date",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "field": {
+          "original": "Field",
+          "singular": "Field",
+          "plural": "Fields",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "modifiedBy": {
+          "original": "Modified By",
+          "singular": "Modified By",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "newValue": {
+          "original": "New Value",
+          "singular": "New Value",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "oldValue": {
+          "original": "Old Value",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      }
+    },
     "general": {
       "setupVisible": true,
       "buttons": {
@@ -6581,6 +6629,20 @@
         "clone": {
           "original": "Clone",
           "singular": "Clone",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "accept": {
+          "original": "Accept",
+          "singular": "Accept",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "reject": {
+          "original": "Reject",
+          "singular": "Reject",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -7214,7 +7276,10 @@
         "step5": "Step 5",
         "sentSuccessfully": "sent successfully",
         "savedSuccessfully": "saved successfully",
-        "updatedSuccessfully": "updated successfully"
+        "updatedSuccessfully": "updated successfully",
+        "doYouWishToContinue": "Do you wish to continue?",
+        "approve": "Approve",
+        "willBeApproved": "will now be APPROVED."
       },
       "map": {
         "setupVisible": true,
@@ -7708,6 +7773,7 @@
             "setupVisible": true
           },
           "sections": {
+            "setupVisible": true,
             "sec0": {
               "original": "General",
               "singular": "General",
@@ -10445,6 +10511,7 @@
             "setupVisible": true
           },
           "sections": {
+            "setupVisible": true,
             "sec0": {
               "original": "Fault",
               "singular": "Fault",
@@ -10554,6 +10621,7 @@
             "setupVisible": true
           },
           "sections": {
+            "setupVisible": true,
             "sec0": {
               "original": "Job Order Template Details",
               "singular": "Job Order Template Details",
@@ -10647,6 +10715,7 @@
             }
           },
           "fields": {
+            "setupVisible": true,
             "templateName": {
               "original": "Template Name",
               "singular": "Template Name",
@@ -11093,6 +11162,7 @@
           "setupVisible": true
         },
         "sections": {
+          "setupVisible": true,
           "sec0": {
             "original": "Checklist Details",
             "singular": "Checklist Details",
@@ -11323,6 +11393,7 @@
           "setupVisible": true
         },
         "sections": {
+          "setupVisible": true,
           "sec0": {
             "original": "Question Details",
             "singular": "Question Details",
@@ -11454,6 +11525,7 @@
           "setupVisible": true
         },
         "sections": {
+          "setupVisible": true,
           "sec0": {
             "original": "Notification Settings",
             "singular": "Notification Settings",
@@ -11484,6 +11556,7 @@
           }
         },
         "fields": {
+          "setupVisible": true,
           "name": {
             "original": "Name",
             "singular": "Name",
@@ -12146,7 +12219,7 @@
           "setupVisible": true
         },
         "sections": {
-          "setupVisible":true,
+          "setupVisible": true,
           "sec0": {
             "original": "Configuration",
             "singular": "Configuration",
@@ -12212,6 +12285,7 @@
           }
         },
         "fields": {
+          "setupVisible": true,
           "googleCalendarIntegration": {
             "original": "Google Calendar Integration",
             "singular": "Google Calendar Integration",
@@ -12333,7 +12407,7 @@
           }
         }
       },
-      "importExport":{
+      "importExport": {
         "setupVisible": true,
         "label": {
           "original": "Import & Export",
@@ -12509,12 +12583,13 @@
             "setupVisible": true
           }
         },
-        "validationFE":{},
-        "messages":{
-            "selectFieldToMap":"Select field to map to",
-            "selectFieldList":"Select a field list"
+        "validationFE": {
+          
+        },
+        "messages": {
+          "selectFieldToMap": "Select field to map to",
+          "selectFieldList": "Select a field list"
         }
-        
       }
     },
     "message": {

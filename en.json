@@ -6442,6 +6442,47 @@
         
       }
     },
+    "attachments": {
+      "setupVisible": true,
+      "label": {
+        "original": "Attachment",
+        "singular": "Attachment",
+        "plural": "Attachments",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "section": {
+        "setupVisible": true,
+        "sec0": {
+          "original": "Preview",
+          "singular": "Preview",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "fields": {
+        "setupVisible": true,
+        "max25Mb": {
+          "original": "Max 25MB",
+          "singular": "Max 25MB",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "file": {
+          "original": "File",
+          "singular": "File",
+          "plural": "Files",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "messages": {
+        "invalidFileSize": "Invalid file size",
+        "allowedFileSize": "File size should be less than 25MB"
+      }
+    },
     "general": {
       "setupVisible": true,
       "buttons": {
@@ -7259,47 +7300,6 @@
             "setupEdit": true,
             "setupVisible": true
           }
-        }
-      },
-      "attachments": {
-        "setupVisible": true,
-        "label": {
-          "original": "Attachment",
-          "singular": "Attachment",
-          "plural": "Attachments",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "section": {
-          "setupVisible": true,
-          "sec0": {
-            "original": "Preview",
-            "singular": "Preview",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-          }
-        },
-        "fields": {
-          "setupVisible": true,
-          "max25Mb": {
-            "original": "Max 25MB",
-            "singular": "Max 25MB",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-          },
-          "file": {
-            "original": "File",
-            "singular": "File",
-            "plural": "Files",
-            "setupEdit": true,
-            "setupVisible": true
-          }
-        },
-        "messages": {
-          "invalidFileSize": "Invalid file size",
-          "maximumUploadSize": "Maximum upload size is 25 MB"
         }
       },
       "serviceZone": {

@@ -7258,8 +7258,7 @@
         "radius": "Radius",
         "officeAddressIsNotSet":"Office Address is not set",
         "homeAddressIsNotSet":"Home Address is not set",
-        "currentAddressIsNotResolvedYet":"Current address is not resolved yet!",
-        "details": "Details"
+        "currentAddressIsNotResolvedYet":"Current address is not resolved yet!"
       },
       "map": {
         "setupVisible": true,
@@ -7489,6 +7488,9 @@
         "invalidYearFormat": "Invalid Year Format",
         "onlyAlphabetsAllowed": "Only alphabets allowed",
         "requiredField": "Required Field"
+      },
+      "tabs": {
+        "details": "Details"
       }
     },
     "setup": {

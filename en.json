@@ -25,34 +25,27 @@
           "setupVisible": true
         },
         "sec2": {
-          "original": "Location Details",
-          "singular": "Location Details",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec3": {
           "original": "Integration Details",
           "singular": "Integration Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec4": {
+        "sec3": {
           "original": "Additional Details",
           "singular": "Additional Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec5": {
+        "sec4": {
           "original": "Details",
           "singular": "Details",
           "plural": "Details",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec6": {
+        "sec5": {
           "original": "Stats",
           "singular": "Stats",
           "plural": "Stats",
@@ -2764,27 +2757,20 @@
           "setupVisible": true
         },
         "sec2": {
-          "original": "Location Details",
-          "singular": "Location Details",
-          "plural": "Location Details",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec3": {
           "original": "Site Details",
           "singular": "Site Details",
           "plural": "Site Details",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec4": {
+        "sec3": {
           "original": "Details",
           "singular": "Details",
           "plural": "Details",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec5": {
+        "sec4": {
           "original": "Filter By",
           "singular": "Filter By",
           "plural": "Filter By",
@@ -3118,41 +3104,34 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Location Details",
-          "singular": "Location Details",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec2": {
           "original": "Contact Details",
           "singular": "Contact Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec3": {
+        "sec2": {
           "original": "Additional Details",
           "singular": "Additional Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec4": {
+        "sec3": {
           "original": "Project Details",
           "singular": "Project Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec5": {
+        "sec4": {
           "original": "Details",
           "singular": "Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec6": {
+        "sec5": {
           "original": "Filter By",
           "singular": "Filter By",
           "plural": "",
@@ -3829,111 +3808,104 @@
           "setupVisible": true
         },
         "sec20": {
-          "original": "Location Details",
-          "singular": "Location Details",
-          "plural": "Location Details",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec21": {
           "original": "Part Order Details",
           "singular": "Part Order Details",
           "plural": "Part Order Details",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec22": {
+        "sec21": {
           "original": "Payment Details",
           "singular": "Payment Details",
           "plural": "Payment Details",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec23": {
+        "sec22": {
           "original": "Product Details",
           "singular": "Product Details",
           "plural": "Product Details",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec24": {
+        "sec23": {
           "original": "Products and Service Charges",
           "singular": "Products and Service Charges",
           "plural": "Products and Service Charges",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec25": {
+        "sec24": {
           "original": "Resolution Details",
           "singular": "Resolution Details",
           "plural": "Resolution Details",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec26": {
+        "sec25": {
           "original": "Service Checklist",
           "singular": "Service Checklist",
           "plural": "Service Checklist",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec27": {
+        "sec26": {
           "original": "Survey Details",
           "singular": "Survey Details",
           "plural": "Survey Details",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec28": {
+        "sec27": {
           "original": "System Information",
           "singular": "System Information",
           "plural": "System Information",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec29": {
+        "sec28": {
           "original": "System Summary",
           "singular": "System Summary",
           "plural": "System Summary",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec30": {
+        "sec29": {
           "original": "Handover Details",
           "singular": "Handover Details",
           "plural": "Handover Details",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec31": {
+        "sec30": {
           "original": "Filter By",
           "singular": "Filter By",
           "plural": "Filter By",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec32": {
+        "sec31": {
           "original": "Select the survey you would like to send and click 'Generate' to create it.",
           "singular": "Select the survey you would like to send and click 'Generate' to create it.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec33": {
+        "sec32": {
           "original": "Specify the email address of who you want this survey to be sent to",
           "singular": "Specify the email address of who you want this survey to be sent to",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec34": {
+        "sec33": {
           "original": "SLA",
           "singular": "SLA",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
-        "sec35": {
+        "sec34": {
           "original": "Forms",
           "singular": "Form",
           "plural": "Forms",
@@ -6452,7 +6424,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "section": {
+      "sections": {
         "setupVisible": true,
         "sec0": {
           "original": "Preview",
@@ -7279,7 +7251,13 @@
         "updatedSuccessfully": "updated successfully",
         "doYouWishToContinue": "Do you wish to continue?",
         "approve": "Approve",
-        "willBeApproved": "will now be APPROVED."
+        "willBeApproved": "will now be APPROVED.",
+        "currentLocation": "Current Location",
+        "radiusKM": "Radius (KM)",
+        "radius": "Radius",
+        "officeAddressIsNotSet":"Office Address is not set",
+        "homeAddressIsNotSet":"Home Address is not set",
+        "currentAddressIsNotResolvedYet":"Current address is not resolved yet!"
       },
       "map": {
         "setupVisible": true,
@@ -7376,7 +7354,7 @@
           "setupEdit": true,
           "setupVisible": true
         },
-        "section": {
+        "sections": {
           "setupVisible": true,
           "sec0": {
             "original": "Service Zone Details",
@@ -7459,7 +7437,7 @@
       },
       "systemInformation": {
         "setupVisible": true,
-        "section": {
+        "sections": {
           "setupVisible": true,
           "sec0": {
             "original": "System Information",
@@ -8950,7 +8928,7 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "section": {
+            "sections": {
               "setupVisible": true,
               "sec0": {
                 "original": "Default List Views",
@@ -9497,7 +9475,7 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "section": {
+            "sections": {
               "setupVisible": true,
               "sec0": {
                 "original": "Type Details",
@@ -9569,7 +9547,7 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "section": {
+            "sections": {
               "setupVisible": true,
               "sec0": {
                 "original": "Status Details",
@@ -9648,7 +9626,7 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "section": {
+            "sections": {
               "setupVisible": true,
               "sec0": {
                 "original": "Channel Details",
@@ -9720,7 +9698,7 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "section": {
+            "sections": {
               "setupVisible": true,
               "sec0": {
                 "original": "Area Details",
@@ -9792,7 +9770,7 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "section": {
+            "sections": {
               "setupVisible": true,
               "sec0": {
                 "original": "Category Details",
@@ -9864,7 +9842,7 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "section": {
+            "sections": {
               "setupVisible": true,
               "sec0": {
                 "original": "Sub Category Details",
@@ -9929,7 +9907,7 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "section": {
+            "sections": {
               "setupVisible": true,
               "sec0": {
                 "original": "Department Details",
@@ -10052,7 +10030,7 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "section": {
+            "sections": {
               "setupVisible": true,
               "sec0": {
                 "original": "Priority Details",
@@ -10263,7 +10241,7 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "section": {
+            "sections": {
               "setupVisible": true,
               "sec0": {
                 "original": "Location Details",
@@ -10335,11 +10313,11 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "section": {
+            "sections": {
               "setupVisible": true,
               "sec0": {
-                "original": "Location Details",
-                "singular": "Location Details",
+                "original": "Zone Details",
+                "singular": "Zone Details",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10658,55 +10636,48 @@
               "setupVisible": true
             },
             "sec5": {
-              "original": "Location Details",
-              "singular": "Location Details",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-            },
-            "sec6": {
               "original": "Additional Details",
               "singular": "Additional Details",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
-            "sec7": {
+            "sec6": {
               "original": "Financial Details",
               "singular": "Financial Details",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
-            "sec8": {
+            "sec7": {
               "original": "Please fill up the fields and their details to be populated in the Job Orders created from this template",
               "singular": "Please fill up the fields and their details to be populated in the Job Orders created from this template",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
-            "sec9": {
+            "sec8": {
               "original": "Task Template Details",
               "singular": "Task Template Details",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
-            "sec10": {
+            "sec9": {
               "original": "Task Details",
               "singular": "Task Details",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
-            "sec11": {
+            "sec10": {
               "original": "Specify the fields and details for all Tasks created from this template",
               "singular": "Specify the fields and details for all Tasks created from this template",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
-            "sec12": {
+            "sec11": {
               "original": "Filter By",
               "singular": "Filter By",
               "plural": "",
@@ -10831,13 +10802,6 @@
             "additionalResolution": {
               "original": "Additional Resolution",
               "singular": "Additional Resolution",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-            },
-            "serviceZone": {
-              "original": "Service Zone",
-              "singular": "Service Zone",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11110,7 +11074,7 @@
             "setupEdit": true,
             "setupVisible": true
           },
-          "section": {
+          "sections": {
             "setupVisible": true,
             "sec0": {
               "original": "Product Details",
@@ -11805,7 +11769,7 @@
             "setupEdit": true,
             "setupVisible": true
           },
-          "section": {
+          "sections": {
             "setupVisible": true,
             "sec0": {
               "original": "SLA Package Details",
@@ -12080,7 +12044,7 @@
             "setupEdit": true,
             "setupVisible": true
           },
-          "section": {
+          "sections": {
             "setupVisible": true,
             "sec0": {
               "original": "Notification Details",
@@ -12623,13 +12587,153 @@
       }
     },
     "note": {
-      "setupVisible": true,
-      "label": {
-        "original": "Note",
-        "singular": "Note",
-        "plural": "Notes",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "label": {
+            "original": "Note",
+            "singular": "Note",
+            "plural": "Notes",
+            "setupEdit": true,
+            "setupVisible": true
+        }
+    },
+       "leave": {
+        "setupVisible": true,
+        "label": {
+          "original": "Leave",
+          "singular": "Leave",
+          "plural": "Leaves",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sections": {
+          "setupVisible": true,
+          "sec0": {
+            "original": "Leave Application",
+            "singular": "Leave Application",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec1": {
+            "original": "Today Pending Leaves",
+            "singular": "Today Pending Leave",
+            "plural": "Today Pending Leaves",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec2": {
+            "original": "Pending Leaves",
+            "singular": "Pending Leave",
+            "plural": "Pending Leaves",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec3": {
+            "original": "My Leaves",
+            "singular": "My Leave",
+            "plural": "My Leaves",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec4": {
+            "original": "My Staff Leaves",
+            "singular": "My Staff Leave",
+            "plural": "My Staff Leaves",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec5": {
+            "original": "Approval Details",
+            "singular": "Approval Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec6": {
+            "original": "Filter By",
+            "singular": "Filter By",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        },
+        "fields": {
+          "setupVisible": true,
+          "leaveType": {
+            "original": "Leave Type",
+            "singular": "Leave Type",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "leaveStatus": {
+            "original": "Leave Status",
+            "singular": "Leave Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "leaveDateRange": {
+            "original": "Leave Date Range",
+            "singular": "Leave Date Range",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "dateRange": {
+            "original": "Date Range",
+            "singular": "Date Range",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "from": {
+            "original": "From",
+            "singular": "From",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "to": {
+            "original": "To",
+            "singular": "To",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "rejectReason": {
+            "original": "Reject Reason",
+            "singular": "Reject Reason",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "remarks": {
+            "original": "Remarks",
+            "singular": "Remark",
+            "plural": "Remarks",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "leaveOutturnCode": {
+            "original": "Leave Outturn Code",
+            "singular": "Leave Outturn Code",
+            "plural": "Leave Outturn Code",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        },
+        "messages": {
+          "selectOutturnCode": "Select Outturn Code",
+          "selectApprovalStatus": "Select Approval Status",
+          "selectUsers": "Select User(s)"
+        }
     }
-  }
+}

@@ -7078,7 +7078,11 @@
             "savedSuccessfully": "saved successfully",
             "updatedSuccessfully": "updated successfully",
             "currentLocation": "Current Location",
-            "radiusKM": "Radius (KM)"
+            "radiusKM": "Radius (KM)",
+            "radius": "Radius",
+            "officeAddressIsNotSet":"Office Address is not set",
+            "homeAddressIsNotSet":"Home Address is not set",
+            "currentAddressIsNotResolvedYet":"Current address is not resolved yet!"
         },
         "map": {
             "setupVisible": true,
@@ -7175,7 +7179,7 @@
                 "setupEdit": true,
                 "setupVisible": true
             },
-            "section": {
+            "sections": {
                 "setupVisible": true,
                 "sec0": {
                     "original": "Preview",
@@ -7216,7 +7220,7 @@
                 "setupEdit": true,
                 "setupVisible": true
             },
-            "section": {
+            "sections": {
                 "setupVisible": true,
                 "sec0": {
                     "original": "Service Zone Details",
@@ -7297,7 +7301,7 @@
         },
         "systemInformation": {
             "setupVisible": true,
-            "section": {
+            "sections": {
                 "setupVisible": true,
                 "sec0": {
                     "original": "System Information",
@@ -8774,7 +8778,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible": true,
                         "sec0": {
                             "original": "Default List Views",
@@ -9317,7 +9321,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible": true,
                         "sec0": {
                             "original": "Type Details",
@@ -9389,7 +9393,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible": true,
                         "sec0": {
                             "original": "Status Details",
@@ -9468,7 +9472,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible": true,
                         "sec0": {
                             "original": "Channel Details",
@@ -9540,7 +9544,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible": true,
                         "sec0": {
                             "original": "Area Details",
@@ -9612,7 +9616,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible": true,
                         "sec0": {
                             "original": "Category Details",
@@ -9684,7 +9688,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible": true,
                         "sec0": {
                             "original": "Sub Category Details",
@@ -9749,7 +9753,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible": true,
                         "sec0": {
                             "original": "Department Details",
@@ -9872,7 +9876,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible": true,
                         "sec0": {
                             "original": "Priority Details",
@@ -10078,7 +10082,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible": true,
                         "sec0": {
                             "original": "Location Details",
@@ -10150,7 +10154,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible": true,
                         "sec0": {
                             "original": "Location Details",
@@ -10910,7 +10914,7 @@
                     "setupEdit": true,
                     "setupVisible": true
                 },
-                "section": {
+                "sections": {
                     "setupVisible": true,
                     "sec0": {
                         "original": "Product Details",
@@ -11597,7 +11601,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible":true,
                         "sec0": {
                             "original": "SLA Package Details",
@@ -11871,7 +11875,7 @@
                         "setupEdit": true,
                         "setupVisible": true
                     },
-                    "section": {
+                    "sections": {
                         "setupVisible":true,
                         "sec0": {
                             "original": "Notification Details",

@@ -254,7 +254,8 @@
         "onlyAlphabetsAllowed": "Only alphabets allowed",
         "requiredField": "Required Field"
       },
-      "tooltip": {
+      "tooltips": {
+        "setupVisible": true,
         "geofenceIconMessage": {
           "original": "Checking this box will find and tie the relevant Geofence to this SOU based on the Latitude and Longitude provided in the address(es) below",
           "singular": "Checking this box will find and tie the relevant Geofence to this SOU based on the Latitude and Longitude provided in the address(es) below",
@@ -710,7 +711,7 @@
         "invalidPhoneNumber": "Invalid Phone Number",
         "invalidEmailFormat": "Invalid Email Format"
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "assetLookup": {
           "original": "Machine Lookup",
@@ -919,7 +920,7 @@
         "onlyAlphabetsAllowed": "Only alphabets allowed",
         "requiredField": "Required Field"
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "preventiveMaintenance": {
           "original": "This is the timeframe in which the maintenance will be active",
@@ -1069,7 +1070,7 @@
         "onlyAlphabetsAllowed": "Only alphabets allowed",
         "requiredField": "Required Field"
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "preventiveMaintenanceLookup": {
           "original": "Preventive Maintenance Lookup",
@@ -1281,7 +1282,7 @@
         "onlyAlphabetsAllowed": "Only alphabets allowed",
         "requiredField": "Required Field"
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "contractookup": {
           "original": "Contracts Lookup",
@@ -1472,7 +1473,7 @@
         "invalidPhoneNumber": "Invalid Phone Number",
         "invalidEmailFormat": "Invalid Email Format"
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "checklistLookup": {
           "original": "PMV Lookup",
@@ -1712,7 +1713,7 @@
         "invalidPhoneNumber": "Invalid Phone Number",
         "invalidEmailFormat": "Invalid Email Format"
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "siteLookup": {
           "original": "Estate Lookup",
@@ -2638,7 +2639,7 @@
         "invalidPhoneNumber": "Invalid Phone Number",
         "invalidEmailFormat": "Invalid Email Format"
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "timeAddedBeforeOr": {
           "original": "Time added before or after a task when using the Optimizer e.g. time needed for parking.",
@@ -2901,7 +2902,7 @@
         "invalidPhoneNumber": "Invalid Phone Number",
         "invalidEmailFormat": "Invalid Email Format"
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "siteLookup": {
           "original": "Estate Lookup",
@@ -3071,7 +3072,7 @@
         "invalidPhoneNumber": "Invalid Phone Number",
         "invalidEmailFormat": "Invalid Email Format"
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "projectLookup": {
           "original": "Sales Order Lookup",
@@ -3262,7 +3263,7 @@
         "invalidPhoneNumber": "Invalid Phone Number",
         "invalidEmailFormat": "Invalid Email Format"
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "projectLookup": {
           "original": "Project Lookup",
@@ -3635,7 +3636,7 @@
         "invalidPhoneNumber": "Invalid Phone Number",
         "invalidEmailFormat": "Invalid Email Format"
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "ticketLookup": {
           "original": "Ticket Lookup",
@@ -5915,7 +5916,7 @@
         "invalidPhoneNumber": "Invalid Phone Number",
         "invalidEmailFormat": "Invalid Email Format"
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "jobOrderLookup": {
           "original": "Job Order Lookup",
@@ -6402,7 +6403,7 @@
           "setupVisible": true
         }
       },
-      "tooltip": {
+      "tooltips": {
         "setupVisible": true,
         "eitherPhoneEmail": {
           "singular": "Either Phone OR Email is required to create a contact",
@@ -6541,7 +6542,8 @@
           "setupVisible": true
         }
       },
-      "tooltip": {
+      "tooltips": {
+        "setupVisible": true,
         "visitEstateLookup": {
           "original": "Visit Estate Lookup",
           "singular": "Visit Estate Lookup",
@@ -6653,7 +6655,8 @@
           "setupVisible": true
         }
       },
-      "tooltip": {
+      "tooltips": {
+        "setupVisible": true,
         "machineSpecialistLookup": {
           "original": "Machine Specialist Lookup",
           "singular": "Machine Specialist Lookup",
@@ -6765,7 +6768,8 @@
           "setupVisible": true
         }
       },
-      "tooltip": {
+      "tooltips": {
+        "setupVisible": true,
         "estateLookup": {
           "original": "Estate Lookup",
           "singular": "Estate Lookup",
@@ -6918,7 +6922,8 @@
             "setupVisible": true
           }
         },
-        "tooltip": {
+        "tooltips": {
+          "setupVisible": true,
           "machineLookup": {
             "original": "Machines Lookup",
             "singular": "Machine Lookup",
@@ -7176,7 +7181,8 @@
           "setupVisible": true
         }
       },
-      "tooltip": {
+      "tooltips": {
+        "setupVisible": true,
         "estateLookup": {
           "original": "Estate Lookup",
           "singular": "Estate Lookup",
@@ -7429,7 +7435,8 @@
           "setupVisible": true
         }
       },
-      "tooltip": {
+      "tooltips": {
+        "setupVisible": true,
         "estateLookup": {
           "original": "Estate Lookup",
           "singular": "Estate Lookup",
@@ -8417,7 +8424,7 @@
           "invalidPhoneNumber": "Invalid Phone Number",
           "invalidEmailFormat": "Invalid Email Format"
         },
-        "tooltip": {
+        "tooltips": {
           "setupVisible": true,
           "serviceZone": {
             "original": "Your service zones",
@@ -9282,7 +9289,7 @@
           "validationFE": {
             
           },
-          "tooltip": {
+          "tooltips": {
             "setupVisible": true,
             "assignUser": {
               "original": "Assign Users",
@@ -9364,7 +9371,7 @@
           "validationFE": {
             
           },
-          "tooltip": {
+          "tooltips": {
             "setupVisible": true,
             "assignUser": {
               "original": "Assign Users",
@@ -9515,7 +9522,7 @@
           "validationFE": {
             
           },
-          "tooltip": {
+          "tooltips": {
             "setupVisible": true,
             "assignUser": {
               "original": "Assign Users",
@@ -10035,7 +10042,7 @@
               "setupVisible": true
             }
           },
-          "tooltip": {
+          "tooltips": {
             "setupVisible": true,
             "defaultUser": {
               "original": " Default helpdesk user - Unassigned Orders will be assigned to this user",
@@ -10253,7 +10260,8 @@
               "setupVisible": true
             }
           },
-          "tooltip": {
+          "tooltips": {
+            "setupVisible": true,
             "autoCloseTixInactivity": {
               "original": "The timeframe of inactivity before a ticket will automatically close (0 indicates no automatic closure)",
               "singular": "The timeframe of inactivity before a ticket will automatically close (0 indicates no automatic closure)",
@@ -10418,7 +10426,7 @@
               "setupVisible": true
             }
           },
-          "tooltip": {
+          "tooltips": {
             "setupVisible": true,
             "ascending": {
               "original": "Ascending",
@@ -11873,7 +11881,7 @@
           "validationFE": {
             
           },
-          "tooltip": {
+          "tooltips": {
             "setupVisible": true,
             "prependJobName": {
               "original": "The Task Name will attach the name of the Job Order it is tied to before it. I.e. Job Order Name - Task Name",
@@ -12320,7 +12328,7 @@
             "setupVisible": true
           }
         },
-        "tooltip": {
+        "tooltips": {
           "setupVisible": true,
           "yesUpdateAsset": {
             "original": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
@@ -12442,7 +12450,7 @@
         "validationFE": {
           
         },
-        "tooltip": {
+        "tooltips": {
           "setupVisible": true,
           "allQuestionsGrouped": {
             "original": "All questions under this section name will be grouped together",

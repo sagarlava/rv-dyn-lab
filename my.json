@@ -210,22 +210,22 @@
           "setupVisible": true
         },
         "assignedTo": {
-          "original": "Assigned To",
-          "singular": "Assigned To",
+          "original": "Ditugaskan Kepada",
+          "singular": "Ditugaskan Kepada",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "team": {
-          "original": "Team",
-          "singular": "Team",
+          "original": "Pasukan",
+          "singular": "Pasukan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "location": {
-          "original": "Location",
-          "singular": "Location",
+          "original": "Lokasi",
+          "singular": "Lokasi",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -243,25 +243,25 @@
       "tooltips": {
         "setupVisible": true,
         "geofenceIconMessage": {
-          "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
-          "singular": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
+          "original": "Menandakan kotak ini akan mencari dan memautkan Pagar Geofence yang berkaitan kepada Pelanggan berdasarkan Latitud dan Longitud yang diberikan dalam alamat di bawah.",
+          "singular": "Menandakan kotak ini akan mencari dan memautkan Pagar Geofence yang berkaitan kepada Pelanggan berdasarkan Latitud dan Longitud yang diberikan dalam alamat di bawah.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
       },
       "messages": {
-        "technicianOnRoute": "Currently a user is en route to this task.",
-        "addressNotFallGeoFence": "Address does not fall under any of your geofences.",
-        "deleteMessage": "By deleting this customer, you will also be removing all associated information such as orders, contacts, and other related data. You will not be able to undo this. Do you wish to proceed?"
+        "technicianOnRoute": "Ada pengguna sedang menuju ke tugasan ini",
+        "addressNotFallGeoFence": "Alamat ini tidak termasuk dalam mana-mana Pagar Geofence anda.",
+        "deleteMessage": "Dengan memadam pelanggan ini, anda juga akan memadamkan semua maklumat berkaitan seperti pesanan, kenalan, dan data lain yang berkaitan. Tindakan ini tidak boleh dibatalkan. Adakah anda ingin meneruskan?"
       }
     },
     "asset": {
       "setupVisible": true,
       "label": {
-        "original": "Asset",
-        "singular": "Asset",
-        "plural": "Assets",
+        "original": "Aset",
+        "singular": "Aset",
+        "plural": "Aset",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -275,22 +275,22 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Ownership & Location",
-          "singular": "Ownership & Location",
+          "original": "Maklumat Pemilikan & Lokasi",
+          "singular": "Maklumat Pemilikan & Lokasi",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Coverage Period & Acquisition",
-          "singular": "Coverage Period & Acquisition",
+          "original": "Tempoh Liputan & Pemerolehan",
+          "singular": "Tempoh Liputan & Pemerolehan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec3": {
-          "original": "Equipment Details",
-          "singular": "Equipment Details",
+          "original": "Butiran Peralatan",
+          "singular": "Butiran Peralatan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -303,43 +303,43 @@
           "setupVisible": true
         },
         "sec5": {
-          "original": "Overview",
-          "singular": "Overview",
+          "original": "Ringkasan",
+          "singular": "Ringkasan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec6": {
-          "original": "Timeline",
-          "singular": "Timeline",
+          "original": "Garis Masa",
+          "singular": "Garis Masa",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec7": {
-          "original": "Current Meter Reading",
-          "singular": "Current Meter Reading",
+          "original": "Bacaan Meter Semasa",
+          "singular": "Bacaan Meter Semasa",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec8": {
-          "original": "Current Contract",
-          "singular": "Current Contract",
+          "original": "Kontrak Semasa",
+          "singular": "Kontrak Semasa",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec9": {
-          "original": "Qr/Barcode",
-          "singular": "Qr/Barcode",
+          "original": "Qr/Barkod",
+          "singular": "Qr/Barkod",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec10": {
-          "original": "Filter By",
-          "singular": "Filter By",
+          "original": "Tapis Mengikut",
+          "singular": "Tapis Mengikut",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -352,29 +352,29 @@
           "setupVisible": true
         },
         "sec12": {
-          "original": "Accessory Details",
-          "singular": "Accessory Details",
+          "original": "Butiran Aksesori",
+          "singular": "Butiran Aksesori",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec13": {
-          "original": "Asset Log",
-          "singular": "Asset Log",
+          "original": "Log Aset",
+          "singular": "Log Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec14": {
-          "original": "Log Details",
-          "singular": "Log Details",
+          "original": "Butiran Log",
+          "singular": "Butiran Log",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec15": {
-          "original": "New Entry",
-          "singular": "New Entry",
+          "original": "Entri Baru",
+          "singular": "Entri Baru",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -390,29 +390,29 @@
           "setupVisible": true
         },
         "equipmentNumber": {
-          "original": "Equipment Number",
-          "singular": "Equipment Number",
-          "plural": "Equipment Numbers",
+          "original": "Nombor Peralatan",
+          "singular": "Nombor Peralatan",
+          "plural": "Nombor Peralatan",
           "setupEdit": true,
           "setupVisible": true
         },
         "code": {
-          "original": "Code",
-          "singular": "Code",
-          "plural": "Codes",
+          "original": "Kod",
+          "singular": "Kod",
+          "plural": "Kod",
           "setupEdit": true,
           "setupVisible": true
         },
         "engineNumberOne": {
-          "original": "Engine 1",
-          "singular": "Engine 1",
+          "original": "Enjin 1",
+          "singular": "Enjin 1",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "engineNumberTwo": {
-          "original": "Engine 2",
-          "singular": "Engine 2",
+          "original": "Enjin 2",
+          "singular": "Enjin 2",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -425,8 +425,8 @@
           "setupVisible": true
         },
         "assetName": {
-          "original": "Asset Name",
-          "singular": "Asset Name",
+          "original": "Nama Aset",
+          "singular": "Nama Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -446,22 +446,22 @@
           "setupVisible": true
         },
         "serialNo": {
-          "original": "Serial No",
-          "singular": "Serial No",
+          "original": "Nombor Siri",
+          "singular": "Nombor Siri",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "serialNumber": {
-          "original": "Serial Number",
-          "singular": "Serial Number",
+          "original": "Nombor Siri",
+          "singular": "Nombor Siri",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assetCode": {
-          "original": "Asset Code",
-          "singular": "Asset Code",
+          "original": "Kod Asset",
+          "singular": "Kod Asset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -474,43 +474,43 @@
           "setupVisible": true
         },
         "photo": {
-          "original": "Photo",
-          "singular": "Photo",
+          "original": "Gambar",
+          "singular": "Gambar",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "custodian": {
-          "original": "Custodian",
-          "singular": "Custodian",
+          "original": "Penjaga",
+          "singular": "Penjaga",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "warrantyStartDate": {
-          "original": "Warranty Start Date",
-          "singular": "Warranty Start Date",
+          "original": "Tarikh Mula Tempoh Waranti",
+          "singular": "Tarikh Mula Tempoh Waranti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "warrantyEndDate": {
-          "original": "Warranty End Date",
-          "singular": "Warranty End Date",
+          "original": "Tarikh Luput Tempoh Waranti",
+          "singular": "Tarikh Luput Tempoh Waranti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "acquisitionDate": {
-          "original": "Acquisition Date",
-          "singular": "Acquisition Date",
+          "original": "Tarikh Pemerolehan",
+          "singular": "Tarikh Pemerolehan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "equipmentType": {
-          "original": "Equipment Type",
-          "singular": "Equipment Type",
+          "original": "Jenis Peralatan",
+          "singular": "Jenis Peralatan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -523,15 +523,15 @@
           "setupVisible": true
         },
         "manufacturer": {
-          "original": "Manufacturer",
-          "singular": "Manufacturer",
+          "original": "Pengilang",
+          "singular": "Pengilang",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "engineModel": {
-          "original": "Engine Model",
-          "singular": "Engine Model",
+          "original": "Jenis Model Enjin",
+          "singular": "Jenis Model Enjin",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -544,16 +544,16 @@
           "setupVisible": true
         },
         "manufacturerYear": {
-          "original": "Manufacture Year",
-          "singular": "Manufacture Year",
+          "original": "Tahun Pengilangan",
+          "singular": "Tahun Pengilangan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "note": {
-          "original": "Note",
-          "singular": "Note",
-          "plural": "Notes",
+          "original": "Nota",
+          "singular": "Nota",
+          "plural": "Nota",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -565,15 +565,15 @@
           "setupVisible": true
         },
         "lastCompleted": {
-          "original": "Last Completed",
-          "singular": "Last Completed",
+          "original": "Terakhir Disiapkan",
+          "singular": "Terakhir Disiapkan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "next": {
-          "original": "Next",
-          "singular": "Next",
+          "original": "Seterusnya",
+          "singular": "Seterusnya",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -586,104 +586,106 @@
           "setupVisible": true
         },
         "overdue": {
-          "original": "Overdue",
-          "singular": "Overdue",
+          "original": "Tertunggak",
+          "singular": "Tertunggak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "dueOn": {
-          "original": "Due on",
-          "singular": "Due on",
+          "original": "Tempoh Akhir",
+          "singular": "Tempoh Akhir",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "expiresIn": {
-          "original": "Expires in",
-          "singular": "Expires in",
+          "original": "Sah Sehingga",
+          "singular": "Sah Sehingga",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "latestActiveContract": {
-          "original": "Latest Active Contract",
-          "singular": "Latest Active Contract",
+          "original": "Kontrak Aktif Terkini",
+          "singular": "Kontrak Aktif Terkini",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "updatedBy": {
-          "original": "Updated by",
-          "singular": "Updated by",
+          "original": "Dikemaskini Oleh",
+          "singular": "Dikemaskini Oleh",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assetId": {
-          "original": "Asset ID",
-          "singular": "Asset ID",
+          "original": "ID Aset",
+          "singular": "ID Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "nextMaintenanceDate": {
-          "original": "Next Maintenance Date",
-          "singular": "Next Maintenance Date",
+          "original": "Tarikh Penyelenggaraan Seterusnya",
+          "singular": "Tarikh Penyelenggaraan Seterusnya",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "accessory": {
-          "original": "Accessory",
-          "singular": "Accessory",
-          "plural": "Accessories",
+          "original": "Aksesori",
+          "singular": "Aksesori",
+          "plural": "Aksesori",
           "setupEdit": true,
           "setupVisible": true
         },
         "accessoryNo": {
-          "original": "Accessory No.",
-          "singular": "Accessory No.",
+          "original": "Nombor Aksesori",
+          "singular": "Nombor Aksesori",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "currentReading": {
-          "original": "Current Reading",
-          "singular": "Current Reading",
+          "original": "Bacaan Terkini",
+          "singular": "Bacaan Terkini",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "logDateTime": {
-          "original": "Log Date & Time",
-          "singular": "Log Date & Time",
+          "original": "Tarikh & Masa Catatan",
+          "singular": "Tarikh & Masa Catatan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "modifiedDateTime": {
-          "singular": "Modified Date & Time",
+          "original": "Tarikh & Masa Dikemaskini",
+          "singular": "Tarikh & Masa Dikemaskini",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "newValue": {
-          "original": "New Value",
-          "singular": "New Value",
+          "original": "Nilai Terkini",
+          "singular": "Nilai Terkini",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "oldValue": {
-          "original": "Old Value",
+          "original": "Nilai Sebelumnya",
+          "singular": "Nilai Sebelumnya",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "newMeterReading": {
-          "original": "New Meter Reading",
-          "singular": "New Meter Reading",
+          "original": "Bacaan Meter Terkini",
+          "singular": "Bacaan Meter Terkini",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -700,45 +702,45 @@
       "tooltips": {
         "setupVisible": true,
         "assetLookup": {
-          "original": "Asset Lookup",
-          "singular": "Asset Lookup",
+          "original": "Carian Aset",
+          "singular": "Carian Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "accessoryLookup": {
-          "original": "Accessory Lookup",
-          "singular": "Accessory Lookup",
+          "original": "Carian Aksesori",
+          "singular": "Carian Aksesori",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "binLookup": {
-          "original": "Bin Lookup",
-          "singular": "Bin Lookup",
+          "original": "Carian Bin",
+          "singular": "Carian Bin",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "serialNo": {
-          "original": "This is a unique number that can be used to identify your Asset across the system",
-          "singular": "This is a unique number that can be used to identify your Asset across the system",
+          "original": "Ini adalah nombor unik yang boleh digunakan untuk mengenal pasti Aset anda di seluruh sistem",
+          "singular": "Ini adalah nombor unik yang boleh digunakan untuk mengenal pasti Aset anda di seluruh sistem",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "custodian": {
-          "original": "The custodian is the person within your organization that's responsible for this Asset",
-          "singular": "The custodian is the person within your organization that's responsible for this Asset",
+          "original": "Penjaga aset ini adalah individu dalam organisasi anda yang bertanggungjawab terhadap aset tersebut",
+          "singular": "Penjaga aset ini adalah individu dalam organisasi anda yang bertanggungjawab terhadap aset tersebut",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
       },
       "messages": {
-        "configureQrBarcodeInAssetSetup": "To set up a QR/Barcode go to Asset Configuration in Setup",
-        "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
-        "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
+        "configureQrBarcodeInAssetSetup": "Untuk menyediakan QR/Kod Bar, pergi ke Konfigurasi Aset dalam Tetapan",
+        "resetMeterForLowerReading": "Pilih 'Set Semula Meter' jika bacaan meter baharu anda lebih kecil daripada bacaan meter semasa.",
+        "futureDateTimeEntryNotAllowed": "Entri tidak boleh dibuat untuk tarikh dan masa akan datang",
         "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
       }
     },
@@ -792,15 +794,15 @@
           "setupVisible": true
         },
         "startDate": {
-          "original": "Start Date",
-          "singular": "Start Date",
+          "original": "Tarikh Mula",
+          "singular": "Tarikh Mula",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "endDate": {
-          "original": "End Date",
-          "singular": "End Date",
+          "original": "Tarikh Tamat",
+          "singular": "Tarikh Tamat",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -960,8 +962,8 @@
           "setupVisible": true
         },
         "sec3": {
-          "original": "Filter By",
-          "singular": "Filter By",
+          "original": "Tapis Mengikut",
+          "singular": "Tapis Mengikut",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1123,8 +1125,8 @@
           "setupVisible": true
         },
         "sec8": {
-          "original": "Filter By",
-          "singular": "Filter By",
+          "original": "Tapis Mengikut",
+          "singular": "Tapis Mengikut",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1140,29 +1142,29 @@
           "setupVisible": true
         },
         "custodian": {
-          "original": "Custodian",
-          "singular": "Custodian",
+          "original": "Penjaga",
+          "singular": "Penjaga",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "startDate": {
-          "original": "Start Date",
-          "singular": "Start Date",
+          "original": "Tarikh Mula",
+          "singular": "Tarikh Mula",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "endDate": {
-          "original": "End Date",
-          "singular": "End Date",
+          "original": "Tarikh Tamat",
+          "singular": "Tarikh Tamat",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "refNo": {
-          "original": "Ref No",
-          "singular": "Ref No",
+          "original": "Nombor Rujukan",
+          "singular": "Nombor Rujukan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1196,15 +1198,15 @@
           "setupVisible": true
         },
         "serialNo": {
-          "original": "Serial No",
-          "singular": "Serial No",
+          "original": "Nombor Siri",
+          "singular": "Nombor Siri",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "serialNumber": {
-          "original": "Serial Number",
-          "singular": "Serial Number",
+          "original": "Nombor Siri",
+          "singular": "Nombor Siri",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1343,8 +1345,8 @@
           "setupVisible": true
         },
         "sec7": {
-          "original": "Filter By",
-          "singular": "Filter By",
+          "original": "Tapis Mengikut",
+          "singular": "Tapis Mengikut",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1388,8 +1390,8 @@
           "setupVisible": true
         },
         "equipmentType": {
-          "original": "Equipment Type",
-          "singular": "Equipment Type",
+          "original": "Jenis Peralatan",
+          "singular": "Jenis Peralatan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1593,8 +1595,8 @@
           "setupVisible": true
         },
         "photo": {
-          "original": "Photo",
-          "singular": "Photo",
+          "original": "Gambar",
+          "singular": "Gambar",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1607,8 +1609,8 @@
           "setupVisible": true
         },
         "manufacturer": {
-          "original": "Manufacturer",
-          "singular": "Manufacturer",
+          "original": "Pengilang",
+          "singular": "Pengilang",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1816,9 +1818,9 @@
           "setupVisible": true
         },
         "sec13": {
-          "original": "Filter By",
-          "singular": "Filter By",
-          "plural": "Filter By",
+          "original": "Tapis Mengikut",
+          "singular": "Tapis Mengikut",
+          "plural": "Tapis Mengikut",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -1924,8 +1926,8 @@
           "setupVisible": true
         },
         "assignedTo": {
-          "original": "Assigned To",
-          "singular": "Assigned To",
+          "original": "Ditugaskan Kepada",
+          "singular": "Ditugaskan Kepada",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2232,8 +2234,8 @@
           "setupVisible": true
         },
         "location": {
-          "original": "Location",
-          "singular": "Location",
+          "original": "Lokasi",
+          "singular": "Lokasi",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2758,9 +2760,9 @@
           "setupVisible": true
         },
         "sec4": {
-          "original": "Filter By",
-          "singular": "Filter By",
-          "plural": "Filter By",
+          "original": "Tapis Mengikut",
+          "singular": "Tapis Mengikut",
+          "plural": "Tapis Mengikut",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -2935,8 +2937,8 @@
           "setupVisible": true
         },
         "sec3": {
-          "original": "Filter By",
-          "singular": "Filter By",
+          "original": "Tapis Mengikut",
+          "singular": "Tapis Mengikut",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2987,15 +2989,15 @@
           "setupVisible": true
         },
         "startDate": {
-          "original": "Start Date",
-          "singular": "Start Date",
+          "original": "Tarikh Mula",
+          "singular": "Tarikh Mula",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "endDate": {
-          "original": "End Date",
-          "singular": "End Date",
+          "original": "Tarikh Tamat",
+          "singular": "Tarikh Tamat",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3119,8 +3121,8 @@
           "setupVisible": true
         },
         "sec5": {
-          "original": "Filter By",
-          "singular": "Filter By",
+          "original": "Tapis Mengikut",
+          "singular": "Tapis Mengikut",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3150,8 +3152,8 @@
           "setupVisible": true
         },
         "endDate": {
-          "original": "End Date",
-          "singular": "End Date",
+          "original": "Tarikh Tamat",
+          "singular": "Tarikh Tamat",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3234,8 +3236,8 @@
           "setupVisible": true
         },
         "startDate": {
-          "original": "Start Date",
-          "singular": "Start Date",
+          "original": "Tarikh Mula",
+          "singular": "Tarikh Mula",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3359,8 +3361,8 @@
           "setupVisible": true
         },
         "sec12": {
-          "original": "Filter By",
-          "singular": "Filter By",
+          "original": "Tapis Mengikut",
+          "singular": "Tapis Mengikut",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3865,9 +3867,9 @@
           "setupVisible": true
         },
         "sec30": {
-          "original": "Filter By",
-          "singular": "Filter By",
-          "plural": "Filter By",
+          "original": "Tapis Mengikut",
+          "singular": "Tapis Mengikut",
+          "plural": "Tapis Mengikut",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -4918,8 +4920,8 @@
           "setupVisible": true
         },
         "photo": {
-          "original": "Photo",
-          "singular": "Photo",
+          "original": "Gambar",
+          "singular": "Gambar",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -5182,15 +5184,15 @@
           "setupVisible": true
         },
         "serialNo": {
-          "original": "Serial No",
-          "singular": "Serial No",
+          "original": "Nombor Siri",
+          "singular": "Nombor Siri",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "serialNumber": {
-          "original": "Serial Number",
-          "singular": "Serial Number",
+          "original": "Nombor Siri",
+          "singular": "Nombor Siri",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -5721,8 +5723,8 @@
           "setupVisible": true
         },
         "location": {
-          "original": "Location",
-          "singular": "Location",
+          "original": "Lokasi",
+          "singular": "Lokasi",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6044,8 +6046,8 @@
           "setupVisible": true
         },
         "sec14": {
-          "original": "Filter By",
-          "singular": "Filter By",
+          "original": "Tapis Mengikut",
+          "singular": "Tapis Mengikut",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6229,8 +6231,8 @@
           "setupVisible": true
         },
         "assignedTo": {
-          "original": "Assigned To",
-          "singular": "Assigned To",
+          "original": "Ditugaskan Kepada",
+          "singular": "Ditugaskan Kepada",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6476,14 +6478,15 @@
           "setupVisible": true
         },
         "newValue": {
-          "original": "New Value",
-          "singular": "New Value",
+          "original": "Nilai Terkini",
+          "singular": "Nilai Terkini",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "oldValue": {
-          "original": "Old Value",
+          "original": "Nilai Sebelumnya",
+          "singular": "Nilai Sebelumnya",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -7065,8 +7068,8 @@
           "setupVisible": true
         },
         "overdue": {
-          "original": "Overdue",
-          "singular": "Overdue",
+          "original": "Tertunggak",
+          "singular": "Tertunggak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -7460,20 +7463,20 @@
         }
       },
       "validationFE": {
-        "invalid": "Invalid",
-        "invalidEmail": "Invalid Email",
-        "invalidEmailFormat": "Invalid Email Format",
-        "invalidFax": "Invalid Fax Number",
-        "invalidFaxFormat": "Invalid Fax Format",
-        "invalidPhoneNumber": "Invalid Phone Number",
-        "invalidPrice": "Invalid Price",
-        "invalidQuantity": "Invalid Quantity",
-        "invalidRadius": "Invalid Radius",
-        "invalidUsername": "Invalid Username",
-        "invalidUsernameFormat": "Invalid Username Format",
-        "invalidYearFormat": "Invalid Year Format",
-        "onlyAlphabetsAllowed": "Only alphabets allowed",
-        "requiredField": "Required Field"
+        "invalid": "Tak Sah",
+        "invalidEmail": "E-mel Tak Sah",
+        "invalidEmailFormat": "Format E-mel Tak Sah",
+        "invalidFax": "Nombor Faks Tak Sah",
+        "invalidFaxFormat": "Format Faks Tak Sah",
+        "invalidPhoneNumber": "Nombor Telefon Tak Sah",
+        "invalidPrice": "Harga Tak Sah",
+        "invalidQuantity": "Kuantiti Tak Sah",
+        "invalidRadius": "Radius Tak Sah",
+        "invalidUsername": "Nama Pengguna Tak Sah",
+        "invalidUsernameFormat": "Format Nama Pengguna Tak Sah",
+        "invalidYearFormat": "Format Tahunan Tak Sah",
+        "onlyAlphabetsAllowed": "Hanya Abjad Dibenarkan",
+        "requiredField": "Medan Diperlukan"
       }
     },
     "setup": {
@@ -8662,8 +8665,8 @@
               "setupVisible": true
             },
             "sec18": {
-              "original": "Filter By",
-              "singular": "Filter By",
+              "original": "Tapis Mengikut",
+              "singular": "Tapis Mengikut",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9069,8 +9072,8 @@
               "setupVisible": true
             },
             "sec1": {
-              "original": "Qr/Barcode",
-              "singular": "Qr/Barcode",
+              "original": "Qr/Barkod",
+              "singular": "Qr/Barkod",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -10223,9 +10226,9 @@
           "location": {
             "setupVisible": true,
             "label": {
-              "original": "Location",
-              "singular": "Location",
-              "plural": "Locations",
+              "original": "Lokasi",
+              "singular": "Lokasi",
+              "plural": "Lokasi",
               "setupEdit": true,
               "setupVisible": true
             },
@@ -10328,8 +10331,8 @@
                 "setupVisible": true
               },
               "location": {
-                "original": "Location",
-                "singular": "Location",
+                "original": "Lokasi",
+                "singular": "Lokasi",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10666,8 +10669,8 @@
               "setupVisible": true
             },
             "sec11": {
-              "original": "Filter By",
-              "singular": "Filter By",
+              "original": "Tapis Mengikut",
+              "singular": "Tapis Mengikut",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11280,8 +11283,8 @@
             "setupVisible": true
           },
           "equipmentType": {
-            "original": "Equipment Type",
-            "singular": "Equipment Type",
+            "original": "Jenis Peralatan",
+            "singular": "Jenis Peralatan",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11389,8 +11392,8 @@
             "setupVisible": true
           },
           "sec6": {
-            "original": "Filter By",
-            "singular": "Filter By",
+            "original": "Tapis Mengikut",
+            "singular": "Tapis Mengikut",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -12638,8 +12641,8 @@
             "setupVisible": true
           },
           "sec6": {
-            "original": "Filter By",
-            "singular": "Filter By",
+            "original": "Tapis Mengikut",
+            "singular": "Tapis Mengikut",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true

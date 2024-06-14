@@ -63,43 +63,43 @@
           "setupVisible": true
         },
         "sector": {
-          "original": "Sektor",
-          "singular": "Sektor",
-          "plural": "Sektor",
+          "original": "行业",
+          "singular": "行业",
+          "plural": "行业",
           "setupEdit": true,
           "setupVisible": true
         },
         "subSector": {
-          "original": "Subsektor",
-          "singular": "Subsektor",
-          "plural": "Subsektor",
+          "original": "子行业",
+          "singular": "子行业",
+          "plural": "子行业",
           "setupEdit": true,
           "setupVisible": true
         },
         "category": {
-          "original": "Kategori",
-          "singular": "Kategori",
-          "plural": "Kategori",
+          "original": "类别",
+          "singular": "类别",
+          "plural": "类别",
           "setupEdit": true,
           "setupVisible": true
         },
         "extId": {
-          "original": "ID Luar",
-          "singular": "ID Luar",
+          "original": "外部ID",
+          "singular": "外部ID",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "secExtId": {
-          "original": "ID Luar Kedua",
-          "singular": "ID Luar Kedua",
+          "original": "第二外部ID",
+          "singular": "第二外部ID",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "systemUsed": {
-          "original": "Penggunaan Sistem",
-          "singular": "Penggunaan Sistem",
+          "original": "系统使用",
+          "singular": "系统使用",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -119,113 +119,120 @@
           "setupVisible": true
         },
         "industry": {
-          "original": "Industri",
-          "singular": "Industri",
+          "original": "行业",
+          "singular": "行业",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "numberOfEmployees": {
-          "original": "Bilangan Pekerja",
-          "singular": "Bilangan Pekerja",
+          "original": "员工人数",
+          "singular": "员工人数",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "area": {
-          "original": "Kawasan",
-          "singular": "Kawasan",
+          "original": "区域",
+          "singular": "区域",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "paymentTerm": {
-          "original": "Syarat Pembayaran",
-          "singular": "Syarat Pembayaran",
+          "original": "支付条款",
+          "singular": "支付条款",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "geofence": {
-          "original": "Geobatas",
-          "singular": "Geobatas",
+          "original": "地理边界",
+          "singular": "地理边界",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "description": {
-          "original": "Deskripsi",
-          "singular": "Deskripsi",
+          "original": "描述",
+          "singular": "描述",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "accountName": {
-          "original": "Nama Akaun",
+          "original": "账户名称",
           "singular": "Nama Akaun",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "referenceNo": {
-          "original": "Nombor Rujukan",
-          "singular": "Nombor Rujukan",
+          "original": "参考编号",
+          "singular": "参考编号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "name": {
+          "original": "姓名",
+          "singular": "姓名",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "noOfTerminals": {
-          "original": "Bilangan Terminal",
-          "singular": "Bilangan Terminal",
-          "plural": "Bilangan Terminal",
+          "original": "终端数量",
+          "singular": "终端数量",
+          "plural": "终端数量",
           "setupEdit": true,
           "setupVisible": true
         },
         "autoTieGeofence": {
-          "original": "Auto-tie Geofence",
-          "singular": "Auto-tie Geofence",
+          "original": "自动关联地理围栏",
+          "singular": "自动关联地理围栏",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "customerNo": {
-          "original": "Nombor Pelanggan",
-          "singular": "Nombor Pelanggan",
+          "original": "客户编号",
+          "singular": "客户编号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "customerReferenceId": {
-          "original": "ID Rujukan Pelanggan",
-          "singular": "ID Rujukan Pelanggan",
+          "original": "客户参考ID",
+          "singular": "客户参考ID",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "caseContactPhone": {
-          "original": "Kes - No Telefon Orang Untuk Dihubungi",
-          "singular": "Kes - No Telefon Orang Untuk Dihubungi",
+          "original": "紧急联系电话",
+          "singular": "紧急联系电话",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assignedTo": {
-          "original": "Ditugaskan Kepada",
-          "singular": "Ditugaskan Kepada",
+          "original": "分配给",
+          "singular": "分配给",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "team": {
-          "original": "Pasukan",
-          "singular": "Pasukan",
+          "original": "团队",
+          "singular": "团队",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "location": {
-          "original": "Lokasi",
-          "singular": "Lokasi",
+          "original": "位置",
+          "singular": "位置",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -243,17 +250,17 @@
       "tooltips": {
         "setupVisible": true,
         "geofenceIconMessage": {
-          "original": "Menandakan kotak ini akan mencari dan memautkan Pagar Geofence yang berkaitan kepada Pelanggan berdasarkan Latitud dan Longitud yang diberikan dalam alamat di bawah.",
-          "singular": "Menandakan kotak ini akan mencari dan memautkan Pagar Geofence yang berkaitan kepada Pelanggan berdasarkan Latitud dan Longitud yang diberikan dalam alamat di bawah.",
+          "original": "标记此框将根据下面地址提供的纬度和经度查找并链接相关客户的地理围栏。",
+          "singular": "标记此框将根据下面地址提供的纬度和经度查找并链接相关客户的地理围栏。",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
       },
       "messages": {
-        "technicianOnRoute": "Ada pengguna sedang menuju ke tugasan ini",
-        "addressNotFallGeoFence": "Alamat ini tidak termasuk dalam mana-mana Pagar Geofence anda.",
-        "deleteMessage": "Dengan memadam pelanggan ini, anda juga akan memadamkan semua maklumat berkaitan seperti pesanan, kenalan, dan data lain yang berkaitan. Tindakan ini tidak boleh dibatalkan. Adakah anda ingin meneruskan?"
+        "technicianOnRoute": "正在前往此任务的用户。",
+        "addressNotFallGeoFence": "此地址不包含在您的任何地理围栏中。",
+        "deleteMessage": "删除此客户，您还将删除所有相关信息，如订单、联系人和其他相关数据。此操作无法撤消。您确定要继续吗？"
       }
     },
     "asset": {
@@ -275,22 +282,22 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Maklumat Pemilikan & Lokasi",
-          "singular": "Maklumat Pemilikan & Lokasi",
+          "original": "所有权和位置信息",
+          "singular": "所有权和位置信息",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Tempoh Liputan & Pemerolehan",
-          "singular": "Tempoh Liputan & Pemerolehan",
+          "original": "覆盖期和获取",
+          "singular": "覆盖期和获取",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec3": {
-          "original": "Butiran Peralatan",
-          "singular": "Butiran Peralatan",
+          "original": "设备详情",
+          "singular": "设备详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -303,43 +310,43 @@
           "setupVisible": true
         },
         "sec5": {
-          "original": "Ringkasan",
-          "singular": "Ringkasan",
+          "original": "摘要",
+          "singular": "摘要",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec6": {
-          "original": "Garis Masa",
-          "singular": "Garis Masa",
+          "original": "时间轴",
+          "singular": "时间轴",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec7": {
-          "original": "Bacaan Meter Semasa",
-          "singular": "Bacaan Meter Semasa",
+          "original": "当前表读数",
+          "singular": "当前表读数",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec8": {
-          "original": "Kontrak Semasa",
-          "singular": "Kontrak Semasa",
+          "original": "当前合同",
+          "singular": "当前合同",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec9": {
-          "original": "Qr/Barkod",
-          "singular": "Qr/Barkod",
+          "original": "QR码/条形码",
+          "singular": "QR码/条形码",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec10": {
-          "original": "Tapis Mengikut",
-          "singular": "Tapis Mengikut",
+          "original": "过滤",
+          "singular": "过滤",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -352,29 +359,29 @@
           "setupVisible": true
         },
         "sec12": {
-          "original": "Butiran Aksesori",
-          "singular": "Butiran Aksesori",
+          "original": "附件详情",
+          "singular": "附件详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec13": {
-          "original": "Log Aset",
-          "singular": "Log Aset",
+          "original": "资产日志",
+          "singular": "资产日志",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec14": {
-          "original": "Butiran Log",
-          "singular": "Butiran Log",
+          "original": "日志详情",
+          "singular": "日志详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec15": {
-          "original": "Entri Baru",
-          "singular": "Entri Baru",
+          "original": "新条目",
+          "singular": "新条目",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -390,127 +397,127 @@
           "setupVisible": true
         },
         "equipmentNumber": {
-          "original": "Nombor Peralatan",
-          "singular": "Nombor Peralatan",
-          "plural": "Nombor Peralatan",
+          "original": "设备号码",
+          "singular": "设备号码",
+          "plural": "设备号码",
           "setupEdit": true,
           "setupVisible": true
         },
         "code": {
-          "original": "Kod",
-          "singular": "Kod",
-          "plural": "Kod",
+          "original": "编码",
+          "singular": "编码",
+          "plural": "编码",
           "setupEdit": true,
           "setupVisible": true
         },
         "engineNumberOne": {
-          "original": "Enjin 1",
-          "singular": "Enjin 1",
+          "original": "引擎 1",
+          "singular": "引擎 1",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "engineNumberTwo": {
-          "original": "Enjin 2",
-          "singular": "Enjin 2",
+          "original": "引擎 2",
+          "singular": "引擎 2",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "extId": {
-          "original": "ID Luar",
-          "singular": "ID Luar",
+          "original": "外部ID",
+          "singular": "外部ID",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assetName": {
-          "original": "Nama Aset",
-          "singular": "Nama Aset",
+          "original": "资产名称",
+          "singular": "资产名称",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "name": {
-          "original": "Nama",
-          "singular": "Nama",
+          "original": "姓名",
+          "singular": "姓名",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "status": {
-          "original": "Status",
-          "singular": "Status",
+          "original": "状态",
+          "singular": "状态",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "serialNo": {
-          "original": "Nombor Siri",
-          "singular": "Nombor Siri",
+          "original": "序列号",
+          "singular": "序列号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "serialNumber": {
-          "original": "Nombor Siri",
-          "singular": "Nombor Siri",
+          "original": "序列号",
+          "singular": "序列号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assetCode": {
-          "original": "Kod Asset",
-          "singular": "Kod Asset",
+          "original": "资产代码",
+          "singular": "资产代码",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "description": {
-          "original": "Deskripsi",
-          "singular": "Deskripsi",
+          "original": "描述",
+          "singular": "描述",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "photo": {
-          "original": "Gambar",
-          "singular": "Gambar",
+          "original": "图片",
+          "singular": "图片",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "custodian": {
-          "original": "Penjaga",
-          "singular": "Penjaga",
+          "original": "管理员",
+          "singular": "管理员",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "warrantyStartDate": {
-          "original": "Tarikh Mula Tempoh Waranti",
-          "singular": "Tarikh Mula Tempoh Waranti",
+          "original": "保修期开始日期",
+          "singular": "保修期开始日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "warrantyEndDate": {
-          "original": "Tarikh Luput Tempoh Waranti",
-          "singular": "Tarikh Luput Tempoh Waranti",
+          "original": "保修期结束日期",
+          "singular": "保修期结束日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "acquisitionDate": {
-          "original": "Tarikh Pemerolehan",
-          "singular": "Tarikh Pemerolehan",
+          "original": "购买日期",
+          "singular": "购买日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "equipmentType": {
-          "original": "Jenis Peralatan",
-          "singular": "Jenis Peralatan",
+          "original": "设备类型",
+          "singular": "设备类型",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -523,15 +530,15 @@
           "setupVisible": true
         },
         "manufacturer": {
-          "original": "Pengilang",
-          "singular": "Pengilang",
+          "original": "制造商",
+          "singular": "制造商",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "engineModel": {
-          "original": "Jenis Model Enjin",
-          "singular": "Jenis Model Enjin",
+          "original": "引擎型号",
+          "singular": "引擎型号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -544,16 +551,16 @@
           "setupVisible": true
         },
         "manufacturerYear": {
-          "original": "Tahun Pengilangan",
-          "singular": "Tahun Pengilangan",
+          "original": "制造年份",
+          "singular": "制造年份",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "note": {
-          "original": "Nota",
-          "singular": "Nota",
-          "plural": "Nota",
+          "original": "笔记",
+          "singular": "笔记",
+          "plural": "笔记",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -565,15 +572,15 @@
           "setupVisible": true
         },
         "lastCompleted": {
-          "original": "Terakhir Disiapkan",
-          "singular": "Terakhir Disiapkan",
+          "original": "最后准备日期",
+          "singular": "最后准备日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "next": {
-          "original": "Seterusnya",
-          "singular": "Seterusnya",
+          "original": "下一个",
+          "singular": "下一个",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -586,106 +593,106 @@
           "setupVisible": true
         },
         "overdue": {
-          "original": "Tertunggak",
-          "singular": "Tertunggak",
+          "original": "拖欠",
+          "singular": "拖欠",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "dueOn": {
-          "original": "Tempoh Akhir",
-          "singular": "Tempoh Akhir",
+          "original": "结束期限",
+          "singular": "结束期限",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "expiresIn": {
-          "original": "Sah Sehingga",
-          "singular": "Sah Sehingga",
+          "original": "有效至",
+          "singular": "有效至",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "latestActiveContract": {
-          "original": "Kontrak Aktif Terkini",
-          "singular": "Kontrak Aktif Terkini",
+          "original": "当前活跃合同",
+          "singular": "当前活跃合同",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "updatedBy": {
-          "original": "Dikemaskini Oleh",
-          "singular": "Dikemaskini Oleh",
+          "original": "更新者",
+          "singular": "更新者",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assetId": {
-          "original": "ID Aset",
-          "singular": "ID Aset",
+          "original": "资产ID",
+          "singular": "资产ID",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "nextMaintenanceDate": {
-          "original": "Tarikh Penyelenggaraan Seterusnya",
-          "singular": "Tarikh Penyelenggaraan Seterusnya",
+          "original": "下次维护日期",
+          "singular": "下次维护日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "accessory": {
-          "original": "Aksesori",
-          "singular": "Aksesori",
-          "plural": "Aksesori",
+          "original": "附件",
+          "singular": "附件",
+          "plural": "附件",
           "setupEdit": true,
           "setupVisible": true
         },
         "accessoryNo": {
-          "original": "Nombor Aksesori",
-          "singular": "Nombor Aksesori",
+          "original": "附件编号",
+          "singular": "附件编号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "currentReading": {
-          "original": "Bacaan Terkini",
-          "singular": "Bacaan Terkini",
+          "original": "最新读数",
+          "singular": "最新读数",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "logDateTime": {
-          "original": "Tarikh & Masa Catatan",
-          "singular": "Tarikh & Masa Catatan",
+          "original": "笔记日期和时间",
+          "singular": "笔记日期和时间",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "modifiedDateTime": {
-          "original": "Tarikh & Masa Dikemaskini",
-          "singular": "Tarikh & Masa Dikemaskini",
+          "original": "更新日期和时间",
+          "singular": "更新日期和时间",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "newValue": {
-          "original": "Nilai Terkini",
-          "singular": "Nilai Terkini",
+          "original": "当前值",
+          "singular": "当前值",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "oldValue": {
-          "original": "Nilai Sebelumnya",
-          "singular": "Nilai Sebelumnya",
+          "original": "上一个值",
+          "singular": "上一个值",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "newMeterReading": {
-          "original": "Bacaan Meter Terkini",
-          "singular": "Bacaan Meter Terkini",
+          "original": "最新表读数",
+          "singular": "最新表读数",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -702,46 +709,46 @@
       "tooltips": {
         "setupVisible": true,
         "assetLookup": {
-          "original": "Carian Aset",
-          "singular": "Carian Aset",
+          "original": "资产搜索",
+          "singular": "资产搜索",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "accessoryLookup": {
-          "original": "Carian Aksesori",
-          "singular": "Carian Aksesori",
+          "original": "附件搜索",
+          "singular": "附件搜索",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "binLookup": {
-          "original": "Carian Bin",
-          "singular": "Carian Bin",
+          "original": "箱搜索",
+          "singular": "箱搜索",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "serialNo": {
-          "original": "Ini adalah nombor unik yang boleh digunakan untuk mengenal pasti Aset anda di seluruh sistem",
-          "singular": "Ini adalah nombor unik yang boleh digunakan untuk mengenal pasti Aset anda di seluruh sistem",
+          "original": "这是一个唯一的编号，可用于在整个系统中识别您的资产。",
+          "singular": "这是一个唯一的编号，可用于在整个系统中识别您的资产。",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "custodian": {
-          "original": "Penjaga aset ini adalah individu dalam organisasi anda yang bertanggungjawab terhadap aset tersebut",
-          "singular": "Penjaga aset ini adalah individu dalam organisasi anda yang bertanggungjawab terhadap aset tersebut",
+          "original": "这位资产管理员是贵组织内负责管理该资产的个人。",
+          "singular": "这位资产管理员是贵组织内负责管理该资产的个人。",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
       },
       "messages": {
-        "configureQrBarcodeInAssetSetup": "Untuk menyediakan QR/Kod Bar, pergi ke Konfigurasi Aset dalam Tetapan",
-        "resetMeterForLowerReading": "Pilih 'Set Semula Meter' jika bacaan meter baharu anda lebih kecil daripada bacaan meter semasa.",
-        "futureDateTimeEntryNotAllowed": "Entri tidak boleh dibuat untuk tarikh dan masa akan datang",
-        "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
+        "configureQrBarcodeInAssetSetup": "要设置二维码/条形码，请转到设置中的资产配置。",
+        "resetMeterForLowerReading": "如果您的新电表读数小于当前读数，请选择“重置电表”。",
+        "futureDateTimeEntryNotAllowed": "不能为未来的日期和时间进行条目输入。",
+        "maintenanceAppliesToAllContractAssets": "此维护将适用于本合同内的所有资产。"
       }
     },
     "maintenance": {
@@ -787,8 +794,8 @@
       "fields": {
         "setupVisible": true,
         "status": {
-          "original": "Status",
-          "singular": "Status",
+          "original": "状态",
+          "singular": "状态",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -962,8 +969,8 @@
           "setupVisible": true
         },
         "sec3": {
-          "original": "Tapis Mengikut",
-          "singular": "Tapis Mengikut",
+          "original": "过滤",
+          "singular": "过滤",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1125,8 +1132,8 @@
           "setupVisible": true
         },
         "sec8": {
-          "original": "Tapis Mengikut",
-          "singular": "Tapis Mengikut",
+          "original": "过滤",
+          "singular": "过滤",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1135,8 +1142,8 @@
       "fields": {
         "setupVisible": true,
         "status": {
-          "original": "Status",
-          "singular": "Status",
+          "original": "状态",
+          "singular": "状态",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1198,15 +1205,15 @@
           "setupVisible": true
         },
         "serialNo": {
-          "original": "Nombor Siri",
-          "singular": "Nombor Siri",
+          "original": "序列号",
+          "singular": "序列号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "serialNumber": {
-          "original": "Nombor Siri",
-          "singular": "Nombor Siri",
+          "original": "序列号",
+          "singular": "序列号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1345,8 +1352,8 @@
           "setupVisible": true
         },
         "sec7": {
-          "original": "Tapis Mengikut",
-          "singular": "Tapis Mengikut",
+          "original": "过滤",
+          "singular": "过滤",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1446,8 +1453,8 @@
           "setupVisible": true
         },
         "status": {
-          "original": "Status",
-          "singular": "Status",
+          "original": "状态",
+          "singular": "状态",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1546,15 +1553,15 @@
       "fields": {
         "setupVisible": true,
         "name": {
-          "original": "Nama",
-          "singular": "Nama",
-          "plural": "Nama",
+          "original": "姓名",
+          "singular": "姓名",
+          "plural": "姓名",
           "setupEdit": true,
           "setupVisible": true
         },
         "status": {
-          "original": "Status",
-          "singular": "Status",
+          "original": "状态",
+          "singular": "状态",
           "plural": "Statuses",
           "setupEdit": true,
           "setupVisible": true
@@ -1818,9 +1825,9 @@
           "setupVisible": true
         },
         "sec13": {
-          "original": "Tapis Mengikut",
-          "singular": "Tapis Mengikut",
-          "plural": "Tapis Mengikut",
+          "original": "过滤",
+          "singular": "过滤",
+          "plural": "过滤",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -2122,8 +2129,8 @@
           "setupVisible": true
         },
         "description": {
-          "original": "Deskripsi",
-          "singular": "Deskripsi",
+          "original": "描述",
+          "singular": "描述",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2500,8 +2507,8 @@
           "setupVisible": true
         },
         "status": {
-          "original": "Status",
-          "singular": "Status",
+          "original": "状态",
+          "singular": "状态",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2760,9 +2767,9 @@
           "setupVisible": true
         },
         "sec4": {
-          "original": "Tapis Mengikut",
-          "singular": "Tapis Mengikut",
-          "plural": "Tapis Mengikut",
+          "original": "过滤",
+          "singular": "过滤",
+          "plural": "过滤",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -2770,15 +2777,15 @@
       "fields": {
         "setupVisible": true,
         "name": {
-          "original": "Nama",
-          "singular": "Nama",
-          "plural": "Nama",
+          "original": "姓名",
+          "singular": "姓名",
+          "plural": "姓名",
           "setupEdit": true,
           "setupVisible": true
         },
         "status": {
-          "original": "Status",
-          "singular": "Status",
+          "original": "状态",
+          "singular": "状态",
           "plural": "Statuses",
           "setupEdit": true,
           "setupVisible": true
@@ -2812,8 +2819,8 @@
           "setupVisible": true
         },
         "description": {
-          "original": "Deskripsi",
-          "singular": "Deskripsi",
+          "original": "描述",
+          "singular": "描述",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2937,8 +2944,8 @@
           "setupVisible": true
         },
         "sec3": {
-          "original": "Tapis Mengikut",
-          "singular": "Tapis Mengikut",
+          "original": "过滤",
+          "singular": "过滤",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2947,15 +2954,15 @@
       "fields": {
         "setupVisible": true,
         "name": {
-          "original": "Nama",
-          "singular": "Nama",
-          "plural": "Nama",
+          "original": "姓名",
+          "singular": "姓名",
+          "plural": "姓名",
           "setupEdit": true,
           "setupVisible": true
         },
         "status": {
-          "original": "Status",
-          "singular": "Status",
+          "original": "状态",
+          "singular": "状态",
           "plural": "Statuses",
           "setupEdit": true,
           "setupVisible": true
@@ -2982,8 +2989,8 @@
           "setupVisible": true
         },
         "description": {
-          "original": "Name",
-          "singular": "Name",
+          "original": "姓名",
+          "singular": "姓名",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3121,8 +3128,8 @@
           "setupVisible": true
         },
         "sec5": {
-          "original": "Tapis Mengikut",
-          "singular": "Tapis Mengikut",
+          "original": "过滤",
+          "singular": "过滤",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3138,8 +3145,8 @@
           "setupVisible": true
         },
         "description": {
-          "original": "Deskripsi",
-          "singular": "Deskripsi",
+          "original": "描述",
+          "singular": "描述",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3173,9 +3180,9 @@
           "setupVisible": true
         },
         "name": {
-          "original": "Nama",
-          "singular": "Nama",
-          "plural": "Nama",
+          "original": "姓名",
+          "singular": "姓名",
+          "plural": "姓名",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -3215,8 +3222,8 @@
           "setupVisible": true
         },
         "status": {
-          "original": "Status",
-          "singular": "Status",
+          "original": "状态",
+          "singular": "状态",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3361,8 +3368,8 @@
           "setupVisible": true
         },
         "sec12": {
-          "original": "Tapis Mengikut",
-          "singular": "Tapis Mengikut",
+          "original": "过滤",
+          "singular": "过滤",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3371,8 +3378,8 @@
       "fields": {
         "setupVisible": true,
         "status": {
-          "original": "Status",
-          "singular": "Status",
+          "original": "状态",
+          "singular": "状态",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3427,8 +3434,8 @@
           "setupVisible": true
         },
         "description": {
-          "original": "Deskripsi",
-          "singular": "Deskripsi",
+          "original": "描述",
+          "singular": "描述",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3539,9 +3546,9 @@
           "setupVisible": true
         },
         "name": {
-          "original": "Nama",
-          "singular": "Nama",
-          "plural": "Nama",
+          "original": "姓名",
+          "singular": "姓名",
+          "plural": "姓名",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -3867,9 +3874,9 @@
           "setupVisible": true
         },
         "sec30": {
-          "original": "Tapis Mengikut",
-          "singular": "Tapis Mengikut",
-          "plural": "Tapis Mengikut",
+          "original": "过滤",
+          "singular": "过滤",
+          "plural": "过滤",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -3926,8 +3933,8 @@
           "setupVisible": true
         },
         "status": {
-          "original": "Status",
-          "singular": "Status",
+          "original": "状态",
+          "singular": "状态",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -4773,8 +4780,8 @@
           "setupVisible": true
         },
         "name": {
-          "original": "Nama",
-          "singular": "Nama",
+          "original": "姓名",
+          "singular": "姓名",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -5184,15 +5191,15 @@
           "setupVisible": true
         },
         "serialNo": {
-          "original": "Nombor Siri",
-          "singular": "Nombor Siri",
+          "original": "序列号",
+          "singular": "序列号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "serialNumber": {
-          "original": "Nombor Siri",
-          "singular": "Nombor Siri",
+          "original": "序列号",
+          "singular": "序列号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6046,8 +6053,8 @@
           "setupVisible": true
         },
         "sec14": {
-          "original": "Tapis Mengikut",
-          "singular": "Tapis Mengikut",
+          "original": "过滤",
+          "singular": "过滤",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -7371,8 +7378,8 @@
             "setupVisible": true
           },
           "description": {
-            "original": "Deskripsi",
-            "singular": "Deskripsi",
+            "original": "描述",
+            "singular": "描述",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -8248,8 +8255,8 @@
           "fields": {
             "setupVisible": true,
             "name": {
-              "original": "Nama",
-              "singular": "Nama",
+              "original": "姓名",
+              "singular": "姓名",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -8453,8 +8460,8 @@
               "setupVisible": true
             },
             "description": {
-              "original": "Deskripsi",
-              "singular": "Deskripsi",
+              "original": "描述",
+              "singular": "描述",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -8665,8 +8672,8 @@
               "setupVisible": true
             },
             "sec18": {
-              "original": "Tapis Mengikut",
-              "singular": "Tapis Mengikut",
+              "original": "过滤",
+              "singular": "过滤",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -8717,8 +8724,8 @@
               "setupVisible": true
             },
             "status": {
-              "original": "Status",
-              "singular": "Status",
+              "original": "状态",
+              "singular": "状态",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9025,8 +9032,8 @@
               "setupVisible": true
             },
             "status": {
-              "original": "Status",
-              "singular": "Status",
+              "original": "状态",
+              "singular": "状态",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9093,8 +9100,8 @@
               "setupVisible": true
             },
             "sec4": {
-              "original": "Deskripsi",
-              "singular": "Deskripsi",
+              "original": "描述",
+              "singular": "描述",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9381,15 +9388,15 @@
           "fields": {
             "setupVisible": true,
             "name": {
-              "original": "Nama",
-              "singular": "Nama",
+              "original": "姓名",
+              "singular": "姓名",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
             "status": {
-              "original": "Status",
-              "singular": "Status",
+              "original": "状态",
+              "singular": "状态",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9500,8 +9507,8 @@
                 "setupVisible": true
               },
               "status": {
-                "original": "Status",
-                "singular": "Status",
+                "original": "状态",
+                "singular": "状态",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -9532,8 +9539,8 @@
           "status": {
             "setupVisible": true,
             "label": {
-              "original": "Status",
-              "singular": "Status",
+              "original": "状态",
+              "singular": "状态",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9572,8 +9579,8 @@
                 "setupVisible": true
               },
               "status": {
-                "original": "Status",
-                "singular": "Status",
+                "original": "状态",
+                "singular": "状态",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -9651,8 +9658,8 @@
                 "setupVisible": true
               },
               "status": {
-                "original": "Status",
-                "singular": "Status",
+                "original": "状态",
+                "singular": "状态",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -9723,8 +9730,8 @@
                 "setupVisible": true
               },
               "status": {
-                "original": "Status",
-                "singular": "Status",
+                "original": "状态",
+                "singular": "状态",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -9795,8 +9802,8 @@
                 "setupVisible": true
               },
               "status": {
-                "original": "Status",
-                "singular": "Status",
+                "original": "状态",
+                "singular": "状态",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -9867,8 +9874,8 @@
                 "setupVisible": true
               },
               "status": {
-                "original": "Status",
-                "singular": "Status",
+                "original": "状态",
+                "singular": "状态",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -9918,8 +9925,8 @@
                 "setupVisible": true
               },
               "status": {
-                "original": "Status",
-                "singular": "Status",
+                "original": "状态",
+                "singular": "状态",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -9990,8 +9997,8 @@
                 "setupVisible": true
               },
               "status": {
-                "original": "Status",
-                "singular": "Status",
+                "original": "状态",
+                "singular": "状态",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10034,8 +10041,8 @@
             "fields": {
               "setupVisible": true,
               "name": {
-                "original": "Nama",
-                "singular": "Nama",
+                "original": "姓名",
+                "singular": "姓名",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10048,8 +10055,8 @@
                 "setupVisible": true
               },
               "status": {
-                "original": "Status",
-                "singular": "Status",
+                "original": "状态",
+                "singular": "状态",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10099,8 +10106,8 @@
             "fields": {
               "setupVisible": true,
               "name": {
-                "original": "Nama",
-                "singular": "Nama",
+                "original": "姓名",
+                "singular": "姓名",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10113,8 +10120,8 @@
                 "setupVisible": true
               },
               "status": {
-                "original": "Status",
-                "singular": "Status",
+                "original": "状态",
+                "singular": "状态",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10171,8 +10178,8 @@
           "fields": {
             "setupVisible": true,
             "name": {
-              "original": "Nama",
-              "singular": "Nama",
+              "original": "姓名",
+              "singular": "姓名",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -10245,8 +10252,8 @@
             "fields": {
               "setupVisible": true,
               "name": {
-                "original": "Nama",
-                "singular": "Nama",
+                "original": "姓名",
+                "singular": "姓名",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10287,8 +10294,8 @@
                 "setupVisible": true
               },
               "description": {
-                "original": "Deskripsi",
-                "singular": "Deskripsi",
+                "original": "描述",
+                "singular": "描述",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10317,8 +10324,8 @@
             "fields": {
               "setupVisible": true,
               "name": {
-                "original": "Nama",
-                "singular": "Nama",
+                "original": "姓名",
+                "singular": "姓名",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10366,8 +10373,8 @@
                 "setupVisible": true
               },
               "description": {
-                "original": "Deskripsi",
-                "singular": "Deskripsi",
+                "original": "描述",
+                "singular": "描述",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10410,8 +10417,8 @@
             "fields": {
               "setupVisible": true,
               "name": {
-                "original": "Nama",
-                "singular": "Nama",
+                "original": "姓名",
+                "singular": "姓名",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10452,8 +10459,8 @@
                 "setupVisible": true
               },
               "description": {
-                "original": "Deskripsi",
-                "singular": "Deskripsi",
+                "original": "描述",
+                "singular": "描述",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10669,8 +10676,8 @@
               "setupVisible": true
             },
             "sec11": {
-              "original": "Tapis Mengikut",
-              "singular": "Tapis Mengikut",
+              "original": "过滤",
+              "singular": "过滤",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -10693,14 +10700,14 @@
               "setupVisible": true
             },
             "name": {
-              "original": "Nama",
-              "singular": "Nama",
+              "original": "姓名",
+              "singular": "姓名",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
             "status": {
-              "original": "Status",
+              "original": "状态",
               "singular": "status",
               "plural": "",
               "setupEdit": true,
@@ -10847,8 +10854,8 @@
               "setupVisible": true
             },
             "description": {
-              "original": "Deskripsi",
-              "singular": "Deskripsi",
+              "original": "描述",
+              "singular": "描述",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -10914,8 +10921,8 @@
           "fields": {
             "setupVisible": true,
             "name": {
-              "original": "Nama",
-              "singular": "Nama",
+              "original": "姓名",
+              "singular": "姓名",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -10999,8 +11006,8 @@
           "fields": {
             "setupVisible": true,
             "name": {
-              "original": "Nama",
-              "singular": "Nama",
+              "original": "姓名",
+              "singular": "姓名",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11199,15 +11206,15 @@
         "fields": {
           "setupVisible": true,
           "name": {
-            "original": "Nama",
-            "singular": "Nama",
+            "original": "姓名",
+            "singular": "姓名",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
           },
           "status": {
-            "original": "Status",
-            "singular": "Status",
+            "original": "状态",
+            "singular": "状态",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11392,8 +11399,8 @@
             "setupVisible": true
           },
           "sec6": {
-            "original": "Tapis Mengikut",
-            "singular": "Tapis Mengikut",
+            "original": "过滤",
+            "singular": "过滤",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11513,8 +11520,8 @@
         "fields": {
           "setupVisible": true,
           "name": {
-            "original": "Name",
-            "singular": "Name",
+            "original": "姓名",
+            "singular": "姓名",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11650,8 +11657,8 @@
           "fields": {
             "setupVisible": true,
             "name": {
-              "original": "Nama",
-              "singular": "Nama",
+              "original": "姓名",
+              "singular": "姓名",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11671,8 +11678,8 @@
               "setupVisible": true
             },
             "status": {
-              "original": "Status",
-              "singular": "Status",
+              "original": "状态",
+              "singular": "状态",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11908,8 +11915,8 @@
           "fields": {
             "setupVisible": true,
             "name": {
-              "original": "Nama",
-              "singular": "Nama",
+              "original": "姓名",
+              "singular": "姓名",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11922,8 +11929,8 @@
               "setupVisible": true
             },
             "status": {
-              "original": "Status",
-              "singular": "Status",
+              "original": "状态",
+              "singular": "状态",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -12142,15 +12149,15 @@
           "fields": {
             "setupVisible": true,
             "name": {
-              "original": "Nama",
-              "singular": "Nama",
+              "original": "姓名",
+              "singular": "姓名",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
             "status": {
-              "original": "Status",
-              "singular": "Status",
+              "original": "状态",
+              "singular": "状态",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -12641,8 +12648,8 @@
             "setupVisible": true
           },
           "sec6": {
-            "original": "Tapis Mengikut",
-            "singular": "Tapis Mengikut",
+            "original": "过滤",
+            "singular": "过滤",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -12679,8 +12686,8 @@
             "setupVisible": true
           },
           "status": {
-            "original": "Status",
-            "singular": "Status",
+            "original": "状态",
+            "singular": "状态",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true

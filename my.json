@@ -174,6 +174,13 @@
           "setupEdit": true,
           "setupVisible": true
         },
+        "name": {
+          "original": "Nama",
+          "singular": "Nama",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
         "noOfTerminals": {
           "original": "Bilangan Terminal",
           "singular": "Bilangan Terminal",
@@ -331,8 +338,8 @@
           "setupVisible": true
         },
         "sec9": {
-          "original": "Qr/Barkod",
-          "singular": "Qr/Barkod",
+          "original": "Qr/Kod Bar",
+          "singular": "Qr/Kod Bar",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -741,7 +748,7 @@
         "configureQrBarcodeInAssetSetup": "Untuk menyediakan QR/Kod Bar, pergi ke Konfigurasi Aset dalam Tetapan",
         "resetMeterForLowerReading": "Pilih 'Set Semula Meter' jika bacaan meter baharu anda lebih kecil daripada bacaan meter semasa.",
         "futureDateTimeEntryNotAllowed": "Entri tidak boleh dibuat untuk tarikh dan masa akan datang",
-        "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
+        "maintenanceAppliesToAllContractAssets": "Penyelenggaraan ini akan dikenakan kepada semua Aset dalam Kontrak ini."
       }
     },
     "maintenance": {
@@ -2982,8 +2989,8 @@
           "setupVisible": true
         },
         "description": {
-          "original": "Name",
-          "singular": "Name",
+          "original": "Nama",
+          "singular": "Nama",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -9072,8 +9079,8 @@
               "setupVisible": true
             },
             "sec1": {
-              "original": "Qr/Barkod",
-              "singular": "Qr/Barkod",
+              "original": "Qr/Kod Bar",
+              "singular": "Qr/Kod Bar",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11513,8 +11520,8 @@
         "fields": {
           "setupVisible": true,
           "name": {
-            "original": "Name",
-            "singular": "Name",
+            "original": "Nama",
+            "singular": "Nama",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true

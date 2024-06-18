@@ -56,9 +56,9 @@
       "fields": {
         "setupVisible": true,
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -261,7 +261,7 @@
         "technicianOnRoute": "Ada pengguna sedang menuju ke tugasan ini",
         "addressNotFallGeoFence": "Alamat ini tidak termasuk dalam mana-mana Pagar Geofence anda.",
         "deleteMessage": "Dengan memadam pelanggan ini, anda juga akan memadamkan semua maklumat berkaitan seperti pesanan, kenalan, dan data lain yang berkaitan. Tindakan ini tidak boleh dibatalkan. Adakah anda ingin meneruskan?",
-        "selectGeofences": "Select Geofences"
+        "selectGeofences": "Pilih Geofence"
       }
     },
     "asset": {
@@ -391,9 +391,9 @@
       "fields": {
         "setupVisible": true,
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -545,8 +545,8 @@
           "setupVisible": true
         },
         "makeModel": {
-          "original": "Make/Model",
-          "singular": "Make/Model",
+          "original": "Jenama/Model",
+          "singular": "Jenama/Model",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1036,9 +1036,9 @@
           "setupVisible": true
         },
         "types": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -1503,15 +1503,15 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Manufacturer Details",
-          "singular": "Manufacturer Details",
+          "original": "Butiran Pengilang",
+          "singular": "Butiran Pengilang",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Price Details",
-          "singular": "Price Details",
+          "original": "Butiran Harga",
+          "singular": "Butiran Harga",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1531,15 +1531,15 @@
           "setupVisible": true
         },
         "sec5": {
-          "original": "Adjust Inventory",
-          "singular": "Adjust Inventory",
+          "original": "Laras Inventori",
+          "singular": "Laras Inventori",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec6": {
-          "original": "Check availability",
-          "singular": "Check availability",
+          "original": "Semak Ketersediaan",
+          "singular": "Semak Ketersediaan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1576,29 +1576,29 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
         "productFamily": {
-          "original": "Product Family",
-          "singular": "Product Family",
+          "original": "Keluarga Produk",
+          "singular": "Keluarga Produk",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "warrantyPeriod": {
-          "original": "Warranty Period",
-          "singular": "Warranty Period",
+          "original": "Tempoh Waranti",
+          "singular": "Tempoh Waranti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "unitMeasurement": {
-          "original": "Unit of Measurement",
-          "singular": "Unit of Measurement",
+          "original": "Unit Pengukuran",
+          "singular": "Unit Pengukuran",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1611,8 +1611,8 @@
           "setupVisible": true
         },
         "makeModel": {
-          "original": "Make/Model",
-          "singular": "Make/Model",
+          "original": "Jenama/Model",
+          "singular": "Jenama/Model",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1625,22 +1625,22 @@
           "setupVisible": true
         },
         "manufacturerYear": {
-          "original": "Manufacturer Year",
-          "singular": "Manufacturer Year",
+          "original": "Tahun Pengilangan",
+          "singular": "Tahun Pengilangan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "unitPrice": {
-          "original": "Unit Price",
-          "singular": "Unit Price",
+          "original": "Harga Seunit",
+          "singular": "Harga Seunit",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "taxIncluded": {
-          "original": "Tax Included",
-          "singular": "Tax Included",
+          "original": "Termasuk Cukai",
+          "singular": "Termasuk Cukai",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1653,29 +1653,29 @@
           "setupVisible": true
         },
         "remarks": {
-          "original": "Remark",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "original": "Catatan",
+          "singular": "Catatan",
+          "plural": "Catatan",
           "setupEdit": true,
           "setupVisible": true
         },
         "monthS": {
-          "original": "Month(s)",
-          "singular": "Month(s)",
+          "original": "Bulan",
+          "singular": "Bulan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "productName": {
-          "original": "Product Name",
-          "singular": "Product Name",
+          "original": "Nama Produk",
+          "singular": "Nama Produk",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "productType": {
-          "original": "Product Type",
-          "singular": "Product Type",
+          "original": "Jenis Produk",
+          "singular": "Jenis Produk",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1688,16 +1688,16 @@
           "setupVisible": true
         },
         "warranty": {
-          "original": "Warranty",
-          "singular": "Warranty",
+          "original": "Waranti",
+          "singular": "Waranti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "user": {
-          "original": "User",
-          "singular": "User",
-          "plural": "Users",
+          "original": "Pengguna",
+          "singular": "Pengguna",
+          "plural": "Pengguna",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -1713,8 +1713,8 @@
       "tooltips": {
         "setupVisible": true,
         "siteLookup": {
-          "original": "Product Lookup",
-          "singular": "Product Lookup",
+          "original": "Carian Produk",
+          "singular": "Carian Produk",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2614,9 +2614,9 @@
           "setupVisible": true
         },
         "user": {
-          "original": "User",
-          "singular": "User",
-          "plural": "Users",
+          "original": "Pengguna",
+          "singular": "Pengguna",
+          "plural": "Pengguna",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -2793,9 +2793,9 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -2977,8 +2977,8 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
+          "original": "Jenis",
+          "singular": "Jenis",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3210,9 +3210,9 @@
           "setupVisible": true
         },
         "remarks": {
-          "original": "Remark",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "original": "Catatan",
+          "singular": "Catatan",
+          "plural": "Catatan",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -3238,9 +3238,9 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -3401,9 +3401,9 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -3942,9 +3942,9 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -5011,9 +5011,9 @@
           "setupVisible": true
         },
         "remarks": {
-          "original": "Remark",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "original": "Catatan",
+          "singular": "Catatan",
+          "plural": "Catatan",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -5473,8 +5473,8 @@
           "setupVisible": true
         },
         "unitPrice": {
-          "original": "Unit Price",
-          "singular": "Unit Price",
+          "original": "Harga Seunit",
+          "singular": "Harga Seunit",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -5501,9 +5501,9 @@
           "setupVisible": true
         },
         "user": {
-          "original": "User",
-          "singular": "User",
-          "plural": "Users",
+          "original": "Pengguna",
+          "singular": "Pengguna",
+          "plural": "Pengguna",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -6219,8 +6219,8 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
+          "original": "Jenis",
+          "singular": "Jenis",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6261,9 +6261,9 @@
           "setupVisible": true
         },
         "remarks": {
-          "original": "Remarks",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "original": "Catatan",
+          "singular": "Catatan",
+          "plural": "Catatan",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -6857,8 +6857,8 @@
           "setupVisible": true
         },
         "checkAvailability": {
-          "original": "Check availability",
-          "singular": "Check availability",
+          "original": "Semak Ketersediaan",
+          "singular": "Semak Ketersediaan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -7258,8 +7258,8 @@
         "homeAddressIsNotSet":"Home Address is not set",
         "currentAddressIsNotResolvedYet":"Current address is not resolved yet!",
         "selectItem": {
-          "singular": "Select Item",
-          "plural": "Select Items"
+          "singular": "Pilih Item",
+          "plural": "Pilih Item"
         },
         "noLocationsToDisplay":"No locations to display"
       },
@@ -8509,9 +8509,9 @@
               "setupVisible": true
             },
             "users": {
-              "original": "Users",
-              "singular": "User",
-              "plural": "Users",
+              "original": "Pengguna",
+              "singular": "Pengguna",
+              "plural": "Pengguna",
               "setupEdit": true,
               "setupVisible": true
             },
@@ -8544,9 +8544,9 @@
         "users": {
           "setupVisible": true,
           "label": {
-            "original": "Users",
-            "singular": "User",
-            "plural": "Users",
+            "original": "Pengguna",
+            "singular": "Pengguna",
+            "plural": "Pengguna",
             "setupEdit": true,
             "setupVisible": true
           },
@@ -8759,9 +8759,9 @@
               "setupVisible": true
             },
             "users": {
-              "original": "Users",
-              "singular": "User",
-              "plural": "Users",
+              "original": "Pengguna",
+              "singular": "Pengguna",
+              "plural": "Pengguna",
               "setupEdit": true,
               "setupVisible": true
             },
@@ -9032,8 +9032,8 @@
               "setupVisible": true
             },
             "type": {
-              "original": "Type",
-              "singular": "Type",
+              "original": "Jenis",
+              "singular": "Jenis",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9385,8 +9385,8 @@
               "setupVisible": true
             },
             "sec13": {
-              "original": "Users",
-              "singular": "Users",
+              "original": "Pengguna",
+              "singular": "Pengguna",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9474,9 +9474,9 @@
           "type": {
             "setupVisible": true,
             "label": {
-              "original": "Type",
-              "singular": "Type",
-              "plural": "Types",
+              "original": "Jenis",
+              "singular": "Jenis",
+              "plural": "Jenis",
               "setupEdit": true,
               "setupVisible": true
             },
@@ -10459,8 +10459,8 @@
                 "setupVisible": true
               },
               "user": {
-                "original": "User",
-                "singular": "User",
+                "original": "Pengguna",
+                "singular": "Pengguna",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10735,8 +10735,8 @@
               "setupVisible": true
             },
             "type": {
-              "original": "Type",
-              "singular": "Type",
+              "original": "Jenis",
+              "singular": "Jenis",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -10949,8 +10949,8 @@
               "setupVisible": true
             },
             "user": {
-              "original": "User",
-              "singular": "User",
+              "original": "Pengguna",
+              "singular": "Pengguna",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11276,8 +11276,8 @@
             "setupVisible": true
           },
           "type": {
-            "original": "Type",
-            "singular": "Type",
+            "original": "Jenis",
+            "singular": "Jenis",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11671,8 +11671,8 @@
               "setupVisible": true
             },
             "type": {
-              "original": "Type",
-              "singular": "Type",
+              "original": "Jenis",
+              "singular": "Jenis",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11929,8 +11929,8 @@
               "setupVisible": true
             },
             "type": {
-              "original": "Type",
-              "singular": "Type",
+              "original": "Jenis",
+              "singular": "Jenis",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -12069,8 +12069,8 @@
               "setupVisible": true
             },
             "user": {
-              "original": "User",
-              "singular": "User",
+              "original": "Pengguna",
+              "singular": "Pengguna",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -12447,8 +12447,8 @@
         "fields": {
           "setupVisible": true,
           "type": {
-            "original": "Type",
-            "singular": "Type",
+            "original": "Jenis",
+            "singular": "Jenis",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -12721,9 +12721,9 @@
             "setupVisible": true
           },
           "remarks": {
-            "original": "Remarks",
-            "singular": "Remark",
-            "plural": "Remarks",
+            "original": "Catatan",
+            "singular": "Catatan",
+            "plural": "Catatan",
             "setupEdit": true,
             "setupVisible": true
           },

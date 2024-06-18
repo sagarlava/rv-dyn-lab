@@ -260,7 +260,8 @@
       "messages": {
         "technicianOnRoute": "Ada pengguna sedang menuju ke tugasan ini",
         "addressNotFallGeoFence": "Alamat ini tidak termasuk dalam mana-mana Pagar Geofence anda.",
-        "deleteMessage": "Dengan memadam pelanggan ini, anda juga akan memadamkan semua maklumat berkaitan seperti pesanan, kenalan, dan data lain yang berkaitan. Tindakan ini tidak boleh dibatalkan. Adakah anda ingin meneruskan?"
+        "deleteMessage": "Dengan memadam pelanggan ini, anda juga akan memadamkan semua maklumat berkaitan seperti pesanan, kenalan, dan data lain yang berkaitan. Tindakan ini tidak boleh dibatalkan. Adakah anda ingin meneruskan?",
+        "selectGeofences": "Select Geofences"
       }
     },
     "asset": {
@@ -7255,7 +7256,12 @@
         "radius": "Radius",
         "officeAddressIsNotSet":"Office Address is not set",
         "homeAddressIsNotSet":"Home Address is not set",
-        "currentAddressIsNotResolvedYet":"Current address is not resolved yet!"
+        "currentAddressIsNotResolvedYet":"Current address is not resolved yet!",
+        "selectItem": {
+          "singular": "Select Item",
+          "plural": "Select Items"
+        },
+        "noLocationsToDisplay":"No locations to display"
       },
       "map": {
         "setupVisible": true,

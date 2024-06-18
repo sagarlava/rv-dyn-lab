@@ -260,7 +260,8 @@
       "messages": {
         "technicianOnRoute": "Currently a user is en route to this task.",
         "addressNotFallGeoFence": "Address does not fall under any of your geofences.",
-        "deleteMessage": "By deleting this SOU, you will also be removing all associated information such as orders, contacts, and other related data. You will not be able to undo this. Do you wish to proceed?"
+        "deleteMessage": "By deleting this SOU, you will also be removing all associated information such as orders, contacts, and other related data. You will not be able to undo this. Do you wish to proceed?",
+        "selectGeofences": "Select Geofences"
       }
     },
     "asset": {
@@ -8254,7 +8255,12 @@
         "radius": "Radius",
         "officeAddressIsNotSet":"Office Address is not set",
         "homeAddressIsNotSet":"Home Address is not set",
-        "currentAddressIsNotResolvedYet":"Current address is not resolved yet!"
+        "currentAddressIsNotResolvedYet":"Current address is not resolved yet!",
+        "selectItem": {
+          "singular": "Select Item",
+          "plural": "Select Items"
+        },
+        "noLocationsToDisplay":"No locations to display"
       },
       "map": {
         "setupVisible": true,

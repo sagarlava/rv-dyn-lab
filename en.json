@@ -993,13 +993,7 @@
           "setupEdit": true,
           "setupVisible": true
         },
-        "completionDate": {
-          "original": "Completion Date",
-          "singular": "Completion Date",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
+       
         "maintenance": {
           "original": "Maintenance",
           "singular": "Maintenance",
@@ -4273,6 +4267,13 @@
         "complaintFault": {
           "original": "Complaint and Fault",
           "singular": "Complaint and Fault",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "completionDate": {
+          "original": "Completion Date",
+          "singular": "Completion Date",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true

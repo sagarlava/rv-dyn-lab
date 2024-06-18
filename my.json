@@ -754,8 +754,8 @@
     "maintenance": {
       "setupVisible": true,
       "label": {
-        "original": "Maintenance Schedule",
-        "singular": "Maintenance Schedule",
+        "original": "Jadual Penyelenggaraan",
+        "singular": "Jadual Penyelenggaraan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -763,22 +763,22 @@
       "sections": {
         "setupVisible": true,
         "sec0": {
-          "original": "Maintenance Details",
-          "singular": "Maintenance Details",
+          "original": "Butiran Penyelenggaraan",
+          "singular": "Butiran Penyelenggaraan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec1": {
-          "original": "Maintenance Template",
-          "singular": "Maintenance Template",
+          "original": "Templat Penyelenggaraan",
+          "singular": "Templat Penyelenggaraan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Preventative Maintenance",
-          "singular": "Preventative Maintenances",
+          "original": "Penyelenggaraan Pencegahan",
+          "singular": "Penyelenggaraan Pencegahan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -815,92 +815,92 @@
           "setupVisible": true
         },
         "assetStatus": {
-          "original": "Asset Status",
-          "singular": "Asset Status",
+          "original": "Status Aset",
+          "singular": "Status Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "maintenanceTemplate": {
-          "original": "Maintenance Template",
-          "singular": "Maintenance Template",
+          "original": "Templat Penyelenggaraan",
+          "singular": "Templat Penyelenggaraan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sendInitialReminder": {
-          "original": "Send Initial Reminder (Days Before)",
-          "singular": "Send Initial Reminder (Days Before)",
+          "original": "Hantar Peringatan Awal (Hari Sebelum)",
+          "singular": "Hantar Peringatan Awal (Hari Sebelum) ",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "followUpReminder": {
-          "original": "Follow Up Reminder (Days Before)",
-          "singular": "Follow Up Reminder (Days Before)",
+          "original": "Hantar Peringatan Susulan (Hari Sebelum)",
+          "singular": "Hantar Peringatan Susulan (Hari Sebelum)",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sendOverdueReminder": {
-          "original": "Send Overdue Reminder (Days After)",
-          "singular": "Send Overdue Reminder (Days After)",
+          "original": "Hantar Peringatan Lewat (Hari Selepas)",
+          "singular": "Hantar Peringatan Lewat (Hari Selepas)",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "generateNextMaintenance": {
-          "original": "Generate Next Maintenance",
-          "singular": "Generate Next Maintenance",
+          "original": "Hasilkan Penyelenggaraan Seterusnya",
+          "singular": "Hasilkan Penyelenggaraan Seterusnya",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "generateAllMaintenanceNow": {
-          "original": "Generate All Maintenance Now",
-          "singular": "Generate All Maintenance Now",
+          "original": "Hasilkan Semua Penyelenggaraan Sekarang",
+          "singular": "Hasilkan Semua Penyelenggaraan Sekarang",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "onlyUponPreviousCompletion": {
-          "original": "Only Upon Previous Completion",
-          "singular": "Only Upon Previous Completion",
+          "original": "Hanya Selepas Penyudahan Terdahulu",
+          "singular": "Hanya Selepas Penyudahan Terdahulu",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "autoCreateJobOrder": {
-          "original": "Automatically Generate Job Order",
-          "singular": "Automatically Generate Job Order",
+          "original": "Hasilkan Pesanan Kerja Secara Automatik",
+          "singular": "Hasilkan Pesanan Kerja Secara Automatik",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "initialReminder": {
-          "original": "Initial Reminder (Days Before)",
-          "singular": "Initial Reminder (Days Before)",
+          "original": "Peringatan Awal (Hari Sebelum)",
+          "singular": "Peringatan Awal (Hari Sebelum)",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "overdueReminder": {
-          "original": "Overdue Reminder (Days After)",
-          "singular": "Overdue Reminder (Days After)",
+          "original": "Peringatan Lewat (Hari Selepas)",
+          "singular": "Peringatan Lewat (Hari Selepas)",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "nextServiceDate": {
-          "original": "Next Service Date",
-          "singular": "Next Service Date",
+          "original": "Tarikh Servis Seterusnya",
+          "singular": "Tarikh Servis Seterusnya",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "nextServiceType": {
-          "original": "Next Service Type",
-          "singular": "Next Service Type",
+          "original": "Jenis Servis Seterusnya",
+          "singular": "Jenis Servis Seterusnya",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -918,52 +918,52 @@
       "tooltips": {
         "setupVisible": true,
         "preventiveMaintenance": {
-          "original": "This is the timeframe in which the maintenance will be active",
-          "singular": "This is the timeframe in which the maintenance will be active",
+          "original": "Ini adalah tempoh di mana penyelenggaraan akan aktif",
+          "singular": "Ini adalah tempoh di mana penyelenggaraan akan aktif",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "maintenanceLookup": {
-          "original": "Maintenance Lookup",
-          "singular": "Maintenance Lookup",
+          "original": "Carian Penyelenggaraan",
+          "singular": "Carian Penyelenggaraan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
       },
       "messages": {
-        "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
+        "maintenanceAppliesToAllContractAssets": "Penyelenggaraan ini akan dijalankan ke atas semua Aset dalam Kontrak ini"
       }
     },
     "preventiveMaintenance": {
       "setupVisible": true,
       "label": {
-        "original": "Preventive Maintenance",
-        "singular": "Preventive Maintenance",
-        "plural": "Preventive Maintenances",
+        "original": "Penyelenggaraan Pencegahan",
+        "singular": "Penyelenggaraan Pencegahan",
+        "plural": "Penyelenggaraan Pencegahan",
         "setupEdit": true,
         "setupVisible": true
       },
       "sections": {
         "setupVisible": true,
         "sec0": {
-          "original": "Preventative Maintenance Details",
-          "singular": "Preventative Maintenance Details",
+          "original": "Butiran Penyelenggaraan Pencegahan",
+          "singular": "Butiran Penyelenggaraan Pencegahan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec1": {
-          "original": "Maintenance Template",
-          "singular": "Maintenance Template",
+          "original": "Templat Penyelenggaraan",
+          "singular": "Templat Penyelenggaraan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Maintenance Details",
-          "singular": "Maintenance Details",
+          "original": "Butiran Penyelenggaraan",
+          "singular": "Butiran Penyelenggaraan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -986,8 +986,8 @@
       "fields": {
         "setupVisible": true,
         "actualCompletionDate": {
-          "original": "Actual Completion Date",
-          "singular": "Actual Completion Date",
+          "original": "Tarikh Penyiapan Sebenar",
+          "singular": "Tarikh Penyiapan Sebenar",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1000,36 +1000,36 @@
           "setupVisible": true
         },
         "generateJobOrder": {
-          "original": "Generate Job Order",
-          "singular": "Generate Job Order",
+          "original": "Hasilkan Pesanan Kerja",
+          "singular": "Hasilkan Pesanan Kerja",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "maintenanceFrequency": {
-          "original": "Maintenance Frequency",
-          "singular": "Maintenance Frequency",
+          "original": "Kekerapan Penyelenggaraan",
+          "singular": "Kekerapan Penyelenggaraan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "maintenanceTemplate": {
-          "original": "Maintenance Template",
-          "singular": "Maintenance Template",
+          "original": "Templat Penyelenggaraan",
+          "singular": "Templat Penyelenggaraan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "maintenanceDate": {
-          "original": "Maintenance Date",
-          "singular": "Maintenance Date",
+          "original": "Tarikh Penyelenggaraan",
+          "singular": "Tarikh Penyelenggaraan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assignedUser": {
-          "original": "Assigned User",
-          "singular": "Assigned User",
+          "original": "Pengguna yang Ditugaskan",
+          "singular": "Pengguna yang Ditugaskan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1042,15 +1042,15 @@
           "setupVisible": true
         },
         "maintenanceDateRange": {
-          "original": "Maintenance Date Range",
-          "singular": "Maintenance Date Range",
+          "original": "Julat Tarikh Penyelenggaraan",
+          "singular": "Julat Tarikh Penyelenggaraan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "preventativeMaintenanceNo": {
-          "original": "Preventative Maintenance No",
-          "singular": "Preventative Maintenance No",
+          "original": "No. Penyelenggaraan Pencegahan",
+          "singular": "No. Penyelenggaraan Pencegahan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1068,8 +1068,8 @@
       "tooltips": {
         "setupVisible": true,
         "preventiveMaintenanceLookup": {
-          "original": "Preventive Maintenance Lookup",
-          "singular": "Preventive Maintenance Lookup",
+          "original": "Carian Penyelenggaraan Pencegahan",
+          "singular": "Carian Penyelenggaraan Pencegahan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1082,8 +1082,9 @@
     "contracts": {
       "setupVisible": true,
       "label": {
-        "singular": "Contract",
-        "plural": "Contracts",
+        "original": "Kontrak",
+        "singular": "Kontrak",
+        "plural": "Kontrak",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -1097,29 +1098,29 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Contract Details",
-          "singular": "Contract Details",
+          "original": "Butiran Kontrak",
+          "singular": "Butiran Kontrak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec4": {
-          "original": "Select an asset to be added to the contract",
-          "singular": "Select an asset to be added to the contract",
+          "original": "Pilih aset untuk ditambah ke dalam kontrak",
+          "singular": "Pilih aset untuk ditambah ke dalam kontrak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec5": {
-          "original": "Select an accessory to be added to the contract",
-          "singular": "Select an asset to be added to the contract",
+          "original": "Pilih aksesori untuk ditambah ke dalam kontrak",
+          "singular": "Pilih aksesori untuk ditambah ke dalam kontrak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec6": {
-          "original": "Select Bin to transfer from",
-          "singular": "Select Bin to transfer from",
+          "original": "Pilih Bin untuk dipindahkan dari",
+          "singular": "Pilih Bin untuk dipindahkan dari",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1177,29 +1178,29 @@
           "setupVisible": true
         },
         "assetName": {
-          "original": "Asset Name",
-          "singular": "Asset Name",
+          "original": "Nama Aset",
+          "singular": "Nama Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assetCode": {
-          "original": "Asset Code",
-          "singular": "Asset Code",
+          "original": "Kod Aset",
+          "singular": "Kod Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "accessoryName": {
-          "original": "Accessory Name",
-          "singular": "Accessory Name",
+          "original": "Nama Aksesori",
+          "singular": "Nama Aksesori",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "accessoryCode": {
-          "original": "Accessory Code",
-          "singular": "Accessory Code",
+          "original": "Kod Aksesori",
+          "singular": "Kod Aksesori",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1226,43 +1227,43 @@
           "setupVisible": true
         },
         "available": {
-          "original": "Available",
-          "singular": "Available",
+          "original": "Tersedia",
+          "singular": "Tersedia",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "qty": {
-          "original": "Qty",
-          "singular": "Qty",
+          "original": "Kuantiti",
+          "singular": "Kuantiti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "quantity": {
-          "original": "Quantity",
-          "singular": "Quantity",
+          "original": "Kuantiti",
+          "singular": "Kuantiti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "returnQty": {
-          "original": "Return Quantity",
-          "singular": "Return Quantity",
+          "original": "Kuantiti Pulangan",
+          "singular": "Kuantiti Pulangan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "updateInventory": {
-          "original": "Update Inventory",
-          "singular": "Update Inventory",
+          "original": "Kemaskini Inventori",
+          "singular": "Kemaskini Inventori",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "active": {
-          "original": "Active",
-          "singular": "Active",
+          "original": "Aktif",
+          "singular": "Aktif",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1280,8 +1281,8 @@
       "tooltips": {
         "setupVisible": true,
         "contractookup": {
-          "original": "Contracts Lookup",
-          "singular": "Contracts Lookup",
+          "original": "Pencarian Kontrak",
+          "singular": "Pencarian Kontrak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1376,8 +1377,8 @@
           "setupVisible": true
         },
         "assetStatus": {
-          "original": "Asset Status",
-          "singular": "Asset Status",
+          "original": "Status Aset",
+          "singular": "Status Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1679,8 +1680,8 @@
           "setupVisible": true
         },
         "qty": {
-          "original": "Qty",
-          "singular": "Qty",
+          "original": "Kuantiti",
+          "singular": "Kuantiti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1940,8 +1941,8 @@
           "setupVisible": true
         },
         "assignedUsers": {
-          "original": "Assigned User",
-          "singular": "Assigned User",
+          "original": "Pengguna Ditugaskan",
+          "singular": "Pengguna Ditugaskan",
           "plural": "Assigned Users",
           "setupEdit": true,
           "setupVisible": true
@@ -4941,14 +4942,14 @@
           "setupVisible": true
         },
         "qty": {
-          "original": "Qty",
-          "singular": "Qty",
+          "original": "Kuantiti",
+          "singular": "Kuantiti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "quantity": {
-          "original": "Quantity",
+          "original": "Kuantiti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6070,8 +6071,8 @@
           "setupVisible": true
         },
         "available": {
-          "original": "Available",
-          "singular": "Available",
+          "original": "Tersedia",
+          "singular": "Tersedia",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6126,8 +6127,8 @@
           "setupVisible": true
         },
         "qty": {
-          "original": "Qty",
-          "singular": "Qty",
+          "original": "Kuantiti",
+          "singular": "Kuantiti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -7012,15 +7013,15 @@
       "status": {
         "setupVisible": true,
         "active": {
-          "original": "Active",
-          "singular": "Active",
+          "original": "Aktif",
+          "singular": "Aktif",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "available": {
-          "original": "Available",
-          "singular": "Available",
+          "original": "Tersedia",
+          "singular": "Tersedia",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -9329,8 +9330,8 @@
               "setupVisible": true
             },
             "sec6": {
-              "original": "Available",
-              "singular": "Available",
+              "original": "Tersedia",
+              "singular": "Tersedia",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -10949,22 +10950,22 @@
               "setupVisible": true
             },
             "sendInitialReminder": {
-              "original": "Send Initial Reminder (Days Before)",
-              "singular": "Send Initial Reminder (Days Before)",
+              "original": "Hantar Peringatan Awal (Hari Sebelum)",
+              "singular": "Hantar Peringatan Awal (Hari Sebelum)",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
             "sendOverdueReminder": {
-              "original": "Send Overdue Reminder (Days After)",
-              "singular": "Send Overdue Reminder (Days After)",
+              "original": "Hantar Peringatan Lewat (Hari Selepas)",
+              "singular": "Hantar Peringatan Lewat (Hari Selepas)",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
             "followUpReminder": {
-              "original": "Follow Up Reminder (Days Before)",
-              "singular": "Follow Up Reminder (Days Before)",
+              "original": "Hantar Peringatan Susulan (Hari Sebelum)",
+              "singular": "Hantar Peringatan Susulan (Hari Sebelum)",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11092,15 +11093,15 @@
               "setupVisible": true
             },
             "qty": {
-              "original": "Qty",
-              "singular": "Qty",
+              "original": "Kuantiti",
+              "singular": "Kuantiti",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
             "quantity": {
-              "original": "Quantity",
-              "singular": "Quantity",
+              "original": "Kuantiti",
+              "singular": "Kuantiti",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11534,8 +11535,8 @@
             "setupVisible": true
           },
           "active": {
-            "original": "Active",
-            "singular": "Active",
+            "original": "Aktif",
+            "singular": "Aktif",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true

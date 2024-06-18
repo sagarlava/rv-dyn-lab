@@ -754,8 +754,8 @@
     "maintenance": {
       "setupVisible": true,
       "label": {
-        "original": "Maintenance Schedule",
-        "singular": "Maintenance Schedule",
+        "original": "维护计划",
+        "singular": "维护计划",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -763,22 +763,22 @@
       "sections": {
         "setupVisible": true,
         "sec0": {
-          "original": "Maintenance Details",
-          "singular": "Maintenance Details",
+          "original": "维护详情",
+          "singular": "维护详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec1": {
-          "original": "Maintenance Template",
-          "singular": "Maintenance Template",
+          "original": "维护模板",
+          "singular": "维护模板",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Preventative Maintenance",
-          "singular": "Preventative Maintenances",
+          "original": "预防性维护",
+          "singular": "预防性维护",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -801,15 +801,15 @@
           "setupVisible": true
         },
         "startDate": {
-          "original": "Tarikh Mula",
-          "singular": "Tarikh Mula",
+          "original": "开始日期",
+          "singular": "开始日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "endDate": {
-          "original": "Tarikh Tamat",
-          "singular": "Tarikh Tamat",
+          "original": "结束日期",
+          "singular": "结束日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -822,85 +822,85 @@
           "setupVisible": true
         },
         "maintenanceTemplate": {
-          "original": "Maintenance Template",
-          "singular": "Maintenance Template",
+          "original": "维护计划",
+          "singular": "维护计划",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sendInitialReminder": {
-          "original": "Send Initial Reminder (Days Before)",
-          "singular": "Send Initial Reminder (Days Before)",
+          "original": "发送初始提醒（提前几天）",
+          "singular": "发送初始提醒（提前几天）",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "followUpReminder": {
-          "original": "Follow Up Reminder (Days Before)",
-          "singular": "Follow Up Reminder (Days Before)",
+          "original": "后续提醒（提前几天）",
+          "singular": "后续提醒（提前几天）",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sendOverdueReminder": {
-          "original": "Send Overdue Reminder (Days After)",
-          "singular": "Send Overdue Reminder (Days After)",
+          "original": "发送逾期提醒（几天后）",
+          "singular": "发送逾期提醒（几天后）",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "generateNextMaintenance": {
-          "original": "Generate Next Maintenance",
-          "singular": "Generate Next Maintenance",
+          "original": "生成下一个维护",
+          "singular": "生成下一个维护",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "generateAllMaintenanceNow": {
-          "original": "Generate All Maintenance Now",
-          "singular": "Generate All Maintenance Now",
+          "original": "立即生成所有维护",
+          "singular": "立即生成所有维护",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "onlyUponPreviousCompletion": {
-          "original": "Only Upon Previous Completion",
-          "singular": "Only Upon Previous Completion",
+          "original": "仅在前一个完成后",
+          "singular": "仅在前一个完成后",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "autoCreateJobOrder": {
-          "original": "Automatically Generate Job Order",
-          "singular": "Automatically Generate Job Order",
+          "original": "自动生成工作订单",
+          "singular": "自动生成工作订单",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "initialReminder": {
-          "original": "Initial Reminder (Days Before)",
-          "singular": "Initial Reminder (Days Before)",
+          "original": "初始提醒（提前几天）",
+          "singular": "初始提醒（提前几天）",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "overdueReminder": {
-          "original": "Overdue Reminder (Days After)",
-          "singular": "Overdue Reminder (Days After)",
+          "original": "逾期提醒（几天后）",
+          "singular": "逾期提醒（几天后）",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "nextServiceDate": {
-          "original": "Next Service Date",
-          "singular": "Next Service Date",
+          "original": "下次服务日期",
+          "singular": "下次服务日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "nextServiceType": {
-          "original": "Next Service Type",
-          "singular": "Next Service Type",
+          "original": "下一个服务类型",
+          "singular": "下一个服务类型",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -918,30 +918,30 @@
       "tooltips": {
         "setupVisible": true,
         "preventiveMaintenance": {
-          "original": "This is the timeframe in which the maintenance will be active",
-          "singular": "This is the timeframe in which the maintenance will be active",
+          "original": "这是维护活动的时间范围",
+          "singular": "这是维护活动的时间范围",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "maintenanceLookup": {
-          "original": "Maintenance Lookup",
-          "singular": "Maintenance Lookup",
+          "original": "查找维护",
+          "singular": "查找维护",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
       },
       "messages": {
-        "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
+        "maintenanceAppliesToAllContractAssets": "此维护将适用于本合同内的所有资产"
       }
     },
     "preventiveMaintenance": {
       "setupVisible": true,
       "label": {
-        "original": "Preventive Maintenance",
-        "singular": "Preventive Maintenance",
-        "plural": "Preventive Maintenances",
+        "original": "预防性维护",
+        "singular": "预防性维护",
+        "plural": "预防性维护",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -955,15 +955,15 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Maintenance Template",
-          "singular": "Maintenance Template",
+          "original": "维护模板",
+          "singular": "维护模板",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Maintenance Details",
-          "singular": "Maintenance Details",
+          "original": "保养详情",
+          "singular": "保养详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -986,50 +986,50 @@
       "fields": {
         "setupVisible": true,
         "actualCompletionDate": {
-          "original": "Actual Completion Date",
-          "singular": "Actual Completion Date",
+          "original": "实际完成日期",
+          "singular": "实际完成日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "maintenance": {
-          "original": "Maintenance",
-          "singular": "Maintenance",
+          "original": "维护",
+          "singular": "维护",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "generateJobOrder": {
-          "original": "Generate Job Order",
-          "singular": "Generate Job Order",
+          "original": "生成工作订单",
+          "singular": "生成工作订单",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "maintenanceFrequency": {
-          "original": "Maintenance Frequency",
-          "singular": "Maintenance Frequency",
+          "original": "维护频率",
+          "singular": "维护频率",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "maintenanceTemplate": {
-          "original": "Maintenance Template",
-          "singular": "Maintenance Template",
+          "original": "维护模板",
+          "singular": "维护模板",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "maintenanceDate": {
-          "original": "Maintenance Date",
-          "singular": "Maintenance Date",
+          "original": "维护日期",
+          "singular": "维护日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assignedUser": {
-          "original": "Assigned User",
-          "singular": "Assigned User",
+          "original": "指派用户",
+          "singular": "指派用户",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1042,15 +1042,15 @@
           "setupVisible": true
         },
         "maintenanceDateRange": {
-          "original": "Maintenance Date Range",
-          "singular": "Maintenance Date Range",
+          "original": "维护日期范围",
+          "singular": "维护日期范围",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "preventativeMaintenanceNo": {
-          "original": "Preventative Maintenance No",
-          "singular": "Preventative Maintenance No",
+          "original": "预防性维护编号",
+          "singular": "预防性维护编号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1068,8 +1068,8 @@
       "tooltips": {
         "setupVisible": true,
         "preventiveMaintenanceLookup": {
-          "original": "Preventive Maintenance Lookup",
-          "singular": "Preventive Maintenance Lookup",
+          "original": "预防性维护查找",
+          "singular": "预防性维护查找",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1082,6 +1082,7 @@
     "contracts": {
       "setupVisible": true,
       "label": {
+        "original": "Contract",
         "singular": "Contract",
         "plural": "Contracts",
         "setupEdit": true,
@@ -1940,8 +1941,8 @@
           "setupVisible": true
         },
         "assignedUsers": {
-          "original": "Assigned User",
-          "singular": "Assigned User",
+          "original": "指派用户",
+          "singular": "指派用户",
           "plural": "Assigned Users",
           "setupEdit": true,
           "setupVisible": true
@@ -10888,9 +10889,9 @@
         "preventiveMaintenance": {
           "setupVisible": true,
           "label": {
-            "original": "Preventive Maintenance",
-            "singular": "Preventive Maintenance",
-            "plural": "Preventive Maintenances",
+            "original": "预防性维护",
+            "singular": "预防性维护",
+            "plural": "预防性维护",
             "setupEdit": true,
             "setupVisible": true
           },
@@ -10949,22 +10950,22 @@
               "setupVisible": true
             },
             "sendInitialReminder": {
-              "original": "Send Initial Reminder (Days Before)",
-              "singular": "Send Initial Reminder (Days Before)",
+              "original": "发送初始提醒（提前几天）",
+              "singular": "发送初始提醒（提前几天）",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
             "sendOverdueReminder": {
-              "original": "Send Overdue Reminder (Days After)",
-              "singular": "Send Overdue Reminder (Days After)",
+              "original": "发送逾期提醒（几天后）",
+              "singular": "发送逾期提醒（几天后）",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
             "followUpReminder": {
-              "original": "Follow Up Reminder (Days Before)",
-              "singular": "Follow Up Reminder (Days Before)",
+              "original": "后续提醒（提前几天）",
+              "singular": "后续提醒（提前几天）",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true

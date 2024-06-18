@@ -3757,6 +3757,7 @@
           "setupEdit": true,
           "setupVisible": true
         },
+        
         "sec13": {
           "original": "Fault Module",
           "singular": "Fault Module",
@@ -3908,6 +3909,13 @@
           "original": "Forms",
           "singular": "Form",
           "plural": "Forms",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec35": {
+          "original": "Fault and Resolution",
+          "singular": "Fault and Resolution",
+          "plural": "Fault and Resolution",
           "setupEdit": true,
           "setupVisible": true
         }

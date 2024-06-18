@@ -1296,9 +1296,9 @@
     "checklist": {
       "setupVisible": true,
       "label": {
-        "original": "Checklist",
-        "singular": "Checklist",
-        "plural": "Checklists",
+        "original": "Senarai Semak",
+        "singular": "Senarai Semak",
+        "plural": "Senarai Semak",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -1312,36 +1312,36 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Checklist Details",
-          "singular": "Checklist Details",
+          "original": "Butiran Senarai Semak",
+          "singular": "Butiran Senarai Semak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Select the checklist you'd like to generate for this Asset",
-          "singular": "Select the checklist you'd like to generate for this Asset",
+          "original": "Pilih senarai semak yang anda ingin hasilkan untuk Aset ini",
+          "singular": "Pilih senarai semak yang anda ingin hasilkan untuk Aset ini",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec3": {
-          "original": "Updating the Asset within Checklist",
-          "singular": "Updating the Asset within Checklist",
+          "original": "Mengemas kini Aset dalam Senarai Semak",
+          "singular": "Mengemas kini Aset dalam Senarai Semak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec4": {
-          "original": "Update the status of",
-          "singular": "Update the status of",
+          "original": "Kemas kini status",
+          "singular": "Kemas kini status",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec5": {
-          "original": "Asset Summary",
-          "singular": "Asset Summary",
+          "original": "Ringkasan Aset",
+          "singular": "Ringkasan Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1364,15 +1364,15 @@
       "fields": {
         "setupVisible": true,
         "dateRange": {
-          "original": "Date Range",
-          "singular": "Date Range",
+          "original": "Julat Tarikh",
+          "singular": "Julat Tarikh",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assetType": {
-          "original": "Asset Type",
-          "singular": "Asset Type",
+          "original": "Jenis Aset",
+          "singular": "Jenis Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1385,15 +1385,15 @@
           "setupVisible": true
         },
         "checklistNo": {
-          "original": "Checklist No",
-          "singular": "Checklist No",
+          "original": "No Senarai Semak",
+          "singular": "No Senarai Semak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "checklistName": {
-          "original": "Checklist Name",
-          "singular": "Checklist Name",
+          "original": "Nama Senarai Semak",
+          "singular": "Nama Senarai Semak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1406,50 +1406,50 @@
           "setupVisible": true
         },
         "equipmentMeterReading": {
-          "original": "Equipment Meter Reading",
-          "singular": "Equipment Meter Reading",
+          "original": "Bacaan Meter Peralatan",
+          "singular": "Bacaan Meter Peralatan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "initiateFollowUpChecklist": {
-          "original": "Follow-Up Checklist",
-          "singular": "Follow-Up Checklist",
+          "original": "Senarai Semak Susulan",
+          "singular": "Senarai Semak Susulan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "questions": {
-          "original": "Question",
-          "singular": "Question",
-          "plural": "Questions",
+          "original": "Soalan",
+          "singular": "Soalan",
+          "plural": "Soalan",
           "setupEdit": true,
           "setupVisible": true
         },
         "selectAsset": {
-          "original": "Select Asset",
-          "singular": "Select Asset",
+          "original": "Pilih Aset",
+          "singular": "Pilih Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "selectChecklistToGenerate": {
-          "original": "Select the checklist you'd like to generate for this Asset",
-          "singular": "Select the checklist you'd like to generate for this Asset",
+          "original": "Pilih senarai semak yang anda ingin hasilkan untuk Aset ini",
+          "singular": "Pilih senarai semak yang anda ingin hasilkan untuk Aset ini",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "selectOne": {
-          "original": "Select one",
-          "singular": "Select one",
+          "original": "Pilih Satu",
+          "singular": "Pilih Satu",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "serviceZone": {
-          "original": "Service Zone",
-          "singular": "Service Zone",
+          "original": "Zon Perkhidmatan",
+          "singular": "Zon Perkhidmatan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1473,8 +1473,8 @@
       "tooltips": {
         "setupVisible": true,
         "checklistLookup": {
-          "original": "Checklist Lookup",
-          "singular": "Checklist Lookup",
+          "original": "Pencarian Senarai Semak",
+          "singular": "Pencarian Senarai Semak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3520,8 +3520,8 @@
           "setupVisible": true
         },
         "dateRange": {
-          "original": "Date Range",
-          "singular": "Date Range",
+          "original": "Julat Tarikh",
+          "singular": "Julat Tarikh",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -7359,8 +7359,8 @@
       "serviceZone": {
         "setupVisible": true,
         "label": {
-          "original": "Service Zone",
-          "singular": "Service Zone",
+          "original": "Zon Perkhidmatan",
+          "singular": "Zon Perkhidmatan",
           "plural": "Service Zones",
           "setupEdit": true,
           "setupVisible": true
@@ -11131,24 +11131,24 @@
       "checklist": {
         "setupVisible": true,
         "label": {
-          "original": "Checklists",
-          "singular": "Checklist",
-          "plural": "Checklists",
+          "original": "Senarai Semak",
+          "singular": "Senarai Semak",
+          "plural": "Senarai Semak",
           "setupEdit": true,
           "setupVisible": true
         },
         "sections": {
           "setupVisible": true,
           "sec0": {
-            "original": "Checklist Details",
-            "singular": "Checklist Details",
+            "original": "Butiran Senarai Semak",
+            "singular": "Butiran Senarai Semak",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
           },
           "sec1": {
-            "original": "Updating the Asset within Checklist",
-            "singular": "Updating the Asset within Checklist",
+            "original": "Mengemas kini Aset dalam Senarai Semak",
+            "singular": "Mengemas kini Aset dalam Senarai Semak",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11161,8 +11161,8 @@
             "setupVisible": true
           },
           "sec3": {
-            "original": "Follow-Up Checklist",
-            "singular": "Follow-Up Checklist",
+            "original": "Senarai Semak Susulan",
+            "singular": "Senarai Semak Susulan",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11290,15 +11290,15 @@
             "setupVisible": true
           },
           "assetType": {
-            "original": "Asset Type",
-            "singular": "Asset Type",
+            "original": "Jenis Aset",
+            "singular": "Jenis Aset",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
           },
           "serviceZone": {
-            "original": "Service Zone",
-            "singular": "Service Zone",
+            "original": "Zon Perkhidmatan",
+            "singular": "Zon Perkhidmatan",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11356,15 +11356,15 @@
           "selectAssetTypes": "Select Asset Types",
           "selectServiceZone": "Select Service Zone",
           "selectEquipmentType": "Select Equipment Type",
-          "checklistName": "Checklist Name"
+          "checklistName": "Nama Senarai Semak"
         }
       },
       "question": {
         "setupVisible": true,
         "label": {
-          "original": "Question",
-          "singular": "Question",
-          "plural": "Questions",
+          "original": "Soalan",
+          "singular": "Soalan",
+          "plural": "Soalan",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -12693,8 +12693,8 @@
             "setupVisible": true
           },
           "dateRange": {
-            "original": "Date Range",
-            "singular": "Date Range",
+            "original": "Julat Tarikh",
+            "singular": "Julat Tarikh",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true

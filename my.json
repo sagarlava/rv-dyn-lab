@@ -56,9 +56,9 @@
       "fields": {
         "setupVisible": true,
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -260,7 +260,8 @@
       "messages": {
         "technicianOnRoute": "Ada pengguna sedang menuju ke tugasan ini",
         "addressNotFallGeoFence": "Alamat ini tidak termasuk dalam mana-mana Pagar Geofence anda.",
-        "deleteMessage": "Dengan memadam pelanggan ini, anda juga akan memadamkan semua maklumat berkaitan seperti pesanan, kenalan, dan data lain yang berkaitan. Tindakan ini tidak boleh dibatalkan. Adakah anda ingin meneruskan?"
+        "deleteMessage": "Dengan memadam pelanggan ini, anda juga akan memadamkan semua maklumat berkaitan seperti pesanan, kenalan, dan data lain yang berkaitan. Tindakan ini tidak boleh dibatalkan. Adakah anda ingin meneruskan?",
+        "selectGeofences": "Pilih Geofence"
       }
     },
     "asset": {
@@ -390,9 +391,9 @@
       "fields": {
         "setupVisible": true,
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -544,8 +545,8 @@
           "setupVisible": true
         },
         "makeModel": {
-          "original": "Make/Model",
-          "singular": "Make/Model",
+          "original": "Jenama/Model",
+          "singular": "Jenama/Model",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1035,9 +1036,9 @@
           "setupVisible": true
         },
         "types": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -1295,9 +1296,9 @@
     "checklist": {
       "setupVisible": true,
       "label": {
-        "original": "Checklist",
-        "singular": "Checklist",
-        "plural": "Checklists",
+        "original": "Senarai Semak",
+        "singular": "Senarai Semak",
+        "plural": "Senarai Semak",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -1311,36 +1312,36 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Checklist Details",
-          "singular": "Checklist Details",
+          "original": "Butiran Senarai Semak",
+          "singular": "Butiran Senarai Semak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Select the checklist you'd like to generate for this Asset",
-          "singular": "Select the checklist you'd like to generate for this Asset",
+          "original": "Pilih senarai semak yang anda ingin hasilkan untuk Aset ini",
+          "singular": "Pilih senarai semak yang anda ingin hasilkan untuk Aset ini",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec3": {
-          "original": "Updating the Asset within Checklist",
-          "singular": "Updating the Asset within Checklist",
+          "original": "Mengemas kini Aset dalam Senarai Semak",
+          "singular": "Mengemas kini Aset dalam Senarai Semak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec4": {
-          "original": "Update the status of",
-          "singular": "Update the status of",
+          "original": "Kemas kini status",
+          "singular": "Kemas kini status",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec5": {
-          "original": "Asset Summary",
-          "singular": "Asset Summary",
+          "original": "Ringkasan Aset",
+          "singular": "Ringkasan Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1363,15 +1364,15 @@
       "fields": {
         "setupVisible": true,
         "dateRange": {
-          "original": "Date Range",
-          "singular": "Date Range",
+          "original": "Julat Tarikh",
+          "singular": "Julat Tarikh",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assetType": {
-          "original": "Asset Type",
-          "singular": "Asset Type",
+          "original": "Jenis Aset",
+          "singular": "Jenis Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1384,15 +1385,15 @@
           "setupVisible": true
         },
         "checklistNo": {
-          "original": "Checklist No",
-          "singular": "Checklist No",
+          "original": "No Senarai Semak",
+          "singular": "No Senarai Semak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "checklistName": {
-          "original": "Checklist Name",
-          "singular": "Checklist Name",
+          "original": "Nama Senarai Semak",
+          "singular": "Nama Senarai Semak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1405,50 +1406,50 @@
           "setupVisible": true
         },
         "equipmentMeterReading": {
-          "original": "Equipment Meter Reading",
-          "singular": "Equipment Meter Reading",
+          "original": "Bacaan Meter Peralatan",
+          "singular": "Bacaan Meter Peralatan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "initiateFollowUpChecklist": {
-          "original": "Follow-Up Checklist",
-          "singular": "Follow-Up Checklist",
+          "original": "Senarai Semak Susulan",
+          "singular": "Senarai Semak Susulan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "questions": {
-          "original": "Question",
-          "singular": "Question",
-          "plural": "Questions",
+          "original": "Soalan",
+          "singular": "Soalan",
+          "plural": "Soalan",
           "setupEdit": true,
           "setupVisible": true
         },
         "selectAsset": {
-          "original": "Select Asset",
-          "singular": "Select Asset",
+          "original": "Pilih Aset",
+          "singular": "Pilih Aset",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "selectChecklistToGenerate": {
-          "original": "Select the checklist you'd like to generate for this Asset",
-          "singular": "Select the checklist you'd like to generate for this Asset",
+          "original": "Pilih senarai semak yang anda ingin hasilkan untuk Aset ini",
+          "singular": "Pilih senarai semak yang anda ingin hasilkan untuk Aset ini",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "selectOne": {
-          "original": "Select one",
-          "singular": "Select one",
+          "original": "Pilih Satu",
+          "singular": "Pilih Satu",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "serviceZone": {
-          "original": "Service Zone",
-          "singular": "Service Zone",
+          "original": "Zon Perkhidmatan",
+          "singular": "Zon Perkhidmatan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1472,8 +1473,8 @@
       "tooltips": {
         "setupVisible": true,
         "checklistLookup": {
-          "original": "Checklist Lookup",
-          "singular": "Checklist Lookup",
+          "original": "Pencarian Senarai Semak",
+          "singular": "Pencarian Senarai Semak",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1502,15 +1503,15 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Manufacturer Details",
-          "singular": "Manufacturer Details",
+          "original": "Butiran Pengilang",
+          "singular": "Butiran Pengilang",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Price Details",
-          "singular": "Price Details",
+          "original": "Butiran Harga",
+          "singular": "Butiran Harga",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1530,15 +1531,15 @@
           "setupVisible": true
         },
         "sec5": {
-          "original": "Adjust Inventory",
-          "singular": "Adjust Inventory",
+          "original": "Laras Inventori",
+          "singular": "Laras Inventori",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec6": {
-          "original": "Check availability",
-          "singular": "Check availability",
+          "original": "Semak Ketersediaan",
+          "singular": "Semak Ketersediaan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1575,29 +1576,29 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
         "productFamily": {
-          "original": "Product Family",
-          "singular": "Product Family",
+          "original": "Keluarga Produk",
+          "singular": "Keluarga Produk",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "warrantyPeriod": {
-          "original": "Warranty Period",
-          "singular": "Warranty Period",
+          "original": "Tempoh Waranti",
+          "singular": "Tempoh Waranti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "unitMeasurement": {
-          "original": "Unit of Measurement",
-          "singular": "Unit of Measurement",
+          "original": "Unit Pengukuran",
+          "singular": "Unit Pengukuran",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1610,8 +1611,8 @@
           "setupVisible": true
         },
         "makeModel": {
-          "original": "Make/Model",
-          "singular": "Make/Model",
+          "original": "Jenama/Model",
+          "singular": "Jenama/Model",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1624,22 +1625,22 @@
           "setupVisible": true
         },
         "manufacturerYear": {
-          "original": "Manufacturer Year",
-          "singular": "Manufacturer Year",
+          "original": "Tahun Pengilangan",
+          "singular": "Tahun Pengilangan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "unitPrice": {
-          "original": "Unit Price",
-          "singular": "Unit Price",
+          "original": "Harga Seunit",
+          "singular": "Harga Seunit",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "taxIncluded": {
-          "original": "Tax Included",
-          "singular": "Tax Included",
+          "original": "Termasuk Cukai",
+          "singular": "Termasuk Cukai",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1652,29 +1653,29 @@
           "setupVisible": true
         },
         "remarks": {
-          "original": "Remark",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "original": "Catatan",
+          "singular": "Catatan",
+          "plural": "Catatan",
           "setupEdit": true,
           "setupVisible": true
         },
         "monthS": {
-          "original": "Month(s)",
-          "singular": "Month(s)",
+          "original": "Bulan",
+          "singular": "Bulan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "productName": {
-          "original": "Product Name",
-          "singular": "Product Name",
+          "original": "Nama Produk",
+          "singular": "Nama Produk",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "productType": {
-          "original": "Product Type",
-          "singular": "Product Type",
+          "original": "Jenis Produk",
+          "singular": "Jenis Produk",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1687,16 +1688,16 @@
           "setupVisible": true
         },
         "warranty": {
-          "original": "Warranty",
-          "singular": "Warranty",
+          "original": "Waranti",
+          "singular": "Waranti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "user": {
-          "original": "User",
-          "singular": "User",
-          "plural": "Users",
+          "original": "Pengguna",
+          "singular": "Pengguna",
+          "plural": "Pengguna",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -1712,8 +1713,8 @@
       "tooltips": {
         "setupVisible": true,
         "siteLookup": {
-          "original": "Product Lookup",
-          "singular": "Product Lookup",
+          "original": "Carian Produk",
+          "singular": "Carian Produk",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2613,9 +2614,9 @@
           "setupVisible": true
         },
         "user": {
-          "original": "User",
-          "singular": "User",
-          "plural": "Users",
+          "original": "Pengguna",
+          "singular": "Pengguna",
+          "plural": "Pengguna",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -2792,9 +2793,9 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -2976,8 +2977,8 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
+          "original": "Jenis",
+          "singular": "Jenis",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3209,9 +3210,9 @@
           "setupVisible": true
         },
         "remarks": {
-          "original": "Remark",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "original": "Catatan",
+          "singular": "Catatan",
+          "plural": "Catatan",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -3237,9 +3238,9 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -3400,9 +3401,9 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -3519,8 +3520,8 @@
           "setupVisible": true
         },
         "dateRange": {
-          "original": "Date Range",
-          "singular": "Date Range",
+          "original": "Julat Tarikh",
+          "singular": "Julat Tarikh",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3941,9 +3942,9 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "Jenis",
+          "singular": "Jenis",
+          "plural": "Jenis",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -5010,9 +5011,9 @@
           "setupVisible": true
         },
         "remarks": {
-          "original": "Remark",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "original": "Catatan",
+          "singular": "Catatan",
+          "plural": "Catatan",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -5472,8 +5473,8 @@
           "setupVisible": true
         },
         "unitPrice": {
-          "original": "Unit Price",
-          "singular": "Unit Price",
+          "original": "Harga Seunit",
+          "singular": "Harga Seunit",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -5500,9 +5501,9 @@
           "setupVisible": true
         },
         "user": {
-          "original": "User",
-          "singular": "User",
-          "plural": "Users",
+          "original": "Pengguna",
+          "singular": "Pengguna",
+          "plural": "Pengguna",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -6218,8 +6219,8 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
+          "original": "Jenis",
+          "singular": "Jenis",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6260,9 +6261,9 @@
           "setupVisible": true
         },
         "remarks": {
-          "original": "Remarks",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "original": "Catatan",
+          "singular": "Catatan",
+          "plural": "Catatan",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -6342,6 +6343,13 @@
         "contactName": {
           "original": "Contact Name",
           "singular": "Contact Name",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "type": {
+          "original": "Contact Type",
+          "singular": "Contact Type",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6856,8 +6864,8 @@
           "setupVisible": true
         },
         "checkAvailability": {
-          "original": "Check availability",
-          "singular": "Check availability",
+          "original": "Semak Ketersediaan",
+          "singular": "Semak Ketersediaan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -7255,7 +7263,12 @@
         "radius": "Radius",
         "officeAddressIsNotSet":"Office Address is not set",
         "homeAddressIsNotSet":"Home Address is not set",
-        "currentAddressIsNotResolvedYet":"Current address is not resolved yet!"
+        "currentAddressIsNotResolvedYet":"Current address is not resolved yet!",
+        "selectItem": {
+          "singular": "Pilih Item",
+          "plural": "Pilih Item"
+        },
+        "noLocationsToDisplay":"No locations to display"
       },
       "map": {
         "setupVisible": true,
@@ -7346,8 +7359,8 @@
       "serviceZone": {
         "setupVisible": true,
         "label": {
-          "original": "Service Zone",
-          "singular": "Service Zone",
+          "original": "Zon Perkhidmatan",
+          "singular": "Zon Perkhidmatan",
           "plural": "Service Zones",
           "setupEdit": true,
           "setupVisible": true
@@ -8503,9 +8516,9 @@
               "setupVisible": true
             },
             "users": {
-              "original": "Users",
-              "singular": "User",
-              "plural": "Users",
+              "original": "Pengguna",
+              "singular": "Pengguna",
+              "plural": "Pengguna",
               "setupEdit": true,
               "setupVisible": true
             },
@@ -8538,9 +8551,9 @@
         "users": {
           "setupVisible": true,
           "label": {
-            "original": "Users",
-            "singular": "User",
-            "plural": "Users",
+            "original": "Pengguna",
+            "singular": "Pengguna",
+            "plural": "Pengguna",
             "setupEdit": true,
             "setupVisible": true
           },
@@ -8753,9 +8766,9 @@
               "setupVisible": true
             },
             "users": {
-              "original": "Users",
-              "singular": "User",
-              "plural": "Users",
+              "original": "Pengguna",
+              "singular": "Pengguna",
+              "plural": "Pengguna",
               "setupEdit": true,
               "setupVisible": true
             },
@@ -9026,8 +9039,8 @@
               "setupVisible": true
             },
             "type": {
-              "original": "Type",
-              "singular": "Type",
+              "original": "Jenis",
+              "singular": "Jenis",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9379,8 +9392,8 @@
               "setupVisible": true
             },
             "sec13": {
-              "original": "Users",
-              "singular": "Users",
+              "original": "Pengguna",
+              "singular": "Pengguna",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9468,9 +9481,9 @@
           "type": {
             "setupVisible": true,
             "label": {
-              "original": "Type",
-              "singular": "Type",
-              "plural": "Types",
+              "original": "Jenis",
+              "singular": "Jenis",
+              "plural": "Jenis",
               "setupEdit": true,
               "setupVisible": true
             },
@@ -10453,8 +10466,8 @@
                 "setupVisible": true
               },
               "user": {
-                "original": "User",
-                "singular": "User",
+                "original": "Pengguna",
+                "singular": "Pengguna",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10729,8 +10742,8 @@
               "setupVisible": true
             },
             "type": {
-              "original": "Type",
-              "singular": "Type",
+              "original": "Jenis",
+              "singular": "Jenis",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -10943,8 +10956,8 @@
               "setupVisible": true
             },
             "user": {
-              "original": "User",
-              "singular": "User",
+              "original": "Pengguna",
+              "singular": "Pengguna",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11118,24 +11131,24 @@
       "checklist": {
         "setupVisible": true,
         "label": {
-          "original": "Checklists",
-          "singular": "Checklist",
-          "plural": "Checklists",
+          "original": "Senarai Semak",
+          "singular": "Senarai Semak",
+          "plural": "Senarai Semak",
           "setupEdit": true,
           "setupVisible": true
         },
         "sections": {
           "setupVisible": true,
           "sec0": {
-            "original": "Checklist Details",
-            "singular": "Checklist Details",
+            "original": "Butiran Senarai Semak",
+            "singular": "Butiran Senarai Semak",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
           },
           "sec1": {
-            "original": "Updating the Asset within Checklist",
-            "singular": "Updating the Asset within Checklist",
+            "original": "Mengemas kini Aset dalam Senarai Semak",
+            "singular": "Mengemas kini Aset dalam Senarai Semak",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11148,8 +11161,8 @@
             "setupVisible": true
           },
           "sec3": {
-            "original": "Follow-Up Checklist",
-            "singular": "Follow-Up Checklist",
+            "original": "Senarai Semak Susulan",
+            "singular": "Senarai Semak Susulan",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11270,22 +11283,22 @@
             "setupVisible": true
           },
           "type": {
-            "original": "Type",
-            "singular": "Type",
+            "original": "Jenis",
+            "singular": "Jenis",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
           },
           "assetType": {
-            "original": "Asset Type",
-            "singular": "Asset Type",
+            "original": "Jenis Aset",
+            "singular": "Jenis Aset",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
           },
           "serviceZone": {
-            "original": "Service Zone",
-            "singular": "Service Zone",
+            "original": "Zon Perkhidmatan",
+            "singular": "Zon Perkhidmatan",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11343,15 +11356,15 @@
           "selectAssetTypes": "Select Asset Types",
           "selectServiceZone": "Select Service Zone",
           "selectEquipmentType": "Select Equipment Type",
-          "checklistName": "Checklist Name"
+          "checklistName": "Nama Senarai Semak"
         }
       },
       "question": {
         "setupVisible": true,
         "label": {
-          "original": "Question",
-          "singular": "Question",
-          "plural": "Questions",
+          "original": "Soalan",
+          "singular": "Soalan",
+          "plural": "Soalan",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -11665,8 +11678,8 @@
               "setupVisible": true
             },
             "type": {
-              "original": "Type",
-              "singular": "Type",
+              "original": "Jenis",
+              "singular": "Jenis",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11923,8 +11936,8 @@
               "setupVisible": true
             },
             "type": {
-              "original": "Type",
-              "singular": "Type",
+              "original": "Jenis",
+              "singular": "Jenis",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -12063,8 +12076,8 @@
               "setupVisible": true
             },
             "user": {
-              "original": "User",
-              "singular": "User",
+              "original": "Pengguna",
+              "singular": "Pengguna",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -12441,8 +12454,8 @@
         "fields": {
           "setupVisible": true,
           "type": {
-            "original": "Type",
-            "singular": "Type",
+            "original": "Jenis",
+            "singular": "Jenis",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -12680,8 +12693,8 @@
             "setupVisible": true
           },
           "dateRange": {
-            "original": "Date Range",
-            "singular": "Date Range",
+            "original": "Julat Tarikh",
+            "singular": "Julat Tarikh",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -12715,9 +12728,9 @@
             "setupVisible": true
           },
           "remarks": {
-            "original": "Remarks",
-            "singular": "Remark",
-            "plural": "Remarks",
+            "original": "Catatan",
+            "singular": "Catatan",
+            "plural": "Catatan",
             "setupEdit": true,
             "setupVisible": true
           },

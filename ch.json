@@ -56,9 +56,9 @@
       "fields": {
         "setupVisible": true,
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "类型",
+          "singular": "类型",
+          "plural": "类型",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -260,7 +260,8 @@
       "messages": {
         "technicianOnRoute": "正在前往此任务的用户。",
         "addressNotFallGeoFence": "此地址不包含在您的任何地理围栏中。",
-        "deleteMessage": "删除此客户，您还将删除所有相关信息，如订单、联系人和其他相关数据。此操作无法撤消。您确定要继续吗？"
+        "deleteMessage": "删除此客户，您还将删除所有相关信息，如订单、联系人和其他相关数据。此操作无法撤消。您确定要继续吗？",
+        "selectGeofences": "选择地理围栏"
       }
     },
     "asset": {
@@ -390,9 +391,9 @@
       "fields": {
         "setupVisible": true,
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "类型",
+          "singular": "类型",
+          "plural": "类型",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -544,8 +545,8 @@
           "setupVisible": true
         },
         "makeModel": {
-          "original": "Make/Model",
-          "singular": "Make/Model",
+          "original": "品牌/型号",
+          "singular": "品牌/型号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -815,8 +816,8 @@
           "setupVisible": true
         },
         "assetStatus": {
-          "original": "Asset Status",
-          "singular": "Asset Status",
+          "original": "资产状态",
+          "singular": "资产状态",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1035,9 +1036,9 @@
           "setupVisible": true
         },
         "types": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "类型",
+          "singular": "类型",
+          "plural": "类型",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -1082,9 +1083,9 @@
     "contracts": {
       "setupVisible": true,
       "label": {
-        "original": "Contract",
-        "singular": "Contract",
-        "plural": "Contracts",
+        "original": "合同",
+        "singular": "合同",
+        "plural": "合同",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -1098,29 +1099,29 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Contract Details",
-          "singular": "Contract Details",
+          "original": "合同详情",
+          "singular": "合同详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec4": {
-          "original": "Select an asset to be added to the contract",
-          "singular": "Select an asset to be added to the contract",
+          "original": "选择要添加到合同的资产",
+          "singular": "选择要添加到合同的资产",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec5": {
-          "original": "Select an accessory to be added to the contract",
-          "singular": "Select an asset to be added to the contract",
+          "original": "选择要添加到合同的附件",
+          "singular": "选择要添加到合同的附件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec6": {
-          "original": "Select Bin to transfer from",
-          "singular": "Select Bin to transfer from",
+          "original": "选择要转出的箱子",
+          "singular": "选择要转出的箱子",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1150,57 +1151,57 @@
           "setupVisible": true
         },
         "custodian": {
-          "original": "Penjaga",
-          "singular": "Penjaga",
+          "original": "管理员",
+          "singular": "管理员",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "startDate": {
-          "original": "Tarikh Mula",
-          "singular": "Tarikh Mula",
+          "original": "开始日期",
+          "singular": "开始日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "endDate": {
-          "original": "Tarikh Tamat",
-          "singular": "Tarikh Tamat",
+          "original": "结束日期",
+          "singular": "结束日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "refNo": {
-          "original": "Nombor Rujukan",
-          "singular": "Nombor Rujukan",
+          "original": "参考编号",
+          "singular": "参考编号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assetName": {
-          "original": "Asset Name",
-          "singular": "Asset Name",
+          "original": "资产名称",
+          "singular": "资产名称",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assetCode": {
-          "original": "Asset Code",
-          "singular": "Asset Code",
+          "original": "资产编码",
+          "singular": "资产编码",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "accessoryName": {
-          "original": "Accessory Name",
-          "singular": "Accessory Name",
+          "original": "附件名称",
+          "singular": "附件名称",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "accessoryCode": {
-          "original": "Accessory Code",
-          "singular": "Accessory Code",
+          "original": "附件编码",
+          "singular": "附件编码",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1227,43 +1228,43 @@
           "setupVisible": true
         },
         "available": {
-          "original": "Available",
-          "singular": "Available",
+          "original": "可用",
+          "singular": "可用",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "qty": {
-          "original": "Qty",
-          "singular": "Qty",
+          "original": "数量",
+          "singular": "数量",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "quantity": {
-          "original": "Quantity",
-          "singular": "Quantity",
+          "original": "数量",
+          "singular": "数量",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "returnQty": {
-          "original": "Return Quantity",
-          "singular": "Return Quantity",
+          "original": "退还数量",
+          "singular": "退还数量",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "updateInventory": {
-          "original": "Update Inventory",
-          "singular": "Update Inventory",
+          "original": "更新库存",
+          "singular": "更新库存",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "active": {
-          "original": "Active",
-          "singular": "Active",
+          "original": "活跃",
+          "singular": "活跃",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1281,8 +1282,8 @@
       "tooltips": {
         "setupVisible": true,
         "contractookup": {
-          "original": "Contracts Lookup",
-          "singular": "Contracts Lookup",
+          "original": "合同查询",
+          "singular": "合同查询",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1295,9 +1296,9 @@
     "checklist": {
       "setupVisible": true,
       "label": {
-        "original": "Checklist",
-        "singular": "Checklist",
-        "plural": "Checklists",
+        "original": "检查清单",
+        "singular": "检查清单",
+        "plural": "检查清单",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -1311,36 +1312,36 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Checklist Details",
-          "singular": "Checklist Details",
+          "original":  "检查清单详情",
+          "singular":  "检查清单详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Select the checklist you'd like to generate for this Asset",
-          "singular": "Select the checklist you'd like to generate for this Asset",
+          "original": "选择要为此资产生成的检查清单",
+          "singular": "选择要为此资产生成的检查清单",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec3": {
-          "original": "Updating the Asset within Checklist",
-          "singular": "Updating the Asset within Checklist",
+          "original": "更新检查清单中的资产",
+          "singular": "更新检查清单中的资产",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec4": {
-          "original": "Update the status of",
-          "singular": "Update the status of",
+          "original": "更新状态",
+          "singular": "更新状态",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec5": {
-          "original": "Asset Summary",
-          "singular": "Asset Summary",
+          "original": "资产摘要",
+          "singular": "资产摘要",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1363,92 +1364,92 @@
       "fields": {
         "setupVisible": true,
         "dateRange": {
-          "original": "Date Range",
-          "singular": "Date Range",
+          "original": "日期范围",
+          "singular": "日期范围",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assetType": {
-          "original": "Asset Type",
-          "singular": "Asset Type",
+          "original": "资产类型",
+          "singular": "资产类型",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "assetStatus": {
-          "original": "Asset Status",
-          "singular": "Asset Status",
+          "original": "资产状态",
+          "singular": "资产状态",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "checklistNo": {
-          "original": "Checklist No",
-          "singular": "Checklist No",
+          "original": "检查清单编号",
+          "singular": "检查清单编号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "checklistName": {
-          "original": "Checklist Name",
-          "singular": "Checklist Name",
+          "original": "检查清单名称",
+          "singular": "检查清单名称",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "equipmentType": {
-          "original": "Jenis Peralatan",
-          "singular": "Jenis Peralatan",
+          "original": "设备类型",
+          "singular": "设备类型",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "equipmentMeterReading": {
-          "original": "Equipment Meter Reading",
-          "singular": "Equipment Meter Reading",
+          "original": "设备表读数",
+          "singular": "设备表读数",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "initiateFollowUpChecklist": {
-          "original": "Follow-Up Checklist",
-          "singular": "Follow-Up Checklist",
+          "original": "后续检查清单",
+          "singular": "后续检查清单",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "questions": {
-          "original": "Question",
-          "singular": "Question",
-          "plural": "Questions",
+          "original": "问题",
+          "singular": "问题",
+          "plural": "问题",
           "setupEdit": true,
           "setupVisible": true
         },
         "selectAsset": {
-          "original": "Select Asset",
-          "singular": "Select Asset",
+          "original": "选择资产",
+          "singular": "选择资产",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "selectChecklistToGenerate": {
-          "original": "Select the checklist you'd like to generate for this Asset",
-          "singular": "Select the checklist you'd like to generate for this Asset",
+          "original": "选择要为此资产生成的检查清单",
+          "singular": "选择要为此资产生成的检查清单",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "selectOne": {
-          "original": "Select one",
-          "singular": "Select one",
+          "original": "选择一个",
+          "singular": "选择一个",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "serviceZone": {
-          "original": "Service Zone",
-          "singular": "Service Zone",
+          "original": "服务区",
+          "singular": "服务区",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1472,8 +1473,8 @@
       "tooltips": {
         "setupVisible": true,
         "checklistLookup": {
-          "original": "Checklist Lookup",
-          "singular": "Checklist Lookup",
+          "original": "检查清单查询",
+          "singular": "检查清单查询",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1486,9 +1487,9 @@
     "product": {
       "setupVisible": true,
       "label": {
-        "original": "Produk",
-        "singular": "Produk",
-        "plural": "Produk",
+        "original": "产品",
+        "singular": "产品",
+        "plural": "产品",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -1502,15 +1503,15 @@
           "setupVisible": true
         },
         "sec1": {
-          "original": "Manufacturer Details",
-          "singular": "Manufacturer Details",
+          "original": "制造商详情",
+          "singular": "制造商详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
-          "original": "Price Details",
-          "singular": "Price Details",
+          "original": "价格详情",
+          "singular": "价格详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1523,22 +1524,22 @@
           "setupVisible": true
         },
         "sec4": {
-          "original": "Butiran Produk",
-          "singular": "Butiran Produk",
+          "original": "产品详情",
+          "singular": "产品详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec5": {
-          "original": "Adjust Inventory",
-          "singular": "Adjust Inventory",
+          "original": "调整库存",
+          "singular": "调整库存",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec6": {
-          "original": "Check availability",
-          "singular": "Check availability",
+          "original": "检查可用性",
+          "singular": "检查可用性",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -1563,7 +1564,7 @@
         "status": {
           "original": "状态",
           "singular": "状态",
-          "plural": "Statuses",
+          "plural": "状态",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -1575,128 +1576,128 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "类型",
+          "singular": "类型",
+          "plural": "类型",
           "setupEdit": true,
           "setupVisible": true
         },
         "productFamily": {
-          "original": "Product Family",
-          "singular": "Product Family",
+          "original": "产品系列",
+          "singular": "产品系列",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "warrantyPeriod": {
-          "original": "Warranty Period",
-          "singular": "Warranty Period",
+          "original": "保修期",
+          "singular": "保修期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "unitMeasurement": {
-          "original": "Unit of Measurement",
-          "singular": "Unit of Measurement",
+          "original": "计量单位",
+          "singular": "计量单位",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "photo": {
-          "original": "Gambar",
-          "singular": "Gambar",
+          "original": "图片",
+          "singular": "图片",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "makeModel": {
-          "original": "Make/Model",
-          "singular": "Make/Model",
+          "original": "品牌/型号",
+          "singular": "品牌/型号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "manufacturer": {
-          "original": "Pengilang",
-          "singular": "Pengilang",
+          "original": "制造商",
+          "singular": "制造商",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "manufacturerYear": {
-          "original": "Manufacturer Year",
-          "singular": "Manufacturer Year",
+          "original": "生产年份",
+          "singular": "生产年份",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "unitPrice": {
-          "original": "Unit Price",
-          "singular": "Unit Price",
+          "original": "单价",
+          "singular": "单价",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "taxIncluded": {
-          "original": "Tax Included",
-          "singular": "Tax Included",
+          "original": "含税",
+          "singular": "含税",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "notForSale": {
-          "original": "Not For Sale",
-          "singular": "Not For Sale",
+          "original": "非卖品",
+          "singular": "非卖品",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "remarks": {
-          "original": "Remark",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "original": "备注",
+          "singular": "备注",
+          "plural": "备注",
           "setupEdit": true,
           "setupVisible": true
         },
         "monthS": {
-          "original": "Month(s)",
-          "singular": "Month(s)",
+          "original": "月",
+          "singular": "月",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "productName": {
-          "original": "Product Name",
-          "singular": "Product Name",
+          "original": "产品名称",
+          "singular": "产品名称",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "productType": {
-          "original": "Product Type",
-          "singular": "Product Type",
+          "original": "产品类型",
+          "singular": "产品类型",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "qty": {
-          "original": "Qty",
-          "singular": "Qty",
+          "original": "数量",
+          "singular": "数量",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "warranty": {
-          "original": "Warranty",
-          "singular": "Warranty",
+          "original": "保修",
+          "singular": "保修",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "user": {
-          "original": "User",
-          "singular": "User",
-          "plural": "Users",
+          "original": "用户",
+          "singular": "用户",
+          "plural": "用户",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -1712,8 +1713,8 @@
       "tooltips": {
         "setupVisible": true,
         "siteLookup": {
-          "original": "Product Lookup",
-          "singular": "Product Lookup",
+          "original": "产品查找",
+          "singular": "产品查找",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2613,8 +2614,8 @@
           "setupVisible": true
         },
         "user": {
-          "original": "User",
-          "singular": "User",
+          "original": "用户",
+          "singular": "用户",
           "plural": "Users",
           "setupEdit": true,
           "setupVisible": true
@@ -2787,20 +2788,20 @@
         "status": {
           "original": "状态",
           "singular": "状态",
-          "plural": "Statuses",
+          "plural": "状态",
           "setupEdit": true,
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "类型",
+          "singular": "类型",
+          "plural": "类型",
           "setupEdit": true,
           "setupVisible": true
         },
         "referenceNo": {
-          "original": "Nombor Rujukan",
-          "singular": "Nombor Rujukan",
+          "original": "参考编号",
+          "singular": "参考编号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2964,7 +2965,7 @@
         "status": {
           "original": "状态",
           "singular": "状态",
-          "plural": "Statuses",
+          "plural": "状态",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -2976,8 +2977,8 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
+          "original": "类型",
+          "singular": "类型",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2997,15 +2998,15 @@
           "setupVisible": true
         },
         "startDate": {
-          "original": "Tarikh Mula",
-          "singular": "Tarikh Mula",
+          "original": "开始日期",
+          "singular": "开始日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "endDate": {
-          "original": "Tarikh Tamat",
-          "singular": "Tarikh Tamat",
+          "original": "结束日期",
+          "singular": "结束日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3160,8 +3161,8 @@
           "setupVisible": true
         },
         "endDate": {
-          "original": "Tarikh Tamat",
-          "singular": "Tarikh Tamat",
+          "original": "结束日期",
+          "singular": "结束日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3209,15 +3210,15 @@
           "setupVisible": true
         },
         "remarks": {
-          "original": "Remark",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "original": "备注",
+          "singular": "备注",
+          "plural": "备注",
           "setupEdit": true,
           "setupVisible": true
         },
         "referenceNo": {
-          "original": "Nombor Rujukan",
-          "singular": "Nombor Rujukan",
+          "original": "参考编号",
+          "singular": "参考编号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3237,15 +3238,15 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "类型",
+          "singular": "类型",
+          "plural": "类型",
           "setupEdit": true,
           "setupVisible": true
         },
         "startDate": {
-          "original": "Tarikh Mula",
-          "singular": "Tarikh Mula",
+          "original": "开始日期",
+          "singular": "开始日期",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3400,9 +3401,9 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "类型",
+          "singular": "类型",
+          "plural": "类型",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -3519,8 +3520,8 @@
           "setupVisible": true
         },
         "dateRange": {
-          "original": "Date Range",
-          "singular": "Date Range",
+          "original": "日期范围",
+          "singular": "日期范围",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3819,9 +3820,9 @@
           "setupVisible": true
         },
         "sec22": {
-          "original": "Butiran Produk",
-          "singular": "Butiran Produk",
-          "plural": "Butiran Produk",
+          "original": "产品详情",
+          "singular": "产品详情",
+          "plural": "产品详情",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -3941,9 +3942,9 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
-          "plural": "Types",
+          "original": "类型",
+          "singular": "类型",
+          "plural": "类型",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -4928,8 +4929,8 @@
           "setupVisible": true
         },
         "photo": {
-          "original": "Gambar",
-          "singular": "Gambar",
+          "original": "图片",
+          "singular": "图片",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -4942,14 +4943,14 @@
           "setupVisible": true
         },
         "qty": {
-          "original": "Qty",
-          "singular": "Qty",
+          "original": "数量",
+          "singular": "数量",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "quantity": {
-          "original": "Quantity",
+          "original": "数量",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -5010,9 +5011,9 @@
           "setupVisible": true
         },
         "remarks": {
-          "original": "Remark",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "original": "备注",
+          "singular": "备注",
+          "plural": "备注",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -5073,8 +5074,8 @@
           "setupVisible": true
         },
         "selectBinToTransfer": {
-          "original": "Select Bin to transfer from",
-          "singular": "Select Bin to transfer from",
+          "original": "选择要转出的箱子",
+          "singular": "选择要转出的箱子",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -5472,8 +5473,8 @@
           "setupVisible": true
         },
         "unitPrice": {
-          "original": "Unit Price",
-          "singular": "Unit Price",
+          "original": "单价",
+          "singular": "单价",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -5500,8 +5501,8 @@
           "setupVisible": true
         },
         "user": {
-          "original": "User",
-          "singular": "User",
+          "original": "用户",
+          "singular": "用户",
           "plural": "Users",
           "setupEdit": true,
           "setupVisible": true
@@ -6071,8 +6072,8 @@
           "setupVisible": true
         },
         "available": {
-          "original": "Available",
-          "singular": "Available",
+          "original": "可用",
+          "singular": "可用",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6127,8 +6128,8 @@
           "setupVisible": true
         },
         "qty": {
-          "original": "Qty",
-          "singular": "Qty",
+          "original": "数量",
+          "singular": "数量",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6218,8 +6219,8 @@
           "setupVisible": true
         },
         "type": {
-          "original": "Type",
-          "singular": "Type",
+          "original": "类型",
+          "singular": "类型",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6260,9 +6261,9 @@
           "setupVisible": true
         },
         "remarks": {
-          "original": "Remarks",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "original": "备注",
+          "singular": "备注",
+          "plural": "备注",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -6342,6 +6343,13 @@
         "contactName": {
           "original": "Contact Name",
           "singular": "Contact Name",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "type": {
+          "original": "Contact Type",
+          "singular": "Contact Type",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6856,8 +6864,8 @@
           "setupVisible": true
         },
         "checkAvailability": {
-          "original": "Check availability",
-          "singular": "Check availability",
+          "original": "检查可用性",
+          "singular": "检查可用性",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -7013,15 +7021,15 @@
       "status": {
         "setupVisible": true,
         "active": {
-          "original": "Active",
-          "singular": "Active",
+          "original": "活跃",
+          "singular": "活跃",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "available": {
-          "original": "Available",
-          "singular": "Available",
+          "original": "可用",
+          "singular": "可用",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -7255,7 +7263,12 @@
         "radius": "Radius",
         "officeAddressIsNotSet":"Office Address is not set",
         "homeAddressIsNotSet":"Home Address is not set",
-        "currentAddressIsNotResolvedYet":"Current address is not resolved yet!"
+        "currentAddressIsNotResolvedYet":"Current address is not resolved yet!",
+        "selectItem": {
+          "singular": "选择项目",
+          "plural": "选择项目"
+        },
+        "noLocationsToDisplay":"No locations to display"
       },
       "map": {
         "setupVisible": true,
@@ -7346,8 +7359,8 @@
       "serviceZone": {
         "setupVisible": true,
         "label": {
-          "original": "Service Zone",
-          "singular": "Service Zone",
+          "original": "服务区",
+          "singular": "服务区",
           "plural": "Service Zones",
           "setupEdit": true,
           "setupVisible": true
@@ -8504,7 +8517,7 @@
             },
             "users": {
               "original": "Users",
-              "singular": "User",
+              "singular": "用户",
               "plural": "Users",
               "setupEdit": true,
               "setupVisible": true
@@ -8539,7 +8552,7 @@
           "setupVisible": true,
           "label": {
             "original": "Users",
-            "singular": "User",
+            "singular": "用户",
             "plural": "Users",
             "setupEdit": true,
             "setupVisible": true
@@ -8754,7 +8767,7 @@
             },
             "users": {
               "original": "Users",
-              "singular": "User",
+              "singular": "用户",
               "plural": "Users",
               "setupEdit": true,
               "setupVisible": true
@@ -9026,8 +9039,8 @@
               "setupVisible": true
             },
             "type": {
-              "original": "Type",
-              "singular": "Type",
+              "original": "类型",
+              "singular": "类型",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9330,8 +9343,8 @@
               "setupVisible": true
             },
             "sec6": {
-              "original": "Available",
-              "singular": "Available",
+              "original": "可用",
+              "singular": "可用",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9468,9 +9481,9 @@
           "type": {
             "setupVisible": true,
             "label": {
-              "original": "Type",
-              "singular": "Type",
-              "plural": "Types",
+              "original": "类型",
+              "singular": "类型",
+              "plural": "类型",
               "setupEdit": true,
               "setupVisible": true
             },
@@ -10453,8 +10466,8 @@
                 "setupVisible": true
               },
               "user": {
-                "original": "User",
-                "singular": "User",
+                "original": "用户",
+                "singular": "用户",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10729,8 +10742,8 @@
               "setupVisible": true
             },
             "type": {
-              "original": "Type",
-              "singular": "Type",
+              "original": "类型",
+              "singular": "类型",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -10943,8 +10956,8 @@
               "setupVisible": true
             },
             "user": {
-              "original": "User",
-              "singular": "User",
+              "original": "用户",
+              "singular": "用户",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11076,8 +11089,8 @@
           "sections": {
             "setupVisible": true,
             "sec0": {
-              "original": "Butiran Produk",
-              "singular": "Butiran Produk",
+              "original": "产品详情",
+              "singular": "产品详情",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11086,22 +11099,22 @@
           "fields": {
             "setupVisible": true,
             "product": {
-              "original": "Produk",
-              "singular": "Produk",
+              "original": "产品",
+              "singular": "产品",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
             "qty": {
-              "original": "Qty",
-              "singular": "Qty",
+              "original": "数量",
+              "singular": "数量",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
             },
             "quantity": {
-              "original": "Quantity",
-              "singular": "Quantity",
+              "original": "数量",
+              "singular": "数量",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11118,24 +11131,24 @@
       "checklist": {
         "setupVisible": true,
         "label": {
-          "original": "Checklists",
-          "singular": "Checklist",
-          "plural": "Checklists",
+          "original": "检查清单",
+          "singular": "检查清单",
+          "plural": "检查清单",
           "setupEdit": true,
           "setupVisible": true
         },
         "sections": {
           "setupVisible": true,
           "sec0": {
-            "original": "Checklist Details",
-            "singular": "Checklist Details",
+            "original":  "检查清单详情",
+            "singular":  "检查清单详情",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
           },
           "sec1": {
-            "original": "Updating the Asset within Checklist",
-            "singular": "Updating the Asset within Checklist",
+            "original": "更新检查清单中的资产",
+            "singular": "更新检查清单中的资产",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11148,8 +11161,8 @@
             "setupVisible": true
           },
           "sec3": {
-            "original": "Follow-Up Checklist",
-            "singular": "Follow-Up Checklist",
+            "original": "后续检查清单",
+            "singular": "后续检查清单",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11270,29 +11283,29 @@
             "setupVisible": true
           },
           "type": {
-            "original": "Type",
-            "singular": "Type",
+            "original": "类型",
+            "singular": "类型",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
           },
           "assetType": {
-            "original": "Asset Type",
-            "singular": "Asset Type",
+            "original": "资产类型",
+            "singular": "资产类型",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
           },
           "serviceZone": {
-            "original": "Service Zone",
-            "singular": "Service Zone",
+            "original": "服务区",
+            "singular": "服务区",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
           },
           "equipmentType": {
-            "original": "Jenis Peralatan",
-            "singular": "Jenis Peralatan",
+            "original": "设备类型",
+            "singular": "设备类型",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11343,15 +11356,15 @@
           "selectAssetTypes": "Select Asset Types",
           "selectServiceZone": "Select Service Zone",
           "selectEquipmentType": "Select Equipment Type",
-          "checklistName": "Checklist Name"
+          "checklistName": "检查清单名称"
         }
       },
       "question": {
         "setupVisible": true,
         "label": {
-          "original": "Question",
-          "singular": "Question",
-          "plural": "Questions",
+          "original": "问题",
+          "singular": "问题",
+          "plural": "问题",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -11535,8 +11548,8 @@
             "setupVisible": true
           },
           "active": {
-            "original": "Active",
-            "singular": "Active",
+            "original": "活跃",
+            "singular": "活跃",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -11665,8 +11678,8 @@
               "setupVisible": true
             },
             "type": {
-              "original": "Type",
-              "singular": "Type",
+              "original": "类型",
+              "singular": "类型",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11923,8 +11936,8 @@
               "setupVisible": true
             },
             "type": {
-              "original": "Type",
-              "singular": "Type",
+              "original": "类型",
+              "singular": "类型",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -12063,8 +12076,8 @@
               "setupVisible": true
             },
             "user": {
-              "original": "User",
-              "singular": "User",
+              "original": "用户",
+              "singular": "用户",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -12441,8 +12454,8 @@
         "fields": {
           "setupVisible": true,
           "type": {
-            "original": "Type",
-            "singular": "Type",
+            "original": "类型",
+            "singular": "类型",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -12680,8 +12693,8 @@
             "setupVisible": true
           },
           "dateRange": {
-            "original": "Date Range",
-            "singular": "Date Range",
+            "original": "日期范围",
+            "singular": "日期范围",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -12715,9 +12728,9 @@
             "setupVisible": true
           },
           "remarks": {
-            "original": "Remarks",
-            "singular": "Remark",
-            "plural": "Remarks",
+            "original": "备注",
+            "singular": "备注",
+            "plural": "备注",
             "setupEdit": true,
             "setupVisible": true
           },

@@ -4917,6 +4917,21 @@
           "setupEdit": true,
           "setupVisible": true
         },
+        "faultDetails":{
+          "original": "Fault Details",
+          "singular": "Fault Details",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+    
+        "openDays":{
+          "original": "Open Days",
+          "singular": "Open Days",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
         "grandTotal": {
           "original": "Grand Total (RM)",
           "singular": "Grand Total (RM)",
@@ -6918,6 +6933,20 @@
         "refresh": {
           "original": "Refresh",
           "singular": "Refresh",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "signAndComplete": {
+          "original": "Sign & Complete",
+          "singular": "Sign & Complete",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "completionForm":{
+          "original": "Completion Form",
+          "singular": "Completion Form",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -11210,13 +11239,7 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "faultDetails":{
-              "original": "Fault Details",
-              "singular": "Fault Details",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-            },
+            
             "resolution": {
               "original": "Resolution",
               "singular": "Resolution",

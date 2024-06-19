@@ -4307,7 +4307,14 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
-        },
+      },
+      "orderTime": {
+        "original": "Order Time",
+        "singular": "Order Time",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
         "status": {
           "original": "Status",
           "singular": "Status",
@@ -4899,6 +4906,13 @@
         "fromMyDownline": {
           "original": "From my Downline",
           "singular": "From my Downline",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "faultDetails": {
+          "original": "Fault Details",
+          "singular": "Fault Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -5968,6 +5982,13 @@
         "workNotDoneReason": {
           "original": "Work Not Done Reason",
           "singular": "Work Not Done Reason",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "physicalDamage": {
+          "original": "Physical Damage to hills installed application?",
+          "singular": "Physical Damage to hills installed application?",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -11189,6 +11210,13 @@
               "setupEdit": true,
               "setupVisible": true
             },
+            "faultDetails":{
+              "original": "Fault Details",
+              "singular": "Fault Details",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+            },
             "resolution": {
               "original": "Resolution",
               "singular": "Resolution",
@@ -11213,6 +11241,13 @@
             "additionalComments": {
               "original": "Additional Comments",
               "singular": "Additional Comments",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+            },
+            "openDays":{
+              "original": "Open days",
+              "singular": "Open Days",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true

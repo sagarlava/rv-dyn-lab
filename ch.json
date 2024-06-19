@@ -2152,30 +2152,30 @@
           "setupVisible": true
         },
         "duration": {
-          "original": "Duration",
-          "singular": "Duration",
+          "original": "持续时间",
+          "singular": "持续时间",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "emailAssignee": {
-          "original": "Email Assignee",
-          "singular": "Email Assignee",
+          "original": "电子邮件受托人",
+          "singular": "电子邮件受托人",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "endTime": {
-          "original": "End Time",
-          "singular": "End Time",
+          "original": "结束时间",
+          "singular": "结束时间",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "form": {
-          "original": "Form",
-          "singular": "Form",
-          "plural": "Forms",
+          "original": "交接证书",
+          "singular": "交接证书",
+          "plural": "交接证书",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -2187,120 +2187,120 @@
           "setupVisible": true
         },
         "haveCheckedAffectsOtherPeople": {
-          "original": "I have checked if this task affects other people in the work area?",
-          "singular": "I have checked if this task affects other people in the work area?",
+          "original": "我已检查此任务是否影响工作区域的其他人？",
+          "singular": "我已检查此任务是否影响工作区域的其他人？",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "haveCommunicatedHazard": {
-          "original": "I have communicated hazards associated with the task to others?",
-          "singular": "I have communicated hazards associated with the task to others?",
+          "original":"我已将与任务相关的危害告知他人？",
+          "singular":"我已将与任务相关的危害告知他人？",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "haveCompleteThisTaskSafely": {
-          "original": "I can complete this task safely?",
-          "singular": "I can complete this task safely?",
+          "original": "我可以安全地完成这项任务吗？",
+          "singular": "我可以安全地完成这项任务吗？",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "haveCorrectPpeEquip": {
-          "original": "I have the correct PPE, tools and equipment to complete the task?",
-          "singular": "I have the correct PPE, tools and equipment to complete the task?",
+          "original": "我有正确的个人防护装备、工具和设备来完成任务吗？",
+          "singular": "我有正确的个人防护装备、工具和设备来完成任务吗？",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "includeTeamManager": {
-          "original": "Include team manager(s) in smart assign?",
-          "singular": "Include team manager(s) in smart assign?",
+          "original": "在智能分配中包括团队经理吗？",
+          "singular": "在智能分配中包括团队经理吗？",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "indicateTheNumber": {
-          "original": "Indicate the number of users you want FieldEx to assign",
-          "singular": "Indicate the number of users you want FieldEx to assign",
+          "original": "指明您希望FieldEx分配的用户数量",
+          "singular": "指明您希望FieldEx分配的用户数量",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "journeyPerformed": {
-          "original": "Journey Performed",
-          "singular": "Journey Performed",
+          "original": "执行的旅程",
+          "singular": "执行的旅程",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "level": {
-          "original": "Level",
-          "singular": "Level",
+          "original": "级别",
+          "singular": "级别",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "location": {
-          "original": "Lokasi",
-          "singular": "Lokasi",
+          "original": "位置",
+          "singular": "位置",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "lock": {
-          "original": "Lock",
-          "singular": "Lock",
+          "original": "锁定",
+          "singular": "锁定",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
-        "mandatory": {
-          "original": "mandatory",
-          "singular": "mandatory",
+        "强制性": {
+          "original": "强制性",
+          "singular": "强制性",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "member": {
-          "original": "Member",
-          "singular": "Member",
+          "original": "成员",
+          "singular": "成员",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "minsAfter": {
-          "original": "min(s) after.",
-          "singular": "min(s) after.",
+          "original": "分钟后",
+          "singular": "分钟后",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "minsBefore": {
-          "original": "min(s) before.",
-          "singular": "min(s) before.",
+          "original": "分钟前",
+          "singular": "分钟前",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "newLocation": {
-          "original": "New Location",
-          "singular": "New Location",
+          "original": "新位置",
+          "singular": "新位置",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "numberUsers": {
-          "original": "Number of Users",
-          "singular": "Number of Users",
+          "original": "用户数量",
+          "singular": "用户数量",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "otherTaskMembers": {
-          "original": "Other Task Members",
-          "singular": "Other Task Members",
+          "original": "其他任务成员",
+          "singular": "其他任务成员",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -3904,9 +3904,9 @@
           "setupVisible": true
         },
         "sec34": {
-          "original": "Forms",
-          "singular": "Form",
-          "plural": "Forms",
+          "original": "交接证书",
+          "singular": "交接证书",
+          "plural": "交接证书",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -4502,9 +4502,9 @@
           "setupVisible": true
         },
         "form": {
-          "original": "Form",
-          "singular": "Form",
-          "plural": "Forms",
+          "original": "交接证书",
+          "singular": "交接证书",
+          "plural": "交接证书",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -4753,7 +4753,7 @@
           "setupEdit": true,
           "setupVisible": true
         },
-        "mandatory": {
+        "强制性": {
           "original": "Mandatory",
           "singular": "Mandatory",
           "plural": "",
@@ -5599,8 +5599,8 @@
           "setupVisible": true
         },
         "duration": {
-          "original": "Duration",
-          "singular": "Duration",
+          "original": "持续时间",
+          "singular": "持续时间",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -5732,8 +5732,8 @@
           "setupVisible": true
         },
         "location": {
-          "original": "Lokasi",
-          "singular": "Lokasi",
+          "original": "位置",
+          "singular": "位置",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -8366,7 +8366,7 @@
             },
             "levels": {
               "original": "Levels",
-              "singular": "Level",
+              "singular": "级别",
               "plural": "Levels",
               "setupEdit": true,
               "setupVisible": true
@@ -8450,8 +8450,8 @@
               "setupVisible": true
             },
             "sec6": {
-              "original": "Members",
-              "singular": "Members",
+              "original": "成员",
+              "singular": "成员",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -8502,8 +8502,8 @@
               "setupVisible": true
             },
             "includeTeamManager": {
-              "original": "Include team manager(s) in smart assign?",
-              "singular": "Include team manager(s) in smart assign?",
+              "original": "在智能分配中包括团队经理吗？",
+              "singular": "在智能分配中包括团队经理吗？",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -8602,8 +8602,8 @@
               "setupVisible": true
             },
             "sec6": {
-              "original": "Members",
-              "singular": "Members",
+              "original": "成员",
+              "singular": "成员",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9015,9 +9015,9 @@
               "setupVisible": true
             },
             "sec5": {
-              "original": "Members",
-              "singular": "Member",
-              "plural": "Members",
+              "original": "成员",
+              "singular": "成员",
+              "plural": "成员",
               "setupEdit": true,
               "setupVisible": true
             }
@@ -10247,9 +10247,9 @@
           "location": {
             "setupVisible": true,
             "label": {
-              "original": "Lokasi",
-              "singular": "Lokasi",
-              "plural": "Lokasi",
+              "original": "位置",
+              "singular": "位置",
+              "plural": "位置",
               "setupEdit": true,
               "setupVisible": true
             },
@@ -10352,8 +10352,8 @@
                 "setupVisible": true
               },
               "location": {
-                "original": "Lokasi",
-                "singular": "Lokasi",
+                "original": "位置",
+                "singular": "位置",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": true
@@ -10854,8 +10854,8 @@
               "setupVisible": true
             },
             "duration": {
-              "original": "Duration",
-              "singular": "Duration",
+              "original": "持续时间",
+              "singular": "持续时间",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11978,8 +11978,8 @@
               "setupVisible": true
             },
             "duration": {
-              "original": "Duration",
-              "singular": "Duration",
+              "original": "持续时间",
+              "singular": "持续时间",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true

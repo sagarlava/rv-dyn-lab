@@ -752,6 +752,216 @@
         "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Machine within this Contract"
       }
     },
+    "assetLog":{
+      "setupVisible": true,
+      "label": {
+        "original": "Asset Log",
+        "singular": "Asset Log",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": true,
+        "sec0": {
+          "original": "Log Details",
+          "singular": "Log Details",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "New Entry",
+          "singular": "New Entry",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Filter By",
+          "singular": "Filter By",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "fields":{
+        "setupVisible": true,
+        "currentReading": {
+          "original": "Current Reading",
+          "singular": "Current Reading",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "logDate": {
+          "original": "Log Date",
+          "singular": "Log Date",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "logDateTime": {
+          "original": "Log Date & Time",
+          "singular": "Log Date & Time",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "modifiedBy": {
+          "original": "Modified By",
+          "singular": "Modified By",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "modifiedDateTime": {
+          "original": "Modified Date & Time",
+          "singular": "Modified Date & Time",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "newValue": {
+          "original": "New Value",
+          "singular": "New Value",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "oldValue": {
+          "original": "Old Value",
+          "singular": "Old Value",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "newMeterReading": {
+          "original": "New Meter Reading",
+          "singular": "New Meter Reading",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      }
+    },
+    "accessories":{
+      "setupVisible": true,
+      "label": {
+        "original": "Accessories",
+        "singular": "Accessory",
+        "plural": "Accessories",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": true,
+        "sec0": {
+          "original": "Accessory Details",
+          "singular": "Accessory Details",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Select an accessory to be added to the contract",
+          "singular": "Select an accessory to be added to the contract",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Select Bin to transfer from",
+          "singular": "Select Bin to transfer from",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "fields": {
+        "setupVisible": true,
+        "assetName": {
+          "original": "Machine Name",
+          "singular": "Machine Name",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetCode": {
+          "original": "Machine Code",
+          "singular": "Machine Code",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "serialNo": {
+          "original": "Serial No",
+          "singular": "Serial No",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "serialNumber": {
+          "original": "Serial Number",
+          "singular": "Serial Number",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "qty": {
+          "original": "Qty",
+          "singular": "Qty",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "quantity": {
+          "original": "Quantity",
+          "singular": "Quantity",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "accessoryName": {
+          "original": "Accessory Name",
+          "singular": "Accessory Name",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "accessoryCode": {
+          "original": "Accessory Code",
+          "singular": "Accessory Code",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "bin": {
+          "original": "Bin",
+          "singular": "Bin",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "tooltip":{
+        "setupVisible": true,
+        "accessoryLookup": {
+          "original": "Accessory Lookup",
+          "singular": "Accessory Lookup",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      }
+    },
     "maintenance": {
       "setupVisible": true,
       "label": {
@@ -1078,6 +1288,168 @@
       },
       "messages": {
         
+      }
+    },
+    "contractMaintenance":{
+      "setupVisible": true,
+      "label": {
+        "original": "Maintenance Schedule",
+        "singular": "Maintenance Schedule",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": true,
+        "sec0": {
+          "original": "Maintenance Details",
+          "singular": "Maintenance Details",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Preventative Maintenance",
+          "singular": "Preventative Maintenances",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Details",
+          "singular": "Details",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec3": {
+          "original": "Select the maintenance type to use",
+          "singular": "Select the maintenance type to use",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4": {
+          "original": "Select when you would like to generate the next maintenance",
+          "singular": "Select when you would like to generate the next maintenance",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec5": {
+          "original": "Select minor/major maintenance frequency",
+          "singular": "Select minor/major maintenance frequency",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec6": {
+          "original": "Select to Auto-Create Job Order",
+          "singular": "Select to Auto-Create Job Order",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "fields": {
+        "setupVisible": true,
+        "status": {
+          "original": "Status",
+          "singular": "Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "startDate": {
+          "original": "Start Date",
+          "singular": "Start Date",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "endDate": {
+          "original": "End Date",
+          "singular": "End Date",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "generateNextMaintenance": {
+          "original": "Generate Next Maintenance",
+          "singular": "Generate Next Maintenance",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "generateAllMaintenanceNow": {
+          "original": "Generate All Maintenance Now",
+          "singular": "Generate All Maintenance Now",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "onlyUponPreviousCompletion": {
+          "original": "Only Upon Previous Completion",
+          "singular": "Only Upon Previous Completion",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "maintenancesType": {
+          "original": "Maintenances Type",
+          "singular": "Maintenances Type",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "minorMaintenance": {
+          "original": "Minor Maintenance",
+          "singular": "Minor Maintenance",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "majorMaintenance": {
+          "original": "Major Maintenance",
+          "singular": "Major Maintenance",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "minorMajorMaintenance": {
+          "original": "Minor / Major Maintenance Frequency",
+          "singular": "Minor / Major Maintenance Frequency",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "note": {
+          "original": "Note",
+          "singular": "Note",
+          "plural": "Notes",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+       "autoCreateJobOrder": {
+          "original": "Automatically Generate Job Order",
+          "singular": "Automatically Generate Job Order",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },  
+      "tooltips": {
+        "setupVisible": true,
+        "preventiveMaintenance": {
+          "original": "This is the timeframe in which the maintenance will be active",
+          "singular": "This is the timeframe in which the maintenance will be active",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "messages": {
+        "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Machine within this Contract"
       }
     },
     "contracts": {

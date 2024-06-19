@@ -993,6 +993,7 @@
           "setupEdit": true,
           "setupVisible": true
         },
+       
         "maintenance": {
           "original": "Maintenance",
           "singular": "Maintenance",
@@ -3756,6 +3757,7 @@
           "setupEdit": true,
           "setupVisible": true
         },
+        
         "sec13": {
           "original": "Fault Module",
           "singular": "Fault Module",
@@ -3907,6 +3909,13 @@
           "original": "Forms",
           "singular": "Form",
           "plural": "Forms",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec35": {
+          "original": "Fault and Resolution",
+          "singular": "Fault and Resolution",
+          "plural": "Fault and Resolution",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -4266,6 +4275,13 @@
         "complaintFault": {
           "original": "Complaint and Fault",
           "singular": "Complaint and Fault",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "completionDate": {
+          "original": "Completion Date",
+          "singular": "Completion Date",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -6537,6 +6553,13 @@
         "filter": {
           "original": "Filter",
           "singular": "Filter",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "resetFilter": {
+          "original": "Reset Filter",
+          "singular": "Reset Filter",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true

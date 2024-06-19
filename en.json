@@ -11224,6 +11224,13 @@
               "setupEdit": true,
               "setupVisible": true
             },
+            "openDays":{
+              "original": "Open Days",
+              "singular": "Open Days",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+            },
             "resolution": {
               "original": "Resolution",
               "singular": "Resolution",
@@ -11252,13 +11259,7 @@
               "setupEdit": true,
               "setupVisible": true
             },
-            "openDays":{
-              "original": "Open days",
-              "singular": "Open Days",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-            },
+           
             "isThisBillable": {
               "original": "Is this order billable?",
               "singular": "Is this order billable?",

@@ -2187,57 +2187,57 @@
           "setupVisible": true
         },
         "haveCheckedAffectsOtherPeople": {
-          "original": "I have checked if this task affects other people in the work area?",
-          "singular": "I have checked if this task affects other people in the work area?",
+          "original": "Saya telah memeriksa jika tugasan ini memberi kesan kepada orang lain di kawasan kerja?",
+          "singular": "Saya telah memeriksa jika tugasan ini memberi kesan kepada orang lain di kawasan kerja?",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "haveCommunicatedHazard": {
-          "original": "I have communicated hazards associated with the task to others?",
-          "singular": "I have communicated hazards associated with the task to others?",
+          "original":"Saya telah menyampaikan bahaya yang berkaitan dengan tugasan ini kepada orang lain?",
+          "singular":"Saya telah menyampaikan bahaya yang berkaitan dengan tugasan ini kepada orang lain?",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "haveCompleteThisTaskSafely": {
-          "original": "I can complete this task safely?",
-          "singular": "I can complete this task safely?",
+          "original": "Saya boleh menyelesaikan tugasan ini dengan selamat?",
+          "singular": "Saya boleh menyelesaikan tugasan ini dengan selamat?",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "haveCorrectPpeEquip": {
-          "original": "I have the correct PPE, tools and equipment to complete the task?",
-          "singular": "I have the correct PPE, tools and equipment to complete the task?",
+          "original": "Saya mempunyai PPE, alat dan peralatan yang betul untuk menyelesaikan tugasan ini?",
+          "singular": "Saya mempunyai PPE, alat dan peralatan yang betul untuk menyelesaikan tugasan ini?",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "includeTeamManager": {
-          "original": "Include team manager(s) in smart assign?",
-          "singular": "Include team manager(s) in smart assign?",
+          "original": "Sertakan pengurus pasukan dalam tugasan pintar?",
+          "singular": "Sertakan pengurus pasukan dalam tugasan pintar?",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "indicateTheNumber": {
-          "original": "Indicate the number of users you want FieldEx to assign",
-          "singular": "Indicate the number of users you want FieldEx to assign",
+          "original": "Nyatakan bilangan pengguna yang anda mahu FieldEx tugaskan",
+          "singular": "Nyatakan bilangan pengguna yang anda mahu FieldEx tugaskan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "journeyPerformed": {
-          "original": "Journey Performed",
-          "singular": "Journey Performed",
+          "original": "Perjalanan Dilakukan",
+          "singular": "Perjalanan Dilakukan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "level": {
-          "original": "Level",
-          "singular": "Level",
+          "original": "Tahap",
+          "singular": "Tahap",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2250,57 +2250,57 @@
           "setupVisible": true
         },
         "lock": {
-          "original": "Lock",
-          "singular": "Lock",
+          "original": "Kunci",
+          "singular": "Kunci",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
-        "mandatory": {
-          "original": "mandatory",
-          "singular": "mandatory",
+        "wajib": {
+          "original": "wajib",
+          "singular": "wajib",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "member": {
-          "original": "Member",
-          "singular": "Member",
+          "original": "Ahli",
+          "singular": "Ahli",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "minsAfter": {
-          "original": "min(s) after.",
-          "singular": "min(s) after.",
+          "original": "minit selepas.",
+          "singular": "minit selepas.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "minsBefore": {
-          "original": "min(s) before.",
-          "singular": "min(s) before.",
+          "original": "minit sebelum.",
+          "singular": "minit sebelum.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "newLocation": {
-          "original": "New Location",
-          "singular": "New Location",
+          "original": "Lokasi Baru",
+          "singular": "Lokasi Baru",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "numberUsers": {
-          "original": "Number of Users",
-          "singular": "Number of Users",
+          "original": "Bilangan Pengguna",
+          "singular": "Bilangan Pengguna",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "otherTaskMembers": {
-          "original": "Other Task Members",
-          "singular": "Other Task Members",
+          "original": "Ahli Tugasan Lain",
+          "singular": "Ahli Tugasan Lain",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -4753,7 +4753,7 @@
           "setupEdit": true,
           "setupVisible": true
         },
-        "mandatory": {
+        "wajib": {
           "original": "Mandatory",
           "singular": "Mandatory",
           "plural": "",
@@ -8366,7 +8366,7 @@
             },
             "levels": {
               "original": "Levels",
-              "singular": "Level",
+              "singular": "Tahap",
               "plural": "Levels",
               "setupEdit": true,
               "setupVisible": true
@@ -8450,8 +8450,8 @@
               "setupVisible": true
             },
             "sec6": {
-              "original": "Members",
-              "singular": "Members",
+              "original": "Ahli",
+              "singular": "Ahli",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -8502,8 +8502,8 @@
               "setupVisible": true
             },
             "includeTeamManager": {
-              "original": "Include team manager(s) in smart assign?",
-              "singular": "Include team manager(s) in smart assign?",
+              "original": "Sertakan pengurus pasukan dalam tugasan pintar?",
+              "singular": "Sertakan pengurus pasukan dalam tugasan pintar?",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -8602,8 +8602,8 @@
               "setupVisible": true
             },
             "sec6": {
-              "original": "Members",
-              "singular": "Members",
+              "original": "Ahli",
+              "singular": "Ahli",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -9015,9 +9015,9 @@
               "setupVisible": true
             },
             "sec5": {
-              "original": "Members",
-              "singular": "Member",
-              "plural": "Members",
+              "original": "Ahli-ahli",
+              "singular": "Ahli",
+              "plural": "Ahli-ahli",
               "setupEdit": true,
               "setupVisible": true
             }

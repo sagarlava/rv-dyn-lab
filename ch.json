@@ -12647,6 +12647,99 @@
         "surveySentToJobOrderMainContact":"The survey will be sent to the email address of the Job Order Customer's main contact (shown in the customer detail page)"
 
       }
+    },
+    "devices":{
+      "setupVisible": true,
+      "label": {
+        "original": "Devices",
+        "singular": "Device",
+        "plural": "Devices",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": true,
+        "sec0": {
+          "original": "General Details",
+          "singular": "General Details",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Sending Settings",
+          "singular": "Sending Settings",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Would you like this survey to be automatically sent out to your customers? If so, configure it below.",
+          "singular": "Would you like this survey to be automatically sent out to your customers? If so, configure it below.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec3": {
+          "original": "Who should the email with this survey link be sent to?",
+          "singular": "Who should the email with this survey link be sent to?",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4": {
+          "original": "Whether or not this form will be automatically sent out to customers",
+          "singular": "Whether or not this form will be automatically sent out to customers",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "fields": {
+        "setupVisible": true,
+        "deviceName": {
+          "original": "Device Name",
+          "singular": "Device Name",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "deviceId": {
+          "original": "Device ID",
+          "singular": "Device ID",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "fullName": {
+          "original": "Full Name",
+          "singular": "Full Name",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "username": {
+          "original": "Username",
+          "singular": "Username",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "userEmail": {
+          "original": "User Email",
+          "singular": "User Email",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      }
     }
   },
   "message": {

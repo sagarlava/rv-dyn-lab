@@ -1957,6 +1957,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "expiryDate": {
+        "original": "Expiry Date",
+        "singular": "Expiry Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "unitMeasurement": {
         "original": "Unit of Measurement",
         "singular": "Unit of Measurement",
@@ -5717,6 +5724,13 @@
       "surveyToSend": {
         "original": "Survey to Send",
         "singular": "Survey to Send",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "createTaskForThisJo": {
+        "original": "Create task for this Job Order",
+        "singular": "Create task for this Job Order",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

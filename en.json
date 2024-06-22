@@ -6717,6 +6717,233 @@
       "selectFamily": "Select Family"
     }
   },
+  "binTransfer":{
+    "setupVisible": true,
+    "label": {
+      "original": "Bin Transfer",
+      "singular": "Bin Transfer",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "Transfer Details",
+        "singular": "Transfer Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Location Bin Details",
+        "singular": "Location Bin Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "User Details",
+        "singular": "User Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "Transfer by Bin",
+        "singular": "Transfer by Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec4": {
+        "original": "Assignee Details",
+        "singular": "Assignee Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec5": {
+        "original": "Transferred Items",
+        "singular": "Transferred Items",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec6": {
+        "original": "Decline Transfer",
+        "singular": "Decline Transfer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "Approval Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "From Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "toBin": {
+        "original": "To Bin",
+        "singular": "To Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "referenceNumber": {
+        "original": "Reference Number",
+        "singular": "Reference Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "productName": {
+        "original": "Product Name",
+        "singular": "Product Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetName": {
+        "original": "Asset Name",
+        "singular": "Asset Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sku": {
+        "original": "SKU",
+        "singular": "SKU",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "qtyAvailable": {
+        "original": "Quantity Available",
+        "singular": "Quantity Available",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "qtyTransfer": {
+        "original": "Quantity to Transfer",
+        "singular": "Quantity to Transfer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transferNo": {
+        "original": "Transfer No.",
+        "singular": "Transfer No.",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "referenceNo": {
+        "original": "Reference Number",
+        "singular": "Reference Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Transferred By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assignedStatus": {
+        "original": "Assigned Status",
+        "singular": "Assigned Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assignedTo": {
+        "original": "Assigned To",
+        "singular": "Assigned To",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transferredDateTime": {
+        "original": "Transferred Date & Time",
+        "singular": "Transferred Date & Time",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "acceptedRejectedBy": {
+        "original": "Accepted/Rejected By",
+        "singular": "Accepted/Rejected By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "remarks": {
+        "original": "Remark",
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "tooltips":{
+      "binLookup": {
+        "original": "Bin Lookup",
+        "singular": "Bin Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "messages":{
+      "selectApprovalStatus":"Select Approval Status",
+      "enterBinName":"Enter Bin Name",
+      "enterUserName":"Enter User Name",
+      "enterProductName":"Enter Product Name",
+      "enterAssetName":"Enter Asset Name",
+      "selectBin":"Select Bin",
+      "enterJobOrderNumber":"Enter Job Order Number",
+      "reasonOptional":"Reason (Optional)",
+      "declineTransfer":"Are you sure you want to decline this transfer?",
+      "acceptTransfer":"Are you sure you want to accept this transfer?",
+      "cancelTransfer":"Are you sure you want to cancel this transfer?"
+    }
+  },
   "consignment":{
     "setupVisible": true,
     "label": {
@@ -7584,6 +7811,34 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "transferByProducts": {
+        "original": "Transfer by Products",
+        "singular": "Transfer by Products",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transferByBin": {
+        "original": "Transfer by Bin",
+        "singular": "Transfer by Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Location",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "User",
+        "plural": "Users",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "action": {
         "original": "Action",
         "singular": "Action",
@@ -7615,6 +7870,13 @@
       "accept": {
         "original": "Accept",
         "singular": "Accept",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "decline": {
+        "original": "Decline",
+        "singular": "Decline",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

@@ -14526,5 +14526,801 @@
         "setupVisible": true
       }
     }
+  },
+ "dashboard":{
+    "setupVisible": true,
+    "label":{
+      "original": "Dashboard",
+      "singular": "Dashboard",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "jobOrder":{
+      "setupVisible": true,
+      "sections":{
+        "setupVisible": true,
+        "sec0":{
+          "original": "Workshop Fault Calls",
+          "singular": "Workshop Fault Calls",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1":{
+          "original": "Total Fault Calls",
+          "singular": "Total Fault Calls",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2":{
+          "original": "Overdue Fault Calls",
+          "singular": "Overdue Fault Calls",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec3":{
+          "original": "Preventative Maintenance",
+          "singular": "Preventative Maintenance",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4":{
+          "original": "Workshop Progress",
+          "singular": "Workshop Progress",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec5":{
+          "original": "Data Line Fault Calls",
+          "singular": "Data Line Fault Calls",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec6":{
+          "original": "Total Assignments",
+          "singular": "Total Assignments",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec7":{
+          "original": "Service Requests",
+          "singular": "Service Requests",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec8":{
+          "original": "Workshop Spare Monitoring",
+          "singular": "Workshop Spare Monitoring",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "fields":{
+        "setupVisible": true,
+        "overdue":{
+          "original": "Overdue",
+          "singular": "Overdue",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "accumulated":{
+          "original": "Accumulated",
+          "singular": "Accumulated",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "completed":{
+          "original": "Completed",
+          "singular": "Completed",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "totalProgress":{
+          "original": "Total Progress",
+          "singular": "Total Progress",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "inProgress":{
+          "original": "In Progress",
+          "singular": "In Progress",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "allStatus":{
+          "original": "All Status",
+          "singular": "All Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "totalJobs":{
+          "original": "Total Jobs",
+          "singular": "Total Jobs",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "totalTasks":{
+          "original": "Total Tasks",
+          "singular": "Total Tasks",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "technical":{
+          "original": "Technical",
+          "singular": "Technical",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "nonTechnical":{
+          "original": "Non-Technical",
+          "singular": "Non-Technical",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "serviceRequest":{
+          "original": "Service Requests",
+          "singular": "Service Requests",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "status":{
+          "original": "Status",
+          "singular": "Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      }
+    },
+    "national":{
+      "setupVisible": true,
+      "sections":{
+        "setupVisible": true,
+        "sec0":{
+          "original": "Fault Type by System",
+          "singular": "Fault Type by System",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1":{
+          "original": "Resolution by System",
+          "singular": "Resolution by System",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2":{
+          "original": "Technician Jobs",
+          "singular": "Technician Jobs",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec3":{
+          "original": "This Month",
+          "singular": "This Month",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4":{
+          "original": "Faults By Technician",
+          "singular": "Faults By Technician",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec5":{
+          "original": "Last 6 Months",
+          "singular": "Last 6 Months",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "fields":{
+        "setupVisible": true,
+        "htrFaultTypes":{
+          "original": "HTR Fault Types",
+          "singular": "HTR Fault Types",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "hostelFaultTypes":{
+          "original": "Hostel Fault Types",
+          "singular": "Hostel Fault Types",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "lincorFaultTypes":{
+          "original": "Lincor Fault Types",
+          "singular": "Lincor Fault Types",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "getwellFaultTypes":{
+          "original": "Getwell Fault Types",
+          "singular": "Getwell Fault Types",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "htrResolution":{
+          "original": "HTR Resolution",
+          "singular": "HTR Resolution",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "hostelResolution":{
+          "original": "Hostel Resolution",
+          "singular": "Hostel Resolution",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "lincorResolution":{
+          "original": "Lincor Resolution",
+          "singular": "Lincor Resolution",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "getwellResolution":{
+          "original": "Getwell Resolution",
+          "singular": "Getwell Resolution",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "productUsage":{
+          "original": "Product Usage",
+          "singular": "Product Usage",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "jobsByTechnician":{
+          "original": "Jobs By Technician",
+          "singular": "Jobs By Technician",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "openJobs":{
+          "original": "Open Jobs",
+          "singular": "Open Jobs",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "closedJobs":{
+          "original": "Closed Jobs",
+          "singular": "Closed Jobs",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "noFaultsBySystem":{
+          "original": "No. Of Faults By System",
+          "singular": "No. Of Faults By System",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "totalJobsClosedBySystem":{
+          "original": "Total Jobs Closed By System",
+          "singular": "Total Jobs Closed By System",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "faultsClosedPerMonth":{
+          "original": "Faults Closed Per Month By Technician",
+          "singular": "Faults Closed Per Month By Technician",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "jobsClosedLastSixMonths":{
+          "original": "Total Jobs Closed (Last 6 Months)",
+          "singular": "Total Jobs Closed (Last 6 Months)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "jobsClosedPerMonthByState":{
+          "original": "Jobs Closed Per Month By State",
+          "singular": "Jobs Closed Per Month By State",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "redflagsClosedPerMonthState":{
+          "original": "Redflags Closed Per Month By State",
+          "singular": "Redflags Closed Per Month By State",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "jobsClosedPerSystemTimeframe":{
+          "original": "Jobs Closed Per System By Timeframe",
+          "singular": "Jobs Closed Per System By Timeframe",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "jobsClosedPerStateTimeframe":{
+          "original": "Jobs Closed Per State By Timeframe",
+          "singular": "Jobs Closed Per State By Timeframe",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      }
+    },
+    "chubb":{
+      "label":{
+        "original": "Chubb Dashboard",
+        "singular": "Chubb Dashboard",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections":{
+        "setupVisible": true,
+        "sec0":{
+          "original": "Total Task By Team",
+          "singular": "Total Task By Team",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1":{
+          "original": "Total Task Status By Team",
+          "singular": "Total Task Status By Team",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2":{
+          "original": "Team",
+          "singular": "Team",
+          "plural": "Teams",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec3":{
+          "original": "Journey Details",
+          "singular": "Journey Details",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4":{
+          "original": "Driver's Supervisor Submit and Approval",
+          "singular": "Driver's Supervisor Submit and Approval",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec5":{
+          "original": "Vehicle Details",
+          "singular": "Vehicle Details",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec6":{
+          "original": "Vehicle Inspection",
+          "singular": "Vehicle Inspection",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec7":{
+          "original": "Fluids",
+          "singular": "Fluids",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec8":{
+          "original": "Vehicle Interior & Equipment",
+          "singular": "Vehicle Interior & Equipment",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec9":{
+          "original": "Functional Check before Start of Journey",
+          "singular": "Functional Check before Start of Journey",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "fields":{
+        "setupVisible": true,
+        "openTask":{
+          "original": "Open Task",
+          "singular": "Open Task",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "closedTask":{
+          "original": "Closed Task",
+          "singular": "Closed Task",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "noJobStatusTeam":{
+          "original": "No Job Status by this team yet",
+          "singular": "No Job Status by this team yet",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "timeframe":{
+          "original": "Timeframe",
+          "singular": "Timeframe",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "timeFrame":{
+          "original": "Time Frame",
+          "singular": "Time Frame",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "status":{
+          "original": "Status",
+          "singular": "Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "descofTrip":{
+          "original": "Description of Trip",
+          "singular": "Description of Trip",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "locationTravel":{
+          "original": "Location of Travel",
+          "singular": "Location of Travel",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "purposeOfTrip":{
+          "original": "Purpose of Trip",
+          "singular": "Purpose of Trip",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "departureDate":{
+          "original": "Departure Date",
+          "singular": "Departure Date",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "departureTime":{
+          "original": "Departure Time",
+          "singular": "Departure Time",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "returnDate":{
+          "original": "Return Date",
+          "singular": "Return Date",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "returnTime":{
+          "original": "Return Time",
+          "singular": "Return Time",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "estimatedDistance":{
+          "original": "Estimated Distance (Km)",
+          "singular": "Estimated Distance (Km)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "submittedBy":{
+          "original": "Submitted By",
+          "singular": "Submitted By",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "approvedBy":{
+          "original": "Approved By",
+          "singular": "Approved By",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "nameOfDriverPassenger":{
+          "original": "Name of Driver/Passenger/Department",
+          "singular": "Name of Driver/Passenger/Department",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "nameOfCarPassengerTravel":{
+          "original": "Name of Car/Passenger/Travel Partners",
+          "singular": "Name of Car/Passenger/Travel Partners",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "nameOfAlternativeDrivers":{
+          "original": "Name of Alternative Drivers/ Mobile No.",
+          "singular": "Name of Alternative Drivers/ Mobile No.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "carRegisterNo":{
+          "original": "Car Reg No",
+          "singular": "Car Reg No",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "dateOfLastDefensiveDriving":{
+          "original": "Date of Last Defensive Driving",
+          "singular": "Date of Last Defensive Driving",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "dateOfCarLastMaintenance":{
+          "original": "Date of Car Last Maintenance",
+          "singular": "Date of Car Last Maintenance",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "validLicenseRoadTax":{
+          "original": "Valid License and Road Tax",
+          "singular": "Valid License and Road Tax",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "externalVehicleCondition":{
+          "original": "External Vehicle Condition",
+          "singular": "External Vehicle Condition",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "conditionBodyworkWindscreen":{
+          "original": "Condition of bodywork, windscreen, lights",
+          "singular": "Condition of bodywork, windscreen, lights",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "comment":{
+          "original": "Comment",
+          "singular": "Comment",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "conditionsOfTires":{
+          "original": "Condition of tires, tire pressure, tire wear",
+          "singular": "Condition of tires, tire pressure, tire wear",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "availabilityWheel":{
+          "original": "Availability of spare wheel, jack and tools",
+          "singular": "Availability of spare wheel, jack and tools",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "underVehicleInspection":{
+          "original": "Under vehicle inspection: leaks, loose parts etc.",
+          "singular": "Under vehicle inspection: leaks, loose parts etc.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "engineOilLevel":{
+          "original": "Engine oil level",
+          "singular": "Engine oil level",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "coolantLevel":{
+          "original": "Coolant level",
+          "singular": "Coolant level",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "windscreenWashLevel":{
+          "original": "Windscreen wash level",
+          "singular": "Windscreen wash level",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "brakeClutchFluid":{
+          "original": "Brake/clutch fluid",
+          "singular": "Brake/clutch fluid",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "powerSteeringFluid":{
+          "original": "Power steering fluid",
+          "singular": "Power steering fluid",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "batteryAcidLevel":{
+          "original": "Battery acid level, connections",
+          "singular": "Battery acid level, connections",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "oilWasteLeaks":{
+          "original": "Oil or waste leaks",
+          "singular": "Oil or waste leaks",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "conditionFunctionSeatbelts":{
+          "original": "Condition & function of seat belts",
+          "singular": "Condition & function of seat belts",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "mirrorAdjustment":{
+          "original": "Mirror adjustment",
+          "singular": "Mirror adjustment",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "firstAidKit":{
+          "original": "First Aid Kit",
+          "singular": "First Aid Kit",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "fireExtinguisher":{
+          "original": "Fire Extinguisher",
+          "singular": "Fire Extinguisher",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "warningTriangle":{
+          "original": "Warning Triangle",
+          "singular": "Warning Triangle",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "warningLightsWorking":{
+          "original": "Warning lights in instruments panel working",
+          "singular": "Warning lights in instruments panel working",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "headlightTailights":{
+          "original": "Headlight, taillights, brake lights, indicators",
+          "singular": "Headlight, taillights, brake lights, indicators",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "horn":{
+          "original": "Horn",
+          "singular": "Horn",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "washerWipers":{
+          "original": "Washer & Wipers",
+          "singular": "Washer & Wipers",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "brakes":{
+          "original": "Brakes",
+          "singular": "Brakes",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "knowHazardRoute":{
+          "original": "Know Hazard on Route",
+          "singular": "Know Hazard on Route",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "departArrivalTime":{
+          "original": "Depart and Arrival Time",
+          "singular": "Depart and Arrival Time",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "restBreakHour":{
+          "original": "Rest Break Hour?",
+          "singular": "Rest Break Hour?",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "contactRequired":{
+          "original": "Contact Required?",
+          "singular": "Contact Required?",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "messages":{
+        "selectTimeframe":"Select Timeframe"
+      }
+
+    }
   }
 }

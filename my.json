@@ -1578,6 +1578,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "expiryDate": {
+        "original": "Expiry Date",
+        "singular": "Expiry Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "serialNo": {
+        "original": "Serial Number",
+        "singular": "Serial Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "unitMeasurement": {
         "original": "Unit Pengukuran",
         "singular": "Unit Pengukuran",
@@ -1665,6 +1679,13 @@
       "qty": {
         "original": "Kuantiti",
         "singular": "Kuantiti",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "totalPrice": {
+        "original": "Total Price",
+        "singular": "Total Price",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2702,7 +2723,8 @@
     "messages": {
       "technicianOnRoute": "Kini seorang pengguna sedang dalam perjalanan ke tugasan ini.",
       "procedureWorkInstructionOrPermitRequired": "Adakah terdapat prosedur, arahan kerja atau permit untuk tugasan ini?",
-      "noSlaStepDefined": "Belum ada langkah SLA"
+      "noSlaStepDefined": "Belum ada langkah SLA",
+      "taskOverDue":"Task Overdue"
     }
   },
   "site": {
@@ -4069,6 +4091,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "assetUnderWarranty": {
+        "original": "Asset Under Warranty",
+        "singular": "Asset Under Warranty",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "notifyCustomer": {
+        "original": "Notify Customer",
+        "singular": "Notify Customer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "cableCondition": {
         "original": "Cable Condition",
         "singular": "Cable Condition",
@@ -5239,6 +5275,13 @@
       "subscriber": {
         "original": "Subscriber",
         "singular": "Subscriber",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "surveyName": {
+        "original": "Name of Survey",
+        "singular": "Name of Survey",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7255,6 +7298,7 @@
       "officeAddressIsNotSet": "Office Address is not set",
       "homeAddressIsNotSet": "Home Address is not set",
       "currentAddressIsNotResolvedYet": "Current address is not resolved yet!",
+      "linkHasBeenCopied": "Link has been copied",
       "selectItem": {
         "singular": "Pilih Item",
         "plural": "Pilih Item"

@@ -1578,6 +1578,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "expiryDate": {
+        "original": "Expiry Date",
+        "singular": "Expiry Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "serialNo": {
+        "original": "Serial Number",
+        "singular": "Serial Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "unitMeasurement": {
         "original": "计量单位",
         "singular": "计量单位",
@@ -1665,6 +1679,13 @@
       "qty": {
         "original": "数量",
         "singular": "数量",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "totalPrice": {
+        "original": "Total Price",
+        "singular": "Total Price",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2702,7 +2723,8 @@
     "messages": {
       "technicianOnRoute": "目前有用户正在前往此任务的路上。",
       "procedureWorkInstructionOrPermitRequired": "此任务是否有程序、工作指令或许可证？",
-      "noSlaStepDefined": "尚无SLA步骤"
+      "noSlaStepDefined": "尚无SLA步骤",
+      "taskOverDue":"Task Overdue"
     }
   },
   "site": {
@@ -4069,6 +4091,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "assetUnderWarranty": {
+        "original": "Asset Under Warranty",
+        "singular": "Asset Under Warranty",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "notifyCustomer": {
+        "original": "Notify Customer",
+        "singular": "Notify Customer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "cableCondition": {
         "original": "Cable Condition",
         "singular": "Cable Condition",
@@ -5239,6 +5275,13 @@
       "subscriber": {
         "original": "Subscriber",
         "singular": "Subscriber",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "surveyName": {
+        "original": "Name of Survey",
+        "singular": "Name of Survey",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7255,6 +7298,7 @@
       "officeAddressIsNotSet": "Office Address is not set",
       "homeAddressIsNotSet": "Home Address is not set",
       "currentAddressIsNotResolvedYet": "Current address is not resolved yet!",
+      "linkHasBeenCopied": "Link has been copied",
       "selectItem": {
         "singular": "选择项目",
         "plural": "选择项目"

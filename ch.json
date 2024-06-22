@@ -7303,7 +7303,7 @@
   },
   "general": {
     "setupVisible": true,
-    "buttons": {
+   "buttons": {
       "setupVisible": true,
       "refresh": {
         "original": "Refresh",
@@ -7343,6 +7343,13 @@
       "filter": {
         "original": "Filter",
         "singular": "Filter",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "resetFilter": {
+        "original": "Reset Filter",
+        "singular": "Reset Filter",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7389,6 +7396,34 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "transferByProducts": {
+        "original": "Transfer by Products",
+        "singular": "Transfer by Products",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transferByBin": {
+        "original": "Transfer by Bin",
+        "singular": "Transfer by Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Location",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "User",
+        "plural": "Users",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "action": {
         "original": "Action",
         "singular": "Action",
@@ -7420,6 +7455,13 @@
       "accept": {
         "original": "Accept",
         "singular": "Accept",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "decline": {
+        "original": "Decline",
+        "singular": "Decline",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7670,8 +7712,8 @@
         "setupVisible": true
       },
       "checkAvailability": {
-        "original": "检查可用性",
-        "singular": "检查可用性",
+        "original": "Check availability",
+        "singular": "Check availability",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7700,6 +7742,27 @@
       "addComment": {
         "original": "Add Comment",
         "singular": "Add Comment",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "uploadImage": {
+        "original": "Upload Image",
+        "singular": "Upload Image",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "create": {
+        "original": "Create",
+        "singular": "Create",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "login": {
+        "original": "Log In",
+        "singular": "Log In",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7826,6 +7889,13 @@
       "buildForm": {
         "original": "Build Form",
         "singular": "Build Form",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approve": {
+        "original": "Approve",
+        "singular": "Approve",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

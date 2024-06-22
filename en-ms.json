@@ -8919,6 +8919,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "resetFilter": {
+        "original": "Reset Filter",
+        "singular": "Reset Filter",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "closeFilter": {
         "original": "Close Filter",
         "singular": "Close Filter",
@@ -8961,6 +8968,34 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "transferByProducts": {
+        "original": "Transfer by Products",
+        "singular": "Transfer by Products",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transferByBin": {
+        "original": "Transfer by Bin",
+        "singular": "Transfer by Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Location",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "User",
+        "plural": "Users",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "action": {
         "original": "Action",
         "singular": "Action",
@@ -8985,6 +9020,27 @@
       "clone": {
         "original": "Clone",
         "singular": "Clone",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "accept": {
+        "original": "Accept",
+        "singular": "Accept",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "decline": {
+        "original": "Decline",
+        "singular": "Decline",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "reject": {
+        "original": "Reject",
+        "singular": "Reject",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9262,6 +9318,27 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "uploadImage": {
+        "original": "Upload Image",
+        "singular": "Upload Image",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "create": {
+        "original": "Create",
+        "singular": "Create",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "login": {
+        "original": "Log In",
+        "singular": "Log In",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "resetPassword": {
         "original": "Reset Password",
         "singular": "Reset Password",
@@ -9384,6 +9461,13 @@
       "buildForm": {
         "original": "Build Form",
         "singular": "Build Form",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approve": {
+        "original": "Approve",
+        "singular": "Approve",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

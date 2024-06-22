@@ -6861,6 +6861,558 @@
       "selectFamily": "Select Family"
     }
   },
+  "consignment":{
+    "setupVisible": true,
+    "label": {
+      "original": "Consignment",
+      "singular": "Consignment",
+      "plural": "Consignments",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "Pending Approvals",
+        "singular": "Pending Approval",
+        "plural": "Pending Approvals",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Consigment Details",
+        "singular": "Consigment Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "On-Behalf Approval",
+        "singular": "On-Behalf Approval",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "Acknowledge By",
+        "singular": "Acknowledge By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec4": {
+        "original": "Consignment Item Details",
+        "singular": "Consignment Item Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec5": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec6": {
+        "original": "Consignment Item",
+        "singular": "Consignment Item",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "purpose": {
+        "original": "Purpose",
+        "singular": "Purpose",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Statuses",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "company": {
+        "original": "Company",
+        "singular": "Company",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "stateRefNo": {
+        "original": "State Ref No:",
+        "singular": "State Ref No:",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "to": {
+        "original": "To",
+        "singular": "To",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "m4dbRefNo": {
+        "original": "M4DB Ref No:",
+        "singular": "M4DB Ref No:",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Other",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "attentionTo": {
+        "original": "Attention To",
+        "singular": "Attention To",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "toEmailAddress": {
+        "original": "To E-mail Address",
+        "singular": "To E-mail Address",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedBy": {
+        "original": "Approved By",
+        "singular": "Approved By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedDate": {
+        "original": "Approved Date",
+        "singular": "Approved Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "uploadSignedCopy": {
+        "original": "Upload Signed Copy",
+        "singular": "Upload Signed Copy",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "acknowledgedDate": {
+        "original": "Acknowledge Date",
+        "singular": "Acknowledge Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "comment": {
+        "original": "Comment",
+        "singular": "Comment",
+        "plural": "Comments",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "Types",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "serialNumber": {
+        "original": "Serial Number",
+        "singular": "Serial Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "partNumber": {
+        "original": "Part Number",
+        "singular": "Part Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "otherItem": {
+        "original": "Other Item",
+        "singular": "Other Item",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "itemName": {
+        "original": "Item Name",
+        "singular": "Item Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Quantity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Description",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "tooltips":{
+      "setupVisble": true,
+      "assetSerialNoLookup":{
+        "original": "Asset Serial No. Lookup",
+        "singular": "Asset Serial No. Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "productPartNoLookup":{
+        "original": "Product Part No. Lookup",
+        "singular": "Product Part No. Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "messages":{
+      "selectType": "Select Type",
+      "selectCompany": "Select Company"
+    }
+  },
+  "requisition":{
+    "setupVisible": true,
+    "label": {
+      "original": "Requisition",
+      "singular": "Requisition",
+      "plural": "Requisitions",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "Pending Approvals",
+        "singular": "Pending Approval",
+        "plural": "Pending Approvals",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Requisition Details",
+        "singular": "Requisition Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "On-Behalf Approval",
+        "singular": "On-Behalf Approval",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "Acknowledge By",
+        "singular": "Acknowledge By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec4": {
+        "original": "Verified By",
+        "singular": "Verified By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec5": {
+        "original": "HOD Approved By",
+        "singular": "HOD Approved By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec6": {
+        "original": "Requisition Item Details",
+        "singular": "Requisition Item Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec7": {
+        "original": "Requisition Item",
+        "singular": "Requisition Item",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec8": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "priority": {
+        "original": "Priority",
+        "singular": "Priority",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Statuses",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "company": {
+        "original": "Company",
+        "singular": "Company",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "stateRefNo": {
+        "original": "State Ref No:",
+        "singular": "State Ref No:",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "from": {
+        "original": "From",
+        "singular": "From",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "m4dbRefNo": {
+        "original": "M4DB Ref No:",
+        "singular": "M4DB Ref No:",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "requisitionFor": {
+        "original": "Requisition For",
+        "singular": "Requisition For",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Other",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedBy": {
+        "original": "Approved By",
+        "singular": "Approved By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvedDate": {
+        "original": "Approved Date",
+        "singular": "Approved Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "uploadSignedCopy": {
+        "original": "Upload Signed Copy",
+        "singular": "Upload Signed Copy",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "acknowledgedDate": {
+        "original": "Acknowledge Date",
+        "singular": "Acknowledge Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "verifiedBy": {
+        "original": "Verified By",
+        "singular": "Verified By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "verificationStatus": {
+        "original": "Verification Status",
+        "singular": "Verification Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "verifiedDate": {
+        "original": "Verified Date",
+        "singular": "Verified Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "verifierComment": {
+        "original": "Verifier Comment",
+        "singular": "Verifier Comment",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "submitToHod": {
+        "original": "Submit to HOD",
+        "singular": "Submit to HOD",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "hodVerifiedBy": {
+        "original": "HOD Verified By",
+        "singular": "HOD Verified By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "hodApprovalStatus": {
+        "original": "HOD Approval Status",
+        "singular": "HOD Approval Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "hodComment": {
+        "original": "HOD Comment",
+        "singular": "HOD Comment",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "Types",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "serialNumber": {
+        "original": "Serial Number",
+        "singular": "Serial Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "partNumber": {
+        "original": "Part Number",
+        "singular": "Part Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "otherItem": {
+        "original": "Other Item",
+        "singular": "Other Item",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "itemName": {
+        "original": "Item Name",
+        "singular": "Item Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Quantity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Description",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "verificationComment": {
+        "original": "Verification Comment",
+        "singular": "Verification Comment",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "picToNotify": {
+        "original": "PIC To Notify",
+        "singular": "PIC To Notify",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "tooltips":{
+      "setupVisble": true,
+      "assetSerialNoLookup":{
+        "original": "Asset Serial No. Lookup",
+        "singular": "Asset Serial No. Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "productPartNoLookup":{
+        "original": "Product Part No. Lookup",
+        "singular": "Product Part No. Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "messages":{
+      "selectPriority": "Select Priority",
+      "selectType": "Select Type",
+      "selectCompany": "Select Company",
+      "selectUser": "Select User"
+    }
+  },
   "contacts": {
     "setupVisible": true,
     "label": {

@@ -1957,6 +1957,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "expiryDate": {
+        "original": "Expiry Date",
+        "singular": "Expiry Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "serialNo": {
+        "original": "Serial Number",
+        "singular": "Serial Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "unitMeasurement": {
         "original": "Unit of Measurement",
         "singular": "Unit of Measurement",
@@ -2044,6 +2058,13 @@
       "qty": {
         "original": "Qty",
         "singular": "Qty",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "totalPrice": {
+        "original": "Total Price",
+        "singular": "Total Price",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3081,7 +3102,8 @@
     "messages": {
       "technicianOnRoute": "Currently a user is en route to this task.",
       "procedureWorkInstructionOrPermitRequired": "Is there a procedure, work instruction or permit for this task?",
-      "noSlaStepDefined": "No SLA step yet"
+      "noSlaStepDefined": "No SLA step yet",
+      "taskOverDue":"Task Overdue"
     }
   },
   "site": {
@@ -4455,6 +4477,21 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "assetUnderWarranty": {
+        "original": "Asset Under Warranty",
+        "singular": "Asset Under Warranty",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "notifyCustomer": {
+        "original": "Notify Customer",
+        "singular": "Notify Customer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+    
       "cableCondition": {
         "original": "Cable Condition",
         "singular": "Cable Condition",
@@ -5650,6 +5687,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "surveyName": {
+        "original": "Name of Survey",
+        "singular": "Name of Survey",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "surveyLink": {
         "original": "Survey Link",
         "singular": "Survey Link",
@@ -5695,6 +5739,13 @@
       "surveyToSend": {
         "original": "Survey to Send",
         "singular": "Survey to Send",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "createTaskForThisJo": {
+        "original": "Create task for this Job Order",
+        "singular": "Create task for this Job Order",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7690,6 +7741,7 @@
       "officeAddressIsNotSet": "Office Address is not set",
       "homeAddressIsNotSet": "Home Address is not set",
       "currentAddressIsNotResolvedYet": "Current address is not resolved yet!",
+      "linkHasBeenCopied": "Link has been copied",
       "selectItem": {
         "singular": "Select Item",
         "plural": "Select Items"

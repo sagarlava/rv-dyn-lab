@@ -3284,9 +3284,9 @@
   "ticket": {
     "setupVisible": true,
     "label": {
-      "original": "Ticket",
-      "singular": "Ticket",
-      "plural": "Tickets",
+      "original": "工单",
+      "singular": "工单",
+      "plural": "工单",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -3314,15 +3314,15 @@
         "setupVisible": true
       },
       "sec3": {
-        "original": "Customer Details",
-        "singular": "Customer Details",
+        "original": "客户详情",
+        "singular": "客户详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
-        "original": "Ticket Description",
-        "singular": "Ticket Description",
+        "original": "工单描述",
+        "singular": "工单描述",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3335,36 +3335,36 @@
         "setupVisible": true
       },
       "sec6": {
-        "original": "Ticket Details",
-        "singular": "Ticket Details",
+        "original": "工单详情",
+        "singular": "工单详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec7": {
-        "original": "Add Comment",
-        "singular": "Add Comment",
+        "original": "添加评论",
+        "singular": "添加评论",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec8": {
-        "original": "Ticket Conversation",
-        "singular": "Ticket Conversation",
+        "original": "工单对话",
+        "singular": "工单对话",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec9": {
-        "original": "Interactions",
-        "singular": "Interaction",
-        "plural": "Interactions",
+        "original": "互动",
+        "singular": "互动",
+        "plural": "互动",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec10": {
-        "original": "Latest Escalated Job Order",
-        "singular": "Latest Escalated Job Order",
+        "original": "最新升级的工作订单",
+        "singular": "最新升级的工作订单",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3394,15 +3394,15 @@
         "setupVisible": true
       },
       "ticketOwner": {
-        "original": "Ticket Owner",
-        "singular": "Ticket Owner",
+        "original": "工单所有者",
+        "singular": "工单所有者",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "openDateTime": {
-        "original": "Open Date & Time",
-        "singular": "Open Date & Time",
+        "original": "开启日期和时间",
+        "singular": "开启日期和时间",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3415,8 +3415,8 @@
         "setupVisible": true
       },
       "dueDateDueTime": {
-        "original": "Due Date & Due Time",
-        "singular": "Due Date & Due Time",
+        "original": "到期日期和时间",
+        "singular": "到期日期和时间",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3429,15 +3429,15 @@
         "setupVisible": true
       },
       "closeDateTime": {
-        "original": "Close Date & Time",
-        "singular": "Close Date & Time",
+        "original": "关闭日期和时间",
+        "singular": "关闭日期和时间",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "subject": {
-        "original": "Subject",
-        "singular": "Subject",
+        "original": "主题",
+        "singular": "主题",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3450,29 +3450,29 @@
         "setupVisible": true
       },
       "contactPersonName": {
-        "original": "Contact Person Name",
-        "singular": "Contact Person Name",
+        "original": "联系人姓名",
+        "singular": "联系人姓名",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "contactEmail": {
-        "original": "Contact Email",
-        "singular": "Contact Email",
+        "original": "联系电子邮件",
+        "singular": "联系电子邮件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "contactPhone": {
-        "original": "Contact Phone",
-        "singular": "Contact Phone",
+        "original": "联系电话",
+        "singular": "联系电话",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "recipientEmail": {
-        "original": "Recipient CC Email",
-        "singular": "Recipient CC Email",
+        "original": "抄送收件人电子邮件",
+        "singular": "抄送收件人电子邮件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3492,36 +3492,36 @@
         "setupVisible": true
       },
       "ticketGroup": {
-        "original": "Ticket Group",
-        "singular": "Ticket Group",
+        "original": "工单组",
+        "singular": "工单组",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "duplicateTicket": {
-        "original": "Duplicate Ticket",
-        "singular": "Duplicate Ticket",
+        "original": "重复工单",
+        "singular": "重复工单",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "cancelReason": {
-        "original": "Cancel Reason",
-        "singular": "Cancel Reason",
+        "original": "取消原因",
+        "singular": "取消原因",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "allAsset": {
-        "original": "All Assets",
-        "singular": "All Asset",
-        "plural": "All Assets",
+        "original": "所有资产",
+        "singular": "所有资产",
+        "plural": "所有资产",
         "setupEdit": true,
         "setupVisible": true
       },
       "assetsByCustomer": {
-        "original": "Assets by Customer",
-        "singular": "Assets by Customer",
+        "original": "按客户分类的资产",
+        "singular": "按客户分类的资产",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3534,15 +3534,15 @@
         "setupVisible": true
       },
       "faultType": {
-        "original": "Fault Type",
-        "singular": "Fault Type",
+        "original": "故障类型",
+        "singular": "故障类型",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "fieldAgent": {
-        "original": "Field Agent",
-        "singular": "Field Agent",
+        "original": "现场代理",
+        "singular": "现场代理",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3562,71 +3562,71 @@
         "setupVisible": true
       },
       "durationMins": {
-        "original": "Duration (mins)",
-        "singular": "Duration (mins)",
+        "original": "持续时间（分钟）",
+        "singular": "持续时间（分钟）",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "atRiskDuration": {
-        "original": "At Risk Duration",
-        "singular": "At Risk Duration",
+        "original": "风险时长",
+        "singular": "风险时长",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "violationDuration": {
-        "original": "Violation Duration",
-        "singular": "Violation Duration",
+        "original": "违规时长",
+        "singular": "违规时长",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "violationStatus": {
-        "original": "Violation Status",
-        "singular": "Violation Status",
+        "original": "违规状态",
+        "singular": "违规状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "resolution": {
-        "original": "Resolution",
-        "singular": "Resolution",
+        "original": "解决方案",
+        "singular": "解决方案",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "resolutionType": {
-        "original": "Resolution Type",
-        "singular": "Resolution Type",
+        "original": "解决方案类型",
+        "singular": "解决方案类型",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sinceAssigned": {
-        "original": "since assigned",
-        "singular": "since assigned",
+        "original": "自分配以来",
+        "singular": "自分配以来",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "slaStatus": {
-        "original": "SLA Status",
-        "singular": "SLA Status",
+        "original": "SLA状态",
+        "singular": "SLA状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "replyThisToCustomer": {
-        "original": "Reply this to customer",
-        "singular": "Reply this to customer",
+        "original": "回复客户",
+        "singular": "回复客户",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "ticketNo": {
-        "original": "Ticket No.",
-        "singular": "Ticket No.",
+        "original": "工单编号",
+        "singular": "工单编号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3641,15 +3641,15 @@
     "tooltips": {
       "setupVisible": true,
       "ticketLookup": {
-        "original": "Ticket Lookup",
-        "singular": "Ticket Lookup",
+        "original": "工单查询",
+        "singular": "工单查询",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "duplicateThisIsFor": {
-        "original": "Has a similar ticket been raised before?",
-        "singular": "Has a similar ticket been raised before?",
+        "original": "之前是否有类似的工单？",
+        "singular": "之前是否有类似的工单？",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3683,9 +3683,9 @@
         "setupVisible": true
       },
       "sec2": {
-        "original": "Customer Details",
-        "singular": "Customer Details",
-        "plural": "Customer Details",
+        "original": "客户详情",
+        "singular": "客户详情",
+        "plural": "客户详情",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -3980,8 +3980,8 @@
         "setupVisible": true
       },
       "resolution": {
-        "original": "Resolution",
-        "singular": "Resolution",
+        "original": "解决方案",
+        "singular": "解决方案",
         "plural": "Resolutions",
         "setupEdit": true,
         "setupVisible": true
@@ -5644,15 +5644,15 @@
         "setupVisible": true
       },
       "slaStatus": {
-        "original": "SLA Status",
-        "singular": "SLA Status",
+        "original": "SLA状态",
+        "singular": "SLA状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "violationStatus": {
-        "original": "Violation Status",
-        "singular": "Violation Status",
+        "original": "违规状态",
+        "singular": "违规状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7761,8 +7761,8 @@
         "setupVisible": true
       },
       "addComment": {
-        "original": "Add Comment",
-        "singular": "Add Comment",
+        "original": "添加评论",
+        "singular": "添加评论",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -10865,8 +10865,8 @@
           "sections": {
             "setupVisible": true,
             "sec0": {
-              "original": "Fault Type",
-              "singular": "Fault Type",
+              "original": "故障类型",
+              "singular": "故障类型",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -10988,8 +10988,8 @@
           "sections": {
             "setupVisible": true,
             "sec0": {
-              "original": "Resolution",
-              "singular": "Resolution",
+              "original": "解决方案",
+              "singular": "解决方案",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11388,7 +11388,7 @@
           },
           "sec1": {
             "original": "Resolutions",
-            "singular": "Resolution",
+            "singular": "解决方案",
             "plural": "Resolutions",
             "setupEdit": true,
             "setupVisible": true
@@ -11675,8 +11675,8 @@
             "setupVisible": true
           },
           "resolution": {
-            "original": "Resolution",
-            "singular": "Resolution",
+            "original": "解决方案",
+            "singular": "解决方案",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true

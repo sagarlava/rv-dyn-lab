@@ -3284,9 +3284,9 @@
   "ticket": {
     "setupVisible": true,
     "label": {
-      "original": "Ticket",
-      "singular": "Ticket",
-      "plural": "Tickets",
+      "original": "Tiket",
+      "singular": "Tiket",
+      "plural": "Tiket",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -3314,15 +3314,15 @@
         "setupVisible": true
       },
       "sec3": {
-        "original": "Customer Details",
-        "singular": "Customer Details",
+        "original": "Butiran Pelanggan",
+        "singular": "Butiran Pelanggan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
-        "original": "Ticket Description",
-        "singular": "Ticket Description",
+        "original": "Deskripsi Tiket",
+        "singular": "Deskripsi Tiket",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3335,36 +3335,36 @@
         "setupVisible": true
       },
       "sec6": {
-        "original": "Ticket Details",
-        "singular": "Ticket Details",
+        "original": "Butiran Tiket",
+        "singular": "Butiran Tiket",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec7": {
-        "original": "Add Comment",
-        "singular": "Add Comment",
+        "original": "Butiran Tiket",
+        "singular": "Butiran Tiket",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec8": {
-        "original": "Ticket Conversation",
-        "singular": "Ticket Conversation",
+        "original": "Perbualan Tiket",
+        "singular": "Perbualan Tiket",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec9": {
-        "original": "Interactions",
-        "singular": "Interaction",
-        "plural": "Interactions",
+        "original": "Interaksi",
+        "singular": "Interaksi",
+        "plural": "Interaksi",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec10": {
-        "original": "Latest Escalated Job Order",
-        "singular": "Latest Escalated Job Order",
+        "original": "Pesanan Kerja Terkini yang Ditingkatkan",
+        "singular": "Pesanan Kerja Terkini yang Ditingkatkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3394,15 +3394,15 @@
         "setupVisible": true
       },
       "ticketOwner": {
-        "original": "Ticket Owner",
-        "singular": "Ticket Owner",
+        "original": "Pemilik Tiket",
+        "singular": "Pemilik Tiket",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "openDateTime": {
-        "original": "Open Date & Time",
-        "singular": "Open Date & Time",
+        "original": "Tarikh & Masa Dibuka",
+        "singular": "Tarikh & Masa Dibuka",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3415,8 +3415,8 @@
         "setupVisible": true
       },
       "dueDateDueTime": {
-        "original": "Due Date & Due Time",
-        "singular": "Due Date & Due Time",
+        "original": "Tarikh & Masa Tamat",
+        "singular": "Tarikh & Masa Tamat",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3429,15 +3429,15 @@
         "setupVisible": true
       },
       "closeDateTime": {
-        "original": "Close Date & Time",
-        "singular": "Close Date & Time",
+        "original": "Tarikh & Masa Ditutup",
+        "singular": "Tarikh & Masa Ditutup",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "subject": {
-        "original": "Subject",
-        "singular": "Subject",
+        "original": "Subjek",
+        "singular": "Subjek",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3450,29 +3450,29 @@
         "setupVisible": true
       },
       "contactPersonName": {
-        "original": "Contact Person Name",
-        "singular": "Contact Person Name",
+        "original": "Nama Orang yang Dihubungi",
+        "singular": "Nama Orang yang Dihubungi",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "contactEmail": {
-        "original": "Contact Email",
-        "singular": "Contact Email",
+        "original": "E-mel Orang yang Dihubungi",
+        "singular": "E-mel Orang yang Dihubungi",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "contactPhone": {
-        "original": "Contact Phone",
-        "singular": "Contact Phone",
+        "original": "Telefon Orang yang Dihubungi",
+        "singular": "Telefon Orang yang Dihubungi",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "recipientEmail": {
-        "original": "Recipient CC Email",
-        "singular": "Recipient CC Email",
+        "original": "E-mel CC Penerima",
+        "singular": "E-mel CC Penerima",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3492,36 +3492,36 @@
         "setupVisible": true
       },
       "ticketGroup": {
-        "original": "Ticket Group",
-        "singular": "Ticket Group",
+        "original": "Kumpulan Tiket",
+        "singular": "Kumpulan Tiket",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "duplicateTicket": {
-        "original": "Duplicate Ticket",
-        "singular": "Duplicate Ticket",
+        "original": "Tiket Pendua",
+        "singular": "Tiket Pendua",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "cancelReason": {
-        "original": "Cancel Reason",
-        "singular": "Cancel Reason",
+        "original": "Sebab Pembatalan",
+        "singular": "Sebab Pembatalan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "allAsset": {
-        "original": "All Assets",
-        "singular": "All Asset",
-        "plural": "All Assets",
+        "original": "Semua Aset",
+        "singular": "Semua Aset",
+        "plural": "Semua Aset",
         "setupEdit": true,
         "setupVisible": true
       },
       "assetsByCustomer": {
-        "original": "Assets by Customer",
-        "singular": "Assets by Customer",
+        "original": "Aset oleh Pelanggan",
+        "singular": "Aset oleh Pelanggan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3534,15 +3534,15 @@
         "setupVisible": true
       },
       "faultType": {
-        "original": "Fault Type",
-        "singular": "Fault Type",
+        "original": "Jenis Kerosakan",
+        "singular": "Jenis Kerosakan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "fieldAgent": {
-        "original": "Field Agent",
-        "singular": "Field Agent",
+        "original": "Agen Lapangan",
+        "singular": "Agen Lapangan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3562,71 +3562,71 @@
         "setupVisible": true
       },
       "durationMins": {
-        "original": "Duration (mins)",
-        "singular": "Duration (mins)",
+        "original": "Tempoh (minit)",
+        "singular": "Tempoh (minit)",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "atRiskDuration": {
-        "original": "At Risk Duration",
-        "singular": "At Risk Duration",
+        "original": "Tempoh Berisiko",
+        "singular": "Tempoh Berisiko",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "violationDuration": {
-        "original": "Violation Duration",
-        "singular": "Violation Duration",
+        "original": "Tempoh Pelanggaran",
+        "singular": "Tempoh Pelanggaran",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "violationStatus": {
-        "original": "Violation Status",
-        "singular": "Violation Status",
+        "original": "Status Pelanggaran",
+        "singular": "Status Pelanggaran",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "resolution": {
-        "original": "Resolution",
-        "singular": "Resolution",
+        "original": "Penyelesaian",
+        "singular": "Penyelesaian",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "resolutionType": {
-        "original": "Resolution Type",
-        "singular": "Resolution Type",
+        "original": "Jenis Penyelesaian",
+        "singular": "Jenis Penyelesaian",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sinceAssigned": {
-        "original": "since assigned",
-        "singular": "since assigned",
+        "original": "sejak ditugaskan",
+        "singular": "sejak ditugaskan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "slaStatus": {
-        "original": "SLA Status",
-        "singular": "SLA Status",
+        "original": "Status SLA",
+        "singular": "Status SLA",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "replyThisToCustomer": {
-        "original": "Reply this to customer",
-        "singular": "Reply this to customer",
+        "original": "Balas ini kepada pelanggan",
+        "singular": "Balas ini kepada pelanggan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "ticketNo": {
-        "original": "Ticket No.",
-        "singular": "Ticket No.",
+        "original": "No. Tiket",
+        "singular": "No. Tiket",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3641,15 +3641,15 @@
     "tooltips": {
       "setupVisible": true,
       "ticketLookup": {
-        "original": "Ticket Lookup",
-        "singular": "Ticket Lookup",
+        "original": "Carian Tiket",
+        "singular": "Carian Tiket",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "duplicateThisIsFor": {
-        "original": "Has a similar ticket been raised before?",
-        "singular": "Has a similar ticket been raised before?",
+        "original": "Adakah tiket serupa pernah diangkat sebelum ini?",
+        "singular": "Adakah tiket serupa pernah diangkat sebelum ini?",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3683,9 +3683,9 @@
         "setupVisible": true
       },
       "sec2": {
-        "original": "Customer Details",
-        "singular": "Customer Details",
-        "plural": "Customer Details",
+        "original": "Butiran Pelanggan",
+        "singular": "Butiran Pelanggan",
+        "plural": "Butiran Pelanggan",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -3980,8 +3980,8 @@
         "setupVisible": true
       },
       "resolution": {
-        "original": "Resolution",
-        "singular": "Resolution",
+        "original": "Penyelesaian",
+        "singular": "Penyelesaian",
         "plural": "Resolutions",
         "setupEdit": true,
         "setupVisible": true
@@ -5644,15 +5644,15 @@
         "setupVisible": true
       },
       "slaStatus": {
-        "original": "SLA Status",
-        "singular": "SLA Status",
+        "original": "Status SLA",
+        "singular": "Status SLA",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "violationStatus": {
-        "original": "Violation Status",
-        "singular": "Violation Status",
+        "original": "Status Pelanggaran",
+        "singular": "Status Pelanggaran",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7761,8 +7761,8 @@
         "setupVisible": true
       },
       "addComment": {
-        "original": "Add Comment",
-        "singular": "Add Comment",
+        "original": "Butiran Tiket",
+        "singular": "Butiran Tiket",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -10865,8 +10865,8 @@
           "sections": {
             "setupVisible": true,
             "sec0": {
-              "original": "Fault Type",
-              "singular": "Fault Type",
+              "original": "Jenis Kerosakan",
+              "singular": "Jenis Kerosakan",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -10988,8 +10988,8 @@
           "sections": {
             "setupVisible": true,
             "sec0": {
-              "original": "Resolution",
-              "singular": "Resolution",
+              "original": "Penyelesaian",
+              "singular": "Penyelesaian",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -11388,7 +11388,7 @@
           },
           "sec1": {
             "original": "Resolutions",
-            "singular": "Resolution",
+            "singular": "Penyelesaian",
             "plural": "Resolutions",
             "setupEdit": true,
             "setupVisible": true
@@ -11675,8 +11675,8 @@
             "setupVisible": true
           },
           "resolution": {
-            "original": "Resolution",
-            "singular": "Resolution",
+            "original": "Penyelesaian",
+            "singular": "Penyelesaian",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true

@@ -8676,6 +8676,8 @@
       "cconfirm": "Confirm",
       "willBeApproved": "will now be APPROVED.",
       "currentLocation": "Current Location",
+      "home": "Home",
+      "office": "Office",
       "radiusKM": "Radius (KM)",
       "radius": "Radius",
       "officeAddressIsNotSet": "Office Address is not set",
@@ -8694,7 +8696,7 @@
       "pleaseSignBelow":"Please sign below",
       "email":"Email",
       "processingAndWait":"Processing, Please Wait..",
-      "currentAddressNotResolvedYet":"Current address is not resolved yet!"
+      "locationNotFound":"Location not found"
     },
     "map": {
       "setupVisible": true,

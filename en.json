@@ -1724,6 +1724,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec8": {
+        "original": "Asset Details",
+        "singular": "Asset Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec9": {
+        "original": "Questions",
+        "singular": "Question",
+        "plural": "Questions",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec10": {
+        "original": "Asset Updates",
+        "singular": "Asset Updates",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec11": {
+        "original": "Follow-Up Checklist",
+        "singular": "Follow-Up Checklist",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -1777,20 +1805,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "initiateFollowUpChecklist": {
-        "original": "Follow-Up Checklist",
-        "singular": "Follow-Up Checklist",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "questions": {
-        "original": "Question",
-        "singular": "Question",
-        "plural": "Questions",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "selectAsset": {
         "original": "Select Asset",
         "singular": "Select Asset",
@@ -1822,6 +1836,13 @@
       "status": {
         "original": "Status",
         "singular": "Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "checklistToGenerate": {
+        "original": "New Checklist to be Generated",
+        "singular": "New Checklist to be Generated",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

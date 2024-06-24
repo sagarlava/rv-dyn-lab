@@ -1345,6 +1345,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec8": {
+        "original": "Asset Details",
+        "singular": "Asset Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec9": {
+        "original": "问题",
+        "singular": "问题",
+        "plural": "问题",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec10": {
+        "original": "Asset Updates",
+        "singular": "Asset Updates",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec11": {
+        "original": "后续检查清单",
+        "singular": "后续检查清单",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -1398,20 +1426,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "initiateFollowUpChecklist": {
-        "original": "后续检查清单",
-        "singular": "后续检查清单",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "questions": {
-        "original": "问题",
-        "singular": "问题",
-        "plural": "问题",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "selectAsset": {
         "original": "选择资产",
         "singular": "选择资产",
@@ -1443,6 +1457,13 @@
       "status": {
         "original": "状态",
         "singular": "状态",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "checklistToGenerate": {
+        "original": "New Checklist to be Generated",
+        "singular": "New Checklist to be Generated",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3076,9 +3097,9 @@
   "project": {
     "setupVisible": true,
     "label": {
-      "original": "Project",
-      "singular": "Project",
-      "plural": "Projects",
+      "original": "项目",
+      "singular": "项目",
+      "plural": "项目",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -3106,8 +3127,8 @@
         "setupVisible": true
       },
       "sec3": {
-        "original": "Project Details",
-        "singular": "Project Details",
+        "original": "项目详情",
+        "singular": "项目详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3165,8 +3186,8 @@
         "setupVisible": true
       },
       "projectNo": {
-        "original": "Project No.",
-        "singular": "Project No.",
+        "original": "项目编号",
+        "singular": "项目编号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3221,8 +3242,8 @@
         "setupVisible": true
       },
       "source": {
-        "original": "Source",
-        "singular": "Source",
+        "original": "来源",
+        "singular": "来源",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3251,8 +3272,8 @@
     "tooltips": {
       "setupVisible": true,
       "projectLookup": {
-        "original": "Project Lookup",
-        "singular": "Project Lookup",
+        "original": "项目查询",
+        "singular": "项目查询",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

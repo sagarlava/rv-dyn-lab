@@ -3304,7 +3304,16 @@
       "technicianOnRoute": "Currently a user is en route to this task.",
       "procedureWorkInstructionOrPermitRequired": "Is there a procedure, work instruction or permit for this task?",
       "noSlaStepDefined": "No SLA step yet",
-      "taskOverDue":"Task Overdue"
+      "taskOverDue":"Task Overdue",
+      "selectAtLeastOneTeam":"Select at least one team",
+      "checkInSuccessfully":"Checked in successfully",
+      "acceptTaskBeforeCheckIn":"Please accept the task before trying to check in",
+      "taskOwnerChangedSuccessfully":"Task owner changed successfully",
+      "userRemovedFromTask":"User removed from task successfully",
+      "taskOnJourney":"This task is on journey, hence unable to delete",
+      "endTimeAfterStartTime":"End time must be after Start time",
+      "pleaseSelectRole":"Please select a role",
+      "pleaseSelectDepartmentRole":"Please select a department and role"
     }
   },
   "site": {

@@ -2745,7 +2745,16 @@
       "technicianOnRoute": "目前有用户正在前往此任务的路上。",
       "procedureWorkInstructionOrPermitRequired": "此任务是否有程序、工作指令或许可证？",
       "noSlaStepDefined": "尚无SLA步骤",
-      "taskOverDue":"Task Overdue"
+      "taskOverDue":"Task Overdue",
+      "selectAtLeastOneTeam":"Select at least one team",
+      "checkInSuccessfully":"Checked in successfully",
+      "acceptTaskBeforeCheckIn":"Please accept the task before trying to check in",
+      "taskOwnerChangedSuccessfully":"Task owner changed successfully",
+      "userRemovedFromTask":"User removed from task successfully",
+      "taskOnJourney":"This task is on journey, hence unable to delete",
+      "endTimeAfterStartTime":"End time must be after Start time",
+      "pleaseSelectRole":"Please select a role",
+      "pleaseSelectDepartmentRole":"Please select a department and role"
     }
   },
   "site": {

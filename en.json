@@ -3148,7 +3148,17 @@
       "taskOnJourney":"This task is on journey, hence unable to delete",
       "endTimeAfterStartTime":"End time must be after Start time",
       "pleaseSelectRole":"Please select a role",
-      "pleaseSelectDepartmentRole":"Please select a department and role"
+      "pleaseSelectDepartmentRole":"Please select a department and role",
+      "youShouldCheckoutFirst":"You should checkout first, Are you sure want to checkout and mark as completed?",
+      "doYouWantToMarkTaskCompleted":"Do you want to mark this task as completed?",
+      "doYouWantToCompleteTake5Form":"Do you want to complete Take 5 form?",
+      "pleaseCompleteJMPBeforeProceeding":"Please complete JMP before proceeding to the task",
+      "thisTaskIsAlreadyStartingJourney":"This task is already starting the journey from another device",
+      "unableToResolveTaskLocation":"Unable to resolve task location coordinates. Please update the location",
+      "ownerChangedForTheTaskSuccessfully":"Owner changed for the task successfully.",
+      "userAddedToTheTaskSuccessfully":"User added to task successfully.",
+      "taskHasBeenMarkedCompletedUpdateStatus":"Task has been marked completed, Please update status before check-in",
+      "declineReason":"Declien Reason"
     }
   },
   "site": {
@@ -8103,6 +8113,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "checkIn": {
+        "original": "Check In",
+        "singular": "Check In",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "checkOut": {
+        "original": "Check Out",
+        "singular": "Check Out",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "sendCalendlyLink": {
         "original": "Send Calendly Link",
         "singular": "Send Calendly Link",
@@ -8225,6 +8249,34 @@
       "addNotes": {
         "original": "Add Notes",
         "singular": "Add Notes",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "Notes",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assistance": {
+        "original": "Assistance",
+        "singular": "Notes",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "activity": {
+        "original": "Activity",
+        "singular": "Activity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "journeys": {
+        "original": "Journeys",
+        "singular": "Journeys",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8446,6 +8498,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "viewMap": {
+        "original": "View Map",
+        "singular": "View map",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "receipt": {
         "original": "RECEIPT",
         "singular": "RECEIPT",
@@ -8470,6 +8529,20 @@
       "updateForNew": {
         "original": "Update for new",
         "singular": "Update for new",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "startJourney": {
+        "original": "Start Journey",
+        "singular": "Start Journey",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "returnToJourney": {
+        "original": "Return to Journey",
+        "singular": "Return to Journey",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8707,6 +8780,7 @@
       "noRecordsFound": "No Records Found",
       "none": "None",
       "records": "Records",
+      "information":  "Information",
       "noViewAccess": "You do not have access to view this record",
       "dragAndDropFileToUpload": "Drag and drop file to upload",
       "noActiveContracts": "No active contracts",
@@ -8755,7 +8829,8 @@
       "pleaseSignBelow":"Please sign below",
       "email":"Email",
       "processingAndWait":"Processing, Please Wait..",
-      "locationNotFound":"Location not found"
+      "locationNotFound":"Location not found",
+      "pleaeTurnTheLocationOn":"Please turn on the location and try again"
     },
     "map": {
       "setupVisible": true,

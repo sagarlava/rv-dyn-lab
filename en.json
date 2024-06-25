@@ -9983,9 +9983,23 @@
             "setupEdit": true,
             "setupVisible": true
           },
+          "department": {
+            "original": "Department",
+            "singular": "Department",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
           "roleName": {
             "original": "Role Name",
             "singular": "Role Name",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "role": {
+            "original": "Role",
+            "singular": "Role",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10086,6 +10100,13 @@
             "plural": "New Members",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "sec8": {
+            "original": "Upload Team Image",
+            "singular": "Upload Team Image",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
         },
         "fields": {
@@ -10149,6 +10170,20 @@
           "role": {
             "original": "Role",
             "singular": "Role",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "checkInRadius": {
+            "original": "Check In Radius",
+            "singular": "Check In Radius",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "radius": {
+            "original": "Radius",
+            "singular": "Radius",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -14676,6 +14711,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec2":{
+        "original": "Resend Email",
+        "singular": "Resend Email",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields":{
@@ -14683,6 +14725,13 @@
       "username":{
         "original": "Username",
         "singular": "Username",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "oldPassword":{
+        "original": "Old Password",
+        "singular": "Old Password",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -14697,6 +14746,13 @@
       "confirmPassword":{
         "original": "Confirm Password",
         "singular": "Confirm Password",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "confirmNewPassword":{
+        "original": "Confirm New Password",
+        "singular": "Confirm New Password",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -14716,7 +14772,9 @@
       "oneNumeric":"1 number (0-9)",
       "oneSymbol":"1 symbol (!, @, #, $, etc)",
       "passwordRequirement":"Password must contain at least",
-      "usernameExclusion":"must not contain part of your username"
+      "usernameExclusion":"must not contain part of your username",
+      "anEmailWillBeSentTo":"An email will be sent to",
+      "doYouWishProceed":"Do you wish to proceed"
     },
     "validationFE":{
       "passwordsDoNotMatch":"Password does not match"

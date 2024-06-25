@@ -1001,6 +1001,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "skillsAndTools": {
+        "original": "Skills & Tools",
+        "singular": "Skills & Tools",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "maintenanceFrequency": {
         "original": "维护频率",
         "singular": "维护频率",
@@ -2761,7 +2768,17 @@
       "taskOnJourney":"This task is on journey, hence unable to delete",
       "endTimeAfterStartTime":"End time must be after Start time",
       "pleaseSelectRole":"Please select a role",
-      "pleaseSelectDepartmentRole":"Please select a department and role"
+      "pleaseSelectDepartmentRole":"Please select a department and role",
+      "youShouldCheckoutFirst":"You should checkout first, Are you sure want to checkout and mark as completed?",
+      "doYouWantToMarkTaskCompleted":"Do you want to mark this task as completed?",
+      "doYouWantToCompleteTake5Form":"Do you want to complete Take 5 form?",
+      "pleaseCompleteJMPBeforeProceeding":"Please complete JMP before proceeding to the task",
+      "thisTaskIsAlreadyStartingJourney":"This task is already starting the journey from another device",
+      "unableToResolveTaskLocation":"Unable to resolve task location coordinates. Please update the location",
+      "ownerChangedForTheTaskSuccessfully":"Owner changed for the task successfully.",
+      "userAddedToTheTaskSuccessfully":"User added to task successfully.",
+      "taskHasBeenMarkedCompletedUpdateStatus":"Task has been marked completed, Please update status before check-in",
+      "declineReason":"Declien Reason"
     }
   },
   "site": {
@@ -9414,9 +9431,23 @@
             "setupEdit": true,
             "setupVisible": true
           },
+          "department": {
+            "original": "Department",
+            "singular": "Department",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
           "roleName": {
             "original": "Role Name",
             "singular": "Role Name",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "role": {
+            "original": "Role",
+            "singular": "Role",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -9578,6 +9609,20 @@
           "role": {
             "original": "角色",
             "singular": "角色",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "checkInRadius": {
+            "original": "Check In Radius",
+            "singular": "Check In Radius",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "radius": {
+            "original": "Radius",
+            "singular": "Radius",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -14116,6 +14161,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "oldPassword":{
+        "original": "Old Password",
+        "singular": "Old Password",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "newPassword":{
         "original": "New Password",
         "singular": "New Password",
@@ -14126,6 +14178,13 @@
       "confirmPassword":{
         "original": "Confirm Password",
         "singular": "Confirm Password",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "confirmNewPassword":{
+        "original": "Confirm New Password",
+        "singular": "Confirm New Password",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

@@ -7912,9 +7912,23 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "add": {
+        "original": "Add",
+        "singular": "Add",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "clone": {
         "original": "Clone",
         "singular": "Clone",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "setup": {
+        "original": "Setup",
+        "singular": "Setup",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8426,6 +8440,20 @@
       "done": {
         "original": "Done",
         "singular": "Done",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "applyToAll": {
+        "original": "Apply to all",
+        "singular": "Apply to all",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "updateForNew": {
+        "original": "Update for new",
+        "singular": "Update for new",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -10432,6 +10460,13 @@
               "plural": "Default List Views",
               "setupEdit": true,
               "setupVisible": true
+            }, 
+            "sec1": {
+              "original": "Confirm List View Update",
+              "singular": "Confirm List View Update",
+              "plural": "Confirm List View Update",
+              "setupEdit": true,
+              "setupVisible": true
             }
           },
           "fields": {
@@ -10450,6 +10485,10 @@
               "setupEdit": true,
               "setupVisible": true
             }
+          },
+          "messages":{
+            "for":"for",
+            "willBeUpdatedTo": "will be updated to"
           }
         }
       },

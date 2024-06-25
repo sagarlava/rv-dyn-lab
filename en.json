@@ -9409,9 +9409,23 @@
             "setupEdit": true,
             "setupVisible": true
           },
+          "allowAssignTask": {
+            "original": "Allow to Assign Task",
+            "singular": "Allow to Assign Task",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
           "allowAssignShift": {
             "original": "Allow to Assign Shift",
             "singular": "Allow to Assign Shift",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "jmpMandatory": {
+            "original": "JMP Mandatory",
+            "singular": "View Staff Downline Based on Hierarchy",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -9695,7 +9709,6 @@
         },
         "messages": {
           "noAvailableStatuses": "No available statuses",
-          "jmpMandatory": "JMP Mandatory",
           "noIntegrationsEnabled": "No integrations enabled for your organization.",
           "goTo": "Go to",
           "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance."

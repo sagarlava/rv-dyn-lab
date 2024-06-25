@@ -10487,9 +10487,23 @@
             "setupEdit": true,
             "setupVisible": true
           },
+          "allowAssignTask": {
+            "original": "Allow to Assign Task",
+            "singular": "Allow to Assign Task",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
           "allowAssignShift": {
             "original": "Allow to Assign Shift",
             "singular": "Allow to Assign Shift",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "jmpMandatory": {
+            "original": "JMP Mandatory",
+            "singular": "View Staff Downline Based on Hierarchy",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10530,8 +10544,8 @@
             "setupVisible": true
           },
           "enableCustomerSurveys": {
-            "original": "Enable SOU Surveys",
-            "singular": "Enable SOU Surveys",
+            "original": "Enable Customer Surveys",
+            "singular": "Enable Customer Surveys",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10579,8 +10593,8 @@
             "setupVisible": true
           },
           "manageCustomerSurvey": {
-            "original": "Manage SOU Surveys",
-            "singular": "Manage SOU Surveys",
+            "original": "Manage Customer Surveys",
+            "singular": "Manage Customer Surveys",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10694,8 +10708,8 @@
             "setupVisible": true
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Machines and Products",
-            "singular": "A 'User Bin' may be created for users with this access to transfer and receive Machines and Products",
+            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
+            "singular": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10708,8 +10722,8 @@
             "setupVisible": true
           },
           "allowUserSendViewSurvey": {
-            "original": "Allow users of this profile to send and view SOU surveys",
-            "singular": "Allow users of this profile to send and view SOU surveys",
+            "original": "Allow users of this profile to send and view customer surveys",
+            "singular": "Allow users of this profile to send and view customer surveys",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10750,8 +10764,8 @@
             "setupVisible": true
           },
           "usersNotifiedPendingPayments": {
-            "original": "Users will be notified if the SOU they are meeting has any pending payments to make",
-            "singular": "Users will be notified if the SOU they are meeting has any pending payments to make",
+            "original": "Users will be notified if the customer they are meeting has any pending payments to make",
+            "singular": "Users will be notified if the customer they are meeting has any pending payments to make",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10773,7 +10787,6 @@
         },
         "messages": {
           "noAvailableStatuses": "No available statuses",
-          "jmpMandatory": "JMP Mandatory",
           "noIntegrationsEnabled": "No integrations enabled for your organization.",
           "goTo": "Go to",
           "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance."

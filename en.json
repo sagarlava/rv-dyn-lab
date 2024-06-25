@@ -3495,7 +3495,9 @@
         "setupVisible": true
       }
     },
-    "messages": {}
+    "messages": {
+      "orderEndDateAfterStart":"Order End Date must be after Order Start Date"
+    }
   },
   "project": {
     "setupVisible": true,
@@ -7926,9 +7928,23 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "add": {
+        "original": "Add",
+        "singular": "Add",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "clone": {
         "original": "Clone",
         "singular": "Clone",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "setup": {
+        "original": "Setup",
+        "singular": "Setup",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8157,6 +8173,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "no": {
+        "original": "No",
+        "singular": "No",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "read": {
+        "original": "Read",
+        "singular": "Read",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "redo": {
         "original": "Redo",
         "singular": "Redo",
@@ -8181,13 +8211,6 @@
       "proceed": {
         "original": "Proceed",
         "singular": "Proceed",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "no": {
-        "original": "No",
-        "singular": "No",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8433,6 +8456,20 @@
       "done": {
         "original": "Done",
         "singular": "Done",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "applyToAll": {
+        "original": "Apply to all",
+        "singular": "Apply to all",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "updateForNew": {
+        "original": "Update for new",
+        "singular": "Update for new",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8963,6 +9000,13 @@
   },
   "setup": {
     "setupVisible": true,
+    "label":{
+      "original": "Setup",
+      "singular": "Setup",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
     "general": {
       "setupVisible": true,
       "organizationDetails": {
@@ -9085,7 +9129,9 @@
             "setupVisible": true
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "invalidTaxAmount":"Invalid Tax Amount"
+        },
         "messages": {
           "organizationSettingsUpdatedSuccessfully": "Org settings updated successfully"
         }
@@ -9128,9 +9174,18 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "sec4": {
+            "original": "Send Request Team",
+            "singular": "Send Request Team",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
         },
-        "messages": {}
+        "messages": {
+          "requestSentSuccessfully":"Request sent successfully"
+        }
       },
       "workingHours": {
         "setupVisible": true,
@@ -9324,6 +9379,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "sec15": {
+            "original": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job order status picklist for this access profile",
+            "singular": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job order status picklist for this access profile",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
         },
         "fields": {
@@ -9384,6 +9446,13 @@
             "setupEdit": true,
             "setupVisible": true
           },
+          "available": {
+            "original": "Available",
+            "singular": "Available",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
           "allowViewSalesOrdPrice": {
             "original": "Allow View Sales Order Price",
             "singular": "Allow View Sales Order Price",
@@ -9391,9 +9460,23 @@
             "setupEdit": true,
             "setupVisible": true
           },
+          "allowAssignTask": {
+            "original": "Allow to Assign Task",
+            "singular": "Allow to Assign Task",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
           "allowAssignShift": {
             "original": "Allow to Assign Shift",
             "singular": "Allow to Assign Shift",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "jmpMandatory": {
+            "original": "JMP Mandatory",
+            "singular": "View Staff Downline Based on Hierarchy",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -9677,7 +9760,6 @@
         },
         "messages": {
           "noAvailableStatuses": "No available statuses",
-          "jmpMandatory": "JMP Mandatory",
           "noIntegrationsEnabled": "No integrations enabled for your organization.",
           "goTo": "Go to",
           "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance."
@@ -10394,6 +10476,13 @@
               "plural": "Default List Views",
               "setupEdit": true,
               "setupVisible": true
+            }, 
+            "sec1": {
+              "original": "Confirm List View Update",
+              "singular": "Confirm List View Update",
+              "plural": "Confirm List View Update",
+              "setupEdit": true,
+              "setupVisible": true
             }
           },
           "fields": {
@@ -10412,6 +10501,10 @@
               "setupEdit": true,
               "setupVisible": true
             }
+          },
+          "messages":{
+            "for":"for",
+            "willBeUpdatedTo": "will be updated to"
           }
         }
       },
@@ -14254,6 +14347,26 @@
       "setupVisible": true
     }
   },
+  "report":{
+    "setupVisible": true,
+    "label": {
+      "original": "Reports",
+      "singular": "Report",
+      "plural": "Reports",
+      "setupEdit": true,
+      "setupVisible": true
+    }
+  },
+  "academy":{
+    "setupVisible": true,
+    "label": {
+      "original": "Academy",
+      "singular": "Academy",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    }
+  },
   "leave": {
     "setupVisible": true,
     "label": {
@@ -14750,6 +14863,13 @@
     },
     "national":{
       "setupVisible": true,
+      "label":{
+        "original": "National",
+        "singular": "National",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "sections":{
         "setupVisible": true,
         "sec0":{
@@ -14941,8 +15061,8 @@
     },
     "chubb":{
       "label":{
-        "original": "Chubb Dashboard",
-        "singular": "Chubb Dashboard",
+        "original": "Chubb",
+        "singular": "Chubb",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -15064,6 +15184,13 @@
         "sec16":{
           "original": "Journey Management Plan",
           "singular": "Journey Management Plan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }, 
+        "sec17":{
+          "original": "Chubb Dashboard",
+          "singular": "Chubb Dashboard",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -15482,6 +15609,16 @@
         "selectTimeframe":"Select Timeframe"
       }
 
+    },
+    "service":{
+      "setupVisible": true,
+      "label":{
+        "original": "Service",
+        "singular": "Service",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
     }
   }
 }

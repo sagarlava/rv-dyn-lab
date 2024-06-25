@@ -3178,6 +3178,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "generateJobOrder": {
+        "original": "Generate Job Order",
+        "singular": "Generate Job Order",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "upcoming": {
         "original": "Upcoming",
         "singular": "Upcoming",
@@ -3660,7 +3667,9 @@
         "setupVisible": true
       }
     },
-    "messages": {}
+    "messages": {
+      "orderEndDateAfterStart":"Order End Date must be after Order Start Date"
+    }
   },
   "project": {
     "setupVisible": true,
@@ -8595,6 +8604,26 @@
       "selectApprovalStatus": "Select Approval Status"
     }
   },
+  "report":{
+    "setupVisible": true,
+    "label": {
+      "original": "Reports",
+      "singular": "Report",
+      "plural": "Reports",
+      "setupEdit": true,
+      "setupVisible": true
+    }
+  },
+  "academy":{
+    "setupVisible": true,
+    "label": {
+      "original": "Academy",
+      "singular": "Academy",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    }
+  },
   "leave": {
     "setupVisible": true,
     "label": {
@@ -9047,9 +9076,23 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "add": {
+        "original": "Add",
+        "singular": "Add",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "clone": {
         "original": "Clone",
         "singular": "Clone",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "setup": {
+        "original": "Setup",
+        "singular": "Setup",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9285,6 +9328,41 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "read": {
+        "original": "Read",
+        "singular": "Read",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "redo": {
+        "original": "Redo",
+        "singular": "Redo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "complete": {
+        "original": "Complete",
+        "singular": "Complete",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "next": {
+        "original": "Next",
+        "singular": "Next",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "proceed": {
+        "original": "Proceed",
+        "singular": "Proceed",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "remove": {
         "original": "Remove",
         "singular": "Remove",
@@ -9498,6 +9576,48 @@
       "approve": {
         "original": "Approve",
         "singular": "Approve",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "print": {
+        "original": "Print",
+        "singular": "Print",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "email": {
+        "original": "EMAIL",
+        "singular": "EMAIL",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "receipt": {
+        "original": "RECEIPT",
+        "singular": "RECEIPT",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "done": {
+        "original": "Done",
+        "singular": "Done",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "applyToAll": {
+        "original": "Apply to all",
+        "singular": "Apply to all",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "updateForNew": {
+        "original": "Update for new",
+        "singular": "Update for new",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9745,6 +9865,8 @@
       "cconfirm": "Confirm",
       "willBeApproved": "will now be APPROVED.",
       "currentLocation": "Current Location",
+      "home": "Home",
+      "office": "Office",
       "radiusKM": "Radius (KM)",
       "radius": "Radius",
       "officeAddressIsNotSet": "Office Address is not set",
@@ -9990,6 +10112,13 @@
   },
   "setup": {
     "setupVisible": true,
+    "label":{
+      "original": "Setup",
+      "singular": "Setup",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
     "general": {
       "setupVisible": true,
       "organizationDetails": {
@@ -10112,7 +10241,9 @@
             "setupVisible": true
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "invalidTaxAmount":"Invalid Tax Amount"
+        },
         "messages": {
           "organizationSettingsUpdatedSuccessfully": "Org settings updated successfully"
         }
@@ -10155,9 +10286,18 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "sec4": {
+            "original": "Send Request Team",
+            "singular": "Send Request Team",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
         },
-        "messages": {}
+        "messages": {
+          "requestSentSuccessfully":"Request sent successfully"
+        }
       },
       "workingHours": {
         "setupVisible": true,
@@ -10351,6 +10491,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "sec15": {
+            "original": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job order status picklist for this access profile",
+            "singular": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job order status picklist for this access profile",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
         },
         "fields": {
@@ -10411,6 +10558,13 @@
             "setupEdit": true,
             "setupVisible": true
           },
+          "available": {
+            "original": "Available",
+            "singular": "Available",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
           "allowViewSalesOrdPrice": {
             "original": "Allow View Sales Order Price",
             "singular": "Allow View Sales Order Price",
@@ -10418,9 +10572,23 @@
             "setupEdit": true,
             "setupVisible": true
           },
+          "allowAssignTask": {
+            "original": "Allow to Assign Task",
+            "singular": "Allow to Assign Task",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
           "allowAssignShift": {
             "original": "Allow to Assign Shift",
             "singular": "Allow to Assign Shift",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "jmpMandatory": {
+            "original": "JMP Mandatory",
+            "singular": "View Staff Downline Based on Hierarchy",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10461,8 +10629,8 @@
             "setupVisible": true
           },
           "enableCustomerSurveys": {
-            "original": "Enable SOU Surveys",
-            "singular": "Enable SOU Surveys",
+            "original": "Enable Customer Surveys",
+            "singular": "Enable Customer Surveys",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10510,8 +10678,8 @@
             "setupVisible": true
           },
           "manageCustomerSurvey": {
-            "original": "Manage SOU Surveys",
-            "singular": "Manage SOU Surveys",
+            "original": "Manage Customer Surveys",
+            "singular": "Manage Customer Surveys",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10625,8 +10793,8 @@
             "setupVisible": true
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Machines and Products",
-            "singular": "A 'User Bin' may be created for users with this access to transfer and receive Machines and Products",
+            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
+            "singular": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10639,8 +10807,8 @@
             "setupVisible": true
           },
           "allowUserSendViewSurvey": {
-            "original": "Allow users of this profile to send and view SOU surveys",
-            "singular": "Allow users of this profile to send and view SOU surveys",
+            "original": "Allow users of this profile to send and view customer surveys",
+            "singular": "Allow users of this profile to send and view customer surveys",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10681,8 +10849,8 @@
             "setupVisible": true
           },
           "usersNotifiedPendingPayments": {
-            "original": "Users will be notified if the SOU they are meeting has any pending payments to make",
-            "singular": "Users will be notified if the SOU they are meeting has any pending payments to make",
+            "original": "Users will be notified if the customer they are meeting has any pending payments to make",
+            "singular": "Users will be notified if the customer they are meeting has any pending payments to make",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -10704,7 +10872,6 @@
         },
         "messages": {
           "noAvailableStatuses": "No available statuses",
-          "jmpMandatory": "JMP Mandatory",
           "noIntegrationsEnabled": "No integrations enabled for your organization.",
           "goTo": "Go to",
           "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance."
@@ -11421,6 +11588,13 @@
               "plural": "Default List Views",
               "setupEdit": true,
               "setupVisible": true
+            }, 
+            "sec1": {
+              "original": "Confirm List View Update",
+              "singular": "Confirm List View Update",
+              "plural": "Confirm List View Update",
+              "setupEdit": true,
+              "setupVisible": true
             }
           },
           "fields": {
@@ -11439,6 +11613,10 @@
               "setupEdit": true,
               "setupVisible": true
             }
+          },
+          "messages":{
+            "for":"for",
+            "willBeUpdatedTo": "will be updated to"
           }
         }
       },
@@ -15649,6 +15827,13 @@
     },
     "national":{
       "setupVisible": true,
+      "label":{
+        "original": "National",
+        "singular": "National",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "sections":{
         "setupVisible": true,
         "sec0":{
@@ -15840,8 +16025,8 @@
     },
     "chubb":{
       "label":{
-        "original": "Chubb Dashboard",
-        "singular": "Chubb Dashboard",
+        "original": "Chubb",
+        "singular": "Chubb",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -15963,6 +16148,13 @@
         "sec16":{
           "original": "Journey Management Plan",
           "singular": "Journey Management Plan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }, 
+        "sec17":{
+          "original": "Chubb Dashboard",
+          "singular": "Chubb Dashboard",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -16381,6 +16573,16 @@
         "selectTimeframe":"Select Timeframe"
       }
 
+    },
+    "service":{
+      "setupVisible": true,
+      "label":{
+        "original": "Service",
+        "singular": "Service",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
     }
   }
 }

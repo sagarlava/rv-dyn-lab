@@ -14144,6 +14144,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "oldPassword":{
+        "original": "Old Password",
+        "singular": "Old Password",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "newPassword":{
         "original": "New Password",
         "singular": "New Password",
@@ -14154,6 +14161,13 @@
       "confirmPassword":{
         "original": "Confirm Password",
         "singular": "Confirm Password",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "confirmNewPassword":{
+        "original": "Confirm New Password",
+        "singular": "Confirm New Password",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

@@ -3488,7 +3488,9 @@
         "setupVisible": true
       }
     },
-    "messages": {}
+    "messages": {
+      "orderEndDateAfterStart":"Order End Date must be after Order Start Date"
+    }
   },
   "project": {
     "setupVisible": true,

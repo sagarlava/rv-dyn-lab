@@ -10121,7 +10121,9 @@
             "setupVisible": true
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "invalidTaxAmount":"Invalid Tax Amount"
+        },
         "messages": {
           "organizationSettingsUpdatedSuccessfully": "Org settings updated successfully"
         }
@@ -10164,9 +10166,18 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "sec4": {
+            "original": "Send Request Team",
+            "singular": "Send Request Team",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
         },
-        "messages": {}
+        "messages": {
+          "requestSentSuccessfully":"Request sent successfully"
+        }
       },
       "workingHours": {
         "setupVisible": true,

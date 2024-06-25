@@ -8602,6 +8602,26 @@
       "selectApprovalStatus": "Select Approval Status"
     }
   },
+  "report":{
+    "setupVisible": true,
+    "label": {
+      "original": "Reports",
+      "singular": "Report",
+      "plural": "Reports",
+      "setupEdit": true,
+      "setupVisible": true
+    }
+  },
+  "academy":{
+    "setupVisible": true,
+    "label": {
+      "original": "Academy",
+      "singular": "Academy",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    }
+  },
   "leave": {
     "setupVisible": true,
     "label": {
@@ -10034,6 +10054,13 @@
   },
   "setup": {
     "setupVisible": true,
+    "label":{
+      "original": "Setup",
+      "singular": "Setup",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
     "general": {
       "setupVisible": true,
       "organizationDetails": {

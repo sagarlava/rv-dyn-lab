@@ -14736,6 +14736,13 @@
     },
     "national":{
       "setupVisible": true,
+      "label":{
+        "original": "National",
+        "singular": "National",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "sections":{
         "setupVisible": true,
         "sec0":{
@@ -14927,8 +14934,8 @@
     },
     "chubb":{
       "label":{
-        "original": "Chubb Dashboard",
-        "singular": "Chubb Dashboard",
+        "original": "Chubb",
+        "singular": "Chubb",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -15050,6 +15057,13 @@
         "sec16":{
           "original": "Journey Management Plan",
           "singular": "Journey Management Plan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }, 
+        "sec17":{
+          "original": "Chubb Dashboard",
+          "singular": "Chubb Dashboard",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -15468,6 +15482,16 @@
         "selectTimeframe":"Select Timeframe"
       }
 
+    },
+    "service":{
+      "setupVisible": true,
+      "label":{
+        "original": "Service",
+        "singular": "Service",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
     }
   }
 }

@@ -2619,6 +2619,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "generateJobOrder": {
+        "original": "Generate Job Order",
+        "singular": "Generate Job Order",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "upcoming": {
         "original": "即将到来",
         "singular": "即将到来",
@@ -8173,6 +8180,8 @@
       "cconfirm": "Confirm",
       "willBeApproved": "will now be APPROVED.",
       "currentLocation": "当前位置",
+      "home": "Home",
+      "office": "Office",
       "radiusKM": "Radius (KM)",
       "radius": "Radius",
       "officeAddressIsNotSet": "Office Address is not set",
@@ -14203,6 +14212,13 @@
     },
     "national":{
       "setupVisible": true,
+      "label":{
+        "original": "National",
+        "singular": "National",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "sections":{
         "setupVisible": true,
         "sec0":{
@@ -14394,8 +14410,8 @@
     },
     "chubb":{
       "label":{
-        "original": "Chubb Dashboard",
-        "singular": "Chubb Dashboard",
+        "original": "Chubb",
+        "singular": "Chubb",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -14517,6 +14533,13 @@
         "sec16":{
           "original": "Journey Management Plan",
           "singular": "Journey Management Plan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }, 
+        "sec17":{
+          "original": "Chubb Dashboard",
+          "singular": "Chubb Dashboard",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -14935,6 +14958,16 @@
         "selectTimeframe":"Select Timeframe"
       }
 
+    },
+    "service":{
+      "setupVisible": true,
+      "label":{
+        "original": "Service",
+        "singular": "Service",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
     }
   }
 }

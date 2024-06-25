@@ -9414,9 +9414,23 @@
             "setupEdit": true,
             "setupVisible": true
           },
+          "department": {
+            "original": "Department",
+            "singular": "Department",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
           "roleName": {
             "original": "Role Name",
             "singular": "Role Name",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "role": {
+            "original": "Role",
+            "singular": "Role",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true

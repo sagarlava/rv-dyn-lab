@@ -8143,6 +8143,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "no": {
+        "original": "No",
+        "singular": "No",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "read": {
+        "original": "Read",
+        "singular": "Read",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "redo": {
         "original": "Redo",
         "singular": "Redo",
@@ -8167,13 +8181,6 @@
       "proceed": {
         "original": "Proceed",
         "singular": "Proceed",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "no": {
-        "original": "No",
-        "singular": "No",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9321,6 +9328,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "sec15": {
+            "original": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job order status picklist for this access profile",
+            "singular": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job order status picklist for this access profile",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
         },
         "fields": {
@@ -9377,6 +9391,13 @@
           "jobOrderStatus": {
             "original": "Job Order Status",
             "singular": "Job Order Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "available": {
+            "original": "Available",
+            "singular": "Available",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true

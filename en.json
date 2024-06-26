@@ -598,6 +598,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "finish": {
+        "original": "Finish",
+        "singular": "Finish",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "next30Days": {
         "original": "Next 30 Days",
         "singular": "Next 30 Days",
@@ -7881,6 +7888,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "showDirection": {
+        "original": "Show Direction",
+        "singular": "Show Direction",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "search": {
         "original": "Search",
         "singular": "Search",
@@ -8893,7 +8907,11 @@
       "email":"Email",
       "processingAndWait":"Processing, Please Wait..",
       "locationNotFound":"Location not found",
-      "pleaeTurnTheLocationOn":"Please turn on the location and try again"
+      "pleaeTurnTheLocationOn":"Please turn on the location and try again",
+      "phoneCalls":"Phone Calls",
+      "allowFieldExPhoneCall":"Allow FieldEx to make & manage phone calls",
+      "noNumberAssigned":"No number assigned",
+      "emailAddressIsNotAvailable":"Email address is not available."
     },
     "map": {
       "setupVisible": true,

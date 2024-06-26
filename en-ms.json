@@ -11760,7 +11760,9 @@
             "setupVisible": true
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "charactersExceed":"Text exceeds character limit (255)."
+        },
         "messages": {
           "searchUsers": "Search Users",
           "selectType": "Select Type"
@@ -13906,6 +13908,20 @@
         "sec10": {
           "original": "The PMV to be generated when one is completed",
           "singular": "The PMV to be generated when one is completed",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec11": {
+          "original": "Filter By",
+          "singular": "Filter By",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec12": {
+          "original": "of this checklist to 'Active' once you have added at least one question to it.",
+          "singular": "of this checklist to 'Active' once you have added at least one question to it.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true

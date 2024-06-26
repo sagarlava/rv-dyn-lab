@@ -7826,13 +7826,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "add": {
-        "original": "Add",
-        "singular": "Add",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "filter": {
         "original": "Filter",
         "singular": "Filter",
@@ -10715,7 +10708,9 @@
             "setupVisible": true
           }
         },
-        "validationFE": {},
+        "validationFE": {
+          "charactersExceed":"Text exceeds character limit (255)."
+        },
         "messages": {
           "searchUsers": "Search Users",
           "selectType": "Select Type"
@@ -12803,8 +12798,8 @@
           "setupVisible": true
         },
         "sec4": {
-          "original": "Start by naming your checklist. You may update the Status of this checklist to 'Active' once you have added at least one question to it.",
-          "singular": "Start by naming your checklist. You may update the Status of this checklist to 'Active' once you have added at least one question to it.",
+          "original": "Start by naming your checklist. You may update the",
+          "singular": "Start by naming your checklist. You may update the",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -12847,6 +12842,20 @@
         "sec10": {
           "original": "The Checklist to be generated when one is completed",
           "singular": "The Checklist to be generated when one is completed",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec11": {
+          "original": "Filter By",
+          "singular": "Filter By",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec12": {
+          "original": "of this checklist to 'Active' once you have added at least one question to it.",
+          "singular": "of this checklist to 'Active' once you have added at least one question to it.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true

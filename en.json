@@ -1249,7 +1249,7 @@
       "assignedUser": {
         "original": "Assigned User",
         "singular": "Assigned User",
-        "plural": "",
+        "plural": "Assigned Users",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -2382,6 +2382,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "buffer": {
+        "original": "Buffer",
+        "singular": "Buffer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "calculatedDistanceTime": {
         "original": "Calculate Duration & Distance",
         "singular": "Calculate Duration & Distance",
@@ -2560,6 +2567,20 @@
       "duration": {
         "original": "Duration",
         "singular": "Duration",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "otherUsers": {
+        "original": "Other Users",
+        "singular": "Other Users",
+        "plural": "Other Users",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "checkedInDuration": {
+        "original": "Checked in duration",
+        "singular": "Checked in duration",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

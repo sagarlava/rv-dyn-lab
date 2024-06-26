@@ -3370,7 +3370,8 @@
       "ownerChangedForTheTaskSuccessfully":"Owner changed for the task successfully.",
       "userAddedToTheTaskSuccessfully":"User added to task successfully.",
       "taskHasBeenMarkedCompletedUpdateStatus":"Task has been marked completed, Please update status before check-in",
-      "declineReason":"Declien Reason"
+      "declineReason":"Decline Reason",
+      "journeyDetails":"Journey Details"
     }
   },
   "site": {
@@ -9574,6 +9575,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "configure": {
+        "original": "Configure",
+        "singular": "Configure",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "preview": {
         "original": "Preview",
         "singular": "Preview",
@@ -15189,27 +15197,101 @@
           "setupEdit": true,
           "setupVisible": true
         },
+        "calendlyEvents": {
+          "original": "Calendly Events",
+          "singular": "Calendly Events",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
         "calendlyEventsSpecificDurations": {
-          "original": "Calendly Events are templates you can set up in Calendly with specific durations and details.",
-          "singular": "Calendly Events are templates you can set up in Calendly with specific durations and details.",
+          "original": "are templates you can set up in Calendly with specific durations and details.",
+          "singular": "are templates you can set up in Calendly with specific durations and details.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "mapEachEventToJobType": {
-          "original": "You can map each of these events to a Job Order Type in FieldEx using the Calendly Event ID.",
-          "singular": "You can map each of these events to a Job Order Type in FieldEx using the Calendly Event ID.",
+          "original": "You can map each of these events to a",
+          "singular": "You can map each of these events to a",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "mapIn": {
+          "original": "in FieldEx using the",
+          "singular": "in FieldEx using the",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "onceAssignAutoUpdateJobOrderTask": {
-          "original": "Once set up, your SOU can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and assign a Task for the job.",
-          "singular": "Once set up, your SOU can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and assign a Task for the job.",
+          "original": "Once set up, your customers can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
+          "singular": "Once set up, your customers can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assignTaskToJob": {
+          "original": "assign a Task for the job.",
+          "singular": "assign a Task for the job.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "theme": {
+          "original": "Theme",
+          "singular": "Theme",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "header": {
+          "original": "Header",
+          "singular": "Header",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "syncCustomer": {
+          "original": "Sync Customer",
+          "singular": "Sync Customer",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "syncContacts": {
+          "original": "Sync Contacts",
+          "singular": "Sync Contacts",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "syncJobOrders": {
+          "original": "Sync Job Orders",
+          "singular": "Sync Job Orders",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "syncSalesOrders": {
+          "original": "Sync Sales Orders",
+          "singular": "Sync Sales Orders",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "syncProducts": {
+          "original": "Sync Products",
+          "singular": "Sync Products",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
+      },
+      "messages":{
+        "companyName": "Company Name",
+        "sampleCustomerBookTime":"This is a sample of what customers will see when booking time slots with you"
       }
     },
     "importExport": {
@@ -15667,6 +15749,9 @@
       "plural": "Notes",
       "setupEdit": true,
       "setupVisible": true
+    },
+    "messages":{
+      "typeYourNoteHere":"Type your note here"
     }
   },
   "login":{

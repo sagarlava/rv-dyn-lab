@@ -846,6 +846,11 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    }, 
+    "messages": {
+      "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
+      "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
+      "entryCannotBeNegativeValue": "Entry cannot be made with minus values"
     }
   },
   "accessories": {
@@ -963,6 +968,9 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "messages":{
+      "quantityCantBeZero":"Quantity Cannot be Zero"
     }
   },
   "maintenance": {
@@ -1118,6 +1126,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "maintenanceId": {
+        "original": "Maintenance ID",
+        "singular": "Maintenance ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -1145,7 +1160,9 @@
       }
     },
     "messages": {
-      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
+      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract",
+      "unableSetStatusActive": "Cannot set status to 'Active' with a past end date",
+      "startDateNotGreaterThenEnd": "Start date should not be greater than end date"
     }
   },
   "preventiveMaintenance": {
@@ -1871,7 +1888,9 @@
         "setupVisible": true
       }
     },
-    "messages": {}
+    "messages": {
+      "selectOneChecklist":"Please select one Checklist Template"
+    }
   },
   "product": {
     "setupVisible": true,
@@ -7792,6 +7811,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "adjustedBy": {
+        "original": "Adjusted By",
+        "singular": "Adjusted By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "newValue": {
         "original": "New Value",
         "singular": "New Value",
@@ -7799,9 +7825,30 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "newlyAdjustedQty": {
+        "original": "Newly Adjusted Qty",
+        "singular": "Newly Adjusted Qty",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "oldValue": {
         "original": "Old Value",
         "singular": "Old Value",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "oldQty": {
+        "original": "Old Qty",
+        "singular": "Old Qty",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "displayName": {
+        "original": "Display Name",
+        "singular": "Display Name",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8818,6 +8865,7 @@
       "sentSuccessfully": "sent successfully",
       "savedSuccessfully": "saved successfully",
       "updatedSuccessfully": "updated successfully",
+      "updateNotSuccesful": "Update not successful",
       "doYouWishToContinue": "Do you wish to continue?",
       "approve": "Approve",
       "cconfirm": "Confirm",

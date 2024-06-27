@@ -563,6 +563,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "engineNumber": {
+        "original": "Engine Number",
+        "singular": "Engine Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "manufacturerYear": {
         "original": "Manufacture Year",
         "singular": "Manufacture Year",
@@ -2068,6 +2075,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      
       "manufacturer": {
         "original": "Manufacturer",
         "singular": "Manufacturer",

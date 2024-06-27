@@ -759,7 +759,8 @@
       "configureQrBarcodeInAssetSetup": "To set up a QR/Barcode go to Asset Configuration in Setup",
       "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
       "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
-      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
+      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract",
+      "errorFetchingAssetDetails": "Error fetching asset details"
     }
   },
   "assetLog": {
@@ -8867,6 +8868,7 @@
       "noRecordsFound": "No Records Found",
       "none": "None",
       "records": "Records",
+      "details":"Details",
       "information":  "Information",
       "noViewAccess": "You do not have access to view this record",
       "dragAndDropFileToUpload": "Drag and drop file to upload",

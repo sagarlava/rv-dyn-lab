@@ -661,6 +661,27 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "maintenanceStatus": {
+        "original": "Maintenance Status",
+        "singular": "Maintenance Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "nextMaintenanceType": {
+        "original": "Next Maintenance Type",
+        "singular": "Next Maintenance Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "minorMajorServiceFrequency": {
+        "original": "Minor/Major Service Frequency(Months)",
+        "singular": "Minor/Major Service Frequency(Months)",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "accessory": {
         "original": "Accessory",
         "singular": "Accessory",

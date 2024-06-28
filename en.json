@@ -563,6 +563,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "engineNumber": {
+        "original": "Engine Number",
+        "singular": "Engine Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "manufacturerYear": {
         "original": "Manufacture Year",
         "singular": "Manufacture Year",
@@ -594,6 +601,13 @@
       "next": {
         "original": "Next",
         "singular": "Next",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "finish": {
+        "original": "Finish",
+        "singular": "Finish",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -650,6 +664,27 @@
       "nextMaintenanceDate": {
         "original": "Next Maintenance Date",
         "singular": "Next Maintenance Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "maintenanceStatus": {
+        "original": "Maintenance Status",
+        "singular": "Maintenance Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "nextMaintenanceType": {
+        "original": "Next Maintenance Type",
+        "singular": "Next Maintenance Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "minorMajorServiceFrequency": {
+        "original": "Minor/Major Service Frequency(Months)",
+        "singular": "Minor/Major Service Frequency(Months)",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -752,7 +787,8 @@
       "configureQrBarcodeInAssetSetup": "To set up a QR/Barcode go to Asset Configuration in Setup",
       "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
       "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
-      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
+      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract",
+      "errorFetchingAssetDetails": "Error fetching asset details"
     }
   },
   "assetLog": {
@@ -2039,6 +2075,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      
       "manufacturer": {
         "original": "Manufacturer",
         "singular": "Manufacturer",
@@ -3199,7 +3236,11 @@
       "userAddedToTheTaskSuccessfully":"User added to task successfully.",
       "taskHasBeenMarkedCompletedUpdateStatus":"Task has been marked completed, Please update status before check-in",
       "declineReason":"Decline Reason",
-      "journeyDetails":"Journey Details"
+      "journeyDetails":"Journey Details",
+      "taskOptimizer":"Task Optimizer",
+      "optimizer":"Optimizer",
+      "mytasks":"My Tasks",
+      "tasksToAcceptDecline ":"Tasks to Accept/Decline"
     }
   },
   "site": {
@@ -7881,6 +7922,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "showDirection": {
+        "original": "Show Direction",
+        "singular": "Show Direction",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "search": {
         "original": "Search",
         "singular": "Search",
@@ -8863,6 +8911,7 @@
       "noRecordsFound": "No Records Found",
       "none": "None",
       "records": "Records",
+      "details":"Details",
       "information":  "Information",
       "noViewAccess": "You do not have access to view this record",
       "dragAndDropFileToUpload": "Drag and drop file to upload",
@@ -8885,12 +8934,13 @@
       "step4": "Step 4",
       "step5": "Step 5",
       "sentSuccessfully": "sent successfully",
+      "deletedSuccessfully": "deleted successfully",
       "savedSuccessfully": "saved successfully",
       "updatedSuccessfully": "updated successfully",
       "updateNotSuccesful": "Update not successful",
       "doYouWishToContinue": "Do you wish to continue?",
       "approve": "Approve",
-      "cconfirm": "Confirm",
+      "confirm": "Confirm",
       "willBeApproved": "will now be APPROVED.",
       "currentLocation": "Current Location",
       "home": "Home",
@@ -8917,10 +8967,22 @@
       "pleaeTurnTheLocationOn":"Please turn on the location and try again",
       "selectAll":"selectAll",
       "notAvailable": "N/A",
-      "comingSoon": "Coming Soon"
+      "comingSoon": "Coming Soon",
+      "phoneCalls":"Phone Calls",
+      "allowFieldExPhoneCall":"Allow FieldEx to make & manage phone calls",
+      "noNumberAssigned":"No number assigned",
+      "emailAddressIsNotAvailable":"Email address is not available."
     },
     "map": {
       "setupVisible": true,
+      "label": {
+        "original": "Map",
+        "singular": "Map",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      
       "sections": {
         "setupVisible": true,
         "sec0": {
@@ -8957,6 +9019,13 @@
         "sameAsBillingAddress": {
           "original": "Same as Billing Address",
           "singular": "Same as Billing Address",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "address": {
+          "original": "Address",
+          "singular": "Address",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true

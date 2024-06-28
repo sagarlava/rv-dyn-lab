@@ -8615,6 +8615,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "approveAllUser": {
+        "original": "Apply changes to all users",
+        "singular": "Apply changes to all users",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approveNewUser": {
+        "original": "Update for new users only",
+        "singular": "Update for new users only",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "status": {
@@ -8900,7 +8914,10 @@
       "email":"Email",
       "processingAndWait":"Processing, Please Wait..",
       "locationNotFound":"Location not found",
-      "pleaeTurnTheLocationOn":"Please turn on the location and try again"
+      "pleaeTurnTheLocationOn":"Please turn on the location and try again",
+      "selectAll":"selectAll",
+      "notAvailable": "N/A",
+      "comingSoon": "Coming Soon"
     },
     "map": {
       "setupVisible": true,
@@ -13340,6 +13357,20 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
+        },
+        "sec4": {
+          "original": "Confirm Notification Update",
+          "singular": "Confirm Notification Update",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec5": {
+          "original": "Notification Preferences",
+          "singular": "Notification Preferences",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
         }
       },
       "fields": {
@@ -13385,21 +13416,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
-        },
-        "notificationAllow": {
-          "original": "Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process.",
-          "singular": "Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "configNotificationOrganiation": {
-          "original": "Configure the notifications you would like your organization to see.",
-          "singular": "Configure the notifications you would like your organization to see.",
+        }
+     
+      },
+      "tooltips":{
+        "setupVisble": true,
+        "notificationsDisabled":{
+          "original": "Notification disabled. Enable in setup or contact your Admin for assistance.",
+          "singular": "Notification disabled. Enable in setup or contact your Admin for assistance.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
+
+      },
+      "messages":{
+        "configNotificationOrganiation":  "Configure the notifications you would like your organization to see.",
+        "notificationAllow": "Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process.",
+        "changesUpdatedAllModified":"Changes will be updated for all modified notifications",
+        "notificationsAreAlerts":"Notifications are alerts that keep you updated on specific activities within FieldEx. You can configure these to be sent to you via your preferred medium by clicking 'Edit' and selecting or unselecting the checkboxes below.",
+        "notificationConfigurationUpdated":"Notification configurations updated successfully"        
+         
       }
     },
     "sla": {
@@ -14322,6 +14359,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
+        },
+        "sec8": {
+          "original": "Module & Fields",
+          "singular": "Module & Fields",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
         }
       },
       "fields": {
@@ -14417,16 +14461,23 @@
           "setupEdit": true,
           "setupVisible": true
         },
+        "updateFieldsBy": {
+          "original": "Update fields by",
+          "singular": "Update fields by",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
         "importDataCsvFormat": {
-          "original": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
-          "singular": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
+          "original": "To import your data into FieldEx. Please ensure the file you are uploading contains column headings and is of .csv format.",
+          "singular": "To import your data into FieldEx. Please ensure the file you are uploading contains column headings and is of .csv format.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "exportDataAsCsvFormat": {
-          "original": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
-          "singular": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
+          "original": "To export your data from FieldEx. Click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
+          "singular": "To export your data from FieldEx. Click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -14435,7 +14486,10 @@
       "validationFE": {},
       "messages": {
         "selectFieldToMap": "Select field to map to",
-        "selectFieldList": "Select a field list"
+        "selectFieldList": "Select a field list",
+        "lookupVia": "Lookup via:",
+        "markRecordWithError": "Mark record with an error if more than one match is found",
+        "insertNullValue": "Insert null value(s) if no match is found"
       }
     },
     "customerSurvey":{

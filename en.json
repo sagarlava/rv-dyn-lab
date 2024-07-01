@@ -8282,6 +8282,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "scan": {
+        "original": "Scan",
+        "singular": "Scan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "add": {
         "original": "Add",
         "singular": "Add",
@@ -8502,6 +8509,13 @@
       "upload": {
         "original": "Upload",
         "singular": "Upload",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "uploadFile": {
+        "original": "Upload File",
+        "singular": "Upload File",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

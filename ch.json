@@ -8585,9 +8585,18 @@
         "singular": "选择项目",
         "plural": "选择项目"
       },
-      "noLocationsToDisplay": "No locations to display"
+      "noLocationsToDisplay": "No locations to display",
+      "pleaseAttachOneOrMorePhotoes":"Please attach one or more photos",
+      "pleaseSignBelow":"Please sign below",
+      "email":"Email",
+      "processingAndWait":"Processing, Please Wait..",
+      "locationNotFound":"Location not found",
+      "pleaeTurnTheLocationOn":"Please turn on the location and try again",
+      "selectAll":"selectAll",
+      "notAvailable": "N/A",
+      "comingSoon": "Coming Soon"
     },
-    "map": {
+    "location": {
       "setupVisible": true,
       "sections": {
         "setupVisible": true,

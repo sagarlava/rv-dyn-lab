@@ -1506,6 +1506,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "contractItemNo": {
+        "original": "Contract Item No.",
+        "singular": "Contract Item No.",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -1525,13 +1532,16 @@
         "setupVisible": true
       }
     },
-    "messages": {}
+    "messages": {
+      "pleaseSelectAccessoryName": "Please select an Accessory Name",
+      "selectCustomerFirst": "Select customer first"
+    }
   },
   "contractMaintenance": {
     "setupVisible": true,
     "label": {
-      "original": "Maintenance Schedule",
-      "singular": "Maintenance Schedule",
+      "original": "Contract Maintenance",
+      "singular": "Contract Maintenance",
       "plural": "",
       "setupEdit": true,
       "setupVisible": true
@@ -6529,7 +6539,6 @@
       }
     },
     "validationFE": {
-      "endDateExceeds": "End date should not exceed start date",
       "endDateThanStartDate": "End date must be after start date",
       "notAvailable": "N/A",
       "onDemand": "On Demand",
@@ -8099,6 +8108,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "newQty": {
+        "original": "New Qty",
+        "singular": "New Qty",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "oldQty": {
         "original": "Old Qty",
         "singular": "Old Qty",
@@ -9176,7 +9192,8 @@
       "pleaeTurnTheLocationOn": "Please turn on the location and try again",
       "attachmentRemoved": "Attachment removed successfully",
       "statusUpdated": "Status Updated",
-      "imageUploaded": "Image uploaded successfully"
+      "imageUploaded": "Image uploaded successfully",
+      "endDateExceeds": "End date should not exceed start date"
     },
     "map": {
       "setupVisible": false,
@@ -10182,7 +10199,9 @@
           "noAvailableStatuses": "No available statuses",
           "noIntegrationsEnabled": "No integrations enabled for your organization.",
           "goTo": "Go to",
-          "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance."
+          "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance.",
+          "selectAtLeaseOneModule":"Select at least one Module Access checkbox",
+          "enableOneJobOrder":"Please enable at least one job order status for profiles with create access"
         }
       },
       "hierarchy": {
@@ -10362,7 +10381,11 @@
           }
         },
         "messages": {
-          "noSkillsSelected": "No Skills Selected"
+          "noSkillsSelected": "No Skills Selected",
+          "addAtLeastOneLevelToARole": "Add at least one level to a role",
+          "pleaseEnterLevelNames": "Please enter level names",
+          "pleaseEnterRoleNames": "Please enter role names",
+          "pleaseEnterADepartmentName": "Please enter a department name"
         }
       },
       "teams": {

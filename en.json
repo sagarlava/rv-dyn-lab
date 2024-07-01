@@ -563,6 +563,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "engineNumber": {
+        "original": "Engine Number",
+        "singular": "Engine Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "manufacturerYear": {
         "original": "Manufacture Year",
         "singular": "Manufacture Year",
@@ -594,6 +601,13 @@
       "next": {
         "original": "Next",
         "singular": "Next",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "finish": {
+        "original": "Finish",
+        "singular": "Finish",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -650,6 +664,27 @@
       "nextMaintenanceDate": {
         "original": "Next Maintenance Date",
         "singular": "Next Maintenance Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "maintenanceStatus": {
+        "original": "Maintenance Status",
+        "singular": "Maintenance Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "nextMaintenanceType": {
+        "original": "Next Maintenance Type",
+        "singular": "Next Maintenance Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "minorMajorServiceFrequency": {
+        "original": "Minor/Major Service Frequency(Months)",
+        "singular": "Minor/Major Service Frequency(Months)",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -759,7 +794,8 @@
       "configureQrBarcodeInAssetSetup": "To set up a QR/Barcode go to Asset Configuration in Setup",
       "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
       "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
-      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
+       "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract",
+      "errorFetchingAssetDetails": "Error fetching asset details"
     }
   },
   "assetLog": {
@@ -3217,7 +3253,11 @@
       "userAddedToTheTaskSuccessfully": "User added to task successfully.",
       "taskHasBeenMarkedCompletedUpdateStatus": "Task has been marked completed, Please update status before check-in",
       "declineReason": "Decline Reason",
-      "journeyDetails": "Journey Details"
+      "journeyDetails":"Journey Details",
+      "taskOptimizer":"Task Optimizer",
+      "optimizer":"Optimizer",
+      "mytasks":"My Tasks",
+      "tasksToAcceptDecline ":"Tasks to Accept/Decline"
     }
   },
   "site": {
@@ -8163,6 +8203,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "showDirection": {
+        "original": "Show Direction",
+        "singular": "Show Direction",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "search": {
         "original": "Search",
         "singular": "Search",
@@ -8918,6 +8965,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "approveAllUser": {
+        "original": "Apply changes to all users",
+        "singular": "Apply changes to all users",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "approveNewUser": {
+        "original": "Update for new users only",
+        "singular": "Update for new users only",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "status": {
@@ -9152,6 +9213,7 @@
       "noRecordsFound": "No Records Found",
       "none": "None",
       "records": "Records",
+      "details":"Details",
       "information": "Information",
       "noViewAccess": "You do not have access to view this record",
       "dragAndDropFileToUpload": "Drag and drop file to upload",
@@ -9174,12 +9236,13 @@
       "step4": "Step 4",
       "step5": "Step 5",
       "sentSuccessfully": "sent successfully",
+      "deletedSuccessfully": "deleted successfully",
       "savedSuccessfully": "saved successfully",
       "updatedSuccessfully": "updated successfully",
       "updateNotSuccesful": "Update not successful",
       "doYouWishToContinue": "Do you wish to continue?",
       "approve": "Approve",
-      "cconfirm": "Confirm",
+      "confirm": "Confirm",
       "willBeApproved": "will now be APPROVED.",
       "currentLocation": "Current Location",
       "home": "Home",
@@ -9204,13 +9267,27 @@
       "processingAndWait": "Processing, Please Wait..",
       "locationNotFound": "Location not found",
       "pleaeTurnTheLocationOn": "Please turn on the location and try again",
+      "selectAll":"selectAll",
+      "notAvailable": "N/A",
+      "comingSoon": "Coming Soon",
+      "phoneCalls":"Phone Calls",
+      "allowFieldExPhoneCall":"Allow FieldEx to make & manage phone calls",
+      "noNumberAssigned":"No number assigned",
+      "emailAddressIsNotAvailable":"Email address is not available.",
       "attachmentRemoved": "Attachment removed successfully",
       "statusUpdated": "Status Updated",
       "imageUploaded": "Image uploaded successfully",
       "endDateExceeds": "End date should not exceed start date"
     },
-    "location": {
+    "locationDetails": {
       "setupVisible": false,
+      "label": {
+        "original": "Map",
+        "singular": "Map",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "sections": {
         "setupVisible": false,
         "sec0": {
@@ -9250,6 +9327,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "address": {
+          "original": "Address",
+          "singular": "Address",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
         },
         "street": {
           "original": "Street",
@@ -13651,6 +13735,20 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec4": {
+          "original": "Confirm Notification Update",
+          "singular": "Confirm Notification Update",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec5": {
+          "original": "Notification Preferences",
+          "singular": "Notification Preferences",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
         }
       },
       "fields": {
@@ -13693,6 +13791,13 @@
         "whatsApp": {
           "original": "WhatsApp",
           "singular": "WhatsApp",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "notificationsDisabled":{
+          "original": "Notification disabled. Enable in setup or contact your Admin for assistance.",
+          "singular": "Notification disabled. Enable in setup or contact your Admin for assistance.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -14633,6 +14738,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec8": {
+          "original": "Module & Fields",
+          "singular": "Module & Fields",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
         }
       },
       "fields": {
@@ -14746,7 +14858,10 @@
       "validationFE": {},
       "messages": {
         "selectFieldToMap": "Select field to map to",
-        "selectFieldList": "Select a field list"
+           "selectFieldList": "Select a field list",
+        "lookupVia": "Lookup via:",
+        "markRecordWithError": "Mark record with an error if more than one match is found",
+        "insertNullValue": "Insert null value(s) if no match is found"
       }
     },
     "customerSurvey": {

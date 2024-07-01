@@ -746,6 +746,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "assetSummary": {
+        "original": "Asset Summary",
+        "singular": "Asset Summary",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "messages": {
@@ -4383,6 +4390,34 @@
         "plural": "SLA",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec37": {
+        "original": "Service Form Auto Fill",
+        "singular": "Service Form Auto Fill",
+        "plural": "Service Form Auto Fill",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec38": {
+        "original": "Additional Details",
+        "singular": "Additional Details",
+        "plural": "Additional Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec39": {
+        "original": "Required Forms",
+        "singular": "Required Forms",
+        "plural": "Required Forms",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec40": {
+        "original": "Job Order Details",
+        "singular": "Job Order Details",
+        "plural": "Job Order Details",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -5841,6 +5876,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "surveySent": {
+        "original": "Survey Sent",
+        "singular": "Survey Sent",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "surveyToSend": {
         "original": "Survey to Send",
         "singular": "Survey to Send",
@@ -6446,6 +6488,41 @@
       "icPassportNo": {
         "original": "IC/Passport No",
         "singular": "IC/Passport No",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "available": {
+        "original": "Available",
+        "singular": "Available",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "serviceType": {
+        "original": "Service Type",
+        "singular": "Service Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "serviceChecklist": {
+        "original": "Service Checklist",
+        "singular": "Service Checklist",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromUser": {
+        "original": "From User",
+        "singular": "From User",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "calendyAccHolder": {
+        "original": "Calendly Account Holder",
+        "singular": "Calendly Account Holder",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

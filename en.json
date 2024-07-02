@@ -9493,6 +9493,13 @@
     },
     "systemInformation": {
       "setupVisible": false,
+      "label": {
+        "original": "System Information",
+        "singular": "System Information",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "sections": {
         "setupVisible": false,
         "sec0": {

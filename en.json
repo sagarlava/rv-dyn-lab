@@ -51,6 +51,13 @@
         "plural": "Stats",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec6": {
+        "original": "Customer Details",
+        "singular": "Customer Details",
+        "plural": "Customer Details",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -395,6 +402,13 @@
       "sec15": {
         "original": "New Entry",
         "singular": "New Entry",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Asset Details",
+        "singular": "Asset Details",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1574,7 +1588,7 @@
     },
     "tooltips": {
       "setupVisible": true,
-      "contractookup": {
+      "contractLookup": {
         "original": "Contracts Lookup",
         "singular": "Contracts Lookup",
         "plural": "",
@@ -3610,7 +3624,7 @@
     },
     "tooltips": {
       "setupVisible": true,
-      "salesOrdertLookup": {
+      "salesOrderLookup": {
         "original": "Sales Order Lookup",
         "singular": "Sales Order Lookup",
         "plural": "",
@@ -8315,6 +8329,20 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "update": {
+        "original": "Update",
+        "singular": "Update",
+        "plural": "Update",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "clear": {
+        "original": "Clear",
+        "singular": "Clear",
+        "plural": "Clear",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "user": {
         "original": "User",
         "singular": "User",
@@ -8731,13 +8759,6 @@
       "findTime": {
         "original": "Find a time",
         "singular": "Find a time",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
-      "uploadFile": {
-        "original": "Upload File",
-        "singular": "Upload File",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -9293,7 +9314,7 @@
       "imageUploaded": "Image uploaded successfully",
       "endDateExceeds": "End date should not exceed start date"
     },
-    "locationDetails": {
+    "location": {
       "setupVisible": false,
       "label": {
         "original": "Map",
@@ -13808,28 +13829,12 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "notificationsDisabled":{
-          "original": "Notification disabled. Enable in setup or contact your Admin for assistance.",
-          "singular": "Notification disabled. Enable in setup or contact your Admin for assistance.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "notificationAllow": {
-          "original": "Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process.",
-          "singular": "Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "configNotificationOrganiation": {
-          "original": "Configure the notifications you would like your organization to see.",
-          "singular": "Configure the notifications you would like your organization to see.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
         }
+      },
+      "messages":{
+        "notificationsDisabled": "Notification disabled. Enable in setup or contact your Admin for assistance.",
+        "configNotificationOrganiation":"Configure the notifications you would like your organization to see.",
+        "notificationAllow":"Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process."
       }
     },
     "sla": {

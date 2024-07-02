@@ -7378,7 +7378,17 @@
       "attemptTransferMoreThanAvailable": "You are attempting to transfer more than available quantity, Do you want to proceed?",
       "sameAssetBinTransferNotAllowed": "You are not allowed to select the same asset in a bin transfer",
       "transferAcceptedSuccessfully": "Transfer accepted successfully",
-      "transferDeclinedSuccessfully": "Transfer declined successfully"
+      "transferDeclinedSuccessfully": "Transfer declined successfully",
+      "pleaseSelectFromBinTransfer":"Please select from  bin transfer.",
+      "pleaseSelectFromTransfer":"Please select from transfer",
+      "pleaseSelectBinTransferType":"Please select to  bin transfer type",
+      "pleaseSelectToTransJoType":"Please select to transfer job order type",
+      "pleaseSelectToTransfer":"Please select to transfer.",
+      "pleaseSelectAtLeastOneTransItem":"Please select at least one transfer item.",
+      "binTransfer":"Bin Transfer",
+      "transferQtyIsGreaterThanAvailableQuantityFor":"Transfer quantity is greater than available quantity for one or more transfer.",
+      
+
 
     }
   },
@@ -9295,7 +9305,8 @@
       "attachmentRemoved": "Attachment removed successfully",
       "statusUpdated": "Status Updated",
       "imageUploaded": "Image uploaded successfully",
-      "endDateExceeds": "End date should not exceed start date"
+      "endDateExceeds": "End date should not exceed start date",
+      "proceednyway": "Proceed anyway",
     },
     "locationDetails": {
       "setupVisible": false,

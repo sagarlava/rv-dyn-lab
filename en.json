@@ -7387,7 +7387,9 @@
       "pleaseSelectAtLeastOneTransItem":"Please select at least one transfer item.",
       "binTransfer":"Bin Transfer",
       "transferQtyIsGreaterThanAvailableQuantityFor":"Transfer quantity is greater than available quantity for one or more transfer.",
-      
+      "binTransferSavedSuccessfully":"Bin Transfer saved successfully",
+      "assetsTransferred":"Asset(s) transferred",
+      "productsTransferred":"Product(s) transferred"
 
 
     }
@@ -9306,7 +9308,7 @@
       "statusUpdated": "Status Updated",
       "imageUploaded": "Image uploaded successfully",
       "endDateExceeds": "End date should not exceed start date",
-      "proceednyway": "Proceed anyway",
+      "proceednyway": "Proceed anyway"
     },
     "locationDetails": {
       "setupVisible": false,

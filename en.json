@@ -6649,6 +6649,7 @@
       "noJobOrderCustomerContact": "No contact found for the Job Order's Customer",
       "noJobOrderContact": "No contact found for the Job Order",
       "noSlaStepDefined": "No SLA step yet"
+
     }
   },
   "inventory": {
@@ -9315,7 +9316,23 @@
       "attachmentRemoved": "Attachment removed successfully",
       "statusUpdated": "Status Updated",
       "imageUploaded": "Image uploaded successfully",
-      "endDateExceeds": "End date should not exceed start date"
+      "endDateExceeds": "End date should not exceed start date",
+      "selectJobOrderFromList": "Select a Job Order from the list",
+      "selectAssetFromList": "Select an Asset from the list",
+      "selectChecklistFromList": "Select Checklist From List",
+      "selectCustomerFromList": "Select a Customer from the list",
+      "selectJoOrderTemplateFromList": "Select Jo Order Template From List",
+      "selectMachineSpecialistFromList": "Select a Machine Specialist from the list",
+      "selectProductFromList": "Select a Product from the list",
+      "selectProjectFromList": "Select Project From List",
+      "selectSalesOrderFromList": "Select a Sales Order from the list",
+      "selectSiteFromList": "Select Site From List",
+      "selectCustomerSurveyFromList": "Select an Customer Survey from the list",
+      "selectTicketFromList": "Select an ticket from the list",
+      "selectLocationBinFromList": "Select a Location Bin from the list",
+      "selectUserFromList": "Select a User from the list",
+      "selectCustomer": "Select a Customer",
+      "selectBinLocation": "Select a Bin Location"
     },
     "location": {
       "setupVisible": false,
@@ -9355,6 +9372,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec4": {
+          "original": "Location",
+          "singular": "Location",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -9369,6 +9393,13 @@
         "address": {
           "original": "Address",
           "singular": "Address",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "location": {
+          "original": "Location",
+          "singular": "Location",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true

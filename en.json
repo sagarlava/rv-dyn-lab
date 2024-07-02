@@ -13862,7 +13862,7 @@
           },
           "sec1": {
             "original": "Condition",
-            "singular": "Inventory Notifications",
+            "singular": "Condition",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14016,7 +14016,8 @@
           "selectAttribute": "Select Attribute",
           "selectOperator": "Select Operator",
           "slaPackageUpdatedSuccessfully": "SLA Package updated successfully",
-          "criteriaSavedSuccessfully": "Criteria saved successfully"
+          "criteriaSavedSuccessfully": "Criteria saved successfully",
+          "noConditionSelected":"No Condition Selected"
         }
       },
       "customers": {
@@ -14169,6 +14170,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec12": {
+            "original": "Pause Criteria Details",
+            "singular": "Pause Criteria Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec13": {
+            "original": "End Criteria Details",
+            "singular": "End Criteria Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -14287,7 +14302,8 @@
           "selectSlaMinutes": "Select Minutes",
           "selectSlaSteps": "Select SLA Steps",
           "criteriaSavedSuccessfully": "Criteria saved successfully",
-          "criteriaUpdatedSuccessfully": "Criteria updated successfully"
+          "criteriaUpdatedSuccessfully": "Criteria updated successfully",
+          "noCriteriaSet":"No Criteria Set"
         }
       },
       "notifications": {
@@ -14410,6 +14426,13 @@
             "setupEdit": true,
             "setupVisible": false
           },
+          "bayName": {
+            "original": "Bay Name",
+            "singular": "Bay Name",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
           "status": {
             "original": "Status",
             "singular": "Status",
@@ -14419,7 +14442,9 @@
           }
         },
         "validationFE": {},
-        "messages": {}
+        "messages": {
+          "businessHourCreated":"Business Hour created successfully"
+        }
       }
     },
     "integrations": {

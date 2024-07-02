@@ -6646,6 +6646,7 @@
       "noSlaStepDefined": "No SLA step yet"
     }
   },
+
   "inventory": {
     "setupVisible": true,
     "label": {
@@ -7424,6 +7425,77 @@
 
 
     }
+  },
+  "checkAvailibility": {
+    "label": {
+      "original": "Check availability",
+      "singular": "Check availability",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "sec0": {
+        "original": "Select Product/Asset",
+        "singular": "Select Product/Asset",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Select Location/Zone/Bin",
+        "singular": "Select Location/Zone/Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+        "choose": {
+          "original": "Choose",
+          "singular": "Choose",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+
+        "selectProduct": {
+          "original": "Select Product",
+          "singular": "Select Product",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "selectAsset": {
+          "original": "Select Asset",
+          "singular": "Select Asset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "location": {
+          "original": "Location",
+          "singular": "Location",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "zone": {
+          "original": "Zone",
+          "singular": "Zone",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "bin": {
+          "original": "Bin",
+          "singular": "Zone",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      }
+    
   },
   "consignment": {
     "setupVisible": true,
@@ -9037,6 +9109,13 @@
       "approveNewUser": {
         "original": "Update for new users only",
         "singular": "Update for new users only",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "check": {
+        "original": "Check",
+        "singular": "Check",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

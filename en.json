@@ -6981,6 +6981,28 @@
         "plural": "Remarks",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "assetType":{
+        "original": "Asset Type",
+        "singular": "Asset Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "productType":{
+        "original": "Product Type",
+        "singular": "Product Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "productFamily":{
+        "original": "Product Family",
+        "singular": "Product Family",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
       }
     },
     "validationFE": {},

@@ -51,6 +51,13 @@
         "plural": "Stats",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec6": {
+        "original": "Customer Details",
+        "singular": "Customer Details",
+        "plural": "Customer Details",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -395,6 +402,13 @@
       "sec15": {
         "original": "New Entry",
         "singular": "New Entry",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Asset Details",
+        "singular": "Asset Details",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1582,7 +1596,7 @@
     },
     "tooltips": {
       "setupVisible": true,
-      "contractookup": {
+      "contractLookup": {
         "original": "Contracts Lookup",
         "singular": "Contracts Lookup",
         "plural": "",
@@ -1853,6 +1867,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec12": {
+        "original": "Change Status",
+        "singular": "Change Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -2124,8 +2145,8 @@
         "setupVisible": true
       },
       "manufacturerYear": {
-        "original": "Manufacturer Year",
-        "singular": "Manufacturer Year",
+        "original": "Manufacture Year",
+        "singular": "Manufacture Year",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2206,6 +2227,13 @@
         "plural": "Users",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Description",
+        "plural": "Descriptions",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -2225,7 +2253,11 @@
       }
     },
     "messages": {
-      "productFamilyRemoved": "Product family removed successfully"
+      "productFamilyRemoved": "Product family removed successfully",
+      "deleteProductFamily": "Delete Product Family",
+      "deleteProductType": "Delete Product Type",
+      "newProductFamily":"New Product Family",
+      "newProductType":"New Product Type"
     }
   },
   "task": {
@@ -3549,8 +3581,8 @@
         "setupVisible": true
       },
       "description": {
-        "original": "Name",
-        "singular": "Name",
+        "original": "Description",
+        "singular": "Description",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3634,7 +3666,7 @@
     },
     "tooltips": {
       "setupVisible": true,
-      "salesOrdertLookup": {
+      "salesOrderLookup": {
         "original": "Sales Order Lookup",
         "singular": "Sales Order Lookup",
         "plural": "",
@@ -6660,6 +6692,7 @@
       "noJobOrderCustomerContact": "No contact found for the Job Order's Customer",
       "noJobOrderContact": "No contact found for the Job Order",
       "noSlaStepDefined": "No SLA step yet"
+
     }
   },
 
@@ -8235,7 +8268,8 @@
     },
     "messages": {
       "invalidFileSize": "Invalid file size",
-      "allowedFileSize": "File size should be less than 25MB"
+      "allowedFileSize": "File size should be less than 25MB",
+      "cannotFindFile":"Cannot find filename and filetype"
     }
   },
   "history": {
@@ -8448,6 +8482,20 @@
         "original": "Location",
         "singular": "Location",
         "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "update": {
+        "original": "Update",
+        "singular": "Update",
+        "plural": "Update",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "clear": {
+        "original": "Clear",
+        "singular": "Clear",
+        "plural": "Clear",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -8871,13 +8919,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "uploadFile": {
-        "original": "Upload File",
-        "singular": "Upload File",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "escalate": {
         "original": "Escalate",
         "singular": "Escalate",
@@ -9133,6 +9174,13 @@
       "check": {
         "original": "Check",
         "singular": "Check",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "openInNewTab": {
+        "original": "Open in New Tab",
+        "singular": "Open in New Tab",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -9435,6 +9483,25 @@
       "statusUpdated": "Status Updated",
       "imageUploaded": "Image uploaded successfully",
       "endDateExceeds": "End date should not exceed start date",
+      "selectJobOrderFromList": "Select a Job Order from the list",
+      "selectAssetFromList": "Select an Asset from the list",
+      "selectChecklistFromList": "Select Checklist From List",
+      "selectCustomerFromList": "Select a Customer from the list",
+      "selectJoOrderTemplateFromList": "Select Jo Order Template From List",
+      "selectMachineSpecialistFromList": "Select a Machine Specialist from the list",
+      "selectProductFromList": "Select a Product from the list",
+      "selectProjectFromList": "Select Project From List",
+      "selectSalesOrderFromList": "Select a Sales Order from the list",
+      "selectSiteFromList": "Select Site From List",
+      "selectCustomerSurveyFromList": "Select an Customer Survey from the list",
+      "selectTicketFromList": "Select an ticket from the list",
+      "selectLocationBinFromList": "Select a Location Bin from the list",
+      "selectUserFromList": "Select a User from the list",
+      "selectCustomer": "Select a Customer",
+      "selectBinLocation": "Select a Bin Location"
+    },
+    "location": {
+      "endDateExceeds": "End date should not exceed start date",
       "proceednyway": "Proceed anyway"
     },
     "locationDetails": {
@@ -9475,6 +9542,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec4": {
+          "original": "Location",
+          "singular": "Location",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -9489,6 +9563,13 @@
         "address": {
           "original": "Address",
           "singular": "Address",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "location": {
+          "original": "Location",
+          "singular": "Location",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -9542,6 +9623,10 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "endDateExceeds": "End date should not exceed start date",
+        "proceedAnyway": "Proceed anyway"
       }
     },
     "serviceZone": {
@@ -13511,6 +13596,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec14": {
+          "original": "Change Status",
+          "singular": "Change Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -13959,28 +14051,12 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "notificationsDisabled":{
-          "original": "Notification disabled. Enable in setup or contact your Admin for assistance.",
-          "singular": "Notification disabled. Enable in setup or contact your Admin for assistance.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "notificationAllow": {
-          "original": "Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process.",
-          "singular": "Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "configNotificationOrganiation": {
-          "original": "Configure the notifications you would like your organization to see.",
-          "singular": "Configure the notifications you would like your organization to see.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
         }
+      },
+      "messages":{
+        "notificationsDisabled": "Notification disabled. Enable in setup or contact your Admin for assistance.",
+        "configNotificationOrganiation":"Configure the notifications you would like your organization to see.",
+        "notificationAllow":"Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process."
       }
     },
     "sla": {
@@ -14005,7 +14081,7 @@
           },
           "sec1": {
             "original": "Condition",
-            "singular": "Inventory Notifications",
+            "singular": "Condition",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14159,7 +14235,8 @@
           "selectAttribute": "Select Attribute",
           "selectOperator": "Select Operator",
           "slaPackageUpdatedSuccessfully": "SLA Package updated successfully",
-          "criteriaSavedSuccessfully": "Criteria saved successfully"
+          "criteriaSavedSuccessfully": "Criteria saved successfully",
+          "noConditionSelected":"No Condition Selected"
         }
       },
       "customers": {
@@ -14312,6 +14389,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec12": {
+            "original": "Pause Criteria Details",
+            "singular": "Pause Criteria Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec13": {
+            "original": "End Criteria Details",
+            "singular": "End Criteria Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -14430,7 +14521,8 @@
           "selectSlaMinutes": "Select Minutes",
           "selectSlaSteps": "Select SLA Steps",
           "criteriaSavedSuccessfully": "Criteria saved successfully",
-          "criteriaUpdatedSuccessfully": "Criteria updated successfully"
+          "criteriaUpdatedSuccessfully": "Criteria updated successfully",
+          "noCriteriaSet":"No Criteria Set"
         }
       },
       "notifications": {
@@ -14553,6 +14645,13 @@
             "setupEdit": true,
             "setupVisible": false
           },
+          "bayName": {
+            "original": "Bay Name",
+            "singular": "Bay Name",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
           "status": {
             "original": "Status",
             "singular": "Status",
@@ -14562,7 +14661,9 @@
           }
         },
         "validationFE": {},
-        "messages": {}
+        "messages": {
+          "businessHourCreated":"Business Hour created successfully"
+        }
       }
     },
     "integrations": {

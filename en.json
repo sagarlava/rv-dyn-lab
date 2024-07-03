@@ -12076,6 +12076,23 @@
           "setupEdit": true,
           "setupVisible": false
         },
+        "fields":{
+          "setupVisible": false,
+            "label": {
+              "original": "Field Labels",
+              "singular": "Field Label",
+              "plural": "Field Labels",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "description": {
+              "original": "Description",
+              "singular": "Description",
+              "plural": "Descriptions",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+        },
         "type": {
           "setupVisible": false,
           "label": {
@@ -12138,21 +12155,11 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            },
-            "describeType": {
-              "original": "Describe the types of",
-              "singular": "Describe the types of",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-            },
-            "youReceive": {
-              "original": "you receive",
-              "singular": "you receive",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
             }
+          },
+          "messages":{
+            "describeType": "Describe the types of",
+            "youReceive": "you receive"
           }
         },
         "status": {
@@ -12217,21 +12224,11 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            },
-            "possibleStatus": {
-              "original": "The possible statuses your",
-              "singular": "The possible statuses your",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-            },
-            "mayGoThrough": {
-              "original": "may go through",
-              "singular": "may go through",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
             }
+          },
+          "messages":{
+            "possibleStatus": "The possible statuses your",
+            "mayGoThrough": "may go through"
           }
         },
         "channel": {

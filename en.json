@@ -3677,7 +3677,12 @@
     "messages": {
       "orderEndDateAfterStart": "Order End Date must be after Order Start Date",
       "pleaseSelectOneOrMoreProducts":"Please select one or more products",
-      "doYouWantToRemoveThisSalesOrder": "Do you want to remove this sales order?"
+      "doYouWantToRemoveThisSalesOrder": "Do you want to remove this sales order?",
+      "searchSalesOrders" : "Search Sales Orders",
+      "salesOrderFilter" : "Sales Order Filter",
+      "filterByCustomer": "Filter By Customer"
+
+
     }
   },
   "project": {
@@ -9502,7 +9507,10 @@
       "noJobOrderFound": "No Job Order found",
       "noProductsFound": "No Products found",
       "noHistoriesToDisplay": "No Histories to display",
-      "noProductsToDisplay": "No Products to display"
+      "noProductsToDisplay": "No Products to display",
+      "noStatusToDisplay": "No Status to display"
+
+      
     },
     "location": {
       "endDateExceeds": "End date should not exceed start date",
@@ -15952,6 +15960,9 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      }, 
+      "messages": {
+        "searchJobOrders" : "Search Job Orders"
       }
     },
     "national": {

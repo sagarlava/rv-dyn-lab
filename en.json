@@ -2244,7 +2244,7 @@
     },
     "tooltips": {
       "setupVisible": true,
-      "siteLookup": {
+      "productLookup": {
         "original": "Product Lookup",
         "singular": "Product Lookup",
         "plural": "",
@@ -8213,6 +8213,7 @@
     "tooltips": {
       "setupVisible": true,
       "eitherPhoneEmail": {
+        "original": "Either Phone OR Email is required to create a contact",
         "singular": "Either Phone OR Email is required to create a contact",
         "plural": "",
         "setupEdit": true,

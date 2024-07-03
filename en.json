@@ -2220,6 +2220,13 @@
         "plural": "Users",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Description",
+        "plural": "Descriptions",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -2239,7 +2246,11 @@
       }
     },
     "messages": {
-      "productFamilyRemoved": "Product family removed successfully"
+      "productFamilyRemoved": "Product family removed successfully",
+      "deleteProductFamily": "Delete Product Family",
+      "deleteProductType": "Delete Product Type",
+      "newProductFamily":"New Product Family",
+      "newProductType":"New Product Type"
     }
   },
   "task": {
@@ -8233,7 +8244,8 @@
     },
     "messages": {
       "invalidFileSize": "Invalid file size",
-      "allowedFileSize": "File size should be less than 25MB"
+      "allowedFileSize": "File size should be less than 25MB",
+      "cannotFindFile":"Cannot find filename and filetype"
     }
   },
   "history": {

@@ -12100,14 +12100,21 @@
             "label": {
               "original": "Label",
               "singular": "Label",
-              "plural": "",
+              "plural": "Labels",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "description": {
+              "original": "Description",
+              "singular": "Description",
+              "plural": "Descriptions",
               "setupEdit": true,
               "setupVisible": false
             },
             "code": {
               "original": "Code",
               "singular": "Code",
-              "plural": "",
+              "plural": "Codes",
               "setupEdit": true,
               "setupVisible": false
             },

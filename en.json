@@ -3541,13 +3541,6 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      },
-      "sec5": {
-        "original": "Payment Details",
-        "singular": "Payment Details",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
       }
     },
     "fields": {
@@ -9621,6 +9614,10 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      },
+      "messages":{
+        "endDateExceeds": "End date should not exceed start date",
+        "proceedAnyway": "Proceed anyway"
       }
     },
     "serviceZone": {

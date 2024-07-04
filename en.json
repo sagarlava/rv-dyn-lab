@@ -8289,7 +8289,8 @@
     "messages": {
       "invalidFileSize": "Invalid file size",
       "allowedFileSize": "File size should be less than 25MB",
-      "cannotFindFile":"Cannot find filename and filetype"
+      "cannotFindFile":"Cannot find filename and filetype",
+      "pdfNotAvailable": "Sorry! PDF is not available"
     }
   },
   "history": {
@@ -9524,8 +9525,6 @@
       "noHistoriesToDisplay": "No Histories to display",
       "noProductsToDisplay": "No Products to display",
       "noStatusToDisplay": "No Status to display"
-
-      
     },
     "location": {
       "endDateExceeds": "End date should not exceed start date",
@@ -9715,6 +9714,13 @@
         "order": {
           "original": "Order",
           "singular": "Order",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Status",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -11541,7 +11547,14 @@
           "selectLevel": "Select Level",
           "noIntegrationsEnabled": "No integrations enabled for your organization.",
           "goTo": "Go to",
-          "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance."
+          "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance.",
+          "skillAssignmentConflict": "These skills are already assigned to the user.",
+          "invalidCredentials": "Passwords do not match. Please try again.",
+          "weakPassword": "Password has part of username",
+          "passwordResetEmailSent": "An email has been sent to help you reset your password.",
+          "accountActivationEmailSent": "An email has been sent to you to activate the account.",
+          "duplicateSkillAssignmentConflict": "These skills are already assigned to the user."
+
         },
         "listView": {
           "setupVisible": false,
@@ -11588,7 +11601,8 @@
           },
           "messages": {
             "for": "for",
-            "willBeUpdatedTo": "will be updated to"
+            "willBeUpdatedTo": "will be updated to",
+            "listViewCapacityReached": "Maximum 13 columns can be added to this list view."
           }
         }
       },

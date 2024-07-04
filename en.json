@@ -12358,21 +12358,11 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            },
-            "yourListOf": {
-              "original": "Your list of areas your",
-              "singular": "Your list of areas your",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-            },
-            "resideIn": {
-              "original": "reside in",
-              "singular": "reside in",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
             }
+          },
+          "messages":{
+            "yourListOf": "Your list of areas your",
+            "resideIn": "reside in"
           }
         },
         "category": {
@@ -12430,21 +12420,11 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            },
-            "differentWays": {
-              "original": "The different ways your",
-              "singular": "The different ways your",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-            },
-            "categorized": {
-              "original": "categorized",
-              "singular": "categorized",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
             }
+          },
+          "messages":{
+            "differentWays": "The different ways your",
+            "categorized": "categorized"
           }
         },
         "subCategory": {
@@ -12502,14 +12482,10 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            },
-            "divisionCategory": {
-              "original": "The divisions you have within each category",
-              "singular": "The divisions you have within each category",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
             }
+          },
+          "messages":{
+            "divisionCategory": "The divisions you have within each category"
           }
         },
         "departments": {
@@ -12553,21 +12529,11 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            },
-            "departmentEachAssign": {
-              "original": "The departments each of your",
-              "singular": "The departments each of your",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-            },
-            "mayAssignTo": {
-              "original": "may be assigned to",
-              "singular": "may be assigned to",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
             }
+          }, 
+          "messages":{
+            "departmentEachAssign": "The departments each of your",
+            "mayAssignTo": "may be assigned to"
           }
         },
         "fault": {
@@ -12625,14 +12591,10 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            },
-            "commonFaultsRaised": {
-              "original": "The list of most common faults raised",
-              "singular": "The list of most common faults raised",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
             }
+          }, 
+          "messages":{
+             "commonFaultsRaised": "The list of most common faults raised"
           }
         },
         "priority": {
@@ -12683,14 +12645,10 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            },
-            "urgentImportant": {
-              "original": "How urgent and important each ticket is",
-              "singular": "How urgent and important each ticket is",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
             }
+          },
+          "messages":{
+             "urgentImportant": "How urgent and important each ticket is"
           }
         },
         "resolution": {
@@ -12748,18 +12706,13 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            },
-            "urgentImportant": {
-              "original": "The most common resolutions for the faults encountered",
-              "singular": "The most common resolutions for the faults encountered",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
             }
           }
         },
         "validationFE": {},
-        "messages": {}
+        "messages":{
+          "commonResolutionsEncountered": "The most common resolutions for the faults encountered"
+       }
       },
       "geofence": {
         "setupVisible": false,

@@ -2014,7 +2014,15 @@
       "taskHasMarkedCompletedPleaseUpdateStatus":"Task has been marked completed, Please update status before check-in",
       "enRoute":"En Route",
       "taskLocationNotFound":"Task location(latitude, longitude) not found",
-      "hereIsTheSummaryOfYourJourney":"Here is the summary of your journey"
+      "hereIsTheSummaryOfYourJourney":"Here is the summary of your journey",
+      "doYouWantToCheckInTheTask":"Do you want to check-in to the task?",
+      "unableToFindLocation": "Unable to find location, please try again",
+      "couldNotFetchRoute":"Could not fetch route",
+      "currentLocationNotResolvedYet":"Current Location is not resolved yet",
+      "googleMapIsNotInstalled":"Google Map is not installed",
+      "wazeIsNotInstalled":"Waze is not installed",
+      "totalDistanceTravelled":"Total distance travelled",
+      "totalTimeSpent":"Total time spent"
     }
   },
   "product": {

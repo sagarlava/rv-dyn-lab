@@ -16203,6 +16203,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "reason": {
+        "original": "Reason",
+        "singular": "Reason",
+        "plural": "Reasons",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "leaveOutturnCode": {
         "original": "Leave Outturn Code",
         "singular": "Leave Outturn Code",
@@ -16214,7 +16221,16 @@
     "messages": {
       "selectOutturnCode": "Select Outturn Code",
       "selectApprovalStatus": "Select Approval Status",
-      "selectUsers": "Select User(s)"
+      "selectUsers": "Select User(s)",
+      "confirmLeaveAcceptance":"Confirm Leave Acceptance", 
+      "confirmLeaveDecline":"Confirm Leave Decline",
+      "confirmLeaveAction":"Are your sure want to accept this leave?",
+      "confirmLeaveRejectAction":"Are your sure want to reject this leave?",
+      "viewLeave":"View Leave",
+      "leaveApprovedSuccessfully":"Leave approved successfully",
+      "leaveRejectedSuccessfully":"Leave rejected successfully",
+      "editLeave":"Edit Leave"
+
     }
   },
   "login": {

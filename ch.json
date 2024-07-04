@@ -4200,6 +4200,55 @@
         "plural": "交接证书",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec35": {
+        "original": "Fault and Resolution",
+        "singular": "Fault and Resolution",
+        "plural": "Fault and Resolution",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec36": {
+        "original": "SLA",
+        "singular": "SLA",
+        "plural": "SLA",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec37": {
+        "original": "Service Form Auto Fill",
+        "singular": "Service Form Auto Fill",
+        "plural": "Service Form Auto Fill",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec38": {
+        "original": "Additional Details",
+        "singular": "Additional Details",
+        "plural": "Additional Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec39": {
+        "original": "Required Forms",
+        "singular": "Required Forms",
+        "plural": "Required Forms",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec40": {
+        "original": "Job Order Details",
+        "singular": "Job Order Details",
+        "plural": "Job Order Details",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec41": {
+        "original": "Part Order",
+        "singular": "Part Order",
+        "plural": "Part Orders",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6224,6 +6273,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "partOrder": {
+        "original": "Part Order",
+        "singular": "Part Order",
+        "plural": "Part Orders",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "itemId": {
+        "original": "Item ID",
+        "singular": "Item ID",
+        "plural": "Item IDs",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "rmaNumber": {
+        "original": "RMA Number",
+        "singular": "RMA Number",
+        "plural": "RMA Numbers",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "importExpiryDate": {
+        "original": "Import Expiry Date",
+        "singular": "Import Expiry Date",
+        "plural": "Import Expiry Dates",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "validationFE": {

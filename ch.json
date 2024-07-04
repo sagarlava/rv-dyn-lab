@@ -7521,6 +7521,113 @@
     },
     "validationFE": {}
   },
+  "helpdesk": {
+    "setupVisible": false,
+    "label": {
+      "original": "Menu",
+      "singular": "Menu",
+      "plural": "Menus",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "sec0": {
+        "original": "Queue",
+        "singular": "Queue",
+        "plural": "Queues",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Recently Viewed",
+        "singular": "Recently Viewed",
+        "plural": "Recently Viewed",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "My Tickets",
+        "singular": "My Ticket",
+        "plural": "My Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "All Tickets",
+        "singular": "All Ticket",
+        "plural": "All Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "allMyTickets": {
+        "original": "All My Tickets",
+        "singular": "All My Ticket",
+        "plural": "All My Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "openPendingTickets": {
+        "original": "Open & Pending Tickets",
+        "singular": "Open & Pending Ticket",
+        "plural": "Open & Pending Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "overdueTickets": {
+        "original": "Overdue Tickets",
+        "singular": "Overdue Ticket",
+        "plural": "Overdue Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "highPriorityTickets": {
+        "original": "High Priority Tickets",
+        "singular": "High Priority Ticket",
+        "plural": "High Priority Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "unresolvedTickets": {
+        "original": "Unresolved Tickets",
+        "singular": "Unresolved Ticket",
+        "plural": "Unresolved Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "dueToday": {
+        "original": "Due Today",
+        "singular": "Due Today",
+        "plural": "Due Today",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "raisedByMe": {
+        "original": "Raised By Me",
+        "singular": "Raised By Me",
+        "plural": "Raised By Me",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "allTickets": {
+        "original": "All Tickets",
+        "singular": "All Ticket",
+        "plural": "All Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "recentlyUpdatedTickets": {
+        "original": "Recently Updated Tickets",
+        "singular": "Recently Updated Ticket",
+        "plural": "Recently Updated Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    }
+  },
   "attachments": {
     "setupVisible": true,
     "label": {
@@ -7638,6 +7745,144 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    }
+  },
+  "header": {
+    "setupVisible": false,
+    "label": {
+      "original": "Header",
+      "singular": "Header",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "sec0": {
+        "original": "Service",
+        "singular": "Service",
+        "plural": "Services",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Fleet",
+        "singular": "Fleet",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Notifications",
+        "singular": "Notification",
+        "plural": "Notifications",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Profile Settings",
+        "singular": "Profile Setting",
+        "plural": "Profile Settings",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Languages",
+        "singular": "Language",
+        "plural": "Languages",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "service": {
+        "original": "Service",
+        "singular": "Service",
+        "plural": "Services",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "fleet": {
+        "original": "Fleet",
+        "singular": "Fleet",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "notifications": {
+        "original": "Notification",
+        "singular": "Notification",
+        "plural": "Notifications",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "profileSettings": {
+        "original": "Profile Settings",
+        "singular": "Profile Setting",
+        "plural": "Profile Settings",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "languages": {
+        "original": "Languages",
+        "singular": "Language",
+        "plural": "Languages",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "logOut": {
+        "original": "Log out",
+        "singular": "Log out",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "english": {
+        "original": "English",
+        "singular": "English",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "malay": {
+        "original": "Malay",
+        "singular": "Malay",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "chinese": {
+        "original": "Chinese",
+        "singular": "Chinese",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "myProfile": {
+        "original": "My Profile",
+        "singular": "My Profile",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "goOnline": {
+        "original": "Go Online",
+        "singular": "Go Online",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "goOffline": {
+        "original": "Go Offline",
+        "singular": "Go Offline",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "messages":{
+      "at":"at"
     }
   },
   "general": {

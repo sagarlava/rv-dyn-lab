@@ -2004,6 +2004,33 @@
       "selectOneChecklist": "Please select one Checklist Template"
     }
   },
+  "journey": {
+    "setupVisible": true,
+    "label": {
+      "original": "Journey",
+      "singular": "Journey",
+      "plural": "Journeys",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "fields":{
+      
+    },
+    "sections":{},
+    "messages":{
+      "noAddressSet": "No Address Set",
+      "myLocation": "My Location",
+      "youAreNotOnline": "You are not online",
+      "toStartJourneyPleaseSwitchOnline":"To start the journey please switch status to online",
+      "locationIsNotResolvedYet": "Location is not resolved yet, please wait",
+      "journeyIsPaused":"Journey is paused, Please resume and end the journey",
+      "doYouWantToCompleteTake5Form":"Do you want to complete the Take5 form?",
+      "taskHasMarkedCompletedPleaseUpdateStatus":"Task has been marked completed, Please update status before check-in",
+      "enRoute":"En Route",
+      "taskLocationNotFound":"Task location(latitude, longitude) not found",
+      "hereIsTheSummaryOfYourJourney":"Here is the summary of your journey"
+    }
+  },
   "pmv": {
     "setupVisible": true,
     "label": {
@@ -4762,6 +4789,13 @@
         "plural": "Job Order Details",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec41": {
+        "original": "Part Order",
+        "singular": "Part Order",
+        "plural": "Part Orders",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -6870,6 +6904,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "partOrder": {
+        "original": "Part Order",
+        "singular": "Part Order",
+        "plural": "Part Orders",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "itemId": {
+        "original": "Item ID",
+        "singular": "Item ID",
+        "plural": "Item IDs",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "rmaNumber": {
+        "original": "RMA Number",
+        "singular": "RMA Number",
+        "plural": "RMA Numbers",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "importExpiryDate": {
+        "original": "Import Expiry Date",
+        "singular": "Import Expiry Date",
+        "plural": "Import Expiry Dates",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "validationFE": {

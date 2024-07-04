@@ -3425,6 +3425,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "orderOwner": {
+        "original": "Pemilik Pesanan",
+        "singular": "Pemilik Pesanan",
+        "plural": "Pemilik Pesanan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "channel": {
         "original": "Saluran",
         "singular": "Saluran",
@@ -3521,7 +3528,8 @@
     },
     "messages": {
       "orderEndDateAfterStart": "Order End Date must be after Order Start Date",
-      "pleaseSelectOneOrMoreProducts": "Please select one or more products"
+      "pleaseSelectOneOrMoreProducts": "Please select one or more products",
+      "doYouWantToRemoveThisSalesOrder": "Do you want to remove this sales order?"
     }
   },
   "project": {

@@ -3663,6 +3663,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "email": {
+        "original": "Email",
+        "singular": "Email",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -3683,7 +3690,13 @@
     },
     "messages": {
       "orderEndDateAfterStart": "Order End Date must be after Order Start Date",
-      "pleaseSelectOneOrMoreProducts":"Please select one or more products"
+      "pleaseSelectOneOrMoreProducts":"Please select one or more products",
+      "doYouWantToRemoveThisSalesOrder": "Do you want to remove this sales order?",
+      "searchSalesOrders" : "Search Sales Orders",
+      "salesOrderFilter" : "Sales Order Filter",
+      "filterByCustomer": "Filter By Customer"
+
+
     }
   },
   "project": {
@@ -7456,6 +7469,7 @@
       "enterAssetName": "Enter Asset Name",
       "selectBin": "Select Bin",
       "confirmAcceptance": "Confirm Acceptance",
+      "confirmRejection": "Confirm Rejection",
       "enterJobOrderNumber": "Enter Job Order Number",
       "reasonOptional": "Reason (Optional)",
       "declineTransfer": "Are you sure you want to decline this transfer?",
@@ -9504,7 +9518,14 @@
       "selectLocationBinFromList": "Select a Location Bin from the list",
       "selectUserFromList": "Select a User from the list",
       "selectCustomer": "Select a Customer",
-      "selectBinLocation": "Select a Bin Location"
+      "selectBinLocation": "Select a Bin Location",
+      "noJobOrderFound": "No Job Order found",
+      "noProductsFound": "No Products found",
+      "noHistoriesToDisplay": "No Histories to display",
+      "noProductsToDisplay": "No Products to display",
+      "noStatusToDisplay": "No Status to display"
+
+      
     },
     "location": {
       "endDateExceeds": "End date should not exceed start date",
@@ -9786,7 +9807,10 @@
     },
     "tabs": {
       "details": "Details",
-      "purchaseHistory": "Purchase History"
+      "purchaseHistory": "Purchase History",
+      "products": "Products",
+      "jobOrders": "Job Orders",
+      "history": "History"
     },
     "summary": {
       "setupVisible": false,
@@ -16134,6 +16158,9 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      }, 
+      "messages": {
+        "searchJobOrders" : "Search Job Orders"
       }
     },
     "national": {

@@ -8318,7 +8318,11 @@
         "setupVisible": true
       }
     },
-    "validationFE": {}
+    "validationFE": {},
+    "messages":{
+      "searchContact": "Search Contact",
+      "noContactsFound": "No contacts found",
+    }
   },
   "helpdesk": {
     "setupVisible": false,
@@ -15922,6 +15926,15 @@
       "plural": "Messages",
       "setupEdit": true,
       "setupVisible": false
+    },
+    "messages":{
+      "recents":"Recents",
+      "searchUser":"Search User",
+      "noMessageToDisplay":"No Message to Display",
+      "typeYourMessageHere":"Type your message here"
+      
+
+
     }
   },
   "myBin": {

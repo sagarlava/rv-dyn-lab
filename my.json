@@ -12755,6 +12755,136 @@
               }
           }
         },
+        "family": {
+          "setupVisible": false,
+          "label": {
+            "original": "Family",
+            "singular": "Family",
+            "plural": "Family",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "Family Details",
+              "singular": "Family Details",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+            "label": {
+                "original": "Label",
+                "singular": "Label",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Order",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Default",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+          }
+        },
+        "unitMeasurement": {
+          "setupVisible": false,
+          "label": {
+            "original": "Unit of Measurement",
+            "singular": "Unit of Measurement",
+            "plural": "Unit of Measurement",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "Unit Details",
+              "singular": "Unit Details",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+            "label": {
+                "original": "Label",
+                "singular": "Label",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Order",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Default",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+          }
+        },
         "validationFE": {},
         "messages":{
           "commonResolutionsEncountered": "The most common resolutions for the faults encountered"

@@ -7595,7 +7595,11 @@
         "setupVisible": true
       }
     },
-    "validationFE": {}
+    "validationFE": {},
+    "messages":{
+      "searchContact": "Search Contact",
+      "noContactsFound": "No contacts found"
+    }
   },
   "helpdesk": {
     "setupVisible": false,
@@ -8083,6 +8087,13 @@
         "plural": "Users",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "apply": {
+        "original": "Apply",
+        "singular": "Apply",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       },
       "action": {
         "original": "Action",
@@ -14847,6 +14858,15 @@
       "plural": "Mesej",
       "setupEdit": true,
       "setupVisible": true
+    },
+    "messages":{
+      "recents":"Recents",
+      "searchUser":"Search User",
+      "noMessageToDisplay":"No Message to Display",
+      "typeYourMessageHere":"Type your message here"
+      
+
+
     }
   },
   "myBin": {
@@ -14879,7 +14899,11 @@
       "setupVisible": true
     },
     "messages":{
-      "typeYourNoteHere":"Type your note here"
+      "typeYourNoteHere":"Type your note here",
+      "searchNotes": "Search Notes",
+      "whenYourHeartSpeaks":"When your heart speaks, take good notes",
+      "deleteNote":"Delete Note",
+      "noteDetails":"Note Details"
     }
   },
   "report":{
@@ -15018,6 +15042,20 @@
         "original": "拒绝原因",
         "singular": "拒绝原因",
         "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "User",
+        "plural": "Users",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Name",
         "setupEdit": true,
         "setupVisible": true
       },

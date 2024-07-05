@@ -16026,11 +16026,79 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
-       }
+       },
+       "homeAddress":{
+        "original": "Home Address",
+        "singular": "Home Address",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "officeAddress":{
+        "original": "Office Address",
+        "singular": "Office Address",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+       },
+       "firstName":{
+        "original": "First Name",
+        "singular": "First Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+       },
+        "lastName":{
+          "original": "Last Name",
+          "singular": "Last Name",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "email":{
+          "original": "Email",
+          "singular": "Email",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "phone":{
+          "original": "Phone",
+          "singular": "Phone",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "startBufferTime":{
+          "original": "Start Buffer Time",
+          "singular": "Start Buffer Time",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "endBufferTime": {
+          "original": "End Buffer Time",
+          "singular": "End Buffer Time",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "timeZone":{ 
+          "original": "Time Zone",
+          "singular": "Time Zone",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+
+        
+
+
       
       
     },
     "messages":{
+      "profileUpdatedSuccessfully":"Profile updated successfully",
       "addressUpdatedSuccessfully":"Address updated successfully",
       "changePassword":"Change Password",
       "confirmChangePassword":"Are you sure you want to change your password?"

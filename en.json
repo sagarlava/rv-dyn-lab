@@ -3873,6 +3873,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      }, 
+      "paymentTerm": {
+        "original": "Payment Term",
+        "singular": "Payment Term",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -9823,7 +9830,8 @@
       "noProductsFound": "No Products found",
       "noHistoriesToDisplay": "No Histories to display",
       "noProductsToDisplay": "No Products to display",
-      "noStatusToDisplay": "No Status to display"
+      "noStatusToDisplay": "No Status to display",
+      "selected":"selected"
     },
     "location": {
       "endDateExceeds": "End date should not exceed start date",

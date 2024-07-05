@@ -3698,6 +3698,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      }, 
+      "paymentTerm": {
+        "original": "Payment Term",
+        "singular": "Payment Term",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -9409,7 +9416,14 @@
       "selectLocationBinFromList": "Select a Location Bin from the list",
       "selectUserFromList": "Select a User from the list",
       "selectCustomer": "Select a Customer",
-      "selectBinLocation": "Select a Bin Location"
+      "selectBinLocation": "Select a Bin Location",
+      "noJobOrderFound": "No Job Order found",
+      "noSalesOrdersFound": "No Sales Orders found",
+      "noProductsFound": "No Products found",
+      "noHistoriesToDisplay": "No Histories to display",
+      "noProductsToDisplay": "No Products to display",
+      "noStatusToDisplay": "No Status to display",
+      "selected":"selected"
     },
     "location": {
       "endDateExceeds": "End date should not exceed start date",

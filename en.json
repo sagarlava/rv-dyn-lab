@@ -8290,7 +8290,11 @@
         "setupVisible": true
       }
     },
-    "validationFE": {}
+    "validationFE": {},
+    "messages":{
+      "searchContact": "Search Contact",
+      "noContactsFound": "No contacts found"
+    }
   },
   "helpdesk": {
     "setupVisible": false,
@@ -8811,6 +8815,13 @@
         "original": "User",
         "singular": "User",
         "plural": "Users",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "apply": {
+        "original": "Apply",
+        "singular": "Apply",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -16100,6 +16111,12 @@
       "plural": "Messages",
       "setupEdit": true,
       "setupVisible": false
+    },
+    "messages":{
+      "recents":"Recents",
+      "searchUser":"Search User",
+      "noMessageToDisplay":"No Message to Display",
+      "typeYourMessageHere":"Type your message here"
     }
   },
   "myBin": {
@@ -16135,7 +16152,11 @@
       "setupVisible": false
     },
     "messages": {
-      "typeYourNoteHere": "Type your note here"
+      "typeYourNoteHere": "Type your note here",
+      "searchNotes": "Search Notes",
+      "whenYourHeartSpeaks":"When your heart speaks, take good notes",
+      "deleteNote":"Delete Note",
+      "noteDetails":"Note Details"
     }
   },
   "report": {
@@ -16284,6 +16305,21 @@
         "setupEdit": true,
         "setupVisible": true
       },
+
+      "user": {
+        "original": "User",
+        "singular": "User",
+        "plural": "Users",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Name",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "reason": {
         "original": "Reason",
         "singular": "Reason",
@@ -16310,7 +16346,9 @@
       "viewLeave":"View Leave",
       "leaveApprovedSuccessfully":"Leave approved successfully",
       "leaveRejectedSuccessfully":"Leave rejected successfully",
-      "editLeave":"Edit Leave"
+      "editLeave":"Edit Leave",
+      "optional":"Optional"
+      
 
     }
   },

@@ -9740,6 +9740,8 @@
       }
     },
     "messages": {
+      "fieldEx": "FieldEx",
+      "fieldServiceOptimization": "Field Service Optimization",
       "recordNotFound": "Record not found",
       "noRecordsFound": "No Records Found",
       "none": "None",
@@ -14803,7 +14805,9 @@
       "messages":{
         "notificationsDisabled": "Notification disabled. Enable in setup or contact your Admin for assistance.",
         "configNotificationOrganiation":"Configure the notifications you would like your organization to see.",
-        "notificationAllow":"Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process."
+        "notificationAllow":"Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process.",
+        "markAsRead":"Mark as Read",
+        "noMessageToDisplay":"No message to display"
       }
     },
     "sla": {
@@ -16148,6 +16152,93 @@
       "plural": "Profiles",
       "setupEdit": true,
       "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "sec0": {
+        "original": "Account Info",
+        "singular": "Account Info",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Address",
+        "singular": "Address",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Security",
+        "singular": "Security",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "english":{
+        "original": "English",
+        "singular": "English",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "malay":{
+        "original": "Malay",
+        "singular": "Malay",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "chinese":{
+        "original": "Chinese",
+        "singular": "Chinese",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "home":{
+        "original": "Home",
+        "singular": "Home",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "office":{
+        "original": "Office",
+        "singular": "Office",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+       },
+       "address":{
+        "original": "Address",
+        "singular": "Address",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+       }
+      
+      
+    },
+    "messages":{
+      "addressUpdatedSuccessfully":"Address updated successfully",
+      "changePassword":"Change Password",
+      "confirmChangePassword":"Are you sure you want to change your password?"
+    },
+    "validationsFE":{
+      "currentPasswordIsRequired":"Current Password is required",
+      "newPasswordIsRequired":"New Password is required",
+      "mustContainAtLeaseUpperCase":"Must contain at least one uppercase letter (A-Z)",
+      "mustContainAtLeaseLowerCase":"Must contain at least one lowercase letter (a-z)",
+      "mustContainAtLeaseNumber":"Must contain at least one number (0-9)",
+      "mustContainAtLeaseSpecialCharacter":"Must contain at least one special character (!@#$%^&*)",
+      "mustBeAtLeastEightCharacter":"Password must be at least 8 characters long",
+      "mustNotContainYourUserName":"Password must not contain your username",
+      "confirmPasswordIsRequired":"Confirm Password is required",
+      "passwordMustMatch":"Password must match"
     }
   },
   "note": {

@@ -153,13 +153,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "geofence": {
-        "original": "Geobatas",
-        "singular": "Geobatas",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "description": {
         "original": "Deskripsi",
         "singular": "Deskripsi",
@@ -1786,13 +1779,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "serviceZone": {
-        "original": "Zon Perkhidmatan",
-        "singular": "Zon Perkhidmatan",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "status": {
         "original": "Status",
         "singular": "Status",
@@ -3321,13 +3307,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "geofence": {
-        "original": "Pagar Geofence",
-        "singular": "Pagar Geofence",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "siteName": {
         "original": "Nama Tapak ",
         "singular": "Nama Tapak ",
@@ -3625,13 +3604,6 @@
       "description": {
         "original": "Deskripsi",
         "singular": "Deskripsi",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "geofence": {
-        "original": "Pagar Geofence",
-        "singular": "Pagar Geofence",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9557,101 +9529,6 @@
         "proceedAnyway": "Proceed anyway"
       }
     },
-    "serviceZone": {
-      "setupVisible": true,
-      "label": {
-        "original": "Zon Perkhidmatan",
-        "singular": "Zon Perkhidmatan",
-        "plural": "Service Zones",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sections": {
-        "setupVisible": true,
-        "sec0": {
-          "original": "Service Zone Details",
-          "singular": "Service Zone Details",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        }
-      },
-      "fields": {
-        "setupVisible": true,
-        "code": {
-          "original": "Code",
-          "singular": "Code",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "default": {
-          "original": "Default",
-          "singular": "Default",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "description": {
-          "original": "Deskripsi",
-          "singular": "Deskripsi",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "fieldLabel": {
-          "original": "Field Label",
-          "singular": "Field Label",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "label": {
-          "original": "Label",
-          "singular": "Label",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "order": {
-          "original": "Order",
-          "singular": "Order",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "status": {
-          "original": "Status",
-          "singular": "Status",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "picklist": {
-          "original": "Picklist",
-          "singular": "Picklist",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        }
-      },
-      "validationFE": {},
-      "validationBE": {
-        "requiredField": "Required Field",
-        "invalidPhoneNumber": "Invalid Phone Number",
-        "invalidEmailFormat": "Invalid Email Format"
-      },
-      "tooltips": {
-        "setupVisible": true,
-        "serviceZone": {
-          "original": "Your service zones",
-          "singular": "Your service zones",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        }
-      }
-    },
     "systemInformation": {
       "setupVisible": true,
       "sections": {
@@ -10995,13 +10872,6 @@
             "setupEdit": true,
             "setupVisible": true
           },
-          "geofence": {
-            "original": "Pagar Geofence",
-            "singular": "Pagar Geofence",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-          },
           "requireTeamMembersAcceptDecl": {
             "original": "Memerlukan ahli pasukan untuk menerima/menolak tugasan?",
             "singular": "Memerlukan ahli pasukan untuk menerima/menolak tugasan?",
@@ -11309,13 +11179,6 @@
           "employeeNumber": {
             "original": "Employee Number",
             "singular": "Employee Number",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-          },
-          "geofence": {
-            "original": "Pagar Geofence",
-            "singular": "Pagar Geofence",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -13851,6 +13714,101 @@
         "messages": {
           "partUpdatedSuccessfully": "Part updated successfully"
         }
+      },
+      "serviceZone": {
+        "setupVisible": true,
+        "label": {
+          "original": "Zon Perkhidmatan",
+          "singular": "Zon Perkhidmatan",
+          "plural": "Service Zones",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sections": {
+          "setupVisible": true,
+          "sec0": {
+            "original": "Service Zone Details",
+            "singular": "Service Zone Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        },
+        "fields": {
+          "setupVisible": true,
+          "code": {
+            "original": "Code",
+            "singular": "Code",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Default",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "description": {
+            "original": "Deskripsi",
+            "singular": "Deskripsi",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "fieldLabel": {
+            "original": "Field Label",
+            "singular": "Field Label",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "label": {
+            "original": "Label",
+            "singular": "Label",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "order": {
+            "original": "Order",
+            "singular": "Order",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "picklist": {
+            "original": "Picklist",
+            "singular": "Picklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        },
+        "validationFE": {},
+        "validationBE": {
+          "requiredField": "Required Field",
+          "invalidPhoneNumber": "Invalid Phone Number",
+          "invalidEmailFormat": "Invalid Email Format"
+        },
+        "tooltips": {
+          "setupVisible": true,
+          "serviceZone": {
+            "original": "Your service zones",
+            "singular": "Your service zones",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        }
       }
     },
     "checklist": {
@@ -14045,13 +14003,6 @@
         "assetType": {
           "original": "Jenis Aset",
           "singular": "Jenis Aset",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "serviceZone": {
-          "original": "Zon Perkhidmatan",
-          "singular": "Zon Perkhidmatan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true

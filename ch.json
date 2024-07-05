@@ -146,13 +146,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "geofence": {
-        "original": "地理边界",
-        "singular": "地理边界",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "description": {
         "original": "描述",
         "singular": "描述",
@@ -1681,13 +1674,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "serviceZone": {
-        "original": "服务区",
-        "singular": "服务区",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "status": {
         "original": "状态",
         "singular": "状态",
@@ -3178,13 +3164,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "geofence": {
-        "original": "电子围栏",
-        "singular": "电子围栏",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "siteName": {
         "original": "场地名称 ",
         "singular": "场地名称 ",
@@ -3475,13 +3454,6 @@
       "description": {
         "original": "描述",
         "singular": "描述",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "geofence": {
-        "original": "电子围栏",
-        "singular": "电子围栏",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9042,101 +9014,6 @@
         }
       }
     },
-    "serviceZone": {
-      "setupVisible": true,
-      "label": {
-        "original": "服务区",
-        "singular": "服务区",
-        "plural": "Service Zones",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sections": {
-        "setupVisible": true,
-        "sec0": {
-          "original": "Service Zone Details",
-          "singular": "Service Zone Details",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        }
-      },
-      "fields": {
-        "setupVisible": true,
-        "code": {
-          "original": "Code",
-          "singular": "Code",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "default": {
-          "original": "Default",
-          "singular": "Default",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "description": {
-          "original": "描述",
-          "singular": "描述",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "fieldLabel": {
-          "original": "Field Label",
-          "singular": "Field Label",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "label": {
-          "original": "Label",
-          "singular": "Label",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "order": {
-          "original": "Order",
-          "singular": "Order",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "status": {
-          "original": "Status",
-          "singular": "Status",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "picklist": {
-          "original": "Picklist",
-          "singular": "Picklist",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        }
-      },
-      "validationFE": {},
-      "validationBE": {
-        "requiredField": "Required Field",
-        "invalidPhoneNumber": "Invalid Phone Number",
-        "invalidEmailFormat": "Invalid Email Format"
-      },
-      "tooltips": {
-        "setupVisible": true,
-        "serviceZone": {
-          "original": "Your service zones",
-          "singular": "Your service zones",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        }
-      }
-    },
     "systemInformation": {
       "setupVisible": true,
       "sections": {
@@ -10220,13 +10097,6 @@
             "setupEdit": true,
             "setupVisible": true
           },
-          "geofence": {
-            "original": "电子围栏",
-            "singular": "电子围栏",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-          },
           "requireTeamMembersAcceptDecl": {
             "original": "需要团队成员接受/拒绝任务吗？",
             "singular": "需要团队成员接受/拒绝任务吗？",
@@ -10534,13 +10404,6 @@
           "employeeNumber": {
             "original": "Employee Number",
             "singular": "Employee Number",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-          },
-          "geofence": {
-            "original": "电子围栏",
-            "singular": "电子围栏",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -13069,6 +12932,101 @@
         "messages": {
           "partUpdatedSuccessfully": "Part updated successfully"
         }
+      },
+      "serviceZone": {
+        "setupVisible": true,
+        "label": {
+          "original": "服务区",
+          "singular": "服务区",
+          "plural": "Service Zones",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sections": {
+          "setupVisible": true,
+          "sec0": {
+            "original": "Service Zone Details",
+            "singular": "Service Zone Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        },
+        "fields": {
+          "setupVisible": true,
+          "code": {
+            "original": "Code",
+            "singular": "Code",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Default",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "description": {
+            "original": "描述",
+            "singular": "描述",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "fieldLabel": {
+            "original": "Field Label",
+            "singular": "Field Label",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "label": {
+            "original": "Label",
+            "singular": "Label",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "order": {
+            "original": "Order",
+            "singular": "Order",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "picklist": {
+            "original": "Picklist",
+            "singular": "Picklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        },
+        "validationFE": {},
+        "validationBE": {
+          "requiredField": "Required Field",
+          "invalidPhoneNumber": "Invalid Phone Number",
+          "invalidEmailFormat": "Invalid Email Format"
+        },
+        "tooltips": {
+          "setupVisible": true,
+          "serviceZone": {
+            "original": "Your service zones",
+            "singular": "Your service zones",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        }
       }
     },
     "checklist": {
@@ -13256,13 +13214,6 @@
         "assetType": {
           "original": "资产类型",
           "singular": "资产类型",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "serviceZone": {
-          "original": "服务区",
-          "singular": "服务区",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true

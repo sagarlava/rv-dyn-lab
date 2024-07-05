@@ -153,13 +153,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "geofence": {
-        "original": "Geofence",
-        "singular": "Geofence",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "description": {
         "original": "Description",
         "singular": "Description",
@@ -1948,13 +1941,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "serviceZone": {
-        "original": "Service Zone",
-        "singular": "Service Zone",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "status": {
         "original": "Status",
         "singular": "Status",
@@ -3491,13 +3477,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "geofence": {
-        "original": "Geofence",
-        "singular": "Geofence",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "siteName": {
         "original": "Site Name",
         "singular": "Site Name",
@@ -3800,13 +3779,6 @@
       "description": {
         "original": "Description",
         "singular": "Description",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "geofence": {
-        "original": "Geofence",
-        "singular": "Geofence",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9971,101 +9943,6 @@
         "proceedAnyway": "Proceed anyway"
       }
     },
-    "serviceZone": {
-      "setupVisible": false,
-      "label": {
-        "original": "Service Zone",
-        "singular": "Service Zone",
-        "plural": "Service Zones",
-        "setupEdit": true,
-        "setupVisible": false
-      },
-      "sections": {
-        "setupVisible": false,
-        "sec0": {
-          "original": "Service Zone Details",
-          "singular": "Service Zone Details",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        }
-      },
-      "fields": {
-        "setupVisible": false,
-        "code": {
-          "original": "Code",
-          "singular": "Code",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "default": {
-          "original": "Default",
-          "singular": "Default",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "description": {
-          "original": "Description",
-          "singular": "Description",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "fieldLabel": {
-          "original": "Field Label",
-          "singular": "Field Label",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "label": {
-          "original": "Label",
-          "singular": "Label",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "order": {
-          "original": "Order",
-          "singular": "Order",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "status": {
-          "original": "Status",
-          "singular": "Status",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "picklist": {
-          "original": "Picklist",
-          "singular": "Picklist",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        }
-      },
-      "validationFE": {},
-      "validationBE": {
-        "requiredField": "Required Field",
-        "invalidPhoneNumber": "Invalid Phone Number",
-        "invalidEmailFormat": "Invalid Email Format"
-      },
-      "tooltips": {
-        "setupVisible": false,
-        "serviceZone": {
-          "original": "Your service zones",
-          "singular": "Your service zones",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        }
-      }
-    },
     "systemInformation": {
       "setupVisible": false,
       "label": {
@@ -11405,13 +11282,6 @@
             "setupEdit": true,
             "setupVisible": false
           },
-          "geofence": {
-            "original": "Geofence",
-            "singular": "Geofence",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
           "requireTeamMembersAcceptDecl": {
             "original": "Require team members to accept/decline tasks?",
             "singular": "Require team members to accept/decline tasks?",
@@ -11719,13 +11589,6 @@
           "employeeNumber": {
             "original": "Employee Number",
             "singular": "Employee Number",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "geofence": {
-            "original": "Geofence",
-            "singular": "Geofence",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14263,6 +14126,101 @@
         "messages": {
           "partUpdatedSuccessfully": "Part updated successfully"
         }
+      },
+      "serviceZone": {
+        "setupVisible": false,
+        "label": {
+          "original": "Service Zone",
+          "singular": "Service Zone",
+          "plural": "Service Zones",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Service Zone Details",
+            "singular": "Service Zone Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupVisible": false,
+          "code": {
+            "original": "Code",
+            "singular": "Code",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Default",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Description",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "fieldLabel": {
+            "original": "Field Label",
+            "singular": "Field Label",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "label": {
+            "original": "Label",
+            "singular": "Label",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "order": {
+            "original": "Order",
+            "singular": "Order",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "picklist": {
+            "original": "Picklist",
+            "singular": "Picklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "validationFE": {},
+        "validationBE": {
+          "requiredField": "Required Field",
+          "invalidPhoneNumber": "Invalid Phone Number",
+          "invalidEmailFormat": "Invalid Email Format"
+        },
+        "tooltips": {
+          "setupVisible": false,
+          "serviceZone": {
+            "original": "Your service zones",
+            "singular": "Your service zones",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        }
       }
     },
     "checklist": {
@@ -14471,13 +14429,6 @@
         "assetType": {
           "original": "Asset Type",
           "singular": "Asset Type",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "serviceZone": {
-          "original": "Service Zone",
-          "singular": "Service Zone",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

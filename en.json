@@ -2242,6 +2242,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "quantity": {
+        "original": "quantity",
+        "singular": "quantity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "totalPrice": {
         "original": "Total Price",
         "singular": "Total Price",
@@ -2267,6 +2274,13 @@
         "original": "Description",
         "singular": "Description",
         "plural": "Descriptions",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "total": {
+        "original": "Total",
+        "singular": "Total",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -2306,7 +2320,10 @@
       "deleteProductFamily": "Delete Product Family",
       "deleteProductType": "Delete Product Type",
       "newProductFamily":"New Product Family",
-      "newProductType":"New Product Type"
+      "newProductType":"New Product Type",
+      "subTotal": "Sub Total",
+      "totalAmount": "Total Amount"
+
     }
   },
   "task": {
@@ -3737,7 +3754,8 @@
       "doYouWantToRemoveThisProduct": "Do you want to remove this product?",
       "searchSalesOrders" : "Search Sales Orders",
       "salesOrderFilter" : "Sales Order Filter",
-      "filterByCustomer": "Filter By Customer"
+      "filterByCustomer": "Filter By Customer",
+      "soRequiresMinimumOneProduct": "Sales order requires minimum one product"
 
 
     }
@@ -9876,7 +9894,9 @@
       "noHistoriesToDisplay": "No Histories to display",
       "noProductsToDisplay": "No Products to display",
       "noStatusToDisplay": "No Status to display",
-      "noRecordsToDisplay": "No records to display"
+      "noRecordsToDisplay": "No records to display",
+      "addNewItems": "Add New Items"
+      
     },
     "location": {
       "endDateExceeds": "End date should not exceed start date",

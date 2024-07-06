@@ -3664,6 +3664,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "billingAddress": {
+        "original": "Billing Address",
+        "singular": "Billing Address",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "totalAmount": {
         "original": "Total Amount",
         "singular": "Total Amount",
@@ -3727,6 +3734,7 @@
       "orderEndDateAfterStart": "Order End Date must be after Order Start Date",
       "pleaseSelectOneOrMoreProducts":"Please select one or more products",
       "doYouWantToRemoveThisSalesOrder": "Do you want to remove this sales order?",
+      "doYouWantToRemoveThisProduct": "Do you want to remove this product?",
       "searchSalesOrders" : "Search Sales Orders",
       "salesOrderFilter" : "Sales Order Filter",
       "filterByCustomer": "Filter By Customer"
@@ -8790,6 +8798,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "saveAndNext": {
+        "original": "Save & Next",
+        "singular": "Save & Next",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "close": {
         "original": "Close",
         "singular": "Close",
@@ -9150,6 +9165,13 @@
       "no": {
         "original": "No",
         "singular": "No",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "ok": {
+        "original": "Ok",
+        "singular": "Ok",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -9853,7 +9875,8 @@
       "noProductsFound": "No Products found",
       "noHistoriesToDisplay": "No Histories to display",
       "noProductsToDisplay": "No Products to display",
-      "noStatusToDisplay": "No Status to display"
+      "noStatusToDisplay": "No Status to display",
+      "noRecordsToDisplay": "No records to display"
     },
     "location": {
       "endDateExceeds": "End date should not exceed start date",

@@ -3379,7 +3379,8 @@
       "taskOptimizer":"Task Optimizer",
       "optimizer":"Optimizer",
       "mytasks":"My Tasks",
-      "tasksToAcceptDecline ":"Tasks to Accept/Decline"
+      "tasksToAcceptDecline ":"Tasks to Accept/Decline",
+      "noTasksFound" : "No Tasks found"
     }
   },
   "site": {
@@ -9895,7 +9896,9 @@
       "noProductsToDisplay": "No Products to display",
       "noStatusToDisplay": "No Status to display",
       "noRecordsToDisplay": "No records to display",
-      "addNewItems": "Add New Items"
+      "addNewItems": "Add New Items",
+      "noMembersToDisplay" : "No members to display",
+      "noPositionToDisplay" : "No position to display"
       
     },
     "location": {
@@ -15962,6 +15965,12 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      },
+      "messages": {
+        "firstTimeDeviceRegistrationMessage": "For the first time, your device needs to be registered, please click copy icon and send following info to admin and wait till your device is approved.",
+        "deviceRegistrationSubmissionMessage": "Your device request has been sent and is pending approval. Please contact the admin using the given details.",
+        "deviceIDCopiedToClipBoard" : "Device ID copied to clipboard",
+        "registerYourDevice": "Register Your Device"
       }
     }
   },
@@ -16423,7 +16432,14 @@
       }
     },
     "messages": {
-      "mostFeaturesMobileApp": "For the most features and functionality of FieldEx on the go, please download our mobile app."
+      "mostFeaturesMobileApp": "For the most features and functionality of FieldEx on the go, please download our mobile app.",
+      "bySigniningIn": "By signing in, you agree to our",
+      "privacyPolicy": "Privacy Policy",
+      "pleaseProvideUsernameAndPassword" : "Please provide username and password",
+      "problemFetchingJourneyTask": "There is a problem while fetching journey task.",
+      "problemFetchingJourneyStatus": "There is a problem while fetching journey status.",
+      "userNameOrPasswordWrong": "Username or password wrong!"
+      
     }
   },
   "resetPassword": {

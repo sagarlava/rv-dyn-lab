@@ -1608,7 +1608,8 @@
       "pleaseSelectAccessoryName": "Please select an Accessory Name",
       "selectCustomerFirst": "Select customer first",
       "contractItems": "Contract Items",
-      "contractItem": "Contract Item"
+      "contractItem": "Contract Item",
+      "errorFetchingAllContractItems":"Error fetching all contract items."
     }
   },
   "contractMaintenance": {
@@ -15979,6 +15980,28 @@
         "deviceIDCopiedToClipBoard" : "Device ID copied to clipboard",
         "registerYourDevice": "Register Your Device"
       }
+    }
+  },
+  "disclosure":{
+    "setupVisible": true,
+
+    "label": {
+      "original": "Application Permission Disclosure",
+      "singular": "Application Permission Disclosure",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "messages":{
+      "weRequireTheFollowingAccess":"We require the following access from your mobile device while using respective features in our application for a good user experience:",
+      "toCollectAndRecordBackground":"To collect and record background location data for journey tracking, task check-in/out locations and live proximity location data while using the app and when it is running in the background. Location data will not be tracked if you go offline in FieldEx.",
+      "toRetrieveImages":"To retrieve images, videos or documents from device storage to upload in tasks or job orders.",
+      "toCaptureImages":"To capture images from your device camera and upload to tasks or job orders.",
+      "toCallTheTaskAssigner":"To call the task assigner or customer's contact directly from the applicaton.",
+      "locationPermission":"Location Permission:",
+      "fileStoragePermission":"File/Storage Permission:",
+      "cameraPermission":"Camera Permission:",
+      "phonePermission":"Phone Permission:"
     }
   },
   "message": {

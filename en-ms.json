@@ -1114,6 +1114,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "endTime": {
+        "original": "End Time",
+        "singular": "End Time",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "maintenanceTemplate": {
         "original": "Maintenance Template",
         "singular": "Maintenance Template",
@@ -7309,23 +7316,26 @@
         "setupVisible": true
       }
     },
-    "validationFE": {},
-    "validationBE": {
-      "requiredField": "Required Field",
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format"
-    },
-    "messages": {
-      "selectLocation": "Select Location",
-      "selectZone": "Select Zone",
-      "selectBin": "Select Bin",
-      "selectUserBin": "Select User Bin",
-      "searchProduct": "Search Product",
-      "searchAsset": "Search Asset",
-      "selectType": "Select Type",
-      "selectFamily": "Select Family",
-      "pleaseSelectOneFilter": "Please select at least one filter"
-    }
+    "validationFE": {
+      "pleaseSelectOne":"Please select one product or one asset"
+  },
+  "validationBE": {
+    "requiredField": "Required Field",
+    "invalidPhoneNumber": "Invalid Phone Number",
+    "invalidEmailFormat": "Invalid Email Format"
+  },
+  "messages": {
+    "selectLocation": "Select Location",
+    "selectZone": "Select Zone",
+    "selectBin": "Select Bin",
+    "selectUserBin": "Select User Bin",
+    "searchProduct": "Search Product",
+    "searchAsset": "Search Asset",
+    "selectType": "Select Type",
+    "selectFamily": "Select Family",
+    "pleaseSelectOneFilter": "Please select at least one filter",
+    "availableOtherLocations":"available in other locations"
+  }
   },
   "binTransfer": {
     "setupVisible": true,
@@ -8368,6 +8378,13 @@
         "original": "Recently Updated Tickets",
         "singular": "Recently Updated Ticket",
         "plural": "Recently Updated Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "selectAssignee": {
+        "original": "Select Assignee",
+        "singular": "Select Assignee",
+        "plural": "Select Assignee",
         "setupEdit": true,
         "setupVisible": false
       }
@@ -9801,6 +9818,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "undo": {
+        "original": "Undo",
+        "singular": "Undo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "transferByProducts": {
         "original": "Transfer by Products",
         "singular": "Transfer by Products",
@@ -10820,6 +10844,7 @@
       "notAvailable": "N/A",
       "comingSoon": "Coming Soon",
       "details": "Details",
+      "filterBy":"Filter By",
       "information": "Information",
       "selectOneOrMoreOptions": "Please select one or more options to complete",
       "pleaseSelMandFormsIn": "Please fill up the mandatory form(s) in",
@@ -10857,7 +10882,13 @@
       "noHistoriesToDisplay": "No Histories to display",
       "noProductsToDisplay": "No Products to display",
       "noStatusToDisplay": "No Status to display",
-      "selected":"selected"
+      "selected":"selected",
+      "noRecordsToDisplay": "No records to display",
+      "addNewItems": "Add New Items",
+      "noMembersToDisplay" : "No members to display",
+      "noPositionToDisplay" : "No position to display",
+      "seeAllResults":"See All Results",
+      "seeAllRecords":"See All Records"
     },
     "location": {
       "endDateExceeds": "End date should not exceed start date",

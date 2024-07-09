@@ -8849,7 +8849,8 @@
     },
     "messages":{
       "at":"at",
-      "areYouSureToLogout": "Are you sure you want to logout?"
+      "areYouSureToLogout": "Are you sure you want to logout?",
+      "cantLogoutWhileJourneyIsRunning":"Can't logout while journey is running, please stop journey first"
     }
   },
   "general": {

@@ -1255,7 +1255,9 @@
     "messages": {
       "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract",
       "unableSetStatusActive": "Cannot set status to 'Active' with a past end date",
-      "startDateNotGreaterThenEnd": "Start date should not be greater than end date"
+      "startDateNotGreaterThenEnd": "Start date should not be greater than end date",
+      "noMaintenanceItemsToDisplay": "No schedule maintenance items to display",
+      "errorFetchingMaintenanceItems": "Error fetching scheduled maintenance items"
     }
   },
   "preventiveMaintenance": {
@@ -1606,6 +1608,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "transferredFromBin": {
+        "original": "Transfered from Bin",
+        "singular": "Transfered from Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -1630,7 +1639,8 @@
       "selectCustomerFirst": "Select customer first",
       "contractItems": "Contract Items",
       "contractItem": "Contract Item",
-      "errorFetchingAllContractItems":"Error fetching all contract items."
+      "errorFetchingAllContractItems":"Error fetching all contract items.",
+      "errorFetchingContractData": "Error occured while fetching contract data"
     }
   },
   "contractMaintenance": {
@@ -2021,7 +2031,12 @@
       "selectAsset":"Select Asset",
       "selectChecklistToGenerate":"Select Checklist to Generate",
       "noQuestionsFound":"No Questions Found",
-      "updateTheStatusOf":"Update the status of:"
+      "updateTheStatusOf":"Update the status of:",
+      "updateStatus": "Update Status",
+      "forIncompleteChecklists":"For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
+      "thisStatusWillTrigger":"This status will trigger any Job Orders and Tasks related to this checklist’s answers",
+      "updateStatusTo":"Update Status To",
+      "noStatusToDisplay":"No Status to Display"
     }
   },
   "journey": {
@@ -8840,6 +8855,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "select":{
+        "original": "SELECT",
+        "singular": "SELECT",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "search": {
         "original": "Search",
         "singular": "Search",
@@ -9053,6 +9075,13 @@
       "copyCode": {
         "original": "Copy Code",
         "singular": "Copy Code",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "copyLink": {
+        "original": "Copy Link",
+        "singular": "Copy Link",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -9992,6 +10021,7 @@
       "selectBinLocation": "Select a Bin Location",
       "noJobOrderFound": "No Job Order found",
       "noSalesOrdersFound": "No Sales Orders found",
+      "noJobOrdersToDisplay": "No Job Orders to display",
       "noProductsFound": "No Products found",
       "noHistoriesToDisplay": "No Histories to display",
       "noProductsToDisplay": "No Products to display",
@@ -10002,7 +10032,10 @@
       "noMembersToDisplay" : "No members to display",
       "noPositionToDisplay" : "No position to display",
       "seeAllResults":"See All Results",
-      "seeAllRecords":"See All Records"
+      "seeAllRecords":"See All Records",
+      "thereAreNoItemsToDisplay": "There are no items to display",
+      "noLabelFieldFound": "No Label Field found",
+      "searchHere":"Search here"
       
     },
     "location": {
@@ -10131,7 +10164,10 @@
       },
       "messages":{
         "endDateExceeds": "End date should not exceed start date",
-        "proceedAnyway": "Proceed anyway"
+        "proceedAnyway": "Proceed anyway",
+        "searchPlace":"Search Place",
+        "thereAreNoPlacesToDisplay":"There are no places to display",
+        "descriptionFieldNotFound":"Description field not found"
       }
     },
     "systemInformation": {
@@ -14680,6 +14716,7 @@
         "selectServiceZone": "Select Service Zone",
         "selectEquipmentType": "Select Equipment Type",
         "checklistName": "Checklist Name"
+        
       }
     },
     "department": {
@@ -16350,7 +16387,8 @@
       "setupVisible": false
     },
     "messages":{
-      "pendingTransfers":"Pending Transfers"
+      "pendingTransfers":"Pending Transfers",
+      "binItemDetails": "Bin Item Details"
     }
   },
   "profile": {

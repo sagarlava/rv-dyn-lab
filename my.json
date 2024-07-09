@@ -1456,6 +1456,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec10": {
+        "original": "Cancel Contract",
+        "singular": "Cancel Contract",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -1618,7 +1625,8 @@
       "contractItem": "Contract Item",
       "errorFetchingAllContractItems":"Error fetching all contract items.",
       "errorFetchingContractData": "Error occured while fetching contract data",
-      "selectedQtyGreater":"Selected 'Quantity' is greater than 'Quantity Available'"
+      "selectedQtyGreater":"Selected 'Quantity' is greater than 'Quantity Available'",
+      "removeItems":"Remove items that need to be returned"
     }
   },
   "checklist": {

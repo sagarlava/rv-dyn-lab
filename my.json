@@ -1463,6 +1463,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec11": {
+        "original": "Contract Item Details",
+        "singular": "Contract Item Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -17303,6 +17310,13 @@
       "autoCreateJobOrder": {
         "original": "Automatically Generate Job Order",
         "singular": "Automatically Generate Job Order",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "contractMaintenanceNumber": {
+        "original": "Contract Maintenance Number",
+        "singular": "Contract Maintenance Number",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

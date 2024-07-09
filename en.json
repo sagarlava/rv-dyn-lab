@@ -8848,7 +8848,8 @@
       }
     },
     "messages":{
-      "at":"at"
+      "at":"at",
+      "areYouSureToLogout": "Are you sure you want to logout?"
     }
   },
   "general": {
@@ -10084,7 +10085,9 @@
       "permissionNotSatisfied": "Permission not satisfied",
       "appCameraPermission": "App Camera Permission",
       "appNeedsCameraPermission": "App needs access to your camera",
-      "deleteAttachment": "Delete Attachment"
+      "deleteAttachment": "Delete Attachment",
+      "online":"Online",
+      "offline":"Offline"
 
     },
     "location": {

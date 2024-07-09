@@ -2291,6 +2291,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "productNo": {
+        "original": "Product No.",
+        "singular": "Product No.",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "qty": {
         "original": "Qty",
         "singular": "Qty",
@@ -9969,6 +9976,7 @@
       "step4": "Step 4",
       "step5": "Step 5",
       "sentSuccessfully": "sent successfully",
+      "removedSuccessfully": "removed successfully",
       "deletedSuccessfully": "deleted successfully",
       "savedSuccessfully": "saved successfully",
       "updatedSuccessfully": "updated successfully",

@@ -8996,6 +8996,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "copyLink": {
+        "original": "Copy Link",
+        "singular": "Copy Link",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "delete": {
         "original": "Delete",
         "singular": "Delete",
@@ -9931,7 +9938,9 @@
       "noRecordsToDisplay": "No records to display",
       "addNewItems": "Add New Items",
       "noMembersToDisplay" : "No members to display",
-      "noPositionToDisplay" : "No position to display"
+      "noPositionToDisplay" : "No position to display",
+      "thereAreNoItemsToDisplay": "There are no items to display",
+      "noLabelFieldFound": "No Label Field found"
       
     },
     "location": {
@@ -10060,7 +10069,11 @@
       },
       "messages":{
         "endDateExceeds": "End date should not exceed start date",
-        "proceedAnyway": "Proceed anyway"
+        "proceedAnyway": "Proceed anyway",
+        "searchPlace":"Search Place",
+        "searchHere":"Search here",
+        "thereAreNoPlacesToDisplay":"There are no places to display",
+        "descriptionFieldNotFound":"Description field not found"
       }
     },
     "serviceZone": {

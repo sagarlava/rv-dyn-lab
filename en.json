@@ -69,6 +69,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "categoryType": {
+        "original": "Category Type",
+        "singular": "Category Type",
+        "plural": "Category Types",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "sector": {
         "original": "Sector",
         "singular": "Sector",
@@ -762,6 +769,20 @@
       "newMeterReading": {
         "original": "New Meter Reading",
         "singular": "New Meter Reading",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },   
+      "allAsset": {
+        "original": "All Assets",
+        "singular": "All Asset",
+        "plural": "All Assets",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetsByCustomer": {
+        "original": "Assets by Customer",
+        "singular": "Assets by Customer",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8289,6 +8310,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "recipientEmail": {
+        "original": "Recipient CC Email",
+        "singular": "Recipient CC Email",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "sections": {
@@ -8334,9 +8362,9 @@
   "helpdesk": {
     "setupVisible": false,
     "label": {
-      "original": "Menu",
-      "singular": "Menu",
-      "plural": "Menus",
+      "original": "Helpdesk",
+      "singular": "Helpdesk",
+      "plural": "Helpdesks",
       "setupEdit": true,
       "setupVisible": false
     },
@@ -9133,6 +9161,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "seeAll": {
+        "original": "See All",
+        "singular": "See All",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "view": {
         "original": "View",
         "singular": "View",
@@ -9886,7 +9921,9 @@
       "noRecordsToDisplay": "No records to display",
       "addNewItems": "Add New Items",
       "noMembersToDisplay" : "No members to display",
-      "noPositionToDisplay" : "No position to display"
+      "noPositionToDisplay" : "No position to display",
+      "seeAllResults":"See All Results",
+      "seeAllRecords":"See All Records"
       
     },
     "location": {
@@ -10077,7 +10114,8 @@
       "invalidYearFormat": "Invalid Year Format",
       "onlyAlphabetsAllowed": "Only alphabets allowed",
       "requiredField": "Required Field",
-      "pleaseSignBeforeProceed": "Please sign before proceed"
+      "pleaseSignBeforeProceed": "Please sign before proceed",
+      "charactersExceed": "Text exceeds character limit (255)."
     },
     "tabs": {
       "details": "Details",
@@ -14866,6 +14904,13 @@
     },
     "sla": {
       "setupVisible": false,
+      "label":{
+        "original": "SLA",
+        "singular": "SLA",
+        "plural": "SLA",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "packages": {
         "setupVisible": false,
         "label": {

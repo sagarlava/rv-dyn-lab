@@ -1385,6 +1385,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "frequencyName": {
+        "original": "Frequency Name",
+        "singular": "Frequency Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -6849,7 +6856,8 @@
       "newTaskForSelectedDateTime": "A new task will be created under this Job Order for the selected date and time",
       "noJobOrderCustomerContact": "No contact found for the Job Order's Customer",
       "noJobOrderContact": "No contact found for the Job Order",
-      "noSlaStepDefined": "No SLA step yet"
+      "noSlaStepDefined": "No SLA step yet",
+      "createJobOrder":"Create Job Order"
 
     }
   },

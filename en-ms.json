@@ -823,7 +823,10 @@
       "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
       "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
       "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Machine within this Contract",
-      "errorFetchingAssetDetails": "Error fetching asset details"
+      "errorFetchingAssetDetails": "Error fetching asset details",
+      "noAssetsFound": "No Assets Found",
+      "noScheduledMaintenance":"No Scheduled Maintenance",
+      "noPriorMaintenance":"No Prior Maintenances"
     }
   },
   "assetLog": {

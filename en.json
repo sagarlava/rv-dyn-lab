@@ -838,7 +838,9 @@
       "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
        "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract",
       "errorFetchingAssetDetails": "Error fetching asset details",
-      "noAssetsFound": "No Assets Found"
+      "noAssetsFound": "No Assets Found",
+      "noScheduledMaintenance":"No Scheduled Maintenance",
+      "noPriorMaintenance":"No Prior Maintenances"
     }
   },
   "assetLog": {

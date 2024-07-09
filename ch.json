@@ -738,7 +738,11 @@
       "configureQrBarcodeInAssetSetup": "要设置二维码/条形码，请转到设置中的资产配置。",
       "resetMeterForLowerReading": "如果您的新电表读数小于当前读数，请选择“重置电表”。",
       "futureDateTimeEntryNotAllowed": "不能为未来的日期和时间进行条目输入。",
-      "maintenanceAppliesToAllContractAssets": "此维护将适用于本合同内的所有资产。"
+      "maintenanceAppliesToAllContractAssets": "此维护将适用于本合同内的所有资产。",
+      "errorFetchingAssetDetails": "Error fetching asset details",
+      "noAssetsFound": "No Assets Found",
+      "noScheduledMaintenance":"No Scheduled Maintenance",
+      "noPriorMaintenance":"No Prior Maintenances"
     }
   }, 
   "assetLog": {

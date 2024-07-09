@@ -1234,7 +1234,9 @@
     "messages": {
       "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract",
       "unableSetStatusActive": "Cannot set status to 'Active' with a past end date",
-      "startDateNotGreaterThenEnd": "Start date should not be greater than end date"
+      "startDateNotGreaterThenEnd": "Start date should not be greater than end date",
+      "noMaintenanceItemsToDisplay": "No schedule maintenance items to display",
+      "errorFetchingMaintenanceItems": "Error fetching scheduled maintenance items"
     }
   },
   "preventiveMaintenance": {
@@ -1585,6 +1587,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "transferredFromBin": {
+        "original": "Transfered from Bin",
+        "singular": "Transfered from Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -1609,7 +1618,8 @@
       "selectCustomerFirst": "Select customer first",
       "contractItems": "Contract Items",
       "contractItem": "Contract Item",
-      "errorFetchingAllContractItems":"Error fetching all contract items."
+      "errorFetchingAllContractItems":"Error fetching all contract items.",
+      "errorFetchingContractData": "Error occured while fetching contract data"
     }
   },
   "contractMaintenance": {
@@ -16069,7 +16079,8 @@
       "setupVisible": false
     },
     "messages":{
-      "pendingTransfers":"Pending Transfers"
+      "pendingTransfers":"Pending Transfers",
+      "binItemDetails": "Bin Item Details"
     }
   },
   "profile": {

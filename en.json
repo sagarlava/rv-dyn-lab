@@ -823,7 +823,8 @@
       "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
       "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
        "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract",
-      "errorFetchingAssetDetails": "Error fetching asset details"
+      "errorFetchingAssetDetails": "Error fetching asset details",
+      "noAssetsFound": "No Assets Found"
     }
   },
   "assetLog": {
@@ -3415,7 +3416,8 @@
       "optimizer":"Optimizer",
       "mytasks":"My Tasks",
       "tasksToAcceptDecline ":"Tasks to Accept/Decline",
-      "noTasksFound" : "No Tasks found"
+      "noTasksFound" : "No Tasks found",
+      "deleteTask": "Delete Task"
     }
   },
   "site": {
@@ -3523,9 +3525,23 @@
         "setupEdit": true,
         "setupVisible": true
       },
+       "extId": {
+        "original": "External ID",
+        "singular": "External ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "email": {
         "original": "Email",
         "singular": "Email",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "designation": {
+        "original": "Designation",
+        "singular": "Designation",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3596,7 +3612,9 @@
         "setupVisible": true
       }
     },
-    "messages": {}
+    "messages": {
+      "filterSites" : "Filter Sites"
+    }
   },
   "salesOrder": {
     "setupVisible": true,
@@ -3981,7 +3999,9 @@
         "setupVisible": true
       }
     },
-    "messages": {}
+    "messages": {
+      "noProjectsFound" : "No Projects Found"
+    }
   },
   "ticket": {
     "setupVisible": true,
@@ -9958,8 +9978,21 @@
       "noPositionToDisplay" : "No position to display",
       "thereAreNoItemsToDisplay": "There are no items to display",
       "noLabelFieldFound": "No Label Field found",
-      "searchHere":"Search here"
-      
+      "searchHere": "Search here",
+      "itemRemovedSuccessfully": "Item has been removed successfully.",
+      "errorFetchingModalData": "Error occured while fetching model data.",
+      "errorFetchingModaScehma": "Error occured while fetching model schema.",
+      "titleMissing" : "Title Missing",
+      "noAttachmentsFound": "No Attachments Found",
+      "takePhoto": "Take Photo",
+      "openGallery": "Open Gallery",
+      "chooseVideo": "Choose Video",
+      "camerNotAvailable": "Camera not available on device",
+      "permissionNotSatisfied": "Permission not satisfied",
+      "appCameraPermission": "App Camera Permission",
+      "appNeedsCameraPermission": "App needs access to your camera",
+      "deleteAttachment": "Delete Attachment"
+
     },
     "location": {
       "endDateExceeds": "End date should not exceed start date",
@@ -10254,7 +10287,12 @@
       "purchaseHistory": "Purchase History",
       "products": "Products",
       "jobOrders": "Job Orders",
-      "history": "History"
+      "history": "History",
+      "contacts": "Contacts",
+      "assets": "Assets",
+      "tasks": "Tasks",
+      "attachments": "Attachments"
+
     },
     "summary": {
       "setupVisible": false,
@@ -15601,9 +15639,16 @@
           "setupVisible": false
         }
       },
+      "validationFE": {
+        "requiredField": "Required Field",
+        "invalidPhoneNumber": "Invalid Phone Number",
+        "invalidEmailFormat": "Invalid Email Format"
+      },
+      "validationBE": {},
       "messages": {
         "companyName": "Company Name",
-        "sampleCustomerBookTime": "This is a sample of what customers will see when booking time slots with you"
+        "sampleCustomerBookTime": "This is a sample of what customers will see when booking time slots with you",
+
       }
     },
     "importExport": {

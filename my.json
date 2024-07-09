@@ -8093,47 +8093,47 @@
       }
     }
   },
-  "attachments": {
-    "setupVisible": true,
+ "attachments": {
+    "setupVisible": false,
     "label": {
-      "original": "Attachment",
-      "singular": "Attachment",
-      "plural": "Attachments",
+      "original": "Lampiran",
+      "singular": "Lampiran",
+      "plural": "Lampiran",
       "setupEdit": true,
-      "setupVisible": true
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
-        "original": "Preview",
-        "singular": "Preview",
+        "original": "Pratonton",
+        "singular": "Pratonton",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "max25Mb": {
-        "original": "Max 25MB",
-        "singular": "Max 25MB",
+        "original": "Maks 25MB",
+        "singular": "Maks 25MB",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "file": {
-        "original": "File",
-        "singular": "File",
-        "plural": "Files",
+        "original": "Fail",
+        "singular": "Fail",
+        "plural": "Fail",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {
-      "invalidFileSize": "Invalid file size",
-      "allowedFileSize": "File size should be less than 25MB",
-      "cannotFindFile": "Cannot find filename and filetype",
-      "pdfNotAvailable": "Sorry! PDF is not available"
+      "invalidFileSize": "Saiz fail tidak sah",
+      "allowedFileSize": "Saiz fail harus kurang daripada 25MB",
+      "cannotFindFile": "Tidak dapat mencari nama fail dan jenis fail",
+      "pdfNotAvailable": "Maaf! PDF tidak tersedia"
     }
   },
   "history": {

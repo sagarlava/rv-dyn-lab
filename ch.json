@@ -7983,48 +7983,49 @@
     }
   },
   "attachments": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
-      "original": "Attachment",
-      "singular": "Attachment",
-      "plural": "Attachments",
+      "original": "附件",
+      "singular": "附件",
+      "plural": "附件",
       "setupEdit": true,
-      "setupVisible": true
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
-        "original": "Preview",
-        "singular": "Preview",
+        "original": "预览",
+        "singular": "预览",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "max25Mb": {
-        "original": "Max 25MB",
-        "singular": "Max 25MB",
+        "original": "最大25MB",
+        "singular": "最大25MB",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "file": {
-        "original": "File",
-        "singular": "File",
-        "plural": "Files",
+        "original": "文件",
+        "singular": "文件",
+        "plural": "文件",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {
-      "invalidFileSize": "Invalid file size",
-      "allowedFileSize": "File size should be less than 25MB",
-      "cannotFindFile": "Cannot find filename and filetype",
-      "pdfNotAvailable": "Sorry! PDF is not available"
+      "invalidFileSize": "文件大小无效",
+      "allowedFileSize": "文件大小应小于25MB",
+      "cannotFindFile": "无法找到文件名和文件类型",
+      "pdfNotAvailable": "抱歉！PDF不可用"
     }
   },
+  
   "history": {
     "setupVisible": true,
     "label": {

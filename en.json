@@ -1970,6 +1970,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "from":{
+        "original": "From",
+        "singular": "From",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "to":{
+        "original": "To",
+        "singular": "To",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "checklistToGenerate": {
         "original": "New Checklist to be Generated",
         "singular": "New Checklist to be Generated",
@@ -1995,7 +2009,12 @@
       }
     },
     "messages": {
-      "selectOneChecklist": "Please select one Checklist Template"
+      "selectOneChecklist": "Please select one Checklist Template",
+      "addNewChecklist": "Add New Checklist",
+      "selectAsset":"Select Asset",
+      "selectChecklistToGenerate":"Select Checklist to Generate",
+      "noQuestionsFound":"No Questions Found",
+      "updateTheStatusOf":"Update the status of:"
     }
   },
   "journey": {

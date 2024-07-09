@@ -1601,7 +1601,8 @@
       "pleaseSelectAccessoryName": "Please select an Accessory Name",
       "selectCustomerFirst": "Select customer first",
       "contractItems": "Contract Items",
-      "contractItem": "Contract Item"
+      "contractItem": "Contract Item",
+      "errorFetchingAllContractItems":"Error fetching all contract items."
     }
   },
   "contractMaintenance": {
@@ -2228,6 +2229,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "quantity": {
+        "original": "quantity",
+        "singular": "quantity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "totalPrice": {
         "original": "Total Price",
         "singular": "Total Price",
@@ -2253,6 +2261,13 @@
         "original": "Description",
         "singular": "Description",
         "plural": "Descriptions",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "total": {
+        "original": "Total",
+        "singular": "Total",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -2292,7 +2307,10 @@
       "deleteProductFamily": "Delete Product Family",
       "deleteProductType": "Delete Product Type",
       "newProductFamily":"New Product Family",
-      "newProductType":"New Product Type"
+      "newProductType":"New Product Type",
+      "subTotal": "Sub Total",
+      "totalAmount": "Total Amount"
+
     }
   },
   "task": {
@@ -3348,7 +3366,8 @@
       "taskOptimizer":"Task Optimizer",
       "optimizer":"Optimizer",
       "mytasks":"My Tasks",
-      "tasksToAcceptDecline ":"Tasks to Accept/Decline"
+      "tasksToAcceptDecline ":"Tasks to Accept/Decline",
+      "noTasksFound" : "No Tasks found"
     }
   },
   "site": {
@@ -3643,6 +3662,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "billingAddress": {
+        "original": "Billing Address",
+        "singular": "Billing Address",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "totalAmount": {
         "original": "Total Amount",
         "singular": "Total Amount",
@@ -3706,9 +3732,11 @@
       "orderEndDateAfterStart": "Order End Date must be after Order Start Date",
       "pleaseSelectOneOrMoreProducts":"Please select one or more products",
       "doYouWantToRemoveThisSalesOrder": "Do you want to remove this sales order?",
+      "doYouWantToRemoveThisProduct": "Do you want to remove this product?",
       "searchSalesOrders" : "Search Sales Orders",
       "salesOrderFilter" : "Sales Order Filter",
-      "filterByCustomer": "Filter By Customer"
+      "filterByCustomer": "Filter By Customer",
+      "soRequiresMinimumOneProduct": "Sales order requires minimum one product"
 
 
     }
@@ -8769,9 +8797,23 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "saveAndNext": {
+        "original": "Save & Next",
+        "singular": "Save & Next",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "close": {
         "original": "Close",
         "singular": "Close",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "register": {
+        "original": "Register",
+        "singular": "Register",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -9129,6 +9171,13 @@
       "no": {
         "original": "No",
         "singular": "No",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "ok": {
+        "original": "Ok",
+        "singular": "Ok",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -9833,7 +9882,12 @@
       "noHistoriesToDisplay": "No Histories to display",
       "noProductsToDisplay": "No Products to display",
       "noStatusToDisplay": "No Status to display",
-      "selected":"selected"
+      "selected":"selected",
+      "noRecordsToDisplay": "No records to display",
+      "addNewItems": "Add New Items",
+      "noMembersToDisplay" : "No members to display",
+      "noPositionToDisplay" : "No position to display"
+      
     },
     "location": {
       "endDateExceeds": "End date should not exceed start date",
@@ -16112,7 +16166,35 @@
           "setupEdit": true,
           "setupVisible": false
         }
+      },
+      "messages": {
+        "firstTimeDeviceRegistrationMessage": "For the first time, your device needs to be registered, please click copy icon and send following info to admin and wait till your device is approved.",
+        "deviceRegistrationSubmissionMessage": "Your device request has been sent and is pending approval. Please contact the admin using the given details.",
+        "deviceIDCopiedToClipBoard" : "Device ID copied to clipboard",
+        "registerYourDevice": "Register Your Device"
       }
+    }
+  },
+  "disclosure":{
+    "setupVisible": true,
+
+    "label": {
+      "original": "Application Permission Disclosure",
+      "singular": "Application Permission Disclosure",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "messages":{
+      "weRequireTheFollowingAccess":"We require the following access from your mobile device while using respective features in our application for a good user experience:",
+      "toCollectAndRecordBackground":"To collect and record background location data for journey tracking, task check-in/out locations and live proximity location data while using the app and when it is running in the background. Location data will not be tracked if you go offline in FieldEx.",
+      "toRetrieveImages":"To retrieve images, videos or documents from device storage to upload in tasks or job orders.",
+      "toCaptureImages":"To capture images from your device camera and upload to tasks or job orders.",
+      "toCallTheTaskAssigner":"To call the task assigner or customer's contact directly from the applicaton.",
+      "locationPermission":"Location Permission:",
+      "fileStoragePermission":"File/Storage Permission:",
+      "cameraPermission":"Camera Permission:",
+      "phonePermission":"Phone Permission:"
     }
   },
   "message": {
@@ -16219,14 +16301,85 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
-       }
+       },
+       "homeAddress":{
+        "original": "Home Address",
+        "singular": "Home Address",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "officeAddress":{
+        "original": "Office Address",
+        "singular": "Office Address",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+       },
+       "firstName":{
+        "original": "First Name",
+        "singular": "First Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+       },
+        "lastName":{
+          "original": "Last Name",
+          "singular": "Last Name",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "email":{
+          "original": "Email",
+          "singular": "Email",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "phone":{
+          "original": "Phone",
+          "singular": "Phone",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "startBufferTime":{
+          "original": "Start Buffer Time",
+          "singular": "Start Buffer Time",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "endBufferTime": {
+          "original": "End Buffer Time",
+          "singular": "End Buffer Time",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "timeZone":{ 
+          "original": "Time Zone",
+          "singular": "Time Zone",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+
+        
+
+
       
       
     },
     "messages":{
+      "profileUpdatedSuccessfully":"Profile updated successfully",
       "addressUpdatedSuccessfully":"Address updated successfully",
       "changePassword":"Change Password",
-      "confirmChangePassword":"Are you sure you want to change your password?"
+      "confirmChangePassword":"Are you sure you want to change your password?",
+      "addYourHomeAddress":"Add your home address",
+      "addYourOfficeAddress":"Add your office address",
+      "passwordUpdatedSuccessfully":"Password updated successfully"
     },
     "validationsFE":{
       "currentPasswordIsRequired":"Current Password is required",
@@ -16516,7 +16669,17 @@
       }
     },
     "messages": {
-      "mostFeaturesMobileApp": "For the most features and functionality of FieldEx on the go, please download our mobile app."
+      "mostFeaturesMobileApp": "For the most features and functionality of FieldEx on the go, please download our mobile app.",
+      "bySigniningIn": "By signing in, you agree to our",
+      "privacyPolicy": "Privacy Policy",
+      "pleaseProvideUsernameAndPassword" : "Please provide username and password",
+      "problemFetchingJourneyTask": "There is a problem while fetching journey task.",
+      "problemFetchingJourneyStatus": "There is a problem while fetching journey status.",
+      "userNameOrPasswordWrong": "Username or password wrong!",
+      "enterUserName": "Enter User Name",
+      "passwordResetInfo": "No worries, we just need your username so that we can send you a  password reset",
+      "passwordResetSuccessMessage" : "Reset successfully. An email has been sent to your address."
+      
     }
   },
   "resetPassword": {

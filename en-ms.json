@@ -1791,7 +1791,10 @@
       "pleaseSelectAccessoryName": "Please select an Accessory Name",
       "selectCustomerFirst": "Select customer first",
       "contractItems": "Contract Items",
-      "contractItem": "Contract Item"
+      "contractItem": "Contract Item",
+      "errorFetchingAllContractItems":"Error fetching all contract items.",
+      "errorFetchingContractData": "Error occured while fetching contract data",
+      "selectedQtyGreater":"Selected 'Quantity' is greater than 'Quantity Available'"
     }
   },
   "checklist": {
@@ -11096,8 +11099,11 @@
       "invalidUsernameFormat": "Invalid Username Format",
       "invalidYearFormat": "Invalid Year Format",
       "onlyAlphabetsAllowed": "Only alphabets allowed",
+      "required": "Required",
       "requiredField": "Required Field",
-      "pleaseSignBeforeProceed": "Please sign before proceed"
+      "pleaseSignBeforeProceed": "Please sign before proceed",
+      "charactersExceed": "Text exceeds character limit (255).",
+      "endDateThanStartDate": "End date must be after start date"
     },
     "label": {
       "original": "General",

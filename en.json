@@ -1647,7 +1647,8 @@
       "contractItems": "Contract Items",
       "contractItem": "Contract Item",
       "errorFetchingAllContractItems":"Error fetching all contract items.",
-      "errorFetchingContractData": "Error occured while fetching contract data"
+      "errorFetchingContractData": "Error occured while fetching contract data",
+      "selectedQtyGreater":"Selected 'Quantity' is greater than 'Quantity Available'"
     }
   },
   "contractMaintenance": {
@@ -10244,9 +10245,11 @@
       "invalidUsernameFormat": "Invalid Username Format",
       "invalidYearFormat": "Invalid Year Format",
       "onlyAlphabetsAllowed": "Only alphabets allowed",
+      "required": "Required",
       "requiredField": "Required Field",
       "pleaseSignBeforeProceed": "Please sign before proceed",
-      "charactersExceed": "Text exceeds character limit (255)."
+      "charactersExceed": "Text exceeds character limit (255).",
+      "endDateThanStartDate": "End date must be after start date"
     },
     "tabs": {
       "details": "Details",

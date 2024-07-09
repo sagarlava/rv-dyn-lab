@@ -1499,6 +1499,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "contractItemNo": {
+        "original": "Contract Item No.",
+        "singular": "Contract Item No.",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -1518,7 +1525,15 @@
         "setupVisible": true
       }
     },
-    "messages": {}
+    "messages": {
+      "pleaseSelectAccessoryName": "Please select an Accessory Name",
+      "selectCustomerFirst": "Select customer first",
+      "contractItems": "Contract Items",
+      "contractItem": "Contract Item",
+      "errorFetchingAllContractItems":"Error fetching all contract items.",
+      "errorFetchingContractData": "Error occured while fetching contract data",
+      "selectedQtyGreater":"Selected 'Quantity' is greater than 'Quantity Available'"
+    }
   },
   "checklist": {
     "setupVisible": true,
@@ -9173,7 +9188,11 @@
       "invalidUsernameFormat": "Format Nama Pengguna Tak Sah",
       "invalidYearFormat": "Format Tahunan Tak Sah",
       "onlyAlphabetsAllowed": "Hanya Abjad Dibenarkan",
-      "requiredField": "Medan Diperlukan"
+      "required": "Required",
+      "requiredField": "Medan Diperlukan",
+      "pleaseSignBeforeProceed": "Please sign before proceed",
+      "charactersExceed": "Text exceeds character limit (255).",
+      "endDateThanStartDate": "End date must be after start date"
     }
   },
   "setup": {

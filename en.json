@@ -8796,6 +8796,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "select":{
+        "original": "SELECT",
+        "singular": "SELECT",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "search": {
         "original": "Search",
         "singular": "Search",

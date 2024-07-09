@@ -153,13 +153,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "geofence": {
-        "original": "Geobatas",
-        "singular": "Geobatas",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "description": {
         "original": "Deskripsi",
         "singular": "Deskripsi",
@@ -1114,6 +1107,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "endTime": {
+        "original": "End Time",
+        "singular": "End Time",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "maintenanceTemplate": {
         "original": "Templat Penyelenggaraan",
         "singular": "Templat Penyelenggaraan",
@@ -1359,6 +1359,13 @@
       "preventativeMaintenanceNo": {
         "original": "No. Penyelenggaraan Pencegahan",
         "singular": "No. Penyelenggaraan Pencegahan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "frequencyName": {
+        "original": "Frequency Name",
+        "singular": "Frequency Name",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1786,13 +1793,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "serviceZone": {
-        "original": "Zon Perkhidmatan",
-        "singular": "Zon Perkhidmatan",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "status": {
         "original": "Status",
         "singular": "Status",
@@ -2061,6 +2061,13 @@
       "productType": {
         "original": "Jenis Produk",
         "singular": "Jenis Produk",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "productNo": {
+        "original": "Product No.",
+        "singular": "Product No.",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3321,13 +3328,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "geofence": {
-        "original": "Pagar Geofence",
-        "singular": "Pagar Geofence",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "siteName": {
         "original": "Nama Tapak ",
         "singular": "Nama Tapak ",
@@ -3629,13 +3629,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "geofence": {
-        "original": "Pagar Geofence",
-        "singular": "Pagar Geofence",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "endDate": {
         "original": "Tarikh Tamat",
         "singular": "Tarikh Tamat",
@@ -3723,6 +3716,13 @@
       "startDate": {
         "original": "Tarikh Mula",
         "singular": "Tarikh Mula",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }, 
+      "paymentTerm": {
+        "original": "Payment Term",
+        "singular": "Payment Term",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6605,7 +6605,8 @@
       "newTaskForSelectedDateTime": "A new task will be created under this Job Order for the selected date and time",
       "noJobOrderCustomerContact": "No contact found for the Job Order's Customer",
       "noJobOrderContact": "No contact found for the Job Order",
-      "noSlaStepDefined": "Belum ada langkah SLA"
+      "noSlaStepDefined": "Belum ada langkah SLA",
+      "createJobOrder":"Create Job Order"
     }
   },
   "inventory": {
@@ -6966,23 +6967,26 @@
         "setupVisible": true
       }
     },
-    "validationFE": {},
-    "validationBE": {
-      "requiredField": "Required Field",
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format"
-    },
-    "messages": {
-      "selectLocation": "Select Location",
-      "selectZone": "Select Zone",
-      "selectBin": "Select Bin",
-      "selectUserBin": "Select User Bin",
-      "searchProduct": "Search Product",
-      "searchAsset": "Search Asset",
-      "selectType": "Select Type",
-      "selectFamily": "Select Family",
-      "pleaseSelectOneFilter": "Please select at least one filter"
-    }
+    "validationFE": {
+      "pleaseSelectOne":"Please select one product or one asset"
+  },
+  "validationBE": {
+    "requiredField": "Required Field",
+    "invalidPhoneNumber": "Invalid Phone Number",
+    "invalidEmailFormat": "Invalid Email Format"
+  },
+  "messages": {
+    "selectLocation": "Select Location",
+    "selectZone": "Select Zone",
+    "selectBin": "Select Bin",
+    "selectUserBin": "Select User Bin",
+    "searchProduct": "Search Product",
+    "searchAsset": "Search Asset",
+    "selectType": "Select Type",
+    "selectFamily": "Select Family",
+    "pleaseSelectOneFilter": "Please select at least one filter",
+    "availableOtherLocations":"available in other locations"
+  }
   },
   "binTransfer": {
     "setupVisible": true,
@@ -7917,7 +7921,11 @@
         "original": "Either Phone OR Email is required to create a contact"
       }
     },
-    "validationFE": {}
+    "validationFE": {},
+    "messages":{
+      "searchContact": "Search Contact",
+      "noContactsFound": "No contacts found"
+    }
   },
   "helpdesk": {
     "setupVisible": false,
@@ -8021,6 +8029,13 @@
         "original": "Recently Updated Tickets",
         "singular": "Recently Updated Ticket",
         "plural": "Recently Updated Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "selectAssignee": {
+        "original": "Select Assignee",
+        "singular": "Select Assignee",
+        "plural": "Select Assignee",
         "setupEdit": true,
         "setupVisible": false
       }
@@ -8385,6 +8400,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "undo": {
+        "original": "Undo",
+        "singular": "Undo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "transferByProducts": {
         "original": "Transfer by Products",
         "singular": "Transfer by Products",
@@ -8412,6 +8434,13 @@
         "plural": "Users",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "apply": {
+        "original": "Apply",
+        "singular": "Apply",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       },
       "action": {
         "original": "Action",
@@ -9363,6 +9392,7 @@
       "step4": "Step 4",
       "step5": "Step 5",
       "sentSuccessfully": "sent successfully",
+      "removedSuccessfully": "removed successfully",
       "savedSuccessfully": "saved successfully",
       "updatedSuccessfully": "updated successfully",
       "updateNotSuccesful": "Update not successful",
@@ -9396,6 +9426,7 @@
       "notAvailable": "N/A",
       "comingSoon": "Coming Soon",
       "details": "Details",
+      "filterBy":"Filter By",
       "information": "Information",
       "selectOneOrMoreOptions": "Please select one or more options to complete",
       "pleaseSelMandFormsIn": "Please fill up the mandatory form(s) in",
@@ -9426,7 +9457,23 @@
       "selectLocationBinFromList": "Select a Location Bin from the list",
       "selectUserFromList": "Select a User from the list",
       "selectCustomer": "Select a Customer",
-      "selectBinLocation": "Select a Bin Location"
+      "selectBinLocation": "Select a Bin Location",
+      "noJobOrderFound": "No Job Order found",
+      "noSalesOrdersFound": "No Sales Orders found",
+      "noProductsFound": "No Products found",
+      "noHistoriesToDisplay": "No Histories to display",
+      "noProductsToDisplay": "No Products to display",
+      "noStatusToDisplay": "No Status to display",
+      "selected":"selected",
+      "noRecordsToDisplay": "No records to display",
+      "addNewItems": "Add New Items",
+      "noMembersToDisplay" : "No members to display",
+      "noPositionToDisplay" : "No position to display",
+      "seeAllResults":"See All Results",
+      "seeAllRecords":"See All Records",
+      "thereAreNoItemsToDisplay": "There are no items to display",
+      "noLabelFieldFound": "No Label Field found",
+      "searchHere":"Search here"
     },
     "location": {
       "endDateExceeds": "End date should not exceed start date",
@@ -9555,101 +9602,6 @@
       "messages": {
         "endDateExceeds": "End date should not exceed start date",
         "proceedAnyway": "Proceed anyway"
-      }
-    },
-    "serviceZone": {
-      "setupVisible": true,
-      "label": {
-        "original": "Zon Perkhidmatan",
-        "singular": "Zon Perkhidmatan",
-        "plural": "Service Zones",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sections": {
-        "setupVisible": true,
-        "sec0": {
-          "original": "Service Zone Details",
-          "singular": "Service Zone Details",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        }
-      },
-      "fields": {
-        "setupVisible": true,
-        "code": {
-          "original": "Code",
-          "singular": "Code",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "default": {
-          "original": "Default",
-          "singular": "Default",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "description": {
-          "original": "Deskripsi",
-          "singular": "Deskripsi",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "fieldLabel": {
-          "original": "Field Label",
-          "singular": "Field Label",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "label": {
-          "original": "Label",
-          "singular": "Label",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "order": {
-          "original": "Order",
-          "singular": "Order",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "status": {
-          "original": "Status",
-          "singular": "Status",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "picklist": {
-          "original": "Picklist",
-          "singular": "Picklist",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        }
-      },
-      "validationFE": {},
-      "validationBE": {
-        "requiredField": "Required Field",
-        "invalidPhoneNumber": "Invalid Phone Number",
-        "invalidEmailFormat": "Invalid Email Format"
-      },
-      "tooltips": {
-        "setupVisible": true,
-        "serviceZone": {
-          "original": "Your service zones",
-          "singular": "Your service zones",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        }
       }
     },
     "systemInformation": {
@@ -10995,13 +10947,6 @@
             "setupEdit": true,
             "setupVisible": true
           },
-          "geofence": {
-            "original": "Pagar Geofence",
-            "singular": "Pagar Geofence",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-          },
           "requireTeamMembersAcceptDecl": {
             "original": "Memerlukan ahli pasukan untuk menerima/menolak tugasan?",
             "singular": "Memerlukan ahli pasukan untuk menerima/menolak tugasan?",
@@ -11309,13 +11254,6 @@
           "employeeNumber": {
             "original": "Employee Number",
             "singular": "Employee Number",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-          },
-          "geofence": {
-            "original": "Pagar Geofence",
-            "singular": "Pagar Geofence",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -12052,6 +11990,20 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
+            },
+            "sec1": {
+              "original": "Available Statuses for this Type",
+              "singular": "Available Statuses for this Type",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec2": {
+              "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+              "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
             }
           },
           "fields": {
@@ -12101,7 +12053,11 @@
           },
           "messages":{
             "describeType": "Describe the types of",
-            "youReceive": "you receive"
+            "youReceive": "you receive",
+            "availableStatus":"Available Statuses for this Type",
+            "specifyStatusJobOrder":"Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+            "notForThisJobType":"Not for this Job Order Type",
+            "forThisJobType":"For this Job Order Type"
           }
         },
         "status": {
@@ -12227,13 +12183,23 @@
               "singular": "Default",
               "plural": "",
               "setupEdit": true,
-              "setupVisible": true
+              "setupVisible": false
+            },
+            "possibleStatus": {
+              "original": "The different channels your",
+              "singular": "The different channels your",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "comeThrough": {
+              "original": "come through",
+              "singular": "come through",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
             }
-          },
-          "messages":{
-            "differentChannels": "The different channels your",
-            "comeThrough":  "come through"
-          }  
+          }
         },
         "area": {
           "setupVisible": false,
@@ -12397,6 +12363,13 @@
             "order": {
               "original": "Order",
               "singular": "Order",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "category": {
+              "original": "Category",
+              "singular": "Category",
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
@@ -12586,9 +12559,9 @@
         "resolution": {
           "setupVisible": false,
           "label": {
-            "original": "Priority",
-            "singular": "Priority",
-            "plural": "Priorities",
+            "original": "Resolution",
+            "singular": "Resolution",
+            "plural": "Resolutions",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -12618,6 +12591,20 @@
               "setupEdit": true,
               "setupVisible": false
             },
+            "label": {
+              "original": "Label",
+              "singular": "Label",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
             "order": {
               "original": "Order",
               "singular": "Order",
@@ -12639,6 +12626,201 @@
               "setupEdit": true,
               "setupVisible": false
             }
+          }
+        },
+        "system": {
+          "setupVisible": false,
+          "label": {
+            "original": "System",
+            "singular": "System",
+            "plural": "Systems",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "System",
+              "singular": "System",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec1": {
+              "original": "System Details",
+              "singular": "System Details",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "label": {
+                "original": "Label",
+                "singular": "Label",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Order",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Default",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+          }
+        },
+        "family": {
+          "setupVisible": false,
+          "label": {
+            "original": "Family",
+            "singular": "Family",
+            "plural": "Family",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "Family Details",
+              "singular": "Family Details",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+            "label": {
+                "original": "Label",
+                "singular": "Label",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Order",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Default",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+          }
+        },
+        "unitMeasurement": {
+          "setupVisible": false,
+          "label": {
+            "original": "Unit of Measurement",
+            "singular": "Unit of Measurement",
+            "plural": "Unit of Measurement",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "Unit Details",
+              "singular": "Unit Details",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+            "label": {
+                "original": "Label",
+                "singular": "Label",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Order",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Default",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
           }
         },
         "validationFE": {},
@@ -13607,6 +13789,101 @@
         "messages": {
           "partUpdatedSuccessfully": "Part updated successfully"
         }
+      },
+      "serviceZone": {
+        "setupVisible": true,
+        "label": {
+          "original": "Zon Perkhidmatan",
+          "singular": "Zon Perkhidmatan",
+          "plural": "Service Zones",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sections": {
+          "setupVisible": true,
+          "sec0": {
+            "original": "Service Zone Details",
+            "singular": "Service Zone Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        },
+        "fields": {
+          "setupVisible": true,
+          "code": {
+            "original": "Code",
+            "singular": "Code",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Default",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "description": {
+            "original": "Deskripsi",
+            "singular": "Deskripsi",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "fieldLabel": {
+            "original": "Field Label",
+            "singular": "Field Label",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "label": {
+            "original": "Label",
+            "singular": "Label",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "order": {
+            "original": "Order",
+            "singular": "Order",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "picklist": {
+            "original": "Picklist",
+            "singular": "Picklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        },
+        "validationFE": {},
+        "validationBE": {
+          "requiredField": "Required Field",
+          "invalidPhoneNumber": "Invalid Phone Number",
+          "invalidEmailFormat": "Invalid Email Format"
+        },
+        "tooltips": {
+          "setupVisible": true,
+          "serviceZone": {
+            "original": "Your service zones",
+            "singular": "Your service zones",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        }
       }
     },
     "checklist": {
@@ -13801,13 +14078,6 @@
         "assetType": {
           "original": "Jenis Aset",
           "singular": "Jenis Aset",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "serviceZone": {
-          "original": "Zon Perkhidmatan",
-          "singular": "Zon Perkhidmatan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -15493,6 +15763,15 @@
       "plural": "Mesej",
       "setupEdit": true,
       "setupVisible": true
+    },
+    "messages":{
+      "recents":"Recents",
+      "searchUser":"Search User",
+      "noMessageToDisplay":"No Message to Display",
+      "typeYourMessageHere":"Type your message here"
+      
+
+
     }
   },
   "myBin": {
@@ -15528,7 +15807,11 @@
       "setupVisible": true
     },
     "messages": {
-      "typeYourNoteHere": "Type your note here"
+      "typeYourNoteHere": "Type your note here",
+      "searchNotes": "Search Notes",
+      "whenYourHeartSpeaks":"When your heart speaks, take good notes",
+      "deleteNote":"Delete Note",
+      "noteDetails":"Note Details"
     }
   },
   "report": {
@@ -15610,6 +15893,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec7": {
+        "original": "Leave Details",
+        "singular": "Leave Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -15663,10 +15953,31 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "managerComments": {
+        "original": "Manager Comments",
+        "singular": "Manager Comments",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "rejectReason": {
         "original": "Sebab Penolakan",
         "singular": "Sebab Penolakan",
         "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "User",
+        "plural": "Users",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "Name",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -15688,7 +15999,15 @@
     "messages": {
       "selectOutturnCode": "Select Outturn Code",
       "selectApprovalStatus": "Select Approval Status",
-      "selectUsers": "Select User(s)"
+      "selectUsers": "Select User(s)",
+      "confirmLeaveAcceptance":"Confirm Leave Acceptance", 
+      "confirmLeaveDecline":"Confirm Leave Decline",
+      "confirmLeaveAction":"Are your sure want to accept this leave?",
+      "confirmLeaveRejectAction":"Are your sure want to reject this leave?",
+      "viewLeave":"View Leave",
+      "leaveApprovedSuccessfully":"Leave approved successfully",
+      "leaveRejectedSuccessfully":"Leave rejected successfully",
+      "editLeave":"Edit Leave"
     }
   },
   "login": {

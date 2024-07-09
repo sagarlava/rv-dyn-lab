@@ -69,6 +69,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "categoryType": {
+        "original": "Category Type",
+        "singular": "Category Type",
+        "plural": "Category Types",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "sector": {
         "original": "Sector",
         "singular": "Sector",
@@ -149,13 +156,6 @@
       "paymentTerm": {
         "original": "Payment Term",
         "singular": "Payment Term",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "geofence": {
-        "original": "Geofence",
-        "singular": "Geofence",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -772,6 +772,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },   
+      "allAsset": {
+        "original": "All Assets",
+        "singular": "All Asset",
+        "plural": "All Assets",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetsByCustomer": {
+        "original": "Assets by Customer",
+        "singular": "Assets by Customer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -1108,6 +1122,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "endTime": {
+        "original": "End Time",
+        "singular": "End Time",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "assetStatus": {
         "original": "Asset Status",
         "singular": "Asset Status",
@@ -1252,8 +1273,8 @@
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "Preventative Maintenance Details",
-        "singular": "Preventative Maintenance Details",
+        "original": "Preventive Maintenance Details",
+        "singular": "Preventive Maintenance Details",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1362,6 +1383,13 @@
       "preventativeMaintenanceNo": {
         "original": "Preventative Maintenance No",
         "singular": "Preventative Maintenance No",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "frequencyName": {
+        "original": "Frequency Name",
+        "singular": "Frequency Name",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1960,13 +1988,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "serviceZone": {
-        "original": "Service Zone",
-        "singular": "Service Zone",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "status": {
         "original": "Status",
         "singular": "Status",
@@ -2267,6 +2288,13 @@
       "productType": {
         "original": "Product Type",
         "singular": "Product Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "productNo": {
+        "original": "Product No.",
+        "singular": "Product No.",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3560,13 +3588,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "geofence": {
-        "original": "Geofence",
-        "singular": "Geofence",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "siteName": {
         "original": "Site Name",
         "singular": "Site Name",
@@ -3884,13 +3905,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "geofence": {
-        "original": "Geofence",
-        "singular": "Geofence",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "endDate": {
         "original": "End Date",
         "singular": "End Date",
@@ -3978,6 +3992,13 @@
       "startDate": {
         "original": "Start Date",
         "singular": "Start Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }, 
+      "paymentTerm": {
+        "original": "Payment Term",
+        "singular": "Payment Term",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6862,7 +6883,8 @@
       "newTaskForSelectedDateTime": "A new task will be created under this Job Order for the selected date and time",
       "noJobOrderCustomerContact": "No contact found for the Job Order's Customer",
       "noJobOrderContact": "No contact found for the Job Order",
-      "noSlaStepDefined": "No SLA step yet"
+      "noSlaStepDefined": "No SLA step yet",
+      "createJobOrder":"Create Job Order"
 
     }
   },
@@ -7226,7 +7248,9 @@
       }
      
     },
-    "validationFE": {},
+    "validationFE": {
+        "pleaseSelectOne":"Please select one product or one asset"
+    },
     "validationBE": {
       "requiredField": "Required Field",
       "invalidPhoneNumber": "Invalid Phone Number",
@@ -7241,7 +7265,8 @@
       "searchAsset": "Search Asset",
       "selectType": "Select Type",
       "selectFamily": "Select Family",
-      "pleaseSelectOneFilter": "Please select at least one filter"
+      "pleaseSelectOneFilter": "Please select at least one filter",
+      "availableOtherLocations":"available in other locations"
     }
   },
   "bin": {
@@ -8364,6 +8389,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "recipientEmail": {
+        "original": "Recipient CC Email",
+        "singular": "Recipient CC Email",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "sections": {
@@ -8409,9 +8441,9 @@
   "helpdesk": {
     "setupVisible": false,
     "label": {
-      "original": "Menu",
-      "singular": "Menu",
-      "plural": "Menus",
+      "original": "Helpdesk",
+      "singular": "Helpdesk",
+      "plural": "Helpdesks",
       "setupEdit": true,
       "setupVisible": false
     },
@@ -8442,6 +8474,13 @@
         "original": "All Tickets",
         "singular": "All Ticket",
         "plural": "All Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Select Assignee",
+        "singular": "Select Assignee",
+        "plural": "Select Assignee",
         "setupEdit": true,
         "setupVisible": false
       }
@@ -8483,6 +8522,34 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "all": {
+        "original": "All",
+        "singular": "All",
+        "plural": "All",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "openProgressTickets": {
+        "original": "Open & In Progress",
+        "singular": "Open & In Progress",
+        "plural": "Open & In Progress",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "unresolved": {
+        "original": "Unresolved",
+        "singular": "Unresolved",
+        "plural": "Unresolved",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "highPriority": {
+        "original": "High Priority",
+        "singular": "High Priority",
+        "plural": "High Priority",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "dueToday": {
         "original": "Due Today",
         "singular": "Due Today",
@@ -8508,6 +8575,13 @@
         "original": "Recently Updated Tickets",
         "singular": "Recently Updated Ticket",
         "plural": "Recently Updated Tickets",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "selectAssignee": {
+        "original": "Select Assignee",
+        "singular": "Select Assignee",
+        "plural": "Select Assignee",
         "setupEdit": true,
         "setupVisible": false
       }
@@ -8907,6 +8981,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "undo": {
+        "original": "Undo",
+        "singular": "Undo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "transferByProducts": {
         "original": "Transfer by Products",
         "singular": "Transfer by Products",
@@ -9218,6 +9299,13 @@
       "uploadFile": {
         "original": "Upload File",
         "singular": "Upload File",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "seeAll": {
+        "original": "See All",
+        "singular": "See All",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -9885,6 +9973,7 @@
       "none": "None",
       "records": "Records",
       "details":"Details",
+      "filterBy":"Filter By",
       "information": "Information",
       "noViewAccess": "You do not have access to view this record",
       "dragAndDropFileToUpload": "Drag and drop file to upload",
@@ -9907,6 +9996,7 @@
       "step4": "Step 4",
       "step5": "Step 5",
       "sentSuccessfully": "sent successfully",
+      "removedSuccessfully": "removed successfully",
       "deletedSuccessfully": "deleted successfully",
       "savedSuccessfully": "saved successfully",
       "updatedSuccessfully": "updated successfully",
@@ -9972,10 +10062,13 @@
       "noHistoriesToDisplay": "No Histories to display",
       "noProductsToDisplay": "No Products to display",
       "noStatusToDisplay": "No Status to display",
+      "selected":"selected",
       "noRecordsToDisplay": "No records to display",
       "addNewItems": "Add New Items",
       "noMembersToDisplay" : "No members to display",
       "noPositionToDisplay" : "No position to display",
+      "seeAllResults":"See All Results",
+      "seeAllRecords":"See All Records",
       "thereAreNoItemsToDisplay": "There are no items to display",
       "noLabelFieldFound": "No Label Field found",
       "searchHere": "Search here",
@@ -10126,101 +10219,6 @@
         "descriptionFieldNotFound":"Description field not found"
       }
     },
-    "serviceZone": {
-      "setupVisible": false,
-      "label": {
-        "original": "Service Zone",
-        "singular": "Service Zone",
-        "plural": "Service Zones",
-        "setupEdit": true,
-        "setupVisible": false
-      },
-      "sections": {
-        "setupVisible": false,
-        "sec0": {
-          "original": "Service Zone Details",
-          "singular": "Service Zone Details",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        }
-      },
-      "fields": {
-        "setupVisible": false,
-        "code": {
-          "original": "Code",
-          "singular": "Code",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "default": {
-          "original": "Default",
-          "singular": "Default",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "description": {
-          "original": "Description",
-          "singular": "Description",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "fieldLabel": {
-          "original": "Field Label",
-          "singular": "Field Label",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "label": {
-          "original": "Label",
-          "singular": "Label",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "order": {
-          "original": "Order",
-          "singular": "Order",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "status": {
-          "original": "Status",
-          "singular": "Status",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "picklist": {
-          "original": "Picklist",
-          "singular": "Picklist",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        }
-      },
-      "validationFE": {},
-      "validationBE": {
-        "requiredField": "Required Field",
-        "invalidPhoneNumber": "Invalid Phone Number",
-        "invalidEmailFormat": "Invalid Email Format"
-      },
-      "tooltips": {
-        "setupVisible": false,
-        "serviceZone": {
-          "original": "Your service zones",
-          "singular": "Your service zones",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        }
-      }
-    },
     "systemInformation": {
       "setupVisible": false,
       "label": {
@@ -10280,7 +10278,8 @@
       "invalidYearFormat": "Invalid Year Format",
       "onlyAlphabetsAllowed": "Only alphabets allowed",
       "requiredField": "Required Field",
-      "pleaseSignBeforeProceed": "Please sign before proceed"
+      "pleaseSignBeforeProceed": "Please sign before proceed",
+      "charactersExceed": "Text exceeds character limit (255)."
     },
     "tabs": {
       "details": "Details",
@@ -11565,13 +11564,6 @@
             "setupEdit": true,
             "setupVisible": false
           },
-          "geofence": {
-            "original": "Geofence",
-            "singular": "Geofence",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
           "requireTeamMembersAcceptDecl": {
             "original": "Require team members to accept/decline tasks?",
             "singular": "Require team members to accept/decline tasks?",
@@ -11879,13 +11871,6 @@
           "employeeNumber": {
             "original": "Employee Number",
             "singular": "Employee Number",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "geofence": {
-            "original": "Geofence",
-            "singular": "Geofence",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -12624,6 +12609,20 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
+            },
+            "sec1": {
+              "original": "Available Statuses for this Type",
+              "singular": "Available Statuses for this Type",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec2": {
+              "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+              "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
             }
           },
           "fields": {
@@ -12673,7 +12672,11 @@
           },
           "messages":{
             "describeType": "Describe the types of",
-            "youReceive": "you receive"
+            "youReceive": "you receive",
+            "availableStatus":"Available Statuses for this Type",
+            "specifyStatusJobOrder":"Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+            "notForThisJobType":"Not for this Job Order Type",
+            "forThisJobType":"For this Job Order Type"
           }
         },
         "status": {
@@ -12983,6 +12986,13 @@
               "setupEdit": true,
               "setupVisible": false
             },
+            "category": {
+              "original": "Category",
+              "singular": "Category",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
             "status": {
               "original": "Status",
               "singular": "Status",
@@ -13168,9 +13178,9 @@
         "resolution": {
           "setupVisible": false,
           "label": {
-            "original": "Priority",
-            "singular": "Priority",
-            "plural": "Priorities",
+            "original": "Resolution",
+            "singular": "Resolution",
+            "plural": "Resolutions",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -13200,6 +13210,20 @@
               "setupEdit": true,
               "setupVisible": false
             },
+            "label": {
+              "original": "Label",
+              "singular": "Label",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
             "order": {
               "original": "Order",
               "singular": "Order",
@@ -13221,6 +13245,201 @@
               "setupEdit": true,
               "setupVisible": false
             }
+          }
+        },
+        "system": {
+          "setupVisible": false,
+          "label": {
+            "original": "System",
+            "singular": "System",
+            "plural": "Systems",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "System",
+              "singular": "System",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec1": {
+              "original": "System Details",
+              "singular": "System Details",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "label": {
+                "original": "Label",
+                "singular": "Label",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Order",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Default",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+          }
+        },
+        "family": {
+          "setupVisible": false,
+          "label": {
+            "original": "Family",
+            "singular": "Family",
+            "plural": "Family",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "Family Details",
+              "singular": "Family Details",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+            "label": {
+                "original": "Label",
+                "singular": "Label",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Order",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Default",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+          }
+        },
+        "unitMeasurement": {
+          "setupVisible": false,
+          "label": {
+            "original": "Unit of Measurement",
+            "singular": "Unit of Measurement",
+            "plural": "Unit of Measurement",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "Unit Details",
+              "singular": "Unit Details",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "name": {
+                "original": "Name",
+                "singular": "Name",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+            "label": {
+                "original": "Label",
+                "singular": "Label",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Order",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "code": {
+                "original": "Code",
+                "singular": "Code",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Default",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
           }
         },
         "validationFE": {},
@@ -13377,6 +13596,9 @@
               "setupEdit": true,
               "setupVisible": false
             }
+          },
+          "validationFE":{
+            "pleaseSelectOne":"Please select one product or one asset"
           }
         },
         "zones": {
@@ -14189,6 +14411,101 @@
         "messages": {
           "partUpdatedSuccessfully": "Part updated successfully"
         }
+      },
+      "serviceZone": {
+        "setupVisible": false,
+        "label": {
+          "original": "Service Zone",
+          "singular": "Service Zone",
+          "plural": "Service Zones",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Service Zone Details",
+            "singular": "Service Zone Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupVisible": false,
+          "code": {
+            "original": "Code",
+            "singular": "Code",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Default",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Description",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "fieldLabel": {
+            "original": "Field Label",
+            "singular": "Field Label",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "label": {
+            "original": "Label",
+            "singular": "Label",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "order": {
+            "original": "Order",
+            "singular": "Order",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "picklist": {
+            "original": "Picklist",
+            "singular": "Picklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "validationFE": {},
+        "validationBE": {
+          "requiredField": "Required Field",
+          "invalidPhoneNumber": "Invalid Phone Number",
+          "invalidEmailFormat": "Invalid Email Format"
+        },
+        "tooltips": {
+          "setupVisible": false,
+          "serviceZone": {
+            "original": "Your service zones",
+            "singular": "Your service zones",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        }
       }
     },
     "checklist": {
@@ -14397,13 +14714,6 @@
         "assetType": {
           "original": "Asset Type",
           "singular": "Asset Type",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "serviceZone": {
-          "original": "Service Zone",
-          "singular": "Service Zone",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -14767,6 +15077,13 @@
     },
     "sla": {
       "setupVisible": false,
+      "label":{
+        "original": "SLA",
+        "singular": "SLA",
+        "plural": "SLA",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "packages": {
         "setupVisible": false,
         "label": {
@@ -16399,6 +16716,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec7": {
+        "original": "Leave Details",
+        "singular": "Leave Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -16448,6 +16772,13 @@
       "to": {
         "original": "To",
         "singular": "To",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "managerComments": {
+        "original": "Manager Comments",
+        "singular": "Manager Comments",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

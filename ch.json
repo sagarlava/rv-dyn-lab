@@ -619,6 +619,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Transferred By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "assetId": {
         "original": "资产ID",
         "singular": "资产ID",
@@ -688,6 +695,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "allAsset": {
+        "original": "All Assets",
+        "singular": "All Asset",
+        "plural": "All Assets",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetsByCustomer": {
+        "original": "Assets by Customer",
+        "singular": "Assets by Customer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "day": {
+        "original": "day",
+        "singular": "day",
+        "plural": "days",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -742,7 +770,10 @@
       "errorFetchingAssetDetails": "Error fetching asset details",
       "noAssetsFound": "No Assets Found",
       "noScheduledMaintenance":"No Scheduled Maintenance",
-      "noPriorMaintenance":"No Prior Maintenances"
+      "noPriorMaintenance":"No Prior Maintenances",
+      "noUpcomingJobs":"No Upcoming Jobs",
+      "previously":"Previously",
+      "from":"From"
     }
   }, 
   "assetLog": {
@@ -8379,6 +8410,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "claim": {
+        "original": "Claim",
+        "singular": "Claim",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       },
       "setup": {
         "original": "Setup",

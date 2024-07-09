@@ -668,6 +668,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Transferred By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "assetId": {
         "original": "Asset ID",
         "singular": "Asset ID",
@@ -786,6 +793,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "day": {
+        "original": "day",
+        "singular": "day",
+        "plural": "days",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -840,7 +854,10 @@
       "errorFetchingAssetDetails": "Error fetching asset details",
       "noAssetsFound": "No Assets Found",
       "noScheduledMaintenance":"No Scheduled Maintenance",
-      "noPriorMaintenance":"No Prior Maintenances"
+      "noPriorMaintenance":"No Prior Maintenances",
+      "noUpcomingJobs":"No Upcoming Jobs",
+      "previously":"Previously",
+      "from":"From"
     }
   },
   "assetLog": {
@@ -9102,6 +9119,13 @@
       "clone": {
         "original": "Clone",
         "singular": "Clone",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "claim": {
+        "original": "Claim",
+        "singular": "Claim",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

@@ -2588,6 +2588,55 @@
         "plural": "Filter By",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec14": {
+        "original": "Accept/Decline",
+        "singular": "Accept/Decline",
+        "plural": "Accept/Decline",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec15": {
+        "original": "Check Availability",
+        "singular": "Check Availability",
+        "plural": "Check Availability",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Clone Task",
+        "singular": "Clone Task",
+        "plural": "Clone Tasks",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "View Task Journey",
+        "singular": "View Task Journey",
+        "plural": "View Task Journey",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec18": {
+        "original": "Journey Performed",
+        "singular": "Journey Performed",
+        "plural": "Journey Performed",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec19": {
+        "original": "Select Start and End Location",
+        "singular": "Select Start and End Location",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec20": {
+        "original": "Calculate Duration & Distance",
+        "singular": "Calculate Duration & Distance",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -3410,6 +3459,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "serviceChecklist": {
+        "original": "Service Checklist",
+        "singular": "Service Checklist",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "office": {
+        "original": "Office",
+        "singular": "Office",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "home": {
+        "original": "Home",
+        "singular": "Home",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -3512,6 +3589,7 @@
       "taskOverDue": "Task Overdue",
       "selectAtLeastOneTeam": "Select at least one team",
       "checkInSuccessfully": "Checked in successfully",
+      "checkOutSuccessfully": "Checked out successfully",
       "acceptTaskBeforeCheckIn": "Please accept the task before trying to check in",
       "taskOwnerChangedSuccessfully": "Task owner changed successfully",
       "userRemovedFromTask": "User removed from task successfully",
@@ -3535,7 +3613,11 @@
       "mytasks":"My Tasks",
       "tasksToAcceptDecline ":"Tasks to Accept/Decline",
       "noTasksFound" : "No Tasks found",
-      "deleteTask": "Delete Task"
+      "deleteTask": "Delete Task",
+      "areYouSure":"Are you sure you want to ",
+      "thisTask":"this task?",
+      "reasonOptional":"Reason (Optional)",
+      "markAsComplete":"Would you like to mark this task as complete?"
     }
   },
   "site": {
@@ -9095,6 +9177,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "saveChanges": {
+        "original": "Save Changes",
+        "singular": "Save Changes",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "undo": {
         "original": "Undo",
         "singular": "Undo",
@@ -9889,6 +9978,20 @@
       "openInNewTab": {
         "original": "Open in New Tab",
         "singular": "Open in New Tab",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "tableView": {
+        "original": "Table View",
+        "singular": "Table View",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "mapView": {
+        "original": "Map View",
+        "singular": "Map View",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

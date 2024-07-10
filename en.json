@@ -2637,6 +2637,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec21": {
+        "original": "Exit Map",
+        "singular": "Exit Map",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec22": {
+        "original": "There are no users matching your search criteria!",
+        "singular": "There are no users matching your search criteria!",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec23": {
+        "original": "Select User",
+        "singular": "Select User",
+        "plural": "Select Users",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -3617,7 +3638,8 @@
       "areYouSure":"Are you sure you want to ",
       "thisTask":"this task?",
       "reasonOptional":"Reason (Optional)",
-      "markAsComplete":"Would you like to mark this task as complete?"
+      "markAsComplete":"Would you like to mark this task as complete?",
+      "noUsersInCriteria":"There are no users matching your search criteria!"
     }
   },
   "site": {
@@ -9992,6 +10014,20 @@
       "mapView": {
         "original": "Map View",
         "singular": "Map View",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "calculate": {
+        "original": "Calculate",
+        "singular": "Calculate",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "savePlan": {
+        "original": "Save Plan",
+        "singular": "Save Plan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

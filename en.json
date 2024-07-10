@@ -668,6 +668,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Transferred By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "assetId": {
         "original": "Asset ID",
         "singular": "Asset ID",
@@ -786,6 +793,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "day": {
+        "original": "day",
+        "singular": "day",
+        "plural": "days",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -838,7 +852,12 @@
       "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
        "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract",
       "errorFetchingAssetDetails": "Error fetching asset details",
-      "noAssetsFound": "No Assets Found"
+      "noAssetsFound": "No Assets Found",
+      "noScheduledMaintenance":"No Scheduled Maintenance",
+      "noPriorMaintenance":"No Prior Maintenances",
+      "noUpcomingJobs":"No Upcoming Jobs",
+      "previously":"Previously",
+      "from":"From"
     }
   },
   "assetLog": {
@@ -1547,6 +1566,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec10": {
+        "original": "Cancel Contract",
+        "singular": "Cancel Contract",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec11": {
+        "original": "Contract Item Details",
+        "singular": "Contract Item Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -1715,7 +1748,9 @@
       "contractItems": "Contract Items",
       "contractItem": "Contract Item",
       "errorFetchingAllContractItems":"Error fetching all contract items.",
-      "errorFetchingContractData": "Error occured while fetching contract data"
+      "errorFetchingContractData": "Error occured while fetching contract data",
+      "selectedQtyGreater":"Selected 'Quantity' is greater than 'Quantity Available'",
+      "removeItems":"Remove items that need to be returned"
     }
   },
   "contractMaintenance": {
@@ -1861,6 +1896,13 @@
       "autoCreateJobOrder": {
         "original": "Automatically Generate Job Order",
         "singular": "Automatically Generate Job Order",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "contractMaintenanceNumber": {
+        "original": "Contract Maintenance Number",
+        "singular": "Contract Maintenance Number",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9164,6 +9206,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "claim": {
+        "original": "Claim",
+        "singular": "Claim",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "setup": {
         "original": "Setup",
         "singular": "Setup",
@@ -10379,9 +10428,11 @@
       "invalidUsernameFormat": "Invalid Username Format",
       "invalidYearFormat": "Invalid Year Format",
       "onlyAlphabetsAllowed": "Only alphabets allowed",
+      "required": "Required",
       "requiredField": "Required Field",
       "pleaseSignBeforeProceed": "Please sign before proceed",
-      "charactersExceed": "Text exceeds character limit (255)."
+      "charactersExceed": "Text exceeds character limit (255).",
+      "endDateThanStartDate": "End date must be after start date"
     },
     "tabs": {
       "details": "Details",

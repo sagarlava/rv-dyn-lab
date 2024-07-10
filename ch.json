@@ -619,6 +619,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Transferred By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "assetId": {
         "original": "资产ID",
         "singular": "资产ID",
@@ -688,6 +695,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "allAsset": {
+        "original": "All Assets",
+        "singular": "All Asset",
+        "plural": "All Assets",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetsByCustomer": {
+        "original": "Assets by Customer",
+        "singular": "Assets by Customer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "day": {
+        "original": "day",
+        "singular": "day",
+        "plural": "days",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -738,7 +766,14 @@
       "configureQrBarcodeInAssetSetup": "要设置二维码/条形码，请转到设置中的资产配置。",
       "resetMeterForLowerReading": "如果您的新电表读数小于当前读数，请选择“重置电表”。",
       "futureDateTimeEntryNotAllowed": "不能为未来的日期和时间进行条目输入。",
-      "maintenanceAppliesToAllContractAssets": "此维护将适用于本合同内的所有资产。"
+      "maintenanceAppliesToAllContractAssets": "此维护将适用于本合同内的所有资产。",
+      "errorFetchingAssetDetails": "Error fetching asset details",
+      "noAssetsFound": "No Assets Found",
+      "noScheduledMaintenance":"No Scheduled Maintenance",
+      "noPriorMaintenance":"No Prior Maintenances",
+      "noUpcomingJobs":"No Upcoming Jobs",
+      "previously":"Previously",
+      "from":"From"
     }
   }, 
   "assetLog": {
@@ -1311,6 +1346,175 @@
     },
     "messages": {}
   },
+  "contractMaintenance": {
+    "setupVisible": true,
+    "label": {
+      "original": "Contract Maintenance",
+      "singular": "Contract Maintenance",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "Maintenance Details",
+        "singular": "Maintenance Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Preventative Maintenance",
+        "singular": "Preventative Maintenances",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "Select the maintenance type to use",
+        "singular": "Select the maintenance type to use",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec4": {
+        "original": "Select when you would like to generate the next maintenance",
+        "singular": "Select when you would like to generate the next maintenance",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec5": {
+        "original": "Select minor/major maintenance frequency",
+        "singular": "Select minor/major maintenance frequency",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec6": {
+        "original": "Select to Auto-Create Job Order",
+        "singular": "Select to Auto-Create Job Order",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Start Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "endDate": {
+        "original": "End Date",
+        "singular": "End Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "generateNextMaintenance": {
+        "original": "Generate Next Maintenance",
+        "singular": "Generate Next Maintenance",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "generateAllMaintenanceNow": {
+        "original": "Generate All Maintenance Now",
+        "singular": "Generate All Maintenance Now",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "onlyUponPreviousCompletion": {
+        "original": "Only Upon Previous Completion",
+        "singular": "Only Upon Previous Completion",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "maintenancesType": {
+        "original": "Maintenances Type",
+        "singular": "Maintenances Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "minorMaintenance": {
+        "original": "Minor Maintenance",
+        "singular": "Minor Maintenance",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "majorMaintenance": {
+        "original": "Major Maintenance",
+        "singular": "Major Maintenance",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "minorMajorMaintenance": {
+        "original": "Minor / Major Maintenance Frequency",
+        "singular": "Minor / Major Maintenance Frequency",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "autoCreateJobOrder": {
+        "original": "Automatically Generate Job Order",
+        "singular": "Automatically Generate Job Order",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "contractMaintenanceNumber": {
+        "original": "Contract Maintenance Number",
+        "singular": "Contract Maintenance Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "tooltips": {
+      "setupVisible": true,
+      "preventiveMaintenance": {
+        "original": "This is the timeframe in which the maintenance will be active",
+        "singular": "This is the timeframe in which the maintenance will be active",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "messages": {
+      "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
+    }
+  },
   "contracts": {
     "setupVisible": true,
     "label": {
@@ -1367,6 +1571,20 @@
       "sec8": {
         "original": "过滤",
         "singular": "过滤",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec9": {
+        "original": "Contract Validity",
+        "singular": "Contract Validity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec10": {
+        "original": "Cancel Contract",
+        "singular": "Cancel Contract",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1499,6 +1717,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "contractItemNo": {
+        "original": "Contract Item No.",
+        "singular": "Contract Item No.",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -1518,7 +1743,16 @@
         "setupVisible": true
       }
     },
-    "messages": {}
+    "messages": {
+      "pleaseSelectAccessoryName": "Please select an Accessory Name",
+      "selectCustomerFirst": "Select customer first",
+      "contractItems": "Contract Items",
+      "contractItem": "Contract Item",
+      "errorFetchingAllContractItems":"Error fetching all contract items.",
+      "errorFetchingContractData": "Error occured while fetching contract data",
+      "selectedQtyGreater":"Selected 'Quantity' is greater than 'Quantity Available'",
+      "removeItems":"Remove items that need to be returned"
+    }
   },
   "checklist": {
     "setupVisible": true,
@@ -7749,53 +7983,54 @@
     }
   },
   "attachments": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
-      "original": "Attachment",
-      "singular": "Attachment",
-      "plural": "Attachments",
+      "original": "附件",
+      "singular": "附件",
+      "plural": "附件",
       "setupEdit": true,
-      "setupVisible": true
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
-        "original": "Preview",
-        "singular": "Preview",
+        "original": "预览",
+        "singular": "预览",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "max25Mb": {
-        "original": "Max 25MB",
-        "singular": "Max 25MB",
+        "original": "最大25MB",
+        "singular": "最大25MB",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "file": {
-        "original": "File",
-        "singular": "File",
-        "plural": "Files",
+        "original": "文件",
+        "singular": "文件",
+        "plural": "文件",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {
-      "invalidFileSize": "Invalid file size",
-      "allowedFileSize": "File size should be less than 25MB",
-      "cannotFindFile": "Cannot find filename and filetype",
-      "pdfNotAvailable": "Sorry! PDF is not available"
+      "invalidFileSize": "文件大小无效",
+      "allowedFileSize": "文件大小应小于25MB",
+      "cannotFindFile": "无法找到文件名和文件类型",
+      "pdfNotAvailable": "抱歉！PDF不可用"
     }
   },
-  "history": {
+  
+ "history": {
     "setupVisible": true,
     "label": {
-      "original": "History",
-      "singular": "History",
+      "original": "历史记录",
+      "singular": "历史记录",
       "plural": "",
       "setupEdit": true,
       "setupVisible": true
@@ -7803,64 +8038,71 @@
     "fields": {
       "setupVisible": true,
       "timeDate": {
-        "original": "Time & Date",
-        "singular": "Time & Date",
+        "original": "时间和日期",
+        "singular": "时间和日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "field": {
-        "original": "Field",
-        "singular": "Field",
-        "plural": "Fields",
+        "original": "字段",
+        "singular": "字段",
+        "plural": "字段",
         "setupEdit": true,
         "setupVisible": true
       },
       "modifiedBy": {
-        "original": "Modified By",
-        "singular": "Modified By",
+        "original": "修改者",
+        "singular": "修改者",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
-     "adjustedBy": {
-        "original": "Adjusted By",
-        "singular": "Adjusted By",
+      "adjustedBy": {
+        "original": "调整者",
+        "singular": "调整者",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newValue": {
-        "original": "New Value",
-        "singular": "New Value",
+        "original": "新值",
+        "singular": "新值",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newlyAdjustedQty": {
-        "original": "Newly Adjusted Qty",
-        "singular": "Newly Adjusted Qty",
+        "original": "新调整数量",
+        "singular": "新调整数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "oldValue": {
-        "original": "Old Value",
-        "singular": "Old Value",
+        "original": "旧值",
+        "singular": "旧值",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "newQty": {
+        "original": "新数量",
+        "singular": "新数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "oldQty": {
-        "original": "Old Qty",
-        "singular": "Old Qty",
+        "original": "旧数量",
+        "singular": "旧数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "displayName": {
-        "original": "Display Name",
-        "singular": "Display Name",
+        "original": "显示名称",
+        "singular": "显示名称",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8176,6 +8418,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "claim": {
+        "original": "Claim",
+        "singular": "Claim",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       },
       "setup": {
         "original": "Setup",
@@ -9173,7 +9422,11 @@
       "invalidUsernameFormat": "Format Nama Pengguna Tak Sah",
       "invalidYearFormat": "Format Tahunan Tak Sah",
       "onlyAlphabetsAllowed": "Hanya Abjad Dibenarkan",
-      "requiredField": "Medan Diperlukan"
+      "required": "Required",
+      "requiredField": "Medan Diperlukan",
+      "pleaseSignBeforeProceed": "Please sign before proceed",
+      "charactersExceed": "Text exceeds character limit (255).",
+      "endDateThanStartDate": "End date must be after start date"
     }
   },
   "setup": {

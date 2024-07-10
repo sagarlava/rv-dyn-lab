@@ -647,6 +647,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Transferred By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "assetId": {
         "original": "ID Aset",
         "singular": "ID Aset",
@@ -765,6 +772,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "allAsset": {
+        "original": "All Assets",
+        "singular": "All Asset",
+        "plural": "All Assets",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetsByCustomer": {
+        "original": "Assets by Customer",
+        "singular": "Assets by Customer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "day": {
+        "original": "day",
+        "singular": "day",
+        "plural": "days",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -816,7 +844,13 @@
       "resetMeterForLowerReading": "Pilih 'Set Semula Meter' jika bacaan meter baharu anda lebih kecil daripada bacaan meter semasa.",
       "futureDateTimeEntryNotAllowed": "Entri tidak boleh dibuat untuk tarikh dan masa akan datang",
       "maintenanceAppliesToAllContractAssets": "Penyelenggaraan ini akan dikenakan kepada semua Aset dalam Kontrak ini.",
-      "errorFetchingAssetDetails": "Error fetching asset details"
+      "errorFetchingAssetDetails": "Error fetching asset details",
+      "noAssetsFound": "No Assets Found",
+      "noScheduledMaintenance":"No Scheduled Maintenance",
+      "noPriorMaintenance":"No Prior Maintenances",
+      "noUpcomingJobs":"No Upcoming Jobs",
+      "previously":"Previously",
+      "from":"From"
     }
   },
   "assetLog": {
@@ -1456,6 +1490,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec10": {
+        "original": "Cancel Contract",
+        "singular": "Cancel Contract",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec11": {
+        "original": "Contract Item Details",
+        "singular": "Contract Item Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -1615,7 +1663,11 @@
       "pleaseSelectAccessoryName": "Please select an Accessory Name",
       "selectCustomerFirst": "Select customer first",
       "contractItems": "Contract Items",
-      "contractItem": "Contract Item"
+      "contractItem": "Contract Item",
+      "errorFetchingAllContractItems":"Error fetching all contract items.",
+      "errorFetchingContractData": "Error occured while fetching contract data",
+      "selectedQtyGreater":"Selected 'Quantity' is greater than 'Quantity Available'",
+      "removeItems":"Remove items that need to be returned"
     }
   },
   "checklist": {
@@ -8041,54 +8093,54 @@
       }
     }
   },
-  "attachments": {
-    "setupVisible": true,
+ "attachments": {
+    "setupVisible": false,
     "label": {
-      "original": "Attachment",
-      "singular": "Attachment",
-      "plural": "Attachments",
+      "original": "Lampiran",
+      "singular": "Lampiran",
+      "plural": "Lampiran",
       "setupEdit": true,
-      "setupVisible": true
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
-        "original": "Preview",
-        "singular": "Preview",
+        "original": "Pratonton",
+        "singular": "Pratonton",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "max25Mb": {
-        "original": "Max 25MB",
-        "singular": "Max 25MB",
+        "original": "Maks 25MB",
+        "singular": "Maks 25MB",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "file": {
-        "original": "File",
-        "singular": "File",
-        "plural": "Files",
+        "original": "Fail",
+        "singular": "Fail",
+        "plural": "Fail",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {
-      "invalidFileSize": "Invalid file size",
-      "allowedFileSize": "File size should be less than 25MB",
-      "cannotFindFile": "Cannot find filename and filetype",
-      "pdfNotAvailable": "Sorry! PDF is not available"
+      "invalidFileSize": "Saiz fail tidak sah",
+      "allowedFileSize": "Saiz fail harus kurang daripada 25MB",
+      "cannotFindFile": "Tidak dapat mencari nama fail dan jenis fail",
+      "pdfNotAvailable": "Maaf! PDF tidak tersedia"
     }
   },
   "history": {
     "setupVisible": true,
     "label": {
-      "original": "History",
-      "singular": "History",
+      "original": "Rekod Sejarah",
+      "singular": "Rekod Sejarah",
       "plural": "",
       "setupEdit": true,
       "setupVisible": true
@@ -8096,71 +8148,71 @@
     "fields": {
       "setupVisible": true,
       "timeDate": {
-        "original": "Time & Date",
-        "singular": "Time & Date",
+        "original": "Masa & Tarikh",
+        "singular": "Masa & Tarikh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "field": {
-        "original": "Field",
-        "singular": "Field",
-        "plural": "Fields",
+        "original": "Medan",
+        "singular": "Medan",
+        "plural": "Medan",
         "setupEdit": true,
         "setupVisible": true
       },
       "modifiedBy": {
-        "original": "Modified By",
-        "singular": "Modified By",
+        "original": "Diubah Oleh",
+        "singular": "Diubah Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "adjustedBy": {
-        "original": "Adjusted By",
-        "singular": "Adjusted By",
+        "original": "Dilaraskan Oleh",
+        "singular": "Dilaraskan Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newValue": {
-        "original": "New Value",
-        "singular": "New Value",
+        "original": "Nilai Baru",
+        "singular": "Nilai Baru",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newlyAdjustedQty": {
-        "original": "Newly Adjusted Qty",
-        "singular": "Newly Adjusted Qty",
+        "original": "Kuantiti Baru Dilaraskan",
+        "singular": "Kuantiti Baru Dilaraskan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "oldValue": {
-        "original": "Old Value",
-        "singular": "Old Value",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "oldQty": {
-        "original": "Old Qty",
-        "singular": "Old Qty",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "displayName": {
-        "original": "Display Name",
-        "singular": "Display Name",
+        "original": "Nilai Lama",
+        "singular": "Nilai Lama",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newQty": {
-        "original": "New Qty",
-        "singular": "New Qty",
+        "original": "Kuantiti Baru",
+        "singular": "Kuantiti Baru",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "oldQty": {
+        "original": "Kuantiti Lama",
+        "singular": "Kuantiti Lama",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "displayName": {
+        "original": "Nama Paparan",
+        "singular": "Nama Paparan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8476,6 +8528,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "claim": {
+        "original": "Claim",
+        "singular": "Claim",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       },
       "setup": {
         "original": "Setup",
@@ -9662,8 +9721,11 @@
       "invalidUsernameFormat": "Format Nama Pengguna Tak Sah",
       "invalidYearFormat": "Format Tahunan Tak Sah",
       "onlyAlphabetsAllowed": "Hanya Abjad Dibenarkan",
+      "required": "Required",
       "requiredField": "Medan Diperlukan",
-      "pleaseSignBeforeProceed": "Please sign before proceed"
+      "pleaseSignBeforeProceed": "Please sign before proceed",
+      "charactersExceed": "Text exceeds character limit (255).",
+      "endDateThanStartDate": "End date must be after start date"
     },
     "label": {
       "original": "General",
@@ -17289,6 +17351,13 @@
       "autoCreateJobOrder": {
         "original": "Automatically Generate Job Order",
         "singular": "Automatically Generate Job Order",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "contractMaintenanceNumber": {
+        "original": "Contract Maintenance Number",
+        "singular": "Contract Maintenance Number",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

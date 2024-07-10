@@ -2354,13 +2354,104 @@
         "plural": "Tapis Mengikut",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec14": {
+        "original": "Terima/Tolak",
+        "singular": "Terima/Tolak",
+        "plural": "Terima/Tolak",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec15": {
+        "original": "Periksa Ketersediaan",
+        "singular": "Periksa Ketersediaan",
+        "plural": "Periksa Ketersediaan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "Salin Tugas",
+        "singular": "Salin Tugas",
+        "plural": "Salin Tugas",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec17": {
+        "original": "Lihat Perjalanan Tugas",
+        "singular": "Lihat Perjalanan Tugas",
+        "plural": "Lihat Perjalanan Tugas",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec18": {
+        "original": "Perjalanan Dilakukan",
+        "singular": "Perjalanan Dilakukan",
+        "plural": "Perjalanan Dilakukan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec19": {
+        "original": "Pilih Lokasi Mula dan Tamat",
+        "singular": "Pilih Lokasi Mula dan Tamat",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec20": {
+        "original": "Kira Tempoh & Jarak",
+        "singular": "Kira Tempoh & Jarak",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec21": {
+        "original": "Keluar Peta",
+        "singular": "Keluar Peta",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec22": {
+        "original": "Tiada pengguna yang sepadan dengan kriteria carian anda!",
+        "singular": "Tiada pengguna yang sepadan dengan kriteria carian anda!",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec23": {
+        "original": "Pilih Pengguna",
+        "singular": "Pilih Pengguna",
+        "plural": "Pilih Pengguna",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec24": {
+        "original": "Pengguna Ditugaskan",
+        "singular": "Pengguna Ditugaskan",
+        "plural": "Pengguna Ditugaskan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec25": {
+        "original": "Borang",
+        "singular": "Borang",
+        "plural": "Borang",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec26": {
+        "original": "Aktiviti",
+        "singular": "Aktiviti",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
       "setupVisible": true,
       "acceptDeclineTask": {
-        "original": "Memerlukan ahli pasukan untuk menerima/menolak tugasan?",
-        "singular": "Memerlukan ahli pasukan untuk menerima/menolak tugasan?",
+        "original": "Perlu ahli pasukan untuk menerima/menolak tugas?",
+        "singular": "Perlu ahli pasukan untuk menerima/menolak tugas?",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2401,8 +2492,8 @@
         "setupVisible": true
       },
       "addTaskNote": {
-        "original": "Tambah Nota Tugasan",
-        "singular": "Tambah Nota Tugasan",
+        "original": "Tambah Nota Tugas",
+        "singular": "Tambah Nota Tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2415,9 +2506,9 @@
         "setupVisible": true
       },
       "allTasks": {
-        "original": "Semua Tugasan",
-        "singular": "Semua Tugasan",
-        "plural": "Semua Tugasan",
+        "original": "Semua Tugas",
+        "singular": "Semua Tugas",
+        "plural": "Semua Tugas",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -2429,15 +2520,15 @@
         "setupVisible": true
       },
       "assignTextTask": {
-        "original": "Pilih ejen lapangan yang anda ingin tugaskan tugasan ini kepada",
-        "singular": "Pilih ejen lapangan yang anda ingin tugaskan tugasan ini kepada",
+        "original": "Pilih ejen lapangan yang anda ingin tugaskan tugas ini",
+        "singular": "Pilih ejen lapangan yang anda ingin tugaskan tugas ini",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "assignToUsers": {
-        "original": "Tugaskan Tugasan kepada Pengguna",
-        "singular": "Tugaskan Tugasan kepada Pengguna",
+        "original": "Tugaskan Tugas kepada Pengguna",
+        "singular": "Tugaskan Tugas kepada Pengguna",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2485,15 +2576,15 @@
         "setupVisible": true
       },
       "bufferAfterTask": {
-        "original": "Penampan Selepas Tugasan",
-        "singular": "Penampan Selepas Tugasan",
+        "original": "Buffer Selepas Tugas",
+        "singular": "Buffer Selepas Tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "bufferBeforeTask": {
-        "original": "Penampan Sebelum Tugasan",
-        "singular": "Penampan Sebelum Tugasan",
+        "original": "Buffer Sebelum Tugas",
+        "singular": "Buffer Sebelum Tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2513,15 +2604,15 @@
         "setupVisible": true
       },
       "checkInOut": {
-        "original": "Memerlukan ahli pasukan untuk daftar masuk/keluar dari lokasi tugasan?",
-        "singular": "Memerlukan ahli pasukan untuk daftar masuk/keluar dari lokasi tugasan?",
+        "original": "Perlu ahli pasukan untuk daftar masuk/keluar dari lokasi tugas?",
+        "singular": "Perlu ahli pasukan untuk daftar masuk/keluar dari lokasi tugas?",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "checkoutTask": {
-        "original": "Daftar Keluar dari Tugasan",
-        "singular": "Daftar Keluar dari Tugasan",
+        "original": "Daftar Keluar dari Tugas",
+        "singular": "Daftar Keluar dari Tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2534,8 +2625,8 @@
         "setupVisible": true
       },
       "completionDateTime": {
-        "original": "Tarikh & Masa Penyiapan",
-        "singular": "Tarikh & Masa Penyiapan",
+        "original": "Tarikh & Masa Selesai",
+        "singular": "Tarikh & Masa Selesai",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2548,15 +2639,15 @@
         "setupVisible": true
       },
       "confirmTaskAcceptance": {
-        "original": "Sahkan Penerimaan Tugasan",
-        "singular": "Sahkan Penerimaan Tugasan",
+        "original": "Sahkan Penerimaan Tugas",
+        "singular": "Sahkan Penerimaan Tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "confirmTaskDecline": {
-        "original": "Sahkan Penolakan Tugasan",
-        "singular": "Sahkan Penolakan Tugasan",
+        "original": "Sahkan Penolakan Tugas",
+        "singular": "Sahkan Penolakan Tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2576,8 +2667,8 @@
         "setupVisible": true
       },
       "createTextTask": {
-        "original": "Tugasan ini akan ditugaskan kepada anda dan diterima secara automatik",
-        "singular": "Tugasan ini akan ditugaskan kepada anda dan diterima secara automatik",
+        "original": "Tugas ini akan ditugaskan kepada anda dan diterima secara automatik",
+        "singular": "Tugas ini akan ditugaskan kepada anda dan diterima secara automatik",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2673,6 +2764,62 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "handoverCertificate": {
+        "original": "Sijil Penyerahan",
+        "singular": "Sijil Penyerahan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "date": {
+        "original": "Tarikh",
+        "singular": "Tarikh",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "dateTime": {
+        "original": "Tarikh & Masa",
+        "singular": "Tarikh & Masa",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "datesCloneTaskFrom": {
+        "original": "Tarikh untuk Menyalin Tugas dari",
+        "singular": "Tarikh untuk Menyalin Tugas dari",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "datesCloneTaskTo": {
+        "original": "Tarikh untuk Menyalin Tugas ke",
+        "singular": "Tarikh untuk Menyalin Tugas ke",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "department": {
+        "original": "Jabatan",
+        "singular": "Jabatan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "description": {
+        "original": "Deskripsi",
+        "singular": "Deskripsi",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "distance": {
+        "original": "Jarak",
+        "singular": "Jarak",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "duration": {
         "original": "Tempoh",
         "singular": "Tempoh",
@@ -2681,22 +2828,22 @@
         "setupVisible": true
       },
       "otherUsers": {
-        "original": "Other Users",
-        "singular": "Other Users",
-        "plural": "Other Users",
+        "original": "Pengguna Lain",
+        "singular": "Pengguna Lain",
+        "plural": "Pengguna Lain",
         "setupEdit": true,
         "setupVisible": true
       },
       "checkedInDuration": {
-        "original": "Checked in duration",
-        "singular": "Checked in duration",
+        "original": "Tempoh Daftar Masuk",
+        "singular": "Tempoh Daftar Masuk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "emailAssignee": {
-        "original": "E-mel Ditugaskan",
-        "singular": "E-mel Ditugaskan",
+        "original": "E-mel Penerima Tugas",
+        "singular": "E-mel Penerima Tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2715,44 +2862,37 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "handoverCertificate": {
-        "original": "Sijil Penyerahan",
-        "singular": "Sijil Penyerahan",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "haveCheckedAffectsOtherPeople": {
-        "original": "Saya telah memeriksa jika tugasan ini memberi kesan kepada orang lain di kawasan kerja?",
-        "singular": "Saya telah memeriksa jika tugasan ini memberi kesan kepada orang lain di kawasan kerja?",
+        "original": "Adakah saya telah memeriksa sama ada tugas ini memberi kesan kepada orang lain di kawasan kerja?",
+        "singular": "Adakah saya telah memeriksa sama ada tugas ini memberi kesan kepada orang lain di kawasan kerja?",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "haveCommunicatedHazard": {
-        "original": "Saya telah menyampaikan bahaya yang berkaitan dengan tugasan ini kepada orang lain?",
-        "singular": "Saya telah menyampaikan bahaya yang berkaitan dengan tugasan ini kepada orang lain?",
+        "original": "Adakah saya telah menyampaikan bahaya yang berkaitan dengan tugas kepada orang lain?",
+        "singular": "Adakah saya telah menyampaikan bahaya yang berkaitan dengan tugas kepada orang lain?",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "haveCompleteThisTaskSafely": {
-        "original": "Saya boleh menyelesaikan tugasan ini dengan selamat?",
-        "singular": "Saya boleh menyelesaikan tugasan ini dengan selamat?",
+        "original": "Adakah saya boleh menyelesaikan tugas ini dengan selamat?",
+        "singular": "Adakah saya boleh menyelesaikan tugas ini dengan selamat?",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "haveCorrectPpeEquip": {
-        "original": "Saya mempunyai PPE, alat dan peralatan yang betul untuk menyelesaikan tugasan ini?",
-        "singular": "Saya mempunyai PPE, alat dan peralatan yang betul untuk menyelesaikan tugasan ini?",
+        "original": "Adakah saya mempunyai PPE, alat dan peralatan yang betul untuk menyelesaikan tugas?",
+        "singular": "Adakah saya mempunyai PPE, alat dan peralatan yang betul untuk menyelesaikan tugas?",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "includeTeamManager": {
-        "original": "Sertakan pengurus pasukan dalam tugasan pintar?",
-        "singular": "Sertakan pengurus pasukan dalam tugasan pintar?",
+        "original": "Termasuk pengurus pasukan dalam tugasan pintar?",
+        "singular": "Termasuk pengurus pasukan dalam tugasan pintar?",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2788,6 +2928,13 @@
       "lock": {
         "original": "Kunci",
         "singular": "Kunci",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "mandatory": {
+        "original": "Wajib",
+        "singular": "Wajib",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2828,8 +2975,8 @@
         "setupVisible": true
       },
       "otherTaskMembers": {
-        "original": "Ahli Tugasan Lain",
-        "singular": "Ahli Tugasan Lain",
+        "original": "Ahli Tugas Lain",
+        "singular": "Ahli Tugas Lain",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2849,8 +2996,8 @@
         "setupVisible": true
       },
       "predictiveTraffic": {
-        "original": "Trafik Ramalan",
-        "singular": "Trafik Ramalan",
+        "original": "Ramalan Trafik",
+        "singular": "Ramalan Trafik",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2877,15 +3024,15 @@
         "setupVisible": true
       },
       "requestAssistance": {
-        "original": "Minta Bantuan",
-        "singular": "Minta Bantuan",
+        "original": "Meminta Bantuan",
+        "singular": "Meminta Bantuan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "requireSkills": {
-        "original": "Memerlukan kemahiran untuk melakukan tugasan",
-        "singular": "Memerlukan kemahiran untuk melakukan tugasan",
+        "original": "Memerlukan kemahiran untuk melaksanakan tugas",
+        "singular": "Memerlukan kemahiran untuk melaksanakan tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2907,7 +3054,7 @@
       "requiredForms": {
         "original": "Borang Diperlukan",
         "singular": "Borang Diperlukan",
-        "plural": "Borang-Borang Diperlukan",
+        "plural": "Borang Diperlukan",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -2947,29 +3094,29 @@
         "setupVisible": true
       },
       "selectStartLocationTimes": {
-        "original": "Pilih Lokasi dan Masa Mula",
-        "singular": "Pilih Lokasi dan Masa Mula",
+        "original": "Pilih Lokasi Mula dan Masa",
+        "singular": "Pilih Lokasi Mula dan Masa",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "selectTask": {
-        "original": "Pilih Tugasan",
-        "singular": "Pilih Tugasan",
+        "original": "Pilih Tugas",
+        "singular": "Pilih Tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "selectTaskDisplayAddress": {
-        "original": "Pilih Tugas untuk Paparkan Alamat",
-        "singular": "Pilih Tugas untuk Paparkan Alamat",
+        "original": "Pilih Tugas untuk Papar Alamat",
+        "singular": "Pilih Tugas untuk Papar Alamat",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "selectTasksClone": {
-        "original": "Pilih Tugasan untuk Klon",
-        "singular": "Pilih Tugasan untuk Klon",
+        "original": "Pilih Tugas untuk Diklik",
+        "singular": "Pilih Tugas untuk Diklik",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2996,15 +3143,15 @@
         "setupVisible": true
       },
       "selected": {
-        "original": "Dipilih",
-        "singular": "Dipilih",
+        "original": "Terpilih",
+        "singular": "Terpilih",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "showTeamTaskOnly": {
-        "original": "Tunjukkan tugasan pasukan sahaja",
-        "singular": "Tunjukkan tugasan pasukan sahaja",
+        "original": "Tunjukkan hanya tugas pasukan",
+        "singular": "Tunjukkan hanya tugas pasukan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3012,6 +3159,13 @@
       "skills": {
         "original": "Kemahiran",
         "singular": "Kemahiran",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "my": {
+        "original": "Saya",
+        "singular": "Saya",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3045,8 +3199,8 @@
         "setupVisible": true
       },
       "supervisorChargehand": {
-        "original": "Penyelia/Pemantau",
-        "singular": "Penyelia/Pemantau",
+        "original": "Penyelia/Chargehand",
+        "singular": "Penyelia/Chargehand",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3059,22 +3213,22 @@
         "setupVisible": true
       },
       "taskDate": {
-        "original": "Tarikh Tugasan",
-        "singular": "Tarikh Tugasan",
+        "original": "Tarikh Tugas",
+        "singular": "Tarikh Tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "taskName": {
-        "original": "Nama Tugasan",
-        "singular": "Nama Tugasan",
+        "original": "Nama Tugas",
+        "singular": "Nama Tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "taskOwner": {
-        "original": "Pemilik Tugasan",
-        "singular": "Pemilik Tugasan",
+        "original": "Pemilik Tugas",
+        "singular": "Pemilik Tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3100,9 +3254,30 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "today": {
+        "original": "Hari Ini",
+        "singular": "Hari Ini",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "all": {
+        "original": "Semua",
+        "singular": "Semua",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "tomorrow": {
+        "original": "Esok",
+        "singular": "Esok",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "todaysTasks": {
-        "original": "Tugasan Hari Ini",
-        "singular": "Tugasan Hari Ini",
+        "original": "Tugas Hari Ini",
+        "singular": "Tugas Hari Ini",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3121,16 +3296,9 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "typeYourNoteHere": {
-        "original": "Taip nota anda di sini",
-        "singular": "Taip nota anda di sini",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "generateJobOrder": {
-        "original": "Generate Job Order",
-        "singular": "Generate Job Order",
+        "original": "Hasilkan Pesanan Kerja",
+        "singular": "Hasilkan Pesanan Kerja",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3143,8 +3311,8 @@
         "setupVisible": true
       },
       "updateLocationFollowingTask": {
-        "original": "Kemas Kini Lokasi Tugasan Berikut",
-        "singular": "Kemas Kini Lokasi Tugasan Berikut",
+        "original": "Kemas Kini Lokasi Tugas Berikutnya",
+        "singular": "Kemas Kini Lokasi Tugas Berikutnya",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3163,17 +3331,38 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "buffer": {
-        "original": "Buffer",
-        "singular": "Buffer",
+      "serviceChecklist": {
+        "original": "Senarai Semak Perkhidmatan",
+        "singular": "Senarai Semak Perkhidmatan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
-      "mandatory": {
-        "original": "mandatory",
-        "singular": "mandatory",
+      "office": {
+        "original": "Pejabat",
+        "singular": "Pejabat",
         "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "home": {
+        "original": "Rumah",
+        "singular": "Rumah",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Nama",
+        "singular": "Nama",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "referenceChecklist": {
+        "original": "Senarai Semak Rujukan",
+        "singular": "Senarai Semak Rujukan",
+        "plural": "Senarai Semak Rujukan",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -3184,39 +3373,39 @@
       "invalidPhoneNumber": "Invalid Phone Number",
       "invalidEmailFormat": "Invalid Email Format"
     },
-    "tooltips": {
+   "tooltips": {
       "setupVisible": true,
       "timeAddedBeforeOr": {
-        "original": "Masa ditambah sebelum atau selepas tugasan apabila menggunakan Pengoptimum, contohnya masa yang diperlukan untuk parkir.",
-        "singular": "Masa ditambah sebelum atau selepas tugasan apabila menggunakan Pengoptimum, contohnya masa yang diperlukan untuk parkir.",
+        "original": "Masa ditambah sebelum atau selepas tugas semasa menggunakan Pengoptimum contohnya masa yang diperlukan untuk parkir.",
+        "singular": "Masa ditambah sebelum atau selepas tugas semasa menggunakan Pengoptimum contohnya masa yang diperlukan untuk parkir.",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "skillsUsedToFind": {
-        "original": "Kemahiran digunakan untuk mencari kakitangan terbaik untuk kerja apabila menggunakan Tugasan Pintar",
-        "singular": "Kemahiran digunakan untuk mencari kakitangan terbaik untuk kerja apabila menggunakan Tugasan Pintar",
+        "original": "Kemahiran digunakan untuk mencari kakitangan terbaik untuk pekerjaan semasa menggunakan Smart Assign",
+        "singular": "Kemahiran digunakan untuk mencari kakitangan terbaik untuk pekerjaan semasa menggunakan Smart Assign",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "smartAssignTextTask": {
-        "original": "Biarkan FieldEx mencari dan menetapkan calon terbaik untuk tugasan ini berdasarkan kriteria yang anda tetapkan",
-        "singular": "Biarkan FieldEx mencari dan menetapkan calon terbaik untuk tugasan ini berdasarkan kriteria yang anda tetapkan",
+        "original": "Biarkan FieldEx mencari dan menugaskan calon terbaik untuk tugas ini berdasarkan kriteria yang anda tetapkan",
+        "singular": "Biarkan FieldEx mencari dan menugaskan calon terbaik untuk tugas ini berdasarkan kriteria yang anda tetapkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "specifiedTaskSkills": {
-        "original": "Memilih ini akan menghapuskan pengguna yang tidak mempunyai sekurang-kurangnya satu kemahiran tugasan yang dinyatakan",
-        "singular": "Memilih ini akan menghapuskan pengguna yang tidak mempunyai sekurang-kurangnya satu kemahiran tugasan yang dinyatakan",
+        "original": "Memilih ini akan menghapuskan pengguna yang tidak mempunyai sekurang-kurangnya satu kemahiran tugas yang ditentukan",
+        "singular": "Memilih ini akan menghapuskan pengguna yang tidak mempunyai sekurang-kurangnya satu kemahiran tugas yang ditentukan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "selectingThisEliminates": {
-        "original": "Memilih ini akan menghapuskan pengguna yang mempunyai tugasan pada masa yang dinyatakan",
-        "singular": "Memilih ini akan menghapuskan pengguna yang mempunyai tugasan pada masa yang dinyatakan",
+        "original": "Memilih ini akan menghapuskan pengguna yang mempunyai tugas pada masa yang ditentukan",
+        "singular": "Memilih ini akan menghapuskan pengguna yang mempunyai tugas pada masa yang ditentukan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3229,77 +3418,116 @@
         "setupVisible": true
       },
       "lockingPuts": {
-        "original": "Mengunci tugasan meletakkannya dalam slot masa tetap apabila menggunakan pengoptimum",
-        "singular": "Mengunci tugasan meletakkannya dalam slot masa tetap apabila menggunakan pengoptimum",
+        "original": "Mengunci tugas meletakkannya dalam slot masa tetap semasa menggunakan pengoptimum",
+        "singular": "Mengunci tugas meletakkannya dalam slot masa tetap semasa menggunakan pengoptimum",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "letFieldexFindBestFieldAgent": {
-        "original": "Biarkan FieldEx membantu anda menetapkan tugasan ini kepada ejen lapangan terbaik",
-        "singular": "Biarkan FieldEx membantu anda menetapkan tugasan ini kepada ejen lapangan terbaik",
+        "original": "Biarkan FieldEx membantu anda menugaskan tugas ini kepada ejen lapangan terbaik",
+        "singular": "Biarkan FieldEx membantu anda menugaskan tugas ini kepada ejen lapangan terbaik",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "futureTaskOnTime": {
-        "original": "Memilih ini akan menghapuskan pengguna yang tidak dapat mencapai tugasan ini atau tugasan masa depan tepat pada masanya",
-        "singular": "Memilih ini akan menghapuskan pengguna yang tidak dapat mencapai tugasan ini atau tugasan masa depan tepat pada masanya",
+        "original": "Memilih ini akan menghapuskan pengguna yang tidak dapat mencapai tugas ini atau tugas masa depan tepat pada masanya",
+        "singular": "Memilih ini akan menghapuskan pengguna yang tidak dapat mencapai tugas ini atau tugas masa depan tepat pada masanya",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
-      "messageAssignee": {
-        "original": "Mesej Ditugaskan",
-        "singular": "Mesej Ditugaskan",
+      "taskLocked": {
+        "original": "Tugas ini dikunci",
+        "singular": "Tugas ini dikunci",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
-      "requestAssistance": {
-        "original": "Minta Bantuan",
-        "singular": "Minta Bantuan",
+      "taskUnlocked": {
+        "original": "Tugas ini tidak dikunci",
+        "singular": "Tugas ini tidak dikunci",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
-      "taskLookup": {
-        "original": "Carian Tugasan",
-        "singular": "Carian Tugasan",
+      "phoneNumber": {
+        "original": "Nombor Telefon",
+        "singular": "Nombor Telefon",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      }
+      },
+      "emailAssignee": {
+      "original": "E-mel Penerima Tugas",
+      "singular": "E-mel Penerima Tugas",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
     },
+    "messageAssignee": {
+      "original": "Mesej Penerima Tugas",
+      "singular": "Mesej Penerima Tugas",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "requestAssistance": {
+      "original": "Meminta Bantuan",
+      "singular": "Meminta Bantuan",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "taskLookup": {
+      "original": "Carian Tugas",
+      "singular": "Carian Tugas",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    }
+  },
     "messages": {
-      "technicianOnRoute": "Kini seorang pengguna sedang dalam perjalanan ke tugasan ini.",
-      "procedureWorkInstructionOrPermitRequired": "Adakah terdapat prosedur, arahan kerja atau permit untuk tugasan ini?",
-      "noSlaStepDefined": "Belum ada langkah SLA",
-      "taskOverDue": "Task Overdue",
-      "selectAtLeastOneTeam": "Select at least one team",
-      "checkInSuccessfully": "Checked in successfully",
-      "acceptTaskBeforeCheckIn": "Please accept the task before trying to check in",
-      "taskOwnerChangedSuccessfully": "Task owner changed successfully",
-      "userRemovedFromTask": "User removed from task successfully",
-      "taskOnJourney": "This task is on journey, hence unable to delete",
-      "endTimeAfterStartTime": "End time must be after Start time",
-      "pleaseSelectRole": "Please select a role",
-      "pleaseSelectDepartmentRole": "Please select a department and role",
-      "youShouldCheckoutFirst": "You should checkout first, Are you sure want to checkout and mark as completed?",
-      "doYouWantToMarkTaskCompleted": "Do you want to mark this task as completed?",
-      "doYouWantToCompleteTake5Form": "Do you want to complete Take 5 form?",
-      "pleaseCompleteJMPBeforeProceeding": "Please complete JMP before proceeding to the task",
-      "thisTaskIsAlreadyStartingJourney": "This task is already starting the journey from another device",
-      "unableToResolveTaskLocation": "Unable to resolve task location coordinates. Please update the location",
-      "ownerChangedForTheTaskSuccessfully": "Owner changed for the task successfully.",
-      "userAddedToTheTaskSuccessfully": "User added to task successfully.",
-      "taskHasBeenMarkedCompletedUpdateStatus": "Task has been marked completed, Please update status before check-in",
-      "declineReason": "Decline Reason",
-      "journeyDetails": "Journey Details",
-      "taskOptimizer": "Task Optimizer",
-      "optimizer": "Optimizer",
-      "mytasks": "My Tasks",
-      "tasksToAcceptDecline ": "Tasks to Accept/Decline"
+      "technicianOnRoute": "Pengguna sedang dalam perjalanan ke tugas ini.",
+    "procedureWorkInstructionOrPermitRequired": "Adakah terdapat prosedur, arahan kerja atau permit untuk tugas ini?",
+    "noSlaStepDefined": "Belum ada langkah SLA",
+    "taskOverDue": "Tugas Terlewat",
+    "selectAtLeastOneTeam": "Pilih sekurang-kurangnya satu pasukan",
+    "checkInSuccessfully": "Berjaya daftar masuk",
+    "checkOutSuccessfully": "Berjaya daftar keluar",
+    "acceptTaskBeforeCheckIn": "Sila terima tugas sebelum cuba daftar masuk",
+    "taskOwnerChangedSuccessfully": "Pemilik tugas berjaya diubah",
+    "userRemovedFromTask": "Pengguna berjaya dikeluarkan dari tugas",
+    "taskOnJourney": "Tugas ini sedang dalam perjalanan, tidak boleh dihapuskan",
+    "endTimeAfterStartTime": "Masa tamat mesti selepas masa mula",
+    "pleaseSelectRole": "Sila pilih peranan",
+    "pleaseSelectDepartmentRole": "Sila pilih jabatan dan peranan",
+    "youShouldCheckoutFirst": "Anda perlu daftar keluar dahulu, Adakah anda pasti mahu daftar keluar dan menandakan sebagai selesai?",
+    "doYouWantToMarkTaskCompleted": "Adakah anda mahu menandakan tugas ini sebagai selesai?",
+    "doYouWantToCompleteTake5Form": "Adakah anda mahu melengkapkan borang Take 5?",
+    "pleaseCompleteJMPBeforeProceeding": "Sila lengkapkan JMP sebelum meneruskan tugas",
+    "thisTaskIsAlreadyStartingJourney": "Tugas ini sudah memulakan perjalanan dari peranti lain",
+    "unableToResolveTaskLocation": "Tidak dapat menentukan koordinat lokasi tugas. Sila kemas kini lokasi",
+    "ownerChangedForTheTaskSuccessfully": "Pemilik tugas berjaya diubah.",
+    "userAddedToTheTaskSuccessfully": "Pengguna berjaya ditambah ke tugas.",
+    "taskHasBeenMarkedCompletedUpdateStatus": "Tugas telah ditandakan selesai, Sila kemas kini status sebelum daftar masuk",
+    "declineReason": "Sebab Penolakan",
+    "journeyDetails": "Butiran Perjalanan",
+    "taskOptimizer": "Pengoptimum Tugas",
+    "optimizer": "Pengoptimum",
+    "mytasks": "Tugas Saya",
+    "tasksToAcceptDecline": "Tugas untuk Terima/Tolak",
+    "noTasksFound": "Tiada Tugas dijumpai",
+    "deleteTask": "Padam Tugas",
+    "areYouSure": "Adakah anda pasti mahu ",
+    "thisTask": "tugas ini?",
+    "reasonOptional": "Sebab (Pilihan)",
+    "markAsComplete": "Adakah anda ingin menandakan tugas ini sebagai selesai?",
+    "noUsersInCriteria": "Tiada pengguna yang sepadan dengan kriteria carian anda!",
+    "typeYourNoteHere": "Taip nota anda di sini",
+    "deleted": "Dipadam",
+    "take5": "Take 5"
     }
   },
   "site": {

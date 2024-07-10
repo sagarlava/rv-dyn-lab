@@ -2658,6 +2658,27 @@
         "plural": "Select Users",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec24": {
+        "original": "Assigned User",
+        "singular": "Assigned User",
+        "plural": "Assigned Users",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec25": {
+        "original": "Form",
+        "singular": "Form",
+        "plural": "Forms",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec26": {
+        "original": "Activity",
+        "singular": "Activity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -3334,6 +3355,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "my": {
+        "original": "My",
+        "singular": "My",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "staff": {
         "original": "Staff",
         "singular": "Staff",
@@ -3418,6 +3446,27 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "today": {
+        "original": "Today",
+        "singular": "Today",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "all": {
+        "original": "All",
+        "singular": "All",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "tomorrow": {
+        "original": "Tomorrow",
+        "singular": "Tomorrow",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "todaysTasks": {
         "original": "Today's Tasks",
         "singular": "Today's Tasks",
@@ -3435,13 +3484,6 @@
       "totalTimeSpent": {
         "original": "Total Time Spent",
         "singular": "Total Time Spent",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "typeYourNoteHere": {
-        "original": "Type your note here",
-        "singular": "Type your note here",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3506,6 +3548,13 @@
         "original": "Name",
         "singular": "Name",
         "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "referenceChecklist": {
+        "original": "Reference Checklist",
+        "singular": "Reference Checklist",
+        "plural": "Reference Checklist",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -3581,6 +3630,34 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "taskLocked": {
+        "original": "This task is locked",
+        "singular": "This task is locked",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "taskUnlocked": {
+        "original": "This task is unlocked",
+        "singular": "This task is unlocked",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "phoneNumber": {
+        "original": "Phone Number",
+        "singular": "Phone Number",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "emailAssignee": {
+        "original": "Email Assignee",
+        "singular": "Email Assignee",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "messageAssignee": {
         "original": "Message Assignee",
         "singular": "Message Assignee",
@@ -3639,7 +3716,10 @@
       "thisTask":"this task?",
       "reasonOptional":"Reason (Optional)",
       "markAsComplete":"Would you like to mark this task as complete?",
-      "noUsersInCriteria":"There are no users matching your search criteria!"
+      "noUsersInCriteria":"There are no users matching your search criteria!",
+      "typeYourNoteHere": "Type your note here",
+      "deleted":"Deleted",
+      "take5": "Take 5"
     }
   },
   "site": {
@@ -10004,6 +10084,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "calendarView": {
+        "original": "Calendar View",
+        "singular": "Calendar View",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "tableView": {
         "original": "Table View",
         "singular": "Table View",
@@ -10028,6 +10115,13 @@
       "savePlan": {
         "original": "Save Plan",
         "singular": "Save Plan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "makeOwner": {
+        "original": "Make Owner",
+        "singular": "Make Owner",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

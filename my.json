@@ -6664,9 +6664,9 @@
   "inventory": {
     "setupVisible": true,
     "label": {
-      "original": "Inventory",
-      "singular": "Inventory",
-      "plural": "Inventory",
+      "original": "Inventori",
+      "singular": "Inventori",
+      "plural": "Inventori",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -6680,29 +6680,29 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Inventory Details",
-        "singular": "Inventory Details",
+        "original": "Butiran Inventori",
+        "singular": "Butiran Inventori",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "Product available in other locations",
-        "singular": "Product available in other locations",
+        "original": "Produk tersedia di lokasi lain",
+        "singular": "Produk tersedia di lokasi lain",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
-        "original": "Select where to check",
-        "singular": "Select where to check",
+        "original": "Pilih tempat untuk memeriksa",
+        "singular": "Pilih tempat untuk memeriksa",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
-        "original": "Select what to check",
-        "singular": "Select what to check",
+        "original": "Pilih apa untuk memeriksa",
+        "singular": "Pilih apa untuk memeriksa",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6715,50 +6715,50 @@
         "setupVisible": true
       },
       "sec6": {
-        "original": "Bin Details",
-        "singular": "Bin Details",
+        "original": "Butiran Bin",
+        "singular": "Butiran Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec7": {
-        "original": "Transfer Details Product",
-        "singular": "Transfer Details Product",
+        "original": "Butiran Pemindahan Produk",
+        "singular": "Butiran Pemindahan Produk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec8": {
-        "original": "Transfer Details",
-        "singular": "Transfer Details",
+        "original": "Butiran Pemindahan",
+        "singular": "Butiran Pemindahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec9": {
-        "original": "Assignee Details",
-        "singular": "Assignee Details",
+        "original": "Butiran Penerima",
+        "singular": "Butiran Penerima",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec10": {
-        "original": "Transferred Items",
-        "singular": "Transferred Items",
+        "original": "Item yang Dipindahkan",
+        "singular": "Item yang Dipindahkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec11": {
-        "original": "Adjust an Asset",
-        "singular": "Adjust an Asset",
+        "original": "Laraskan Aset",
+        "singular": "Laraskan Aset",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec12": {
-        "original": "Adjust a Product",
-        "singular": "Adjust a Product",
+        "original": "Laraskan Produk",
+        "singular": "Laraskan Produk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6778,15 +6778,15 @@
         "setupVisible": true
       },
       "sec15": {
-        "original": "Adjust Inventory",
-        "singular": "Adjust Inventory",
+        "original": "Laraskan Inventori",
+        "singular": "Laraskan Inventori",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec16": {
-        "original": "Check availability",
-        "singular": "Check availability",
+        "original": "Periksa Ketersediaan",
+        "singular": "Periksa Ketersediaan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6795,8 +6795,8 @@
     "fields": {
       "setupVisible": true,
       "binLocation": {
-        "original": "Bin Location",
-        "singular": "Bin Location",
+        "original": "Lokasi Bin",
+        "singular": "Lokasi Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6809,36 +6809,36 @@
         "setupVisible": true
       },
       "qtyIn": {
-        "original": "Quantity In",
-        "singular": "Quantity In",
+        "original": "Kuantiti Masuk",
+        "singular": "Kuantiti Masuk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "qtyOut": {
-        "original": "Quantity Out",
-        "singular": "Quantity Out",
+        "original": "Kuantiti Keluar",
+        "singular": "Kuantiti Keluar",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "adjusted": {
-        "original": "Adjusted",
-        "singular": "Adjusted",
+        "original": "Dilaraskan",
+        "singular": "Dilaraskan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "reorderQty": {
-        "original": "Reorder Quantity",
-        "singular": "Reorder Quantity",
+        "original": "Kuantiti Pesanan Semula",
+        "singular": "Kuantiti Pesanan Semula",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "understock": {
-        "original": "Understock",
-        "singular": "Understock",
+        "original": "Kekurangan Stok",
+        "singular": "Kekurangan Stok",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6846,13 +6846,13 @@
       "note": {
         "original": "Nota",
         "singular": "Nota",
-        "plural": "Nota-Nota",
+        "plural": "Nota",
         "setupEdit": true,
         "setupVisible": true
       },
       "inventoryNo": {
-        "original": "Inventory No",
-        "singular": "Inventory No",
+        "original": "No. Inventori",
+        "singular": "No. Inventori",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6865,29 +6865,29 @@
         "setupVisible": true
       },
       "qtyAvailable": {
-        "original": "Quantity Available",
-        "singular": "Quantity Available",
+        "original": "Kuantiti Tersedia",
+        "singular": "Kuantiti Tersedia",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "qtyTransfer": {
-        "original": "Quantity to Transfer",
-        "singular": "Quantity to Transfer",
+        "original": "Kuantiti untuk Dipindahkan",
+        "singular": "Kuantiti untuk Dipindahkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "reorderPoint": {
-        "original": "Reorder Point",
-        "singular": "Reorder Point",
+        "original": "Titik Pesanan Semula",
+        "singular": "Titik Pesanan Semula",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "zone": {
-        "original": "Zone",
-        "singular": "Zone",
+        "original": "Zon",
+        "singular": "Zon",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6900,36 +6900,36 @@
         "setupVisible": true
       },
       "fromBin": {
-        "original": "From Bin",
-        "singular": "From Bin",
+        "original": "Dari Bin",
+        "singular": "Dari Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "toBin": {
-        "original": "To Bin",
-        "singular": "To Bin",
+        "original": "Ke Bin",
+        "singular": "Ke Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "displayName": {
-        "original": "Display Name",
-        "singular": "Display Name",
+        "original": "Nama Paparan",
+        "singular": "Nama Paparan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "userName": {
-        "original": "User Name",
-        "singular": "User Name",
+        "original": "Nama Pengguna",
+        "singular": "Nama Pengguna",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "transferNo": {
-        "original": "Transfer No.",
-        "singular": "Transfer No.",
+        "original": "No. Pemindahan",
+        "singular": "No. Pemindahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6942,8 +6942,8 @@
         "setupVisible": true
       },
       "referenceNumber": {
-        "original": "Reference Number",
-        "singular": "Reference Number",
+        "original": "Nombor Rujukan",
+        "singular": "Nombor Rujukan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6956,15 +6956,15 @@
         "setupVisible": true
       },
       "transferredBy": {
-        "original": "Transferred By",
-        "singular": "Transferred By",
+        "original": "Dipindahkan Oleh",
+        "singular": "Dipindahkan Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "assignedStatus": {
-        "original": "Assigned Status",
-        "singular": "Assigned Status",
+        "original": "Status Ditugaskan",
+        "singular": "Status Ditugaskan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6977,15 +6977,15 @@
         "setupVisible": true
       },
       "transferredDateTime": {
-        "original": "Transferred Date & Time",
-        "singular": "Transferred Date & Time",
+        "original": "Tarikh & Masa Pemindahan",
+        "singular": "Tarikh & Masa Pemindahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "acceptRejectBy": {
-        "original": "Accepted/Rejected By",
-        "singular": "Accepted/Rejected By",
+        "original": "Diterima/Ditolak Oleh",
+        "singular": "Diterima/Ditolak Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6998,48 +6998,49 @@
         "setupVisible": true
       },
       "assetType": {
-        "original": "Asset Type",
-        "singular": "Asset Type",
+        "original": "Jenis Aset",
+        "singular": "Jenis Aset",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productType": {
-        "original": "Product Type",
-        "singular": "Product Type",
+        "original": "Jenis Produk",
+        "singular": "Jenis Produk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productFamily": {
-        "original": "Product Family",
-        "singular": "Product Family",
+        "original": "Keluarga Produk",
+        "singular": "Keluarga Produk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
     "validationFE": {
-      "pleaseSelectOne":"Please select one product or one asset"
-  },
-  "validationBE": {
-    "requiredField": "Required Field",
-    "invalidPhoneNumber": "Invalid Phone Number",
-    "invalidEmailFormat": "Invalid Email Format"
-  },
-  "messages": {
-    "selectLocation": "Select Location",
-    "selectZone": "Select Zone",
-    "selectBin": "Select Bin",
-    "selectUserBin": "Select User Bin",
-    "searchProduct": "Search Product",
-    "searchAsset": "Search Asset",
-    "selectType": "Select Type",
-    "selectFamily": "Select Family",
-    "pleaseSelectOneFilter": "Please select at least one filter",
-    "availableOtherLocations":"available in other locations"
+      "pleaseSelectOne": "Sila pilih satu produk atau satu aset"
+    },
+    "validationBE": {
+      "requiredField": "Medan Diperlukan",
+      "invalidPhoneNumber": "Nombor Telefon Tidak Sah",
+      "invalidEmailFormat": "Format Emel Tidak Sah"
+    },
+    "messages": {
+      "selectLocation": "Pilih Lokasi",
+      "selectZone": "Pilih Zon",
+      "selectBin": "Pilih Bin",
+      "selectUserBin": "Pilih Bin Pengguna",
+      "searchProduct": "Cari Produk",
+      "searchAsset": "Cari Aset",
+      "selectType": "Pilih Jenis",
+      "selectFamily": "Pilih Keluarga",
+      "pleaseSelectOneFilter": "Sila pilih sekurang-kurangnya satu penapis",
+      "availableOtherLocations": "tersedia di lokasi lain"
+    }
   }
-  },
+,
   "bin": {
     "setupVisible": true,
     "label": {

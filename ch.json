@@ -6620,45 +6620,45 @@
   "inventory": {
     "setupVisible": true,
     "label": {
-      "original": "Inventory",
-      "singular": "Inventory",
-      "plural": "Inventory",
+      "original": "库存",
+      "singular": "库存",
+      "plural": "库存",
       "setupEdit": true,
       "setupVisible": true
     },
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "基本信息 ",
-        "singular": "基本信息 ",
+        "original": "一般详情",
+        "singular": "一般详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
-        "original": "Inventory Details",
-        "singular": "Inventory Details",
+        "original": "库存详情",
+        "singular": "库存详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "Product available in other locations",
-        "singular": "Product available in other locations",
+        "original": "其他位置的可用产品",
+        "singular": "其他位置的可用产品",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
-        "original": "Select where to check",
-        "singular": "Select where to check",
+        "original": "选择检查位置",
+        "singular": "选择检查位置",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
-        "original": "Select what to check",
-        "singular": "Select what to check",
+        "original": "选择检查内容",
+        "singular": "选择检查内容",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6671,64 +6671,78 @@
         "setupVisible": true
       },
       "sec6": {
-        "original": "Bin Details",
-        "singular": "Bin Details",
+        "original": "仓位详情",
+        "singular": "仓位详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec7": {
-        "original": "Transfer Details Product",
-        "singular": "Transfer Details Product",
+        "original": "产品转移详情",
+        "singular": "产品转移详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec8": {
-        "original": "Transfer Details",
-        "singular": "Transfer Details",
+        "original": "转移详情",
+        "singular": "转移详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec9": {
-        "original": "Assignee Details",
-        "singular": "Assignee Details",
+        "original": "受托人详情",
+        "singular": "受托人详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec10": {
-        "original": "Transferred Items",
-        "singular": "Transferred Items",
+        "original": "已转移项目",
+        "singular": "已转移项目",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec11": {
-        "original": "Adjust an Asset",
-        "singular": "Adjust an Asset",
+        "original": "调整资产",
+        "singular": "调整资产",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec12": {
-        "original": "Adjust a Product",
-        "singular": "Adjust a Product",
+        "original": "调整产品",
+        "singular": "调整产品",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec13": {
-        "original": "细节",
-        "singular": "细节",
+        "original": "详情",
+        "singular": "详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec14": {
-        "original": "过滤",
-        "singular": "过滤",
+        "original": "筛选条件",
+        "singular": "筛选条件",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec15": {
+        "original": "调整库存",
+        "singular": "调整库存",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "检查可用性",
+        "singular": "检查可用性",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6737,8 +6751,8 @@
     "fields": {
       "setupVisible": true,
       "binLocation": {
-        "original": "Bin Location",
-        "singular": "Bin Location",
+        "original": "仓位位置",
+        "singular": "仓位位置",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6751,36 +6765,36 @@
         "setupVisible": true
       },
       "qtyIn": {
-        "original": "Quantity In",
-        "singular": "Quantity In",
+        "original": "入库数量",
+        "singular": "入库数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "qtyOut": {
-        "original": "Quantity Out",
-        "singular": "Quantity Out",
+        "original": "出库数量",
+        "singular": "出库数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "adjusted": {
-        "original": "Adjusted",
-        "singular": "Adjusted",
+        "original": "调整",
+        "singular": "调整",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "reorderQty": {
-        "original": "Reorder Quantity",
-        "singular": "Reorder Quantity",
+        "original": "重新订购数量",
+        "singular": "重新订购数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "understock": {
-        "original": "Understock",
-        "singular": "Understock",
+        "original": "库存不足",
+        "singular": "库存不足",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6793,8 +6807,8 @@
         "setupVisible": true
       },
       "inventoryNo": {
-        "original": "Inventory No",
-        "singular": "Inventory No",
+        "original": "库存编号",
+        "singular": "库存编号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6807,71 +6821,71 @@
         "setupVisible": true
       },
       "qtyAvailable": {
-        "original": "Quantity Available",
-        "singular": "Quantity Available",
+        "original": "可用数量",
+        "singular": "可用数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "qtyTransfer": {
-        "original": "Quantity to Transfer",
-        "singular": "Quantity to Transfer",
+        "original": "转移数量",
+        "singular": "转移数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "reorderPoint": {
-        "original": "Reorder Point",
-        "singular": "Reorder Point",
+        "original": "重新订购点",
+        "singular": "重新订购点",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "zone": {
-        "original": "Zone",
-        "singular": "Zone",
+        "original": "区域",
+        "singular": "区域",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "bin": {
-        "original": "Bin",
-        "singular": "Bin",
+        "original": "仓位",
+        "singular": "仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "fromBin": {
-        "original": "From Bin",
-        "singular": "From Bin",
+        "original": "从仓位",
+        "singular": "从仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "toBin": {
-        "original": "To Bin",
-        "singular": "To Bin",
+        "original": "到仓位",
+        "singular": "到仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "displayName": {
-        "original": "Display Name",
-        "singular": "Display Name",
+        "original": "显示名称",
+        "singular": "显示名称",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "userName": {
-        "original": "User Name",
-        "singular": "User Name",
+        "original": "用户名",
+        "singular": "用户名",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "transferNo": {
-        "original": "Transfer No.",
-        "singular": "Transfer No.",
+        "original": "转移编号",
+        "singular": "转移编号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6884,8 +6898,8 @@
         "setupVisible": true
       },
       "referenceNumber": {
-        "original": "Reference Number",
-        "singular": "Reference Number",
+        "original": "参考编号",
+        "singular": "参考编号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6898,15 +6912,15 @@
         "setupVisible": true
       },
       "transferredBy": {
-        "original": "Transferred By",
-        "singular": "Transferred By",
+        "original": "转移者",
+        "singular": "转移者",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "assignedStatus": {
-        "original": "Assigned Status",
-        "singular": "Assigned Status",
+        "original": "分配状态",
+        "singular": "分配状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6919,15 +6933,15 @@
         "setupVisible": true
       },
       "transferredDateTime": {
-        "original": "Transferred Date & Time",
-        "singular": "Transferred Date & Time",
+        "original": "转移日期和时间",
+        "singular": "转移日期和时间",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "acceptRejectBy": {
-        "original": "Accepted/Rejected By",
-        "singular": "Accepted/Rejected By",
+        "original": "接受/拒绝者",
+        "singular": "接受/拒绝者",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -6938,28 +6952,49 @@
         "plural": "备注",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "assetType": {
+        "original": "资产类型",
+        "singular": "资产类型",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "productType": {
+        "original": "产品类型",
+        "singular": "产品类型",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "productFamily": {
+        "original": "产品系列",
+        "singular": "产品系列",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {
-      "pleaseSelectOne":"Please select one product or one asset"
-  },
-  "validationBE": {
-    "requiredField": "Required Field",
-    "invalidPhoneNumber": "Invalid Phone Number",
-    "invalidEmailFormat": "Invalid Email Format"
-  },
-  "messages": {
-    "selectLocation": "Select Location",
-    "selectZone": "Select Zone",
-    "selectBin": "Select Bin",
-    "selectUserBin": "Select User Bin",
-    "searchProduct": "Search Product",
-    "searchAsset": "Search Asset",
-    "selectType": "Select Type",
-    "selectFamily": "Select Family",
-    "pleaseSelectOneFilter": "Please select at least one filter",
-    "availableOtherLocations":"available in other locations"
-  }
+      "pleaseSelectOne": "请选择一个产品或资产"
+    },
+    "validationBE": {
+      "requiredField": "必填字段",
+      "invalidPhoneNumber": "无效的电话号码",
+      "invalidEmailFormat": "无效的电子邮件格式"
+    },
+    "messages": {
+      "selectLocation": "选择位置",
+      "selectZone": "选择区域",
+      "selectBin": "选择仓位",
+      "selectUserBin": "选择用户仓位",
+      "searchProduct": "搜索产品",
+      "searchAsset": "搜索资产",
+      "selectType": "选择类型",
+      "selectFamily": "选择系列",
+      "pleaseSelectOneFilter": "请至少选择一个筛选条件",
+      "availableOtherLocations": "在其他位置可用"
+    }
   },
   "bin": {
     "setupVisible": true,

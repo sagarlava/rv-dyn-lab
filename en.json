@@ -9158,6 +9158,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "acknowledge": {
+        "original": "Acknowledge",
+        "singular": "Acknowledge",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "copyCode": {
         "original": "Copy Code",
         "singular": "Copy Code",
@@ -9336,6 +9343,20 @@
       "submit": {
         "original": "Submit",
         "singular": "Submit",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "submitForAcknowledge": {
+        "original": "Submit For Acknowledge",
+        "singular": "Submit For Acknowledge",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sendEmail": {
+        "original": "Send Email",
+        "singular": "Send Email",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -9822,6 +9843,13 @@
       "approve": {
         "original": "Approve",
         "singular": "Approve",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "acknowledge": {
+        "original": "Acknowledge",
+        "singular": "Acknowledge",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

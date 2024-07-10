@@ -779,8 +779,8 @@
   "assetLog": {
     "setupVisible": true,
     "label": {
-      "original": "Asset Log",
-      "singular": "Asset Log",
+      "original": "资产日志",
+      "singular": "资产日志",
       "plural": "",
       "setupEdit": true,
       "setupVisible": true
@@ -788,22 +788,22 @@
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "Log Details",
-        "singular": "Log Details",
+        "original": "日志详情",
+        "singular": "日志详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
-        "original": "New Entry",
-        "singular": "New Entry",
+        "original": "新条目",
+        "singular": "新条目",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "Filter By",
-        "singular": "Filter By",
+        "original": "筛选条件",
+        "singular": "筛选条件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -812,96 +812,96 @@
     "fields": {
       "setupVisible": true,
       "currentReading": {
-        "original": "Current Reading",
-        "singular": "Current Reading",
+        "original": "当前读数",
+        "singular": "当前读数",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "logDate": {
-        "original": "Log Date",
-        "singular": "Log Date",
+        "original": "日志日期",
+        "singular": "日志日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "logDateTime": {
-        "original": "Log Date & Time",
-        "singular": "Log Date & Time",
+        "original": "日志日期和时间",
+        "singular": "日志日期和时间",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "modifiedBy": {
-        "original": "Modified By",
-        "singular": "Modified By",
+        "original": "修改者",
+        "singular": "修改者",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "modifiedDateTime": {
-        "original": "Modified Date & Time",
-        "singular": "Modified Date & Time",
+        "original": "修改日期和时间",
+        "singular": "修改日期和时间",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newValue": {
-        "original": "New Value",
-        "singular": "New Value",
+        "original": "新值",
+        "singular": "新值",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "oldValue": {
-        "original": "Old Value",
-        "singular": "Old Value",
+        "original": "旧值",
+        "singular": "旧值",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newMeterReading": {
-        "original": "New Meter Reading",
-        "singular": "New Meter Reading",
+        "original": "新仪表读数",
+        "singular": "新仪表读数",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
-    }, 
+    },
     "messages": {
-      "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
-      "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
-      "entryCannotBeNegativeValue": "Entry cannot be made with minus values"
+      "resetMeterForLowerReading": "如果您的新仪表读数小于当前读数，请选择“重置仪表”",
+      "futureDateTimeEntryNotAllowed": "不能输入未来的日期和时间",
+      "entryCannotBeNegativeValue": "不能输入负值"
     }
   },
-  "accessories": {
+ "accessories": {
     "setupVisible": true,
     "label": {
-      "original": "Accessories",
-      "singular": "Accessory",
-      "plural": "Accessories",
+      "original": "配件",
+      "singular": "配件",
+      "plural": "配件",
       "setupEdit": true,
       "setupVisible": true
     },
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "Accessory Details",
-        "singular": "Accessory Details",
+        "original": "配件详情",
+        "singular": "配件详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
-        "original": "Select an accessory to be added to the contract",
-        "singular": "Select an accessory to be added to the contract",
+        "original": "选择要添加到合同的配件",
+        "singular": "选择要添加到合同的配件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "Select Bin to transfer from",
-        "singular": "Select Bin to transfer from",
+        "original": "选择要转移的仓位",
+        "singular": "选择要转移的仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -910,71 +910,71 @@
     "fields": {
       "setupVisible": true,
       "assetName": {
-        "original": "Machine Name",
-        "singular": "Machine Name",
+        "original": "资产名称",
+        "singular": "资产名称",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "assetCode": {
-        "original": "Machine Code",
-        "singular": "Machine Code",
+        "original": "资产代码",
+        "singular": "资产代码",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "serialNo": {
-        "original": "Serial No",
-        "singular": "Serial No",
+        "original": "序列号",
+        "singular": "序列号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "serialNumber": {
-        "original": "Serial Number",
-        "singular": "Serial Number",
+        "original": "序列号",
+        "singular": "序列号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "qty": {
-        "original": "Qty",
-        "singular": "Qty",
+        "original": "数量",
+        "singular": "数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "quantity": {
-        "original": "Quantity",
-        "singular": "Quantity",
+        "original": "数量",
+        "singular": "数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "accessoryName": {
-        "original": "Accessory Name",
-        "singular": "Accessory Name",
+        "original": "配件名称",
+        "singular": "配件名称",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "accessoryCode": {
-        "original": "Accessory Code",
-        "singular": "Accessory Code",
+        "original": "配件代码",
+        "singular": "配件代码",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "status": {
-        "original": "Status",
-        "singular": "Status",
+        "original": "状态",
+        "singular": "状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "bin": {
-        "original": "Bin",
-        "singular": "Bin",
+        "original": "仓位",
+        "singular": "仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -983,15 +983,15 @@
     "tooltip": {
       "setupVisible": true,
       "accessoryLookup": {
-        "original": "Accessory Lookup",
-        "singular": "Accessory Lookup",
+        "original": "配件查询",
+        "singular": "配件查询",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
-    "messages":{
-      "quantityCantBeZero":"Quantity Cannot be Zero"
+    "messages": {
+      "quantityCantBeZero": "数量不能为零"
     }
   },
   "maintenance": {

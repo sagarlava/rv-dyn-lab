@@ -856,8 +856,8 @@
   "assetLog": {
     "setupVisible": true,
     "label": {
-      "original": "Asset Log",
-      "singular": "Asset Log",
+      "original": "Log Aset",
+      "singular": "Log Aset",
       "plural": "",
       "setupEdit": true,
       "setupVisible": true
@@ -865,22 +865,22 @@
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "Log Details",
-        "singular": "Log Details",
+        "original": "Butiran Log",
+        "singular": "Butiran Log",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
-        "original": "New Entry",
-        "singular": "New Entry",
+        "original": "Entri Baru",
+        "singular": "Entri Baru",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "Filter By",
-        "singular": "Filter By",
+        "original": "Tapis Mengikut",
+        "singular": "Tapis Mengikut",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -889,96 +889,96 @@
     "fields": {
       "setupVisible": true,
       "currentReading": {
-        "original": "Current Reading",
-        "singular": "Current Reading",
+        "original": "Bacaan Semasa",
+        "singular": "Bacaan Semasa",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "logDate": {
-        "original": "Log Date",
-        "singular": "Log Date",
+        "original": "Tarikh Log",
+        "singular": "Tarikh Log",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "logDateTime": {
-        "original": "Log Date & Time",
-        "singular": "Log Date & Time",
+        "original": "Tarikh & Masa Log",
+        "singular": "Tarikh & Masa Log",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "modifiedBy": {
-        "original": "Modified By",
-        "singular": "Modified By",
+        "original": "Diubah Oleh",
+        "singular": "Diubah Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "modifiedDateTime": {
-        "original": "Modified Date & Time",
-        "singular": "Modified Date & Time",
+        "original": "Tarikh & Masa Diubah",
+        "singular": "Tarikh & Masa Diubah",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newValue": {
-        "original": "New Value",
-        "singular": "New Value",
+        "original": "Nilai Baru",
+        "singular": "Nilai Baru",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "oldValue": {
-        "original": "Old Value",
-        "singular": "Old Value",
+        "original": "Nilai Lama",
+        "singular": "Nilai Lama",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newMeterReading": {
-        "original": "New Meter Reading",
-        "singular": "New Meter Reading",
+        "original": "Bacaan Meter Baru",
+        "singular": "Bacaan Meter Baru",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
     "messages": {
-      "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
-      "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
-      "entryCannotBeNegativeValue": "Entry cannot be made with minus values"
+      "resetMeterForLowerReading": "Pilih 'Tetapkan Semula Meter' jika bacaan meter baru anda lebih kecil daripada bacaan semasa",
+      "futureDateTimeEntryNotAllowed": "Entri tidak boleh dibuat untuk tarikh dan masa hadapan",
+      "entryCannotBeNegativeValue": "Entri tidak boleh dibuat dengan nilai negatif"
     }
   },
   "accessories": {
     "setupVisible": true,
     "label": {
-      "original": "Accessories",
-      "singular": "Accessory",
-      "plural": "Accessories",
+      "original": "Aksesori",
+      "singular": "Aksesori",
+      "plural": "Aksesori",
       "setupEdit": true,
       "setupVisible": true
     },
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "Accessory Details",
-        "singular": "Accessory Details",
+        "original": "Butiran Aksesori",
+        "singular": "Butiran Aksesori",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
-        "original": "Select an accessory to be added to the contract",
-        "singular": "Select an accessory to be added to the contract",
+        "original": "Pilih aksesori untuk ditambah ke kontrak",
+        "singular": "Pilih aksesori untuk ditambah ke kontrak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "Select Bin to transfer from",
-        "singular": "Select Bin to transfer from",
+        "original": "Pilih Bin untuk dipindahkan dari",
+        "singular": "Pilih Bin untuk dipindahkan dari",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -987,57 +987,57 @@
     "fields": {
       "setupVisible": true,
       "assetName": {
-        "original": "Machine Name",
-        "singular": "Machine Name",
+        "original": "Nama Aset",
+        "singular": "Nama Aset",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "assetCode": {
-        "original": "Machine Code",
-        "singular": "Machine Code",
+        "original": "Kod Aset",
+        "singular": "Kod Aset",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "serialNo": {
-        "original": "Serial No",
-        "singular": "Serial No",
+        "original": "No Siri",
+        "singular": "No Siri",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "serialNumber": {
-        "original": "Serial Number",
-        "singular": "Serial Number",
+        "original": "Nombor Siri",
+        "singular": "Nombor Siri",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "qty": {
-        "original": "Qty",
-        "singular": "Qty",
+        "original": "Kuantiti",
+        "singular": "Kuantiti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "quantity": {
-        "original": "Quantity",
-        "singular": "Quantity",
+        "original": "Kuantiti",
+        "singular": "Kuantiti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "accessoryName": {
-        "original": "Accessory Name",
-        "singular": "Accessory Name",
+        "original": "Nama Aksesori",
+        "singular": "Nama Aksesori",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "accessoryCode": {
-        "original": "Accessory Code",
-        "singular": "Accessory Code",
+        "original": "Kod Aksesori",
+        "singular": "Kod Aksesori",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1060,15 +1060,15 @@
     "tooltip": {
       "setupVisible": true,
       "accessoryLookup": {
-        "original": "Accessory Lookup",
-        "singular": "Accessory Lookup",
+        "original": "Carian Aksesori",
+        "singular": "Carian Aksesori",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
     "messages": {
-      "quantityCantBeZero": "Quantity Cannot be Zero"
+      "quantityCantBeZero": "Kuantiti Tidak Boleh Kosong"
     }
   },
   "maintenance": {

@@ -8695,37 +8695,37 @@
     "sections": {
       "setupVisible": false,
       "sec0": {
-        "original": "Service",
-        "singular": "Service",
-        "plural": "Services",
+        "original": "Perkhidmatan",
+        "singular": "Perkhidmatan",
+        "plural": "Perkhidmatan",
         "setupEdit": true,
         "setupVisible": false
       },
       "sec1": {
-        "original": "Fleet",
-        "singular": "Fleet",
+        "original": "Armada",
+        "singular": "Armada",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "sec2": {
-        "original": "Notifications",
-        "singular": "Notification",
-        "plural": "Notifications",
+        "original": "Notifikasi",
+        "singular": "Notifikasi",
+        "plural": "Notifikasi",
         "setupEdit": true,
         "setupVisible": false
       },
       "sec3": {
-        "original": "Profile Settings",
-        "singular": "Profile Setting",
-        "plural": "Profile Settings",
+        "original": "Tetapan Profil",
+        "singular": "Tetapan Profil",
+        "plural": "Tetapan Profil",
         "setupEdit": true,
         "setupVisible": false
       },
       "sec4": {
-        "original": "Languages",
-        "singular": "Language",
-        "plural": "Languages",
+        "original": "Bahasa",
+        "singular": "Bahasa",
+        "plural": "Bahasa",
         "setupEdit": true,
         "setupVisible": false
       }
@@ -8733,92 +8733,94 @@
     "fields": {
       "setupVisible": false,
       "service": {
-        "original": "Service",
-        "singular": "Service",
-        "plural": "Services",
+        "original": "Perkhidmatan",
+        "singular": "Perkhidmatan",
+        "plural": "Perkhidmatan",
         "setupEdit": true,
         "setupVisible": false
       },
       "fleet": {
-        "original": "Fleet",
-        "singular": "Fleet",
+        "original": "Armada",
+        "singular": "Armada",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "notifications": {
-        "original": "Notification",
-        "singular": "Notification",
-        "plural": "Notifications",
+        "original": "Notifikasi",
+        "singular": "Notifikasi",
+        "plural": "Notifikasi",
         "setupEdit": true,
         "setupVisible": false
       },
       "profileSettings": {
-        "original": "Profile Settings",
-        "singular": "Profile Setting",
-        "plural": "Profile Settings",
+        "original": "Tetapan Profil",
+        "singular": "Tetapan Profil",
+        "plural": "Tetapan Profil",
         "setupEdit": true,
         "setupVisible": false
       },
       "languages": {
-        "original": "Languages",
-        "singular": "Language",
-        "plural": "Languages",
+        "original": "Bahasa",
+        "singular": "Bahasa",
+        "plural": "Bahasa",
         "setupEdit": true,
         "setupVisible": false
       },
       "logOut": {
-        "original": "Log out",
-        "singular": "Log out",
+        "original": "Log Keluar",
+        "singular": "Log Keluar",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "english": {
-        "original": "English",
-        "singular": "English",
+        "original": "Bahasa Inggeris",
+        "singular": "Bahasa Inggeris",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "malay": {
-        "original": "Malay",
-        "singular": "Malay",
+        "original": "Bahasa Melayu",
+        "singular": "Bahasa Melayu",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "chinese": {
-        "original": "Chinese",
-        "singular": "Chinese",
+        "original": "Bahasa Cina",
+        "singular": "Bahasa Cina",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "myProfile": {
-        "original": "My Profile",
-        "singular": "My Profile",
+        "original": "Profil Saya",
+        "singular": "Profil Saya",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "goOnline": {
-        "original": "Go Online",
-        "singular": "Go Online",
+        "original": "Pergi Dalam Talian",
+        "singular": "Pergi Dalam Talian",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "goOffline": {
-        "original": "Go Offline",
-        "singular": "Go Offline",
+        "original": "Pergi Luar Talian",
+        "singular": "Pergi Luar Talian",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       }
     },
-    "messages":{
-      "at":"at"
+    "messages": {
+      "at": "di",
+      "areYouSureToLogout": "Adakah anda pasti mahu log keluar?",
+      "cantLogoutWhileJourneyIsRunning": "Tidak boleh log keluar semasa perjalanan sedang berjalan, sila hentikan perjalanan dahulu"
     }
   },
   "general": {

@@ -8693,8 +8693,8 @@
   "header": {
     "setupVisible": false,
     "label": {
-      "original": "Header",
-      "singular": "Header",
+      "original": "标题",
+      "singular": "标题",
       "plural": "",
       "setupEdit": true,
       "setupVisible": false
@@ -8702,37 +8702,37 @@
     "sections": {
       "setupVisible": false,
       "sec0": {
-        "original": "Service",
-        "singular": "Service",
-        "plural": "Services",
+        "original": "服务",
+        "singular": "服务",
+        "plural": "服务",
         "setupEdit": true,
         "setupVisible": false
       },
       "sec1": {
-        "original": "Fleet",
-        "singular": "Fleet",
+        "original": "车队",
+        "singular": "车队",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "sec2": {
-        "original": "Notifications",
-        "singular": "Notification",
-        "plural": "Notifications",
+        "original": "通知",
+        "singular": "通知",
+        "plural": "通知",
         "setupEdit": true,
         "setupVisible": false
       },
       "sec3": {
-        "original": "Profile Settings",
-        "singular": "Profile Setting",
-        "plural": "Profile Settings",
+        "original": "个人设置",
+        "singular": "个人设置",
+        "plural": "个人设置",
         "setupEdit": true,
         "setupVisible": false
       },
       "sec4": {
-        "original": "Languages",
-        "singular": "Language",
-        "plural": "Languages",
+        "original": "语言",
+        "singular": "语言",
+        "plural": "语言",
         "setupEdit": true,
         "setupVisible": false
       }
@@ -8740,92 +8740,94 @@
     "fields": {
       "setupVisible": false,
       "service": {
-        "original": "Service",
-        "singular": "Service",
-        "plural": "Services",
+        "original": "服务",
+        "singular": "服务",
+        "plural": "服务",
         "setupEdit": true,
         "setupVisible": false
       },
       "fleet": {
-        "original": "Fleet",
-        "singular": "Fleet",
+        "original": "车队",
+        "singular": "车队",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "notifications": {
-        "original": "Notification",
-        "singular": "Notification",
-        "plural": "Notifications",
+        "original": "通知",
+        "singular": "通知",
+        "plural": "通知",
         "setupEdit": true,
         "setupVisible": false
       },
       "profileSettings": {
-        "original": "Profile Settings",
-        "singular": "Profile Setting",
-        "plural": "Profile Settings",
+        "original": "个人设置",
+        "singular": "个人设置",
+        "plural": "个人设置",
         "setupEdit": true,
         "setupVisible": false
       },
       "languages": {
-        "original": "Languages",
-        "singular": "Language",
-        "plural": "Languages",
+        "original": "语言",
+        "singular": "语言",
+        "plural": "语言",
         "setupEdit": true,
         "setupVisible": false
       },
       "logOut": {
-        "original": "Log out",
-        "singular": "Log out",
+        "original": "登出",
+        "singular": "登出",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "english": {
-        "original": "English",
-        "singular": "English",
+        "original": "英语",
+        "singular": "英语",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "malay": {
-        "original": "Malay",
-        "singular": "Malay",
+        "original": "马来语",
+        "singular": "马来语",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "chinese": {
-        "original": "Chinese",
-        "singular": "Chinese",
+        "original": "中文",
+        "singular": "中文",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "myProfile": {
-        "original": "My Profile",
-        "singular": "My Profile",
+        "original": "我的资料",
+        "singular": "我的资料",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "goOnline": {
-        "original": "Go Online",
-        "singular": "Go Online",
+        "original": "上线",
+        "singular": "上线",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "goOffline": {
-        "original": "Go Offline",
-        "singular": "Go Offline",
+        "original": "离线",
+        "singular": "离线",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       }
     },
-    "messages":{
-      "at":"at"
+    "messages": {
+      "at": "在",
+      "areYouSureToLogout": "您确定要登出吗？",
+      "cantLogoutWhileJourneyIsRunning": "行程运行时无法登出，请先停止行程"
     }
   },
   "general": {

@@ -1142,8 +1142,8 @@
         "setupVisible": true
       },
       "endTime": {
-        "original": "End Time",
-        "singular": "End Time",
+        "original": "Masa Tamat",
+        "singular": "Masa Tamat",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1267,8 +1267,8 @@
     },
     "messages": {
       "maintenanceAppliesToAllContractAssets": "Penyelenggaraan ini akan dijalankan ke atas semua Aset dalam Kontrak ini",
-      "unableSetStatusActive": "Cannot set status to 'Active' with a past end date",
-      "startDateNotGreaterThenEnd": "Start date should not be greater than end date"
+       "unableSetStatusActive": "Tidak dapat menetapkan status kepada 'Aktif' dengan tarikh tamat yang lalu",
+    "startDateNotGreaterThenEnd": "Tarikh mula tidak sepatutnya lebih besar daripada tarikh tamat"
     }
   },
   "preventiveMaintenance": {

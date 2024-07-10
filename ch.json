@@ -776,7 +776,7 @@
       "from":"From"
     }
   }, 
-  "assetLog": {
+ "assetLog": {
     "setupVisible": true,
     "label": {
       "original": "资产日志",
@@ -1065,8 +1065,8 @@
         "setupVisible": true
       },
       "endTime": {
-        "original": "End Time",
-        "singular": "End Time",
+        "original": "结束时间",
+        "singular": "结束时间",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1189,8 +1189,8 @@
     },
     "messages": {
       "maintenanceAppliesToAllContractAssets": "此维护将适用于本合同内的所有资产",
-      "unableSetStatusActive": "Cannot set status to 'Active' with a past end date",
-      "startDateNotGreaterThenEnd": "Start date should not be greater than end date"
+      "unableSetStatusActive": "结束日期在过去，无法将状态设置为“激活”",
+      "startDateNotGreaterThenEnd": "开始日期不应晚于结束日期"    
     }
   },
   "preventiveMaintenance": {

@@ -7988,6 +7988,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "itemNo": {
+        "original": "Item No.",
+        "singular": "Item No.",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "quantity": {
         "original": "Quantity",
         "singular": "Quantity",
@@ -8669,7 +8676,8 @@
       "invalidFileSize": "Invalid file size",
       "allowedFileSize": "File size should be less than 25MB",
       "cannotFindFile":"Cannot find filename and filetype",
-      "pdfNotAvailable": "Sorry! PDF is not available"
+      "pdfNotAvailable": "Sorry! PDF is not available",
+      "invalidFileType":"Invalid file type. Only image files (.jpg, .png, .svg, etc.) can be uploaded."
     }
   },
   "history": {

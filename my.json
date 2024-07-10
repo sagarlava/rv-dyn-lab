@@ -7541,73 +7541,73 @@
   "requisition": {
     "setupVisible": true,
     "label": {
-      "original": "Requisition",
-      "singular": "Requisition",
-      "plural": "Requisitions",
+      "original": "Permintaan",
+      "singular": "Permintaan",
+      "plural": "Permintaan",
       "setupEdit": true,
       "setupVisible": true
     },
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "Pending Approvals",
-        "singular": "Pending Approval",
-        "plural": "Pending Approvals",
+        "original": "Kelulusan Tertunda",
+        "singular": "Kelulusan Tertunda",
+        "plural": "Kelulusan Tertunda",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
-        "original": "Requisition Details",
-        "singular": "Requisition Details",
+        "original": "Butiran Permintaan",
+        "singular": "Butiran Permintaan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "On-Behalf Approval",
-        "singular": "On-Behalf Approval",
+        "original": "Kelulusan Bagi Pihak",
+        "singular": "Kelulusan Bagi Pihak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
-        "original": "Acknowledge By",
-        "singular": "Acknowledge By",
+        "original": "Diakui Oleh",
+        "singular": "Diakui Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
-        "original": "Verified By",
-        "singular": "Verified By",
+        "original": "Disahkan Oleh",
+        "singular": "Disahkan Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec5": {
-        "original": "HOD Approved By",
-        "singular": "HOD Approved By",
+        "original": "Diluluskan oleh HOD",
+        "singular": "Diluluskan oleh HOD",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec6": {
-        "original": "Requisition Item Details",
-        "singular": "Requisition Item Details",
+        "original": "Butiran Item Permintaan",
+        "singular": "Butiran Item Permintaan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec7": {
-        "original": "Requisition Item",
-        "singular": "Requisition Item",
+        "original": "Item Permintaan",
+        "singular": "Item Permintaan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec8": {
-        "original": "Details",
-        "singular": "Details",
+        "original": "Butiran",
+        "singular": "Butiran",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7616,8 +7616,8 @@
     "fields": {
       "setupVisible": true,
       "priority": {
-        "original": "Priority",
-        "singular": "Priority",
+        "original": "Keutamaan",
+        "singular": "Keutamaan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7625,209 +7625,209 @@
       "status": {
         "original": "Status",
         "singular": "Status",
-        "plural": "Statuses",
+        "plural": "Status",
         "setupEdit": true,
         "setupVisible": true
       },
       "company": {
-        "original": "Company",
-        "singular": "Company",
+        "original": "Syarikat",
+        "singular": "Syarikat",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "stateRefNo": {
-        "original": "State Ref No:",
-        "singular": "State Ref No:",
+        "original": "No Rujukan Negeri:",
+        "singular": "No Rujukan Negeri:",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "from": {
-        "original": "From",
-        "singular": "From",
+        "original": "Dari",
+        "singular": "Dari",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "m4dbRefNo": {
-        "original": "M4DB Ref No:",
-        "singular": "M4DB Ref No:",
+        "original": "No Rujukan M4DB:",
+        "singular": "No Rujukan M4DB:",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "requisitionFor": {
-        "original": "Requisition For",
-        "singular": "Requisition For",
+        "original": "Permintaan Untuk",
+        "singular": "Permintaan Untuk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "other": {
-        "original": "Other",
-        "singular": "Other",
+        "original": "Lain-lain",
+        "singular": "Lain-lain",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "date": {
-        "original": "Date",
-        "singular": "Date",
+        "original": "Tarikh",
+        "singular": "Tarikh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "approvedBy": {
-        "original": "Approved By",
-        "singular": "Approved By",
+        "original": "Diluluskan Oleh",
+        "singular": "Diluluskan Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "approvedDate": {
-        "original": "Approved Date",
-        "singular": "Approved Date",
+        "original": "Tarikh Diluluskan",
+        "singular": "Tarikh Diluluskan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "uploadSignedCopy": {
-        "original": "Upload Signed Copy",
-        "singular": "Upload Signed Copy",
+        "original": "Muat Naik Salinan Bertandatangan",
+        "singular": "Muat Naik Salinan Bertandatangan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "acknowledgedDate": {
-        "original": "Acknowledge Date",
-        "singular": "Acknowledge Date",
+        "original": "Tarikh Diakui",
+        "singular": "Tarikh Diakui",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "verifiedBy": {
-        "original": "Verified By",
-        "singular": "Verified By",
+        "original": "Disahkan Oleh",
+        "singular": "Disahkan Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "verificationStatus": {
-        "original": "Verification Status",
-        "singular": "Verification Status",
+        "original": "Status Pengesahan",
+        "singular": "Status Pengesahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "verifiedDate": {
-        "original": "Verified Date",
-        "singular": "Verified Date",
+        "original": "Tarikh Disahkan",
+        "singular": "Tarikh Disahkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "verifierComment": {
-        "original": "Verifier Comment",
-        "singular": "Verifier Comment",
+        "original": "Komen Pengesah",
+        "singular": "Komen Pengesah",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "submitToHod": {
-        "original": "Submit to HOD",
-        "singular": "Submit to HOD",
+        "original": "Hantar kepada HOD",
+        "singular": "Hantar kepada HOD",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "hodVerifiedBy": {
-        "original": "HOD Verified By",
-        "singular": "HOD Verified By",
+        "original": "Disahkan oleh HOD",
+        "singular": "Disahkan oleh HOD",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "hodApprovalStatus": {
-        "original": "HOD Approval Status",
-        "singular": "HOD Approval Status",
+        "original": "Status Kelulusan HOD",
+        "singular": "Status Kelulusan HOD",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "hodComment": {
-        "original": "HOD Comment",
-        "singular": "HOD Comment",
+        "original": "Komen HOD",
+        "singular": "Komen HOD",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "type": {
-        "original": "Type",
-        "singular": "Type",
-        "plural": "Types",
+        "original": "Jenis",
+        "singular": "Jenis",
+        "plural": "Jenis",
         "setupEdit": true,
         "setupVisible": true
       },
       "serialNumber": {
-        "original": "Serial Number",
-        "singular": "Serial Number",
+        "original": "Nombor Siri",
+        "singular": "Nombor Siri",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "partNumber": {
-        "original": "Part Number",
-        "singular": "Part Number",
+        "original": "Nombor Bahagian",
+        "singular": "Nombor Bahagian",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "otherItem": {
-        "original": "Other Item",
-        "singular": "Other Item",
+        "original": "Item Lain",
+        "singular": "Item Lain",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "itemName": {
-        "original": "Item Name",
-        "singular": "Item Name",
+        "original": "Nama Item",
+        "singular": "Nama Item",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "itemNo": {
-        "original": "Item No.",
-        "singular": "Item No.",
+        "original": "No. Item",
+        "singular": "No. Item",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "quantity": {
-        "original": "Quantity",
-        "singular": "Quantity",
+        "original": "Kuantiti",
+        "singular": "Kuantiti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "description": {
-        "original": "Description",
-        "singular": "Description",
+        "original": "Penerangan",
+        "singular": "Penerangan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "verificationComment": {
-        "original": "Verification Comment",
-        "singular": "Verification Comment",
+        "original": "Komen Pengesahan",
+        "singular": "Komen Pengesahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "picToNotify": {
-        "original": "PIC To Notify",
-        "singular": "PIC To Notify",
+        "original": "PIC Untuk Diberitahu",
+        "singular": "PIC Untuk Diberitahu",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7836,25 +7836,25 @@
     "tooltips": {
       "setupVisble": true,
       "assetSerialNoLookup": {
-        "original": "Asset Serial No. Lookup",
-        "singular": "Asset Serial No. Lookup",
+        "original": "Carian No Siri Aset",
+        "singular": "Carian No Siri Aset",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productPartNoLookup": {
-        "original": "Product Part No. Lookup",
-        "singular": "Product Part No. Lookup",
+        "original": "Carian No Bahagian Produk",
+        "singular": "Carian No Bahagian Produk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
     "messages": {
-      "selectPriority": "Select Priority",
-      "selectType": "Select Type",
-      "selectCompany": "Select Company",
-      "selectUser": "Select User"
+      "selectPriority": "Pilih Keutamaan",
+      "selectType": "Pilih Jenis",
+      "selectCompany": "Pilih Syarikat",
+      "selectUser": "Pilih Pengguna"
     }
   },
   "contacts": {

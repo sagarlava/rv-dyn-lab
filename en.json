@@ -2184,11 +2184,13 @@
       "doYouWantToCheckInTheTask":"Do you want to check-in to the task?",
       "unableToFindLocation": "Unable to find location, please try again",
       "couldNotFetchRoute":"Could not fetch route",
-      "currentLocationNotResolvedYet":"Current Location is not resolved yet",
+      "currentLocationNotResolvedYet":"Current Location is not resolved yet, Please Allow Location",
       "googleMapIsNotInstalled":"Google Map is not installed",
       "wazeIsNotInstalled":"Waze is not installed",
       "totalDistanceTravelled":"Total distance travelled",
-      "totalTimeSpent":"Total time spent"
+      "totalTimeSpent":"Total time spent",
+      "thisTaskCanNotBeDeletedBecauseJourneyIsRunning":"'This task cant be deleted because journeey is running'",
+      "journeyAlreadyRunningForAnotherTask":"Journey already running for another task"
     }
   },
   "product": {
@@ -3554,7 +3556,14 @@
       "mytasks":"My Tasks",
       "tasksToAcceptDecline ":"Tasks to Accept/Decline",
       "noTasksFound" : "No Tasks found",
-      "deleteTask": "Delete Task"
+      "deleteTask": "Delete Task",
+      "selectItemsToDecline": "Select items to decline",
+      "acceptTask":"Accept Task",
+      "declineTask":"Decline Task",
+      "thisTask":"This Task",
+      "thisTaskAndFollowingtasks":"This Task and Following task(s)",
+      "assistanceRequestSentSuccessfully": "Assistance rRequest send Successfully.",
+      "noTasksAssigned":"No Tasks Assigned"
     }
   },
   "site": {
@@ -10221,7 +10230,10 @@
       "deleteAttachment": "Delete Attachment",
       "online":"Online",
       "offline":"Offline",
-      "pleaseCheckYourInternetConnection": "Please check your internet connection"
+      "pleaseCheckYourInternetConnection": "Please check your internet connection",
+      "youDontHaveReportingManager":"You don't have a reporting manager, Please contact your admin",
+      "thereAreNoTasksWithLocation":"There are no tasks with location to display in map",
+      "reasonOptional": "Reason (Optional)"
 
     },
     "location": {
@@ -17207,6 +17219,27 @@
       }
     }
   },
+
+  "mobileDashboardd":{
+    "setupVisible": false,
+    "label": {
+      "original": "Home",
+      "singular": "Home",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "messages":{
+      "pendingJobOrders" : "Pending Job Orders",
+      "todaysTasks" : "Today's Tasks",
+      "tasksToAcceptDecline" : "Tasks to Accept/Decline",
+      "assignedTasks" : "Assigned Tasks",
+      "journetPlanManagement":"Journey Plan Management",
+      "CreateTask":"Create Task!",
+      "looksYouAreOutOfTasks":"Looks you are out of tasks today."
+    }
+  },
+
   "dashboard": {
     "setupVisible": false,
     "label": {
@@ -17386,11 +17419,7 @@
         }
       }, 
       "messages": {
-        "searchJobOrders" : "Search Job Orders",
-        "pendingJobOrders" : "Pending Job Orders",
-        "todaysTasks" : "Today's Tasks",
-        "tasksToAcceptDecline" : "Tasks to Accept/Decline",
-        "assignedTasks" : "Assigned Tasks"
+        "searchJobOrders" : "Search Job Orders"
 
       }
     },

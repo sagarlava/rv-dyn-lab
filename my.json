@@ -951,6 +951,54 @@
       "entryCannotBeNegativeValue": "Entri tidak boleh dibuat dengan nilai negatif"
     }
   },
+  "vanLog": {
+    "setupVisible": true,
+    "label": {
+      "original": "Log Van",
+      "singular": "Log Van",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "fields": {
+      "setupVisible": true,
+      "vanLogId": {
+        "original": "ID Log Van",
+        "singular": "ID Log Van",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "technician": {
+        "original": "Juruteknik",
+        "singular": "Juruteknik",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromLocation": {
+        "original": "Lokasi Dari",
+        "singular": "Lokasi Dari",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "endLocation": {
+        "original": "Lokasi Tamat",
+        "singular": "Lokasi Tamat",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    }
+  },
   "accessories": {
     "setupVisible": true,
     "label": {

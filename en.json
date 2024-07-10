@@ -958,6 +958,54 @@
       "entryCannotBeNegativeValue": "Entry cannot be made with minus values"
     }
   },
+  "vanLog":{
+    "setupVisible": true,
+    "label": {
+      "original": "Van Log",
+      "singular": "Van Log",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "fields": {
+      "setupVisible": true,
+      "vanLogId": {
+        "original": "Van Log ID",
+        "singular": "Van Log ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "technician": {
+        "original": "Technician",
+        "singular": "Technician",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromLocation": {
+        "original": "From Location",
+        "singular": "From Location",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "endLocation": {
+        "original": "End Location",
+        "singular": "End Location",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    }
+  },
   "accessories": {
     "setupVisible": true,
     "label": {

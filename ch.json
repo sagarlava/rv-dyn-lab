@@ -874,6 +874,54 @@
       "entryCannotBeNegativeValue": "不能输入负值"
     }
   },
+  "vanLog": {
+    "setupVisible": true,
+    "label": {
+      "original": "货车日志",
+      "singular": "货车日志",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "fields": {
+      "setupVisible": true,
+      "vanLogId": {
+        "original": "货车日志ID",
+        "singular": "货车日志ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "technician": {
+        "original": "技术员",
+        "singular": "技术员",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "fromLocation": {
+        "original": "起始地点",
+        "singular": "起始地点",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "endLocation": {
+        "original": "终点",
+        "singular": "终点",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "状态",
+        "singular": "状态",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    }
+  },
  "accessories": {
     "setupVisible": true,
     "label": {

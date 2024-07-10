@@ -1293,6 +1293,69 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "scheduleNumber": {
+        "original": "Scheduled No",
+        "singular": "Scheduled No",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "scheduledDateTime": {
+        "original": "Scheduled Date",
+        "singular": "Scheduled Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "serviceType": {
+        "original": "Service Type",
+        "singular": "Service Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "other": {
+        "original": "Other",
+        "singular": "Other",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "actualCompletionDateTime": {
+        "original": "Actual Completion Date",
+        "singular": "Actual Completion Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetName": {
+        "original": "Asset Name",
+        "singular": "Asset Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "maintenanceDate": {
+        "original": "Maintenance Date",
+        "singular": "Maintenance Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "generateJobOrder": {
+        "original": "Generate Job Order",
+        "singular": "Generate Job Order",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -1325,7 +1388,11 @@
       "unableSetStatusActive": "Cannot set status to 'Active' with a past end date",
       "startDateNotGreaterThenEnd": "Start date should not be greater than end date",
       "noMaintenanceItemsToDisplay": "No schedule maintenance items to display",
-      "errorFetchingMaintenanceItems": "Error fetching scheduled maintenance items"
+      "errorFetchingMaintenanceItems": "Error fetching scheduled maintenance items",
+      "onlyPendingStatusRecordAllowedToDelete": "Only Pending status records are allowed to delete",
+      "doYouWantToRemoveThisItem": "Do you want to remove this item?",
+      "maintenance" : "Maintenance",
+      "maintenanceDetails" : "Maintenance Details"
     }
   },
   "preventiveMaintenance": {
@@ -2165,11 +2232,13 @@
       "doYouWantToCheckInTheTask":"Do you want to check-in to the task?",
       "unableToFindLocation": "Unable to find location, please try again",
       "couldNotFetchRoute":"Could not fetch route",
-      "currentLocationNotResolvedYet":"Current Location is not resolved yet",
+      "currentLocationNotResolvedYet":"Current Location is not resolved yet, Please Allow Location",
       "googleMapIsNotInstalled":"Google Map is not installed",
       "wazeIsNotInstalled":"Waze is not installed",
       "totalDistanceTravelled":"Total distance travelled",
-      "totalTimeSpent":"Total time spent"
+      "totalTimeSpent":"Total time spent",
+      "thisTaskCanNotBeDeletedBecauseJourneyIsRunning":"'This task cant be deleted because journeey is running'",
+      "journeyAlreadyRunningForAnotherTask":"Journey already running for another task"
     }
   },
   "product": {
@@ -3713,13 +3782,20 @@
       "noTasksFound" : "No Tasks found",
       "deleteTask": "Delete Task",
       "areYouSure":"Are you sure you want to ",
-      "thisTask":"this task?",
+      "areThisTask":"this task?",
       "reasonOptional":"Reason (Optional)",
       "markAsComplete":"Would you like to mark this task as complete?",
       "noUsersInCriteria":"There are no users matching your search criteria!",
       "typeYourNoteHere": "Type your note here",
       "deleted":"Deleted",
-      "take5": "Take 5"
+      "take5": "Take 5",
+      "selectItemsToDecline": "Select items to decline",
+      "acceptTask":"Accept Task",
+      "declineTask":"Decline Task",
+      "thisTask":"This Task",
+      "thisTaskAndFollowingtasks":"This Task and Following task(s)",
+      "assistanceRequestSentSuccessfully": "Assistance rRequest send Successfully.",
+      "noTasksAssigned":"No Tasks Assigned"
     }
   },
   "site": {
@@ -3908,6 +3984,7 @@
       }
     },
     "messages": {
+      "noSitesFound" : "No Sites Found",
       "filterSites" : "Filter Sites"
     }
   },
@@ -4193,9 +4270,23 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "secExtId": {
+        "original": "Second External ID",
+        "singular": "Second External ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "projectNo": {
         "original": "Project No.",
         "singular": "Project No.",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "projectName": {
+        "original": "Project Name",
+        "singular": "Project Name",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -4295,7 +4386,8 @@
       }
     },
     "messages": {
-      "noProjectsFound" : "No Projects Found"
+      "noProjectsFound" : "No Projects Found",
+       "filterProjects" : "Filter Projects"
     }
   },
   "ticket": {
@@ -9685,20 +9777,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "yes": {
-        "original": "Yes",
-        "singular": "Yes",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
-      "no": {
-        "original": "No",
-        "singular": "No",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "ok": {
         "original": "Ok",
         "singular": "Ok",
@@ -10125,7 +10203,21 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
-      }
+      },
+      "yes": {
+        "original": "Yes",
+        "singular": "Yes",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "no": {
+        "original": "No",
+        "singular": "No",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      } 
     },
     "status": {
       "setupVisible": false,
@@ -10484,7 +10576,10 @@
       "online":"Online",
       "offline":"Offline",
       "pleaseCheckYourInternetConnection": "Please check your internet connection",
-      "decline":"Decline"
+      "decline":"Decline",
+      "youDontHaveReportingManager":"You don't have a reporting manager, Please contact your admin",
+      "thereAreNoTasksWithLocation":"There are no tasks with location to display in map",
+      "reasonOptional": "Reason (Optional)"
 
     },
     "location": {
@@ -10533,6 +10628,20 @@
         "sec4": {
           "original": "Location",
           "singular": "Location",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec5": {
+          "original": "Billing Details",
+          "singular": "Billing Details",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec6": {
+          "original": "Shipping Details",
+          "singular": "Shipping Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -10692,7 +10801,9 @@
       "contacts": "Contacts",
       "assets": "Assets",
       "tasks": "Tasks",
-      "attachments": "Attachments"
+      "attachments": "Attachments",
+      "projects": "Projects",
+      "sites": "Sites"
 
     },
     "summary": {
@@ -17454,6 +17565,27 @@
       }
     }
   },
+
+  "mobileDashboard":{
+    "setupVisible": false,
+    "label": {
+      "original": "Home",
+      "singular": "Home",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "messages":{
+      "pendingJobOrders" : "Pending Job Orders",
+      "todaysTasks" : "Today's Tasks",
+      "tasksToAcceptDecline" : "Tasks to Accept/Decline",
+      "assignedTasks" : "Assigned Tasks",
+      "journetPlanManagement":"Journey Plan Management",
+      "CreateTask":"Create Task!",
+      "looksYouAreOutOfTasks":"Looks you are out of tasks today."
+    }
+  },
+
   "dashboard": {
     "setupVisible": false,
     "label": {
@@ -17634,6 +17766,7 @@
       }, 
       "messages": {
         "searchJobOrders" : "Search Job Orders"
+
       }
     },
     "national": {

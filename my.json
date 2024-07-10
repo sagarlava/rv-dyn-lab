@@ -3675,8 +3675,8 @@
         "setupVisible": true
       },
       "description": {
-        "original": "Deskripsi",
-        "singular": "Deskripsi",
+        "original": "Penerangan",
+        "singular": "Penerangan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3689,8 +3689,8 @@
         "setupVisible": true
       },
       "extId": {
-        "original": "ID Luar",
-        "singular": "ID Luar",
+        "original": "ID Luaran",
+        "singular": "ID Luaran",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3710,8 +3710,8 @@
         "setupVisible": true
       },
       "email": {
-        "original": "E-mel",
-        "singular": "E-mel",
+        "original": "Emel",
+        "singular": "Emel",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3738,8 +3738,8 @@
         "setupVisible": true
       },
       "referenceNo": {
-        "original": "Nombor Rujukan",
-        "singular": "Nombor Rujukan",
+        "original": "No. Rujukan",
+        "singular": "No. Rujukan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3771,10 +3771,10 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      }, 
+      },
       "paymentTerm": {
-        "original": "Payment Term",
-        "singular": "Payment Term",
+        "original": "Terma Pembayaran",
+        "singular": "Terma Pembayaran",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3782,9 +3782,9 @@
     },
     "validationFE": {},
     "validationBE": {
-      "requiredField": "Required Field",
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format"
+      "requiredField": "Medan Diperlukan",
+      "invalidPhoneNumber": "Nombor Telefon Tidak Sah",
+      "invalidEmailFormat": "Format Emel Tidak Sah"
     },
     "tooltips": {
       "setupVisible": true,
@@ -3796,7 +3796,9 @@
         "setupVisible": true
       }
     },
-    "messages": {}
+    "messages": {
+      "noProjectsFound": "Tiada Projek Dijumpai"
+    }
   },
   "ticket": {
     "setupVisible": true,

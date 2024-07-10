@@ -3662,8 +3662,8 @@
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "基本信息 ",
-        "singular": "基本信息 ",
+        "original": "一般详情",
+        "singular": "一般详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3676,8 +3676,8 @@
         "setupVisible": true
       },
       "sec2": {
-        "original": "附加信息 ",
-        "singular": "附加信息 ",
+        "original": "附加详情",
+        "singular": "附加详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3690,15 +3690,15 @@
         "setupVisible": true
       },
       "sec4": {
-        "original": "细节",
-        "singular": "细节",
+        "original": "详情",
+        "singular": "详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec5": {
-        "original": "过滤",
-        "singular": "过滤",
+        "original": "筛选条件",
+        "singular": "筛选条件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3707,9 +3707,9 @@
     "fields": {
       "setupVisible": true,
       "category": {
-        "original": "类别 ",
-        "singular": "类别 ",
-        "plural": "类别 ",
+        "original": "类别",
+        "singular": "类别",
+        "plural": "类别",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -3728,8 +3728,8 @@
         "setupVisible": true
       },
       "extId": {
-        "original": "ID Luar",
-        "singular": "ID Luar",
+        "original": "外部ID",
+        "singular": "外部ID",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3742,29 +3742,29 @@
         "setupVisible": true
       },
       "name": {
-        "original": "姓名",
-        "singular": "姓名",
-        "plural": "姓名",
+        "original": "名称",
+        "singular": "名称",
+        "plural": "名称",
         "setupEdit": true,
         "setupVisible": true
       },
       "email": {
-        "original": "电子邮箱",
-        "singular": "电子邮箱",
+        "original": "电子邮件",
+        "singular": "电子邮件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "phone1": {
-        "original": "电话 1",
-        "singular": "电话 1",
+        "original": "电话1",
+        "singular": "电话1",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "phone2": {
-        "original": "电话 2 ",
-        "singular": "电话 2 ",
+        "original": "电话2",
+        "singular": "电话2",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3810,10 +3810,10 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      }, 
+      },
       "paymentTerm": {
-        "original": "Payment Term",
-        "singular": "Payment Term",
+        "original": "付款条款",
+        "singular": "付款条款",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3821,9 +3821,9 @@
     },
     "validationFE": {},
     "validationBE": {
-      "requiredField": "Required Field",
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format"
+      "requiredField": "必填字段",
+      "invalidPhoneNumber": "无效的电话号码",
+      "invalidEmailFormat": "无效的电子邮件格式"
     },
     "tooltips": {
       "setupVisible": true,
@@ -3835,7 +3835,9 @@
         "setupVisible": true
       }
     },
-    "messages": {}
+    "messages": {
+      "noProjectsFound": "未找到项目"
+    }
   },
   "ticket": {
     "setupVisible": true,

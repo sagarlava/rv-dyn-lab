@@ -1527,8 +1527,8 @@
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "基本信息 ",
-        "singular": "基本信息 ",
+        "original": "一般详情",
+        "singular": "一般详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1548,43 +1548,50 @@
         "setupVisible": true
       },
       "sec5": {
-        "original": "选择要添加到合同的附件",
-        "singular": "选择要添加到合同的附件",
+        "original": "选择要添加到合同的配件",
+        "singular": "选择要添加到合同的配件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec6": {
-        "original": "选择要转出的箱子",
-        "singular": "选择要转出的箱子",
+        "original": "选择要转移的仓位",
+        "singular": "选择要转移的仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec7": {
-        "original": "细节",
-        "singular": "细节",
+        "original": "详情",
+        "singular": "详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec8": {
-        "original": "过滤",
-        "singular": "过滤",
+        "original": "筛选条件",
+        "singular": "筛选条件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec9": {
-        "original": "Contract Validity",
-        "singular": "Contract Validity",
+        "original": "合同有效性",
+        "singular": "合同有效性",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec10": {
-        "original": "Cancel Contract",
-        "singular": "Cancel Contract",
+        "original": "取消合同",
+        "singular": "取消合同",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec11": {
+        "original": "合同项目详情",
+        "singular": "合同项目详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1600,8 +1607,8 @@
         "setupVisible": true
       },
       "custodian": {
-        "original": "管理员",
-        "singular": "管理员",
+        "original": "监护人",
+        "singular": "监护人",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1635,22 +1642,22 @@
         "setupVisible": true
       },
       "assetCode": {
-        "original": "资产编码",
-        "singular": "资产编码",
+        "original": "资产代码",
+        "singular": "资产代码",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "accessoryName": {
-        "original": "附件名称",
-        "singular": "附件名称",
+        "original": "配件名称",
+        "singular": "配件名称",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "accessoryCode": {
-        "original": "附件编码",
-        "singular": "附件编码",
+        "original": "配件代码",
+        "singular": "配件代码",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1670,8 +1677,8 @@
         "setupVisible": true
       },
       "bin": {
-        "original": "Bin",
-        "singular": "Bin",
+        "original": "仓位",
+        "singular": "仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1698,8 +1705,8 @@
         "setupVisible": true
       },
       "returnQty": {
-        "original": "退还数量",
-        "singular": "退还数量",
+        "original": "退回数量",
+        "singular": "退回数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1719,8 +1726,8 @@
         "setupVisible": true
       },
       "contractItemNo": {
-        "original": "Contract Item No.",
-        "singular": "Contract Item No.",
+        "original": "合同项目编号",
+        "singular": "合同项目编号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1728,14 +1735,14 @@
     },
     "validationFE": {},
     "validationBE": {
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format",
-      "onlyAlphabetsAllowed": "Only alphabets allowed",
-      "requiredField": "Required Field"
+      "invalidPhoneNumber": "无效的电话号码",
+      "invalidEmailFormat": "无效的电子邮件格式",
+      "onlyAlphabetsAllowed": "只允许字母",
+      "requiredField": "必填字段"
     },
     "tooltips": {
       "setupVisible": true,
-      "contractookup": {
+      "contractLookup": {
         "original": "合同查询",
         "singular": "合同查询",
         "plural": "",
@@ -1744,14 +1751,14 @@
       }
     },
     "messages": {
-      "pleaseSelectAccessoryName": "Please select an Accessory Name",
-      "selectCustomerFirst": "Select customer first",
-      "contractItems": "Contract Items",
-      "contractItem": "Contract Item",
-      "errorFetchingAllContractItems":"Error fetching all contract items.",
-      "errorFetchingContractData": "Error occured while fetching contract data",
-      "selectedQtyGreater":"Selected 'Quantity' is greater than 'Quantity Available'",
-      "removeItems":"Remove items that need to be returned"
+      "pleaseSelectAccessoryName": "请选择配件名称",
+      "selectCustomerFirst": "请先选择客户",
+      "contractItems": "合同项目",
+      "contractItem": "合同项目",
+      "errorFetchingAllContractItems": "获取所有合同项目时出错。",
+      "errorFetchingContractData": "获取合同数据时发生错误",
+      "selectedQtyGreater": "选择的“数量”大于“可用数量”",
+      "removeItems": "移除需要退回的项目"
     }
   },
   "checklist": {

@@ -1485,22 +1485,22 @@
         "setupVisible": true
       },
       "sec9": {
-        "original": "Contract Validity",
-        "singular": "Contract Validity",
+        "original": "Kesahan Kontrak",
+        "singular": "Kesahan Kontrak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec10": {
-        "original": "Cancel Contract",
-        "singular": "Cancel Contract",
+        "original": "Batal Kontrak",
+        "singular": "Batal Kontrak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec11": {
-        "original": "Contract Item Details",
-        "singular": "Contract Item Details",
+        "original": "Butiran Item Kontrak",
+        "singular": "Butiran Item Kontrak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1635,8 +1635,8 @@
         "setupVisible": true
       },
       "contractItemNo": {
-        "original": "Contract Item No.",
-        "singular": "Contract Item No.",
+        "original": "No Item Kontrak",
+        "singular": "No Item Kontrak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1644,30 +1644,30 @@
     },
     "validationFE": {},
     "validationBE": {
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format",
-      "onlyAlphabetsAllowed": "Only alphabets allowed",
-      "requiredField": "Required Field"
+      "invalidPhoneNumber": "Nombor Telefon Tidak Sah",
+      "invalidEmailFormat": "Format E-mel Tidak Sah",
+      "onlyAlphabetsAllowed": "Hanya huruf dibenarkan",
+      "requiredField": "Medan Diperlukan"
     },
     "tooltips": {
       "setupVisible": true,
       "contractLookup": {
-        "original": "Contracts Lookup",
-        "singular": "Contracts Lookup",
+        "original": "Carian Kontrak",
+        "singular": "Carian Kontrak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
     "messages": {
-      "pleaseSelectAccessoryName": "Please select an Accessory Name",
-      "selectCustomerFirst": "Select customer first",
-      "contractItems": "Contract Items",
-      "contractItem": "Contract Item",
-      "errorFetchingAllContractItems":"Error fetching all contract items.",
-      "errorFetchingContractData": "Error occured while fetching contract data",
-      "selectedQtyGreater":"Selected 'Quantity' is greater than 'Quantity Available'",
-      "removeItems":"Remove items that need to be returned"
+      "pleaseSelectAccessoryName": "Sila pilih Nama Aksesori",
+      "selectCustomerFirst": "Pilih pelanggan terlebih dahulu",
+      "contractItems": "Item Kontrak",
+      "contractItem": "Item Kontrak",
+      "errorFetchingAllContractItems": "Ralat semasa mengambil semua item kontrak.",
+      "errorFetchingContractData": "Ralat berlaku semasa mengambil data kontrak",
+      "selectedQtyGreater": "Kuantiti Terpilih lebih besar daripada Kuantiti Tersedia",
+      "removeItems": "Keluarkan item yang perlu dikembalikan"
     }
   },
   "checklist": {

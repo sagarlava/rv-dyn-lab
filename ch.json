@@ -7110,11 +7110,11 @@
       }
     }
   },
-  "binTransfer":{
+  "binTransfer": {
     "setupVisible": true,
     "label": {
-      "original": "Bin Transfer",
-      "singular": "Bin Transfer",
+      "original": "仓位转移",
+      "singular": "仓位转移",
       "plural": "",
       "setupEdit": true,
       "setupVisible": true
@@ -7122,50 +7122,57 @@
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "Transfer Details",
-        "singular": "Transfer Details",
+        "original": "转移详情",
+        "singular": "转移详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
-        "original": "Location Bin Details",
-        "singular": "Location Bin Details",
+        "original": "位置仓位详情",
+        "singular": "位置仓位详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "User Details",
-        "singular": "User Details",
+        "original": "用户详情",
+        "singular": "用户详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
-        "original": "Transfer by Bin",
-        "singular": "Transfer by Bin",
+        "original": "按仓位转移",
+        "singular": "按仓位转移",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
-        "original": "Assignee Details",
-        "singular": "Assignee Details",
+        "original": "受托人详情",
+        "singular": "受托人详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec5": {
-        "original": "Transferred Items",
-        "singular": "Transferred Items",
+        "original": "已转移项目",
+        "singular": "已转移项目",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec6": {
-        "original": "Decline Transfer",
-        "singular": "Decline Transfer",
+        "original": "拒绝转移",
+        "singular": "拒绝转移",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec7": {
+        "original": "按产品转移",
+        "singular": "按产品转移",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7174,50 +7181,50 @@
     "fields": {
       "setupVisible": true,
       "approvalStatus": {
-        "original": "Approval Status",
-        "singular": "Approval Status",
+        "original": "审批状态",
+        "singular": "审批状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "fromBin": {
-        "original": "From Bin",
-        "singular": "From Bin",
+        "original": "从仓位",
+        "singular": "从仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "toBin": {
-        "original": "To Bin",
-        "singular": "To Bin",
+        "original": "到仓位",
+        "singular": "到仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "referenceNumber": {
-        "original": "Reference Number",
-        "singular": "Reference Number",
+        "original": "参考编号",
+        "singular": "参考编号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "notes": {
-        "original": "Notes",
-        "singular": "Note",
-        "plural": "Notes",
+        "original": "备注",
+        "singular": "备注",
+        "plural": "备注",
         "setupEdit": true,
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
-        "singular": "Product Name",
+        "original": "产品名称",
+        "singular": "产品名称",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "assetName": {
-        "original": "Asset Name",
-        "singular": "Asset Name",
+        "original": "资产名称",
+        "singular": "资产名称",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7230,111 +7237,143 @@
         "setupVisible": true
       },
       "qtyAvailable": {
-        "original": "Quantity Available",
-        "singular": "Quantity Available",
+        "original": "可用数量",
+        "singular": "可用数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "qtyTransfer": {
-        "original": "Quantity to Transfer",
-        "singular": "Quantity to Transfer",
+        "original": "转移数量",
+        "singular": "转移数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "transferNo": {
-        "original": "Transfer No.",
-        "singular": "Transfer No.",
+        "original": "转移编号",
+        "singular": "转移编号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "date": {
-        "original": "Date",
-        "singular": "Date",
+        "original": "日期",
+        "singular": "日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "referenceNo": {
-        "original": "Reference Number",
-        "singular": "Reference Number",
+        "original": "参考编号",
+        "singular": "参考编号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "type": {
-        "original": "Type",
-        "singular": "Type",
+        "original": "类型",
+        "singular": "类型",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "transferredBy": {
-        "original": "Transferred By",
-        "singular": "Transferred By",
+        "original": "转移者",
+        "singular": "转移者",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "assignedStatus": {
-        "original": "Assigned Status",
-        "singular": "Assigned Status",
+        "original": "分配状态",
+        "singular": "分配状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "assignedTo": {
-        "original": "Assigned To",
-        "singular": "Assigned To",
+        "original": "分配给",
+        "singular": "分配给",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "transferredDateTime": {
-        "original": "Transferred Date & Time",
-        "singular": "Transferred Date & Time",
+        "original": "转移日期和时间",
+        "singular": "转移日期和时间",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "acceptedRejectedBy": {
-        "original": "Accepted/Rejected By",
-        "singular": "Accepted/Rejected By",
+        "original": "接受/拒绝者",
+        "singular": "接受/拒绝者",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "remarks": {
-        "original": "Remark",
-        "singular": "Remark",
-        "plural": "Remarks",
+        "original": "备注",
+        "singular": "备注",
+        "plural": "备注",
         "setupEdit": true,
         "setupVisible": true
-      }
-    },
-    "tooltips":{
-      "binLookup": {
-        "original": "Bin Lookup",
-        "singular": "Bin Lookup",
+      },
+      "userBin": {
+        "original": "用户仓位",
+        "singular": "用户仓位",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "locationBin": {
+        "original": "位置仓位",
+        "singular": "位置仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
-    "messages":{
-      "selectApprovalStatus":"Select Approval Status",
-      "enterBinName":"Enter Bin Name",
-      "enterUserName":"Enter User Name",
-      "enterProductName":"Enter Product Name",
-      "enterAssetName":"Enter Asset Name",
-      "selectBin":"Select Bin",
-      "enterJobOrderNumber":"Enter Job Order Number",
-      "reasonOptional":"Reason (Optional)",
-      "declineTransfer":"Are you sure you want to decline this transfer?",
-      "acceptTransfer":"Are you sure you want to accept this transfer?",
-      "cancelTransfer":"Are you sure you want to cancel this transfer?"
+    "tooltips": {
+      "binLookup": {
+        "original": "仓位查询",
+        "singular": "仓位查询",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "messages": {
+      "selectApprovalStatus": "选择审批状态",
+      "enterBinName": "输入仓位名称",
+      "enterUserName": "输入用户名",
+      "enterProductName": "输入产品名称",
+      "enterAssetName": "输入资产名称",
+      "selectBin": "选择仓位",
+      "confirmAcceptance": "确认接受",
+      "confirmRejection": "确认拒绝",
+      "enterJobOrderNumber": "输入工单号",
+      "reasonOptional": "理由（可选）",
+      "declineTransfer": "您确定要拒绝此转移吗？",
+      "acceptTransfer": "您确定要接受此转移吗？",
+      "cancelTransfer": "您确定要取消此转移吗？",
+      "minAddProductAsset": "至少添加1个产品或资产进行转移",
+      "attemptTransferMoreThanAvailable": "您尝试转移的数量超过可用数量，是否继续？",
+      "sameAssetBinTransferNotAllowed": "不允许选择相同资产进行仓位转移",
+      "transferAcceptedSuccessfully": "转移成功接受",
+      "transferDeclinedSuccessfully": "转移成功拒绝",
+      "pleaseSelectFromBinTransfer": "请选择要转移的仓位。",
+      "pleaseSelectFromTransfer": "请选择转移来源",
+      "pleaseSelectBinTransferType": "请选择仓位转移类型",
+      "pleaseSelectToTransJoType": "请选择要转移的工作订单类型",
+      "pleaseSelectToTransfer": "请选择要转移到的目标。",
+      "pleaseSelectAtLeastOneTransItem": "请至少选择一个转移项目。",
+      "binTransfer": "仓位转移",
+      "transferQtyIsGreaterThanAvailableQuantityFor": "转移数量大于可用数量的一个或多个转移。",
+      "binTransferSavedSuccessfully": "仓位转移保存成功",
+      "assetsTransferred": "资产已转移",
+      "productsTransferred": "产品已转移"
     }
   },
  "consignment": {

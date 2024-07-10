@@ -7669,6 +7669,20 @@
         "plural": "Remarks",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "userBin": {
+        "original": "User Bin",
+        "singular": "User Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "locationBin": {
+        "original": "Location Bin",
+        "singular": "Location Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {
@@ -9054,6 +9068,20 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "transferAnyway": {
+        "original": "Transfer Anyway",
+        "singular": "Transfer Anyway",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "transfer": {
+        "original": "Transfer",
+        "singular": "Transfer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "location": {
         "original": "Location",
         "singular": "Location",
@@ -10174,7 +10202,8 @@
       "deleteAttachment": "Delete Attachment",
       "online":"Online",
       "offline":"Offline",
-      "pleaseCheckYourInternetConnection": "Please check your internet connection"
+      "pleaseCheckYourInternetConnection": "Please check your internet connection",
+      "decline":"Decline"
 
     },
     "location": {

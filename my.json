@@ -7192,8 +7192,8 @@
   "binTransfer": {
     "setupVisible": true,
     "label": {
-      "original": "Bin Transfer",
-      "singular": "Bin Transfer",
+      "original": "Pemindahan Bin",
+      "singular": "Pemindahan Bin",
       "plural": "",
       "setupEdit": true,
       "setupVisible": true
@@ -7201,57 +7201,57 @@
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "Transfer Details",
-        "singular": "Transfer Details",
+        "original": "Butiran Pemindahan",
+        "singular": "Butiran Pemindahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
-        "original": "Location Bin Details",
-        "singular": "Location Bin Details",
+        "original": "Butiran Lokasi Bin",
+        "singular": "Butiran Lokasi Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "User Details",
-        "singular": "User Details",
+        "original": "Butiran Pengguna",
+        "singular": "Butiran Pengguna",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
-        "original": "Transfer by Bin",
-        "singular": "Transfer by Bin",
+        "original": "Pemindahan oleh Bin",
+        "singular": "Pemindahan oleh Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
-        "original": "Assignee Details",
-        "singular": "Assignee Details",
+        "original": "Butiran Penerima",
+        "singular": "Butiran Penerima",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec5": {
-        "original": "Transferred Items",
-        "singular": "Transferred Items",
+        "original": "Item yang Dipindahkan",
+        "singular": "Item yang Dipindahkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec6": {
-        "original": "Decline Transfer",
-        "singular": "Decline Transfer",
+        "original": "Tolak Pemindahan",
+        "singular": "Tolak Pemindahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec7": {
-        "original": "Transfer by Product",
-        "singular": "Transfer by Product",
+        "original": "Pemindahan oleh Produk",
+        "singular": "Pemindahan oleh Produk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7260,50 +7260,50 @@
     "fields": {
       "setupVisible": true,
       "approvalStatus": {
-        "original": "Approval Status",
-        "singular": "Approval Status",
+        "original": "Status Kelulusan",
+        "singular": "Status Kelulusan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "fromBin": {
-        "original": "From Bin",
-        "singular": "From Bin",
+        "original": "Dari Bin",
+        "singular": "Dari Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "toBin": {
-        "original": "To Bin",
-        "singular": "To Bin",
+        "original": "Ke Bin",
+        "singular": "Ke Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "referenceNumber": {
-        "original": "Reference Number",
-        "singular": "Reference Number",
+        "original": "Nombor Rujukan",
+        "singular": "Nombor Rujukan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "notes": {
-        "original": "Notes",
-        "singular": "Note",
-        "plural": "Notes",
+        "original": "Nota",
+        "singular": "Nota",
+        "plural": "Nota",
         "setupEdit": true,
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
-        "singular": "Product Name",
+        "original": "Nama Produk",
+        "singular": "Nama Produk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "assetName": {
-        "original": "Asset Name",
-        "singular": "Asset Name",
+        "original": "Nama Aset",
+        "singular": "Nama Aset",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7316,128 +7316,143 @@
         "setupVisible": true
       },
       "qtyAvailable": {
-        "original": "Quantity Available",
-        "singular": "Quantity Available",
+        "original": "Kuantiti Tersedia",
+        "singular": "Kuantiti Tersedia",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "qtyTransfer": {
-        "original": "Quantity to Transfer",
-        "singular": "Quantity to Transfer",
+        "original": "Kuantiti untuk Dipindahkan",
+        "singular": "Kuantiti untuk Dipindahkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "transferNo": {
-        "original": "Transfer No.",
-        "singular": "Transfer No.",
+        "original": "No. Pemindahan",
+        "singular": "No. Pemindahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "date": {
-        "original": "Date",
-        "singular": "Date",
+        "original": "Tarikh",
+        "singular": "Tarikh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "referenceNo": {
-        "original": "Reference Number",
-        "singular": "Reference Number",
+        "original": "Nombor Rujukan",
+        "singular": "Nombor Rujukan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "type": {
-        "original": "Type",
-        "singular": "Type",
+        "original": "Jenis",
+        "singular": "Jenis",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "transferredBy": {
-        "original": "Transferred By",
-        "singular": "Transferred By",
+        "original": "Dipindahkan Oleh",
+        "singular": "Dipindahkan Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "assignedStatus": {
-        "original": "Assigned Status",
-        "singular": "Assigned Status",
+        "original": "Status Ditugaskan",
+        "singular": "Status Ditugaskan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "assignedTo": {
-        "original": "Assigned To",
-        "singular": "Assigned To",
+        "original": "Ditugaskan Kepada",
+        "singular": "Ditugaskan Kepada",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "transferredDateTime": {
-        "original": "Transferred Date & Time",
-        "singular": "Transferred Date & Time",
+        "original": "Tarikh & Masa Pemindahan",
+        "singular": "Tarikh & Masa Pemindahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "acceptedRejectedBy": {
-        "original": "Accepted/Rejected By",
-        "singular": "Accepted/Rejected By",
+        "original": "Diterima/Ditolak Oleh",
+        "singular": "Diterima/Ditolak Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "remarks": {
-        "original": "Remark",
-        "singular": "Remark",
-        "plural": "Remarks",
+        "original": "Catatan",
+        "singular": "Catatan",
+        "plural": "Catatan",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "userBin": {
+        "original": "Bin Pengguna",
+        "singular": "Bin Pengguna",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "locationBin": {
+        "original": "Lokasi Bin",
+        "singular": "Lokasi Bin",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
     "tooltips": {
       "binLookup": {
-        "original": "Bin Lookup",
-        "singular": "Bin Lookup",
+        "original": "Carian Bin",
+        "singular": "Carian Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
     "messages": {
-      "selectApprovalStatus": "Select Approval Status",
-      "enterBinName": "Enter Bin Name",
-      "enterUserName": "Enter User Name",
-      "enterProductName": "Enter Product Name",
-      "enterAssetName": "Enter Asset Name",
-      "selectBin": "Select Bin",
-      "enterJobOrderNumber": "Enter Job Order Number",
-      "reasonOptional": "Reason (Optional)",
-      "declineTransfer": "Are you sure you want to decline this transfer?",
-      "acceptTransfer": "Are you sure you want to accept this transfer?",
-      "cancelTransfer": "Are you sure you want to cancel this transfer?",
-      "confirmAcceptance": "Confirm Acceptance",
-      "minAddProductAsset": "Minimum add 1 product or asset to be transferred",
-      "attemptTransferMoreThanAvailable": "You are attempting to transfer more than available quantity, Do you want to proceed?",
-      "sameAssetBinTransferNotAllowed": "You are not allowed to select the same asset in a bin transfer",
-      "transferAcceptedSuccessfully": "Transfer accepted successfully",
-      "transferDeclinedSuccessfully": "Transfer declined successfully",
-      "pleaseSelectFromBinTransfer": "Please select from  bin transfer.",
-      "pleaseSelectFromTransfer": "Please select from transfer",
-      "pleaseSelectBinTransferType": "Please select to  bin transfer type",
-      "pleaseSelectToTransJoType": "Please select to transfer job order type",
-      "pleaseSelectToTransfer": "Please select to transfer.",
-      "pleaseSelectAtLeastOneTransItem": "Please select at least one transfer item.",
-      "binTransfer": "Bin Transfer",
-      "transferQtyIsGreaterThanAvailableQuantityFor": "Transfer quantity is greater than available quantity for one or more transfer.",
-      "binTransferSavedSuccessfully": "Bin Transfer saved successfully",
-      "assetsTransferred": "Asset(s) transferred",
-      "productsTransferred": "Product(s) transferred"
+      "selectApprovalStatus": "Pilih Status Kelulusan",
+      "enterBinName": "Masukkan Nama Bin",
+      "enterUserName": "Masukkan Nama Pengguna",
+      "enterProductName": "Masukkan Nama Produk",
+      "enterAssetName": "Masukkan Nama Aset",
+      "selectBin": "Pilih Bin",
+      "confirmAcceptance": "Sahkan Penerimaan",
+      "confirmRejection": "Sahkan Penolakan",
+      "enterJobOrderNumber": "Masukkan Nombor Pesanan Kerja",
+      "reasonOptional": "Alasan (Pilihan)",
+      "declineTransfer": "Adakah anda pasti mahu menolak pemindahan ini?",
+      "acceptTransfer": "Adakah anda pasti mahu menerima pemindahan ini?",
+      "cancelTransfer": "Adakah anda pasti mahu membatalkan pemindahan ini?",
+      "minAddProductAsset": "Tambah sekurang-kurangnya 1 produk atau aset untuk dipindahkan",
+      "attemptTransferMoreThanAvailable": "Anda cuba memindahkan lebih daripada kuantiti yang tersedia, Adakah anda mahu meneruskan?",
+      "sameAssetBinTransferNotAllowed": "Tidak dibenarkan memilih aset yang sama dalam pemindahan bin",
+      "transferAcceptedSuccessfully": "Pemindahan diterima dengan berjaya",
+      "transferDeclinedSuccessfully": "Pemindahan ditolak dengan berjaya",
+      "pleaseSelectFromBinTransfer": "Sila pilih dari pemindahan bin.",
+      "pleaseSelectFromTransfer": "Sila pilih dari pemindahan",
+      "pleaseSelectBinTransferType": "Sila pilih jenis pemindahan bin",
+      "pleaseSelectToTransJoType": "Sila pilih untuk memindahkan jenis pesanan kerja",
+      "pleaseSelectToTransfer": "Sila pilih untuk dipindahkan.",
+      "pleaseSelectAtLeastOneTransItem": "Sila pilih sekurang-kurangnya satu item pemindahan.",
+      "binTransfer": "Pemindahan Bin",
+      "transferQtyIsGreaterThanAvailableQuantityFor": "Kuantiti pemindahan lebih besar daripada kuantiti yang tersedia untuk satu atau lebih pemindahan.",
+      "binTransferSavedSuccessfully": "Pemindahan Bin disimpan dengan berjaya",
+      "assetsTransferred": "Aset dipindahkan",
+      "productsTransferred": "Produk dipindahkan"
     }
   },
   "consignment": {

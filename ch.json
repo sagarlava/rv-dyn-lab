@@ -6961,6 +6961,155 @@
     "availableOtherLocations":"available in other locations"
   }
   },
+  "bin": {
+    "setupVisible": true,
+    "label": {
+      "original": "仓位",
+      "singular": "仓位",
+      "plural": "仓位",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "位置",
+        "singular": "位置",
+        "plural": "位置",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "用户",
+        "singular": "用户",
+        "plural": "用户",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "仓位详情",
+        "singular": "仓位详情",
+        "plural": "仓位详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "已转移项目",
+        "singular": "已转移项目",
+        "plural": "已转移项目",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "addProductsToBin": {
+        "original": "添加产品到仓位",
+        "singular": "添加产品到仓位",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "addAssetsToBin": {
+        "original": "添加资产到仓位",
+        "singular": "添加资产到仓位",
+        "plural": "添加资产到仓位",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "位置",
+        "singular": "位置",
+        "plural": "位置",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "zone": {
+        "original": "区域",
+        "singular": "区域",
+        "plural": "区域",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "bin": {
+        "original": "仓位",
+        "singular": "仓位",
+        "plural": "仓位",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "available": {
+        "original": "可用",
+        "singular": "可用",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "qtyIn": {
+        "original": "入库数量",
+        "singular": "入库数量",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "qtyOut": {
+        "original": "出库数量",
+        "singular": "出库数量",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "adjusted": {
+        "original": "调整",
+        "singular": "调整",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "reorderQty": {
+        "original": "重新订购数量",
+        "singular": "重新订购数量",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "understock": {
+        "original": "库存不足",
+        "singular": "库存不足",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "note": {
+        "original": "备注",
+        "singular": "备注",
+        "plural": "备注",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "userName": {
+        "original": "用户名",
+        "singular": "用户名",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "noOfProducts": {
+        "original": "产品数量",
+        "singular": "产品数量",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "binLocation": {
+        "original": "仓位位置",
+        "singular": "仓位位置",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    }
+  },
   "binTransfer":{
     "setupVisible": true,
     "label": {

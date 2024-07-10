@@ -7040,6 +7040,155 @@
     "availableOtherLocations":"available in other locations"
   }
   },
+  "bin": {
+    "setupVisible": true,
+    "label": {
+      "original": "Bin",
+      "singular": "Bin",
+      "plural": "Bin",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "Lokasi",
+        "singular": "Lokasi",
+        "plural": "Lokasi",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Pengguna",
+        "singular": "Pengguna",
+        "plural": "Pengguna",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Butiran Bin",
+        "singular": "Butiran Bin",
+        "plural": "Butiran Bin",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "Item yang Dipindahkan",
+        "singular": "Item yang Dipindahkan",
+        "plural": "Item yang Dipindahkan",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "addProductsToBin": {
+        "original": "Tambah Produk ke Bin",
+        "singular": "Tambah Produk ke Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "addAssetsToBin": {
+        "original": "Tambah Aset ke Bin",
+        "singular": "Tambah Aset ke Bin",
+        "plural": "Tambah Aset ke Bin",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Lokasi",
+        "singular": "Lokasi",
+        "plural": "Lokasi",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "zone": {
+        "original": "Zon",
+        "singular": "Zon",
+        "plural": "Zon",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "bin": {
+        "original": "Bin",
+        "singular": "Bin",
+        "plural": "Bin",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "available": {
+        "original": "Tersedia",
+        "singular": "Tersedia",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "qtyIn": {
+        "original": "Kuantiti Masuk",
+        "singular": "Kuantiti Masuk",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "qtyOut": {
+        "original": "Kuantiti Keluar",
+        "singular": "Kuantiti Keluar",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "adjusted": {
+        "original": "Dilaraskan",
+        "singular": "Dilaraskan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "reorderQty": {
+        "original": "Kuantiti Pesanan Semula",
+        "singular": "Kuantiti Pesanan Semula",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "understock": {
+        "original": "Kekurangan Stok",
+        "singular": "Kekurangan Stok",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "note": {
+        "original": "Nota",
+        "singular": "Nota",
+        "plural": "Nota",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "userName": {
+        "original": "Nama Pengguna",
+        "singular": "Nama Pengguna",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "noOfProducts": {
+        "original": "Bilangan Produk",
+        "singular": "Bilangan Produk",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "binLocation": {
+        "original": "Lokasi Bin",
+        "singular": "Lokasi Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    }
+  },
   "binTransfer": {
     "setupVisible": true,
     "label": {
@@ -17391,155 +17540,6 @@
       "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
     }
   },
-  "bin": {
-    "setupVisible": true,
-    "label": {
-      "original": "Bins",
-      "singular": "Bin",
-      "plural": "Bins",
-      "setupEdit": true,
-      "setupVisible": true
-    },
-    "sections": {
-      "setupVisible": true,
-      "sec0": {
-        "original": "Location",
-        "singular": "Location",
-        "plural": "Locations",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec1": {
-        "original": "Users",
-        "singular": "User",
-        "plural": "Users",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Bin Details",
-        "singular": "Bin Details",
-        "plural": "Bin Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "Transferred Items",
-        "singular": "Transferred Items",
-        "plural": "Transferred Items",
-        "setupEdit": true,
-        "setupVisible": true
-      }
-    },
-    "fields": {
-      "setupVisible": true,
-      "addProductsToBin": {
-        "original": "Add Products to Bin",
-        "singular": "Add Products to Bin",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "addAssetsToBin": {
-        "original": "Add Assets to Bin",
-        "singular": "Add Assets to Bin",
-        "plural": "Add Assets to Bin",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "location": {
-        "original": "Location",
-        "singular": "Location",
-        "plural": "Locations",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "zone": {
-        "original": "Zone",
-        "singular": "Zone",
-        "plural": "Zones",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "bin": {
-        "original": "Bin",
-        "singular": "Bin",
-        "plural": "Bins",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "available": {
-        "original": "Available",
-        "singular": "Available",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "qtyIn": {
-        "original": "Quantity In",
-        "singular": "Quantity In",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "qtyOut": {
-        "original": "Quantity Out",
-        "singular": "Quantity Out",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "adjusted": {
-        "original": "Adjusted",
-        "singular": "Adjusted",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "reorderQty": {
-        "original": "Reorder Quantity",
-        "singular": "Reorder Quantity",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "understock": {
-        "original": "Understock",
-        "singular": "Understock",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "note": {
-        "original": "Note",
-        "singular": "Note",
-        "plural": "Notes",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "userName": {
-        "original": "User Name",
-        "singular": "User Name",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "noOfProducts": {
-        "original": "No. of Products",
-        "singular": "No. of Products",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "binLocation": {
-        "original": "Bin Location",
-        "singular": "Bin Location",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      }
-    }
-  },
   "checkAvailibility": {
     "label": {
       "original": "Check availability",
@@ -17602,7 +17602,7 @@
       },
       "bin": {
         "original": "Bin",
-        "singular": "Zone",
+        "singular": "Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

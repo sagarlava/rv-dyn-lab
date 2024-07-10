@@ -7181,62 +7181,62 @@
       "cancelTransfer":"Are you sure you want to cancel this transfer?"
     }
   },
-  "consignment":{
+ "consignment": {
     "setupVisible": true,
     "label": {
-      "original": "Consignment",
-      "singular": "Consignment",
-      "plural": "Consignments",
+      "original": "寄售",
+      "singular": "寄售",
+      "plural": "寄售",
       "setupEdit": true,
       "setupVisible": true
     },
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "Pending Approvals",
-        "singular": "Pending Approval",
-        "plural": "Pending Approvals",
+        "original": "待审批",
+        "singular": "待审批",
+        "plural": "待审批",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
-        "original": "Consignment Details",
-        "singular": "Consignment Details",
+        "original": "寄售详情",
+        "singular": "寄售详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "On-Behalf Approval",
-        "singular": "On-Behalf Approval",
+        "original": "代为审批",
+        "singular": "代为审批",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
-        "original": "Acknowledge By",
-        "singular": "Acknowledge By",
+        "original": "确认人",
+        "singular": "确认人",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
-        "original": "Consignment Item Details",
-        "singular": "Consignment Item Details",
+        "original": "寄售物品详情",
+        "singular": "寄售物品详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec5": {
-        "original": "Details",
-        "singular": "Details",
+        "original": "详情",
+        "singular": "详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec6": {
-        "original": "Consignment Item",
-        "singular": "Consignment Item",
+        "original": "寄售物品",
+        "singular": "寄售物品",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7245,187 +7245,187 @@
     "fields": {
       "setupVisible": true,
       "purpose": {
-        "original": "Purpose",
-        "singular": "Purpose",
+        "original": "目的",
+        "singular": "目的",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "status": {
-        "original": "Status",
-        "singular": "Status",
-        "plural": "Statuses",
+        "original": "状态",
+        "singular": "状态",
+        "plural": "状态",
         "setupEdit": true,
         "setupVisible": true
       },
       "company": {
-        "original": "Company",
-        "singular": "Company",
+        "original": "公司",
+        "singular": "公司",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "stateRefNo": {
-        "original": "State Ref No:",
-        "singular": "State Ref No:",
+        "original": "州参考号：",
+        "singular": "州参考号：",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "to": {
-        "original": "To",
-        "singular": "To",
+        "original": "至",
+        "singular": "至",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "m4dbRefNo": {
-        "original": "M4DB Ref No:",
-        "singular": "M4DB Ref No:",
+        "original": "M4DB参考号：",
+        "singular": "M4DB参考号：",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "other": {
-        "original": "Other",
-        "singular": "Other",
+        "original": "其他",
+        "singular": "其他",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "date": {
-        "original": "Date",
-        "singular": "Date",
+        "original": "日期",
+        "singular": "日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "attentionTo": {
-        "original": "Attention To",
-        "singular": "Attention To",
+        "original": "注意事项",
+        "singular": "注意事项",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "toEmailAddress": {
-        "original": "To E-mail Address",
-        "singular": "To E-mail Address",
+        "original": "收件人邮箱地址",
+        "singular": "收件人邮箱地址",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "approvedBy": {
-        "original": "Approved By",
-        "singular": "Approved By",
+        "original": "批准人",
+        "singular": "批准人",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "approvedDate": {
-        "original": "Approved Date",
-        "singular": "Approved Date",
+        "original": "批准日期",
+        "singular": "批准日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "uploadSignedCopy": {
-        "original": "Upload Signed Copy",
-        "singular": "Upload Signed Copy",
+        "original": "上传签名副本",
+        "singular": "上传签名副本",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "acknowledgedDate": {
-        "original": "Acknowledge Date",
-        "singular": "Acknowledge Date",
+        "original": "确认日期",
+        "singular": "确认日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "comment": {
-        "original": "Comment",
-        "singular": "Comment",
-        "plural": "Comments",
+        "original": "评论",
+        "singular": "评论",
+        "plural": "评论",
         "setupEdit": true,
         "setupVisible": true
       },
       "type": {
-        "original": "Type",
-        "singular": "Type",
-        "plural": "Types",
+        "original": "类型",
+        "singular": "类型",
+        "plural": "类型",
         "setupEdit": true,
         "setupVisible": true
       },
       "serialNumber": {
-        "original": "Serial Number",
-        "singular": "Serial Number",
+        "original": "序列号",
+        "singular": "序列号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "partNumber": {
-        "original": "Part Number",
-        "singular": "Part Number",
+        "original": "零件编号",
+        "singular": "零件编号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "otherItem": {
-        "original": "Other Item",
-        "singular": "Other Item",
+        "original": "其他项目",
+        "singular": "其他项目",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "itemName": {
-        "original": "Item Name",
-        "singular": "Item Name",
+        "original": "项目名称",
+        "singular": "项目名称",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "itemNo": {
-        "original": "Item No.",
-        "singular": "Item No.",
+        "original": "项目编号",
+        "singular": "项目编号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "quantity": {
-        "original": "Quantity",
-        "singular": "Quantity",
+        "original": "数量",
+        "singular": "数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "description": {
-        "original": "Description",
-        "singular": "Description",
+        "original": "描述",
+        "singular": "描述",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
-    "tooltips":{
+    "tooltips": {
       "setupVisble": true,
-      "assetSerialNoLookup":{
-        "original": "Asset Serial No. Lookup",
-        "singular": "Asset Serial No. Lookup",
+      "assetSerialNoLookup": {
+        "original": "资产序列号查询",
+        "singular": "资产序列号查询",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
-      "productPartNoLookup":{
-        "original": "Product Part No. Lookup",
-        "singular": "Product Part No. Lookup",
+      "productPartNoLookup": {
+        "original": "产品零件号查询",
+        "singular": "产品零件号查询",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
-    "messages":{
-      "selectType": "Select Type",
-      "selectCompany": "Select Company"
+    "messages": {
+      "selectType": "选择类型",
+      "selectCompany": "选择公司"
     }
   },
   "requisition":{

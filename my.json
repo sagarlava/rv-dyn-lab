@@ -8139,8 +8139,8 @@
   "history": {
     "setupVisible": true,
     "label": {
-      "original": "History",
-      "singular": "History",
+      "original": "Rekod Sejarah",
+      "singular": "Rekod Sejarah",
       "plural": "",
       "setupEdit": true,
       "setupVisible": true
@@ -8148,71 +8148,71 @@
     "fields": {
       "setupVisible": true,
       "timeDate": {
-        "original": "Time & Date",
-        "singular": "Time & Date",
+        "original": "Masa & Tarikh",
+        "singular": "Masa & Tarikh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "field": {
-        "original": "Field",
-        "singular": "Field",
-        "plural": "Fields",
+        "original": "Medan",
+        "singular": "Medan",
+        "plural": "Medan",
         "setupEdit": true,
         "setupVisible": true
       },
       "modifiedBy": {
-        "original": "Modified By",
-        "singular": "Modified By",
+        "original": "Diubah Oleh",
+        "singular": "Diubah Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "adjustedBy": {
-        "original": "Adjusted By",
-        "singular": "Adjusted By",
+        "original": "Dilaraskan Oleh",
+        "singular": "Dilaraskan Oleh",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newValue": {
-        "original": "New Value",
-        "singular": "New Value",
+        "original": "Nilai Baru",
+        "singular": "Nilai Baru",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newlyAdjustedQty": {
-        "original": "Newly Adjusted Qty",
-        "singular": "Newly Adjusted Qty",
+        "original": "Kuantiti Baru Dilaraskan",
+        "singular": "Kuantiti Baru Dilaraskan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "oldValue": {
-        "original": "Old Value",
-        "singular": "Old Value",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "oldQty": {
-        "original": "Old Qty",
-        "singular": "Old Qty",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "displayName": {
-        "original": "Display Name",
-        "singular": "Display Name",
+        "original": "Nilai Lama",
+        "singular": "Nilai Lama",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newQty": {
-        "original": "New Qty",
-        "singular": "New Qty",
+        "original": "Kuantiti Baru",
+        "singular": "Kuantiti Baru",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "oldQty": {
+        "original": "Kuantiti Lama",
+        "singular": "Kuantiti Lama",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "displayName": {
+        "original": "Nama Paparan",
+        "singular": "Nama Paparan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

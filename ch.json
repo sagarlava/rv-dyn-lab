@@ -8026,11 +8026,11 @@
     }
   },
   
-  "history": {
+ "history": {
     "setupVisible": true,
     "label": {
-      "original": "History",
-      "singular": "History",
+      "original": "历史记录",
+      "singular": "历史记录",
       "plural": "",
       "setupEdit": true,
       "setupVisible": true
@@ -8038,64 +8038,71 @@
     "fields": {
       "setupVisible": true,
       "timeDate": {
-        "original": "Time & Date",
-        "singular": "Time & Date",
+        "original": "时间和日期",
+        "singular": "时间和日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "field": {
-        "original": "Field",
-        "singular": "Field",
-        "plural": "Fields",
+        "original": "字段",
+        "singular": "字段",
+        "plural": "字段",
         "setupEdit": true,
         "setupVisible": true
       },
       "modifiedBy": {
-        "original": "Modified By",
-        "singular": "Modified By",
+        "original": "修改者",
+        "singular": "修改者",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
-     "adjustedBy": {
-        "original": "Adjusted By",
-        "singular": "Adjusted By",
+      "adjustedBy": {
+        "original": "调整者",
+        "singular": "调整者",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newValue": {
-        "original": "New Value",
-        "singular": "New Value",
+        "original": "新值",
+        "singular": "新值",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "newlyAdjustedQty": {
-        "original": "Newly Adjusted Qty",
-        "singular": "Newly Adjusted Qty",
+        "original": "新调整数量",
+        "singular": "新调整数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "oldValue": {
-        "original": "Old Value",
-        "singular": "Old Value",
+        "original": "旧值",
+        "singular": "旧值",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "newQty": {
+        "original": "新数量",
+        "singular": "新数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "oldQty": {
-        "original": "Old Qty",
-        "singular": "Old Qty",
+        "original": "旧数量",
+        "singular": "旧数量",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "displayName": {
-        "original": "Display Name",
-        "singular": "Display Name",
+        "original": "显示名称",
+        "singular": "显示名称",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

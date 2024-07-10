@@ -1308,7 +1308,7 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-      },
+      }
     },
     "validationFE": {},
     "validationBE": {
@@ -17386,7 +17386,12 @@
         }
       }, 
       "messages": {
-        "searchJobOrders" : "Search Job Orders"
+        "searchJobOrders" : "Search Job Orders",
+        "pendingJobOrders" : "Pending Job Orders",
+        "todaysTasks" : "Today's Tasks",
+        "tasksToAcceptDecline" : "Tasks to Accept/Decline",
+        "assignedTasks" : "Assigned Tasks"
+
       }
     },
     "national": {

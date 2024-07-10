@@ -295,8 +295,8 @@
         "setupVisible": true
       },
       "sec1": {
-        "original": "Maklumat Pemilikan & Lokasi",
-        "singular": "Maklumat Pemilikan & Lokasi",
+        "original": "Pemilikan & Lokasi",
+        "singular": "Pemilikan & Lokasi",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -323,8 +323,8 @@
         "setupVisible": true
       },
       "sec5": {
-        "original": "Ringkasan",
-        "singular": "Ringkasan",
+        "original": "Gambaran Keseluruhan",
+        "singular": "Gambaran Keseluruhan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -351,8 +351,8 @@
         "setupVisible": true
       },
       "sec9": {
-        "original": "Qr/Kod Bar",
-        "singular": "Qr/Kod Bar",
+        "original": "Kod QR/Bar",
+        "singular": "Kod QR/Bar",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -400,8 +400,8 @@
         "setupVisible": true
       },
       "sec16": {
-        "original": "Asset Details",
-        "singular": "Asset Details",
+        "original": "Butiran Aset",
+        "singular": "Butiran Aset",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -543,8 +543,8 @@
         "setupVisible": true
       },
       "engineMake": {
-        "original": "Engine Make",
-        "singular": "Engine Make",
+        "original": "Pembuat Enjin",
+        "singular": "Pembuat Enjin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -606,8 +606,8 @@
         "setupVisible": true
       },
       "next30Days": {
-        "original": "Next 30 Days",
-        "singular": "Next 30 Days",
+        "original": "30 Hari Akan Datang",
+        "singular": "30 Hari Akan Datang",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -725,72 +725,72 @@
         "setupVisible": true
       },
       "engineNumber": {
-        "original": "Engine Number",
-        "singular": "Engine Number",
+        "original": "Nombor Enjin",
+        "singular": "Nombor Enjin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "finish": {
-        "original": "Finish",
-        "singular": "Finish",
+        "original": "Selesai",
+        "singular": "Selesai",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "maintenanceStatus": {
-        "original": "Maintenance Status",
-        "singular": "Maintenance Status",
+        "original": "Status Penyelenggaraan",
+        "singular": "Status Penyelenggaraan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "nextMaintenanceType": {
-        "original": "Next Maintenance Type",
-        "singular": "Next Maintenance Type",
+        "original": "Jenis Penyelenggaraan Seterusnya",
+        "singular": "Jenis Penyelenggaraan Seterusnya",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "minorMajorServiceFrequency": {
-        "original": "Minor/Major Service Frequency(Months)",
-        "singular": "Minor/Major Service Frequency(Months)",
+        "original": "Kekerapan Perkhidmatan Kecil/Besar (Bulan)",
+        "singular": "Kekerapan Perkhidmatan Kecil/Besar (Bulan)",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "majorServiceFrequency": {
-        "original": "Major Service Frequency(Months)",
-        "singular": "Major Service Frequency(Months)",
+        "original": "Kekerapan Perkhidmatan Besar (Bulan)",
+        "singular": "Kekerapan Perkhidmatan Besar (Bulan)",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "minorServiceFrequency": {
-        "original": "Minor Service Frequency(Months)",
-        "singular": "Minor Service Frequency(Months)",
+        "original": "Kekerapan Perkhidmatan Kecil (Bulan)",
+        "singular": "Kekerapan Perkhidmatan Kecil (Bulan)",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "allAsset": {
-        "original": "All Assets",
-        "singular": "All Asset",
-        "plural": "All Assets",
+        "original": "Semua Aset",
+        "singular": "Semua Aset",
+        "plural": "Semua Aset",
         "setupEdit": true,
         "setupVisible": true
       },
       "assetsByCustomer": {
-        "original": "Assets by Customer",
-        "singular": "Assets by Customer",
+        "original": "Aset oleh Pelanggan",
+        "singular": "Aset oleh Pelanggan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "day": {
-        "original": "day",
-        "singular": "day",
-        "plural": "days",
+        "original": "hari",
+        "singular": "hari",
+        "plural": "hari",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -844,13 +844,13 @@
       "resetMeterForLowerReading": "Pilih 'Set Semula Meter' jika bacaan meter baharu anda lebih kecil daripada bacaan meter semasa.",
       "futureDateTimeEntryNotAllowed": "Entri tidak boleh dibuat untuk tarikh dan masa akan datang",
       "maintenanceAppliesToAllContractAssets": "Penyelenggaraan ini akan dikenakan kepada semua Aset dalam Kontrak ini.",
-      "errorFetchingAssetDetails": "Error fetching asset details",
-      "noAssetsFound": "No Assets Found",
-      "noScheduledMaintenance":"No Scheduled Maintenance",
-      "noPriorMaintenance":"No Prior Maintenances",
-      "noUpcomingJobs":"No Upcoming Jobs",
-      "previously":"Previously",
-      "from":"From"
+      "errorFetchingAssetDetails": "Ralat mendapatkan butiran aset",
+      "noAssetsFound": "Tiada Aset Dijumpai",
+      "noScheduledMaintenance": "Tiada Penyelenggaraan Berjadual",
+      "noPriorMaintenance": "Tiada Penyelenggaraan Sebelumnya",
+      "noUpcomingJobs": "Tiada Kerja Akan Datang",
+      "previously": "Sebelumnya",
+      "from": "Dari"
     }
   },
   "assetLog": {

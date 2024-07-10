@@ -267,22 +267,22 @@
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "基本信息 ",
-        "singular": "基本信息 ",
+        "original": "一般详情",
+        "singular": "一般详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
-        "original": "所有权和位置信息",
-        "singular": "所有权和位置信息",
+        "original": "所有权与位置",
+        "singular": "所有权与位置",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "覆盖期和获取",
-        "singular": "覆盖期和获取",
+        "original": "覆盖期与获取",
+        "singular": "覆盖期与获取",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -295,15 +295,15 @@
         "setupVisible": true
       },
       "sec4": {
-        "original": "附加信息 ",
-        "singular": "附加信息 ",
+        "original": "附加详情",
+        "singular": "附加详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec5": {
-        "original": "摘要",
-        "singular": "摘要",
+        "original": "概述",
+        "singular": "概述",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -330,22 +330,22 @@
         "setupVisible": true
       },
       "sec9": {
-        "original": "QR码/条形码",
-        "singular": "QR码/条形码",
+        "original": "二维码/条码",
+        "singular": "二维码/条码",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec10": {
-        "original": "过滤",
-        "singular": "过滤",
+        "original": "筛选条件",
+        "singular": "筛选条件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec11": {
-        "original": "细节",
-        "singular": "细节",
+        "original": "详情",
+        "singular": "详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -374,6 +374,13 @@
       "sec15": {
         "original": "新条目",
         "singular": "新条目",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec16": {
+        "original": "资产详情",
+        "singular": "资产详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -515,8 +522,8 @@
         "setupVisible": true
       },
       "engineMake": {
-        "original": "Engine Make",
-        "singular": "Engine Make",
+        "original": "引擎制造商",
+        "singular": "引擎制造商",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -578,8 +585,8 @@
         "setupVisible": true
       },
       "next30Days": {
-        "original": "Next 30 Days",
-        "singular": "Next 30 Days",
+        "original": "未来30天",
+        "singular": "未来30天",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -696,24 +703,73 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "engineNumber": {
+        "original": "引擎编号",
+        "singular": "引擎编号",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "finish": {
+        "original": "完成",
+        "singular": "完成",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "maintenanceStatus": {
+        "original": "维护状态",
+        "singular": "维护状态",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "nextMaintenanceType": {
+        "original": "下次维护类型",
+        "singular": "下次维护类型",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "minorMajorServiceFrequency": {
+        "original": "次要/主要服务频率（月）",
+        "singular": "次要/主要服务频率（月）",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "majorServiceFrequency": {
+        "original": "主要服务频率（月）",
+        "singular": "主要服务频率（月）",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "minorServiceFrequency": {
+        "original": "次要服务频率（月）",
+        "singular": "次要服务频率（月）",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "allAsset": {
-        "original": "All Assets",
-        "singular": "All Asset",
-        "plural": "All Assets",
+        "original": "所有资产",
+        "singular": "所有资产",
+        "plural": "所有资产",
         "setupEdit": true,
         "setupVisible": true
       },
       "assetsByCustomer": {
-        "original": "Assets by Customer",
-        "singular": "Assets by Customer",
+        "original": "按客户分类的资产",
+        "singular": "按客户分类的资产",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "day": {
-        "original": "day",
-        "singular": "day",
-        "plural": "days",
+        "original": "天",
+        "singular": "天",
+        "plural": "天",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -767,13 +823,13 @@
       "resetMeterForLowerReading": "如果您的新电表读数小于当前读数，请选择“重置电表”。",
       "futureDateTimeEntryNotAllowed": "不能为未来的日期和时间进行条目输入。",
       "maintenanceAppliesToAllContractAssets": "此维护将适用于本合同内的所有资产。",
-      "errorFetchingAssetDetails": "Error fetching asset details",
-      "noAssetsFound": "No Assets Found",
-      "noScheduledMaintenance":"No Scheduled Maintenance",
-      "noPriorMaintenance":"No Prior Maintenances",
-      "noUpcomingJobs":"No Upcoming Jobs",
-      "previously":"Previously",
-      "from":"From"
+      "errorFetchingAssetDetails": "获取资产详情时出错",
+      "noAssetsFound": "未找到资产",
+      "noScheduledMaintenance": "无计划维护",
+      "noPriorMaintenance": "无先前维护",
+      "noUpcomingJobs": "无即将进行的工作",
+      "previously": "以前",
+      "from": "从"
     }
   }, 
  "assetLog": {

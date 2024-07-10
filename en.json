@@ -9481,20 +9481,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "yes": {
-        "original": "Yes",
-        "singular": "Yes",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
-      "no": {
-        "original": "No",
-        "singular": "No",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "ok": {
         "original": "Ok",
         "singular": "Ok",
@@ -9876,6 +9862,20 @@
       "openInNewTab": {
         "original": "Open in New Tab",
         "singular": "Open in New Tab",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "yes": {
+        "original": "Yes",
+        "singular": "Yes",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "no": {
+        "original": "No",
+        "singular": "No",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

@@ -829,7 +829,8 @@
       "noPriorMaintenance": "无先前维护",
       "noUpcomingJobs": "无即将进行的工作",
       "previously": "以前",
-      "from": "从"
+      "from": "从",
+      "warrantyStartDate": "保修开始日期不应大于保修结束日期"
     }
   }, 
  "assetLog": {
@@ -1293,8 +1294,15 @@
     },
     "messages": {
       "maintenanceAppliesToAllContractAssets": "此维护将适用于本合同内的所有资产",
-      "unableSetStatusActive": "结束日期在过去，无法将状态设置为“激活”",
-      "startDateNotGreaterThenEnd": "开始日期不应晚于结束日期"    
+      "unableSetStatusActive": "无法将状态设置为“激活”，因结束日期已过",
+      "startDateNotGreaterThenEnd": "开始日期不应大于结束日期",
+      "noMaintenanceItemsToDisplay": "没有要显示的计划维护项目",
+      "errorFetchingMaintenanceItems": "获取计划维护项目时出错",
+      "onlyPendingStatusRecordAllowedToDelete": "只允许删除“待处理”状态的记录",
+      "doYouWantToRemoveThisItem": "您确定要移除此项目吗？",
+      "maintenance": "维护",
+      "maintenanceDetails": "维护详情",
+      "haveActiveMaintenance": "已有激活的维护"
     }
   },
   "preventiveMaintenance": {
@@ -1835,6 +1843,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "transferredFromBin": {
+        "original": "从仓库转移",
+        "singular": "从仓库转移",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "类型",
+        "singular": "类型",
+        "plural": "类型",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "contractItemId": {
+        "original": "合同项目ID",
+        "singular": "合同项目ID",
+        "plural": "合同项目ID",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "contractItem": {
+        "original": "合同项目",
+        "singular": "合同项目",
+        "plural": "合同项目",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -2158,6 +2194,13 @@
       "sec7": {
         "original": "细节",
         "singular": "细节",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec8": {
+        "original": "添加产品和数量，以在从此模板生成的工作订单下创建",
+        "singular": "添加产品和数量，以在从此模板生成的工作订单下创建",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9785,6 +9828,7 @@
       "step5": "Step 5",
       "sentSuccessfully": "sent successfully",
       "removedSuccessfully": "removed successfully",
+      "cancelledSuccessfully": "cancelled successfully",
       "savedSuccessfully": "saved successfully",
       "updatedSuccessfully": "updated successfully",
       "updateNotSuccesful": "Update not successful",
@@ -13106,6 +13150,13 @@
           },
           "fields": {
             "setupVisible": true,
+            "zoneNumber": {
+              "original": "Zone Number",
+              "singular": "Zone Number",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
             "name": {
               "original": "姓名",
               "singular": "姓名",
@@ -13199,6 +13250,13 @@
           },
           "fields": {
             "setupVisible": true,
+            "binNumber": {
+              "original": "Bin Number",
+              "singular": "Bin Number",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
             "name": {
               "original": "姓名",
               "singular": "姓名",

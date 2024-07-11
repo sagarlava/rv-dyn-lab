@@ -850,7 +850,8 @@
       "noPriorMaintenance": "Tiada Penyelenggaraan Sebelumnya",
       "noUpcomingJobs": "Tiada Kerja Akan Datang",
       "previously": "Sebelumnya",
-      "from": "Dari"
+      "from": "Dari",
+       "warrantyStartDate": "Tarikh mula jaminan tidak boleh lebih besar dari tarikh tamat jaminan"
     }
   },
   "assetLog": {
@@ -1314,9 +1315,16 @@
       }
     },
     "messages": {
-      "maintenanceAppliesToAllContractAssets": "Penyelenggaraan ini akan dijalankan ke atas semua Aset dalam Kontrak ini",
-       "unableSetStatusActive": "Tidak dapat menetapkan status kepada 'Aktif' dengan tarikh tamat yang lalu",
-    "startDateNotGreaterThenEnd": "Tarikh mula tidak sepatutnya lebih besar daripada tarikh tamat"
+      "maintenanceAppliesToAllContractAssets": "Penyelenggaraan ini akan dikenakan ke semua Aset dalam Kontrak ini",
+      "unableSetStatusActive": "Tidak boleh menetapkan status kepada 'Aktif' dengan tarikh tamat yang lalu",
+      "startDateNotGreaterThenEnd": "Tarikh mula tidak boleh lebih besar dari tarikh tamat",
+      "noMaintenanceItemsToDisplay": "Tiada item penyelenggaraan berjadual untuk dipaparkan",
+      "errorFetchingMaintenanceItems": "Ralat semasa mengambil item penyelenggaraan berjadual",
+      "onlyPendingStatusRecordAllowedToDelete": "Hanya rekod status 'Tertunda' yang dibenarkan untuk dipadam",
+      "doYouWantToRemoveThisItem": "Adakah anda mahu mengeluarkan item ini?",
+      "maintenance": "Penyelenggaraan",
+      "maintenanceDetails": "Butiran Penyelenggaraan",
+      "haveActiveMaintenance": "Sudah ada Penyelenggaraan Aktif"
     }
   },
   "preventiveMaintenance": {
@@ -1688,6 +1696,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "transferredFromBin": {
+        "original": "Dipindahkan dari Tong",
+        "singular": "Dipindahkan dari Tong",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Jenis",
+        "singular": "Jenis",
+        "plural": "Jenis",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "contractItemId": {
+        "original": "ID Item Kontrak",
+        "singular": "ID Item Kontrak",
+        "plural": "ID Item Kontrak",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "contractItem": {
+        "original": "Item Kontrak",
+        "singular": "Item Kontrak",
+        "plural": "Item Kontrak",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -2018,6 +2054,13 @@
       "sec7": {
         "original": "Butiran",
         "singular": "Butiran",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec8": {
+        "original": "Tambah produk dan kuantiti untuk dihasilkan di bawah Pesanan Kerja yang dihasilkan dari templat ini",
+        "singular": "Tambah produk dan kuantiti untuk dihasilkan di bawah Pesanan Kerja yang dihasilkan dari templat ini",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9918,6 +9961,7 @@
       "step5": "Step 5",
       "sentSuccessfully": "sent successfully",
       "removedSuccessfully": "removed successfully",
+      "cancelledSuccessfully": "cancelled successfully",
       "savedSuccessfully": "saved successfully",
       "updatedSuccessfully": "updated successfully",
       "updateNotSuccesful": "Update not successful",
@@ -13540,6 +13584,13 @@
           },
           "fields": {
             "setupVisible": true,
+            "zoneNumber": {
+              "original": "Zone Number",
+              "singular": "Zone Number",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
             "name": {
               "original": "Nama",
               "singular": "Nama",
@@ -13633,6 +13684,13 @@
           },
           "fields": {
             "setupVisible": true,
+            "binNumber": {
+              "original": "Bin Number",
+              "singular": "Bin Number",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
             "name": {
               "original": "Nama",
               "singular": "Nama",

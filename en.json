@@ -857,7 +857,8 @@
       "noPriorMaintenance":"No Prior Maintenances",
       "noUpcomingJobs":"No Upcoming Jobs",
       "previously":"Previously",
-      "from":"From"
+      "from":"From",
+      "warrantyStartDate":"Warranty start date should not be greater than warranty end date"
     }
   },
   "assetLog": {
@@ -1392,7 +1393,8 @@
       "onlyPendingStatusRecordAllowedToDelete": "Only Pending status records are allowed to delete",
       "doYouWantToRemoveThisItem": "Do you want to remove this item?",
       "maintenance" : "Maintenance",
-      "maintenanceDetails" : "Maintenance Details"
+      "maintenanceDetails" : "Maintenance Details",
+      "haveActiveMaintenance":"Already have an Active Maintenance"
     }
   },
   "preventiveMaintenance": {
@@ -1769,6 +1771,27 @@
         "original": "Transfered from Bin",
         "singular": "Transfered from Bin",
         "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Type",
+        "plural": "Types",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "contractItemId": {
+        "original": "Contract Item ID",
+        "singular": "Contract Item ID",
+        "plural": "Contract Items ID",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "contractItem": {
+        "original": "Contract Item",
+        "singular": "Contract Item",
+        "plural": "Contract Items",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -2304,6 +2327,13 @@
       "sec7": {
         "original": "Details",
         "singular": "Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec8": {
+        "original": "Add a product and quantity to be created under Job Orders generated from this template",
+        "singular": "Add a product and quantity to be created under Job Orders generated from this template",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -10485,6 +10515,7 @@
       "step5": "Step 5",
       "sentSuccessfully": "sent successfully",
       "removedSuccessfully": "removed successfully",
+      "cancelledSuccessfully": "cancelled successfully",
       "deletedSuccessfully": "deleted successfully",
       "savedSuccessfully": "saved successfully",
       "updatedSuccessfully": "updated successfully",
@@ -14135,6 +14166,13 @@
           },
           "fields": {
             "setupVisible": false,
+            "zoneNumber": {
+              "original": "Zone Number",
+              "singular": "Zone Number",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
             "name": {
               "original": "Name",
               "singular": "Name",
@@ -14228,6 +14266,13 @@
           },
           "fields": {
             "setupVisible": false,
+            "binNumber": {
+              "original": "Bin Number",
+              "singular": "Bin Number",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
             "name": {
               "original": "Name",
               "singular": "Name",

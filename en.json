@@ -5100,6 +5100,27 @@
         "plural": "Part Orders",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec42": {
+        "original": "Replaced Module",
+        "singular": "Replaced Module",
+        "plural": "Replaced Module",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec43": {
+        "original": "WO Details",
+        "singular": "WO Details",
+        "plural": "WO Details",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec44": {
+        "original": "Edit Hp Form",
+        "singular": "Edit Hp Form",
+        "plural": "Edit Hp Form",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -7236,6 +7257,62 @@
         "plural": "Import Expiry Dates",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "pesticidesId": {
+        "original": "Pesticides ID",
+        "singular": "Pesticides ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "chemicalTradeName": {
+        "original": "Chemical/Trade Name",
+        "singular": "Chemical/Trade Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "activeIngredientAi": {
+        "original": "Active Ingredient (a.i)",
+        "singular": "Active Ingredient (a.i)",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "class": {
+        "original": "Class",
+        "singular": "Class",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "methodOfApplication": {
+        "original": "Method of Application",
+        "singular": "Method of Application",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "chemicalRatePer4LiterMl": {
+        "original": "Chemical Rate/4 Liter (ml)",
+        "singular": "Chemical Rate/4 Liter (ml)",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "chemicalUsageMl": {
+        "original": "Chemical Usage (ml)",
+        "singular": "Chemical Usage (ml)",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "areaTreated": {
+        "original": "Area treated",
+        "singular": "Area treated",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -7272,6 +7349,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "copyLink": {
+        "original": "Copy Link",
+        "singular": "Copy Link",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "messages": {
@@ -7280,7 +7364,8 @@
       "noJobOrderCustomerContact": "No contact found for the Job Order's Customer",
       "noJobOrderContact": "No contact found for the Job Order",
       "noSlaStepDefined": "No SLA step yet",
-      "createJobOrder":"Create Job Order"
+      "createJobOrder":"Create Job Order",
+      "linkCopied":"Link Copied"
 
     }
   },
@@ -8145,7 +8230,7 @@
         },
         "bin": {
           "original": "Bin",
-          "singular": "Zone",
+          "singular": "Bin",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -10247,6 +10332,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "showMoreDetails": {
+        "original": "Show More Details",
+        "singular": "Show More Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       } 
     },
     "status": {
@@ -11062,6 +11154,133 @@
           "setupVisible": false
         }
       }
+    },
+    "commonComponent":{
+      "setupVisible": false,
+      "sections":{
+        "setupVisible": false,
+     "sec0": {
+        "original": "Select an User from the list",
+        "singular": "Select an User from the list",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Select a Bin Location",
+        "singular": "Select a Bin Location",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Select an asset from the list",
+        "singular": "Select an asset from the list",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Select Checklist From List",
+        "singular": "Select Checklist From List",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Select Project From List",
+        "singular": "Select Project From List",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Select a Customer from the list",
+        "singular": "Select a Customer from the list",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Select Jo Order Template From List",
+        "singular": "Select Jo Order Template From List",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Select a Job Order from the list",
+        "singular": "Select a Job Order from the list",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Select a Machine Specialist from the list",
+        "singular": "Select a Machine Specialist from the list",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Select a Product from the list",
+        "singular": "Select a Product from the list",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Select a Sales Order from the list",
+        "singular": "Select a Sales Order from the list",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec11": {
+        "original": "Select Site From List",
+        "singular": "Select Site From List",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec12": {
+        "original": "Select an Customer Survey from the list",
+        "singular": "Select an Customer Survey from the list",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec13": {
+        "original": "Select an ticket from the list",
+        "singular": "Select an ticket from the list",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+      },
+      "fields":{
+        "setupVisible": false,
+        "rejectReason": {
+          "original": "Reject Reason",
+          "singular": "Reject Reason",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "messages":{
+        "to": "to",
+        "willBeChangedFrom": "will be changed from",
+        "doYouWishToContinue": "Do you wish to continue?",
+        "module": "module",
+        "willNowBe": "will now be",
+        "confirm": "Confirm",
+        "deleteConfirmation":"Delete Confirmation",
+        "selectAn": "Select an",
+        "selectA": "Select a",
+        "fromTheList": "from the list"
+      }
+
     }
   },
   "setup": {
@@ -17805,6 +18024,20 @@
           "original": "Fault Type",
           "singular": "Fault Type",
           "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "technician": {
+          "original": "Technician",
+          "singular": "Technician",
+          "plural": "Technicians",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "assignment": {
+          "original": "Assignment",
+          "singular": "Assignment",
+          "plural": "Assignments",
           "setupEdit": true,
           "setupVisible": false
         }

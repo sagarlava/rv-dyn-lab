@@ -4635,9 +4635,9 @@
         "setupVisible": true
       },
       "sec2": {
-        "original": "SOU Details",
-        "singular": "SOU Details",
-        "plural": "SOU Details",
+        "original": "Customer Details",
+        "singular": "Customer Details",
+        "plural": "Customer Details",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -4691,9 +4691,9 @@
         "setupVisible": true
       },
       "sec10": {
-        "original": "SOU Survey Details",
-        "singular": "SOU Survey Details",
-        "plural": "SOU Survey Details",
+        "original": "Customer Survey Details",
+        "singular": "Customer Survey Details",
+        "plural": "Customer Survey Details",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -4911,6 +4911,27 @@
         "original": "Part Order",
         "singular": "Part Order",
         "plural": "Part Orders",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec42": {
+        "original": "Replaced Module",
+        "singular": "Replaced Module",
+        "plural": "Replaced Module",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec43": {
+        "original": "WO Details",
+        "singular": "WO Details",
+        "plural": "WO Details",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec44": {
+        "original": "Edit Hp Form",
+        "singular": "Edit Hp Form",
+        "plural": "Edit Hp Form",
         "setupEdit": true,
         "setupVisible": false
       }
@@ -7051,8 +7072,7 @@
         "setupVisible": false
       }
     },
-    "validationFE": {
-      "endDateExceeds": "End date should not exceed start date",
+  "validationFE": {
       "endDateThanStartDate": "End date must be after start date",
       "notAvailable": "N/A",
       "onDemand": "On Demand",
@@ -7091,10 +7111,11 @@
     "messages": {
       "systemTestPassed": "System tested with CMS in good working condition",
       "newTaskForSelectedDateTime": "A new task will be created under this Job Order for the selected date and time",
-      "noJobOrderCustomerContact": "No contact found for the Job Order's SOU",
+      "noJobOrderCustomerContact": "No contact found for the Job Order's Customer",
       "noJobOrderContact": "No contact found for the Job Order",
       "noSlaStepDefined": "No SLA step yet",
-      "createJobOrder":"Create Job Order"
+      "createJobOrder":"Create Job Order",
+      "linkCopied":"Link Copied"
     }
   },
   "inventory": {

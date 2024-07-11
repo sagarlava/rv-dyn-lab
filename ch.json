@@ -15874,66 +15874,66 @@
   "leave": {
     "setupVisible": true,
     "label": {
-      "original": "Leave",
-      "singular": "Leave",
-      "plural": "Leaves",
+      "original": "请假",
+      "singular": "请假",
+      "plural": "请假",
       "setupEdit": true,
       "setupVisible": true
     },
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "Leave Application",
-        "singular": "Leave Application",
+        "original": "请假申请",
+        "singular": "请假申请",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
-        "original": "Today Pending Leaves",
-        "singular": "Today Pending Leave",
-        "plural": "Today Pending Leaves",
+        "original": "今天待处理的请假",
+        "singular": "今天待处理的请假",
+        "plural": "今天待处理的请假",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "Pending Leaves",
-        "singular": "Pending Leave",
-        "plural": "Pending Leaves",
+        "original": "待处理的请假",
+        "singular": "待处理的请假",
+        "plural": "待处理的请假",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
-        "original": "My Leaves",
-        "singular": "My Leave",
-        "plural": "My Leaves",
+        "original": "我的请假",
+        "singular": "我的请假",
+        "plural": "我的请假",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
-        "original": "My Staff Leaves",
-        "singular": "My Staff Leave",
-        "plural": "My Staff Leaves",
+        "original": "我的员工请假",
+        "singular": "我的员工请假",
+        "plural": "我的员工请假",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec5": {
-        "original": "Approval Details",
-        "singular": "Approval Details",
+        "original": "批准详情",
+        "singular": "批准详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec6": {
-        "original": "过滤",
-        "singular": "过滤",
+        "original": "筛选依据",
+        "singular": "筛选依据",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec7": {
-        "original": "Leave Details",
-        "singular": "Leave Details",
+        "original": "请假详情",
+        "singular": "请假详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -15942,22 +15942,22 @@
     "fields": {
       "setupVisible": true,
       "leaveType": {
-        "original": "Leave Type",
-        "singular": "Leave Type",
+        "original": "请假类型",
+        "singular": "请假类型",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "leaveStatus": {
-        "original": "Leave Status",
-        "singular": "Leave Status",
+        "original": "请假状态",
+        "singular": "请假状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "leaveDateRange": {
-        "original": "Leave Date Range",
-        "singular": "Leave Date Range",
+        "original": "请假日期范围",
+        "singular": "请假日期范围",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -15977,22 +15977,22 @@
         "setupVisible": true
       },
       "from": {
-        "original": "From",
-        "singular": "From",
+        "original": "从",
+        "singular": "从",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "to": {
-        "original": "至",
-        "singular": "至",
+        "original": "到",
+        "singular": "到",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "managerComments": {
-        "original": "Manager Comments",
-        "singular": "Manager Comments",
+        "original": "经理评论",
+        "singular": "经理评论",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -16004,20 +16004,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "user": {
-        "original": "User",
-        "singular": "User",
-        "plural": "Users",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "name": {
-        "original": "Name",
-        "singular": "Name",
-        "plural": "Name",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "remarks": {
         "original": "备注",
         "singular": "备注",
@@ -16025,26 +16011,48 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "user": {
+        "original": "用户",
+        "singular": "用户",
+        "plural": "用户",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "姓名",
+        "singular": "姓名",
+        "plural": "姓名",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "reason": {
+        "original": "原因",
+        "singular": "原因",
+        "plural": "原因",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "leaveOutturnCode": {
-        "original": "Leave Outturn Code",
-        "singular": "Leave Outturn Code",
-        "plural": "Leave Outturn Code",
+        "original": "请假结果代码",
+        "singular": "请假结果代码",
+        "plural": "请假结果代码",
         "setupEdit": true,
         "setupVisible": true
       }
     },
     "messages": {
-      "selectOutturnCode": "Select Outturn Code",
-      "selectApprovalStatus": "Select Approval Status",
-      "selectUsers": "Select User(s)",
-      "confirmLeaveAcceptance":"Confirm Leave Acceptance", 
-      "confirmLeaveDecline":"Confirm Leave Decline",
-      "confirmLeaveAction":"Are your sure want to accept this leave?",
-      "confirmLeaveRejectAction":"Are your sure want to reject this leave?",
-      "viewLeave":"View Leave",
-      "leaveApprovedSuccessfully":"Leave approved successfully",
-      "leaveRejectedSuccessfully":"Leave rejected successfully",
-      "editLeave":"Edit Leave"
+      "selectOutturnCode": "选择结果代码",
+      "selectApprovalStatus": "选择批准状态",
+      "selectUsers": "选择用户",
+      "confirmLeaveAcceptance": "确认接受请假",
+      "confirmLeaveDecline": "确认拒绝请假",
+      "confirmLeaveAction": "您确定要接受此请假吗？",
+      "confirmLeaveRejectAction": "您确定要拒绝此请假吗？",
+      "viewLeave": "查看请假",
+      "leaveApprovedSuccessfully": "请假批准成功",
+      "leaveRejectedSuccessfully": "请假拒绝成功",
+      "editLeave": "编辑请假",
+      "optional": "可选"
     }
   },
   "login":{

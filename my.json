@@ -16377,52 +16377,52 @@
   "leave": {
     "setupVisible": true,
     "label": {
-      "original": "Leave",
-      "singular": "Leave",
-      "plural": "Leaves",
+      "original": "Cuti",
+      "singular": "Cuti",
+      "plural": "Cuti",
       "setupEdit": true,
       "setupVisible": true
     },
     "sections": {
       "setupVisible": true,
       "sec0": {
-        "original": "Leave Application",
-        "singular": "Leave Application",
+        "original": "Permohonan Cuti",
+        "singular": "Permohonan Cuti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
-        "original": "Today Pending Leaves",
-        "singular": "Today Pending Leave",
-        "plural": "Today Pending Leaves",
+        "original": "Cuti Tertunda Hari Ini",
+        "singular": "Cuti Tertunda Hari Ini",
+        "plural": "Cuti Tertunda Hari Ini",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
-        "original": "Pending Leaves",
-        "singular": "Pending Leave",
-        "plural": "Pending Leaves",
+        "original": "Cuti Tertunda",
+        "singular": "Cuti Tertunda",
+        "plural": "Cuti Tertunda",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
-        "original": "My Leaves",
-        "singular": "My Leave",
-        "plural": "My Leaves",
+        "original": "Cuti Saya",
+        "singular": "Cuti Saya",
+        "plural": "Cuti Saya",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
-        "original": "My Staff Leaves",
-        "singular": "My Staff Leave",
-        "plural": "My Staff Leaves",
+        "original": "Cuti Kakitangan Saya",
+        "singular": "Cuti Kakitangan Saya",
+        "plural": "Cuti Kakitangan Saya",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec5": {
-        "original": "Approval Details",
-        "singular": "Approval Details",
+        "original": "Butiran Kelulusan",
+        "singular": "Butiran Kelulusan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -16435,8 +16435,8 @@
         "setupVisible": true
       },
       "sec7": {
-        "original": "Leave Details",
-        "singular": "Leave Details",
+        "original": "Butiran Cuti",
+        "singular": "Butiran Cuti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -16445,22 +16445,22 @@
     "fields": {
       "setupVisible": true,
       "leaveType": {
-        "original": "Leave Type",
-        "singular": "Leave Type",
+        "original": "Jenis Cuti",
+        "singular": "Jenis Cuti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "leaveStatus": {
-        "original": "Leave Status",
-        "singular": "Leave Status",
+        "original": "Status Cuti",
+        "singular": "Status Cuti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "leaveDateRange": {
-        "original": "Leave Date Range",
-        "singular": "Leave Date Range",
+        "original": "Julat Tarikh Cuti",
+        "singular": "Julat Tarikh Cuti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -16480,8 +16480,8 @@
         "setupVisible": true
       },
       "from": {
-        "original": "From",
-        "singular": "From",
+        "original": "Dari",
+        "singular": "Dari",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -16494,8 +16494,8 @@
         "setupVisible": true
       },
       "managerComments": {
-        "original": "Manager Comments",
-        "singular": "Manager Comments",
+        "original": "Komen Pengurus",
+        "singular": "Komen Pengurus",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -16507,20 +16507,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "user": {
-        "original": "User",
-        "singular": "User",
-        "plural": "Users",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "name": {
-        "original": "Name",
-        "singular": "Name",
-        "plural": "Name",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "remarks": {
         "original": "Catatan",
         "singular": "Catatan",
@@ -16528,26 +16514,48 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "user": {
+        "original": "Pengguna",
+        "singular": "Pengguna",
+        "plural": "Pengguna",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "name": {
+        "original": "Nama",
+        "singular": "Nama",
+        "plural": "Nama",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "reason": {
+        "original": "Sebab",
+        "singular": "Sebab",
+        "plural": "Sebab",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "leaveOutturnCode": {
-        "original": "Leave Outturn Code",
-        "singular": "Leave Outturn Code",
-        "plural": "Leave Outturn Code",
+        "original": "Kod Keputusan Cuti",
+        "singular": "Kod Keputusan Cuti",
+        "plural": "Kod Keputusan Cuti",
         "setupEdit": true,
         "setupVisible": true
       }
     },
     "messages": {
-      "selectOutturnCode": "Select Outturn Code",
-      "selectApprovalStatus": "Select Approval Status",
-      "selectUsers": "Select User(s)",
-      "confirmLeaveAcceptance":"Confirm Leave Acceptance", 
-      "confirmLeaveDecline":"Confirm Leave Decline",
-      "confirmLeaveAction":"Are your sure want to accept this leave?",
-      "confirmLeaveRejectAction":"Are your sure want to reject this leave?",
-      "viewLeave":"View Leave",
-      "leaveApprovedSuccessfully":"Leave approved successfully",
-      "leaveRejectedSuccessfully":"Leave rejected successfully",
-      "editLeave":"Edit Leave"
+      "selectOutturnCode": "Pilih Kod Keputusan",
+      "selectApprovalStatus": "Pilih Status Kelulusan",
+      "selectUsers": "Pilih Pengguna",
+      "confirmLeaveAcceptance": "Sahkan Penerimaan Cuti",
+      "confirmLeaveDecline": "Sahkan Penolakan Cuti",
+      "confirmLeaveAction": "Adakah anda pasti mahu menerima cuti ini?",
+      "confirmLeaveRejectAction": "Adakah anda pasti mahu menolak cuti ini?",
+      "viewLeave": "Lihat Cuti",
+      "leaveApprovedSuccessfully": "Cuti diluluskan dengan berjaya",
+      "leaveRejectedSuccessfully": "Cuti ditolak dengan berjaya",
+      "editLeave": "Edit Cuti",
+      "optional": "Pilihan"
     }
   },
   "login": {

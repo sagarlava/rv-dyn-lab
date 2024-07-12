@@ -358,8 +358,8 @@
         "setupVisible": true
       },
       "sec9": {
-        "original": "Qr/Barcode",
-        "singular": "Qr/Barcode",
+        "original": "QR/Barcode",
+        "singular": "QR/Barcode",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -798,6 +798,13 @@
         "original": "day",
         "singular": "day",
         "plural": "days",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetNo": {
+        "original": "Asset No.",
+        "singular": "Asset No.",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -3656,6 +3663,27 @@
         "plural": "Reference Checklist",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "dateAndTime": {
+        "original": "Date & Time",
+        "singular": "Date & Time",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "from": {
+        "original": "From",
+        "singular": "From",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "createdVia": {
+        "original": "Created Via",
+        "singular": "Created Via",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -3825,20 +3853,25 @@
       "thisTask":"This Task",
       "thisTaskAndFollowingtasks":"This Task and Following task(s)",
       "assistanceRequestSentSuccessfully": "Assistance rRequest send Successfully.",
-      "noTasksAssigned":"No Tasks Assigned",
-      "pleaseSetYourOfficeAddressInYourProfile": "Please set your Office Address in your profile",
-      "invalidOfficeAddressPleaseUseTheSearchToFindTheAddress": "Invalid office address. Please use the search to find the address",
-      "pleaseSetYourHomeAddressInYourProfile": "Please set your Home Address in your profile",
-      "invalidHomeAddressPleaseUseTheSearchToFindTheAddress": "Invalid home address. Please use the search to find the address",
-      "invalidStartLocationPleaseSelectAStartLocationFromTheAutocompleteListBeforeTryingToOptimize": "Invalid Start Location. Please select a start location from the autocomplete list before trying to optimize",
-      "pleaseSelectAtLeastOneTaskToClone": "Please select at least one task to clone",
-      "pleaseSelectAtLeastOneTaskToMove": "Please select at least one task to move",
-      "selectAtLeastOneUserBeforeAssigningTasks": "Select at least one user before assigning task(s)",
-      "selectAnOwnerBeforeAssigningTasks": "Select an owner before assigning task(s)",
-      "selectATimeBeforeAssigningTasks": "Select a time before assigning task(s)",
-      "areYouSureYouWantToAssignTask": "Are you sure you want to assign task?",
-      "changesHaveBeenMadeToYourSchedulePleaseSaveOrDiscardTheChangesBeforeViewingTheMap": "Changes have been made to your schedule. Please save or discard the changes before viewing the map",
-      "trafficInformationIsOnlyAvailableForFutureAndCurrentTimes": "Traffic information is only available for future and current times"
+      "noTasks": "No Tasks Assigned",
+      "setOfficeAddr": "Please set your Office Address in your profile",
+      "invalidOfficeAddr": "Invalid office address. Please use the search to find the address",
+      "setHomeAddr": "Please set your Home Address in your profile",
+      "invalidHomeAddr": "Invalid home address. Please use the search to find the address",
+      "invalidStartLoc": "Invalid Start Location. Please select a start location from the autocomplete list before trying to optimize",
+      "selectTaskClone": "Please select at least one task to clone",
+      "selectTaskMove": "Please select at least one task to move",
+      "selectUserTask": "Select at least one user before assigning task(s)",
+      "selectOwnerTask": "Select an owner before assigning task(s)",
+      "selectTimeTask": "Select a time before assigning task(s)",
+      "confirmAssignTask": "Are you sure you want to assign task?",  
+      "saveChangesMap": "Changes have been made to your schedule. Please save or discard the changes before viewing the map",
+      "trafficInfoFuture": "Traffic information is only available for future and current times",
+      "homeAddrNotSet": "Home Address is not set",
+      "officeAddrNotSet": "Office Address is not set",
+      "selectOwner": "Please select at least 1 owner",
+      "maxUsersTask": "Maximum of 5 users in a Task is allowed"
+      
     }
   },
   "site": {
@@ -4410,6 +4443,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "categoryType": {
+        "original": "Category Type",
+        "singular": "Category Type",
+        "plural": "Category Types",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -4807,7 +4847,10 @@
         "setupVisible": true
       }
     },
-    "messages": {}
+    "messages": {
+      "phoneOrEmailMandatory": "Either Phone or Email is mandatory",
+      "typeMessageOrAddAttachment": "Please type a message or add an attachment"
+    }
   },
   "jobOrder": {
     "setupVisible": true,
@@ -7767,7 +7810,10 @@
       "selectType": "Select Type",
       "selectFamily": "Select Family",
       "pleaseSelectOneFilter": "Please select at least one filter",
-      "availableOtherLocations":"available in other locations"
+      "availableOtherLocations":"available in other locations",
+      "sameProductBinTransferNotAllowed": "You are not allowed to select the same Product in a bin transfer",
+      "sameProductBinNotAllowed": "You are not allowed to select the same Product in a bin",
+      "sameAssetBinNotAllowed": "You are not allowed to select the same asset in a bin"
     }
   },
   "bin": {
@@ -8957,7 +9003,12 @@
     "validationFE": {},
     "messages":{
       "searchContact": "Search Contact",
-      "noContactsFound": "No contacts found"
+      "noContactsFound": "No contacts found",
+      "confirmResendActivationEmail": "Are you sure you want to send Resend Activation Email?",
+      "confirmActivateUser": "Are you sure you want to activate this user?",
+      "confirmDeactivateUser": "Are you sure you want to deactivate this user’s account? This user cannot be activated again after deactivation.",
+      "confirmSuspendUser": "Are you sure you want to suspend this user’s account?"
+
     }
   },
   "helpdesk": {
@@ -9150,7 +9201,8 @@
       "allowedFileSize": "File size should be less than 25MB",
       "cannotFindFile":"Cannot find filename and filetype",
       "pdfNotAvailable": "Sorry! PDF is not available",
-      "invalidFileType":"Invalid file type. Only image files (.jpg, .png, .svg, etc.) can be uploaded."
+      "invalidFileType":"Invalid file type. Only image files (.jpg, .png, .svg, etc.) can be uploaded.",
+      "maxUploadFileSize": "Maximum upload file size is 25MB"
     }
   },
   "history": {
@@ -9418,6 +9470,13 @@
       "select":{
         "original": "SELECT",
         "singular": "SELECT",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "select2":{
+        "original": "Select",
+        "singular": "Select",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -10359,6 +10418,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "locate": {
+        "original": "Locate",
+        "singular": "Locate",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       } 
     },
     "status": {
@@ -10593,6 +10659,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "messages":{
+        "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
+        "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
+        "updateStatusTo":"Update status to",
+        "updateStatus":"Update Status",
+        "confirmMarkTaskComplete": "Would you like to mark this task as complete?"
       }
     },
     "messages": {
@@ -10631,6 +10704,8 @@
       "deletedSuccessfully": "deleted successfully",
       "savedSuccessfully": "saved successfully",
       "updatedSuccessfully": "updated successfully",
+      "acceptedSuccessfully": "Accepted successfully",
+      "declinedSuccessfully": "Declined successfully",
       "updateNotSuccesful": "Update not successful",
       "doYouWishToContinue": "Do you wish to continue?",
       "approve": "Approve",
@@ -10723,6 +10798,7 @@
       "youDontHaveReportingManager":"You don't have a reporting manager, Please contact your admin",
       "thereAreNoTasksWithLocation":"There are no tasks with location to display in map",
       "reasonOptional": "Reason (Optional)"
+
 
     },
     "location": {
@@ -11194,8 +11270,8 @@
         "setupVisible": false
       },
       "sec2": {
-        "original": "Select an asset from the list",
-        "singular": "Select an asset from the list",
+        "original": "Select an Asset from the list",
+        "singular": "Select an Asset from the list",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -11273,6 +11349,20 @@
       "sec13": {
         "original": "Select an ticket from the list",
         "singular": "Select an ticket from the list",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec14": {
+        "original": "Select a Sales Order from the list",
+        "singular": "Select a Sales Order from the list",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "Select a Ticket from the list",
+        "singular": "Select a Ticket from the list",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

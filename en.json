@@ -4822,6 +4822,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "atRisk": {
+        "original": "At Risk",
+        "singular": "At Risk",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "violation": {
+        "original": "Violation",
+        "singular": "Violation",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "completed": {
+        "original": "Completed",
+        "singular": "Completed",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -7636,6 +7657,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "qtyAvail": {
+        "original": "Qty Available",
+        "singular": "Qty Available",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "qtyAvailable": {
         "original": "Quantity Available",
         "singular": "Quantity Available",
@@ -7789,6 +7817,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "productName": {
+        "original": "Product Name",
+        "singular": "Product Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "productSku": {
+        "original": "Product SKU",
+        "singular": "Product SKU",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "assetName": {
+        "original": "Asset Name",
+        "singular": "Asset Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
      
     },
@@ -12159,7 +12208,8 @@
           "goTo": "Go to",
           "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance.",
           "selectAtLeaseOneModule":"Select at least one Module Access checkbox",
-          "enableOneJobOrder":"Please enable at least one job order status for profiles with create access"
+          "enableOneJobOrder":"Please enable at least one job order status for profiles with create access",
+          "viewOnlyAccess":"View Only Access"
         }
       },
       "hierarchy": {
@@ -12492,6 +12542,27 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "name": {
+            "original": "Name",
+            "singular": "Name",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "userEmail": {
+            "original": "Email",
+            "singular": "Email",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "manager": {
+            "original": "Manager",
+            "singular": "Manager",
+            "plural": "Managers",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "validationFE": {},
@@ -12507,7 +12578,8 @@
         },
         "messages": {
           "selectMember": "Select Member",
-          "selectRole": "Select Role"
+          "selectRole": "Select Role",
+          "viewOnlyAccess":"View Only Access"
         }
       },
       "users": {
@@ -12836,6 +12908,13 @@
             "original": "Integrations",
             "singular": "Integration",
             "plural": "Integrations",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "members": {
+            "original": "Members",
+            "singular": "Member",
+            "plural": "Members",
             "setupEdit": true,
             "setupVisible": false
           }
@@ -16421,6 +16500,48 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "durationMins": {
+            "original": "Duration (mins)",
+            "singular": "Duration (mins)",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "atRisk": {
+            "original": "At Risk",
+            "singular": "At Risk",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "violation": {
+            "original": "Violation",
+            "singular": "Violation",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "completed": {
+            "original": "Completed",
+            "singular": "Completed",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "violationStatus": {
+            "original": "Violation Status",
+            "singular": "Violation Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "slaStatus": {
+            "original": "SLA Status",
+            "singular": "SLA Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "validationFE": {},
@@ -17711,6 +17832,13 @@
         "original": "Leave Outturn Code",
         "singular": "Leave Outturn Code",
         "plural": "Leave Outturn Code",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "leaveNo": {
+        "original": "Leave No.",
+        "singular": "Leave No.",
+        "plural": "Leave No.",
         "setupEdit": true,
         "setupVisible": true
       }

@@ -8011,6 +8011,41 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "productName": {
+        "original": "Product Name",
+        "singular": "Product Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "productSku": {
+        "original": "Product SKU",
+        "singular": "Product SKU",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "assetName": {
+        "original": "Asset Name",
+        "singular": "Asset Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "qtyAvailable": {
+        "original": "Qty Available",
+        "singular": "Qty Available",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "reorderPoint": {
+        "original": "Reorder Point",
+        "singular": "Reorder Point",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     }
   },

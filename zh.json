@@ -15949,20 +15949,18 @@
   "message": {
     "setupVisible": true,
     "label": {
-      "original": "Mesej",
-      "singular": "Mesej",
-      "plural": "Mesej",
+      "original": "Message",
+       "singular": "消息",
+      "plural": "消息",
       "setupEdit": true,
       "setupVisible": true
     },
     "messages":{
-      "recents":"Recents",
-      "searchUser":"Search User",
-      "noMessageToDisplay":"No Message to Display",
-      "typeYourMessageHere":"Type your message here"
-      
-
-
+      "recents": "最近",
+      "searchUser": "搜索用户",
+      "noMessageToDisplay": "没有要显示的消息",
+      "typeYourMessageHere": "在此处输入您的消息",
+      "selectConversation": "选择一个对话"
     }
   },
   "myBin": {

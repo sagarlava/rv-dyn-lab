@@ -5121,6 +5121,13 @@
         "plural": "Edit Hp Form",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "sec45": {
+        "original": "View Survey Results",
+        "singular": "View Survey Results",
+        "plural": "View Survey Results",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -17212,7 +17219,8 @@
       "recents":"Recents",
       "searchUser":"Search User",
       "noMessageToDisplay":"No Message to Display",
-      "typeYourMessageHere":"Type your message here"
+      "typeYourMessageHere":"Type your message here",
+      "selectConversation":"Select a conversation"
     }
   },
   "myBin": {

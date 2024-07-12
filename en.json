@@ -3825,7 +3825,20 @@
       "thisTask":"This Task",
       "thisTaskAndFollowingtasks":"This Task and Following task(s)",
       "assistanceRequestSentSuccessfully": "Assistance rRequest send Successfully.",
-      "noTasksAssigned":"No Tasks Assigned"
+      "noTasksAssigned":"No Tasks Assigned",
+      "pleaseSetYourOfficeAddressInYourProfile": "Please set your Office Address in your profile",
+      "invalidOfficeAddressPleaseUseTheSearchToFindTheAddress": "Invalid office address. Please use the search to find the address",
+      "pleaseSetYourHomeAddressInYourProfile": "Please set your Home Address in your profile",
+      "invalidHomeAddressPleaseUseTheSearchToFindTheAddress": "Invalid home address. Please use the search to find the address",
+      "invalidStartLocationPleaseSelectAStartLocationFromTheAutocompleteListBeforeTryingToOptimize": "Invalid Start Location. Please select a start location from the autocomplete list before trying to optimize",
+      "pleaseSelectAtLeastOneTaskToClone": "Please select at least one task to clone",
+      "pleaseSelectAtLeastOneTaskToMove": "Please select at least one task to move",
+      "selectAtLeastOneUserBeforeAssigningTasks": "Select at least one user before assigning task(s)",
+      "selectAnOwnerBeforeAssigningTasks": "Select an owner before assigning task(s)",
+      "selectATimeBeforeAssigningTasks": "Select a time before assigning task(s)",
+      "areYouSureYouWantToAssignTask": "Are you sure you want to assign task?",
+      "changesHaveBeenMadeToYourSchedulePleaseSaveOrDiscardTheChangesBeforeViewingTheMap": "Changes have been made to your schedule. Please save or discard the changes before viewing the map",
+      "trafficInformationIsOnlyAvailableForFutureAndCurrentTimes": "Traffic information is only available for future and current times"
     }
   },
   "site": {

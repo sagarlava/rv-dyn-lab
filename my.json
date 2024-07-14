@@ -10693,133 +10693,150 @@
           "reasonOptional": "Reason (Optional)"
       },
       "location": {
-          "endDateExceeds": "End date should not exceed start date",
-          "proceednyway": "Proceed anyway"
+        "endDateExceeds": "Tarikh tamat tidak boleh melebihi tarikh mula",
+        "proceedAnyway": "Teruskan juga"
       },
       "locationDetails": {
+        "setupVisible": false,
+        "label": {
+          "original": "Map",
+          "singular": "Peta",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sections": {
           "setupVisible": false,
-          "label": {
-              "original": "Map",
-              "singular": "Map",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+          "sec0": {
+            "original": "Location Details",
+            "singular": "Butiran Lokasi",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": false,
-              "sec0": {
-                  "original": "Location Details",
-                  "singular": "Location Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "sec1": {
-                  "original": "Billing Address",
-                  "singular": "Billing Address",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "sec2": {
-                  "original": "Shipping Address",
-                  "singular": "Shipping Address",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "sec3": {
-                  "original": "Address",
-                  "singular": "Address",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "sec4": {
-                  "original": "Location",
-                  "singular": "Location",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              }
+          "sec1": {
+            "original": "Billing Address",
+            "singular": "Alamat Penagihan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": false,
-              "sameAsBillingAddress": {
-                  "original": "Same as Billing Address",
-                  "singular": "Same as Billing Address",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "address": {
-                  "original": "Address",
-                  "singular": "Address",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "location": {
-                  "original": "Location",
-                  "singular": "Location",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "street": {
-                  "original": "Street",
-                  "singular": "Street",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "city": {
-                  "original": "City",
-                  "singular": "City",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "state": {
-                  "original": "State",
-                  "singular": "State",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "postcode": {
-                  "original": "Postcode",
-                  "singular": "Postcode",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "country": {
-                  "original": "Country",
-                  "singular": "Country",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "latitude": {
-                  "original": "Latitude",
-                  "singular": "Latitude",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "longitude": {
-                  "original": "Longitude",
-                  "singular": "Longitude",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              }
+          "sec2": {
+            "original": "Shipping Address",
+            "singular": "Alamat Penghantaran",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "messages": {
-              "endDateExceeds": "End date should not exceed start date",
-              "proceedAnyway": "Proceed anyway"
+          "sec3": {
+            "original": "Address",
+            "singular": "Alamat",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Location",
+            "singular": "Lokasi",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Billing Details",
+            "singular": "Butiran Penagihan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Shipping Details",
+            "singular": "Butiran Penghantaran",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "sameAsBillingAddress": {
+            "original": "Same as Billing Address",
+            "singular": "Sama seperti Alamat Penagihan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "address": {
+            "original": "Address",
+            "singular": "Alamat",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "location": {
+            "original": "Location",
+            "singular": "Lokasi",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "street": {
+            "original": "Street",
+            "singular": "Jalan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "city": {
+            "original": "City",
+            "singular": "Bandar",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "state": {
+            "original": "State",
+            "singular": "Negeri",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "postcode": {
+            "original": "Postcode",
+            "singular": "Poskod",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "country": {
+            "original": "Country",
+            "singular": "Negara",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "latitude": {
+            "original": "Latitude",
+            "singular": "Latitud",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "longitude": {
+            "original": "Longitude",
+            "singular": "Longitud",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "endDateExceeds": "Tarikh tamat tidak boleh melebihi tarikh mula",
+          "proceedAnyway": "Teruskan juga",
+          "searchPlace": "Cari Tempat",
+          "thereAreNoPlacesToDisplay": "Tiada tempat untuk dipaparkan",
+          "descriptionFieldNotFound": "Medan perihalan tidak dijumpai"
+        }
       },
     "systemInformation": {
         "setupVisible": false,

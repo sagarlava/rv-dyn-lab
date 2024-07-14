@@ -10553,90 +10553,150 @@
           "reasonOptional": "Reason (Optional)"
       },
       "location": {
-          "setupVisible": true,
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Location Details",
-                  "singular": "Location Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Billing Address",
-                  "singular": "Billing Address",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Shipping Address",
-                  "singular": "Shipping Address",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+        "endDateExceeds": "结束日期不应超过开始日期",
+        "proceedAnyway": "仍然继续"
+      },
+      "locationDetails": {
+        "setupVisible": false,
+        "label": {
+          "original": "Map",
+          "singular": "地图",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Location Details",
+            "singular": "位置详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "sameAsBillingAddress": {
-                  "original": "Same as Billing Address",
-                  "singular": "Same as Billing Address",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "street": {
-                  "original": "Street",
-                  "singular": "Street",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "city": {
-                  "original": "City",
-                  "singular": "City",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "state": {
-                  "original": "State",
-                  "singular": "State",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "postcode": {
-                  "original": "Postcode",
-                  "singular": "Postcode",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "country": {
-                  "original": "Country",
-                  "singular": "Country",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "latitude": {
-                  "original": "Latitude",
-                  "singular": "Latitude",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "longitude": {
-                  "original": "Longitude",
-                  "singular": "Longitude",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Billing Address",
+            "singular": "账单地址",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Shipping Address",
+            "singular": "送货地址",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Address",
+            "singular": "地址",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Location",
+            "singular": "位置",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Billing Details",
+            "singular": "账单详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Shipping Details",
+            "singular": "送货详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "sameAsBillingAddress": {
+            "original": "Same as Billing Address",
+            "singular": "同账单地址",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "address": {
+            "original": "Address",
+            "singular": "地址",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "location": {
+            "original": "Location",
+            "singular": "位置",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "street": {
+            "original": "Street",
+            "singular": "街道",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "city": {
+            "original": "City",
+            "singular": "城市",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "state": {
+            "original": "State",
+            "singular": "州",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "postcode": {
+            "original": "Postcode",
+            "singular": "邮政编码",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "country": {
+            "original": "Country",
+            "singular": "国家",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "latitude": {
+            "original": "Latitude",
+            "singular": "纬度",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "longitude": {
+            "original": "Longitude",
+            "singular": "经度",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "endDateExceeds": "结束日期不应超过开始日期",
+          "proceedAnyway": "仍然继续",
+          "searchPlace": "搜索地点",
+          "thereAreNoPlacesToDisplay": "没有可显示的地点",
+          "descriptionFieldNotFound": "未找到描述字段"
+        }
       },
       "systemInformation": {
         "setupVisible": false,

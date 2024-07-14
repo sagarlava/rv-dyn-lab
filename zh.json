@@ -286,521 +286,529 @@
   "asset": {
       "setupVisible": true,
       "label": {
-          "original": "Asset",
-          "singular": "Aset",
-          "plural": "Aset",
-          "setupEdit": true,
-          "setupVisible": true
+        "original": "Asset",
+        "singular": "资产",
+        "plural": "资产",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "General Details",
-              "singular": "一般详情",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Ownership & Location",
-              "singular": "所有权与位置",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Coverage Period & Acquisition",
-              "singular": "覆盖期与获取",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec3": {
-              "original": "Equipment Details",
-              "singular": "设备详情",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec4": {
-              "original": "Additional Details",
-              "singular": "附加详情",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec5": {
-              "original": "Overview",
-              "singular": "概述",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec6": {
-              "original": "Timeline",
-              "singular": "时间轴",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec7": {
-              "original": "Current Meter Reading",
-              "singular": "当前表读数",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec8": {
-              "original": "Current Contract",
-              "singular": "当前合同",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec9": {
-              "original": "Qr/Barcode",
-              "singular": "二维码/条码",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec10": {
-              "original": "Filter By",
-              "singular": "筛选条件",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec11": {
-              "original": "Details",
-              "singular": "详情",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec12": {
-              "original": "Accessory Details",
-              "singular": "附件详情",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec13": {
-              "original": "Asset Log",
-              "singular": "资产日志",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec14": {
-              "original": "Log Details",
-              "singular": "日志详情",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec15": {
-              "original": "New Entry",
-              "singular": "新条目",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec16": {
-              "original": "Asset Details",
-              "singular": "资产详情",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
-      "fields": {
-          "setupVisible": true,
-          "type": {
-              "original": "Type",
-              "singular": "类型",
-              "plural": "类型",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "equipmentNumber": {
-              "original": "Equipment Number",
-              "singular": "设备号码",
-              "plural": "设备号码",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "code": {
-              "original": "Code",
-              "singular": "编码",
-              "plural": "编码",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "engineNumberOne": {
-              "original": "Engine 1",
-              "singular": "引擎 1",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "engineNumberTwo": {
-              "original": "Engine 2",
-              "singular": "引擎 2",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "extId": {
-              "original": "External ID",
-              "singular": "外部ID",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetName": {
-              "original": "Asset Name",
-              "singular": "资产名称",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "name": {
-              "original": "Name",
-              "singular": "姓名",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "status": {
-              "original": "Status",
-              "singular": "状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "serialNo": {
-              "original": "Serial No",
-              "singular": "序列号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "serialNumber": {
-              "original": "Serial Number",
-              "singular": "序列号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetCode": {
-              "original": "Asset Code",
-              "singular": "资产代码",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "description": {
-              "original": "Description",
-              "singular": "描述",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "photo": {
-              "original": "Photo",
-              "singular": "图片",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "custodian": {
-              "original": "Custodian",
-              "singular": "管理员",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "warrantyStartDate": {
-              "original": "Warranty Start Date",
-              "singular": "保修期开始日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "warrantyEndDate": {
-              "original": "Warranty End Date",
-              "singular": "保修期结束日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "acquisitionDate": {
-              "original": "Acquisition Date",
-              "singular": "购买日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "equipmentType": {
-              "original": "Equipment Type",
-              "singular": "设备类型",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "engineMake": {
-              "original": "Engine Make",
-              "singular": "引擎制造商",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "manufacturer": {
-              "original": "Manufacturer",
-              "singular": "制造商",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "engineModel": {
-              "original": "Engine Model",
-              "singular": "引擎型号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "makeModel": {
-              "original": "Make/Model",
-              "singular": "品牌/型号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "manufacturerYear": {
-              "original": "Manufacture Year",
-              "singular": "制造年份",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "note": {
-              "original": "Note",
-              "singular": "笔记",
-              "plural": "笔记",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "upcoming": {
-              "original": "Upcoming",
-              "singular": "即将到来",
-              "plural": "即将到来",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "lastCompleted": {
-              "original": "Last Completed",
-              "singular": "最后准备日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "next": {
-              "original": "Next",
-              "singular": "下一个",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "next30Days": {
-              "original": "Next 30 Days",
-              "singular": "未来30天",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "overdue": {
-              "original": "Overdue",
-              "singular": "拖欠",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "dueOn": {
-              "original": "Due on",
-              "singular": "结束期限",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "expiresIn": {
-              "original": "Expires in",
-              "singular": "有效至",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "latestActiveContract": {
-              "original": "Latest Active Contract",
-              "singular": "当前活跃合同",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "updatedBy": {
-              "original": "Updated by",
-              "singular": "更新者",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "transferredBy": {
-              "original": "Transferred By",
-              "singular": "Transferred By",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetId": {
-              "original": "Asset ID",
-              "singular": "资产ID",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "nextMaintenanceDate": {
-              "original": "Next Maintenance Date",
-              "singular": "下次维护日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "accessory": {
-              "original": "Accessory",
-              "singular": "附件",
-              "plural": "附件",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "accessoryNo": {
-              "original": "Accessory No.",
-              "singular": "附件编号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "currentReading": {
-              "original": "Current Reading",
-              "singular": "最新读数",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "logDateTime": {
-              "original": "Log Date & Time",
-              "singular": "笔记日期和时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "modifiedDateTime": {
-              "original": "Modified Date & Time",
-              "singular": "更新日期和时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "newValue": {
-              "original": "New Value",
-              "singular": "当前值",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "oldValue": {
-              "original": "Old Value",
-              "singular": "上一个值",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "newMeterReading": {
-              "original": "New Meter Reading",
-              "singular": "最新表读数",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "engineNumber": {
-              "original": "Engine Number",
-              "singular": "引擎编号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "finish": {
-              "original": "Finish",
-              "singular": "完成",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "maintenanceStatus": {
-              "original": "Maintenance Status",
-              "singular": "维护状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "nextMaintenanceType": {
-              "original": "Next Maintenance Type",
-              "singular": "下次维护类型",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "minorMajorServiceFrequency": {
-              "original": "Minor/Major Service Frequency(Months)",
-              "singular": "次要/主要服务频率（月）",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "majorServiceFrequency": {
-              "original": "Major Service Frequency(Months)",
-              "singular": "主要服务频率（月）",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "minorServiceFrequency": {
-              "original": "Minor Service Frequency(Months)",
-              "singular": "次要服务频率（月）",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "allAsset": {
-              "original": "All Assets",
-              "singular": "所有资产",
-              "plural": "所有资产",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetsByCustomer": {
-              "original": "Assets by Customer",
-              "singular": "按客户分类的资产",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "day": {
-              "original": "day",
-              "singular": "天",
-              "plural": "天",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "sec0": {
+          "original": "General Details",
+          "singular": "一般详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Ownership & Location",
+          "singular": "所有权与位置",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Coverage Period & Acquisition",
+          "singular": "覆盖期与获取",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec3": {
+          "original": "Equipment Details",
+          "singular": "设备详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4": {
+          "original": "Additional Details",
+          "singular": "附加详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec5": {
+          "original": "Overview",
+          "singular": "概览",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec6": {
+          "original": "Timeline",
+          "singular": "时间线",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec7": {
+          "original": "Current Meter Reading",
+          "singular": "当前计量读数",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec8": {
+          "original": "Current Contract",
+          "singular": "当前合同",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec9": {
+          "original": "QR/Barcode",
+          "singular": "QR/条码",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec10": {
+          "original": "Filter By",
+          "singular": "筛选依据",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec11": {
+          "original": "Details",
+          "singular": "详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec12": {
+          "original": "Accessory Details",
+          "singular": "配件详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec13": {
+          "original": "Asset Log",
+          "singular": "资产日志",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec14": {
+          "original": "Log Details",
+          "singular": "日志详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec15": {
+          "original": "New Entry",
+          "singular": "新条目",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec16": {
+          "original": "Asset Details",
+          "singular": "资产详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      }
+    ,
+    "fields": {
+        "setupVisible": true,
+        "type": {
+          "original": "Type",
+          "singular": "类型",
+          "plural": "类型",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "equipmentNumber": {
+          "original": "Equipment Number",
+          "singular": "设备编号",
+          "plural": "设备编号",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "code": {
+          "original": "Code",
+          "singular": "代码",
+          "plural": "代码",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "engineNumberOne": {
+          "original": "Engine 1",
+          "singular": "发动机1",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "engineNumberTwo": {
+          "original": "Engine 2",
+          "singular": "发动机2",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "extId": {
+          "original": "External ID",
+          "singular": "外部ID",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetName": {
+          "original": "Asset Name",
+          "singular": "资产名称",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "name": {
+          "original": "Name",
+          "singular": "名称",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "status": {
+          "original": "Status",
+          "singular": "状态",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "serialNo": {
+          "original": "Serial No",
+          "singular": "序列号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "serialNumber": {
+          "original": "Serial Number",
+          "singular": "序列号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetCode": {
+          "original": "Asset Code",
+          "singular": "资产代码",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "description": {
+          "original": "Description",
+          "singular": "描述",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "photo": {
+          "original": "Photo",
+          "singular": "照片",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "custodian": {
+          "original": "Custodian",
+          "singular": "保管人",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "warrantyStartDate": {
+          "original": "Warranty Start Date",
+          "singular": "保修开始日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "warrantyEndDate": {
+          "original": "Warranty End Date",
+          "singular": "保修结束日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "acquisitionDate": {
+          "original": "Acquisition Date",
+          "singular": "获取日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "equipmentType": {
+          "original": "Equipment Type",
+          "singular": "设备类型",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "engineMake": {
+          "original": "Engine Make",
+          "singular": "发动机制造商",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "manufacturer": {
+          "original": "Manufacturer",
+          "singular": "制造商",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "engineModel": {
+          "original": "Engine Model",
+          "singular": "发动机型号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "makeModel": {
+          "original": "Make/Model",
+          "singular": "制造/型号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "engineNumber": {
+          "original": "Engine Number",
+          "singular": "发动机编号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "manufacturerYear": {
+          "original": "Manufacture Year",
+          "singular": "制造年份",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "note": {
+          "original": "Note",
+          "singular": "备注",
+          "plural": "备注",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "upcoming": {
+          "original": "Upcoming",
+          "singular": "即将到来",
+          "plural": "即将到来",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "lastCompleted": {
+          "original": "Last Completed",
+          "singular": "最后完成",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "next": {
+          "original": "Next",
+          "singular": "下一个",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "finish": {
+          "original": "Finish",
+          "singular": "完成",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "next30Days": {
+          "original": "Next 30 Days",
+          "singular": "接下来的30天",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "overdue": {
+          "original": "Overdue",
+          "singular": "过期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "dueOn": {
+          "original": "Due on",
+          "singular": "到期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "expiresIn": {
+          "original": "Expires in",
+          "singular": "到期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "latestActiveContract": {
+          "original": "Latest Active Contract",
+          "singular": "最新的有效合同",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "updatedBy": {
+          "original": "Updated by",
+          "singular": "更新者",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "transferredBy": {
+          "original": "Transferred By",
+          "singular": "转移者",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetId": {
+          "original": "Asset ID",
+          "singular": "资产ID",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "nextMaintenanceDate": {
+          "original": "Next Maintenance Date",
+          "singular": "下次维护日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "maintenanceStatus": {
+          "original": "Maintenance Status",
+          "singular": "维护状态",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "nextMaintenanceType": {
+          "original": "Next Maintenance Type",
+          "singular": "下次维护类型",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "minorMajorServiceFrequency": {
+          "original": "Minor/Major Service Frequency(Months)",
+          "singular": "小/大维护频率(个月)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "majorServiceFrequency": {
+          "original": "Major Service Frequency(Months)",
+          "singular": "大维护频率(个月)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "minorServiceFrequency": {
+          "original": "Minor Service Frequency(Months)",
+          "singular": "小维护频率(个月)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "accessory": {
+          "original": "Accessory",
+          "singular": "附件",
+          "plural": "附件",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "accessoryNo": {
+          "original": "Accessory No.",
+          "singular": "附件编号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "currentReading": {
+          "original": "Current Reading",
+          "singular": "当前读数",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "logDateTime": {
+          "original": "Log Date & Time",
+          "singular": "日志日期和时间",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "modifiedDateTime": {
+          "original": "Modified Date & Time",
+          "singular": "修改日期和时间",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "newValue": {
+          "original": "New Value",
+          "singular": "新值",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "oldValue": {
+          "original": "Old Value",
+          "singular": "旧值",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "newMeterReading": {
+          "original": "New Meter Reading",
+          "singular": "新表读数",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "allAsset": {
+          "original": "All Assets",
+          "singular": "所有资产",
+          "plural": "所有资产",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetsByCustomer": {
+          "original": "Assets by Customer",
+          "singular": "客户资产",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "day": {
+          "original": "day",
+          "singular": "天",
+          "plural": "天",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetNo": {
+          "original": "Asset No.",
+          "singular": "资产编号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "validationFE": {},
       "validationBE": {
@@ -809,56 +817,56 @@
           "invalidEmailFormat": "Invalid Email Format"
       },
       "tooltips": {
-          "setupVisible": true,
-          "assetLookup": {
-              "original": "Asset Lookup",
-              "singular": "资产搜索",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "accessoryLookup": {
-              "original": "附件搜索",
-              "singular": "附件搜索",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "binLookup": {
-              "original": "Bin Lookup",
-              "singular": "箱搜索",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "serialNo": {
-              "original": "This is a unique number that can be used to identify your Asset across the system",
-              "singular": "这是一个唯一的编号，可用于在整个系统中识别您的资产。",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "custodian": {
-              "original": "The custodian is the person within your organization that's responsible for this Asset",
-              "singular": "这位资产管理员是贵组织内负责管理该资产的个人。",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "assetLookup": {
+          "original": "Asset Lookup",
+          "singular": "资产查询",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "binLookup": {
+          "original": "Bin Lookup",
+          "singular": "箱查询",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "serialNo": {
+          "original": "This is a unique number that can be used to identify your Asset across the system",
+          "singular": "这是一个独特的编号，可以用于在系统中识别您的资产",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "custodian": {
+          "original": "The custodian is the person within your organization that's responsible for this Asset",
+          "singular": "保管人是您组织内负责该资产的人员",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetSummary": {
+          "original": "Asset Summary",
+          "singular": "资产摘要",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "messages": {
-          "configureQrBarcodeInAssetSetup": "要设置二维码/条形码，请转到设置中的资产配置。",
-          "resetMeterForLowerReading": "如果您的新电表读数小于当前读数，请选择“重置电表”。",
-          "futureDateTimeEntryNotAllowed": "不能为未来的日期和时间进行条目输入。",
-          "maintenanceAppliesToAllContractAssets": "此维护将适用于本合同内的所有资产。",
-          "errorFetchingAssetDetails": "获取资产详情时出错",
-          "noAssetsFound": "未找到资产",
-          "noScheduledMaintenance": "无计划维护",
-          "noPriorMaintenance": "无先前维护",
-          "noUpcomingJobs": "无即将进行的工作",
-          "previously": "以前",
-          "from": "从",
-          "warrantyStartDate": "保修开始日期不应大于保修结束日期"
+        "configureQrBarcodeInAssetSetup": "要设置QR/条码，请转到设置中的资产配置",
+        "resetMeterForLowerReading": "如果您的新计量读数小于当前读数，请选择“重置计量器”",
+        "futureDateTimeEntryNotAllowed": "无法为未来的日期和时间进行条目",
+        "maintenanceAppliesToAllContractAssets": "此维护将应用于合同中的所有资产",
+        "errorFetchingAssetDetails": "获取资产详情时出错",
+        "noAssetsFound": "未找到资产",
+        "noScheduledMaintenance": "没有计划的维护",
+        "noPriorMaintenance": "没有先前的维护",
+        "noUpcomingJobs": "没有即将进行的任务",
+        "previously": "以前",
+        "from": "从",
+        "warrantyStartDate": "保修开始日期不应晚于保修结束日期"
       }
   },
   "assetLog": {

@@ -2345,203 +2345,217 @@
           }
       },
       "fields": {
-          "setupVisible": true,
-          "name": {
-              "original": "Name",
-              "singular": "Nama",
-              "plural": "Nama",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "status": {
-              "original": "Status",
-              "singular": "Status",
-              "plural": "Statuses",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sku": {
-              "original": "SKU",
-              "singular": "SKU",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "type": {
-              "original": "Type",
-              "singular": "Jenis",
-              "plural": "Jenis",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "productFamily": {
-              "original": "Product Family",
-              "singular": "Keluarga Produk",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "warrantyPeriod": {
-              "original": "Warranty Period",
-              "singular": "Tempoh Waranti",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "expiryDate": {
-              "original": "Expiry Date",
-              "singular": "Expiry Date",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "serialNo": {
-              "original": "Serial Number",
-              "singular": "Serial Number",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "unitMeasurement": {
-              "original": "Unit of Measurement",
-              "singular": "Unit Pengukuran",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "photo": {
-              "original": "Photo",
-              "singular": "Gambar",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "makeModel": {
-              "original": "Make/Model",
-              "singular": "Jenama/Model",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "manufacturer": {
-              "original": "Manufacturer",
-              "singular": "Pengilang",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "manufacturerYear": {
-              "original": "Manufacture Year",
-              "singular": "Tahun Pengilangan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "unitPrice": {
-              "original": "Unit Price",
-              "singular": "Harga Seunit",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "taxIncluded": {
-              "original": "Tax Included",
-              "singular": "Termasuk Cukai",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "notForSale": {
-              "original": "Not For Sale",
-              "singular": "Not For Sale",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "remarks": {
-              "original": "Remark",
-              "singular": "Catatan",
-              "plural": "Catatan",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "monthS": {
-              "original": "Month(s)",
-              "singular": "Bulan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "productName": {
-              "original": "Product Name",
-              "singular": "Nama Produk",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "productType": {
-              "original": "Product Type",
-              "singular": "Jenis Produk",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "productNo": {
-              "original": "Product No.",
-              "singular": "Product No.",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "qty": {
-              "original": "Qty",
-              "singular": "Kuantiti",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "totalPrice": {
-              "original": "Total Price",
-              "singular": "Total Price",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "warranty": {
-              "original": "Warranty",
-              "singular": "Waranti",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "user": {
-              "original": "User",
-              "singular": "Pengguna",
-              "plural": "Pengguna",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "description": {
-              "original": "Description",
-              "singular": "Description",
-              "plural": "Descriptions",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "totalAmount": {
-              "original": "Total Amount",
-              "singular": "Total Amount",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "subTotal": {
-              "original": "Sub-total",
-              "singular": "Sub-total",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "name": {
+          "original": "Name",
+          "singular": "Nama",
+          "plural": "Nama-nama",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Status",
+          "plural": "Status",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sku": {
+          "original": "SKU",
+          "singular": "SKU",
+          "plural": "SKU",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "type": {
+          "original": "Type",
+          "singular": "Jenis",
+          "plural": "Jenis-jenis",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "productFamily": {
+          "original": "Product Family",
+          "singular": "Keluarga Produk",
+          "plural": "Keluarga Produk",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "warrantyPeriod": {
+          "original": "Warranty Period",
+          "singular": "Tempoh Jaminan",
+          "plural": "Tempoh Jaminan",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "expiryDate": {
+          "original": "Expiry Date",
+          "singular": "Tarikh Tamat",
+          "plural": "Tarikh Tamat",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "serialNo": {
+          "original": "Serial Number",
+          "singular": "Nombor Siri",
+          "plural": "Nombor Siri",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "unitMeasurement": {
+          "original": "Unit of Measurement",
+          "singular": "Unit Pengukuran",
+          "plural": "Unit Pengukuran",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "photo": {
+          "original": "Photo",
+          "singular": "Foto",
+          "plural": "Foto",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "makeModel": {
+          "original": "Make/Model",
+          "singular": "Jenama/Model",
+          "plural": "Jenama/Model",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "manufacturer": {
+          "original": "Manufacturer",
+          "singular": "Pengilang",
+          "plural": "Pengilang",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "manufacturerYear": {
+          "original": "Manufacture Year",
+          "singular": "Tahun Pembuatan",
+          "plural": "Tahun Pembuatan",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "unitPrice": {
+          "original": "Unit Price",
+          "singular": "Harga Seunit",
+          "plural": "Harga Seunit",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "taxIncluded": {
+          "original": "Tax Included",
+          "singular": "Termasuk Cukai",
+          "plural": "Termasuk Cukai",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "notForSale": {
+          "original": "Not For Sale",
+          "singular": "Bukan Untuk Dijual",
+          "plural": "Bukan Untuk Dijual",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "remarks": {
+          "original": "Remark",
+          "singular": "Catatan",
+          "plural": "Catatan",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "monthS": {
+          "original": "Month(s)",
+          "singular": "Bulan",
+          "plural": "Bulan",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "productName": {
+          "original": "Product Name",
+          "singular": "Nama Produk",
+          "plural": "Nama Produk",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "productType": {
+          "original": "Product Type",
+          "singular": "Jenis Produk",
+          "plural": "Jenis Produk",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "productNo": {
+          "original": "Product No.",
+          "singular": "Nombor Produk",
+          "plural": "Nombor Produk",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "qty": {
+          "original": "Qty",
+          "singular": "Kuantiti",
+          "plural": "Kuantiti",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "quantity": {
+          "original": "quantity",
+          "singular": "kuantiti",
+          "plural": "kuantiti",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "totalPrice": {
+          "original": "Total Price",
+          "singular": "Jumlah Harga",
+          "plural": "Jumlah Harga",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "warranty": {
+          "original": "Warranty",
+          "singular": "Jaminan",
+          "plural": "Jaminan",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "user": {
+          "original": "User",
+          "singular": "Pengguna",
+          "plural": "Pengguna",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "description": {
+          "original": "Description",
+          "singular": "Deskripsi",
+          "plural": "Deskripsi",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "total": {
+          "original": "Total",
+          "singular": "Jumlah",
+          "plural": "Jumlah",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "totalAmount": {
+          "original": "Total Amount",
+          "singular": "Jumlah Keseluruhan",
+          "plural": "Jumlah Keseluruhan",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "subTotal": {
+          "original": "Sub-total",
+          "singular": "Jumlah Kecil",
+          "plural": "Jumlah Kecil",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "validationFE": {},
       "validationBE": {
@@ -2549,23 +2563,25 @@
           "invalidPhoneNumber": "Invalid Phone Number",
           "invalidEmailFormat": "Invalid Email Format"
       },
-      "tooltips": {
-          "setupVisible": true,
-          "productLookup": {
-              "original": "Product Lookup",
-              "singular": "Product Lookup",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
-      "messages": {
-          "productFamilyRemoved": "Product family removed successfully",
-          "deleteProductFamily": "Delete Product Family",
-          "deleteProductType": "Delete Product Type",
-          "newProductFamily": "New Product Family",
-          "newProductType": "New Product Type"
-      }
+     "tooltips": {
+        "setupVisible": true,
+        "productLookup": {
+        "original": "Product Lookup",
+        "singular": "Carian Produk",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        }
+    },
+    "messages": {
+        "productFamilyRemoved": "Keluarga produk berjaya dibuang",
+        "deleteProductFamily": "Padam Keluarga Produk",
+        "deleteProductType": "Padam Jenis Produk",
+        "newProductFamily": "Keluarga Produk Baru",
+        "newProductType": "Jenis Produk Baru",
+        "subTotal": "Jumlah Kecil",
+        "totalAmount": "Jumlah Keseluruhan"
+    }
   },
   "task": {
       "setupVisible": true,

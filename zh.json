@@ -2,234 +2,248 @@
   "customer": {
       "setupVisible": true,
       "label": {
-          "original": "Customers",
-          "singular": "客户",
-          "plural": "客户",
-          "setupEdit": true,
-          "setupVisible": true
+        "original": "Customers",
+        "singular": "客户",
+        "plural": "客户",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "General Details",
-              "singular": "基本信息 ",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Main Contact Details",
-              "singular": "主要联系信息 ",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Integration Details",
-              "singular": "集成细节 ",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec3": {
-              "original": "Additional Details",
-              "singular": "附加信息 ",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec4": {
-              "original": "Details",
-              "singular": "细节",
-              "plural": "细节",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec5": {
-              "original": "Stats",
-              "singular": "统计",
-              "plural": "统计",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "sec0": {
+          "original": "General Details",
+          "singular": "基本信息",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Main Contact Details",
+          "singular": "主要联系人信息",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Integration Details",
+          "singular": "集成信息",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec3": {
+          "original": "Additional Details",
+          "singular": "附加信息",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4": {
+          "original": "Details",
+          "singular": "详细信息",
+          "plural": "详细信息",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec5": {
+          "original": "Stats",
+          "singular": "统计",
+          "plural": "统计",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec6": {
+          "original": "Customer Details",
+          "singular": "客户信息",
+          "plural": "客户信息",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "fields": {
-          "setupVisible": true,
-          "type": {
-              "original": "Type",
-              "singular": "类型",
-              "plural": "类型",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sector": {
-              "original": "Sector",
-              "singular": "行业",
-              "plural": "行业",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "subSector": {
-              "original": "Sub-sector",
-              "singular": "子行业",
-              "plural": "子行业",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "category": {
-              "original": "Category",
-              "singular": "类别",
-              "plural": "类别",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "extId": {
-              "original": "External ID",
-              "singular": "外部ID",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "secExtId": {
-              "original": "Second External ID",
-              "singular": "第二外部ID",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "systemUsed": {
-              "original": "System Used",
-              "singular": "系统使用",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "patientRental": {
-              "original": "Patient Rental TV",
-              "singular": "Patient Rental TV",
-              "plural": "Patient Rental TVs",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "fixedRental": {
-              "original": "Fixed Rental TV",
-              "singular": "Fixed Rental TV",
-              "plural": "Fixed Rental TVs",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "industry": {
-              "original": "Industry",
-              "singular": "行业",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "numberOfEmployees": {
-              "original": "Number of Employees",
-              "singular": "员工人数",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "area": {
-              "original": "Area",
-              "singular": "区域",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "paymentTerm": {
-              "original": "Payment Term",
-              "singular": "支付条款",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "description": {
-              "original": "Description",
-              "singular": "描述",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "accountName": {
-              "original": "Account Name",
-              "singular": "账户名称",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "referenceNo": {
-              "original": "Reference No.",
-              "singular": "参考编号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "name": {
-              "original": "Name",
-              "singular": "姓名",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "noOfTerminals": {
-              "original": "No. Of Terminal",
-              "singular": "终端数量",
-              "plural": "终端数量",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "autoTieGeofence": {
-              "original": "Auto-tie Geofence",
-              "singular": "自动关联地理围栏",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "customerNo": {
-              "original": "Customer No.",
-              "singular": "客户编号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "customerReferenceId": {
-              "original": "Customer Reference Id",
-              "singular": "客户参考ID",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "caseContactPhone": {
-              "original": "Case Contact Phone",
-              "singular": "紧急联系电话",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assignedTo": {
-              "original": "Assigned To",
-              "singular": "分配给",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "team": {
-              "original": "Team",
-              "singular": "团队",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "location": {
-              "original": "Location",
-              "singular": "位置",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "type": {
+          "original": "Type",
+          "singular": "类型",
+          "plural": "类型",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "categoryType": {
+          "original": "Category Type",
+          "singular": "类别类型",
+          "plural": "类别类型",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sector": {
+          "original": "Sector",
+          "singular": "部门",
+          "plural": "部门",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "subSector": {
+          "original": "Sub-sector",
+          "singular": "子部门",
+          "plural": "子部门",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "category": {
+          "original": "Category",
+          "singular": "类别",
+          "plural": "类别",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "extId": {
+          "original": "External ID",
+          "singular": "外部ID",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "secExtId": {
+          "original": "Second External ID",
+          "singular": "第二外部ID",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "systemUsed": {
+          "original": "System Used",
+          "singular": "使用系统",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "patientRental": {
+          "original": "Patient Rental TV",
+          "singular": "患者租赁电视",
+          "plural": "患者租赁电视",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "fixedRental": {
+          "original": "Fixed Rental TV",
+          "singular": "固定租赁电视",
+          "plural": "固定租赁电视",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "industry": {
+          "original": "Industry",
+          "singular": "行业",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "numberOfEmployees": {
+          "original": "Number of Employees",
+          "singular": "员工数量",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "area": {
+          "original": "Area",
+          "singular": "区域",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "paymentTerm": {
+          "original": "Payment Term",
+          "singular": "付款条款",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "description": {
+          "original": "Description",
+          "singular": "描述",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "accountName": {
+          "original": "Account Name",
+          "singular": "账户名称",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "referenceNo": {
+          "original": "Reference No.",
+          "singular": "参考编号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "name": {
+          "original": "Name",
+          "singular": "名称",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "noOfTerminals": {
+          "original": "No. Of Terminal",
+          "singular": "终端数量",
+          "plural": "终端数量",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "autoTieGeofence": {
+          "original": "Auto-tie Geofence",
+          "singular": "自动绑定地理围栏",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "customerNo": {
+          "original": "Customer No.",
+          "singular": "客户编号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "customerReferenceId": {
+          "original": "Customer Reference Id",
+          "singular": "客户参考ID",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "caseContactPhone": {
+          "original": "Case Contact Phone",
+          "singular": "案件联系电话",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assignedTo": {
+          "original": "Assigned To",
+          "singular": "分配给",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "team": {
+          "original": "Team",
+          "singular": "团队",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "location": {
+          "original": "Location",
+          "singular": "位置",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "validationFE": {},
       "validationBE": {
@@ -239,14 +253,28 @@
           "requiredField": "Required Field"
       },
       "tooltips": {
-          "setupVisible": true,
-          "geofenceIconMessage": {
-              "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
-              "singular": "标记此框将根据下面地址提供的纬度和经度查找并链接相关客户的地理围栏。",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "geofenceIconMessage": {
+          "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
+          "singular": "选中此框将根据下面提供的地址中的经纬度找到并绑定相关的地理围栏到该客户",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "customerSummary": {
+          "original": "Customer Summary",
+          "singular": "客户概要",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "customerLookup": {
+          "original": "Customer Lookup",
+          "singular": "客户查询",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "messages": {
           "technicianOnRoute": "正在前往此任务的用户。",

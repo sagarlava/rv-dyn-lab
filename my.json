@@ -1,243 +1,250 @@
 {
   "customer": {
       "setupVisible": true,
-      "label": {
-          "original": "Customers",
-          "singular": "Pelanggan",
-          "plural": "Pelanggan",
-          "setupEdit": true,
-          "setupVisible": true
-      },
-      "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "General Details",
-              "singular": "Butiran Am",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Main Contact Details",
-              "singular": "Butiran Hubungan Utama",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Integration Details",
-              "singular": "Butiran Integrasi",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec3": {
-              "original": "Additional Details",
-              "singular": "Butiran Tambahan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec4": {
-              "original": "Details",
-              "singular": "Butiran",
-              "plural": "Butiran",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec5": {
-              "original": "Stats",
-              "singular": "Statistik",
-              "plural": "Statistik",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec6": {
-              "original": "Customer Details",
-              "singular": "Customer Details",
-              "plural": "Customer Details",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
-      "fields": {
-          "setupVisible": true,
-          "type": {
-              "original": "Type",
-              "singular": "Jenis",
-              "plural": "Jenis",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sector": {
-              "original": "Sector",
-              "singular": "Sektor",
-              "plural": "Sektor",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "subSector": {
-              "original": "Sub-sector",
-              "singular": "Subsektor",
-              "plural": "Subsektor",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "category": {
-              "original": "Category",
-              "singular": "Kategori",
-              "plural": "Kategori",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "extId": {
-              "original": "External ID",
-              "singular": "ID Luar",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "secExtId": {
-              "original": "Second External ID",
-              "singular": "ID Luar Kedua",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "systemUsed": {
-              "original": "System Used",
-              "singular": "Penggunaan Sistem",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "patientRental": {
-              "original": "Patient Rental TV",
-              "singular": "Patient Rental TV",
-              "plural": "Patient Rental TVs",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "fixedRental": {
-              "original": "Fixed Rental TV",
-              "singular": "Fixed Rental TV",
-              "plural": "Fixed Rental TVs",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "industry": {
-              "original": "Industry",
-              "singular": "Industri",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "numberOfEmployees": {
-              "original": "Number of Employees",
-              "singular": "Bilangan Pekerja",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "area": {
-              "original": "Area",
-              "singular": "Kawasan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "paymentTerm": {
-              "original": "Payment Term",
-              "singular": "Syarat Pembayaran",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "description": {
-              "original": "Description",
-              "singular": "Deskripsi",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "accountName": {
-              "original": "Account Name",
-              "singular": "Nama Akaun",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "referenceNo": {
-              "original": "Reference No.",
-              "singular": "Nombor Rujukan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "name": {
-              "original": "Name",
-              "singular": "Nama",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "noOfTerminals": {
-              "original": "No. Of Terminal",
-              "singular": "Bilangan Terminal",
-              "plural": "Bilangan Terminal",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "autoTieGeofence": {
-              "original": "Auto-tie Geofence",
-              "singular": "Auto-tie Geofence",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "customerNo": {
-              "original": "Customer No.",
-              "singular": "Nombor Pelanggan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "customerReferenceId": {
-              "original": "Customer Reference Id",
-              "singular": "ID Rujukan Pelanggan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "caseContactPhone": {
-              "original": "Case Contact Phone",
-              "singular": "Kes - No Telefon Orang Untuk Dihubungi",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assignedTo": {
-              "original": "Assigned To",
-              "singular": "Ditugaskan Kepada",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "team": {
-              "original": "Team",
-              "singular": "Pasukan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "location": {
-              "original": "Location",
-              "singular": "Lokasi",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
+    "label": {
+        "original": "Customers",
+        "singular": "Pelanggan",
+        "plural": "Pelanggan",
+        "setupEdit": true,
+        "setupVisible": true
+    },
+    "sections": {
+        "setupVisible": true,
+        "sec0": {
+        "original": "General Details",
+        "singular": "Butiran Am",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "sec1": {
+        "original": "Main Contact Details",
+        "singular": "Butiran Hubungan Utama",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "sec2": {
+        "original": "Integration Details",
+        "singular": "Butiran Integrasi",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "sec3": {
+        "original": "Additional Details",
+        "singular": "Butiran Tambahan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "sec4": {
+        "original": "Details",
+        "singular": "Butiran",
+        "plural": "Butiran",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "sec5": {
+        "original": "Stats",
+        "singular": "Statistik",
+        "plural": "Statistik",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "sec6": {
+        "original": "Customer Details",
+        "singular": "Butiran Pelanggan",
+        "plural": "Butiran Pelanggan",
+        "setupEdit": true,
+        "setupVisible": true
+        }
+    },
+    "fields": {
+        "setupVisible": true,
+        "type": {
+        "original": "Type",
+        "singular": "Jenis",
+        "plural": "Jenis",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "categoryType": {
+        "original": "Category Type",
+        "singular": "Jenis Kategori",
+        "plural": "Jenis Kategori",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "sector": {
+        "original": "Sector",
+        "singular": "Sektor",
+        "plural": "Sektor",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "subSector": {
+        "original": "Sub-sector",
+        "singular": "Sub-sektor",
+        "plural": "Sub-sektor",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "category": {
+        "original": "Category",
+        "singular": "Kategori",
+        "plural": "Kategori",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "extId": {
+        "original": "External ID",
+        "singular": "ID Luaran",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "secExtId": {
+        "original": "Second External ID",
+        "singular": "ID Luaran Kedua",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "systemUsed": {
+        "original": "System Used",
+        "singular": "Sistem Digunakan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "patientRental": {
+        "original": "Patient Rental TV",
+        "singular": "TV Sewa Pesakit",
+        "plural": "TV Sewa Pesakit",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "fixedRental": {
+        "original": "Fixed Rental TV",
+        "singular": "TV Sewa Tetap",
+        "plural": "TV Sewa Tetap",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "industry": {
+        "original": "Industry",
+        "singular": "Industri",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "numberOfEmployees": {
+        "original": "Number of Employees",
+        "singular": "Bilangan Pekerja",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "area": {
+        "original": "Area",
+        "singular": "Kawasan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "paymentTerm": {
+        "original": "Payment Term",
+        "singular": "Terma Pembayaran",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "description": {
+        "original": "Description",
+        "singular": "Penerangan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "accountName": {
+        "original": "Account Name",
+        "singular": "Nama Akaun",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "referenceNo": {
+        "original": "Reference No.",
+        "singular": "No. Rujukan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "name": {
+        "original": "Name",
+        "singular": "Nama",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "noOfTerminals": {
+        "original": "No. Of Terminal",
+        "singular": "Bilangan Terminal",
+        "plural": "Bilangan Terminal",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "autoTieGeofence": {
+        "original": "Auto-tie Geofence",
+        "singular": "Geofence Automatik",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "customerNo": {
+        "original": "Customer No.",
+        "singular": "No. Pelanggan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "customerReferenceId": {
+        "original": "Customer Reference Id",
+        "singular": "ID Rujukan Pelanggan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "caseContactPhone": {
+        "original": "Case Contact Phone",
+        "singular": "Telefon Hubungan Kes",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "assignedTo": {
+        "original": "Assigned To",
+        "singular": "Diperuntukkan Kepada",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "team": {
+        "original": "Team",
+        "singular": "Pasukan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "location": {
+        "original": "Location",
+        "singular": "Lokasi",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        }
+    },
       "validationFE": {},
       "validationBE": {
           "invalidPhoneNumber": "Invalid Phone Number",
@@ -245,30 +252,30 @@
           "onlyAlphabetsAllowed": "Only alphabets allowed",
           "requiredField": "Required Field"
       },
-      "tooltips": {
-          "setupVisible": true,
-          "geofenceIconMessage": {
-              "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
-              "singular": "Menandakan kotak ini akan mencari dan memautkan Pagar Geofence yang berkaitan kepada Pelanggan berdasarkan Latitud dan Longitud yang diberikan dalam alamat di bawah.",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "customerSummary": {
-              "original": "Customer Summary",
-              "singular": "Customer Summary",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "customerLookup": {
-              "original": "Customer Lookup",
-              "singular": "Customer Lookup",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
+     "tooltips": {
+        "setupVisible": true,
+        "geofenceIconMessage": {
+        "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
+        "singular": "Menandakan kotak ini akan mencari dan mengaitkan Geofence yang relevan dengan Pelanggan ini berdasarkan Latitud dan Longitud yang disediakan dalam alamat di bawah",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "customerSummary": {
+        "original": "Customer Summary",
+        "singular": "Ringkasan Pelanggan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "customerLookup": {
+        "original": "Customer Lookup",
+        "singular": "Carian Pelanggan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        }
+    },
       "messages": {
           "technicianOnRoute": "Ada pengguna sedang menuju ke tugasan ini",
           "addressNotFallGeoFence": "Alamat ini tidak termasuk dalam mana-mana Pagar Geofence anda.",

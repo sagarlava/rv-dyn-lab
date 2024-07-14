@@ -10755,6 +10755,9 @@
     "messages": {
       "fieldEx": "FieldEx",
       "fieldServiceOptimization": "Field Service Optimization",
+      "permissionDenied": "Permission Denied",
+      "contactAdminForAccess": "Please contact your admin for access",
+      "no_permission": "No Permissions set/given...",
       "recordNotFound": "Record not found",
       "noRecordsFound": "No Records Found",
       "none": "None",
@@ -16997,6 +17000,20 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "clientId": {
+          "original": "Client ID",
+          "singular": "Client ID",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "clientSecret": {
+          "original": "Client Secret",
+          "singular": "Client Secret",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "validationFE": {
@@ -17011,7 +17028,9 @@
         "selectDateTime":"Select a Date & Time - Calendly",
         "connecting":"Connecting",
         "windowCloseIn":"This window will close in",
-        "seconds":"seconds..."
+        "seconds":"seconds...",
+        "invalidLink":"Invalid Link",
+        "responseSubmit":"A response has already been submitted for this survey link"
       }
     },
     "importExport": {
@@ -17958,8 +17977,8 @@
       "userNameOrPasswordWrong": "Username or password wrong!",
       "enterUserName": "Enter User Name",
       "passwordResetInfo": "No worries, we just need your username so that we can send you a  password reset",
-      "passwordResetSuccessMessage" : "Reset successfully. An email has been sent to your address."
-      
+      "passwordResetSuccessMessage" : "Reset successfully. An email has been sent to your address.",
+      "downloadApp":"For the most features and functionality of FieldEx on the go, please download our mobile app." 
     }
   },
   "resetPassword": {

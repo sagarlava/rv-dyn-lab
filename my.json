@@ -2926,6 +2926,13 @@
               "setupEdit": true,
               "setupVisible": true
           },
+          "buffer": {
+            "original": "Buffer",
+            "singular": "Penimbal",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
           "calculatedDistanceTime": {
               "original": "Calculate Duration & Distance",
               "singular": "Kira Tempoh & Jarak",
@@ -3653,7 +3660,28 @@
               "plural": "Senarai Semak Rujukan",
               "setupEdit": true,
               "setupVisible": true
-          }
+          },
+          "dateAndTime": {
+            "original": "Date & Time",
+            "singular": "Tarikh & Masa",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "from": {
+            "original": "From",
+            "singular": "Daripada",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "createdVia": {
+            "original": "Created Via",
+            "singular": "Dibuat Melalui",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }        
       },
       "validationFE": {},
       "validationBE": {
@@ -3822,7 +3850,25 @@
           "thisTask": "Tugas Ini",
           "thisTaskAndFollowingtasks": "Tugas Ini dan Tugas Seterusnya",
           "assistanceRequestSentSuccessfully": "Permintaan Bantuan Dihantar Berjaya.",
-          "noTasksAssigned": "Tiada Tugas Diberikan"
+          "noTasksAssigned": "Tiada Tugas Diberikan",
+          "noTasks": "Tiada Tugas Diberikan",
+        "setOfficeAddr": "Sila tetapkan Alamat Pejabat anda dalam profil anda",
+        "invalidOfficeAddr": "Alamat pejabat tidak sah. Sila gunakan carian untuk mencari alamat",
+        "setHomeAddr": "Sila tetapkan Alamat Rumah anda dalam profil anda",
+        "invalidHomeAddr": "Alamat rumah tidak sah. Sila gunakan carian untuk mencari alamat",
+        "invalidStartLoc": "Lokasi Mula Tidak Sah. Sila pilih lokasi mula dari senarai autolengkap sebelum cuba untuk mengoptimumkan",
+        "selectTaskClone": "Sila pilih sekurang-kurangnya satu tugas untuk digandakan",
+        "selectTaskMove": "Sila pilih sekurang-kurangnya satu tugas untuk dipindahkan",
+        "selectUserTask": "Pilih sekurang-kurangnya satu pengguna sebelum memberikan tugas",
+        "selectOwnerTask": "Pilih seorang pemilik sebelum memberikan tugas",
+        "selectTimeTask": "Pilih masa sebelum memberikan tugas",
+        "confirmAssignTask": "Adakah anda pasti ingin memberikan tugas?",
+        "saveChangesMap": "Perubahan telah dibuat pada jadual anda. Sila simpan atau buang perubahan sebelum melihat peta",
+        "trafficInfoFuture": "Maklumat trafik hanya tersedia untuk masa depan dan masa semasa",
+        "homeAddrNotSet": "Alamat Rumah belum ditetapkan",
+        "officeAddrNotSet": "Alamat Pejabat belum ditetapkan",
+        "selectOwner": "Sila pilih sekurang-kurangnya 1 pemilik",
+        "maxUsersTask": "Maksimum 5 pengguna dibenarkan dalam satu Tugas"
       }
   },
   "site": {

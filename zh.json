@@ -3660,7 +3660,28 @@
               "plural": "参考清单",
               "setupEdit": true,
               "setupVisible": true
-          }
+          },
+          "dateAndTime": {
+            "original": "Date & Time",
+            "singular": "日期和时间",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "from": {
+            "original": "From",
+            "singular": "从",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "createdVia": {
+            "original": "Created Via",
+            "singular": "创建于",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }      
       },
       "validationFE": {},
       "validationBE": {
@@ -3829,7 +3850,25 @@
           "thisTask": "此任务",
           "thisTaskAndFollowingtasks": "此任务及后续任务",
           "assistanceRequestSentSuccessfully": "帮助请求已成功发送。",
-          "noTasksAssigned": "没有分配任务"
+          "noTasksAssigned": "没有分配任务",
+          "noTasks": "没有分配任务",
+        "setOfficeAddr": "请在个人资料中设置您的办公地址",
+        "invalidOfficeAddr": "无效的办公地址。请使用搜索找到地址",
+        "setHomeAddr": "请在个人资料中设置您的家庭地址",
+        "invalidHomeAddr": "无效的家庭地址。请使用搜索找到地址",
+        "invalidStartLoc": "无效的起始位置。请从自动完成列表中选择起始位置后再尝试优化",
+        "selectTaskClone": "请选择至少一个任务进行克隆",
+        "selectTaskMove": "请选择至少一个任务进行移动",
+        "selectUserTask": "在分配任务之前选择至少一个用户",
+        "selectOwnerTask": "在分配任务之前选择一个所有者",
+        "selectTimeTask": "在分配任务之前选择时间",
+        "confirmAssignTask": "您确定要分配任务吗？",
+        "saveChangesMap": "您的日程安排已更改。请在查看地图之前保存或放弃更改",
+        "trafficInfoFuture": "交通信息仅适用于未来和当前时间",
+        "homeAddrNotSet": "未设置家庭地址",
+        "officeAddrNotSet": "未设置办公地址",
+        "selectOwner": "请至少选择1个所有者",
+        "maxUsersTask": "一个任务最多允许5个用户"
       }
   },
   "site": {

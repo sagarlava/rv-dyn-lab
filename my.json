@@ -1831,6 +1831,175 @@
           "removeItems": "Keluarkan item yang perlu dikembalikan"
       }
   },
+  "contractMaintenance": {
+    "setupVisible": true,
+    "label": {
+        "original": "Contract Maintenance",
+        "singular": "Penyelenggaraan Kontrak",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": true,
+        "sec0": {
+          "original": "Maintenance Details",
+          "singular": "Butiran Penyelenggaraan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Preventative Maintenance",
+          "singular": "Penyelenggaraan Pencegahan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Details",
+          "singular": "Butiran",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec3": {
+          "original": "Select the maintenance type to use",
+          "singular": "Pilih jenis penyelenggaraan yang hendak digunakan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4": {
+          "original": "Select when you would like to generate the next maintenance",
+          "singular": "Pilih bila anda ingin menjana penyelenggaraan seterusnya",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec5": {
+          "original": "Select minor/major maintenance frequency",
+          "singular": "Pilih kekerapan penyelenggaraan kecil/besar",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec6": {
+          "original": "Select to Auto-Create Job Order",
+          "singular": "Pilih untuk Menjana Pesanan Kerja Secara Automatik",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+    },
+    "fields": {
+        "setupVisible": true,
+        "status": {
+          "original": "Status",
+          "singular": "Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "startDate": {
+          "original": "Start Date",
+          "singular": "Tarikh Mula",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "endDate": {
+          "original": "End Date",
+          "singular": "Tarikh Tamat",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "generateNextMaintenance": {
+          "original": "Generate Next Maintenance",
+          "singular": "Jana Penyelenggaraan Seterusnya",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "generateAllMaintenanceNow": {
+          "original": "Generate All Maintenance Now",
+          "singular": "Jana Semua Penyelenggaraan Sekarang",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "onlyUponPreviousCompletion": {
+          "original": "Only Upon Previous Completion",
+          "singular": "Hanya Selepas Penyelesaian Sebelumnya",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "maintenancesType": {
+          "original": "Maintenances Type",
+          "singular": "Jenis Penyelenggaraan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "minorMaintenance": {
+          "original": "Minor Maintenance",
+          "singular": "Penyelenggaraan Kecil",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "majorMaintenance": {
+          "original": "Major Maintenance",
+          "singular": "Penyelenggaraan Besar",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "minorMajorMaintenance": {
+          "original": "Minor / Major Maintenance Frequency",
+          "singular": "Kekerapan Penyelenggaraan Kecil/Besar",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "note": {
+          "original": "Note",
+          "singular": "Nota",
+          "plural": "Nota",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "autoCreateJobOrder": {
+          "original": "Automatically Generate Job Order",
+          "singular": "Jana Pesanan Kerja Secara Automatik",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "contractMaintenanceNumber": {
+          "original": "Contract Maintenance Number",
+          "singular": "Nombor Penyelenggaraan Kontrak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "tooltips": {
+        "setupVisible": true,
+        "preventiveMaintenance": {
+          "original": "This is the timeframe in which the maintenance will be active",
+          "singular": "Ini adalah tempoh di mana penyelenggaraan akan aktif",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "messages": {
+        "maintenanceAppliesToAllContractAssets": "Penyelenggaraan ini akan digunakan pada semua Aset dalam Kontrak ini"
+      }
+},
   "checklist": {
       "setupVisible": true,
       "label": {
@@ -17842,175 +18011,6 @@
               "setupEdit": true,
               "setupVisible": true
           }
-      }
-  },
-  "contractMaintenance": {
-      "setupVisible": true,
-      "label": {
-          "original": "Contract Maintenance",
-          "singular": "Contract Maintenance",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-      },
-      "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "Maintenance Details",
-              "singular": "Maintenance Details",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Preventative Maintenance",
-              "singular": "Preventative Maintenances",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Details",
-              "singular": "Details",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec3": {
-              "original": "Select the maintenance type to use",
-              "singular": "Select the maintenance type to use",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec4": {
-              "original": "Select when you would like to generate the next maintenance",
-              "singular": "Select when you would like to generate the next maintenance",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec5": {
-              "original": "Select minor/major maintenance frequency",
-              "singular": "Select minor/major maintenance frequency",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec6": {
-              "original": "Select to Auto-Create Job Order",
-              "singular": "Select to Auto-Create Job Order",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
-      "fields": {
-          "setupVisible": true,
-          "status": {
-              "original": "Status",
-              "singular": "Status",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "startDate": {
-              "original": "Start Date",
-              "singular": "Start Date",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "endDate": {
-              "original": "End Date",
-              "singular": "End Date",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "generateNextMaintenance": {
-              "original": "Generate Next Maintenance",
-              "singular": "Generate Next Maintenance",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "generateAllMaintenanceNow": {
-              "original": "Generate All Maintenance Now",
-              "singular": "Generate All Maintenance Now",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "onlyUponPreviousCompletion": {
-              "original": "Only Upon Previous Completion",
-              "singular": "Only Upon Previous Completion",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "maintenancesType": {
-              "original": "Maintenances Type",
-              "singular": "Maintenances Type",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "minorMaintenance": {
-              "original": "Minor Maintenance",
-              "singular": "Minor Maintenance",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "majorMaintenance": {
-              "original": "Major Maintenance",
-              "singular": "Major Maintenance",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "minorMajorMaintenance": {
-              "original": "Minor / Major Maintenance Frequency",
-              "singular": "Minor / Major Maintenance Frequency",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "note": {
-              "original": "Note",
-              "singular": "Note",
-              "plural": "Notes",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "autoCreateJobOrder": {
-              "original": "Automatically Generate Job Order",
-              "singular": "Automatically Generate Job Order",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "contractMaintenanceNumber": {
-              "original": "Contract Maintenance Number",
-              "singular": "Contract Maintenance Number",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
-      "tooltips": {
-          "setupVisible": true,
-          "preventiveMaintenance": {
-              "original": "This is the timeframe in which the maintenance will be active",
-              "singular": "This is the timeframe in which the maintenance will be active",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
-      "messages": {
-          "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"
       }
   },
   "checkAvailibility": {

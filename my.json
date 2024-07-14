@@ -4319,119 +4319,140 @@
           }
       },
       "fields": {
-          "setupVisible": true,
-          "category": {
-              "original": "Category",
-              "singular": "Kategori",
-              "plural": "Kategori",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "description": {
-              "original": "Description",
-              "singular": "Penerangan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "endDate": {
-              "original": "End Date",
-              "singular": "Tarikh Tamat",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "extId": {
-              "original": "External ID",
-              "singular": "ID Luaran",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "projectNo": {
-              "original": "Project No.",
-              "singular": "No. Projek",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "name": {
-              "original": "Name",
-              "singular": "Nama",
-              "plural": "Nama",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "email": {
-              "original": "Email",
-              "singular": "Emel",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "phone1": {
-              "original": "Phone 1",
-              "singular": "Telefon 1",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "phone2": {
-              "original": "Phone 2",
-              "singular": "Telefon 2",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "remarks": {
-              "original": "Remark",
-              "singular": "Catatan",
-              "plural": "Catatan",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "referenceNo": {
-              "original": "Reference No.",
-              "singular": "No. Rujukan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "status": {
-              "original": "Status",
-              "singular": "Status",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "source": {
-              "original": "Source",
-              "singular": "Sumber",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "type": {
-              "original": "Type",
-              "singular": "Jenis",
-              "plural": "Jenis",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "startDate": {
-              "original": "Start Date",
-              "singular": "Tarikh Mula",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "paymentTerm": {
-              "original": "Payment Term",
-              "singular": "Terma Pembayaran",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "category": {
+          "original": "Category",
+          "singular": "Kategori",
+          "plural": "Kategori",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "description": {
+          "original": "Description",
+          "singular": "Penerangan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "endDate": {
+          "original": "End Date",
+          "singular": "Tarikh Tamat",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "extId": {
+          "original": "External ID",
+          "singular": "ID Luaran",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "secExtId": {
+          "original": "Second External ID",
+          "singular": "ID Luaran Kedua",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "projectNo": {
+          "original": "Project No.",
+          "singular": "No. Projek",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "projectName": {
+          "original": "Project Name",
+          "singular": "Nama Projek",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "name": {
+          "original": "Name",
+          "singular": "Nama",
+          "plural": "Nama",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "email": {
+          "original": "Email",
+          "singular": "Emel",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "phone1": {
+          "original": "Phone 1",
+          "singular": "Telefon 1",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "phone2": {
+          "original": "Phone 2",
+          "singular": "Telefon 2",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "remarks": {
+          "original": "Remark",
+          "singular": "Catatan",
+          "plural": "Catatan",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "referenceNo": {
+          "original": "Reference No.",
+          "singular": "No. Rujukan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "source": {
+          "original": "Source",
+          "singular": "Sumber",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "type": {
+          "original": "Type",
+          "singular": "Jenis",
+          "plural": "Jenis",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "startDate": {
+          "original": "Start Date",
+          "singular": "Tarikh Mula",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "paymentTerm": {
+          "original": "Payment Term",
+          "singular": "Tempoh Pembayaran",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "categoryType": {
+          "original": "Category Type",
+          "singular": "Jenis Kategori",
+          "plural": "Jenis Kategori",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "validationFE": {},
       "validationBE": {
@@ -4450,7 +4471,8 @@
           }
       },
       "messages": {
-          "noProjectsFound": "Tiada Projek Dijumpai"
+          "noProjectsFound": "Tiada Projek Dijumpai",
+          "filterProjects": "Tapisan Projek"
       }
   },
   "ticket": {

@@ -3919,112 +3919,126 @@
           }
       },
       "fields": {
-          "setupVisible": true,
-          "name": {
-              "original": "Name",
-              "singular": "姓名",
-              "plural": "姓名",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "status": {
-              "original": "Status",
-              "singular": "状态",
-              "plural": "状态",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "type": {
-              "original": "Type",
-              "singular": "类型",
-              "plural": "类型",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "referenceNo": {
-              "original": "Reference No.",
-              "singular": "参考编号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "area": {
-              "original": "Area",
-              "singular": "Kawasan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "category": {
-              "original": "Category",
-              "singular": "类别 ",
-              "plural": "类别 ",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "description": {
-              "original": "Description",
-              "singular": "描述",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "subCategory": {
-              "original": "Sub Category",
-              "singular": "子类别",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "email": {
-              "original": "Email",
-              "singular": "电子邮箱",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "phone1": {
-              "original": "Phone 1",
-              "singular": "电话 1",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "phone2": {
-              "original": "Phone 2",
-              "singular": "电话 2 ",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "siteName": {
-              "original": "Site Name",
-              "singular": "场地名称 ",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "siteNumber": {
-              "original": "Site Number",
-              "singular": "场地编号 ",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "userGroup": {
-              "original": "User Group",
-              "singular": "用户组 ",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "userType": {
-              "original": "User Type",
-              "singular": "用户类型 ",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "name": {
+          "original": "Name",
+          "singular": "名称",
+          "plural": "名称",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "status": {
+          "original": "Status",
+          "singular": "状态",
+          "plural": "状态",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "type": {
+          "original": "Type",
+          "singular": "类型",
+          "plural": "类型",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "referenceNo": {
+          "original": "Reference No.",
+          "singular": "参考号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "area": {
+          "original": "Area",
+          "singular": "区域",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "category": {
+          "original": "Category",
+          "singular": "类别",
+          "plural": "类别",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "description": {
+          "original": "Description",
+          "singular": "描述",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "subCategory": {
+          "original": "Sub Category",
+          "singular": "子类别",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "extId": {
+          "original": "External ID",
+          "singular": "外部ID",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "email": {
+          "original": "Email",
+          "singular": "电子邮件",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "designation": {
+          "original": "Designation",
+          "singular": "职位",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "phone1": {
+          "original": "Phone 1",
+          "singular": "电话 1",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "phone2": {
+          "original": "Phone 2",
+          "singular": "电话 2",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "siteName": {
+          "original": "Site Name",
+          "singular": "站点名称",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "siteNumber": {
+          "original": "Site Number",
+          "singular": "站点编号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "userGroup": {
+          "original": "User Group",
+          "singular": "用户组",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "userType": {
+          "original": "User Type",
+          "singular": "用户类型",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "validationFE": {},
       "validationBE": {
@@ -4042,7 +4056,10 @@
               "setupVisible": true
           }
       },
-      "messages": {}
+      "messages": {
+        "noSitesFound": "未找到站点",
+        "filterSites": "筛选站点"
+      }
   },
   "salesOrder": {
       "setupVisible": true,
@@ -4082,6 +4099,13 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
+          },
+          "sec4": {
+            "original": "Customer Details",
+            "singular": "客户详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
       },
       "fields": {
@@ -4115,7 +4139,7 @@
               "setupVisible": true
           },
           "orderOwner": {
-              "original": "订单所有者",
+              "original": "Order Owner",
               "singular": "订单所有者",
               "plural": "订单所有者",
               "setupEdit": true,
@@ -4163,6 +4187,13 @@
               "setupEdit": true,
               "setupVisible": true
           },
+          "billingAddress": {
+            "original": "Billing Address",
+            "singular": "账单地址",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
           "totalAmount": {
               "original": "Total Amount",
               "singular": "总金额",
@@ -4197,6 +4228,13 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
+          },
+          "email": {
+            "original": "Email",
+            "singular": "电子邮件",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
       },
       "validationFE": {},
@@ -4206,19 +4244,24 @@
           "invalidEmailFormat": "Invalid Email Format"
       },
       "tooltips": {
-          "setupVisible": true,
-          "projectLookup": {
-              "original": "销售订单查询",
-              "singular": "销售订单查询",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "salesOrderLookup": {
+          "original": "Sales Order Lookup",
+          "singular": "销售订单查找",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "messages": {
-          "orderEndDateAfterStart": "Order End Date must be after Order Start Date",
-          "pleaseSelectOneOrMoreProducts": "请选择一件或多件产品",
-          "doYouWantToRemoveThisSalesOrder": "您想删除该销售订单吗"
+        "orderEndDateAfterStart": "订单结束日期必须在订单开始日期之后",
+        "pleaseSelectOneOrMoreProducts": "请选择一个或多个产品",
+        "doYouWantToRemoveThisSalesOrder": "您要删除此销售订单吗？",
+        "doYouWantToRemoveThisProduct": "您要删除此产品吗？",
+        "searchSalesOrders": "搜索销售订单",
+        "salesOrderFilter": "销售订单筛选器",
+        "filterByCustomer": "按客户筛选",
+        "soRequiresMinimumOneProduct": "销售订单至少需要一个产品"
       }
   },
   "project": {

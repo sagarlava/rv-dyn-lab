@@ -413,8 +413,7 @@
           "setupEdit": true,
           "setupVisible": true
         }
-      }
-    ,
+      },
     "fields": {
         "setupVisible": true,
         "type": {
@@ -1176,134 +1175,198 @@
           }
       },
       "fields": {
-          "setupVisible": true,
-          "status": {
-              "original": "Status",
-              "singular": "状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "startDate": {
-              "original": "Start Date",
-              "singular": "开始日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "endDate": {
-              "original": "End Date",
-              "singular": "结束日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetStatus": {
-              "original": "Asset Status",
-              "singular": "资产状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "endTime": {
-              "original": "End Time",
-              "singular": "结束时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "maintenanceTemplate": {
-              "original": "Maintenance Template",
-              "singular": "维护计划",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sendInitialReminder": {
-              "original": "Send Initial Reminder (Days Before)",
-              "singular": "发送初始提醒（提前几天）",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "followUpReminder": {
-              "original": "Follow Up Reminder (Days Before)",
-              "singular": "后续提醒（提前几天）",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sendOverdueReminder": {
-              "original": "Send Overdue Reminder (Days After)",
-              "singular": "发送逾期提醒（几天后）",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "generateNextMaintenance": {
-              "original": "Generate Next Maintenance",
-              "singular": "生成下一个维护",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "generateAllMaintenanceNow": {
-              "original": "Generate All Maintenance Now",
-              "singular": "立即生成所有维护",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "onlyUponPreviousCompletion": {
-              "original": "Only Upon Previous Completion",
-              "singular": "仅在前一个完成后",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "autoCreateJobOrder": {
-              "original": "Automatically Generate Job Order",
-              "singular": "自动生成工作订单",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "initialReminder": {
-              "original": "Initial Reminder (Days Before)",
-              "singular": "初始提醒（提前几天）",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "overdueReminder": {
-              "original": "Overdue Reminder (Days After)",
-              "singular": "逾期提醒（几天后）",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "nextServiceDate": {
-              "original": "Next Service Date",
-              "singular": "下次服务日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "nextServiceType": {
-              "original": "Next Service Type",
-              "singular": "下一个服务类型",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "maintenanceId": {
-              "original": "Maintenance ID",
-              "singular": "Maintenance ID",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
+        "setupVisible": true,
+        "status": {
+          "original": "Status",
+          "singular": "状态",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "startDate": {
+          "original": "Start Date",
+          "singular": "开始日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "endDate": {
+          "original": "End Date",
+          "singular": "结束日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "endTime": {
+          "original": "End Time",
+          "singular": "结束时间",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetStatus": {
+          "original": "Asset Status",
+          "singular": "资产状态",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "maintenanceTemplate": {
+          "original": "Maintenance Template",
+          "singular": "维护模板",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sendInitialReminder": {
+          "original": "Send Initial Reminder (Days Before)",
+          "singular": "发送初始提醒（提前几天）",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "followUpReminder": {
+          "original": "Follow Up Reminder (Days Before)",
+          "singular": "发送后续提醒（提前几天）",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sendOverdueReminder": {
+          "original": "Send Overdue Reminder (Days After)",
+          "singular": "发送逾期提醒（逾期几天）",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "generateNextMaintenance": {
+          "original": "Generate Next Maintenance",
+          "singular": "生成下一次维护",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "generateAllMaintenanceNow": {
+          "original": "Generate All Maintenance Now",
+          "singular": "立即生成所有维护",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "onlyUponPreviousCompletion": {
+          "original": "Only Upon Previous Completion",
+          "singular": "仅在上次完成后",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "autoCreateJobOrder": {
+          "original": "Automatically Generate Job Order",
+          "singular": "自动生成工作订单",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "initialReminder": {
+          "original": "Initial Reminder (Days Before)",
+          "singular": "初始提醒（提前几天）",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "overdueReminder": {
+          "original": "Overdue Reminder (Days After)",
+          "singular": "逾期提醒（逾期几天）",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "nextServiceDate": {
+          "original": "Next Service Date",
+          "singular": "下次服务日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "nextServiceType": {
+          "original": "Next Service Type",
+          "singular": "下次服务类型",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "maintenanceId": {
+          "original": "Maintenance ID",
+          "singular": "维护ID",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "scheduleNumber": {
+          "original": "Scheduled No",
+          "singular": "计划编号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "scheduledDateTime": {
+          "original": "Scheduled Date",
+          "singular": "计划日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "serviceType": {
+          "original": "Service Type",
+          "singular": "服务类型",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "type": {
+          "original": "Type",
+          "singular": "类型",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "other": {
+          "original": "Other",
+          "singular": "其他",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "actualCompletionDateTime": {
+          "original": "Actual Completion Date",
+          "singular": "实际完成日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetName": {
+          "original": "Asset Name",
+          "singular": "资产名称",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "maintenanceDate": {
+          "original": "Maintenance Date",
+          "singular": "维护日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "generateJobOrder": {
+          "original": "Generate Job Order",
+          "singular": "生成工作订单",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      }
+    ,
       "validationFE": {},
       "validationBE": {
           "invalidPhoneNumber": "Invalid Phone Number",

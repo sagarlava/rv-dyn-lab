@@ -1175,133 +1175,196 @@
           }
       },
       "fields": {
-          "setupVisible": true,
-          "status": {
-              "original": "Status",
-              "singular": "Status",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "startDate": {
-              "original": "Start Date",
-              "singular": "Tarikh Mula",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "endDate": {
-              "original": "End Date",
-              "singular": "Tarikh Tamat",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetStatus": {
-              "original": "Asset Status",
-              "singular": "Status Aset",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "endTime": {
-              "original": "End Time",
-              "singular": "Masa Tamat",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "maintenanceTemplate": {
-              "original": "Maintenance Template",
-              "singular": "Templat Penyelenggaraan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sendInitialReminder": {
-              "original": "Send Initial Reminder (Days Before)",
-              "singular": "Hantar Peringatan Awal (Hari Sebelum) ",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "followUpReminder": {
-              "original": "Follow Up Reminder (Days Before)",
-              "singular": "Hantar Peringatan Susulan (Hari Sebelum)",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sendOverdueReminder": {
-              "original": "Send Overdue Reminder (Days After)",
-              "singular": "Hantar Peringatan Lewat (Hari Selepas)",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "generateNextMaintenance": {
-              "original": "Generate Next Maintenance",
-              "singular": "Hasilkan Penyelenggaraan Seterusnya",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "generateAllMaintenanceNow": {
-              "original": "Generate All Maintenance Now",
-              "singular": "Hasilkan Semua Penyelenggaraan Sekarang",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "onlyUponPreviousCompletion": {
-              "original": "Only Upon Previous Completion",
-              "singular": "Hanya Selepas Penyudahan Terdahulu",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "autoCreateJobOrder": {
-              "original": "Automatically Generate Job Order",
-              "singular": "Hasilkan Pesanan Kerja Secara Automatik",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "initialReminder": {
-              "original": "Initial Reminder (Days Before)",
-              "singular": "Peringatan Awal (Hari Sebelum)",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "overdueReminder": {
-              "original": "Overdue Reminder (Days After)",
-              "singular": "Peringatan Lewat (Hari Selepas)",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "nextServiceDate": {
-              "original": "Next Service Date",
-              "singular": "Tarikh Servis Seterusnya",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "nextServiceType": {
-              "original": "Next Service Type",
-              "singular": "Jenis Servis Seterusnya",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "maintenanceId": {
-              "original": "Maintenance ID",
-              "singular": "Maintenance ID",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "status": {
+          "original": "Status",
+          "singular": "Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "startDate": {
+          "original": "Start Date",
+          "singular": "Tarikh Mula",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "endDate": {
+          "original": "End Date",
+          "singular": "Tarikh Tamat",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "endTime": {
+          "original": "End Time",
+          "singular": "Waktu Tamat",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetStatus": {
+          "original": "Asset Status",
+          "singular": "Status Aset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "maintenanceTemplate": {
+          "original": "Maintenance Template",
+          "singular": "Templat Penyelenggaraan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sendInitialReminder": {
+          "original": "Send Initial Reminder (Days Before)",
+          "singular": "Hantar Peringatan Awal (Hari Sebelum)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "followUpReminder": {
+          "original": "Follow Up Reminder (Days Before)",
+          "singular": "Hantar Peringatan Susulan (Hari Sebelum)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sendOverdueReminder": {
+          "original": "Send Overdue Reminder (Days After)",
+          "singular": "Hantar Peringatan Lewat (Hari Selepas)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "generateNextMaintenance": {
+          "original": "Generate Next Maintenance",
+          "singular": "Jana Penyelenggaraan Seterusnya",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "generateAllMaintenanceNow": {
+          "original": "Generate All Maintenance Now",
+          "singular": "Jana Semua Penyelenggaraan Sekarang",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "onlyUponPreviousCompletion": {
+          "original": "Only Upon Previous Completion",
+          "singular": "Hanya Setelah Selesai Sebelumnya",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "autoCreateJobOrder": {
+          "original": "Automatically Generate Job Order",
+          "singular": "Jana Pesanan Kerja Secara Automatik",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "initialReminder": {
+          "original": "Initial Reminder (Days Before)",
+          "singular": "Peringatan Awal (Hari Sebelum)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "overdueReminder": {
+          "original": "Overdue Reminder (Days After)",
+          "singular": "Peringatan Lewat (Hari Selepas)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "nextServiceDate": {
+          "original": "Next Service Date",
+          "singular": "Tarikh Servis Seterusnya",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "nextServiceType": {
+          "original": "Next Service Type",
+          "singular": "Jenis Servis Seterusnya",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "maintenanceId": {
+          "original": "Maintenance ID",
+          "singular": "ID Penyelenggaraan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "scheduleNumber": {
+          "original": "Scheduled No",
+          "singular": "No Jadual",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "scheduledDateTime": {
+          "original": "Scheduled Date",
+          "singular": "Tarikh Jadual",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "serviceType": {
+          "original": "Service Type",
+          "singular": "Jenis Servis",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "type": {
+          "original": "Type",
+          "singular": "Jenis",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "other": {
+          "original": "Other",
+          "singular": "Lain-lain",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "actualCompletionDateTime": {
+          "original": "Actual Completion Date",
+          "singular": "Tarikh Selesai Sebenar",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetName": {
+          "original": "Asset Name",
+          "singular": "Nama Aset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "maintenanceDate": {
+          "original": "Maintenance Date",
+          "singular": "Tarikh Penyelenggaraan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "generateJobOrder": {
+          "original": "Generate Job Order",
+          "singular": "Jana Pesanan Kerja",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "validationFE": {},
       "validationBE": {

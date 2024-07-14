@@ -9267,7 +9267,9 @@
           "invalidFileSize": "Saiz fail tidak sah",
           "allowedFileSize": "Saiz fail harus kurang daripada 25MB",
           "cannotFindFile": "Tidak dapat mencari nama fail dan jenis fail",
-          "pdfNotAvailable": "Maaf! PDF tidak tersedia"
+          "pdfNotAvailable": "Maaf! PDF tidak tersedia",
+          "invalidFileType": "Jenis fail tidak sah. Hanya fail gambar (.jpg, .png, .svg, dll.) boleh dimuat naik.",
+          "maxUploadFileSize": "Saiz fail muat naik maksimum ialah 25MB"
       }
   },
   "history": {

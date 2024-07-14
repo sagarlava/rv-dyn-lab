@@ -10821,50 +10821,50 @@
               "proceedAnyway": "Proceed anyway"
           }
       },
-      "systemInformation": {
-          "setupVisible": true,
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "System Information",
-                  "singular": "System Information",
-                  "plural": "System Information",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
-          },
-          "fields": {
-              "setupVisible": true,
-              "extId": {
-                  "original": "External ID",
-                  "singular": "ID Luar",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "createdBy": {
-                  "original": "Created By",
-                  "singular": "Created By",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "lastModifiedBy": {
-                  "original": "Last Modified By",
-                  "singular": "Last Modified By",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
-          },
-          "label": {
-              "original": "System Information",
-              "singular": "System Information",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-          }
-      },
+    "systemInformation": {
+        "setupVisible": false,
+        "label": {
+        "original": "System Information",
+        "singular": "Maklumat Sistem",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+        },
+        "sections": {
+        "setupVisible": false,
+        "sec0": {
+            "original": "System Information",
+            "singular": "Maklumat Sistem",
+            "plural": "Maklumat Sistem",
+            "setupEdit": true,
+            "setupVisible": false
+        }
+        },
+        "fields": {
+        "setupVisible": false,
+        "extId": {
+            "original": "External ID",
+            "singular": "ID Luaran",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "createdBy": {
+            "original": "Created By",
+            "singular": "Dicipta Oleh",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "lastModifiedBy": {
+            "original": "Last Modified By",
+            "singular": "Diubah Suai Terakhir Oleh",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        }
+        }
+    },
       "validationFE": {
           "invalid": "Tak Sah",
           "invalidEmail": "E-mel Tak Sah",

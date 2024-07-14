@@ -10639,41 +10639,48 @@
           }
       },
       "systemInformation": {
-          "setupVisible": true,
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "System Information",
-                  "singular": "System Information",
-                  "plural": "System Information",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
-          },
-          "fields": {
-              "setupVisible": true,
-              "extId": {
-                  "original": "External ID",
-                  "singular": "ID Luar",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "createdBy": {
-                  "original": "Created By",
-                  "singular": "Created By",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "lastModifiedBy": {
-                  "original": "Last Modified By",
-                  "singular": "Last Modified By",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+        "setupVisible": false,
+        "label": {
+          "original": "System Information",
+          "singular": "系统信息",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "System Information",
+            "singular": "系统信息",
+            "plural": "系统信息",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "extId": {
+            "original": "External ID",
+            "singular": "外部ID",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "createdBy": {
+            "original": "Created By",
+            "singular": "创建者",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "lastModifiedBy": {
+            "original": "Last Modified By",
+            "singular": "最后修改者",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        }
       },
       "validationFE": {
           "invalid": "Tak Sah",

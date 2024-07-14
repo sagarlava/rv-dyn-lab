@@ -2010,178 +2010,199 @@
           "setupVisible": true
       },
       "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "General Details",
-              "singular": "基本信息 ",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Checklist Details",
-              "singular": "检查清单详情",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Select the checklist you'd like to generate for this Asset",
-              "singular": "选择要为此资产生成的检查清单",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec3": {
-              "original": "Updating the Asset within Checklist",
-              "singular": "更新检查清单中的资产",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec4": {
-              "original": "Update the status of",
-              "singular": "更新状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec5": {
-              "original": "Asset Summary",
-              "singular": "资产摘要",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec6": {
-              "original": "Details",
-              "singular": "细节",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec7": {
-              "original": "Filter By",
-              "singular": "过滤",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec8": {
-              "original": "Asset Details",
-              "singular": "Asset Details",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec9": {
-              "original": "Questions",
-              "singular": "问题",
-              "plural": "问题",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec10": {
-              "original": "Asset Updates",
-              "singular": "Asset Updates",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec11": {
-              "original": "Follow-Up Checklist",
-              "singular": "后续检查清单",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "sec0": {
+          "original": "General Details",
+          "singular": "常规详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Checklist Details",
+          "singular": "清单详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Select the checklist you'd like to generate for this Asset",
+          "singular": "选择要为此资产生成的清单",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec3": {
+          "original": "Updating the Asset within Checklist",
+          "singular": "在清单中更新资产",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4": {
+          "original": "Update the status of",
+          "singular": "更新状态",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec5": {
+          "original": "Asset Summary",
+          "singular": "资产概述",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec6": {
+          "original": "Details",
+          "singular": "详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec7": {
+          "original": "Filter By",
+          "singular": "筛选条件",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec8": {
+          "original": "Asset Details",
+          "singular": "资产详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec9": {
+          "original": "Questions",
+          "singular": "问题",
+          "plural": "问题",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec10": {
+          "original": "Asset Updates",
+          "singular": "资产更新",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec11": {
+          "original": "Follow-Up Checklist",
+          "singular": "后续清单",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec12": {
+          "original": "Change Status",
+          "singular": "更改状态",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
       },
       "fields": {
-          "setupVisible": true,
-          "dateRange": {
-              "original": "Date Range",
-              "singular": "日期范围",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetType": {
-              "original": "Asset Type",
-              "singular": "资产类型",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetStatus": {
-              "original": "Asset Status",
-              "singular": "资产状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "checklistNo": {
-              "original": "Checklist No",
-              "singular": "检查清单编号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "checklistName": {
-              "original": "Checklist Name",
-              "singular": "检查清单名称",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "equipmentType": {
-              "original": "Equipment Type",
-              "singular": "设备类型",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "equipmentMeterReading": {
-              "original": "Equipment Meter Reading",
-              "singular": "设备表读数",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectAsset": {
-              "original": "Select Asset",
-              "singular": "选择资产",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectChecklistToGenerate": {
-              "original": "Select the checklist you'd like to generate for this Asset",
-              "singular": "选择要为此资产生成的检查清单",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectOne": {
-              "original": "Select one",
-              "singular": "选择一个",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "status": {
-              "original": "Status",
-              "singular": "状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "checklistToGenerate": {
-              "original": "New Checklist to be Generated",
-              "singular": "New Checklist to be Generated",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "dateRange": {
+          "original": "Date Range",
+          "singular": "日期范围",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetType": {
+          "original": "Asset Type",
+          "singular": "资产类型",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetStatus": {
+          "original": "Asset Status",
+          "singular": "资产状态",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "checklistNo": {
+          "original": "Checklist No",
+          "singular": "清单编号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "checklistName": {
+          "original": "Checklist Name",
+          "singular": "清单名称",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "equipmentType": {
+          "original": "Equipment Type",
+          "singular": "设备类型",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "equipmentMeterReading": {
+          "original": "Equipment Meter Reading",
+          "singular": "设备读数",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "selectAsset": {
+          "original": "Select Asset",
+          "singular": "选择资产",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "selectChecklistToGenerate": {
+          "original": "Select the checklist you'd like to generate for this Asset",
+          "singular": "选择要为此资产生成的清单",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "selectOne": {
+          "original": "Select one",
+          "singular": "选择一个",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "status": {
+          "original": "Status",
+          "singular": "状态",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "from": {
+          "original": "From",
+          "singular": "从",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "to": {
+          "original": "To",
+          "singular": "到",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "checklistToGenerate": {
+          "original": "New Checklist to be Generated",
+          "singular": "要生成的新清单",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "validationFE": {},
       "validationBE": {
@@ -2200,32 +2221,52 @@
           }
       },
       "messages": {
-          "selectOneChecklist": "Please select one Checklist Template"
-      }
+        "selectOneChecklist": "请选择一个清单模板",
+        "addNewChecklist": "添加新清单",
+        "selectAsset": "选择资产",
+        "selectChecklistToGenerate": "选择要生成的清单",
+        "noQuestionsFound": "未找到问题",
+        "updateTheStatusOf": "更新状态：",
+        "updateStatus": "更新状态",
+        "forIncompleteChecklists": "对于将来更新的不完整清单。使用此状态不会触发任何工作或任务",
+        "thisStatusWillTrigger": "此状态将触发与此清单答案相关的任何工作订单和任务",
+        "updateStatusTo": "更新状态为",
+        "noStatusToDisplay": "无状态显示"
+    }
   },
   "journey": {
       "setupVisible": true,
       "label": {
-          "original": "Journey",
-          "singular": "Journey",
-          "plural": "Journeys",
-          "setupEdit": true,
-          "setupVisible": true
+        "original": "Journey",
+        "singular": "旅程",
+        "plural": "旅程",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "fields": {},
       "sections": {},
       "messages": {
-          "noAddressSet": "No Address Set",
-          "myLocation": "My Location",
-          "youAreNotOnline": "You are not online",
-          "toStartJourneyPleaseSwitchOnline": "To start the journey please switch status to online",
-          "locationIsNotResolvedYet": "Location is not resolved yet, please wait",
-          "journeyIsPaused": "Journey is paused, Please resume and end the journey",
-          "doYouWantToCompleteTake5Form": "Do you want to complete the Take5 form?",
-          "taskHasMarkedCompletedPleaseUpdateStatus": "Task has been marked completed, Please update status before check-in",
-          "enRoute": "En Route",
-          "taskLocationNotFound": "Task location(latitude, longitude) not found",
-          "hereIsTheSummaryOfYourJourney": "Here is the summary of your journey"
+        "noAddressSet": "未设置地址",
+        "myLocation": "我的位置",
+        "youAreNotOnline": "您不在线",
+        "toStartJourneyPleaseSwitchOnline": "要开始旅程，请将状态切换为在线",
+        "locationIsNotResolvedYet": "位置尚未解析，请稍候",
+        "journeyIsPaused": "旅程已暂停，请继续并结束旅程",
+        "doYouWantToCompleteTake5Form": "您想完成Take5表格吗？",
+        "taskHasMarkedCompletedPleaseUpdateStatus": "任务已标记完成，请在签到前更新状态",
+        "enRoute": "在路上",
+        "taskLocationNotFound": "未找到任务位置（纬度，经度）",
+        "hereIsTheSummaryOfYourJourney": "这是您旅程的总结",
+        "doYouWantToCheckInTheTask": "您要签到任务吗？",
+        "unableToFindLocation": "无法找到位置，请重试",
+        "couldNotFetchRoute": "无法获取路线",
+        "currentLocationNotResolvedYet": "当前位置尚未解析，请允许定位",
+        "googleMapIsNotInstalled": "未安装谷歌地图",
+        "wazeIsNotInstalled": "未安装Waze",
+        "totalDistanceTravelled": "总行驶距离",
+        "totalTimeSpent": "总花费时间",
+        "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "任务无法删除，因为旅程正在运行",
+        "journeyAlreadyRunningForAnotherTask": "另一个任务的旅程已经在运行"
       }
   },
   "product": {

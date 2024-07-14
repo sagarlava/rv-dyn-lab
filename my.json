@@ -2010,185 +2010,199 @@
           "setupVisible": true
       },
       "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "General Details",
-              "singular": "Butiran Am",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Checklist Details",
-              "singular": "Butiran Senarai Semak",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Select the checklist you'd like to generate for this Asset",
-              "singular": "Pilih senarai semak yang anda ingin hasilkan untuk Aset ini",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec3": {
-              "original": "Updating the Asset within Checklist",
-              "singular": "Mengemas kini Aset dalam Senarai Semak",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec4": {
-              "original": "Update the status of",
-              "singular": "Kemas kini status",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec5": {
-              "original": "Asset Summary",
-              "singular": "Ringkasan Aset",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec6": {
-              "original": "Details",
-              "singular": "Butiran",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec7": {
-              "original": "Filter By",
-              "singular": "Tapis Mengikut",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec8": {
-              "original": "Asset Details",
-              "singular": "Asset Details",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec9": {
-              "original": "Questions",
-              "singular": "Soalan",
-              "plural": "Soalan",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec10": {
-              "original": "Asset Updates",
-              "singular": "Asset Updates",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec11": {
-              "original": "Follow-Up Checklist",
-              "singular": "Senarai Semak Susulan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec12": {
-              "original": "Change Status",
-              "singular": "Change Status",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-          }
+        "setupVisible": true,
+        "sec0": {
+          "original": "General Details",
+          "singular": "Butiran Am",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Checklist Details",
+          "singular": "Butiran Senarai Semak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Select the checklist you'd like to generate for this Asset",
+          "singular": "Pilih senarai semak yang ingin anda hasilkan untuk Aset ini",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec3": {
+          "original": "Updating the Asset within Checklist",
+          "singular": "Mengemas kini Aset dalam Senarai Semak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4": {
+          "original": "Update the status of",
+          "singular": "Kemas kini status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec5": {
+          "original": "Asset Summary",
+          "singular": "Ringkasan Aset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec6": {
+          "original": "Details",
+          "singular": "Butiran",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec7": {
+          "original": "Filter By",
+          "singular": "Tapis Mengikut",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec8": {
+          "original": "Asset Details",
+          "singular": "Butiran Aset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec9": {
+          "original": "Questions",
+          "singular": "Soalan",
+          "plural": "Soalan",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec10": {
+          "original": "Asset Updates",
+          "singular": "Kemaskini Aset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec11": {
+          "original": "Follow-Up Checklist",
+          "singular": "Senarai Semak Susulan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec12": {
+          "original": "Change Status",
+          "singular": "Tukar Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
       },
       "fields": {
-          "setupVisible": true,
-          "dateRange": {
-              "original": "Date Range",
-              "singular": "Julat Tarikh",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetType": {
-              "original": "Asset Type",
-              "singular": "Jenis Aset",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetStatus": {
-              "original": "Asset Status",
-              "singular": "Status Aset",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "checklistNo": {
-              "original": "Checklist No",
-              "singular": "No Senarai Semak",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "checklistName": {
-              "original": "Checklist Name",
-              "singular": "Nama Senarai Semak",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "equipmentType": {
-              "original": "Equipment Type",
-              "singular": "Jenis Peralatan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "equipmentMeterReading": {
-              "original": "Equipment Meter Reading",
-              "singular": "Bacaan Meter Peralatan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectAsset": {
-              "original": "Select Asset",
-              "singular": "Pilih Aset",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectChecklistToGenerate": {
-              "original": "Select the checklist you'd like to generate for this Asset",
-              "singular": "Pilih senarai semak yang anda ingin hasilkan untuk Aset ini",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectOne": {
-              "original": "Select one",
-              "singular": "Pilih Satu",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "status": {
-              "original": "Status",
-              "singular": "Status",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "checklistToGenerate": {
-              "original": "New Checklist to be Generated",
-              "singular": "New Checklist to be Generated",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "dateRange": {
+          "original": "Date Range",
+          "singular": "Julat Tarikh",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetType": {
+          "original": "Asset Type",
+          "singular": "Jenis Aset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "assetStatus": {
+          "original": "Asset Status",
+          "singular": "Status Aset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "checklistNo": {
+          "original": "Checklist No",
+          "singular": "Nombor Senarai Semak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "checklistName": {
+          "original": "Checklist Name",
+          "singular": "Nama Senarai Semak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "equipmentType": {
+          "original": "Equipment Type",
+          "singular": "Jenis Peralatan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "equipmentMeterReading": {
+          "original": "Equipment Meter Reading",
+          "singular": "Bacaan Meter Peralatan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "selectAsset": {
+          "original": "Select Asset",
+          "singular": "Pilih Aset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "selectChecklistToGenerate": {
+          "original": "Select the checklist you'd like to generate for this Asset",
+          "singular": "Pilih senarai semak yang ingin anda hasilkan untuk Aset ini",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "selectOne": {
+          "original": "Select one",
+          "singular": "Pilih satu",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "from": {
+          "original": "From",
+          "singular": "Dari",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "to": {
+          "original": "To",
+          "singular": "Ke",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "checklistToGenerate": {
+          "original": "New Checklist to be Generated",
+          "singular": "Senarai Semak Baharu untuk Dihasilkan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "validationFE": {},
       "validationBE": {
@@ -2207,32 +2221,52 @@
           }
       },
       "messages": {
-          "selectOneChecklist": "Please select one Checklist Template"
+        "selectOneChecklist": "Sila pilih satu Templat Senarai Semak",
+        "addNewChecklist": "Tambah Senarai Semak Baharu",
+        "selectAsset": "Pilih Aset",
+        "selectChecklistToGenerate": "Pilih Senarai Semak untuk Dihasilkan",
+        "noQuestionsFound": "Tiada Soalan Dijumpai",
+        "updateTheStatusOf": "Kemas kini status:",
+        "updateStatus": "Kemas kini Status",
+        "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap untuk dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
+        "thisStatusWillTrigger": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",
+        "updateStatusTo": "Kemas kini Status Kepada",
+        "noStatusToDisplay": "Tiada Status untuk Dipaparkan"
       }
   },
   "journey": {
       "setupVisible": true,
       "label": {
-          "original": "Journey",
-          "singular": "Journey",
-          "plural": "Journeys",
-          "setupEdit": true,
-          "setupVisible": true
+        "original": "Journey",
+        "singular": "Perjalanan",
+        "plural": "Perjalanan",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "fields": {},
       "sections": {},
       "messages": {
-          "noAddressSet": "No Address Set",
-          "myLocation": "My Location",
-          "youAreNotOnline": "You are not online",
-          "toStartJourneyPleaseSwitchOnline": "To start the journey please switch status to online",
-          "locationIsNotResolvedYet": "Location is not resolved yet, please wait",
-          "journeyIsPaused": "Journey is paused, Please resume and end the journey",
-          "doYouWantToCompleteTake5Form": "Do you want to complete the Take5 form?",
-          "taskHasMarkedCompletedPleaseUpdateStatus": "Task has been marked completed, Please update status before check-in",
-          "enRoute": "En Route",
-          "taskLocationNotFound": "Task location(latitude, longitude) not found",
-          "hereIsTheSummaryOfYourJourney": "Here is the summary of your journey"
+        "noAddressSet": "Alamat belum ditetapkan",
+        "myLocation": "Lokasi Saya",
+        "youAreNotOnline": "Anda tidak dalam talian",
+        "toStartJourneyPleaseSwitchOnline": "Untuk memulakan perjalanan, sila tukar status kepada dalam talian",
+        "locationIsNotResolvedYet": "Lokasi belum diselesaikan, sila tunggu",
+        "journeyIsPaused": "Perjalanan dijeda, sila sambung dan tamatkan perjalanan",
+        "doYouWantToCompleteTake5Form": "Adakah anda ingin melengkapkan borang Take5?",
+        "taskHasMarkedCompletedPleaseUpdateStatus": "Tugas telah ditanda selesai, sila kemas kini status sebelum daftar masuk",
+        "enRoute": "Dalam Perjalanan",
+        "taskLocationNotFound": "Lokasi tugas (latitud, longitud) tidak ditemui",
+        "hereIsTheSummaryOfYourJourney": "Berikut adalah ringkasan perjalanan anda",
+        "doYouWantToCheckInTheTask": "Adakah anda mahu daftar masuk tugas?",
+        "unableToFindLocation": "Tidak dapat mencari lokasi, sila cuba lagi",
+        "couldNotFetchRoute": "Tidak dapat mengambil laluan",
+        "currentLocationNotResolvedYet": "Lokasi semasa belum diselesaikan, sila benarkan lokasi",
+        "googleMapIsNotInstalled": "Google Map tidak dipasang",
+        "wazeIsNotInstalled": "Waze tidak dipasang",
+        "totalDistanceTravelled": "Jarak keseluruhan yang ditempuh",
+        "totalTimeSpent": "Jumlah masa yang dihabiskan",
+        "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "Tugas ini tidak boleh dihapus kerana perjalanan sedang berjalan",
+        "journeyAlreadyRunningForAnotherTask": "Perjalanan sudah berjalan untuk tugas lain"
       }
   },
   "product": {

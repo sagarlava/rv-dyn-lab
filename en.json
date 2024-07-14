@@ -6292,12 +6292,14 @@
       },
       "quantity": {
         "original": "Quantity",
+        "singular": "Quantity",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "reason": {
         "original": "Reason",
+        "singular": "Reason",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -7247,27 +7249,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "recordNotFound": {
-        "original": "Record not found",
-        "singular": "Record not found",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "noRecordsFound": {
-        "original": "No Records Found",
-        "singular": "No Records Found",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "none": {
-        "original": "None",
-        "singular": "None",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
       "nameAndICPassport": {
         "original": "Name and IC/Passport",
         "singular": "Name and IC/Passport",
@@ -7456,7 +7437,6 @@
 
     }
   },
-
   "inventory": {
     "setupVisible": true,
     "label": {

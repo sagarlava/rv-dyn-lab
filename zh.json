@@ -9496,6 +9496,13 @@
   },
   "general": {
       "setupVisible": true,
+      "label": {
+        "original": "General",
+        "singular": "常规",
+        "plural": "常规",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "buttons": {
           "setupVisible": true,
           "refresh": {
@@ -10743,25 +10750,404 @@
         }
       },
       "validationFE": {
-          "invalid": "Tak Sah",
-          "invalidEmail": "电子邮件无效",
-          "invalidEmailFormat": "电子邮件格式无效",
-          "invalidFax": "Nombor Faks Tak Sah",
-          "invalidFaxFormat": "Format Faks Tak Sah",
-          "invalidPhoneNumber": "电话号码无效",
-          "invalidPrice": "价格无效",
-          "invalidQuantity": "数量无效",
-          "invalidRadius": "范围无效",
-          "invalidUsername": "用户名无效",
-          "invalidUsernameFormat": "Format Nama Pengguna Tak Sah",
-          "invalidYearFormat": "Format Tahunan Tak Sah",
-          "onlyAlphabetsAllowed": "Hanya Abjad Dibenarkan",
-          "required": "Required",
-          "requiredField": "Medan Diperlukan",
-          "pleaseSignBeforeProceed": "Please sign before proceed",
-          "charactersExceed": "Text exceeds character limit (255).",
-          "endDateThanStartDate": "End date must be after start date"
-      }
+        "invalid": "无效",
+        "invalidEmail": "无效的电子邮件",
+        "invalidEmailFormat": "电子邮件格式无效",
+        "invalidFax": "无效的传真号码",
+        "invalidFaxFormat": "传真格式无效",
+        "invalidPhoneNumber": "无效的电话号码",
+        "invalidPrice": "无效的价格",
+        "invalidQuantity": "无效的数量",
+        "invalidRadius": "无效的半径",
+        "invalidUsername": "无效的用户名",
+        "invalidUsernameFormat": "用户名格式无效",
+        "invalidYearFormat": "年份格式无效",
+        "onlyAlphabetsAllowed": "仅允许字母",
+        "required": "必填",
+        "requiredField": "必填字段",
+        "pleaseSignBeforeProceed": "请签名后继续",
+        "charactersExceed": "文本超过字符限制（255）。",
+        "endDateThanStartDate": "结束日期必须在开始日期之后"
+      },
+      "tabs": {
+        "details": "详情",
+        "purchaseHistory": "购买历史",
+        "products": "产品",
+        "jobOrders": "工作订单",
+        "history": "历史",
+        "contacts": "联系人",
+        "assets": "资产",
+        "tasks": "任务",
+        "attachments": "附件",
+        "projects": "项目",
+        "sites": "站点"
+      },
+      "summary": {
+        "setupVisible": false,
+        "label": {
+          "original": "Summary",
+          "singular": "概要",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Asset Summary",
+            "singular": "资产概要",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "General Details",
+            "singular": "基本详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Ownership Location",
+            "singular": "所有权位置",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Maintenance Details",
+            "singular": "维护详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Customer Summary",
+            "singular": "客户概要",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Location Details",
+            "singular": "位置详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Contact Details",
+            "singular": "联系详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "名称",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "latestReading": {
+            "original": "Latest Reading",
+            "singular": "最新读数",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "serialNo": {
+            "original": "Serial No",
+            "singular": "序列号",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "type": {
+            "original": "Type",
+            "singular": "类型",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "code": {
+            "original": "Asset Code",
+            "singular": "资产代码",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "equipNumber": {
+            "original": "Equipment Number",
+            "singular": "设备编号",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "customer": {
+            "original": "Customer",
+            "singular": "客户",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "site": {
+            "original": "Site",
+            "singular": "地点",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "servZone": {
+            "original": "Service Zone",
+            "singular": "服务区",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "custodian": {
+            "original": "Custodian",
+            "singular": "保管人",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "nextMaintenance": {
+            "original": "Next Maintenance",
+            "singular": "下一次维护",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "warrantyEnds": {
+            "original": "Warranty Ends",
+            "singular": "保修结束",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "custType": {
+            "original": "Type",
+            "singular": "类型",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "category": {
+            "original": "Category",
+            "singular": "类别",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sector": {
+            "original": "Sector",
+            "singular": "行业",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "subSector": {
+            "original": "Sub-Sector",
+            "singular": "子行业",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "geoFence": {
+            "original": "Geofence",
+            "singular": "地理围栏",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "area": {
+            "original": "Area",
+            "singular": "区域",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "location": {
+            "original": "Location",
+            "singular": "位置",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "contactName": {
+            "original": "Contact Name",
+            "singular": "联系人姓名",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "email": {
+            "original": "Email",
+            "singular": "电子邮件",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "phone": {
+            "original": "Phone",
+            "singular": "电话",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        }
+      },
+      "commonComponent": {
+        "setupVisible": false,
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Select an User from the list",
+            "singular": "从列表中选择用户",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Select a Bin Location",
+            "singular": "选择箱位置",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Select an Asset from the list",
+            "singular": "从列表中选择资产",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Select Checklist From List",
+            "singular": "从列表中选择清单",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Select Project From List",
+            "singular": "从列表中选择项目",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Select a Customer from the list",
+            "singular": "从列表中选择客户",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Select Job Order Template From List",
+            "singular": "从列表中选择工单模板",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Select a Job Order from the list",
+            "singular": "从列表中选择工作订单",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Select a Machine Specialist from the list",
+            "singular": "从列表中选择机器专家",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Select a Product from the list",
+            "singular": "从列表中选择产品",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Select a Sales Order from the list",
+            "singular": "从列表中选择销售订单",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec11": {
+            "original": "Select Site From List",
+            "singular": "从列表中选择站点",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "Select an Customer Survey from the list",
+            "singular": "从列表中选择客户调查",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec13": {
+            "original": "Select an ticket from the list",
+            "singular": "从列表中选择票",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec14": {
+            "original": "Select a Sales Order from the list",
+            "singular": "从列表中选择销售订单",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec15": {
+            "original": "Select a Ticket from the list",
+            "singular": "从列表中选择票",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "setupVisible": false,
+          "rejectReason": {
+            "original": "Reject Reason",
+            "singular": "拒绝原因",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+            "to": "到",
+            "willBeChangedFrom": "将从",
+            "doYouWishToContinue": "你想继续吗？",
+            "module": "模块",
+            "willNowBe": "现在将是",
+            "confirm": "确认",
+            "deleteConfirmation": "删除确认",
+            "selectAn": "选择",
+            "selectA": "选择",
+            "fromTheList": "从列表中"
+        }
+    }
   },
   "setup": {
       "setupVisible": true,

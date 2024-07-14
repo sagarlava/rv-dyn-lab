@@ -9497,6 +9497,13 @@
   },
   "general": {
       "setupVisible": true,
+      "label": {
+        "original": "General",
+        "singular": "Umum",
+        "plural": "Umum",
+        "setupEdit": true,
+        "setupVisible": false
+    },
       "buttons": {
           "setupVisible": true,
           "refresh": {
@@ -10882,263 +10889,405 @@
         }
         }
     },
-      "validationFE": {
-          "invalid": "Tak Sah",
-          "invalidEmail": "E-mel Tak Sah",
-          "invalidEmailFormat": "Format E-mel Tak Sah",
-          "invalidFax": "Nombor Faks Tak Sah",
-          "invalidFaxFormat": "Format Faks Tak Sah",
-          "invalidPhoneNumber": "Nombor Telefon Tak Sah",
-          "invalidPrice": "Harga Tak Sah",
-          "invalidQuantity": "Kuantiti Tak Sah",
-          "invalidRadius": "Radius Tak Sah",
-          "invalidUsername": "Nama Pengguna Tak Sah",
-          "invalidUsernameFormat": "Format Nama Pengguna Tak Sah",
-          "invalidYearFormat": "Format Tahunan Tak Sah",
-          "onlyAlphabetsAllowed": "Hanya Abjad Dibenarkan",
-          "required": "Required",
-          "requiredField": "Medan Diperlukan",
-          "pleaseSignBeforeProceed": "Please sign before proceed",
-          "charactersExceed": "Text exceeds character limit (255).",
-          "endDateThanStartDate": "End date must be after start date"
-      },
-      "label": {
-          "original": "General",
-          "singular": "General",
-          "plural": "Generals",
-          "setupEdit": true,
-          "setupVisible": false
+    "validationFE": {
+        "invalid": "Tidak Sah",
+        "invalidEmail": "E-mel Tidak Sah",
+        "invalidEmailFormat": "Format E-mel Tidak Sah",
+        "invalidFax": "Nombor Faks Tidak Sah",
+        "invalidFaxFormat": "Format Faks Tidak Sah",
+        "invalidPhoneNumber": "Nombor Telefon Tidak Sah",
+        "invalidPrice": "Harga Tidak Sah",
+        "invalidQuantity": "Kuantiti Tidak Sah",
+        "invalidRadius": "Radius Tidak Sah",
+        "invalidUsername": "Nama Pengguna Tidak Sah",
+        "invalidUsernameFormat": "Format Nama Pengguna Tidak Sah",
+        "invalidYearFormat": "Format Tahun Tidak Sah",
+        "onlyAlphabetsAllowed": "Hanya abjad dibenarkan",
+        "required": "Diperlukan",
+        "requiredField": "Medan Diperlukan",
+        "pleaseSignBeforeProceed": "Sila tandatangan sebelum meneruskan",
+        "charactersExceed": "Teks melebihi had aksara (255).",
+        "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula"
       },
       "tabs": {
-          "details": "Details",
-          "purchaseHistory": "Purchase History"
+        "details": "Butiran",
+        "purchaseHistory": "Sejarah Pembelian",
+        "products": "Produk",
+        "jobOrders": "Pesanan Kerja",
+        "history": "Sejarah",
+        "contacts": "Kenalan",
+        "assets": "Aset",
+        "tasks": "Tugas",
+        "attachments": "Lampiran",
+        "projects": "Projek",
+        "sites": "Tapak"
       },
       "summary": {
+        "setupVisible": false,
+        "label": {
+          "original": "Summary",
+          "singular": "Ringkasan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
           "setupVisible": false,
-          "label": {
-              "original": "Summary",
-              "singular": "Summary",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
+          "sec0": {
+            "original": "Asset Summary",
+            "singular": "Ringkasan Aset",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": false,
-              "sec0": {
-                  "original": "Asset Summary",
-                  "singular": "Asset Summary",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "sec1": {
-                  "original": "General Details",
-                  "singular": "General Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "sec2": {
-                  "original": "Ownership Location",
-                  "singular": "Ownership Location",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "sec3": {
-                  "original": "Maintenance Details",
-                  "singular": "Maintenance Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "sec4": {
-                  "original": "Customer Summary",
-                  "singular": "Customer Summary",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "sec5": {
-                  "original": "Location Details",
-                  "singular": "Location Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "sec6": {
-                  "original": "Contact Details",
-                  "singular": "Contact Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              }
+          "sec1": {
+            "original": "General Details",
+            "singular": "Butiran Umum",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": false,
-              "name": {
-                  "original": "Name",
-                  "singular": "Name",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "latestReading": {
-                  "original": "Latest Reading",
-                  "singular": "Latest Reading",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "serialNo": {
-                  "original": "Serial No",
-                  "singular": "Serial No",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "type": {
-                  "original": "Type",
-                  "singular": "Type",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "code": {
-                  "original": "Asset Code",
-                  "singular": "Asset Code",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "equipNumber": {
-                  "original": "Equipment Number",
-                  "singular": "Equipment Number",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "customer": {
-                  "original": "Customer",
-                  "singular": "Customer",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "site": {
-                  "original": "Site",
-                  "singular": "Site",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "servZone": {
-                  "original": "Service Zone",
-                  "singular": "Service Zone",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "custodian": {
-                  "original": "Custodian",
-                  "singular": "Custodian",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "nextMaintenance": {
-                  "original": "Next Maintenance",
-                  "singular": "Next Maintenance",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "status": {
-                  "original": "Status",
-                  "singular": "Status",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "warrantyEnds": {
-                  "original": "Warranty Ends",
-                  "singular": "Warranty Ends",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "custType": {
-                  "original": "Type",
-                  "singular": "Type",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "category": {
-                  "original": "Category",
-                  "singular": "Category",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "sector": {
-                  "original": "Sector",
-                  "singular": "Sector",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "subSector": {
-                  "original": "Sub-Sector",
-                  "singular": "Sub-Sector",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "geoFence": {
-                  "original": "Geofence",
-                  "singular": "Geofence",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "area": {
-                  "original": "Area",
-                  "singular": "Area",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "location": {
-                  "original": "Location",
-                  "singular": "Location",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "contactName": {
-                  "original": "Contact Name",
-                  "singular": "Contact Name",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "email": {
-                  "original": "Email",
-                  "singular": "Email",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "phone": {
-                  "original": "Phone",
-                  "singular": "Phone",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              }
+          "sec2": {
+            "original": "Ownership Location",
+            "singular": "Lokasi Pemilikan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Maintenance Details",
+            "singular": "Butiran Penyelenggaraan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Customer Summary",
+            "singular": "Ringkasan Pelanggan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Location Details",
+            "singular": "Butiran Lokasi",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Contact Details",
+            "singular": "Butiran Hubungan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
-      }
+        },
+        "fields": {
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Nama",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "latestReading": {
+            "original": "Latest Reading",
+            "singular": "Bacaan Terkini",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "serialNo": {
+            "original": "Serial No",
+            "singular": "No. Siri",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "type": {
+            "original": "Type",
+            "singular": "Jenis",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "code": {
+            "original": "Asset Code",
+            "singular": "Kod Aset",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "equipNumber": {
+            "original": "Equipment Number",
+            "singular": "Nombor Peralatan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "customer": {
+            "original": "Customer",
+            "singular": "Pelanggan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "site": {
+            "original": "Site",
+            "singular": "Tapak",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "servZone": {
+            "original": "Service Zone",
+            "singular": "Zon Perkhidmatan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "custodian": {
+            "original": "Custodian",
+            "singular": "Pemegang Amanah",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "nextMaintenance": {
+            "original": "Next Maintenance",
+            "singular": "Penyelenggaraan Seterusnya",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "warrantyEnds": {
+            "original": "Warranty Ends",
+            "singular": "Tamat Jaminan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "custType": {
+            "original": "Type",
+            "singular": "Jenis",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "category": {
+            "original": "Category",
+            "singular": "Kategori",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sector": {
+            "original": "Sector",
+            "singular": "Sektor",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "subSector": {
+            "original": "Sub-Sector",
+            "singular": "Sub-Sektor",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "geoFence": {
+            "original": "Geofence",
+            "singular": "Geofence",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "area": {
+            "original": "Area",
+            "singular": "Kawasan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "location": {
+            "original": "Location",
+            "singular": "Lokasi",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "contactName": {
+            "original": "Contact Name",
+            "singular": "Nama Hubungan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "email": {
+            "original": "Email",
+            "singular": "Emel",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "phone": {
+            "original": "Phone",
+            "singular": "Telefon",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        }
+      },
+      "commonComponent": {
+        "setupVisible": false,
+        "sections": {
+        "setupVisible": false,
+        "sec0": {
+            "original": "Select an User from the list",
+            "singular": "Pilih Pengguna dari senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec1": {
+            "original": "Select a Bin Location",
+            "singular": "Pilih Lokasi Bin",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec2": {
+            "original": "Select an Asset from the list",
+            "singular": "Pilih Aset dari senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec3": {
+            "original": "Select Checklist From List",
+            "singular": "Pilih Senarai Semak dari Senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec4": {
+            "original": "Select Project From List",
+            "singular": "Pilih Projek dari Senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec5": {
+            "original": "Select a Customer from the list",
+            "singular": "Pilih Pelanggan dari senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec6": {
+            "original": "Select Job Order Template From List",
+            "singular": "Pilih Templat Pesanan Kerja dari Senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+        "sec7": {
+            "original": "Select a Job Order from the list",
+            "singular": "Pilih Pesanan Kerja dari senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec8": {
+            "original": "Select a Machine Specialist from the list",
+            "singular": "Pilih Pakar Mesin dari senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec9": {
+            "original": "Select a Product from the list",
+            "singular": "Pilih Produk dari senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec10": {
+            "original": "Select a Sales Order from the list",
+            "singular": "Pilih Pesanan Jualan dari senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec11": {
+            "original": "Select Site From List",
+            "singular": "Pilih Tapak dari Senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec12": {
+            "original": "Select an Customer Survey from the list",
+            "singular": "Pilih Tinjauan Pelanggan dari senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec13": {
+            "original": "Select an ticket from the list",
+            "singular": "Pilih tiket dari senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec14": {
+            "original": "Select a Sales Order from the list",
+            "singular": "Pilih Pesanan Jualan dari senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec15": {
+            "original": "Select a Ticket from the list",
+            "singular": "Pilih Tiket dari senarai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        }
+        },
+        "fields": {
+        "setupVisible": false,
+        "rejectReason": {
+            "original": "Reject Reason",
+            "singular": "Sebab Penolakan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        }
+        },
+        "messages": {
+        "to": "ke",
+        "willBeChangedFrom": "akan ditukar dari",
+        "doYouWishToContinue": "Adakah anda ingin meneruskan?",
+        "module": "modul",
+        "willNowBe": "akan sekarang",
+        "confirm": "Sahkan",
+        "deleteConfirmation": "Pengesahan Pemadaman",
+        "selectAn": "Pilih",
+        "selectA": "Pilih",
+        "fromTheList": "dari senarai"
+        }
+    }
   },
   "setup": {
       "setupVisible": true,

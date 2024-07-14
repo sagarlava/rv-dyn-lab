@@ -4578,254 +4578,275 @@
               "setupVisible": true
           }
       },
-      "fields": {
-          "setupVisible": true,
-          "status": {
-              "original": "Status",
-              "singular": "状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "ticketOwner": {
-              "original": "Ticket Owner",
-              "singular": "工单所有者",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "openDateTime": {
-              "original": "Open Date & Time",
-              "singular": "开启日期和时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "type": {
-              "original": "Type",
-              "singular": "类型",
-              "plural": "类型",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "dueDateDueTime": {
-              "original": "Due Date & Due Time",
-              "singular": "到期日期和时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "priority": {
-              "original": "Priority",
-              "singular": "优先级",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "closeDateTime": {
-              "original": "Close Date & Time",
-              "singular": "关闭日期和时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "subject": {
-              "original": "Subject",
-              "singular": "主题",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "description": {
-              "original": "Description",
-              "singular": "描述",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "contactPersonName": {
-              "original": "Contact Person Name",
-              "singular": "联系人姓名",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "contactEmail": {
-              "original": "Contact Email",
-              "singular": "联系电子邮件",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "contactPhone": {
-              "original": "Contact Phone",
-              "singular": "联系电话",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "recipientEmail": {
-              "original": "Recipient CC Email",
-              "singular": "抄送收件人电子邮件",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "channel": {
-              "original": "Channel",
-              "singular": "渠道",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "department": {
-              "original": "Department",
-              "singular": "部门",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "ticketGroup": {
-              "original": "Ticket Group",
-              "singular": "工单组",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "duplicateTicket": {
-              "original": "Duplicate Ticket",
-              "singular": "重复工单",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "cancelReason": {
-              "original": "Cancel Reason",
-              "singular": "取消原因",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "allAsset": {
-              "original": "All Assets",
-              "singular": "所有资产",
-              "plural": "所有资产",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetsByCustomer": {
-              "original": "Assets by Customer",
-              "singular": "按客户分类的资产",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "dateRange": {
-              "original": "Date Range",
-              "singular": "日期范围",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "faultType": {
-              "original": "Fault Type",
-              "singular": "故障类型",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "fieldAgent": {
-              "original": "Field Agent",
-              "singular": "现场代理",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "message": {
-              "original": "Message",
-              "singular": "Message",
-              "plural": "Messages",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "name": {
-              "original": "Name",
-              "singular": "姓名",
-              "plural": "姓名",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "durationMins": {
-              "original": "Duration (mins)",
-              "singular": "持续时间（分钟）",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "atRiskDuration": {
-              "original": "At Risk Duration",
-              "singular": "风险时长",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "violationDuration": {
-              "original": "Violation Duration",
-              "singular": "违规时长",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "violationStatus": {
-              "original": "Violation Status",
-              "singular": "违规状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "resolution": {
-              "original": "Resolution",
-              "singular": "解决方案",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "resolutionType": {
-              "original": "Resolution Type",
-              "singular": "解决方案类型",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sinceAssigned": {
-              "original": "since assigned",
-              "singular": "自分配以来",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "slaStatus": {
-              "original": "SLA Status",
-              "singular": "SLA状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "replyThisToCustomer": {
-              "original": "Reply this to customer",
-              "singular": "回复客户",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "ticketNo": {
-              "original": "Ticket No.",
-              "singular": "工单编号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
+     "fields": {
+        "setupVisible": true,
+        "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "ticketOwner": {
+        "original": "Ticket Owner",
+        "singular": "工单所有者",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "openDateTime": {
+        "original": "Open Date & Time",
+        "singular": "开启日期和时间",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "type": {
+        "original": "Type",
+        "singular": "类型",
+        "plural": "类型",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "dueDateDueTime": {
+        "original": "Due Date & Due Time",
+        "singular": "截止日期和时间",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "priority": {
+        "original": "Priority",
+        "singular": "优先级",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "closeDateTime": {
+        "original": "Close Date & Time",
+        "singular": "关闭日期和时间",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "subject": {
+        "original": "Subject",
+        "singular": "主题",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "description": {
+        "original": "Description",
+        "singular": "描述",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "contactPersonName": {
+        "original": "Contact Person Name",
+        "singular": "联系人姓名",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "contactEmail": {
+        "original": "Contact Email",
+        "singular": "联系邮箱",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "contactPhone": {
+        "original": "Contact Phone",
+        "singular": "联系电话",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "recipientEmail": {
+        "original": "Recipient CC Email",
+        "singular": "收件人 CC 邮箱",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "channel": {
+        "original": "Channel",
+        "singular": "渠道",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "department": {
+        "original": "Department",
+        "singular": "部门",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "ticketGroup": {
+        "original": "Ticket Group",
+        "singular": "工单组",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "duplicateTicket": {
+        "original": "Duplicate Ticket",
+        "singular": "重复工单",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "cancelReason": {
+        "original": "Cancel Reason",
+        "singular": "取消原因",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "allAsset": {
+        "original": "All Assets",
+        "singular": "所有资产",
+        "plural": "所有资产",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "assetsByCustomer": {
+        "original": "Assets by Customer",
+        "singular": "按客户分类的资产",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "dateRange": {
+        "original": "Date Range",
+        "singular": "日期范围",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "faultType": {
+        "original": "Fault Type",
+        "singular": "故障类型",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "fieldAgent": {
+        "original": "Field Agent",
+        "singular": "现场代理",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "message": {
+        "original": "Message",
+        "singular": "消息",
+        "plural": "消息",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "name": {
+        "original": "Name",
+        "singular": "名称",
+        "plural": "名称",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "durationMins": {
+        "original": "Duration (mins)",
+        "singular": "时长（分钟）",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "atRiskDuration": {
+        "original": "At Risk Duration",
+        "singular": "风险时长",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "violationDuration": {
+        "original": "Violation Duration",
+        "singular": "违规时长",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "violationStatus": {
+        "original": "Violation Status",
+        "singular": "违规状态",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "resolution": {
+        "original": "Resolution",
+        "singular": "解决方案",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "resolutionType": {
+        "original": "Resolution Type",
+        "singular": "解决方案类型",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "sinceAssigned": {
+        "original": "since assigned",
+        "singular": "自分配以来",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "slaStatus": {
+        "original": "SLA Status",
+        "singular": "SLA 状态",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "replyThisToCustomer": {
+        "original": "Reply this to customer",
+        "singular": "回复给客户",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "ticketNo": {
+        "original": "Ticket No.",
+        "singular": "工单编号",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+        },
+        "atRisk": {
+        "original": "At Risk",
+        "singular": "有风险",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+        },
+        "violation": {
+        "original": "Violation",
+        "singular": "违规",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+        },
+        "completed": {
+        "original": "Completed",
+        "singular": "已完成",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+        }
+    },
       "validationFE": {},
       "validationBE": {
           "requiredField": "Required Field",
@@ -4833,23 +4854,26 @@
           "invalidEmailFormat": "Invalid Email Format"
       },
       "tooltips": {
-          "setupVisible": true,
-          "ticketLookup": {
-              "original": "Ticket Lookup",
-              "singular": "工单查询",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "duplicateThisIsFor": {
-              "original": "Has a similar ticket been raised before?",
-              "singular": "之前是否有类似的工单？",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "ticketLookup": {
+          "original": "Ticket Lookup",
+          "singular": "工单查询",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "duplicateThisIsFor": {
+          "original": "Has a similar ticket been raised before?",
+          "singular": "之前是否提出过类似的工单？",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
-      "messages": {}
+      "messages": {
+        "phoneOrEmailMandatory": "电话或电子邮件是必需的",
+        "typeMessageOrAddAttachment": "请键入消息或添加附件"
+      }
   },
   "jobOrder": {
       "setupVisible": true,

@@ -8296,6 +8296,75 @@
           "productsTransferred": "Produk dipindahkan"
       }
   },
+  "checkAvailibility": {
+    "label": {
+      "original": "Check availability",
+      "singular": "Periksa ketersediaan",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "sec0": {
+        "original": "Select Product/Asset",
+        "singular": "Pilih Produk/Aset",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Select Location/Zone/Bin",
+        "singular": "Pilih Lokasi/Zon/Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "choose": {
+        "original": "Choose",
+        "singular": "Pilih",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "selectProduct": {
+        "original": "Select Product",
+        "singular": "Pilih Produk",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "selectAsset": {
+        "original": "Select Asset",
+        "singular": "Pilih Aset",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Lokasi",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "zone": {
+        "original": "Zone",
+        "singular": "Zon",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "bin": {
+        "original": "Bin",
+        "singular": "Bin",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    }
+  },
   "consignment": {
       "setupVisible": true,
       "label": {
@@ -8865,252 +8934,298 @@
   "contacts": {
       "setupVisible": true,
       "label": {
-          "original": "Contact",
-          "singular": "Contact",
-          "plural": "Contacts",
-          "setupEdit": true,
-          "setupVisible": true
+        "original": "Contact",
+        "singular": "Kontak",
+        "plural": "Kontak",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "fields": {
-          "setupVisible": true,
-          "nameSalutation": {
-              "original": "Name & Salutation",
-              "singular": "Name & Salutation",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "email": {
-              "original": "Email",
-              "singular": "E-mel",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "designation": {
-              "original": "Designation",
-              "singular": "Designation",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "phone": {
-              "original": "Phone",
-              "singular": "Phone",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "allowAccessToPortal": {
-              "original": "Allow access to Customer Portal",
-              "singular": "Allow access to Customer Portal",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "username": {
-              "original": "Username",
-              "singular": "Username",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "contactName": {
-              "original": "Contact Name",
-              "singular": "Contact Name",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "type": {
-              "original": "Contact Type",
-              "singular": "Contact Type",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "phone1": {
-              "original": "Phone 1",
-              "singular": "Telefon 1",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "phone2": {
-              "original": "Phone 2",
-              "singular": "Telefon 2",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "website": {
-              "original": "Website",
-              "singular": "Website",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "fax": {
-              "original": "Fax",
-              "singular": "Fax",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "nameSalutation": {
+          "original": "Name & Salutation",
+          "singular": "Nama & Sapaan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "email": {
+          "original": "Email",
+          "singular": "E-mel",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "designation": {
+          "original": "Designation",
+          "singular": "Jawatan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "phone": {
+          "original": "Phone",
+          "singular": "Telefon",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "allowAccessToPortal": {
+          "original": "Allow access to Customer Portal",
+          "singular": "Benarkan akses ke Portal Pelanggan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "username": {
+          "original": "Username",
+          "singular": "Nama Pengguna",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "contactName": {
+          "original": "Contact Name",
+          "singular": "Nama Kontak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "type": {
+          "original": "Contact Type",
+          "singular": "Jenis Kontak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "phone1": {
+          "original": "Phone 1",
+          "singular": "Telefon 1",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "phone2": {
+          "original": "Phone 2",
+          "singular": "Telefon 2",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "website": {
+          "original": "Website",
+          "singular": "Laman Web",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "fax": {
+          "original": "Fax",
+          "singular": "Faks",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "recipientEmail": {
+          "original": "Recipient CC Email",
+          "singular": "E-mel CC Penerima",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "Contact Details",
-              "singular": "Butiran Hubungan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Customer Portal Details",
-              "singular": "Customer Portal Details",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Details",
-              "singular": "Butiran",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "sec0": {
+          "original": "Contact Details",
+          "singular": "Butiran Kontak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Customer Portal Details",
+          "singular": "Butiran Portal Pelanggan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Details",
+          "singular": "Butiran",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "tooltips": {
-          "setupVisible": true,
-          "eitherPhoneEmail": {
-              "singular": "Either Phone OR Email is required to create a contact",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true,
-              "original": "Either Phone OR Email is required to create a contact"
-          }
+        "setupVisible": true,
+        "eitherPhoneEmail": {
+          "original": "Either Phone OR Email is required to create a contact",
+          "singular": "Telefon atau Email diperlukan untuk membuat kontak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "validationFE": {},
       "messages": {
-          "searchContact": "Search Contact",
-          "noContactsFound": "No contacts found"
+        "searchContact": "Cari Kontak",
+        "noContactsFound": "Tiada kontak ditemui",
+        "confirmResendActivationEmail": "Adakah anda pasti mahu menghantar semula Email Pengaktifan?",
+        "confirmActivateUser": "Adakah anda pasti mahu mengaktifkan pengguna ini?",
+        "confirmDeactivateUser": "Adakah anda pasti mahu menyahaktifkan akaun pengguna ini? Pengguna ini tidak boleh diaktifkan semula selepas penyahaktifan.",
+        "confirmSuspendUser": "Adakah anda pasti mahu menggantung akaun pengguna ini?"
       }
   },
   "helpdesk": {
+    "setupVisible": false,
+    "label": {
+      "original": "Helpdesk",
+      "singular": "Meja Bantuan",
+      "plural": "Meja Bantuan",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "sections": {
       "setupVisible": false,
-      "label": {
-          "original": "Helpdesk",
-          "singular": "Menu",
-          "plural": "Menus",
-          "setupEdit": true,
-          "setupVisible": false
+      "sec0": {
+        "original": "Queue",
+        "singular": "Barisan",
+        "plural": "Barisan",
+        "setupEdit": true,
+        "setupVisible": false
       },
-      "sections": {
-          "setupVisible": false,
-          "sec0": {
-              "original": "Queue",
-              "singular": "Queue",
-              "plural": "Queues",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "sec1": {
-              "original": "Recently Viewed",
-              "singular": "Recently Viewed",
-              "plural": "Recently Viewed",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "sec2": {
-              "original": "My Tickets",
-              "singular": "My Ticket",
-              "plural": "My Tickets",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "sec3": {
-              "original": "All Tickets",
-              "singular": "All Ticket",
-              "plural": "All Tickets",
-              "setupEdit": true,
-              "setupVisible": false
-          }
+      "sec1": {
+        "original": "Recently Viewed",
+        "singular": "Baru Dilihat",
+        "plural": "Baru Dilihat",
+        "setupEdit": true,
+        "setupVisible": false
       },
-      "fields": {
-          "setupVisible": false,
-          "allMyTickets": {
-              "original": "All My Tickets",
-              "singular": "All My Ticket",
-              "plural": "All My Tickets",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "openPendingTickets": {
-              "original": "Open & Pending Tickets",
-              "singular": "Open & Pending Ticket",
-              "plural": "Open & Pending Tickets",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "overdueTickets": {
-              "original": "Overdue Tickets",
-              "singular": "Overdue Ticket",
-              "plural": "Overdue Tickets",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "highPriorityTickets": {
-              "original": "High Priority Tickets",
-              "singular": "High Priority Ticket",
-              "plural": "High Priority Tickets",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "unresolvedTickets": {
-              "original": "Unresolved Tickets",
-              "singular": "Unresolved Ticket",
-              "plural": "Unresolved Tickets",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "dueToday": {
-              "original": "Due Today",
-              "singular": "Due Today",
-              "plural": "Due Today",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "raisedByMe": {
-              "original": "Raised By Me",
-              "singular": "Raised By Me",
-              "plural": "Raised By Me",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "allTickets": {
-              "original": "All Tickets",
-              "singular": "All Ticket",
-              "plural": "All Tickets",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "recentlyUpdatedTickets": {
-              "original": "Recently Updated Tickets",
-              "singular": "Recently Updated Ticket",
-              "plural": "Recently Updated Tickets",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "selectAssignee": {
-              "original": "Select Assignee",
-              "singular": "Select Assignee",
-              "plural": "Select Assignee",
-              "setupEdit": true,
-              "setupVisible": false
-          }
+      "sec2": {
+        "original": "My Tickets",
+        "singular": "Tiket Saya",
+        "plural": "Tiket Saya",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "All Tickets",
+        "singular": "Semua Tiket",
+        "plural": "Semua Tiket",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Select Assignee",
+        "singular": "Pilih Penerima Tugas",
+        "plural": "Pilih Penerima Tugas",
+        "setupEdit": true,
+        "setupVisible": false
       }
+    },
+    "fields": {
+      "setupVisible": false,
+      "allMyTickets": {
+        "original": "All My Tickets",
+        "singular": "Semua Tiket Saya",
+        "plural": "Semua Tiket Saya",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "openPendingTickets": {
+        "original": "Open & Pending Tickets",
+        "singular": "Tiket Terbuka & Tertunda",
+        "plural": "Tiket Terbuka & Tertunda",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "overdueTickets": {
+        "original": "Overdue Tickets",
+        "singular": "Tiket Terlewat",
+        "plural": "Tiket Terlewat",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "highPriorityTickets": {
+        "original": "High Priority Tickets",
+        "singular": "Tiket Keutamaan Tinggi",
+        "plural": "Tiket Keutamaan Tinggi",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "unresolvedTickets": {
+        "original": "Unresolved Tickets",
+        "singular": "Tiket Belum Selesai",
+        "plural": "Tiket Belum Selesai",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "all": {
+        "original": "All",
+        "singular": "Semua",
+        "plural": "Semua",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "openProgressTickets": {
+        "original": "Open & In Progress",
+        "singular": "Terbuka & Sedang Diproses",
+        "plural": "Terbuka & Sedang Diproses",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "unresolved": {
+        "original": "Unresolved",
+        "singular": "Belum Selesai",
+        "plural": "Belum Selesai",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "highPriority": {
+        "original": "High Priority",
+        "singular": "Keutamaan Tinggi",
+        "plural": "Keutamaan Tinggi",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "dueToday": {
+        "original": "Due Today",
+        "singular": "Perlu Hari Ini",
+        "plural": "Perlu Hari Ini",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "raisedByMe": {
+        "original": "Raised By Me",
+        "singular": "Dibangkitkan Oleh Saya",
+        "plural": "Dibangkitkan Oleh Saya",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "allTickets": {
+        "original": "All Tickets",
+        "singular": "Semua Tiket",
+        "plural": "Semua Tiket",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "recentlyUpdatedTickets": {
+        "original": "Recently Updated Tickets",
+        "singular": "Tiket Dikemas Kini",
+        "plural": "Tiket Dikemas Kini",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "selectAssignee": {
+        "original": "Select Assignee",
+        "singular": "Pilih Penerima Tugas",
+        "plural": "Pilih Penerima Tugas",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    }
   },
   "attachments": {
       "setupVisible": false,
@@ -18303,75 +18418,6 @@
           "label": {
               "original": "Service",
               "singular": "Service",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      }
-  },
-  "checkAvailibility": {
-      "label": {
-          "original": "Check availability",
-          "singular": "Check availability",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-      },
-      "sections": {
-          "sec0": {
-              "original": "Select Product/Asset",
-              "singular": "Select Product/Asset",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Select Location/Zone/Bin",
-              "singular": "Select Location/Zone/Bin",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
-      "fields": {
-          "choose": {
-              "original": "Choose",
-              "singular": "Choose",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectProduct": {
-              "original": "Select Product",
-              "singular": "Select Product",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectAsset": {
-              "original": "Select Asset",
-              "singular": "Select Asset",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "location": {
-              "original": "Location",
-              "singular": "Location",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "zone": {
-              "original": "Zone",
-              "singular": "Zone",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "bin": {
-              "original": "Bin",
-              "singular": "Bin",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true

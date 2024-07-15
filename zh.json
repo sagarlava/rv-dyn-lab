@@ -10465,6 +10465,7 @@
           "removedSuccessfully": "removed successfully",
           "cancelledSuccessfully": "cancelled successfully",
           "savedSuccessfully": "saved successfully",
+          "createdSuccessfully": "created successfully",
           "updatedSuccessfully": "updated successfully",
           "updateNotSuccesful": "Update not successful",
           "doYouWishToContinue": "Do you wish to continue?",
@@ -14069,332 +14070,356 @@
                   "setupVisible": true
               },
               "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Geofence Details",
-                      "singular": "Geofence Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "File Details",
-                      "singular": "File Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+                "setupVisible": false,
+                "sec0": {
+                  "original": "Geofence Details",
+                  "singular": "地理围栏详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sec1": {
+                  "original": "File Details",
+                  "singular": "文件详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
               },
               "fields": {
-                  "setupVisible": true,
-                  "name": {
-                      "original": "Name",
-                      "singular": "姓名",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "country": {
-                      "original": "Country",
-                      "singular": "Country",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "area": {
-                      "original": "Area",
-                      "singular": "Kawasan",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "areaCode": {
-                      "original": "Area Code",
-                      "singular": "Area Code",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "uploadGeofence": {
-                      "original": "Upload Geofence",
-                      "singular": "Upload Geofence",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+                "setupVisible": false,
+                "name": {
+                  "original": "Name",
+                  "singular": "名称",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "country": {
+                  "original": "Country",
+                  "singular": "国家",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "area": {
+                  "original": "Area",
+                  "singular": "地区",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "areaCode": {
+                  "original": "Area Code",
+                  "singular": "地区代码",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "uploadGeofence": {
+                  "original": "Upload Geofence",
+                  "singular": "上传地理围栏",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
               },
               "validationFE": {},
               "messages": {
-                  "createYourOwn": "You may create your",
-                  "seeDetailsHere": "here"
+                "createYourOwn": "您可以创建",
+                "seeDetailsHere": "查看详细信息"
               }
           },
           "inventory": {
-              "setupVisible": true,
+              "setupVisible": false,
               "label": {
-                  "original": "Geofence",
-                  "singular": "电子围栏",
-                  "plural": "电子围栏",
-                  "setupEdit": true,
-                  "setupVisible": true
+                "original": "Inventory",
+                "singular": "库存",
+                "plural": "库存",
+                "setupEdit": true,
+                "setupVisible": false
               },
               "location": {
-                  "setupVisible": true,
-                  "label": {
-                      "original": "Location",
-                      "singular": "位置",
-                      "plural": "位置",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sections": {
-                      "setupVisible": true,
-                      "sec0": {
-                          "original": "Location Details",
-                          "singular": "Location Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": true,
-                      "name": {
-                          "original": "Name",
-                          "singular": "姓名",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "fullAddress": {
-                          "original": "Full Address",
-                          "singular": "Full Address",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "shortCode": {
-                          "original": "Short Code",
-                          "singular": "Short Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "extId": {
-                          "original": "External ID",
-                          "singular": "ID Luar",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "storeManager": {
-                          "original": "Store Manager",
-                          "singular": "Store Manager",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "userGroup": {
-                          "original": "User Group",
-                          "singular": "用户组 ",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "description": {
-                          "original": "Description",
-                          "singular": "描述",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      }
+                "setupVisible": false,
+                "label": {
+                  "original": "Location",
+                  "singular": "位置",
+                  "plural": "位置",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Location Details",
+                    "singular": "位置详情",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "fields": {
+                  "setupVisible": false,
+                  "locationId": {
+                    "original": "Location ID",
+                    "singular": "位置ID",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "name": {
+                    "original": "Name",
+                    "singular": "名称",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "fullAddress": {
+                    "original": "Full Address",
+                    "singular": "完整地址",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "shortCode": {
+                    "original": "Short Code",
+                    "singular": "短代码",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "extId": {
+                    "original": "External ID",
+                    "singular": "外部ID",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "storeManager": {
+                    "original": "Store Manager",
+                    "singular": "店长",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "userGroup": {
+                    "original": "User Group",
+                    "singular": "用户组",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "description": {
+                    "original": "Description",
+                    "singular": "描述",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "validationFE": {
+                  "pleaseSelectOne": "请选择一个产品或一个资产"
+                }
               },
               "zones": {
-                  "setupVisible": true,
-                  "label": {
-                      "original": "Zones",
-                      "singular": "Zone",
-                      "plural": "Zones",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sections": {
-                      "setupVisible": true,
-                      "sec0": {
-                          "original": "Zone Details",
-                          "singular": "Zone Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": true,
-                      "zoneNumber": {
-                          "original": "Zone Number",
-                          "singular": "Zone Number",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "name": {
-                          "original": "Name",
-                          "singular": "姓名",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "displayName": {
-                          "original": "Display Name",
-                          "singular": "Display Name",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "location": {
-                          "original": "Location",
-                          "singular": "位置",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "shortCode": {
-                          "original": "Short Code",
-                          "singular": "Short Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "extId": {
-                          "original": "External ID",
-                          "singular": "ID Luar",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "storeManager": {
-                          "original": "Store Manager",
-                          "singular": "Store Manager",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "userGroup": {
-                          "original": "User Group",
-                          "singular": "用户组 ",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "description": {
-                          "original": "Description",
-                          "singular": "描述",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      }
+                "setupVisible": false,
+                "label": {
+                  "original": "Zones",
+                  "singular": "区域",
+                  "plural": "区域",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Zone Details",
+                    "singular": "区域详情",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "fields": {
+                  "setupVisible": false,
+                  "zoneNumber": {
+                    "original": "Zone Number",
+                    "singular": "区域编号",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "zoneId": {
+                    "original": "Zone ID",
+                    "singular": "区域ID",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "name": {
+                    "original": "Name",
+                    "singular": "名称",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "displayName": {
+                    "original": "Display Name",
+                    "singular": "显示名称",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "location": {
+                    "original": "Location",
+                    "singular": "位置",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "shortCode": {
+                    "original": "Short Code",
+                    "singular": "短代码",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "extId": {
+                    "original": "External ID",
+                    "singular": "外部ID",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "storeManager": {
+                    "original": "Store Manager",
+                    "singular": "店长",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "userGroup": {
+                    "original": "User Group",
+                    "singular": "用户组",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "description": {
+                    "original": "Description",
+                    "singular": "描述",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                }
               },
               "bins": {
-                  "setupVisible": true,
-                  "label": {
-                      "original": "Bins",
-                      "singular": "Bin",
-                      "plural": "Bins",
-                      "setupEdit": true,
-                      "setupVisible": true
+                "setupVisible": false,
+                "label": {
+                  "original": "Bins",
+                  "singular": "仓",
+                  "plural": "仓",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Bin Details",
+                    "singular": "仓详情",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "sections": {
-                      "setupVisible": true,
-                      "sec0": {
-                          "original": "Bin Details",
-                          "singular": "Bin Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "sec1": {
-                          "original": "Type Details",
-                          "singular": "Type Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "sec2": {
-                          "original": "Additional Details",
-                          "singular": "附加信息 ",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      }
+                  "sec1": {
+                    "original": "Type Details",
+                    "singular": "类型详情",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "fields": {
-                      "setupVisible": true,
-                      "binNumber": {
-                          "original": "Bin Number",
-                          "singular": "Bin Number",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "name": {
-                          "original": "Name",
-                          "singular": "姓名",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "displayName": {
-                          "original": "Display Name",
-                          "singular": "Display Name",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "locationZone": {
-                          "original": "Location & Zone",
-                          "singular": "Location & Zone",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "shortCode": {
-                          "original": "Short Code",
-                          "singular": "Short Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "extId": {
-                          "original": "External ID",
-                          "singular": "ID Luar",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "user": {
-                          "original": "User",
-                          "singular": "用户",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "description": {
-                          "original": "Description",
-                          "singular": "描述",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      }
+                  "sec2": {
+                    "original": "Additional Details",
+                    "singular": "附加详情",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "fields": {
+                  "setupVisible": false,
+                  "binNumber": {
+                    "original": "Bin Number",
+                    "singular": "仓编号",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "binId": {
+                    "original": "Bin ID",
+                    "singular": "仓ID",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "name": {
+                    "original": "Name",
+                    "singular": "名称",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "displayName": {
+                    "original": "Display Name",
+                    "singular": "显示名称",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "locationZone": {
+                    "original": "Location & Zone",
+                    "singular": "位置 & 区域",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "shortCode": {
+                    "original": "Short Code",
+                    "singular": "短代码",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "extId": {
+                    "original": "External ID",
+                    "singular": "外部ID",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "user": {
+                    "original": "User",
+                    "singular": "用户",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "description": {
+                    "original": "Description",
+                    "singular": "描述",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                }
               },
               "validationFE": {},
               "messages": {
-                  "selectStoreManager": "Select Store Manager",
-                  "selectLocation": "Select Location",
-                  "selectZone": "Select Zone",
-                  "selectUser": "选择用户"
+                "selectStoreManager": "选择店经理",
+                "selectLocation": "选择位置",
+                "selectZone": "选择区域",
+                "selectUser": "选择用户"
               }
           },
           "faultResolution": {
@@ -18354,5 +18379,1066 @@
               "setupVisible": true
           }
       }
+  },
+
+  "machineSpecialist": {
+    "setupVisible": true,
+    "label": {
+      "original": "Machine Specialist",
+      "singular": "Machine Specialist",
+      "plural": "Machine Specialists",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "Machine Specialist Details",
+        "singular": "Machine Specialist Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Default Settings",
+        "singular": "Default Setting",
+        "plural": "Default Settings",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "Filter By",
+        "singular": "Filter By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "machineSpecialist": {
+        "original": "Machine Specialist",
+        "singular": "Machine Specialist",
+        "plural": "Machine Specialists",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "userType": {
+        "original": "User Type",
+        "singular": "User Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "active": {
+        "original": "Active",
+        "singular": "Active",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "defaultEstate": {
+        "original": "Default Estate",
+        "singular": "Default Estate",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "defaultMachine": {
+        "original": "Default Machine",
+        "singular": "Default Machine",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "tooltips": {
+      "setupVisible": true,
+      "estateLookup": {
+        "original": "Estate Lookup",
+        "singular": "Estate Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "machineLookup": {
+        "original": "Machine Lookup",
+        "singular": "Machine Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "machineSpecialistLookup": {
+        "original": "Machine Specialist Lookup",
+        "singular": "Machine Specialist Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "pleaseKeyInReason": {
+        "original": "Please key in reason for the change",
+        "singular": "Please key in reason for the change",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "messages": {
+      "selectOutturnCode": "Select Default Machine"
+    }
+  },
+  "attendance": {
+    "setupVisible": true,
+    "label": {
+      "original": "Attendance",
+      "singular": "Attendance",
+      "plural": "Attendances",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "Attendance Details",
+        "singular": "Attendance Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Today Pending Attendance",
+        "singular": "Today Pending Attendance",
+        "plural": "Today Pending Attendances",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Pending Attendance",
+        "singular": "Pending Attendance",
+        "plural": "Pending Attendances",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "All Attendance",
+        "singular": "All Attendance",
+        "plural": "All Attendances",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec4": {
+        "original": "Filter By",
+        "singular": "Filter By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "attendanceDateTime": {
+        "original": "Attendance Date and Time",
+        "singular": "Attendance Date and Time",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "attendanceStatus": {
+        "original": "Attendance Status",
+        "singular": "Attendance Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "attendanceOutturnCode": {
+        "original": "Attendance Outturn Code",
+        "singular": "Attendance Outturn Code",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "rejectReason": {
+        "original": "Reject Reason",
+        "singular": "Reject Reason",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "remarks": {
+        "original": "Remarks",
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "tooltips": {
+      "setupVisible": true,
+      "visitEstateLookup": {
+        "original": "Visit Estate Lookup",
+        "singular": "Visit Estate Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "pleaseKeyInReason": {
+        "original": "Please key in reason for the change",
+        "singular": "Please key in reason for the change",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "message": {
+      "selectOutturnCode": "Select Outturn Code"
+    }
+  },
+  "overtime": {
+    "setupVisible": true,
+    "label": {
+      "original": "Overtime",
+      "singular": "Overtime",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "Overtime Details",
+        "singular": "Overtime Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Today Pending Overtime",
+        "singular": "Today Pending Overtime",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Pending Overtime",
+        "singular": "Pending Overtime",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "All Overtime",
+        "singular": "All Overtime",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec4": {
+        "original": "Filter By",
+        "singular": "Filter By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "overimeDate": {
+        "original": "Overtime Date",
+        "singular": "Overtime Date",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "overtimeStatus": {
+        "original": "Overtime Status",
+        "singular": "Overtime Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "overtimeHours": {
+        "original": "Overtime Hours",
+        "singular": "Overtime Hours",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "rejectReason": {
+        "original": "Reject Reason",
+        "singular": "Reject Reason",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "remarks": {
+        "original": "Remarks",
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "tooltips": {
+      "setupVisible": true,
+      "machineSpecialistLookup": {
+        "original": "Machine Specialist Lookup",
+        "singular": "Machine Specialist Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "pleaseKeyInReason": {
+        "original": "Please key in reason for the change",
+        "singular": "Please key in reason for the change",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "message": {
+      "selectTime": "Select Time"
+    }
+  },
+  "productivity": {
+    "setupVisible": true,
+    "label": {
+      "original": "Productivity",
+      "singular": "Productivity",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "Productivity Details",
+        "singular": "Productivity Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Today Pending Productivity",
+        "singular": "Today Pending Productivity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Pending Productivity",
+        "singular": "Pending Productivity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "All Productivity",
+        "singular": "All Productivity",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec4": {
+        "original": "Filter By",
+        "singular": "Filter By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "productivityDateTime": {
+        "original": "Productivity Date and Time",
+        "singular": "Productivity Date and Time",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "productivityStatus": {
+        "original": "Productivity Status",
+        "singular": "Productivity Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "division": {
+        "original": "Division",
+        "singular": "Division",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "notes": {
+        "original": "Notes",
+        "singular": "Note",
+        "plural": "Notes",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "rejectReason": {
+        "original": "Reject Reason",
+        "singular": "Reject Reason",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "remarks": {
+        "original": "Remarks",
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "tooltips": {
+      "setupVisible": true,
+      "estateLookup": {
+        "original": "Estate Lookup",
+        "singular": "Estate Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "machineSpecialistLookup": {
+        "original": "Machine Specialist Lookup",
+        "singular": "Machine Specialist Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "pleaseKeyInReason": {
+        "original": "Please key in reason for the change",
+        "singular": "Please key in reason for the change",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "message": {
+      "selectTime": "Select Time"
+    },
+    "primary": {
+      "setupVisible": true,
+      "label": {
+        "original": "Primary",
+        "singular": "Primary",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": true,
+        "sec0": {
+          "original": "General Details",
+          "singular": "General Details",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Field 1",
+          "singular": "Field 1",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Field 2",
+          "singular": "Field 2",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec3": {
+          "original": "Field 3",
+          "singular": "Field 3",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4": {
+          "original": "Issues",
+          "singular": "Issues",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec5": {
+          "original": "Filter By",
+          "singular": "Filter By",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "fields": {
+        "setupVisible": true,
+        "workAccountCode": {
+          "original": "Work Account Code",
+          "singular": "Work Account Code",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "totalHectares": {
+          "original": "Total Hectares",
+          "singular": "Total Hectare",
+          "plural": "Total Hectares",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "totalHectaresMorning": {
+          "original": "Total Hectares (Morning)",
+          "singular": "Total Hectare (Morning)",
+          "plural": "Total Hectares (Morning)",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "totalHectaresAfternoon": {
+          "original": "Total Hectares (Afternoon)",
+          "singular": "Total Hectares (Afternoon)",
+          "plural": "Total Hectares (Afternoon)",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "rejectReason": {
+          "original": "Reject Reason",
+          "singular": "Reject Reason",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "fieldOne": {
+          "original": "Field 1",
+          "singular": "Field 1",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "fieldTwo": {
+          "original": "Field 2",
+          "singular": "Field 2",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "fieldThree": {
+          "original": "Field 3",
+          "singular": "Field 3",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "issues": {
+          "original": "Issues",
+          "singular": "Issue",
+          "plural": "Issues",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "remarks": {
+          "original": "Remarks",
+          "singular": "Remark",
+          "plural": "Remarks",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "tooltips": {
+        "setupVisible": true,
+        "machineLookup": {
+          "original": "Machines Lookup",
+          "singular": "Machine Lookup",
+          "plural": "Machines Lookup",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "pleaseKeyInReason": {
+          "original": "Please key in reason for the change",
+          "singular": "Please key in reason for the change",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "message": {
+        "selectIssue": "Select Issue"
+      }
+    },
+    "secondary": {
+      "setupVisible": true,
+      "label": {
+        "original": "Secondary",
+        "singular": "Secondary",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": true,
+        "sec0": {
+          "original": "General Details",
+          "singular": "General Details",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Field 1",
+          "singular": "Field 1",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Field 2",
+          "singular": "Field 2",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec3": {
+          "original": "Field 3",
+          "singular": "Field 3",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4": {
+          "original": "Filter By",
+          "singular": "Filter By",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "fields": {
+        "setupVisible": true,
+        "typeSecondaryWork": {
+          "original": "Type of Secondary Work",
+          "singular": "Type of Secondary Work",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "nameOfWork": {
+          "original": "Name of Work",
+          "singular": "Name of Work",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "machineUsed": {
+          "original": "Machine Used",
+          "singular": "Machine Used",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "evitNo": {
+          "original": "EVIT No.",
+          "singular": "EVIT No.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "workAccountCode": {
+          "original": "Work Account Code",
+          "singular": "Work Account Code",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "totalHectares": {
+          "original": "Total Hectares",
+          "singular": "Total Hectare",
+          "plural": "Total Hectares",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "totalHectaresMorning": {
+          "original": "Total Hectares (Morning)",
+          "singular": "Total Hectare (Morning)",
+          "plural": "Total Hectares (Morning)",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "totalHectaresAfternoon": {
+          "original": "Total Hectares (Afternoon)",
+          "singular": "Total Hectares (Afternoon)",
+          "plural": "Total Hectares (Afternoon)",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "fieldOne": {
+          "original": "Field 1",
+          "singular": "Field 1",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "fieldTwo": {
+          "original": "Field 2",
+          "singular": "Field 2",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "fieldThree": {
+          "original": "Field 3",
+          "singular": "Field 3",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
+      },
+      "messages": {
+        "nameOfSecondaryWork": "Name of Secondary Work"
+      }
+    }
+  },
+  "visits": {
+    "setupVisible": true,
+    "label": {
+      "original": "Visits",
+      "singular": "Visit",
+      "plural": "Visits",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "Visit Details",
+        "singular": "Visit Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Today Pending Visits",
+        "singular": "Today Pending Visits",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Pending Visits",
+        "singular": "Pending Visits",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "All Visits",
+        "singular": "All Visits",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec4": {
+        "original": "Filter By",
+        "singular": "Filter By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "visitDateTime": {
+        "original": "Visit Date and Time",
+        "singular": "Visit Date and Time",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "approvalStatus": {
+        "original": "Approval Status",
+        "singular": "Approval Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "visitStatus": {
+        "original": "Visit Status",
+        "singular": "Visit Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "visitType": {
+        "original": "Visit Type",
+        "singular": "Visit Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "visitDateRange": {
+        "original": "Visit Date Range",
+        "singular": "Visit Date Range",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "userGroup": {
+        "original": "User Group",
+        "singular": "User Group",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "rejectReason": {
+        "original": "Reject Reason",
+        "singular": "Reject Reason",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "remarks": {
+        "original": "Remarks",
+        "singular": "Remark",
+        "plural": "Remarks",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "tooltips": {
+      "setupVisible": true,
+      "estateLookup": {
+        "original": "Estate Lookup",
+        "singular": "Estate Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "machineSpecialistLookup": {
+        "original": "Machine Specialist Lookup",
+        "singular": "Machine Specialist Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "pleaseKeyInReason": {
+        "original": "Please key in reason for the change",
+        "singular": "Please key in reason for the change",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "messages": {
+      "selectVisitType": "Select Visit Type",
+      "selectApprovalStatus": "Select Approval Status"
+    }
+  },
+  "pmv": {
+    "setupVisible": true,
+    "label": {
+      "original": "PMV",
+      "singular": "PMV",
+      "plural": "PMV",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": true,
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "PMV Details",
+        "singular": "PMV Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Select the checklist you'd like to generate for this Machine",
+        "singular": "Select the checklist you'd like to generate for this Machine",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "Updating the Machine within PMV",
+        "singular": "Updating the Machine within PMV",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec4": {
+        "original": "Update the status of",
+        "singular": "Update the status of",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec5": {
+        "original": "Machine Summary",
+        "singular": "Machine Summary",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec6": {
+        "original": "Details",
+        "singular": "Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec7": {
+        "original": "Filter By",
+        "singular": "Filter By",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec8": {
+        "original": "Questions",
+        "singular": "Question",
+        "plural": "Questions",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "dateRange": {
+        "original": "Date Range",
+        "singular": "Date Range",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetType": {
+        "original": "Machine Type",
+        "singular": "Machine Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetStatus": {
+        "original": "Machine Status",
+        "singular": "Machine Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "checklistNo": {
+        "original": "PMV No",
+        "singular": "PMV No",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "checklistName": {
+        "original": "PMV Name",
+        "singular": "PMV Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "equipmentType": {
+        "original": "Equipment Type",
+        "singular": "Equipment Type",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "equipmentMeterReading": {
+        "original": "Equipment Meter Reading",
+        "singular": "Equipment Meter Reading",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "initiateFollowUpChecklist": {
+        "original": "Follow-Up PMV",
+        "singular": "Follow-Up PMV",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "questions": {
+        "original": "Question",
+        "singular": "Question",
+        "plural": "Questions",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "selectAsset": {
+        "original": "Select Machine",
+        "singular": "Select Machine",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "selectChecklistToGenerate": {
+        "original": "Select the checklist you'd like to generate for this Machine",
+        "singular": "Select the checklist you'd like to generate for this Machine",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "selectOne": {
+        "original": "Select one",
+        "singular": "Select one",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "validationFE": {},
+    "validationBE": {
+      "requiredField": "Required Field",
+      "invalidPhoneNumber": "Invalid Phone Number",
+      "invalidEmailFormat": "Invalid Email Format"
+    },
+    "tooltips": {
+      "setupVisible": true,
+      "checklistLookup": {
+        "original": "PMV Lookup",
+        "singular": "PMV Lookup",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "messages": {}
   }
 }

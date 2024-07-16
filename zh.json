@@ -15720,181 +15720,182 @@
       "sla": {
           "setupVisible": true,
           "packages": {
-              "setupVisible": true,
-              "label": {
-                  "original": "SLA Packages",
-                  "singular": "SLA Package",
-                  "plural": "SLA Packages",
-                  "setupEdit": true,
-                  "setupVisible": true
+            "setupVisible": false,
+            "label": {
+              "original": "SLA Packages",
+              "singular": "SLA套餐",
+              "plural": "SLA套餐",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "SLA Package Details",
+                "singular": "SLA套餐详情",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "SLA Package Details",
-                      "singular": "SLA Package Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Condition",
-                      "singular": "Inventory Notifications",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Add/Edit Condition",
-                      "singular": "Add/Edit Condition",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Condition Details",
-                      "singular": "Condition Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec4": {
-                      "original": "Match All",
-                      "singular": "Match All",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec5": {
-                      "original": "Match Any",
-                      "singular": "Match Any",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec6": {
-                      "original": "SLA will be active if ALL these criteria are met",
-                      "singular": "SLA will be active if ALL these criteria are met",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec7": {
-                      "original": "SLA will be active if ANY these criteria are met",
-                      "singular": "SLA will be active if ANY these criteria are met",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec8": {
-                      "original": "Details",
-                      "singular": "细节",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec1": {
+                "original": "Condition",
+                "singular": "条件",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "fields": {
-                  "setupVisible": true,
-                  "name": {
-                      "original": "Name",
-                      "singular": "姓名",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "type": {
-                      "original": "Type",
-                      "singular": "类型",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "businessHours": {
-                      "original": "Business Hours",
-                      "singular": "Business Hours",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "status": {
-                      "original": "Status",
-                      "singular": "状态",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "enableForCustomers": {
-                      "original": "Enable for all customers",
-                      "singular": "Enable for all customers",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "attribute": {
-                      "original": "Attribute",
-                      "singular": "Attribute",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "operator": {
-                      "original": "Operator",
-                      "singular": "Operator",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "matchAll": {
-                      "original": "Match All",
-                      "singular": "Match All",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "matchAny": {
-                      "original": "Match Any",
-                      "singular": "Match Any",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "customer": {
-                      "original": "Customer",
-                      "singular": "Pelanggan",
-                      "plural": "Pelanggan",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "validFrom": {
-                      "original": "Valid From",
-                      "singular": "Valid From",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "validTo": {
-                      "original": "Valid To",
-                      "singular": "Valid To",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "asset": {
-                      "original": "Asset",
-                      "singular": "Asset",
-                      "plural": "Assets",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec2": {
+                "original": "Add/Edit Condition",
+                "singular": "添加/编辑条件",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "validationFE": {},
-              "messages": {
-                  "selectAttribute": "Select Attribute",
-                  "selectOperator": "Select Operator",
-                  "slaPackageUpdatedSuccessfully": "SLA Package updated successfully",
-                  "criteriaSavedSuccessfully": "Criteria saved successfully"
+              "sec3": {
+                "original": "Condition Details",
+                "singular": "条件详情",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec4": {
+                "original": "Match All",
+                "singular": "匹配所有",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec5": {
+                "original": "Match Any",
+                "singular": "匹配任意",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec6": {
+                "original": "SLA will be active if ALL these criteria are met",
+                "singular": "如果满足所有这些条件，SLA将会激活",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec7": {
+                "original": "SLA will be active if ANY these criteria are met",
+                "singular": "如果满足任一条件，SLA将会激活",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec8": {
+                "original": "Details",
+                "singular": "详情",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "name": {
+                "original": "Name",
+                "singular": "名称",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "type": {
+                "original": "Type",
+                "singular": "类型",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "businessHours": {
+                "original": "Business Hours",
+                "singular": "营业时间",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "状态",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "enableForCustomers": {
+                "original": "Enable for all customers",
+                "singular": "对所有客户启用",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "attribute": {
+                "original": "Attribute",
+                "singular": "属性",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "operator": {
+                "original": "Operator",
+                "singular": "运算符",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "matchAll": {
+                "original": "Match All",
+                "singular": "匹配所有",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "matchAny": {
+                "original": "Match Any",
+                "singular": "匹配任意",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "customer": {
+                "original": "Customer",
+                "singular": "客户",
+                "plural": "客户",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "validFrom": {
+                "original": "Valid From",
+                "singular": "有效期从",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "validTo": {
+                "original": "Valid To",
+                "singular": "有效期至",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "asset": {
+                "original": "Asset",
+                "singular": "资产",
+                "plural": "资产",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "messages": {
+              "selectAttribute": "选择属性",
+              "selectOperator": "选择运算符",
+              "slaPackageUpdatedSuccessfully": "SLA套餐更新成功",
+              "criteriaSavedSuccessfully": "条件保存成功",
+              "noConditionSelected": "未选择任何条件"
+            }
           },
           "customers": {
               "setupVisible": true,

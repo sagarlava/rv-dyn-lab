@@ -9275,7 +9275,7 @@
     "label": {
       "original": "History",
       "singular": "History",
-      "plural": "",
+      "plural": "History",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -10358,6 +10358,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "exit": {
+        "original": "Exit",
+        "singular": "Exit",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "done": {
         "original": "Done",
         "singular": "Done",
@@ -10865,7 +10872,8 @@
       "decline":"Decline",
       "youDontHaveReportingManager":"You don't have a reporting manager, Please contact your admin",
       "thereAreNoTasksWithLocation":"There are no tasks with location to display in map",
-      "reasonOptional": "Reason (Optional)"
+      "reasonOptional": "Reason (Optional)",
+      "areYouSureWantToExit": "Are you sure you want to exit?"
 
 
     },

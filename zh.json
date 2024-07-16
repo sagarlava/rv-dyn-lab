@@ -15035,54 +15035,54 @@
             "days": "天"
           }
         },
-          "preventiveParts": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Parts",
-                  "singular": "Part",
-                  "plural": "Parts",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Product Details",
-                      "singular": "产品详情",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "fields": {
-                  "setupVisible": true,
-                  "product": {
-                      "original": "Product",
-                      "singular": "产品",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "qty": {
-                      "original": "Qty",
-                      "singular": "数量",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "quantity": {
-                      "original": "Quantity",
-                      "singular": "数量",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "validationFE": {},
-              "messages": {
-                  "partUpdatedSuccessfully": "Part updated successfully"
-              }
+        "preventiveParts": {
+          "setupVisible": false,
+          "label": {
+            "original": "Parts",
+            "singular": "部件",
+            "plural": "部件",
+            "setupEdit": true,
+            "setupVisible": false
           },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "Product Details",
+              "singular": "产品详情",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "product": {
+              "original": "Product",
+              "singular": "产品",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "qty": {
+              "original": "Qty",
+              "singular": "数量",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "quantity": {
+              "original": "Quantity",
+              "singular": "数量",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "validationFE": {},
+          "messages": {
+            "partUpdatedSuccessfully": "部件更新成功"
+          }
+        },
           "serviceZone": {
               "setupVisible": true,
               "label": {

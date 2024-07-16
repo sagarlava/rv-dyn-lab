@@ -15197,52 +15197,52 @@
             }
           },
           "preventiveParts": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Parts",
-                  "singular": "Part",
-                  "plural": "Parts",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Product Details",
-                      "singular": "Butiran Produk",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "fields": {
-                  "setupVisible": true,
-                  "product": {
-                      "original": "Product",
-                      "singular": "Produk",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "qty": {
-                      "original": "Qty",
-                      "singular": "Kuantiti",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "quantity": {
-                      "original": "Quantity",
-                      "singular": "Kuantiti",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "validationFE": {},
-              "messages": {
-                  "partUpdatedSuccessfully": "Part updated successfully"
+            "setupVisible": false,
+            "label": {
+              "original": "Parts",
+              "singular": "Bahagian",
+              "plural": "Bahagian",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "Product Details",
+                "singular": "Butiran Produk",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "product": {
+                "original": "Product",
+                "singular": "Produk",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "qty": {
+                "original": "Qty",
+                "singular": "Kuantiti",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "quantity": {
+                "original": "Quantity",
+                "singular": "Kuantiti",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "messages": {
+              "partUpdatedSuccessfully": "Bahagian berjaya dikemas kini"
+            }
           },
           "serviceZone": {
               "setupVisible": true,

@@ -13163,8 +13163,8 @@
             "setupVisible": false
           },
           "sec1": {
-            "original": "Qr/Barcode",
-            "singular": "Qr/Barcode",
+            "original": "QR/Barcode",
+            "singular": "QR/Barcode",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13533,8 +13533,11 @@
         },
         "validationFE": {},
         "messages": {
-          "createCustomAssetListViewInstructions": "Create custom Asset list views: Choose the fields you want to see and arrange them in the order that makes the most sense to you. You can then set default views for different users and access profiles from the views you create.",
-          "in": "in"
+          "createCustom": "Create custom",
+          "listViewInstructions": "list views: Choose the fields you want to see and arrange them in the order that makes the most sense to you. You can then set default views for different users and access profiles from the views you create.",
+          "in": "in",
+          "viewNotUsedAccess":"Not used by any Access Profile",
+          "viewNotUsedUsers":"Not used by any Users"
         }
       },
       "picklist": {
@@ -15176,6 +15179,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "orderType": {
+            "original": "Order Type",
+            "singular": "Order Type",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "validationFE": {},
@@ -15257,6 +15267,27 @@
           "user": {
             "original": "User",
             "singular": "User",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "email": {
+            "original": "Email",
+            "singular": "Email",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "userGroup": {
+            "original": "User Group",
+            "singular": "User Group",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "assetCustodian": {
+            "original": "Asset Custodian",
+            "singular": "Asset Custodian",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15367,7 +15398,11 @@
         "validationFE": {},
         "messages": {
           "selectUserGroup": "Select User Group",
-          "selectFrequency": "Select Frequency"
+          "selectFrequency": "Select Frequency",
+          "years": "Year(s)",
+          "months": "Month(s)",
+          "weeks": "Week(s)",
+          "days": "Day(s)"
         }
       },
       "preventiveParts": {

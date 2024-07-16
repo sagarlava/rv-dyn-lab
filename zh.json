@@ -11151,268 +11151,268 @@
     }
   },
   "setup": {
-      "setupVisible": true,
+    "setupVisible": false,
       "label": {
           "original": "Setup",
           "singular": "Setup",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": true
+          "setupVisible": false
       },
       "general": {
-          "setupVisible": true,
-          "organizationDetails": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Organization Details",
-                  "singular": "Organization Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Organization Information",
-                      "singular": "Organization Information",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Company",
-                      "singular": "Company",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Default Values",
-                      "singular": "Default Values",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Tax",
-                      "singular": "Tax",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "fields": {
-                  "setupVisible": true,
-                  "companyName": {
-                      "original": "Company Name",
-                      "singular": "Company Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "companyAddress": {
-                      "original": "Company Address",
-                      "singular": "Company Address",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "organizationId": {
-                      "original": "Organization ID",
-                      "singular": "Organization ID",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "defaultTimezone": {
-                      "original": "Default Timezone",
-                      "singular": "Default Timezone",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "defaultCurrency": {
-                      "original": "Default Currency",
-                      "singular": "Default Currency",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "dateFormat": {
-                      "original": "Date Format",
-                      "singular": "Date Format",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "taxType": {
-                      "original": "Tax Type",
-                      "singular": "Tax Type",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "taxPercentage": {
-                      "original": "Tax Percentage",
-                      "singular": "Tax Percentage",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "noTax": {
-                      "original": "No Tax",
-                      "singular": "No Tax",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "gst": {
-                      "original": "GST",
-                      "singular": "GST",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sst": {
-                      "original": "SST",
-                      "singular": "SST",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "validationFE": {
-                  "invalidTaxAmount": "Invalid Tax Amount"
-              },
-              "messages": {
-                  "organizationSettingsUpdatedSuccessfully": "Org settings updated successfully"
-              }
+        "setupVisible": false,
+        "organizationDetails": {
+          "setupVisible": false,
+          "label": {
+            "original": "Organization Details",
+            "singular": "组织详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "licenseBilling": {
-              "setupVisible": true,
-              "label": {
-                  "original": "License and Billing",
-                  "singular": "License and Billing",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Active Licenses",
-                      "singular": "Active Licenses",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Total Licenses",
-                      "singular": "Total Licenses",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Used Licenses",
-                      "singular": "Used Licenses",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Renewal Date",
-                      "singular": "Renewal Date",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec4": {
-                      "original": "Send Request Team",
-                      "singular": "Send Request Team",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "messages": {
-                  "requestSentSuccessfully": "Request sent successfully"
-              }
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "Organization Information",
+              "singular": "组织信息",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec1": {
+              "original": "Company",
+              "singular": "公司",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec2": {
+              "original": "Default Values",
+              "singular": "默认值",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec3": {
+              "original": "Tax",
+              "singular": "税",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
           },
-          "workingHours": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Working Hours",
-                  "singular": "Working Hours",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "fields": {
-                  "setupVisible": true,
-                  "monday": {
-                      "original": "Monday",
-                      "singular": "Monday",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "tuesday": {
-                      "original": "Tuesday",
-                      "singular": "Tuesday",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "wednesday": {
-                      "original": "Wednesday",
-                      "singular": "Wednesday",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "thursday": {
-                      "original": "Thursday",
-                      "singular": "Thursday",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "friday": {
-                      "original": "Friday",
-                      "singular": "Friday",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "saturday": {
-                      "original": "Saturday",
-                      "singular": "Saturday",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sunday": {
-                      "original": "Sunday",
-                      "singular": "Sunday",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "allDay": {
-                      "original": "All Day",
-                      "singular": "All Day",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "messages": {
-                  "confirmOverrideAllWorkingHours": "Do you want to override working hours for all users?",
-                  "organizationSettingsUpdatedSuccessfully": "Org settings updated successfully",
-                  "endTimeMustBeGreaterThanStartTime": "End time should be greater than start time"
-              }
+          "fields": {
+            "setupVisible": false,
+            "companyName": {
+              "original": "Company Name",
+              "singular": "公司名称",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "companyAddress": {
+              "original": "Company Address",
+              "singular": "公司地址",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "organizationId": {
+              "original": "Organization ID",
+              "singular": "组织 ID",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "defaultTimezone": {
+              "original": "Default Timezone",
+              "singular": "默认时区",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "defaultCurrency": {
+              "original": "Default Currency",
+              "singular": "默认货币",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "dateFormat": {
+              "original": "Date Format",
+              "singular": "日期格式",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "taxType": {
+              "original": "Tax Type",
+              "singular": "税种",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "taxPercentage": {
+              "original": "Tax Percentage",
+              "singular": "税率",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "noTax": {
+              "original": "No Tax",
+              "singular": "无税",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "gst": {
+              "original": "GST",
+              "singular": "增值税",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sst": {
+              "original": "SST",
+              "singular": "销售服务税",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "validationFE": {
+            "invalidTaxAmount": "税额无效"
+          },
+          "messages": {
+            "organizationSettingsUpdatedSuccessfully": "组织设置更新成功"
           }
+        },
+        "licenseBilling": {
+          "setupVisible": false,
+          "label": {
+            "original": "License and Billing",
+            "singular": "许可和账单",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "Active Licenses",
+              "singular": "活跃许可证",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec1": {
+              "original": "Total Licenses",
+              "singular": "总许可证",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec2": {
+              "original": "Used Licenses",
+              "singular": "已用许可证",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec3": {
+              "original": "Renewal Date",
+              "singular": "续订日期",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec4": {
+              "original": "Send Request Team",
+              "singular": "发送请求团队",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "requestSentSuccessfully": "请求已成功发送"
+          }
+        },
+        "workingHours": {
+          "setupVisible": false,
+          "label": {
+            "original": "Working Hours",
+            "singular": "工作时间",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "fields": {
+            "setupVisible": false,
+            "monday": {
+              "original": "Monday",
+              "singular": "星期一",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "tuesday": {
+              "original": "Tuesday",
+              "singular": "星期二",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "wednesday": {
+              "original": "Wednesday",
+              "singular": "星期三",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "thursday": {
+              "original": "Thursday",
+              "singular": "星期四",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "friday": {
+              "original": "Friday",
+              "singular": "星期五",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "saturday": {
+              "original": "Saturday",
+              "singular": "星期六",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sunday": {
+              "original": "Sunday",
+              "singular": "星期天",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "allDay": {
+              "original": "All Day",
+              "singular": "全天",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "confirmOverrideAllWorkingHours": "是否要覆盖所有用户的工作时间？",
+            "organizationSettingsUpdatedSuccessfully": "组织设置已成功更新",
+            "endTimeMustBeGreaterThanStartTime": "结束时间应大于开始时间"
+          }
+        }
       },
       "users": {
           "setupVisible": true,
@@ -12631,54 +12631,55 @@
                   "accountActivationEmailSent": "An email has been sent to you to activate the account.",
                   "duplicateSkillAssignmentConflict": "These skills are already assigned to the user."
               },
-              "listView": {
-                  "setupVisible": true,
-                  "label": {
-                      "original": "List Views",
-                      "singular": "List View",
-                      "plural": "List Views",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sections": {
-                      "setupVisible": true,
-                      "sec0": {
-                          "original": "Default List Views",
-                          "singular": "Default List View",
-                          "plural": "Default List Views",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "sec1": {
-                          "original": "Confirm List View Update",
-                          "singular": "Confirm List View Update",
-                          "plural": "Confirm List View Update",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": true,
-                      "module": {
-                          "original": "Module",
-                          "singular": "Module",
-                          "plural": "Modules",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      },
-                      "listViewEachModule": {
-                          "original": "These are the list views you see for each module. You may edit and change these as preferred. To set these up, go to the module's 'List View' section, under Setup > Modules, or contact your administrator for assistance.",
-                          "singular": "These are the list views you see for each module. You may edit and change these as preferred. To set these up, go to the module's 'List View' section, under Setup > Modules, or contact your administrator for assistance.",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": true
-                      }
-                  },
-                  "messages": {
-                      "for": "for",
-                      "willBeUpdatedTo": "will be updated to"
-                  }
+            "listView": {
+              "setupVisible": false,
+              "label": {
+                "original": "List Views",
+                "singular": "列表视图",
+                "plural": "列表视图",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sections": {
+                "setupVisible": false,
+                "sec0": {
+                  "original": "Default List Views",
+                  "singular": "默认列表视图",
+                  "plural": "默认列表视图",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sec1": {
+                  "original": "Confirm List View Update",
+                  "singular": "确认列表视图更新",
+                  "plural": "确认列表视图更新",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "fields": {
+                "setupVisible": false,
+                "module": {
+                  "original": "Module",
+                  "singular": "模块",
+                  "plural": "模块",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "listViewEachModule": {
+                  "original": "These are the list views you see for each module. You may edit and change these as preferred. To set these up, go to the module's 'List View' section, under Setup > Modules, or contact your administrator for assistance.",
+                  "singular": "这些是您为每个模块看到的列表视图。您可以根据需要编辑和更改这些视图。要进行设置，请转到模块的“列表视图”部分，位于设置>模块，或联系您的管理员以获得帮助。",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "messages": {
+                "for": "对于",
+                "willBeUpdatedTo": "将更新为",
+                "listViewCapacityReached": "此列表视图最多可以添加13列。"
               }
+            }
           },
           "groups": {
               "setupVisible": true,
@@ -13002,183 +13003,187 @@
               }
           },
           "listView": {
-              "setupVisible": true,
-              "label": {
-                  "original": "List View",
-                  "singular": "List View",
-                  "plural": "List Views",
-                  "setupEdit": true,
-                  "setupVisible": true
+            "setupVisible": false,
+            "label": {
+              "original": "List View",
+              "singular": "列表视图",
+              "plural": "列表视图",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "View Details",
+                "singular": "查看详情",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "View Details",
-                      "singular": "View Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Field Selection",
-                      "singular": "Field Selection",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Sorting",
-                      "singular": "Sorting",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Start by giving the list view a name",
-                      "singular": "Start by giving the list view a name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec4": {
-                      "original": "Move the fields you want to be shown in the list view to the right-side box and arrange them in your preferred order. The first column is a running ID. You may add up to 13 additional columns.",
-                      "singular": "Move the fields you want to be shown in the list view to the right-side box and arrange them in your preferred order. The first column is a running ID. You may add up to 13 additional columns.",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec5": {
-                      "original": "Select the column you want to sort by and mark whether it should ascend or descend",
-                      "singular": "Select the column you want to sort by and mark whether it should ascend or descend",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec6": {
-                      "original": "Available",
-                      "singular": "可用",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec7": {
-                      "original": "Selected",
-                      "singular": "已选择",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec8": {
-                      "original": "Fields in View",
-                      "singular": "Fields in View",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec9": {
-                      "original": "View Currently Used By",
-                      "singular": "View Currently Used By",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec10": {
-                      "original": "Position",
-                      "singular": "Position",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec11": {
-                      "original": "Field",
-                      "singular": "Field",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec12": {
-                      "original": "Access Profiles",
-                      "singular": "Access Profiles",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec13": {
-                      "original": "Users",
-                      "singular": "用户",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec1": {
+                "original": "Field Selection",
+                "singular": "字段选择",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "fields": {
-                  "setupVisible": true,
-                  "name": {
-                      "original": "Name",
-                      "singular": "姓名",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "status": {
-                      "original": "Status",
-                      "singular": "状态",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sortBy": {
-                      "original": "Sort By",
-                      "singular": "Sort By",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sortedBy": {
-                      "original": "Sorted by",
-                      "singular": "Sorted by",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "order": {
-                      "original": "order",
-                      "singular": "order",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec2": {
+                "original": "Sorting",
+                "singular": "排序",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "tooltips": {
-                  "setupVisible": true,
-                  "ascending": {
-                      "original": "Ascending",
-                      "singular": "Ascending",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "descending": {
-                      "original": "Descending",
-                      "singular": "Descending",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "viewProfiles": {
-                      "original": "View Profiles",
-                      "singular": "View Profiles",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec3": {
+                "original": "Start by giving the list view a name",
+                "singular": "首先为列表视图命名",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "validationFE": {},
-              "messages": {
-                  "createCustomAssetListViewInstructions": "Create custom Asset list views: Choose the fields you want to see and arrange them in the order that makes the most sense to you. You can then set default views for different users and access profiles from the views you create.",
-                  "in": "in"
+              "sec4": {
+                "original": "Move the fields you want to be shown in the list view to the right-side box and arrange them in your preferred order. The first column is a running ID. You may add up to 13 additional columns.",
+                "singular": "将您希望在列表视图中显示的字段移动到右侧框中，并按您的首选顺序排列。第一列是运行ID。您可以添加最多13个附加列。",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec5": {
+                "original": "Select the column you want to sort by and mark whether it should ascend or descend",
+                "singular": "选择要排序的列并标记其应升序还是降序",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec6": {
+                "original": "Available",
+                "singular": "可用的",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec7": {
+                "original": "Selected",
+                "singular": "已选择的",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec8": {
+                "original": "Fields in View",
+                "singular": "视图中的字段",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec9": {
+                "original": "View Currently Used By",
+                "singular": "当前使用的视图",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec10": {
+                "original": "Position",
+                "singular": "位置",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec11": {
+                "original": "Field",
+                "singular": "字段",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec12": {
+                "original": "Access Profiles",
+                "singular": "访问配置文件",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec13": {
+                "original": "Users",
+                "singular": "用户",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
-          },
+            },
+            "fields": {
+              "setupVisible": false,
+              "name": {
+                "original": "Name",
+                "singular": "名称",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "状态",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sortBy": {
+                "original": "Sort By",
+                "singular": "排序依据",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sortedBy": {
+                "original": "Sorted by",
+                "singular": "排序依据",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "order",
+                "singular": "订单",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "tooltips": {
+              "setupVisible": false,
+              "ascending": {
+                "original": "Ascending",
+                "singular": "升序",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "descending": {
+                "original": "Descending",
+                "singular": "降序",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "viewProfiles": {
+                "original": "View Profiles",
+                "singular": "查看配置文件",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "messages": {
+              "createCustom": "创建自定义",
+              "listViewInstructions": "列表视图：选择要查看的字段并按最适合您的顺序排列。然后，您可以为不同的用户和访问配置文件设置默认视图。",
+              "in": "在",
+              "viewNotUsedAccess": "未被任何访问配置文件使用",
+              "viewNotUsedUsers": "未被任何用户使用"
+            }
+          }
+        ,
           "picklist": {
               "setupVisible": false,
               "label": {
@@ -14834,92 +14839,113 @@
               "messages": {}
           },
           "preventiveMaintenance": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Preventive Maintenance",
-                  "singular": "预防性维护",
-                  "plural": "预防性维护",
-                  "setupEdit": true,
-                  "setupVisible": true
+            "setupVisible": false,
+            "label": {
+              "original": "Preventive Maintenance",
+              "singular": "预防性维护",
+              "plural": "预防性维护",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "Template Details",
+                "singular": "模板详情",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Template Details",
-                      "singular": "Template Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Reminder Recipient",
-                      "singular": "Reminder Recipient",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Reminder Timeframe",
-                      "singular": "Reminder Timeframe",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec1": {
+                "original": "Reminder Recipient",
+                "singular": "提醒接收者",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "fields": {
-                  "setupVisible": true,
-                  "name": {
-                      "original": "Name",
-                      "singular": "姓名",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sendReminder": {
-                      "original": "Send Reminder",
-                      "singular": "Send Reminder",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sendReminderTo": {
-                      "original": "Send Reminder To",
-                      "singular": "Send Reminder To",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "user": {
-                      "original": "User",
-                      "singular": "用户",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sendInitialReminder": {
-                      "original": "Send Initial Reminder (Days Before)",
-                      "singular": "发送初始提醒（提前几天）",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sendOverdueReminder": {
-                      "original": "Send Overdue Reminder (Days After)",
-                      "singular": "发送逾期提醒（几天后）",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "followUpReminder": {
-                      "original": "Follow Up Reminder (Days Before)",
-                      "singular": "后续提醒（提前几天）",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec2": {
+                "original": "Reminder Timeframe",
+                "singular": "提醒时间框架",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupVisible": false,
+              "name": {
+                "original": "Name",
+                "singular": "名称",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "validationFE": {},
-              "messages": {}
+              "sendReminder": {
+                "original": "Send Reminder",
+                "singular": "发送提醒",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sendReminderTo": {
+                "original": "Send Reminder To",
+                "singular": "发送提醒给",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "user": {
+                "original": "User",
+                "singular": "用户",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "email": {
+                "original": "Email",
+                "singular": "电子邮件",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "userGroup": {
+                "original": "User Group",
+                "singular": "用户组",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "assetCustodian": {
+                "original": "Asset Custodian",
+                "singular": "资产保管员",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sendInitialReminder": {
+                "original": "Send Initial Reminder (Days Before)",
+                "singular": "发送初始提醒（提前天数）",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sendOverdueReminder": {
+                "original": "Send Overdue Reminder (Days After)",
+                "singular": "发送逾期提醒（天后）",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "followUpReminder": {
+                "original": "Follow Up Reminder (Days Before)",
+                "singular": "后续提醒（提前天数）",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "messages": {}
           },
           "preventiveFrequency": {
               "setupVisible": true,

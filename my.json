@@ -17524,26 +17524,26 @@
         "deleteNote": "Padam Nota",
         "noteDetails": "Butiran Nota"
       }
-    },
-    "report": {
-      "setupVisible": false,
-      "label": {
-        "original": "Reports",
-        "singular": "Laporan",
-        "plural": "Laporan",
-        "setupEdit": true,
-        "setupVisible": false
-      }
-    },
+  },
+  "report": {
+    "setupVisible": false,
+    "label": {
+      "original": "Reports",
+      "singular": "Laporan",
+      "plural": "Laporan",
+      "setupEdit": true,
+      "setupVisible": false
+    }
+  },
   "academy": {
-      "setupVisible": true,
-      "label": {
-          "original": "Academy",
-          "singular": "Academy",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-      }
+    "setupVisible": false,
+    "label": {
+      "original": "Academy",
+      "singular": "Akademi",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    }
   },
   "leave": {
       "setupVisible": true,

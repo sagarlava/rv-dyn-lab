@@ -17375,14 +17375,14 @@
     }
   },
   "academy": {
-      "setupVisible": true,
-      "label": {
-          "original": "Academy",
-          "singular": "Academy",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-      }
+    "setupVisible": false,
+    "label": {
+      "original": "Academy",
+      "singular": "学院",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    }
   },
   "leave": {
       "setupVisible": true,

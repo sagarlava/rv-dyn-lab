@@ -11732,7 +11732,7 @@
         "label": {
           "original": "Access",
           "singular": "Access",
-          "plural": "",
+          "plural": "Access",
           "setupEdit": true,
           "setupVisible": false
         },
@@ -14987,6 +14987,41 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec12": {
+            "original": "Generated Tasks will have the following details",
+            "singular": "Generated Tasks will have the following details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec13":{
+            "original": "Add Task Template",
+            "singular": "Add Task Template",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec14":{
+            "original": "Use the below fields to filter the Task template(s) you'd like to add",
+            "singular": "Use the below fields to filter the Task template(s) you'd like to add",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec15":{
+            "original": "Task List Details",
+            "singular": "Task List Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec16":{
+            "original": "Select the Task template(s) you'd like to be generated based on this answer",
+            "singular": "Select the Task template(s) you'd like to be generated based on this answer",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -15183,6 +15218,13 @@
           "orderType": {
             "original": "Order Type",
             "singular": "Order Type",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "date": {
+            "original": "Date",
+            "singular": "Date",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15966,6 +16008,20 @@
         "jobOrderTemplates": {
           "original": "Job Order Templates",
           "singular": "Job Order Templates",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "defaultAnswer": {
+          "original": "Default Answer",
+          "singular": "Default Answer",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "qty": {
+          "original": "Qty",
+          "singular": "Qty",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

@@ -11557,507 +11557,508 @@
       "users": {
           "setupVisible": true,
           "access": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Access",
-                  "singular": "Akses",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
+            "setupVisible": false,
+            "label": {
+              "original": "Access",
+              "singular": "Akses",
+              "plural": "Akses",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "General",
+                "singular": "Umum",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "General",
-                      "singular": "General",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "List View",
-                      "singular": "List View",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Module Permission",
-                      "singular": "Module Permission",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Picklist Permission",
-                      "singular": "Picklist Permission",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec4": {
-                      "original": "Job Order Statuses",
-                      "singular": "Job Order Statuses",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec5": {
-                      "original": "Not allowed to update Job Order status to",
-                      "singular": "Not allowed to update Job Order status to",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec6": {
-                      "original": "Allowed to update Job Order status to",
-                      "singular": "Allowed to update Job Order status to",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec7": {
-                      "original": "User Settings",
-                      "singular": "User Settings",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec8": {
-                      "original": "Administrative Settings",
-                      "singular": "Administrative Settings",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec9": {
-                      "original": "Integrations",
-                      "singular": "Integrations",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec10": {
-                      "original": "Alerts",
-                      "singular": "Alerts",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec11": {
-                      "original": "Device Enablement",
-                      "singular": "Device Enablement",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec12": {
-                      "original": "List Views",
-                      "singular": "List View",
-                      "plural": "List Views",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec13": {
-                      "original": "Default List Views",
-                      "singular": "Default List Views",
-                      "plural": "Default List Views",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec14": {
-                      "original": "These are the list views all users of this access profile see for each module. You may set these up in each module's 'List View' section, under Setup > Modules.",
-                      "singular": "These are the list views all users of this access profile see for each module. You may set these up in each module's 'List View' section, under Setup > Modules.",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec15": {
-                      "original": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job order status picklist for this access profile",
-                      "singular": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job order status picklist for this access profile",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec1": {
+                "original": "List View",
+                "singular": "Pandangan Senarai",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "fields": {
-                  "setupVisible": true,
-                  "module": {
-                      "original": "Module",
-                      "singular": "Module",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "viewAllData": {
-                      "original": "View All Data",
-                      "singular": "View All Data",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "selectAll": {
-                      "original": "Select All",
-                      "singular": "Select All",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "web": {
-                      "original": "Web",
-                      "singular": "Web",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "loginWeb": {
-                      "original": "User is able to login from the web",
-                      "singular": "User is able to login from the web",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "mobile": {
-                      "original": "Mobile Access",
-                      "singular": "Mobile Access",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "loginMobile": {
-                      "original": "User is able to login via the mobile application",
-                      "singular": "User is able to login via the mobile application",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "jobOrderStatus": {
-                      "original": "Job Order Status",
-                      "singular": "Job Order Status",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "available": {
-                      "original": "Available",
-                      "singular": "Available",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "allowViewSalesOrdPrice": {
-                      "original": "Allow View Sales Order Price",
-                      "singular": "Allow View Sales Order Price",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "allowAssignTask": {
-                      "original": "Allow to Assign Task",
-                      "singular": "Allow to Assign Task",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "allowAssignShift": {
-                      "original": "Allow to Assign Shift",
-                      "singular": "Allow to Assign Shift",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "jmpMandatory": {
-                      "original": "JMP Mandatory",
-                      "singular": "View Staff Downline Based on Hierarchy",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "viewStaffDownline": {
-                      "original": "View Staff Downline Based on Hierarchy",
-                      "singular": "View Staff Downline Based on Hierarchy",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "helpdeskUser": {
-                      "original": "Helpdesk user",
-                      "singular": "Helpdesk user",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "remainOfflineDefault": {
-                      "original": "Remain Offline By Default",
-                      "singular": "Remain Offline By Default",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "binUser": {
-                      "original": "Bin User",
-                      "singular": "Bin User",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "autoApproveLeaveApplication": {
-                      "original": "Auto-approve leave application",
-                      "singular": "Auto-approve leave application",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "enableCustomerSurveys": {
-                      "original": "Enable Customer Surveys",
-                      "singular": "Enable Customer Surveys",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "manageGeneralDetail": {
-                      "original": "Manage General Details",
-                      "singular": "Manage General Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "manageUsers": {
-                      "original": "Manage users",
-                      "singular": "Manage users",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "manageModules": {
-                      "original": "Manage Modules",
-                      "singular": "Manage Modules",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "manageWorkflows": {
-                      "original": "Manage Workflows",
-                      "singular": "Manage Workflows",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "manageHierarchy": {
-                      "original": "Manage Hierarchy",
-                      "singular": "Manage Hierarchy",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "manageImportExport": {
-                      "original": "Manage Import and Export",
-                      "singular": "Manage Import and Export",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "manageCustomerSurvey": {
-                      "original": "Manage Customer Surveys",
-                      "singular": "Manage Customer Surveys",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "manageIntegrations": {
-                      "original": "Manage Integrations",
-                      "singular": "Manage Integrations",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "allowIntegrateGoogle": {
-                      "original": "Allow users to integrate to Google",
-                      "singular": "Allow users to integrate to Google",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "allowIntegrateCalendly": {
-                      "original": "Allow users to integrate to Calendly",
-                      "singular": "Allow users to integrate to Calendly",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "allowIntegrateMicrosoft365": {
-                      "original": "Allow users to integrate to Microsoft 365",
-                      "singular": "Allow users to integrate to Microsoft 365",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "allowUsersOnline": {
-                      "original": "Allow users to go online if they are offline",
-                      "singular": "Allow users to go online if they are offline",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "checkInCheckOutTask": {
-                      "original": "Check-in and Check-out from tasks",
-                      "singular": "Check-in and Check-out from tasks",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "paymentCollection": {
-                      "original": "Payment Collection",
-                      "singular": "Payment Collection",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "whenUserNotCloseTaskLoc": {
-                      "original": "When user is not close to task location",
-                      "singular": "When user is not close to task location",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "alertManagerUserOffline": {
-                      "original": "Alert manager if user has gone offline during working hours",
-                      "singular": "Alert manager if user has gone offline during working hours",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec2": {
+                "original": "Module Permission",
+                "singular": "Kebenaran Modul",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "descriptions": {
-                  "setupVisible": true,
-                  "userWithAccessAssignTask": {
-                      "original": "Users with this access are able to assign tasks",
-                      "singular": "Users with this access are able to assign tasks",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "userWithAccessViewPricing": {
-                      "original": "Users with this access are able to view pricing details for Sales Orders",
-                      "singular": "Users with this access are able to view pricing details for Sales Orders",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "userWithAccessAssignShift": {
-                      "original": "User will be able to assign a shift",
-                      "singular": "User will be able to assign a shift",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "ifNotSelectedBasedManager": {
-                      "original": "If not selected, staff downline will be based on Manager",
-                      "singular": "If not selected, staff downline will be based on Manager",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "userWithAccessCreateModifyTix": {
-                      "original": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
-                      "singular": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "leaveUncheckedMarkOnline": {
-                      "original": "Leave unchecked to always be marked as 'Online' by default",
-                      "singular": "Leave unchecked to always be marked as 'Online' by default",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "userBinTransferReceiveProd": {
-                      "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
-                      "singular": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "leaveRequestAutoApprove": {
-                      "original": "Leave requests will be automatically approved for users with this access",
-                      "singular": "Leave requests will be automatically approved for users with this access",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "allowUserSendViewSurvey": {
-                      "original": "Allow users of this profile to send and view customer surveys",
-                      "singular": "Allow users of this profile to send and view customer surveys",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "usersAllowIntegrateGoogleCalendar": {
-                      "original": "Users will be able to integrate their FieldEx calendars with Google Calendar",
-                      "singular": "Users will be able to integrate their FieldEx calendars with Google Calendar",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "usersAllowIntegrateOfficeCalendar": {
-                      "original": "Users will be able to integrate their FieldEx calendars with Microsoft Outlook Calendar",
-                      "singular": "Users will be able to integrate their FieldEx calendars with Microsoft Outlook Calendar",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "usersIntegrateCalendly": {
-                      "original": "Users will be able to integrate to Calendly for Job scheduling",
-                      "singular": "Users will be able to integrate to Calendly for Job scheduling",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "usersReceiveReminderToOnline": {
-                      "original": "Users will receive a reminder to switch their app to 'online' if they are offline during working hours",
-                      "singular": "Users will receive a reminder to switch their app to 'online' if they are offline during working hours",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "remindersSentCheckInCheckOut": {
-                      "original": "Reminders will be sent to users to check in or out of a task once they are within/outside the selected radius",
-                      "singular": "Reminders will be sent to users to check in or out of a task once they are within/outside the selected radius",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "usersNotifiedPendingPayments": {
-                      "original": "Users will be notified if the customer they are meeting has any pending payments to make",
-                      "singular": "Users will be notified if the customer they are meeting has any pending payments to make",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "bothUserManagerAlert": {
-                      "original": "Both user and manager will be sent an alert if a task is about to begin and the user is not close to the task location",
-                      "singular": "Both user and manager will be sent an alert if a task is about to begin and the user is not close to the task location",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "emailNotificationSentToManager": {
-                      "original": "An email notification will be sent to the manager to inform them that a user has manually switched from online to offline within their specified working hours",
-                      "singular": "An email notification will be sent to the manager to inform them that a user has manually switched from online to offline within their specified working hours",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec3": {
+                "original": "Picklist Permission",
+                "singular": "Kebenaran Senarai Pilihan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "messages": {
-                  "noAvailableStatuses": "No available statuses",
-                  "noIntegrationsEnabled": "No integrations enabled for your organization.",
-                  "goTo": "Go to",
-                  "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance.",
-                  "selectAtLeaseOneModule": "Select at least one Module Access checkbox",
-                  "enableOneJobOrder": "Please enable at least one job order status for profiles with create access"
+              "sec4": {
+                "original": "Job Order Statuses",
+                "singular": "Status Pesanan Kerja",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec5": {
+                "original": "Not allowed to update Job Order status to",
+                "singular": "Tidak dibenarkan mengemas kini status Pesanan Kerja kepada",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec6": {
+                "original": "Allowed to update Job Order status to",
+                "singular": "Dibenarkan mengemas kini status Pesanan Kerja kepada",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec7": {
+                "original": "User Settings",
+                "singular": "Tetapan Pengguna",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec8": {
+                "original": "Administrative Settings",
+                "singular": "Tetapan Pentadbiran",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec9": {
+                "original": "Integrations",
+                "singular": "Integrasi",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec10": {
+                "original": "Alerts",
+                "singular": "Amaran",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec11": {
+                "original": "Device Enablement",
+                "singular": "Pengaktifan Peranti",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec12": {
+                "original": "List Views",
+                "singular": "Pandangan Senarai",
+                "plural": "Pandangan Senarai",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec13": {
+                "original": "Default List Views",
+                "singular": "Pandangan Senarai Lalai",
+                "plural": "Pandangan Senarai Lalai",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec14": {
+                "original": "These are the list views all users of this access profile see for each module. You may set these up in each module's 'List View' section, under Setup > Modules.",
+                "singular": "Ini adalah pandangan senarai yang dilihat oleh semua pengguna profil akses ini untuk setiap modul. Anda boleh menetapkannya dalam bahagian 'Pandangan Senarai' setiap modul di bawah Persediaan > Modul.",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec15": {
+                "original": "Add the statuses that are available to this access profile in the Job Order. Items in the right-side box will be visible in the Job order status picklist for this access profile",
+                "singular": "Tambah status yang tersedia untuk profil akses ini dalam Pesanan Kerja. Item dalam kotak sebelah kanan akan kelihatan dalam senarai pilihan status Pesanan Kerja untuk profil akses ini",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "module": {
+                "original": "Module",
+                "singular": "Modul",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "viewAllData": {
+                "original": "View All Data",
+                "singular": "Lihat Semua Data",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "selectAll": {
+                "original": "Select All",
+                "singular": "Pilih Semua",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "web": {
+                "original": "Web",
+                "singular": "Web",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "loginWeb": {
+                "original": "User is able to login from the web",
+                "singular": "Pengguna boleh log masuk dari web",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "mobile": {
+                "original": "Mobile Access",
+                "singular": "Akses Mudah Alih",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "loginMobile": {
+                "original": "User is able to login via the mobile application",
+                "singular": "Pengguna boleh log masuk melalui aplikasi mudah alih",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "jobOrderStatus": {
+                "original": "Job Order Status",
+                "singular": "Status Pesanan Kerja",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "available": {
+                "original": "Available",
+                "singular": "Tersedia",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "allowViewSalesOrdPrice": {
+                "original": "Allow View Sales Order Price",
+                "singular": "Benarkan Lihat Harga Pesanan Jualan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "allowAssignTask": {
+                "original": "Allow to Assign Task",
+                "singular": "Benarkan Tugaskan Tugas",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "allowAssignShift": {
+                "original": "Allow to Assign Shift",
+                "singular": "Benarkan Tugaskan Giliran",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "jmpMandatory": {
+                "original": "JMP Mandatory",
+                "singular": "JMP Wajib",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "viewStaffDownline": {
+                "original": "View Staff Downline Based on Hierarchy",
+                "singular": "Lihat Kakitangan Bawah berdasarkan Hierarki",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "helpdeskUser": {
+                "original": "Helpdesk user",
+                "singular": "Pengguna Meja Bantuan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "remainOfflineDefault": {
+                "original": "Remain Offline By Default",
+                "singular": "Kekal Luar Talian Secara Lalai",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "binUser": {
+                "original": "Bin User",
+                "singular": "Pengguna Bin",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "autoApproveLeaveApplication": {
+                "original": "Auto-approve leave application",
+                "singular": "Luluskan Permohonan Cuti Secara Automatik",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "enableCustomerSurveys": {
+                "original": "Enable Customer Surveys",
+                "singular": "Benarkan Tinjauan Pelanggan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "manageGeneralDetail": {
+                "original": "Manage General Details",
+                "singular": "Urus Butiran Am",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "manageUsers": {
+                "original": "Manage users",
+                "singular": "Urus Pengguna",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "manageModules": {
+                "original": "Manage Modules",
+                "singular": "Urus Modul",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "manageWorkflows": {
+                "original": "Manage Workflows",
+                "singular": "Urus Aliran Kerja",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "manageHierarchy": {
+                "original": "Manage Hierarchy",
+                "singular": "Urus Hierarki",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "manageImportExport": {
+                "original": "Manage Import and Export",
+                "singular": "Urus Import dan Eksport",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "manageCustomerSurvey": {
+                "original": "Manage Customer Surveys",
+                "singular": "Urus Tinjauan Pelanggan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "manageIntegrations": {
+                "original": "Manage Integrations",
+                "singular": "Urus Integrasi",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "allowIntegrateGoogle": {
+                "original": "Allow users to integrate to Google",
+                "singular": "Benarkan pengguna untuk integrasi dengan Google",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "allowIntegrateCalendly": {
+                "original": "Allow users to integrate to Calendly",
+                "singular": "Benarkan pengguna untuk integrasi dengan Calendly",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "allowIntegrateMicrosoft365": {
+                "original": "Allow users to integrate to Microsoft 365",
+                "singular": "Benarkan pengguna untuk integrasi dengan Microsoft 365",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "allowUsersOnline": {
+                "original": "Allow users to go online if they are offline",
+                "singular": "Benarkan pengguna untuk dalam talian jika mereka luar talian",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "checkInCheckOutTask": {
+                "original": "Check-in and Check-out from tasks",
+                "singular": "Check-in dan Check-out dari tugas",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "paymentCollection": {
+                "original": "Payment Collection",
+                "singular": "Pengumpulan Pembayaran",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "whenUserNotCloseTaskLoc": {
+                "original": "When user is not close to task location",
+                "singular": "Apabila pengguna tidak dekat dengan lokasi tugas",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "alertManagerUserOffline": {
+                "original": "Alert manager if user has gone offline during working hours",
+                "singular": "Peringatkan pengurus jika pengguna luar talian semasa waktu bekerja",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "descriptions": {
+              "setupVisible": false,
+              "userWithAccessAssignTask": {
+                "original": "Users with this access are able to assign tasks",
+                "singular": "Pengguna dengan akses ini boleh tugaskan tugas",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "userWithAccessViewPricing": {
+                "original": "Users with this access are able to view pricing details for Sales Orders",
+                "singular": "Pengguna dengan akses ini boleh lihat butiran harga untuk Pesanan Jualan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "userWithAccessAssignShift": {
+                "original": "User will be able to assign a shift",
+                "singular": "Pengguna boleh tugaskan giliran",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "ifNotSelectedBasedManager": {
+                "original": "If not selected, staff downline will be based on Manager",
+                "singular": "Jika tidak dipilih, kakitangan bawah akan berdasarkan Pengurus",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "userWithAccessCreateModifyTix": {
+                "original": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
+                "singular": "Pengguna dengan akses ini boleh buat dan ubah tiket serta lihat modul Meja Bantuan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "leaveUncheckedMarkOnline": {
+                "original": "Leave unchecked to always be marked as 'Online' by default",
+                "singular": "Biarkan tidak ditandakan untuk sentiasa ditandakan sebagai 'Online' secara lalai",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "userBinTransferReceiveProd": {
+                "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
+                "singular": "Bin Pengguna boleh dibuat untuk pengguna dengan akses ini untuk pindah dan terima Aset dan Produk",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "leaveRequestAutoApprove": {
+                "original": "Leave requests will be automatically approved for users with this access",
+                "singular": "Permohonan cuti akan diluluskan secara automatik untuk pengguna dengan akses ini",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "allowUserSendViewSurvey": {
+                "original": "Allow users of this profile to send and view customer surveys",
+                "singular": "Benarkan pengguna profil ini untuk hantar dan lihat tinjauan pelanggan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "usersAllowIntegrateGoogleCalendar": {
+                "original": "Users will be able to integrate their FieldEx calendars with Google Calendar",
+                "singular": "Pengguna boleh integrasikan kalendar FieldEx mereka dengan Google Calendar",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "usersAllowIntegrateOfficeCalendar": {
+                "original": "Users will be able to integrate their FieldEx calendars with Microsoft Outlook Calendar",
+                "singular": "Pengguna boleh integrasikan kalendar FieldEx mereka dengan Microsoft Outlook Calendar",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "usersIntegrateCalendly": {
+                "original": "Users will be able to integrate to Calendly for Job scheduling",
+                "singular": "Pengguna boleh integrasi dengan Calendly untuk penjadualan kerja",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "usersReceiveReminderToOnline": {
+                "original": "Users will receive a reminder to switch their app to 'online' if they are offline during working hours",
+                "singular": "Pengguna akan menerima peringatan untuk menukar aplikasi mereka ke 'online' jika mereka luar talian semasa waktu bekerja",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "remindersSentCheckInCheckOut": {
+                "original": "Reminders will be sent to users to check in or out of a task once they are within/outside the selected radius",
+                "singular": "Peringatan akan dihantar kepada pengguna untuk daftar masuk atau keluar dari tugas apabila mereka berada di dalam/luar jejari yang dipilih",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "usersNotifiedPendingPayments": {
+                "original": "Users will be notified if the customer they are meeting has any pending payments to make",
+                "singular": "Pengguna akan diberitahu jika pelanggan yang mereka temui mempunyai pembayaran yang tertunggak",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "bothUserManagerAlert": {
+                "original": "Both user and manager will be sent an alert if a task is about to begin and the user is not close to the task location",
+                "singular": "Kedua-dua pengguna dan pengurus akan dihantar amaran jika tugas akan bermula dan pengguna tidak dekat dengan lokasi tugas",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "emailNotificationSentToManager": {
+                "original": "An email notification will be sent to the manager to inform them that a user has manually switched from online to offline within their specified working hours",
+                "singular": "Pemberitahuan emel akan dihantar kepada pengurus untuk memaklumkan bahawa pengguna telah secara manual menukar dari dalam talian ke luar talian dalam waktu kerja yang ditentukan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "noAvailableStatuses": "Tiada status yang tersedia",
+              "noIntegrationsEnabled": "Tiada integrasi yang diaktifkan untuk organisasi anda.",
+              "goTo": "Pergi ke",
+              "toSetUpOrContactAdmin": "untuk menetapkan ini atau hubungi Admin anda untuk bantuan.",
+              "selectAtLeaseOneModule": "Pilih sekurang-kurangnya satu kotak semak Akses Modul",
+              "enableOneJobOrder": "Sila aktifkan sekurang-kurangnya satu status pesanan kerja untuk profil dengan akses buat",
+              "viewOnlyAccess": "Akses Hanya Lihat"
+            }
           },
           "hierarchy": {
               "setupVisible": true,
@@ -14691,314 +14692,336 @@
                   "faultMappingSuccessful": "Fault Mapping Successfully"
               }
           },
-          "templates": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Templates",
-                  "singular": "Template",
-                  "plural": "Templates",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Job Order Template Details",
-                      "singular": "Job Order Template Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Job Order Details",
-                      "singular": "Job Order Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Asset Details",
-                      "singular": "Asset Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Fault Details",
-                      "singular": "Fault Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec4": {
-                      "original": "Resolution Details",
-                      "singular": "Resolution Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec5": {
-                      "original": "Additional Details",
-                      "singular": "Butiran Tambahan",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec6": {
-                      "original": "Financial Details",
-                      "singular": "Financial Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec7": {
-                      "original": "Please fill up the fields and their details to be populated in the Job Orders created from this template",
-                      "singular": "Please fill up the fields and their details to be populated in the Job Orders created from this template",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec8": {
-                      "original": "Task Template Details",
-                      "singular": "Task Template Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec9": {
-                      "original": "Task Details",
-                      "singular": "Task Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec10": {
-                      "original": "Specify the fields and details for all Tasks created from this template",
-                      "singular": "Specify the fields and details for all Tasks created from this template",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec11": {
-                      "original": "Filter By",
-                      "singular": "Tapis Mengikut",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "fields": {
-                  "setupVisible": true,
-                  "templateName": {
-                      "original": "Template Name",
-                      "singular": "Template Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "templateStatus": {
-                      "original": "Template Status",
-                      "singular": "Template Status",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "name": {
-                      "original": "Name",
-                      "singular": "Nama",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "status": {
-                      "original": "Status",
-                      "singular": "status",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "priority": {
-                      "original": "Priority",
-                      "singular": "Keutamaan",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "customer": {
-                      "original": "Customer",
-                      "singular": "Pelanggan",
-                      "plural": "Pelanggan",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "type": {
-                      "original": "Type",
-                      "singular": "Jenis",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "notes": {
-                      "original": "Notes",
-                      "singular": "Nota-Nota",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "orderDate": {
-                      "original": "Order Date",
-                      "singular": "Tarikh Pesanan",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "currentDate": {
-                      "original": "Current Date",
-                      "singular": "Current Date",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "site": {
-                      "original": "Site",
-                      "singular": "Tapak",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "system": {
-                      "original": "System",
-                      "singular": "System",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "fault": {
-                      "original": "Fault",
-                      "singular": "Fault",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "additionalFault": {
-                      "original": "Additional Fault",
-                      "singular": "Additional Fault",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "resolution": {
-                      "original": "Resolution",
-                      "singular": "Penyelesaian",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "resolutionComments": {
-                      "original": "Resolution Comments",
-                      "singular": "Resolution Comments",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "additionalResolution": {
-                      "original": "Additional Resolution",
-                      "singular": "Additional Resolution",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "additionalComments": {
-                      "original": "Additional Comments",
-                      "singular": "Additional Comments",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "openDays": {
-                      "original": "Open days",
-                      "singular": "Open Days",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "isThisBillable": {
-                      "original": "Is this order billable?",
-                      "singular": "Is this order billable?",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "displayPrice": {
-                      "original": "Display Price",
-                      "singular": "Display Price",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "days": {
-                      "original": "days",
-                      "singular": "days",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "startTime": {
-                      "original": "Start Time",
-                      "singular": "Masa Mula",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "duration": {
-                      "original": "Duration",
-                      "singular": "Tempoh",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "team": {
-                      "original": "Team",
-                      "singular": "Pasukan",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "description": {
-                      "original": "Description",
-                      "singular": "Deskripsi",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "prependJobName": {
-                      "original": "Prepend Job Order Name",
-                      "singular": "Prepend Job Order Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "validationFE": {},
-              "tooltips": {
-                  "setupVisible": true,
-                  "prependJobName": {
-                      "original": "The Task Name will attach the name of the Job Order it is tied to before it. I.e. Job Order Name - Task Name",
-                      "singular": "The Task Name will attach the name of the Job Order it is tied to before it. I.e. Job Order Name - Task Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "jobTemplateLookup": {
-                      "original": "Job Order Templates Lookup",
-                      "singular": "Job Order Templates Lookup",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  }
-              },
-              "messages": {}
+        "templates": {
+          "setupVisible": false,
+          "label": {
+            "original": "Templates",
+            "singular": "Templat",
+            "plural": "Templat",
+            "setupEdit": true,
+            "setupVisible": false
           },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "Job Order Template Details",
+              "singular": "Butiran Templat Pesanan Kerja",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec1": {
+              "original": "Job Order Details",
+              "singular": "Butiran Pesanan Kerja",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec2": {
+              "original": "Asset Details",
+              "singular": "Butiran Aset",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec3": {
+              "original": "Fault Details",
+              "singular": "Butiran Kesalahan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec4": {
+              "original": "Resolution Details",
+              "singular": "Butiran Penyelesaian",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec5": {
+              "original": "Additional Details",
+              "singular": "Butiran Tambahan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec6": {
+              "original": "Financial Details",
+              "singular": "Butiran Kewangan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec7": {
+              "original": "Please fill up the fields and their details to be populated in the Job Orders created from this template",
+              "singular": "Sila isi medan dan butiran mereka untuk diisi dalam Pesanan Kerja yang dibuat daripada templat ini",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec8": {
+              "original": "Task Template Details",
+              "singular": "Butiran Templat Tugas",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec9": {
+              "original": "Task Details",
+              "singular": "Butiran Tugas",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec10": {
+              "original": "Specify the fields and details for all Tasks created from this template",
+              "singular": "Nyatakan medan dan butiran untuk semua Tugas yang dibuat daripada templat ini",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec11": {
+              "original": "Filter By",
+              "singular": "Tapis Mengikut",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec12": {
+              "original": "Generated Tasks will have the following details",
+              "singular": "Tugas yang dijana akan mempunyai butiran berikut",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "templateName": {
+              "original": "Template Name",
+              "singular": "Nama Templat",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "templateStatus": {
+              "original": "Template Status",
+              "singular": "Status Templat",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "name": {
+              "original": "Name",
+              "singular": "Nama",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "status": {
+              "original": "Status",
+              "singular": "Status",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "priority": {
+              "original": "Priority",
+              "singular": "Keutamaan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "customer": {
+              "original": "Customer",
+              "singular": "Pelanggan",
+              "plural": "Pelanggan",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "type": {
+              "original": "Type",
+              "singular": "Jenis",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "notes": {
+              "original": "Notes",
+              "singular": "Nota",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "orderDate": {
+              "original": "Order Date",
+              "singular": "Tarikh Pesanan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "currentDate": {
+              "original": "Current Date",
+              "singular": "Tarikh Semasa",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "site": {
+              "original": "Site",
+              "singular": "Tapak",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "system": {
+              "original": "System",
+              "singular": "Sistem",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "fault": {
+              "original": "Fault",
+              "singular": "Kesalahan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "additionalFault": {
+              "original": "Additional Fault",
+              "singular": "Kesalahan Tambahan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "resolution": {
+              "original": "Resolution",
+              "singular": "Penyelesaian",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "resolutionComments": {
+              "original": "Resolution Comments",
+              "singular": "Komen Penyelesaian",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "additionalResolution": {
+              "original": "Additional Resolution",
+              "singular": "Penyelesaian Tambahan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "additionalComments": {
+              "original": "Additional Comments",
+              "singular": "Komen Tambahan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "openDays": {
+              "original": "Open days",
+              "singular": "Hari Terbuka",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "isThisBillable": {
+              "original": "Is this order billable?",
+              "singular": "Adakah pesanan ini boleh ditagih?",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "displayPrice": {
+              "original": "Display Price",
+              "singular": "Paparkan Harga",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "days": {
+              "original": "days",
+              "singular": "hari",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "startTime": {
+              "original": "Start Time",
+              "singular": "Masa Mula",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "duration": {
+              "original": "Duration",
+              "singular": "Tempoh",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "team": {
+              "original": "Team",
+              "singular": "Pasukan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "description": {
+              "original": "Description",
+              "singular": "Deskripsi",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "prependJobName": {
+              "original": "Prepend Job Order Name",
+              "singular": "Tambahkan Nama Pesanan Kerja",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "orderType": {
+              "original": "Order Type",
+              "singular": "Jenis Pesanan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "date": {
+              "original": "Date",
+              "singular": "Tarikh",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "validationFE": {},
+          "tooltips": {
+            "setupVisible": false,
+            "prependJobName": {
+              "original": "The Task Name will attach the name of the Job Order it is tied to before it. I.e. Job Order Name - Task Name",
+              "singular": "Nama Tugas akan melampirkan nama Pesanan Kerja yang diikatnya sebelum itu. Contoh: Nama Pesanan Kerja - Nama Tugas",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "jobTemplateLookup": {
+              "original": "Job Order Templates Lookup",
+              "singular": "Carian Templat Pesanan Kerja",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "messages": {}
+        }
+,
           "preventiveMaintenance": {
             "setupVisible": false,
             "label": {
@@ -15669,136 +15692,151 @@
               }
           }
       },
-      "question": {
-          "setupVisible": true,
-          "label": {
-              "original": "Question",
-              "singular": "Soalan",
-              "plural": "Soalan",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Question Details",
-                  "singular": "Question Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Answers",
-                  "singular": "Answer",
-                  "plural": "Answers",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Specify which section and position the question should go in, and then type out the question",
-                  "singular": "Specify which section and position the question should go in, and then type out the question",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "Add the answers to the above question and the respective template to be triggered by each answer (where applicable). Each answer will generate a new Job Order based on the selected template",
-                  "singular": "Add the answers to the above question and the respective template to be triggered by each answer (where applicable). Each answer will generate a new Job Order based on the selected template",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec4": {
-                  "original": "Additional Tasks generated by this answer",
-                  "singular": "Additional Tasks generated by this answer",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec5": {
-                  "original": "Additional Job Order Products generated by this answer",
-                  "singular": "Additional Job Order Products generated by this answer",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec6": {
-                  "original": "Filter By",
-                  "singular": "Tapis Mengikut",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
-          },
-          "fields": {
-              "setupVisible": true,
-              "sectionName": {
-                  "original": "Section Name",
-                  "singular": "Section Name",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "order": {
-                  "original": "Order",
-                  "singular": "Order",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "default": {
-                  "original": "Default",
-                  "singular": "Default",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "jobOrderTemplates": {
-                  "original": "Job Order Templates",
-                  "singular": "Job Order Templates",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
-          },
-          "validationFE": {},
-          "tooltips": {
-              "setupVisible": true,
-              "allQuestionsGrouped": {
-                  "original": "All questions under this section name will be grouped together",
-                  "singular": "All questions under this section name will be grouped together",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "specifyWhereQuestionAppear": {
-                  "original": "Specify where in the sequence you want this question to appear",
-                  "singular": "Specify where in the sequence you want this question to appear",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "checkDefaultBoxAutoSelect": {
-                  "original": "Check the Default box for the answer you want to be automatically selected when a form is created with this question",
-                  "singular": "Check the Default box for the answer you want to be automatically selected when a form is created with this question",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "aJobOrderGeneratedSelectedTemplate": {
-                  "original": "A Job Order and it's associated Tasks and Products will be generated from the selected template if the answer is submitted",
-                  "singular": "A Job Order and it's associated Tasks and Products will be generated from the selected template if the answer is submitted",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
-          },
-          "messages": {
-              "noJobOrderCreatedForThisSelection": "No Jobs Order created if this answer is selected",
-              "createsJobOrder": "Creates Job Order",
-              "defaultAnswer": "Default answer"
-          }
+     "question": {
+      "setupVisible": false,
+      "label": {
+        "original": "Question",
+        "singular": "Soalan",
+        "plural": "Soalan",
+        "setupEdit": true,
+        "setupVisible": false
       },
+      "sections": {
+        "setupVisible": false,
+        "sec0": {
+          "original": "Question Details",
+          "singular": "Butiran Soalan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Answers",
+          "singular": "Jawapan",
+          "plural": "Jawapan",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Specify which section and position the question should go in, and then type out the question",
+          "singular": "Tentukan bahagian dan kedudukan soalan, kemudian taipkan soalan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Add the answers to the above question and the respective template to be triggered by each answer (where applicable). Each answer will generate a new Job Order based on the selected template",
+          "singular": "Tambah jawapan kepada soalan di atas dan templat yang berkaitan untuk diaktifkan oleh setiap jawapan (jika berkenaan). Setiap jawapan akan menjana Pesanan Kerja baru berdasarkan templat yang dipilih",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Additional Tasks generated by this answer",
+          "singular": "Tugas Tambahan yang dijana oleh jawapan ini",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec5": {
+          "original": "Additional Job Order Products generated by this answer",
+          "singular": "Produk Pesanan Kerja Tambahan yang dijana oleh jawapan ini",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec6": {
+          "original": "Filter By",
+          "singular": "Tapis Mengikut",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupVisible": false,
+        "sectionName": {
+          "original": "Section Name",
+          "singular": "Nama Bahagian",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "order": {
+          "original": "Order",
+          "singular": "Pesanan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "default": {
+          "original": "Default",
+          "singular": "Lalai",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "jobOrderTemplates": {
+          "original": "Job Order Templates",
+          "singular": "Templat Pesanan Kerja",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "defaultAnswer": {
+          "original": "Default Answer",
+          "singular": "Jawapan Lalai",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "qty": {
+          "original": "Qty",
+          "singular": "Kuantiti",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "validationFE": {},
+      "tooltips": {
+        "setupVisible": false,
+        "allQuestionsGrouped": {
+          "original": "All questions under this section name will be grouped together",
+          "singular": "Semua soalan di bawah nama bahagian ini akan dikelompokkan bersama",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "specifyWhereQuestionAppear": {
+          "original": "Specify where in the sequence you want this question to appear",
+          "singular": "Tentukan di mana dalam urutan anda mahu soalan ini muncul",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "checkDefaultBoxAutoSelect": {
+          "original": "Check the Default box for the answer you want to be automatically selected when a form is created with this question",
+          "singular": "Tandakan kotak Lalai untuk jawapan yang anda mahu dipilih secara automatik apabila borang dibuat dengan soalan ini",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "aJobOrderGeneratedSelectedTemplate": {
+          "original": "A Job Order and it's associated Tasks and Products will be generated from the selected template if the answer is submitted",
+          "singular": "Pesanan Kerja dan Tugas serta Produk yang berkaitan akan dijana daripada templat yang dipilih jika jawapan dihantar",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "noJobOrderCreatedForThisSelection": "Tiada Pesanan Kerja yang dijana jika jawapan ini dipilih",
+        "createsJobOrder": "Menjana Pesanan Kerja",
+        "defaultAnswer": "Jawapan Lalai"
+      }
+    }
+,
       "notifications": {
           "setupVisible": true,
           "label": {
@@ -16085,430 +16123,472 @@
             }
           },
           "customers": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Customer",
-                  "singular": "Customer",
-                  "plural": "Customers",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "SLA Package Details",
-                      "singular": "SLA Package Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "fields": {
-                  "setupVisible": true,
-                  "customer": {
-                      "original": "Customer",
-                      "singular": "Pelanggan",
-                      "plural": "Pelanggan",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "validFrom": {
-                      "original": "Valid From",
-                      "singular": "Valid From",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "validTo": {
-                      "original": "Valid To",
-                      "singular": "Valid To",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "asset": {
-                      "original": "Asset",
-                      "singular": "Asset",
-                      "plural": "Assets",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "validationFE": {},
-              "messages": {
-                  "customerCreatedSuccessfully": "Customer saved successfully",
-                  "customerUpdatedSuccessfully": "Customer updated successfully"
+            "setupVisible": false,
+            "label": {
+              "original": "SLA Customer",
+              "singular": "Pelanggan SLA",
+              "plural": "Pelanggan SLA",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "SLA Package Details",
+                "singular": "Butiran Pakej SLA",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "customer": {
+                "original": "Customer",
+                "singular": "Pelanggan",
+                "plural": "Pelanggan",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "validFrom": {
+                "original": "Valid From",
+                "singular": "Sah Dari",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "validTo": {
+                "original": "Valid To",
+                "singular": "Sah Hingga",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "asset": {
+                "original": "Asset",
+                "singular": "Aset",
+                "plural": "Aset",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "messages": {
+              "customerCreatedSuccessfully": "Pelanggan berjaya disimpan",
+              "customerUpdatedSuccessfully": "Pelanggan berjaya dikemas kini"
+            }
           },
           "steps": {
-              "setupVisible": true,
-              "label": {
-                  "original": "SLA Steps",
-                  "singular": "SLA Step",
-                  "plural": "SLA Steps",
-                  "setupEdit": true,
-                  "setupVisible": true
+            "setupVisible": false,
+            "label": {
+              "original": "SLA Steps",
+              "singular": "Langkah SLA",
+              "plural": "Langkah-langkah SLA",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "SLA Step Details",
+                "singular": "Butiran Langkah SLA",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "SLA Step Details",
-                      "singular": "SLA Step Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "At Risk",
-                      "singular": "At Risk",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Violation",
-                      "singular": "Violation",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Details",
-                      "singular": "Butiran",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec4": {
-                      "original": "Criteria Details",
-                      "singular": "Criteria Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec5": {
-                      "original": "Start Criteria",
-                      "singular": "Start Criteria",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec6": {
-                      "original": "Pause Criteria",
-                      "singular": "Pause Criteria",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec7": {
-                      "original": "End Criteria",
-                      "singular": "End Criteria",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec8": {
-                      "original": "List of SLA Steps",
-                      "singular": "List of SLA Steps",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec9": {
-                      "original": "Start Criteria Details",
-                      "singular": "Start Criteria Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec10": {
-                      "original": "SLA will be active if ALL these criteria are met",
-                      "singular": "SLA will be active if ALL these criteria are met",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec11": {
-                      "original": "SLA will be active if ANY these criteria are met",
-                      "singular": "SLA will be active if ANY these criteria are met",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec12": {
-                      "original": "Pause Criteria Details",
-                      "singular": "Pause Criteria Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sec13": {
-                      "original": "End Criteria Details",
-                      "singular": "End Criteria Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  }
+              "sec1": {
+                "original": "At Risk",
+                "singular": "Dalam Risiko",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "fields": {
-                  "setupVisible": true,
-                  "name": {
-                      "original": "Name",
-                      "singular": "Nama",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "type": {
-                      "original": "Type",
-                      "singular": "Jenis",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "status": {
-                      "original": "Status",
-                      "singular": "Status",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "days": {
-                      "original": "Days",
-                      "singular": "Days",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "hours": {
-                      "original": "Hours",
-                      "singular": "Hours",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "minutes": {
-                      "original": "Minutes",
-                      "singular": "Minutes",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "selectStepForPackage": {
-                      "original": "Please select Steps for your package",
-                      "singular": "Please select Steps for your package",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "duration": {
-                      "original": "Duration",
-                      "singular": "Tempoh",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "atRiskTime": {
-                      "original": "At Risk Time",
-                      "singular": "At Risk Time",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "violationTime": {
-                      "original": "Violation Time",
-                      "singular": "Violation Time",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "attribute": {
-                      "original": "Attribute",
-                      "singular": "Attribute",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "operator": {
-                      "original": "Operator",
-                      "singular": "Operator",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "value": {
-                      "original": "Value",
-                      "singular": "Value",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "matchAll": {
-                      "original": "Match All",
-                      "singular": "Match All",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "matchAny": {
-                      "original": "Match Any",
-                      "singular": "Match Any",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec2": {
+                "original": "Violation",
+                "singular": "Pelanggaran",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "validationFE": {},
-              "messages": {
-                  "selectSlaType": "Select Type",
-                  "selectSlaDays": "Select Days",
-                  "selectSlaHours": "Select Hours",
-                  "selectSlaMinutes": "Select Minutes",
-                  "selectSlaSteps": "Select SLA Steps",
-                  "criteriaSavedSuccessfully": "Criteria saved successfully",
-                  "criteriaUpdatedSuccessfully": "Criteria updated successfully",
-                  "noCriteriaSet": "No Criteria Set"
+              "sec3": {
+                "original": "Details",
+                "singular": "Butiran",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec4": {
+                "original": "Criteria Details",
+                "singular": "Butiran Kriteria",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec5": {
+                "original": "Start Criteria",
+                "singular": "Kriteria Permulaan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec6": {
+                "original": "Pause Criteria",
+                "singular": "Kriteria Jeda",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec7": {
+                "original": "End Criteria",
+                "singular": "Kriteria Tamat",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec8": {
+                "original": "List of SLA Steps",
+                "singular": "Senarai Langkah SLA",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec9": {
+                "original": "Start Criteria Details",
+                "singular": "Butiran Kriteria Permulaan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec10": {
+                "original": "SLA will be active if ALL these criteria are met",
+                "singular": "SLA akan aktif jika SEMUA kriteria ini dipenuhi",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec11": {
+                "original": "SLA will be active if ANY these criteria are met",
+                "singular": "SLA akan aktif jika MANA-MANA kriteria ini dipenuhi",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec12": {
+                "original": "Pause Criteria Details",
+                "singular": "Butiran Kriteria Jeda",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec13": {
+                "original": "End Criteria Details",
+                "singular": "Butiran Kriteria Tamat",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "name": {
+                "original": "Name",
+                "singular": "Nama",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "type": {
+                "original": "Type",
+                "singular": "Jenis",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "days": {
+                "original": "Days",
+                "singular": "Hari",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "hours": {
+                "original": "Hours",
+                "singular": "Jam",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "minutes": {
+                "original": "Minutes",
+                "singular": "Minit",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "selectStepForPackage": {
+                "original": "Please select Steps for your package",
+                "singular": "Sila pilih Langkah untuk pakej anda",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "duration": {
+                "original": "Duration",
+                "singular": "Tempoh",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "atRiskTime": {
+                "original": "At Risk Time",
+                "singular": "Masa Dalam Risiko",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "violationTime": {
+                "original": "Violation Time",
+                "singular": "Masa Pelanggaran",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "attribute": {
+                "original": "Attribute",
+                "singular": "Atribut",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "operator": {
+                "original": "Operator",
+                "singular": "Operator",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "value": {
+                "original": "Value",
+                "singular": "Nilai",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "matchAll": {
+                "original": "Match All",
+                "singular": "Padankan Semua",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "matchAny": {
+                "original": "Match Any",
+                "singular": "Padankan Mana-mana",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "durationMins": {
+                "original": "Duration (mins)",
+                "singular": "Tempoh (minit)",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "atRisk": {
+                "original": "At Risk",
+                "singular": "Dalam Risiko",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "violation": {
+                "original": "Violation",
+                "singular": "Pelanggaran",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "completed": {
+                "original": "Completed",
+                "singular": "Selesai",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "violationStatus": {
+                "original": "Violation Status",
+                "singular": "Status Pelanggaran",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "slaStatus": {
+                "original": "SLA Status",
+                "singular": "Status SLA",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "messages": {
+              "selectSlaType": "Pilih Jenis",
+              "selectSlaDays": "Pilih Hari",
+              "selectSlaHours": "Pilih Jam",
+              "selectSlaMinutes": "Pilih Minit",
+              "selectSlaSteps": "Pilih Langkah SLA",
+              "criteriaSavedSuccessfully": "Kriteria berjaya disimpan",
+              "criteriaUpdatedSuccessfully": "Kriteria berjaya dikemas kini",
+              "noCriteriaSet": "Tiada Kriteria Ditentukan"
+            }
           },
           "notifications": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Notifications",
-                  "singular": "Notification",
-                  "plural": "Notifications",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Notification Details",
-                      "singular": "Notification Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "fields": {
-                  "setupVisible": true,
-                  "notifyWhen": {
-                      "original": "Notify when",
-                      "singular": "Notify when",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "user": {
-                      "original": "User",
-                      "singular": "Pengguna",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "toUser": {
-                      "original": "To User",
-                      "singular": "To User",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "toOwner": {
-                      "original": "To Owner",
-                      "singular": "To Owner",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "additionalEmails": {
-                      "original": "Additional Emails",
-                      "singular": "Additional Emails",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "notifyUserManager": {
-                      "original": "Notify User's Manager",
-                      "singular": "Notify User's Manager",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "notifyManager": {
-                      "original": "Notify Manager",
-                      "singular": "Notify Manager",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "validationFE": {},
-              "messages": {
-                  "selectNotificationType": "Select Notification Type",
-                  "selectUser": "Pilih Pengguna",
-                  "commaSeparatedInputRequired": "Please key in comma (,) to separate"
+            "setupVisible": false,
+            "label": {
+              "original": "Notifications",
+              "singular": "Pemberitahuan",
+              "plural": "Pemberitahuan",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "Notification Details",
+                "singular": "Butiran Pemberitahuan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "notifyWhen": {
+                "original": "Notify when",
+                "singular": "Beritahu apabila",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "user": {
+                "original": "User",
+                "singular": "Pengguna",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "toUser": {
+                "original": "To User",
+                "singular": "Kepada Pengguna",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "toOwner": {
+                "original": "To Owner",
+                "singular": "Kepada Pemilik",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "additionalEmails": {
+                "original": "Additional Emails",
+                "singular": "E-mel Tambahan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "notifyUserManager": {
+                "original": "Notify User's Manager",
+                "singular": "Beritahu Pengurus Pengguna",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "notifyManager": {
+                "original": "Notify Manager",
+                "singular": "Beritahu Pengurus",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "messages": {
+              "selectNotificationType": "Pilih Jenis Pemberitahuan",
+              "selectUser": "Pilih Pengguna",
+              "commaSeparatedInputRequired": "Sila masukkan koma (,) untuk memisahkan"
+            }
           },
           "businessHours": {
-              "setupVisible": true,
-              "label": {
-                  "original": "SLA Business Hours",
-                  "singular": "SLA Business Hours",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
+            "setupVisible": false,
+            "label": {
+              "original": "SLA Business Hours",
+              "singular": "Waktu Perniagaan SLA",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "Business Hour Details",
+                "singular": "Butiran Waktu Perniagaan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Business Hour Details",
-                      "singular": "Business Hour Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Business Hour Schedule",
-                      "singular": "Business Hour Schedule",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Opening Hours",
-                      "singular": "Opening Hours",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec1": {
+                "original": "Business Hour Schedule",
+                "singular": "Jadual Waktu Perniagaan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "fields": {
-                  "setupVisible": true,
-                  "name": {
-                      "original": "Name",
-                      "singular": "Nama",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "status": {
-                      "original": "Status",
-                      "singular": "Status",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "bayName": {
-                      "original": "Bay Name",
-                      "singular": "Bay Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  }
-              },
-              "validationFE": {},
-              "messages": {
-                  "businessHourCreated": "Business Hour created successfully"
+              "sec2": {
+                "original": "Opening Hours",
+                "singular": "Waktu Pembukaan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "name": {
+                "original": "Name",
+                "singular": "Nama",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "bayName": {
+                "original": "Bay Name",
+                "singular": "Nama Bay",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "messages": {
+              "businessHourCreated":"Waktu Perniagaan berjaya dicipta"
+            }
           }
       },
       "integrations": {
@@ -16976,237 +17056,243 @@
           }
       },
       "customerSurvey": {
-          "setupVisible": true,
-          "label": {
-              "original": "Customer Surveys",
-              "singular": "Customer Survey",
-              "plural": "Customer Surveys",
-              "setupEdit": true,
-              "setupVisible": true
+        "setupVisible": false,
+        "label": {
+          "original": "Customer Surveys",
+          "singular": "Tinjauan Pelanggan",
+          "plural": "Tinjauan Pelanggan",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Survey Details",
+            "singular": "Butiran Tinjauan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Survey Details",
-                  "singular": "Survey Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Sending Settings",
-                  "singular": "Sending Settings",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Would you like this survey to be automatically sent out to your customers? If so, configure it below.",
-                  "singular": "Would you like this survey to be automatically sent out to your customers? If so, configure it below.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "Who should the email with this survey link be sent to?",
-                  "singular": "Who should the email with this survey link be sent to?",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec4": {
-                  "original": "Whether or not this form will be automatically sent out to customers",
-                  "singular": "Whether or not this form will be automatically sent out to customers",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Sending Settings",
+            "singular": "Tetapan Penghantaran",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "name": {
-                  "original": "Name",
-                  "singular": "Name",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "status": {
-                  "original": "Status",
-                  "singular": "Status",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "autoSendToCustomer": {
-                  "original": "Automatically send this survey to my customers",
-                  "singular": "Automatically send this survey to my customers",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "ifJobOrderType": {
-                  "original": "If the",
-                  "singular": "If the Job Order Type is:",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "jobOrderStatusChange": {
-                  "original": "And the",
-                  "singular": "And the Job Order Status is changed to:",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "whenJobOrderType": {
-                  "original": "When Job Order Type is",
-                  "singular": "When Job Order Type is",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "andJobOrderStatus": {
-                  "original": "And Job Order Status is",
-                  "singular": "And Job Order Status is",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sendSurvey": {
-                  "original": "Send Survey",
-                  "singular": "Send Survey",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "jobOrderContact": {
-                  "original": "Job Order Contact",
-                  "singular": "Job Order Contact",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "mainCustContact": {
-                  "original": "Main Customer Contact",
-                  "singular": "Main Customer Contact",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "conditionForAutoSend": {
-                  "original": "Conditions for auto-sending survey",
-                  "singular": "Conditions for auto-sending survey",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sendSurveyEmailTo": {
-                  "original": "Send Survey Email(s) to:",
-                  "singular": "Send Survey Email(s) to:",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "isChangeTo": {
-                  "original": "is changed to",
-                  "singular": "is changed to",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "is": {
-                  "original": "is",
-                  "singular": "is",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "jobOrderType": {
-                  "original": "Job Order Type",
-                  "singular": "Job Order Type",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "jobOrderStatus": {
-                  "original": "Job Order Status",
-                  "singular": "Job Order Status",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              }
+          "sec2": {
+            "original": "Would you like this survey to be automatically sent out to your customers? If so, configure it below.",
+            "singular": "Adakah anda mahu tinjauan ini dihantar secara automatik kepada pelanggan anda? Jika ya, konfigurasikannya di bawah.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "messages": {
-              "autoSendSurvey": "Automatically send this survey to customers when the following conditions are met",
-              "surveySentToEmailAddress": "The survey will be sent to the email address of the contact specified in the Job Order (if given)",
-              "surveySentToJobOrderMainContact": "The survey will be sent to the email address of the Job Order Customer's main contact (shown in the customer detail page)"
+          "sec3": {
+            "original": "Who should the email with this survey link be sent to?",
+            "singular": "Kepada siapa email dengan pautan tinjauan ini harus dihantar?",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Whether or not this form will be automatically sent out to customers",
+            "singular": "Sama ada borang ini akan dihantar secara automatik kepada pelanggan atau tidak",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Nama",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "autoSendToCustomer": {
+            "original": "Automatically send this survey to my customers",
+            "singular": "Hantar tinjauan ini secara automatik kepada pelanggan saya",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "ifJobOrderType": {
+            "original": "If the",
+            "singular": "Jika",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderStatusChange": {
+            "original": "And the",
+            "singular": "Dan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "isChangeTo": {
+            "original": "is changed to",
+            "singular": "diubah kepada",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "whenJobOrderType": {
+            "original": "When Job Order Type is",
+            "singular": "Apabila Jenis Pesanan Kerja ialah",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "andJobOrderStatus": {
+            "original": "And Job Order Status is",
+            "singular": "Dan Status Pesanan Kerja ialah",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sendSurvey": {
+            "original": "Send Survey",
+            "singular": "Hantar Tinjauan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderContact": {
+            "original": "Job Order Contact",
+            "singular": "Hubungan Pesanan Kerja",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "mainCustContact": {
+            "original": "Main Customer Contact",
+            "singular": "Hubungan Pelanggan Utama",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "conditionForAutoSend": {
+            "original": "Conditions for auto-sending survey",
+            "singular": "Syarat untuk menghantar tinjauan secara automatik",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sendSurveyEmailTo": {
+            "original": "Send Survey Email(s) to:",
+            "singular": "Hantar Email Tinjauan kepada:",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "is": {
+            "original": "is",
+            "singular": "adalah",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderType": {
+            "original": "Job Order Type",
+            "singular": "Jenis Pesanan Kerja",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderStatus": {
+            "original": "Job Order Status",
+            "singular": "Status Pesanan Kerja",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "autoSendSurvey": "Hantar tinjauan ini secara automatik kepada pelanggan apabila syarat berikut dipenuhi",
+          "surveySentToEmailAddress": "Tinjauan akan dihantar ke alamat email hubungan yang dinyatakan dalam Pesanan Kerja (jika diberikan)",
+          "surveySentToJobOrderMainContact": "Tinjauan akan dihantar ke alamat email hubungan utama Pelanggan Pesanan Kerja (dipaparkan dalam halaman butiran pelanggan)"
+        }
       },
       "devices": {
-          "setupVisible": true,
-          "label": {
-              "original": "Devices",
-              "singular": "Device",
-              "plural": "Devices",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "General Details",
-                  "singular": "General Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
-          },
-          "fields": {
-              "setupVisible": true,
-              "deviceName": {
-                  "original": "Device Name",
-                  "singular": "Device Name",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "deviceId": {
-                  "original": "Device ID",
-                  "singular": "Device ID",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "status": {
-                  "original": "Status",
-                  "singular": "Status",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "fullName": {
-                  "original": "Full Name",
-                  "singular": "Full Name",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "username": {
-                  "original": "Username",
-                  "singular": "Username",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "userEmail": {
-                  "original": "User Email",
-                  "singular": "User Email",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+        "setupVisible": false,
+        "label": {
+          "original": "Devices",
+          "singular": "Peranti",
+          "plural": "Peranti",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "General Details",
+            "singular": "Butiran Am",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "deviceName": {
+            "original": "Device Name",
+            "singular": "Nama Peranti",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "deviceId": {
+            "original": "Device ID",
+            "singular": "ID Peranti",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "fullName": {
+            "original": "Full Name",
+            "singular": "Nama Penuh",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "username": {
+            "original": "Username",
+            "singular": "Nama Pengguna",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "userEmail": {
+            "original": "User Email",
+            "singular": "Email Pengguna",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "firstTimeDeviceRegistrationMessage": "Untuk kali pertama, peranti anda perlu didaftarkan. Sila klik ikon salin dan hantarkan maklumat berikut kepada pentadbir dan tunggu sehingga peranti anda diluluskan.",
+          "deviceRegistrationSubmissionMessage": "Permintaan peranti anda telah dihantar dan sedang menunggu kelulusan. Sila hubungi pentadbir menggunakan butiran yang diberikan.",
+          "deviceIDCopiedToClipBoard": "ID Peranti disalin ke papan klip",
+          "registerYourDevice": "Daftar Peranti Anda"
+        }
       }
   },
   "disclosure": {

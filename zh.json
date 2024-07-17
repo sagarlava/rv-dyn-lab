@@ -18849,111 +18849,111 @@
     "messages": {
         "selectOutturnCode": "选择默认机器"
     }
-},
+  },
   "attendance": {
     "setupVisible": true,
     "label": {
-      "original": "Attendance",
-      "singular": "Attendance",
-      "plural": "Attendances",
-      "setupEdit": true,
-      "setupVisible": true
+        "original": "Attendance",
+        "singular": "考勤",
+        "plural": "考勤",
+        "setupEdit": true,
+        "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "sec0": {
-        "original": "Attendance Details",
-        "singular": "Attendance Details",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec1": {
-        "original": "Today Pending Attendance",
-        "singular": "Today Pending Attendance",
-        "plural": "Today Pending Attendances",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Pending Attendance",
-        "singular": "Pending Attendance",
-        "plural": "Pending Attendances",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "All Attendance",
-        "singular": "All Attendance",
-        "plural": "All Attendances",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec4": {
-        "original": "Filter By",
-        "singular": "Filter By",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "sec0": {
+            "original": "Attendance Details",
+            "singular": "考勤详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec1": {
+            "original": "Today Pending Attendance",
+            "singular": "今日待处理考勤",
+            "plural": "今日待处理考勤",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec2": {
+            "original": "Pending Attendance",
+            "singular": "待处理考勤",
+            "plural": "待处理考勤",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec3": {
+            "original": "All Attendance",
+            "singular": "所有考勤",
+            "plural": "所有考勤",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec4": {
+            "original": "Filter By",
+            "singular": "筛选条件",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "fields": {
-      "setupVisible": true,
-      "attendanceDateTime": {
-        "original": "Attendance Date and Time",
-        "singular": "Attendance Date and Time",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "attendanceStatus": {
-        "original": "Attendance Status",
-        "singular": "Attendance Status",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "attendanceOutturnCode": {
-        "original": "Attendance Outturn Code",
-        "singular": "Attendance Outturn Code",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "rejectReason": {
-        "original": "Reject Reason",
-        "singular": "Reject Reason",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "remarks": {
-        "original": "Remarks",
-        "singular": "Remark",
-        "plural": "Remarks",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "attendanceDateTime": {
+            "original": "Attendance Date and Time",
+            "singular": "考勤日期和时间",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "attendanceStatus": {
+            "original": "Attendance Status",
+            "singular": "考勤状态",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "attendanceOutturnCode": {
+            "original": "Attendance Outturn Code",
+            "singular": "考勤结果代码",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "rejectReason": {
+            "original": "Reject Reason",
+            "singular": "拒绝原因",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "remarks": {
+            "original": "Remarks",
+            "singular": "备注",
+            "plural": "备注",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "tooltips": {
-      "setupVisible": true,
-      "visitEstateLookup": {
-        "original": "Visit Estate Lookup",
-        "singular": "Visit Estate Lookup",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "pleaseKeyInReason": {
-        "original": "Please key in reason for the change",
-        "singular": "Please key in reason for the change",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "visitEstateLookup": {
+            "original": "Visit Estate Lookup",
+            "singular": "访问区域查找",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "pleaseKeyInReason": {
+            "original": "Please key in reason for the change",
+            "singular": "请输入更改原因",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "message": {
-      "selectOutturnCode": "Select Outturn Code"
+        "selectOutturnCode": "选择结果代码"
     }
   },
   "overtime": {

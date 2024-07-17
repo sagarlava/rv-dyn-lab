@@ -7381,6 +7381,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "mainCustContact": {
+        "original": "Main Customer Contact",
+        "singular": "Main Customer Contact",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "validationFE": {
@@ -7388,7 +7395,9 @@
       "notAvailable": "N/A",
       "onDemand": "On Demand",
       "selectAProduct": "Select a Product",
-      "userCalendlyNoIntegrate": "This user does not have Calendly integrated to their account"
+      "userCalendlyNoIntegrate": "This user does not have Calendly integrated to their account",
+      "noContactFoundForThisJobOrder": "No contact found for this Job Order",
+      "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Customer"
     },
     "validationBE": {
       "requiredField": "Required Field",

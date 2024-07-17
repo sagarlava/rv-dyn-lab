@@ -7381,6 +7381,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "mainCustContact": {
+        "original": "Main Customer Contact",
+        "singular": "Hubungan Pelanggan Utama",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
       },
       "validationFE": {
@@ -7388,7 +7395,9 @@
           "notAvailable": "N/A",
           "onDemand": "Atas Permintaan",
           "selectAProduct": "Pilih Produk",
-          "userCalendlyNoIntegrate": "Pengguna ini tidak mempunyai integrasi Calendly dalam akaun mereka"
+          "userCalendlyNoIntegrate": "Pengguna ini tidak mempunyai integrasi Calendly dalam akaun mereka",
+          "noContactFoundForThisJobOrder": "Tiada kenalan dijumpai untuk Pesanan Kerja ini",
+          "noContactFoundForTheJobOrdersCustomer": "Tiada kenalan dijumpai untuk Pelanggan Pesanan Kerja ini"
       },
       "validationBE": {
           "requiredField": "Required Field",

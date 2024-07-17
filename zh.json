@@ -7380,6 +7380,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "mainCustContact": {
+        "original": "Main Customer Contact",
+        "singular": "主要客户联系人",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
       },
       "validationFE": {
@@ -7387,7 +7394,9 @@
           "notAvailable": "不适用",
           "onDemand": "按需",
           "selectAProduct": "选择一个产品",
-          "userCalendlyNoIntegrate": "该用户未将Calendly集成到他们的账户"
+          "userCalendlyNoIntegrate": "该用户未将Calendly集成到他们的账户",
+          "noContactFoundForThisJobOrder": "未找到此工作单的联系人",
+          "noContactFoundForTheJobOrdersCustomer": "未找到工作单客户的联系人"
       },
       "validationBE": {
           "requiredField": "Required Field",

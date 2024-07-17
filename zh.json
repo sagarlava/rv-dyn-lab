@@ -17172,14 +17172,18 @@
       }
   },
   "myBin": {
-      "setupVisible": true,
-      "label": {
-          "original": "My Bin",
-          "singular": "My Bin",
-          "plural": "My Bins",
-          "setupEdit": true,
-          "setupVisible": true
-      }
+    "setupVisible": false,
+    "label": {
+      "original": "My Bin",
+      "singular": "我的箱子",
+      "plural": "我的箱子",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "messages": {
+      "pendingTransfers": "待处理的转移",
+      "binItemDetails": "箱子物品详情"
+    }
   },
   "profile": {
       "setupVisible": true,

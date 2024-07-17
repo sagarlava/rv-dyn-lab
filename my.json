@@ -17333,17 +17333,18 @@
       }
   },
   "myBin": {
-      "setupVisible": true,
-      "label": {
-          "original": "My Bin",
-          "singular": "My Bin",
-          "plural": "My Bins",
-          "setupEdit": true,
-          "setupVisible": true
-      },
-      "messages": {
-          "pendingTransfers": "Pending Transfers"
-      }
+    "setupVisible": false,
+    "label": {
+      "original": "My Bin",
+      "singular": "Bin Saya",
+      "plural": "Bin Saya",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "messages": {
+      "pendingTransfers": "Pemindahan Tertunda",
+      "binItemDetails": "Butiran Item Bin"
+    }
   },
   "profile": {
       "setupVisible": true,

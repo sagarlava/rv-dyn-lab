@@ -17509,22 +17509,22 @@
     }
   },
   "note": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
-          "original": "Note",
-          "singular": "Nota",
-          "plural": "Nota-Nota",
-          "setupEdit": true,
-          "setupVisible": true
+        "original": "Note",
+        "singular": "Nota",
+        "plural": "Nota",
+        "setupEdit": true,
+        "setupVisible": false
       },
       "messages": {
-          "typeYourNoteHere": "Type your note here",
-          "searchNotes": "Search Notes",
-          "whenYourHeartSpeaks": "When your heart speaks, take good notes",
-          "deleteNote": "Delete Note",
-          "noteDetails": "Note Details"
+        "typeYourNoteHere": "Taip nota anda di sini",
+        "searchNotes": "Cari Nota",
+        "whenYourHeartSpeaks": "Apabila hati anda berbicara, catatkan dengan baik",
+        "deleteNote": "Padam Nota",
+        "noteDetails": "Butiran Nota"
       }
-  },
+    },
   "report": {
       "setupVisible": true,
       "label": {

@@ -17755,24 +17755,24 @@
           }
       }
   },
-  "mobileDashboard": {
-      "setupVisible": false,
-      "label": {
-          "original": "Home",
-          "singular": "Home",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-      },
-      "messages": {
-          "pendingJobOrders": "Pending Job Orders",
-          "todaysTasks": "Today's Tasks",
-          "tasksToAcceptDecline": "Tasks to Accept/Decline",
-          "assignedTasks": "Assigned Tasks",
-          "journetPlanManagement": "Journey Plan Management",
-          "CreateTask": "Create Task!",
-          "looksYouAreOutOfTasks": "Looks you are out of tasks today."
-      }
+ "mobileDashboard": {
+    "setupVisible": false,
+    "label": {
+      "original": "Home",
+      "singular": "首页",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "messages": {
+      "pendingJobOrders": "待处理工单",
+      "todaysTasks": "今天的任务",
+      "tasksToAcceptDecline": "接受/拒绝的任务",
+      "assignedTasks": "分配的任务",
+      "journeyPlanManagement": "行程计划管理",
+      "CreateTask": "创建任务!",
+      "looksYouAreOutOfTasks": "看起来你今天没有任务。"
+    }
   },
   "dashboard": {
       "setupVisible": true,

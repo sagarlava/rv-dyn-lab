@@ -17928,23 +17928,23 @@
       }
   },
   "mobileDashboard": {
-      "setupVisible": false,
-      "label": {
-          "original": "Home",
-          "singular": "Home",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-      },
-      "messages": {
-          "pendingJobOrders": "Pending Job Orders",
-          "todaysTasks": "Today's Tasks",
-          "tasksToAcceptDecline": "Tasks to Accept/Decline",
-          "assignedTasks": "Assigned Tasks",
-          "journetPlanManagement": "Journey Plan Management",
-          "CreateTask": "Create Task!",
-          "looksYouAreOutOfTasks": "Looks you are out of tasks today."
-      }
+    "setupVisible": false,
+    "label": {
+      "original": "Home",
+      "singular": "Rumah",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "messages": {
+      "pendingJobOrders": "Pesanan Kerja Tertunda",
+      "todaysTasks": "Tugas Hari Ini",
+      "tasksToAcceptDecline": "Tugas untuk Terima/Tolak",
+      "assignedTasks": "Tugas yang Ditugaskan",
+      "journeyPlanManagement": "Pengurusan Rancangan Perjalanan",
+      "CreateTask": "Buat Tugas!",
+      "looksYouAreOutOfTasks": "Nampaknya anda tiada tugas hari ini."
+    }
   },
   "dashboard": {
       "setupVisible": true,

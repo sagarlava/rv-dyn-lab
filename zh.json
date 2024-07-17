@@ -4845,6 +4845,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+        },
+        "warranty": {
+          "original": "Warranty",
+          "singular": "保修",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sinceUpdated": {
+          "original": "since updated",
+          "singular": "自更新以来",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "slaPackage": {
+          "original": "SLA Packages",
+          "singular": "SLA 套餐",
+          "plural": "SLA 套餐",
+          "setupEdit": true,
+          "setupVisible": true
         }
     },
       "validationFE": {},

@@ -4845,6 +4845,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "warranty": {
+          "original": "Warranty",
+          "singular": "Jaminan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sinceUpdated": {
+          "original": "since updated",
+          "singular": "sejak dikemas kini",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "slaPackage": {
+          "original": "SLA Packages",
+          "singular": "Pakej SLA",
+          "plural": "Pakej SLA",
+          "setupEdit": true,
+          "setupVisible": true
         }
       },
       "validationFE": {},

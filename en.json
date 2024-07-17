@@ -4846,6 +4846,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "warranty": {
+        "original": "Warranty",
+        "singular": "Warranty",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sinceUpdated": {
+        "original": "since updated",
+        "singular": "since updated",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "slaPackage": {
+        "original": "SLA Packages",
+        "singular": "SLA Package",
+        "plural": "SLA Packages",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -10506,7 +10527,14 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
-      } 
+      },
+      "viewLocation":{
+        "original": "View Location",
+        "singular": "View Location",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      }
     },
     "status": {
       "setupVisible": false,

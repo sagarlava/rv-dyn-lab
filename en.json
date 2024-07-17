@@ -13250,23 +13250,9 @@
             "setupEdit": true,
             "setupVisible": false
           },
-          "whatIs": {
-            "original": "What is",
-            "singular": "What is",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
           "format": {
             "original": "Format",
             "singular": "Format",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "allowsCustomize": {
-            "original": "allows you to customize the Auto Number field for your tickets. This includes substitution variables and any characters you wish to prefix or append.",
-            "singular": "allows you to customize the Auto Number field for your tickets. This includes substitution variables and any characters you wish to prefix or append.",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13281,48 +13267,6 @@
           "optional": {
             "original": "Optional",
             "singular": "Optional",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "zeroVariable": {
-            "original": "The number of zeros in the curly braces represents the minimum number of digits to be displayed. Smaller actual numbers will be padded with leading zeros",
-            "singular": "The number of zeros in the curly braces represents the minimum number of digits to be displayed. Smaller actual numbers will be padded with leading zeros",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "yearVariable": {
-            "original": "Y characters represent the year of the ticket creation date. This can be displayed as 2 digits ('21') or 4 digits ('2021')",
-            "singular": "Y characters represent the year of the ticket creation date. This can be displayed as 2 digits ('21') or 4 digits ('2021')",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "monthVariable": {
-            "original": "M characters represent the numeric month of the ticket creation date ('01' = Jan, '02' = Feb)",
-            "singular": "M characters represent the numeric month of the ticket creation date ('01' = Jan, '02' = Feb)",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "dayVariable": {
-            "original": "D characters represent the numeric day of the month of the record creation date (E.g. '01' to '31' for Jan)",
-            "singular": "D characters represent the numeric day of the month of the record creation date (E.g. '01' to '31' for Jan)",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "hereExamples": {
-            "original": "Here are some examples:",
-            "singular": "Here are some examples:",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "autoCloseAfterNoActivity": {
-            "original": "Auto-close ticket after no activity (Hrs)",
-            "singular": "Auto-close ticket after no activity (Hrs)",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13365,6 +13309,16 @@
             "setupEdit": true,
             "setupVisible": false
           }
+        },
+        "messages":{
+          "whatIs": "What is",
+          "allowsCustomize": "allows you to customize the Auto Number field for your tickets. This includes substitution variables and any characters you wish to prefix or append.",
+          "zeroVariable": "The number of zeros in the curly braces represents the minimum number of digits to be displayed. Smaller actual numbers will be padded with leading zeros",
+          "yearVariable": "Y characters represent the year of the ticket creation date. This can be displayed as 2 digits ('21') or 4 digits ('2021')",
+          "monthVariable": "M characters represent the numeric month of the ticket creation date ('01' = Jan, '02' = Feb)",
+          "dayVariable": "D characters represent the numeric day of the month of the record creation date (E.g. '01' to '31' for Jan)",
+          "autoCloseAfterNoActivity": "Auto-close ticket after no activity (Hrs)",
+          "hereExamples": "Here are some examples:"
         }
       },
       "listView": {

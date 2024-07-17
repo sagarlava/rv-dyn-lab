@@ -12008,95 +12008,101 @@
             }
           },
           "skills": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Skills",
-                  "singular": "技能",
-                  "plural": "技能",
-                  "setupEdit": true,
-                  "setupVisible": true
+            "setupVisible": false,
+            "label": {
+              "original": "Skills",
+              "singular": "技能",
+              "plural": "技能",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "Department",
+                "singular": "部门",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Department",
-                      "singular": "部门",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Roles & Levels",
-                      "singular": "Roles & Levels",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Delete Skills Department",
-                      "singular": "Delete Skills Department",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec1": {
+                "original": "Roles & Levels",
+                "singular": "角色与等级",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "fields": {
-                  "setupVisible": true,
-                  "departmentName": {
-                      "original": "Department Name",
-                      "singular": "Department Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "department": {
-                      "original": "Department",
-                      "singular": "Department",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "roleName": {
-                      "original": "Role Name",
-                      "singular": "Role Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "role": {
-                      "original": "Role",
-                      "singular": "Role",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "levels": {
-                      "original": "Levels",
-                      "singular": "级别",
-                      "plural": "Levels",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "experience": {
-                      "original": "Experience",
-                      "singular": "Experience",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec2": {
+                "original": "Delete Skills Department",
+                "singular": "删除技能部门",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupVisible": false,
+              "departmentName": {
+                "original": "Department Name",
+                "singular": "部门名称",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "validationFE": {},
-              "tooltips": {
-                  "setupVisible": true,
-                  "assignUser": {
-                      "original": "Assign Users",
-                      "singular": "Assign User",
-                      "plural": "Assign Users",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "department": {
+                "original": "Department",
+                "singular": "部门",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "messages": {}
+              "roleName": {
+                "original": "Role Name",
+                "singular": "角色名称",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "role": {
+                "original": "Role",
+                "singular": "角色",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "levels": {
+                "original": "Levels",
+                "singular": "等级",
+                "plural": "等级",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "experience": {
+                "original": "Experience",
+                "singular": "经验",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "tooltips": {
+              "setupVisible": false,
+              "assignUser": {
+                "original": "Assign Users",
+                "singular": "分配用户",
+                "plural": "分配用户",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "noSkillsSelected": "未选择技能",
+              "addAtLeastOneLevelToARole": "至少为一个角色添加一个等级",
+              "pleaseEnterLevelNames": "请输入等级名称",
+              "pleaseEnterRoleNames": "请输入角色名称",
+              "pleaseEnterADepartmentName": "请输入部门名称"
+            }
           },
           "teams": {
             "setupVisible": false,
@@ -12827,219 +12833,173 @@
       "modules": {
           "setupVisible": true,
           "configuration": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Configuration",
-                  "singular": "Configuration",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
+            "setupVisible": false,
+            "label": {
+              "original": "Configuration",
+              "singular": "配置",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "Details",
+                "singular": "详情",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Details",
-                      "singular": "细节",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Qr/Barcode",
-                      "singular": "Qr/Barkod",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Variable",
-                      "singular": "Variable",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Necessity",
-                      "singular": "Necessity",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec4": {
-                      "original": "Description",
-                      "singular": "描述",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec5": {
-                      "original": "Ticket Format",
-                      "singular": "Ticket Format",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec6": {
-                      "original": "Sequence Number",
-                      "singular": "Sequence Number",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec7": {
-                      "original": "Formatted Number",
-                      "singular": "Formatted Number",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec8": {
-                      "original": "Ticket Configuration",
-                      "singular": "Ticket Configuration",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec9": {
-                      "original": "Email Configuration",
-                      "singular": "Email Configuration",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec1": {
+                "original": "QR/Barcode",
+                "singular": "二维码/条形码",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "fields": {
-                  "setupVisible": true,
-                  "numberFormat": {
-                      "original": "Number Format",
-                      "singular": "Number Format",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "codeType": {
-                      "original": "Code Type",
-                      "singular": "Code Type",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "whatIs": {
-                      "original": "What is",
-                      "singular": "Code Type",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "format": {
-                      "original": "Format",
-                      "singular": "Format",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "allowsCustomize": {
-                      "original": "allows you to customize the Auto Number field for your tickets. This includes substitution variables and any characters you wish to prefix or append.",
-                      "singular": "allows you to customize the Auto Number field for your tickets. This includes substitution variables and any characters you wish to prefix or append.",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "required": {
-                      "original": "Required",
-                      "singular": "Required",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "optional": {
-                      "original": "Optional",
-                      "singular": "Optional",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "zeroVariable": {
-                      "original": "The number of zeros in the curly braces represents the minimum number of digits to be displayed. Smaller actual numbers will be padded with leading zeros",
-                      "singular": "The number of zeros in the curly braces represents the minimum number of digits to be displayed. Smaller actual numbers will be padded with leading zeros",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "yearVariable": {
-                      "original": "Y characters represent the year of the ticket creation date. This can be displayed as 2 digits ('21') or 4 digits ('2021')",
-                      "singular": "Y characters represent the year of the ticket creation date. This can be displayed as 2 digits ('21') or 4 digits ('2021')",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "monthVariable": {
-                      "original": "M characters represent the numeric month of the ticket creation date ('01' = Jan, '02' = Feb)",
-                      "singular": "M characters represent the numeric month of the ticket creation date ('01' = Jan, '02' = Feb)",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "dayVariable": {
-                      "original": "D characters represent the numeric day of the month of the record creation date (E.g. '01' to '31' for Jan)",
-                      "singular": "D characters represent the numeric day of the month of the record creation date (E.g. '01' to '31' for Jan)",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "hereExamples": {
-                      "original": "Here are some examples:",
-                      "singular": "Here are some examples:",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "autoCloseAfterNoActivity": {
-                      "original": "Auto-close ticket after no activity (Hrs)",
-                      "singular": "Auto-close ticket after no activity (Hrs)",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "defaultTixOwner": {
-                      "original": "Default Ticket Owner",
-                      "singular": "Default Ticket Owner",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "defaultTixGroup": {
-                      "original": "Default Ticket Group",
-                      "singular": "Default Ticket Group",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "helpdeskEmail": {
-                      "original": "Helpdesk Email",
-                      "singular": "Helpdesk Email",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec2": {
+                "original": "Variable",
+                "singular": "变量",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "tooltips": {
-                  "setupVisible": true,
-                  "autoCloseTixInactivity": {
-                      "original": "The timeframe of inactivity before a ticket will automatically close (0 indicates no automatic closure)",
-                      "singular": "The timeframe of inactivity before a ticket will automatically close (0 indicates no automatic closure)",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "defaultSelectedOwner": {
-                      "original": "This is the default selected owner when creating a new ticket. Note: Users must be Helpdesk Users (Setup > Access > User Settings)",
-                      "singular": "This is the default selected owner when creating a new ticket. Note: Users must be Helpdesk Users (Setup > Access > User Settings)",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec3": {
+                "original": "Necessity",
+                "singular": "必要性",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec4": {
+                "original": "Description",
+                "singular": "描述",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec5": {
+                "original": "Ticket Format",
+                "singular": "票据格式",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec6": {
+                "original": "Sequence Number",
+                "singular": "序列号",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec7": {
+                "original": "Formatted Number",
+                "singular": "格式化号码",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec8": {
+                "original": "Ticket Configuration",
+                "singular": "票据配置",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec9": {
+                "original": "Email Configuration",
+                "singular": "电子邮件配置",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "numberFormat": {
+                "original": "Number Format",
+                "singular": "号码格式",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "codeType": {
+                "original": "Code Type",
+                "singular": "代码类型",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "format": {
+                "original": "Format",
+                "singular": "格式",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "required": {
+                "original": "Required",
+                "singular": "必需的",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "optional": {
+                "original": "Optional",
+                "singular": "可选的",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "defaultTixOwner": {
+                "original": "Default Ticket Owner",
+                "singular": "默认票据所有者",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "defaultTixGroup": {
+                "original": "Default Ticket Group",
+                "singular": "默认票据组",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "helpdeskEmail": {
+                "original": "Helpdesk Email",
+                "singular": "帮助台电子邮件",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "tooltips": {
+              "setupVisible": false,
+              "autoCloseTixInactivity": {
+                "original": "The timeframe of inactivity before a ticket will automatically close (0 indicates no automatic closure)",
+                "singular": "票据在没有活动的情况下自动关闭的时间范围（0表示不自动关闭）",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "defaultSelectedOwner": {
+                "original": "This is the default selected owner when creating a new ticket. Note: Users must be Helpdesk Users (Setup > Access > User Settings)",
+                "singular": "这是创建新票据时默认选择的所有者。注意：用户必须是帮助台用户（设置 > 访问 > 用户设置）",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "whatIs": "什么是",
+              "allowsCustomize": "允许您自定义票据的自动编号字段。这包括替换变量和您希望前缀或追加的任何字符。",
+              "zeroVariable": "花括号中的零数量表示要显示的最小数字位数。较小的实际数字将用前导零填充",
+              "yearVariable": "Y字符表示票据创建日期的年份。可以显示为2位数字（'21'）或4位数字（'2021'）",
+              "monthVariable": "M字符表示票据创建日期的月份数字（'01' = 一月，'02' = 二月）",
+              "dayVariable": "D字符表示记录创建日期的月份数字天数（例如，一月为'01'到'31'）",
+              "autoCloseAfterNoActivity": "在没有活动后自动关闭票据（小时）",
+              "hereExamples": "以下是一些示例："
+            }
           },
           "listView": {
           "setupVisible": false,
@@ -15479,69 +15439,69 @@
           }
       },
       "department": {
-          "setupVisible": true,
-          "label": {
-              "original": "Department",
-              "singular": "Department",
-              "plural": "Departments",
-              "setupEdit": true,
-              "setupVisible": true
+        "setupVisible": false,
+        "label": {
+          "original": "Department",
+          "singular": "部门",
+          "plural": "部门",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Department Details",
+            "singular": "部门详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Department Details",
-                  "singular": "Department Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Assigned To",
-                  "singular": "Assigned To",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
-          },
-          "fields": {
-              "setupVisible": true,
-              "name": {
-                  "original": "Name",
-                  "singular": "Name",
-                  "plural": "Names",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "location": {
-                  "original": "Location",
-                  "singular": "Location",
-                  "plural": "Locations",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "owner": {
-                  "original": "Owner",
-                  "singular": "Owner",
-                  "plural": "Owners",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "members": {
-                  "original": "Members",
-                  "singular": "Member",
-                  "plural": "Members",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "division": {
-                  "original": "Division",
-                  "singular": "Division",
-                  "plural": "Divisions",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Assigned To",
+            "singular": "分配给",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "名称",
+            "plural": "名称",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "location": {
+            "original": "Location",
+            "singular": "位置",
+            "plural": "位置",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "owner": {
+            "original": "Owner",
+            "singular": "所有者",
+            "plural": "所有者",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "members": {
+            "original": "Members",
+            "singular": "成员",
+            "plural": "成员",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "division": {
+            "original": "Division",
+            "singular": "部门",
+            "plural": "部门",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        }
       },
       "question": {
         "setupVisible": false,
@@ -15688,104 +15648,111 @@
         }
       },
       "notifications": {
-          "setupVisible": true,
-          "label": {
-              "original": "Notifications",
-              "singular": "Notification",
-              "plural": "Notifications",
-              "setupEdit": true,
-              "setupVisible": true
+        "setupVisible": false,
+        "label": {
+          "original": "Notifications",
+          "singular": "通知",
+          "plural": "通知",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Notification Settings",
+            "singular": "通知设置",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Notification Settings",
-                  "singular": "Notification Settings",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Inventory Notifications",
-                  "singular": "Inventory Notifications",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Standard Notifications",
-                  "singular": "Standard Notifications",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "Activate all notifications you would like your organization to see and specify where you'd like see them.",
-                  "singular": "Activate all notifications you would like your organization to see and specify where you'd like see them.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Inventory Notifications",
+            "singular": "库存通知",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "name": {
-                  "original": "Name",
-                  "singular": "姓名",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "action": {
-                  "original": "Action",
-                  "singular": "Action",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "active": {
-                  "original": "Active",
-                  "singular": "活跃",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "inApp": {
-                  "original": "In-App",
-                  "singular": "In-App",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "email": {
-                  "original": "Email",
-                  "singular": "电子邮箱",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "whatsApp": {
-                  "original": "WhatsApp",
-                  "singular": "WhatsApp",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "notificationAllow": {
-                  "original": "Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process.",
-                  "singular": "Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "configNotificationOrganiation": {
-                  "original": "Configure the notifications you would like your organization to see.",
-                  "singular": "Configure the notifications you would like your organization to see.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec2": {
+            "original": "Standard Notifications",
+            "singular": "标准通知",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Activate all notifications you would like your organization to see and specify where you'd like see them.",
+            "singular": "激活您希望您的组织看到的所有通知，并指定您希望看到它们的位置。",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Confirm Notification Update",
+            "singular": "确认通知更新",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec5": {
+            "original": "Notification Preferences",
+            "singular": "通知偏好",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "名称",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "action": {
+            "original": "Action",
+            "singular": "动作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "active": {
+            "original": "Active",
+            "singular": "活跃",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "inApp": {
+            "original": "In-App",
+            "singular": "应用内",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "email": {
+            "original": "Email",
+            "singular": "电子邮件",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "whatsApp": {
+            "original": "WhatsApp",
+            "singular": "WhatsApp",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "notificationsDisabled": "通知已禁用。在设置中启用或联系您的管理员寻求帮助。",
+          "configNotificationOrganiation": "配置您希望您的组织看到的通知。",
+          "notificationAllow": "通知允许您在FieldEx中通过应用内和电子邮件通知用户特定的活动，如更新和请求。选择下方模块以配置适合您流程的通知。",
+          "markAsRead": "标记为已读",
+          "noMessageToDisplay": "没有要显示的信息"
+        }
       },
       "sla": {
           "setupVisible": true,
@@ -16437,458 +16404,494 @@
           }
       },
       "integrations": {
-          "setupVisible": true,
-          "label": {
-              "original": "Integrations",
-              "singular": "Integration",
-              "plural": "Integrations",
-              "setupEdit": true,
-              "setupVisible": true
+        "setupVisible": false,
+        "label": {
+          "original": "Integrations",
+          "singular": "集成",
+          "plural": "集成",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Configuration",
+            "singular": "配置",
+            "plural": "配置",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Configuration",
-                  "singular": "Configuration",
-                  "plural": "Configurations",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Enable for Users",
-                  "singular": "Enable for Users",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Enable for Organization",
-                  "singular": "Enable for Organization",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "Update Calendly Theme",
-                  "singular": "Update Calendly Theme",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec4": {
-                  "original": "Update the logo, background and font color that will appear when your customers book their time slots",
-                  "singular": "Update the logo, background and font color that will appear when your customers book their time slots",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec5": {
-                  "original": "Calendly Theme",
-                  "singular": "Calendly Theme",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec6": {
-                  "original": "Set up your Calendly Events",
-                  "singular": "Set up your Calendly Events",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec7": {
-                  "original": "Update the mappings between your Job Order Types and Calendly Events",
-                  "singular": "Update the mappings between your Job Order Types and Calendly Events",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec8": {
-                  "original": "Connect each Job Order Type to a Calendly Event",
-                  "singular": "Connect each Job Order Type to a Calendly Event",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Enable for Users",
+            "singular": "为用户启用",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "googleCalendarIntegration": {
-                  "original": "Google Calendar Integration",
-                  "singular": "Google Calendar Integration",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "microsoftOutlookCalendarIntegration": {
-                  "original": "Microsoft Outlook Calendar Integration",
-                  "singular": "Microsoft Outlook Calendar Integration",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "calendlyIntegration": {
-                  "original": "Calendly Integration",
-                  "singular": "Calendly Integration",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "salesforceIntegration": {
-                  "original": "Salesforce Integration",
-                  "singular": "Salesforce Integration",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "updateLogoColor": {
-                  "original": "Update the logo and color scheme that will appear when your customers book their time slots",
-                  "singular": "Update the logo and color scheme that will appear when your customers book their time slots",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "updateMappingsJobOrderCalendlyEvents": {
-                  "original": "Update the mappings between your Job Order Types and Calendly Events",
-                  "singular": "Update the mappings between your Job Order Types and Calendly Events",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "logo": {
-                  "original": "Logo",
-                  "singular": "Logo",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "color": {
-                  "original": "Color",
-                  "singular": "Color",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "background": {
-                  "original": "Background",
-                  "singular": "Background",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "title": {
-                  "original": "Title",
-                  "singular": "Title",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "subTitle": {
-                  "original": "Sub-title",
-                  "singular": "Sub-title",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "jobOrderType": {
-                  "original": "Job Order Type",
-                  "singular": "Job Order Type",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "calendlyEventId": {
-                  "original": "Calendly Event ID",
-                  "singular": "Calendly Event ID",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "preview": {
-                  "original": "Preview",
-                  "singular": "Preview",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "calendlyEvents": {
-                  "original": "Calendly Events",
-                  "singular": "Calendly Events",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "calendlyEventsSpecificDurations": {
-                  "original": "are templates you can set up in Calendly with specific durations and details.",
-                  "singular": "are templates you can set up in Calendly with specific durations and details.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "mapEachEventToJobType": {
-                  "original": "You can map each of these events to a",
-                  "singular": "You can map each of these events to a",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "mapIn": {
-                  "original": "in FieldEx using the",
-                  "singular": "in FieldEx using the",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "onceAssignAutoUpdateJobOrderTask": {
-                  "original": "Once set up, your customers can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
-                  "singular": "Once set up, your customers can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "assignTaskToJob": {
-                  "original": "assign a Task for the job.",
-                  "singular": "assign a Task for the job.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "theme": {
-                  "original": "Theme",
-                  "singular": "Theme",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "header": {
-                  "original": "Header",
-                  "singular": "Header",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "syncCustomer": {
-                  "original": "Sync Customer",
-                  "singular": "Sync Customer",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "syncContacts": {
-                  "original": "Sync Contacts",
-                  "singular": "Sync Contacts",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "syncJobOrders": {
-                  "original": "Sync Job Orders",
-                  "singular": "Sync Job Orders",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "syncSalesOrders": {
-                  "original": "Sync Sales Orders",
-                  "singular": "Sync Sales Orders",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "syncProducts": {
-                  "original": "Sync Products",
-                  "singular": "Sync Products",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec2": {
+            "original": "Enable for Organization",
+            "singular": "为组织启用",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "messages": {
-              "companyName": "Company Name",
-              "sampleCustomerBookTime": "This is a sample of what customers will see when booking time slots with you"
+          "sec3": {
+            "original": "Update Calendly Theme",
+            "singular": "更新Calendly主题",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Update the logo, background and font color that will appear when your customers book their time slots",
+            "singular": "更新客户预订时显示的标志、背景和字体颜色",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Calendly Theme",
+            "singular": "Calendly主题",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Set up your Calendly Events",
+            "singular": "设置您的Calendly事件",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Update the mappings between your Job Order Types and Calendly Events",
+            "singular": "更新工作订单类型与Calendly事件之间的映射",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Connect each Job Order Type to a Calendly Event",
+            "singular": "将每个工作订单类型连接到一个Calendly事件",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "googleCalendarIntegration": {
+            "original": "Google Calendar Integration",
+            "singular": "谷歌日历集成",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "microsoftOutlookCalendarIntegration": {
+            "original": "Microsoft Outlook Calendar Integration",
+            "singular": "微软Outlook日历集成",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "calendlyIntegration": {
+            "original": "Calendly Integration",
+            "singular": "Calendly集成",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "salesforceIntegration": {
+            "original": "Salesforce Integration",
+            "singular": "Salesforce集成",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "updateLogoColor": {
+            "original": "Update the logo and color scheme that will appear when your customers book their time slots",
+            "singular": "更新客户预订时显示的标志和配色方案",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "updateMappingsJobOrderCalendlyEvents": {
+            "original": "Update the mappings between your Job Order Types and Calendly Events",
+            "singular": "更新工作订单类型与Calendly事件之间的映射",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "logo": {
+            "original": "Logo",
+            "singular": "标志",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "颜色",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "background": {
+            "original": "Background",
+            "singular": "背景",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "title": {
+            "original": "Title",
+            "singular": "标题",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "subTitle": {
+            "original": "Sub-title",
+            "singular": "副标题",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderType": {
+            "original": "Job Order Type",
+            "singular": "工作订单类型",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "calendlyEventId": {
+            "original": "Calendly Event ID",
+            "singular": "Calendly事件ID",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "preview": {
+            "original": "Preview",
+            "singular": "预览",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "calendlyEvents": {
+            "original": "Calendly Events",
+            "singular": "Calendly事件",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "calendlyEventsSpecificDurations": {
+            "original": "are templates you can set up in Calendly with specific durations and details.",
+            "singular": "是您可以在Calendly中设置的具有特定时长和详细信息的模板。",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "mapEachEventToJobType": {
+            "original": "You can map each of these events to a",
+            "singular": "您可以将每个事件映射到一个",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "mapIn": {
+            "original": "in FieldEx using the",
+            "singular": "在FieldEx中使用",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "onceAssignAutoUpdateJobOrderTask": {
+            "original": "Once set up, your customers can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
+            "singular": "设置完成后，您的客户可以通过Calendly预订时段（事件），这将自动更新您的工作订单日期和时间，并创建和",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "assignTaskToJob": {
+            "original": "assign a Task for the job.",
+            "singular": "为工作分配任务。",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "theme": {
+            "original": "Theme",
+            "singular": "主题",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "header": {
+            "original": "Header",
+            "singular": "标题",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "syncCustomer": {
+            "original": "Sync Customer",
+            "singular": "同步客户",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "syncContacts": {
+            "original": "Sync Contacts",
+            "singular": "同步联系人",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "syncJobOrders": {
+            "original": "Sync Job Orders",
+            "singular": "同步工作订单",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "syncSalesOrders": {
+            "original": "Sync Sales Orders",
+            "singular": "同步销售订单",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "syncProducts": {
+            "original": "Sync Products",
+            "singular": "同步产品",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "clientId": {
+            "original": "Client ID",
+            "singular": "客户端ID",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "clientSecret": {
+            "original": "Client Secret",
+            "singular": "客户端密钥",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "validationFE": {
+          "requiredField": "必填字段",
+          "invalidPhoneNumber": "无效的电话号码",
+          "invalidEmailFormat": "无效的电子邮件格式"
+        },
+        "validationBE": {},
+        "messages": {
+          "companyName": "公司名称",
+          "sampleCustomerBookTime": "这是客户预订时间段时将看到的示例",
+          "selectDateTime": "选择日期和时间 - Calendly",
+          "connecting": "连接中",
+          "windowCloseIn": "此窗口将在",
+          "seconds": "秒内关闭...",
+          "invalidLink": "无效链接",
+          "responseSubmit": "此调查链接的响应已提交"
+        }
       },
       "importExport": {
-          "setupVisible": true,
-          "label": {
-              "original": "Import & Export",
-              "singular": "Import & Export",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+        "setupVisible": false,
+        "label": {
+          "original": "Import & Export",
+          "singular": "导入和导出",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Import",
+            "singular": "导入",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Import",
-                  "singular": "Import",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Export",
-                  "singular": "Export",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Import Data",
-                  "singular": "Import Data",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "Module & Action",
-                  "singular": "Module & Action",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec4": {
-                  "original": "Upload File",
-                  "singular": "Upload File",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec5": {
-                  "original": "Mapping",
-                  "singular": "Mapping",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec6": {
-                  "original": "Export Data",
-                  "singular": "Export Data",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec7": {
-                  "original": "Download",
-                  "singular": "Download",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Export",
+            "singular": "导出",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "type": {
-                  "original": "Type",
-                  "singular": "类型",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "date": {
-                  "original": "Date",
-                  "singular": "日期",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "moduleSelected": {
-                  "original": "Module Selected",
-                  "singular": "Module Selected",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "userName": {
-                  "original": "User Name",
-                  "singular": "User Name",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "select": {
-                  "original": "Select",
-                  "singular": "Select",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "upload": {
-                  "original": "Upload",
-                  "singular": "Upload",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "mapping": {
-                  "original": "Mapping",
-                  "singular": "Mapping",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "selectModule": {
-                  "original": "Select a Module",
-                  "singular": "Select a Module",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "selectAction": {
-                  "original": "Select an Action",
-                  "singular": "Select an Action",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "selectFieldsToExport": {
-                  "original": "Select fields to export ",
-                  "singular": "Select fields to export ",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "csvHeader": {
-                  "original": "CSV Header",
-                  "singular": "CSV Header",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "fieldexHeader": {
-                  "original": "FieldEx Header",
-                  "singular": "FieldEx Header",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sample": {
-                  "original": "Sample",
-                  "singular": "Sample",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "importDataCsvFormat": {
-                  "original": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
-                  "singular": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "exportDataAsCsvFormat": {
-                  "original": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
-                  "singular": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec2": {
+            "original": "Import Data",
+            "singular": "导入数据",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "validationFE": {},
-          "messages": {
-              "selectFieldToMap": "Select field to map to",
-              "selectFieldList": "Select a field list"
+          "sec3": {
+            "original": "Module & Action",
+            "singular": "模块和操作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Upload File",
+            "singular": "上传文件",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Mapping",
+            "singular": "映射",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Export Data",
+            "singular": "导出数据",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Download",
+            "singular": "下载",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Module & Fields",
+            "singular": "模块和字段",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "type": {
+            "original": "Type",
+            "singular": "类型",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "date": {
+            "original": "Date",
+            "singular": "日期",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "moduleSelected": {
+            "original": "Module Selected",
+            "singular": "选择的模块",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "userName": {
+            "original": "User Name",
+            "singular": "用户名",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "select": {
+            "original": "Select",
+            "singular": "选择",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "upload": {
+            "original": "Upload",
+            "singular": "上传",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "mapping": {
+            "original": "Mapping",
+            "singular": "映射",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select a Module",
+            "singular": "选择一个模块",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "selectAction": {
+            "original": "Select an Action",
+            "singular": "选择一个操作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "selectFieldsToExport": {
+            "original": "Select fields to export",
+            "singular": "选择要导出的字段",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "csvHeader": {
+            "original": "CSV Header",
+            "singular": "CSV 标题",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "fieldexHeader": {
+            "original": "FieldEx Header",
+            "singular": "FieldEx 标题",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sample": {
+            "original": "Sample",
+            "singular": "示例",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "importDataCsvFormat": {
+            "original": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
+            "singular": "将数据导入到 FieldEx，请确保上传的文件包含列标题，并且是 .csv 格式。",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "exportDataAsCsvFormat": {
+            "original": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
+            "singular": "要从 FieldEx 导出数据，请点击“导出”并按照步骤操作。您的数据将作为 .csv 文件下载，并可以作为电子表格查看。",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "validationFE": {},
+        "messages": {
+          "selectFieldToMap": "选择要映射到的字段",
+          "selectFieldList": "选择一个字段列表",
+          "lookupVia": "通过查找：",
+          "markRecordWithError": "如果找到多个匹配项，请标记记录有错误",
+          "insertNullValue": "如果没有找到匹配项，则插入空值"
+        }
       },
       "customerSurvey": {
         "setupVisible": false,
@@ -17131,25 +17134,25 @@
       }
   },
   "disclosure": {
-      "setupVisible": false,
-      "label": {
-          "original": "Application Permission Disclosure",
-          "singular": "Application Permission Disclosure",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-      },
-      "messages": {
-          "weRequireTheFollowingAccess": "We require the following access from your mobile device while using respective features in our application for a good user experience:",
-          "toCollectAndRecordBackground": "To collect and record background location data for journey tracking, task check-in/out locations and live proximity location data while using the app and when it is running in the background. Location data will not be tracked if you go offline in FieldEx.",
-          "toRetrieveImages": "To retrieve images, videos or documents from device storage to upload in tasks or job orders.",
-          "toCaptureImages": "To capture images from your device camera and upload to tasks or job orders.",
-          "toCallTheTaskAssigner": "To call the task assigner or customer's contact directly from the applicaton.",
-          "locationPermission": "Location Permission:",
-          "fileStoragePermission": "File/Storage Permission:",
-          "cameraPermission": "Camera Permission:",
-          "phonePermission": "Phone Permission:"
-      }
+    "setupVisible": false,
+    "label": {
+      "original": "Application Permission Disclosure",
+      "singular": "应用权限披露",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "messages": {
+      "weRequireTheFollowingAccess": "在使用我们应用程序的相关功能时，我们需要您的移动设备提供以下访问权限，以确保良好的用户体验：",
+      "toCollectAndRecordBackground": "在使用应用程序以及在后台运行时，收集和记录背景位置数据以进行行程跟踪、任务签到/签退位置和实时接近位置数据。如果您在 FieldEx 中处于离线状态，则不会跟踪位置数据。",
+      "toRetrieveImages": "从设备存储中检索图像、视频或文档并上传到任务或工作订单中。",
+      "toCaptureImages": "从设备相机捕捉图像并上传到任务或工作订单中。",
+      "toCallTheTaskAssigner": "直接从应用程序拨打任务分配者或客户的联系人的电话。",
+      "locationPermission": "位置权限：",
+      "fileStoragePermission": "文件/存储权限：",
+      "cameraPermission": "相机权限：",
+      "phonePermission": "电话权限："
+    }
   },
   "message": {
       "setupVisible": true,

@@ -12148,101 +12148,101 @@
             }
           },
           "skills": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Skills",
-                  "singular": "Skill",
-                  "plural": "Kemahiran",
-                  "setupEdit": true,
-                  "setupVisible": true
+            "setupVisible": false,
+            "label": {
+              "original": "Skills",
+              "singular": "Kemahiran",
+              "plural": "Kemahiran",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "Department",
+                "singular": "Jabatan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Department",
-                      "singular": "Jabatan",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Roles & Levels",
-                      "singular": "Roles & Levels",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Delete Skills Department",
-                      "singular": "Delete Skills Department",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec1": {
+                "original": "Roles & Levels",
+                "singular": "Peranan & Tahap",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "fields": {
-                  "setupVisible": true,
-                  "departmentName": {
-                      "original": "Department Name",
-                      "singular": "Department Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "department": {
-                      "original": "Department",
-                      "singular": "Department",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "roleName": {
-                      "original": "Role Name",
-                      "singular": "Role Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "role": {
-                      "original": "Role",
-                      "singular": "Role",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "levels": {
-                      "original": "Levels",
-                      "singular": "Tahap",
-                      "plural": "Levels",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "experience": {
-                      "original": "Experience",
-                      "singular": "Experience",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "validationFE": {},
-              "tooltips": {
-                  "setupVisible": true,
-                  "assignUser": {
-                      "original": "Assign Users",
-                      "singular": "Assign User",
-                      "plural": "Assign Users",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "messages": {
-                  "noSkillsSelected": "No Skills Selected",
-                  "addAtLeastOneLevelToARole": "Add at least one level to a role",
-                  "pleaseEnterLevelNames": "Please enter level names",
-                  "pleaseEnterRoleNames": "Please enter role names",
-                  "pleaseEnterADepartmentName": "Please enter a department name"
+              "sec2": {
+                "original": "Delete Skills Department",
+                "singular": "Padam Jabatan Kemahiran",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "departmentName": {
+                "original": "Department Name",
+                "singular": "Nama Jabatan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "department": {
+                "original": "Department",
+                "singular": "Jabatan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "roleName": {
+                "original": "Role Name",
+                "singular": "Nama Peranan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "role": {
+                "original": "Role",
+                "singular": "Peranan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "levels": {
+                "original": "Levels",
+                "singular": "Tahap",
+                "plural": "Tahap",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "experience": {
+                "original": "Experience",
+                "singular": "Pengalaman",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "tooltips": {
+              "setupVisible": false,
+              "assignUser": {
+                "original": "Assign Users",
+                "singular": "Tetapkan Pengguna",
+                "plural": "Tetapkan Pengguna",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "noSkillsSelected": "Tiada Kemahiran Dipilih",
+              "addAtLeastOneLevelToARole": "Tambahkan sekurang-kurangnya satu tahap kepada peranan",
+              "pleaseEnterLevelNames": "Sila masukkan nama tahap",
+              "pleaseEnterRoleNames": "Sila masukkan nama peranan",
+              "pleaseEnterADepartmentName": "Sila masukkan nama jabatan"
+            }
           },
           "teams": {
             "setupVisible": false,
@@ -12973,219 +12973,173 @@
       "modules": {
           "setupVisible": true,
           "configuration": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Configuration",
-                  "singular": "Configuration",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
+            "setupVisible": false,
+            "label": {
+              "original": "Configuration",
+              "singular": "Konfigurasi",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "Details",
+                "singular": "Butiran",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Details",
-                      "singular": "Butiran",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Qr/Barcode",
-                      "singular": "Qr/Kod Bar",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Variable",
-                      "singular": "Variable",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Necessity",
-                      "singular": "Necessity",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec4": {
-                      "original": "Description",
-                      "singular": "Deskripsi",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec5": {
-                      "original": "Ticket Format",
-                      "singular": "Ticket Format",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec6": {
-                      "original": "Sequence Number",
-                      "singular": "Sequence Number",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec7": {
-                      "original": "Formatted Number",
-                      "singular": "Formatted Number",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec8": {
-                      "original": "Ticket Configuration",
-                      "singular": "Ticket Configuration",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec9": {
-                      "original": "Email Configuration",
-                      "singular": "Email Configuration",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec1": {
+                "original": "QR/Barcode",
+                "singular": "QR/Barcode",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "fields": {
-                  "setupVisible": true,
-                  "numberFormat": {
-                      "original": "Number Format",
-                      "singular": "Number Format",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "codeType": {
-                      "original": "Code Type",
-                      "singular": "Code Type",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "whatIs": {
-                      "original": "What is",
-                      "singular": "Code Type",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "format": {
-                      "original": "Format",
-                      "singular": "Format",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "allowsCustomize": {
-                      "original": "allows you to customize the Auto Number field for your tickets. This includes substitution variables and any characters you wish to prefix or append.",
-                      "singular": "allows you to customize the Auto Number field for your tickets. This includes substitution variables and any characters you wish to prefix or append.",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "required": {
-                      "original": "Required",
-                      "singular": "Required",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "optional": {
-                      "original": "Optional",
-                      "singular": "Optional",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "zeroVariable": {
-                      "original": "The number of zeros in the curly braces represents the minimum number of digits to be displayed. Smaller actual numbers will be padded with leading zeros",
-                      "singular": "The number of zeros in the curly braces represents the minimum number of digits to be displayed. Smaller actual numbers will be padded with leading zeros",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "yearVariable": {
-                      "original": "Y characters represent the year of the ticket creation date. This can be displayed as 2 digits ('21') or 4 digits ('2021')",
-                      "singular": "Y characters represent the year of the ticket creation date. This can be displayed as 2 digits ('21') or 4 digits ('2021')",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "monthVariable": {
-                      "original": "M characters represent the numeric month of the ticket creation date ('01' = Jan, '02' = Feb)",
-                      "singular": "M characters represent the numeric month of the ticket creation date ('01' = Jan, '02' = Feb)",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "dayVariable": {
-                      "original": "D characters represent the numeric day of the month of the record creation date (E.g. '01' to '31' for Jan)",
-                      "singular": "D characters represent the numeric day of the month of the record creation date (E.g. '01' to '31' for Jan)",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "hereExamples": {
-                      "original": "Here are some examples:",
-                      "singular": "Here are some examples:",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "autoCloseAfterNoActivity": {
-                      "original": "Auto-close ticket after no activity (Hrs)",
-                      "singular": "Auto-close ticket after no activity (Hrs)",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "defaultTixOwner": {
-                      "original": "Default Ticket Owner",
-                      "singular": "Default Ticket Owner",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "defaultTixGroup": {
-                      "original": "Default Ticket Group",
-                      "singular": "Default Ticket Group",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "helpdeskEmail": {
-                      "original": "Helpdesk Email",
-                      "singular": "Helpdesk Email",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec2": {
+                "original": "Variable",
+                "singular": "Pembolehubah",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "tooltips": {
-                  "setupVisible": true,
-                  "autoCloseTixInactivity": {
-                      "original": "The timeframe of inactivity before a ticket will automatically close (0 indicates no automatic closure)",
-                      "singular": "The timeframe of inactivity before a ticket will automatically close (0 indicates no automatic closure)",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "defaultSelectedOwner": {
-                      "original": "This is the default selected owner when creating a new ticket. Note: Users must be Helpdesk Users (Setup > Access > User Settings)",
-                      "singular": "This is the default selected owner when creating a new ticket. Note: Users must be Helpdesk Users (Setup > Access > User Settings)",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec3": {
+                "original": "Necessity",
+                "singular": "Keperluan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec4": {
+                "original": "Description",
+                "singular": "Penerangan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec5": {
+                "original": "Ticket Format",
+                "singular": "Format Tiket",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec6": {
+                "original": "Sequence Number",
+                "singular": "Nombor Urutan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec7": {
+                "original": "Formatted Number",
+                "singular": "Nombor Berformat",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec8": {
+                "original": "Ticket Configuration",
+                "singular": "Konfigurasi Tiket",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec9": {
+                "original": "Email Configuration",
+                "singular": "Konfigurasi Emel",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "numberFormat": {
+                "original": "Number Format",
+                "singular": "Format Nombor",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "codeType": {
+                "original": "Code Type",
+                "singular": "Jenis Kod",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "format": {
+                "original": "Format",
+                "singular": "Format",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "required": {
+                "original": "Required",
+                "singular": "Diperlukan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "optional": {
+                "original": "Optional",
+                "singular": "Pilihan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "defaultTixOwner": {
+                "original": "Default Ticket Owner",
+                "singular": "Pemilik Tiket Lalai",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "defaultTixGroup": {
+                "original": "Default Ticket Group",
+                "singular": "Kumpulan Tiket Lalai",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "helpdeskEmail": {
+                "original": "Helpdesk Email",
+                "singular": "Emel Helpdesk",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "tooltips": {
+              "setupVisible": false,
+              "autoCloseTixInactivity": {
+                "original": "The timeframe of inactivity before a ticket will automatically close (0 indicates no automatic closure)",
+                "singular": "Tempoh tidak aktif sebelum tiket akan ditutup secara automatik (0 menunjukkan tiada penutupan automatik)",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "defaultSelectedOwner": {
+                "original": "This is the default selected owner when creating a new ticket. Note: Users must be Helpdesk Users (Setup > Access > User Settings)",
+                "singular": "Ini adalah pemilik yang dipilih secara lalai apabila membuat tiket baru. Nota: Pengguna mesti merupakan Pengguna Helpdesk (Setup > Access > User Settings)",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "whatIs": "Apa itu",
+              "allowsCustomize": "membolehkan anda menyesuaikan medan Nombor Auto untuk tiket anda. Ini termasuk pembolehubah gantian dan sebarang aksara yang anda ingin awalkan atau tambahkan.",
+              "zeroVariable": "Bilangan sifar dalam kurungan keriting mewakili bilangan minimum digit yang akan dipaparkan. Nombor sebenar yang lebih kecil akan diisi dengan sifar awalan",
+              "yearVariable": "Aksara Y mewakili tahun tarikh penciptaan tiket. Ini boleh dipaparkan sebagai 2 digit ('21') atau 4 digit ('2021')",
+              "monthVariable": "Aksara M mewakili bulan angka tarikh penciptaan tiket ('01' = Jan, '02' = Feb)",
+              "dayVariable": "Aksara D mewakili hari angka dalam bulan tarikh penciptaan rekod (Cth. '01' hingga '31' untuk Jan)",
+              "autoCloseAfterNoActivity": "Tutup tiket secara automatik selepas tiada aktiviti (Jam)",
+              "hereExamples": "Berikut adalah beberapa contoh:"
+            }
           },
           "listView": {
             "setupVisible": false,
@@ -15646,319 +15600,320 @@
           }
       },
       "department": {
-          "setupVisible": true,
-          "label": {
-              "original": "Department",
-              "singular": "Department",
-              "plural": "Departments",
-              "setupEdit": true,
-              "setupVisible": true
+        "setupVisible": false,
+        "label": {
+          "original": "Department",
+          "singular": "Jabatan",
+          "plural": "Jabatan",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Department Details",
+            "singular": "Butiran Jabatan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Department Details",
-                  "singular": "Department Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Assigned To",
-                  "singular": "Assigned To",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
-          },
-          "fields": {
-              "setupVisible": true,
-              "name": {
-                  "original": "Name",
-                  "singular": "Name",
-                  "plural": "Names",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "location": {
-                  "original": "Location",
-                  "singular": "Location",
-                  "plural": "Locations",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "owner": {
-                  "original": "Owner",
-                  "singular": "Owner",
-                  "plural": "Owners",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "members": {
-                  "original": "Members",
-                  "singular": "Member",
-                  "plural": "Members",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "division": {
-                  "original": "Division",
-                  "singular": "Division",
-                  "plural": "Divisions",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Assigned To",
+            "singular": "Ditugaskan Kepada",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
-      },
-     "question": {
-      "setupVisible": false,
-      "label": {
-        "original": "Question",
-        "singular": "Soalan",
-        "plural": "Soalan",
-        "setupEdit": true,
-        "setupVisible": false
-      },
-      "sections": {
-        "setupVisible": false,
-        "sec0": {
-          "original": "Question Details",
-          "singular": "Butiran Soalan",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
         },
-        "sec1": {
-          "original": "Answers",
-          "singular": "Jawapan",
-          "plural": "Jawapan",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "sec2": {
-          "original": "Specify which section and position the question should go in, and then type out the question",
-          "singular": "Tentukan bahagian dan kedudukan soalan, kemudian taipkan soalan",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "sec3": {
-          "original": "Add the answers to the above question and the respective template to be triggered by each answer (where applicable). Each answer will generate a new Job Order based on the selected template",
-          "singular": "Tambah jawapan kepada soalan di atas dan templat yang berkaitan untuk diaktifkan oleh setiap jawapan (jika berkenaan). Setiap jawapan akan menjana Pesanan Kerja baru berdasarkan templat yang dipilih",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "sec4": {
-          "original": "Additional Tasks generated by this answer",
-          "singular": "Tugas Tambahan yang dijana oleh jawapan ini",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "sec5": {
-          "original": "Additional Job Order Products generated by this answer",
-          "singular": "Produk Pesanan Kerja Tambahan yang dijana oleh jawapan ini",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "sec6": {
-          "original": "Filter By",
-          "singular": "Tapis Mengikut",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
+        "fields": {
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Nama",
+            "plural": "Nama-nama",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "location": {
+            "original": "Location",
+            "singular": "Lokasi",
+            "plural": "Lokasi-lokasi",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "owner": {
+            "original": "Owner",
+            "singular": "Pemilik",
+            "plural": "Pemilik-pemilik",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "members": {
+            "original": "Members",
+            "singular": "Ahli",
+            "plural": "Ahli-ahli",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "division": {
+            "original": "Division",
+            "singular": "Bahagian",
+            "plural": "Bahagian-bahagian",
+            "setupEdit": true,
+            "setupVisible": false
+          }
         }
       },
-      "fields": {
+      "question": {
         "setupVisible": false,
-        "sectionName": {
-          "original": "Section Name",
-          "singular": "Nama Bahagian",
-          "plural": "",
+        "label": {
+          "original": "Question",
+          "singular": "Soalan",
+          "plural": "Soalan",
           "setupEdit": true,
           "setupVisible": false
         },
-        "order": {
-          "original": "Order",
-          "singular": "Pesanan",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Question Details",
+            "singular": "Butiran Soalan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Answers",
+            "singular": "Jawapan",
+            "plural": "Jawapan",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Specify which section and position the question should go in, and then type out the question",
+            "singular": "Tentukan bahagian dan kedudukan soalan, kemudian taipkan soalan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Add the answers to the above question and the respective template to be triggered by each answer (where applicable). Each answer will generate a new Job Order based on the selected template",
+            "singular": "Tambah jawapan kepada soalan di atas dan templat yang berkaitan untuk diaktifkan oleh setiap jawapan (jika berkenaan). Setiap jawapan akan menjana Pesanan Kerja baru berdasarkan templat yang dipilih",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Additional Tasks generated by this answer",
+            "singular": "Tugas Tambahan yang dijana oleh jawapan ini",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Additional Job Order Products generated by this answer",
+            "singular": "Produk Pesanan Kerja Tambahan yang dijana oleh jawapan ini",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Filter By",
+            "singular": "Tapis Mengikut",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
         },
-        "default": {
-          "original": "Default",
-          "singular": "Lalai",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
+        "fields": {
+          "setupVisible": false,
+          "sectionName": {
+            "original": "Section Name",
+            "singular": "Nama Bahagian",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "order": {
+            "original": "Order",
+            "singular": "Pesanan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "default": {
+            "original": "Default",
+            "singular": "Lalai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderTemplates": {
+            "original": "Job Order Templates",
+            "singular": "Templat Pesanan Kerja",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "defaultAnswer": {
+            "original": "Default Answer",
+            "singular": "Jawapan Lalai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "qty": {
+            "original": "Qty",
+            "singular": "Kuantiti",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
         },
-        "jobOrderTemplates": {
-          "original": "Job Order Templates",
-          "singular": "Templat Pesanan Kerja",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
+        "validationFE": {},
+        "tooltips": {
+          "setupVisible": false,
+          "allQuestionsGrouped": {
+            "original": "All questions under this section name will be grouped together",
+            "singular": "Semua soalan di bawah nama bahagian ini akan dikelompokkan bersama",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "specifyWhereQuestionAppear": {
+            "original": "Specify where in the sequence you want this question to appear",
+            "singular": "Tentukan di mana dalam urutan anda mahu soalan ini muncul",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "checkDefaultBoxAutoSelect": {
+            "original": "Check the Default box for the answer you want to be automatically selected when a form is created with this question",
+            "singular": "Tandakan kotak Lalai untuk jawapan yang anda mahu dipilih secara automatik apabila borang dibuat dengan soalan ini",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "aJobOrderGeneratedSelectedTemplate": {
+            "original": "A Job Order and it's associated Tasks and Products will be generated from the selected template if the answer is submitted",
+            "singular": "Pesanan Kerja dan Tugas serta Produk yang berkaitan akan dijana daripada templat yang dipilih jika jawapan dihantar",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
         },
-        "defaultAnswer": {
-          "original": "Default Answer",
-          "singular": "Jawapan Lalai",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "qty": {
-          "original": "Qty",
-          "singular": "Kuantiti",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
+        "messages": {
+          "noJobOrderCreatedForThisSelection": "Tiada Pesanan Kerja yang dijana jika jawapan ini dipilih",
+          "createsJobOrder": "Menjana Pesanan Kerja",
+          "defaultAnswer": "Jawapan Lalai"
         }
       },
-      "validationFE": {},
-      "tooltips": {
-        "setupVisible": false,
-        "allQuestionsGrouped": {
-          "original": "All questions under this section name will be grouped together",
-          "singular": "Semua soalan di bawah nama bahagian ini akan dikelompokkan bersama",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "specifyWhereQuestionAppear": {
-          "original": "Specify where in the sequence you want this question to appear",
-          "singular": "Tentukan di mana dalam urutan anda mahu soalan ini muncul",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "checkDefaultBoxAutoSelect": {
-          "original": "Check the Default box for the answer you want to be automatically selected when a form is created with this question",
-          "singular": "Tandakan kotak Lalai untuk jawapan yang anda mahu dipilih secara automatik apabila borang dibuat dengan soalan ini",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "aJobOrderGeneratedSelectedTemplate": {
-          "original": "A Job Order and it's associated Tasks and Products will be generated from the selected template if the answer is submitted",
-          "singular": "Pesanan Kerja dan Tugas serta Produk yang berkaitan akan dijana daripada templat yang dipilih jika jawapan dihantar",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        }
-      },
-      "messages": {
-        "noJobOrderCreatedForThisSelection": "Tiada Pesanan Kerja yang dijana jika jawapan ini dipilih",
-        "createsJobOrder": "Menjana Pesanan Kerja",
-        "defaultAnswer": "Jawapan Lalai"
-      }
-    }
-,
       "notifications": {
-          "setupVisible": true,
-          "label": {
-              "original": "Notifications",
-              "singular": "Notification",
-              "plural": "Notifications",
-              "setupEdit": true,
-              "setupVisible": true
+        "setupVisible": false,
+        "label": {
+          "original": "Notifications",
+          "singular": "Pemberitahuan",
+          "plural": "Pemberitahuan",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Notification Settings",
+            "singular": "Tetapan Pemberitahuan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Notification Settings",
-                  "singular": "Notification Settings",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Inventory Notifications",
-                  "singular": "Inventory Notifications",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Standard Notifications",
-                  "singular": "Standard Notifications",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "Activate all notifications you would like your organization to see and specify where you'd like see them.",
-                  "singular": "Activate all notifications you would like your organization to see and specify where you'd like see them.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec4": {
-                  "original": "Confirm Notification Update",
-                  "singular": "Confirm Notification Update",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec5": {
-                  "original": "Notification Preferences",
-                  "singular": "Notification Preferences",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Inventory Notifications",
+            "singular": "Pemberitahuan Inventori",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "name": {
-                  "original": "Name",
-                  "singular": "Nama",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "action": {
-                  "original": "Action",
-                  "singular": "Action",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "active": {
-                  "original": "Active",
-                  "singular": "Aktif",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "inApp": {
-                  "original": "In-App",
-                  "singular": "In-App",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "email": {
-                  "original": "Email",
-                  "singular": "E-mel",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "whatsApp": {
-                  "original": "WhatsApp",
-                  "singular": "WhatsApp",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec2": {
+            "original": "Standard Notifications",
+            "singular": "Pemberitahuan Standard",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "messages": {
-              "notificationsDisabled": "Notification disabled. Enable in setup or contact your Admin for assistance.",
-              "configNotificationOrganiation": "Configure the notifications you would like your organization to see.",
-              "notificationAllow": "Notifications allow you to notify users about specific activities in FieldEx, such as updates and requests, both within the app and as email notifications. Select a module below to configure the notifications to suit your process."
+          "sec3": {
+            "original": "Activate all notifications you would like your organization to see and specify where you'd like see them.",
+            "singular": "Aktifkan semua pemberitahuan yang anda ingin organisasi anda lihat dan tentukan di mana anda ingin melihatnya.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Confirm Notification Update",
+            "singular": "Sahkan Kemaskini Pemberitahuan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec5": {
+            "original": "Notification Preferences",
+            "singular": "Keutamaan Pemberitahuan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Nama",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "action": {
+            "original": "Action",
+            "singular": "Tindakan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "active": {
+            "original": "Active",
+            "singular": "Aktif",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "inApp": {
+            "original": "In-App",
+            "singular": "Dalam Aplikasi",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "email": {
+            "original": "Email",
+            "singular": "Emel",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "whatsApp": {
+            "original": "WhatsApp",
+            "singular": "WhatsApp",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "notificationsDisabled": "Pemberitahuan dinyahaktifkan. Aktifkan dalam tetapan atau hubungi Pentadbir anda untuk bantuan.",
+          "configNotificationOrganiation": "Konfigurasikan pemberitahuan yang anda ingin organisasi anda lihat.",
+          "notificationAllow": "Pemberitahuan membolehkan anda memberitahu pengguna mengenai aktiviti tertentu dalam FieldEx, seperti kemas kini dan permintaan, baik dalam aplikasi maupun sebagai pemberitahuan emel. Pilih modul di bawah untuk mengkonfigurasi pemberitahuan sesuai dengan proses anda.",
+          "markAsRead": "Tandakan sebagai Baca",
+          "noMessageToDisplay": "Tiada mesej untuk dipaparkan"
+        }
       },
       "sla": {
           "setupVisible": true,
@@ -16610,468 +16565,494 @@
           }
       },
       "integrations": {
-          "setupVisible": true,
-          "label": {
-              "original": "Integrations",
-              "singular": "Integration",
-              "plural": "Integrations",
-              "setupEdit": true,
-              "setupVisible": true
+        "setupVisible": false,
+        "label": {
+          "original": "Integrations",
+          "singular": "Integrasi",
+          "plural": "Integrasi",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Configuration",
+            "singular": "Konfigurasi",
+            "plural": "Konfigurasi",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Configuration",
-                  "singular": "Configuration",
-                  "plural": "Configurations",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Enable for Users",
-                  "singular": "Enable for Users",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Enable for Organization",
-                  "singular": "Enable for Organization",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "Update Calendly Theme",
-                  "singular": "Update Calendly Theme",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec4": {
-                  "original": "Update the logo, background and font color that will appear when your customers book their time slots",
-                  "singular": "Update the logo, background and font color that will appear when your customers book their time slots",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec5": {
-                  "original": "Calendly Theme",
-                  "singular": "Calendly Theme",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec6": {
-                  "original": "Set up your Calendly Events",
-                  "singular": "Set up your Calendly Events",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec7": {
-                  "original": "Update the mappings between your Job Order Types and Calendly Events",
-                  "singular": "Update the mappings between your Job Order Types and Calendly Events",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec8": {
-                  "original": "Connect each Job Order Type to a Calendly Event",
-                  "singular": "Connect each Job Order Type to a Calendly Event",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Enable for Users",
+            "singular": "Benarkan untuk Pengguna",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "googleCalendarIntegration": {
-                  "original": "Google Calendar Integration",
-                  "singular": "Google Calendar Integration",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "microsoftOutlookCalendarIntegration": {
-                  "original": "Microsoft Outlook Calendar Integration",
-                  "singular": "Microsoft Outlook Calendar Integration",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "calendlyIntegration": {
-                  "original": "Calendly Integration",
-                  "singular": "Calendly Integration",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "salesforceIntegration": {
-                  "original": "Salesforce Integration",
-                  "singular": "Salesforce Integration",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "updateLogoColor": {
-                  "original": "Update the logo and color scheme that will appear when your customers book their time slots",
-                  "singular": "Update the logo and color scheme that will appear when your customers book their time slots",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "updateMappingsJobOrderCalendlyEvents": {
-                  "original": "Update the mappings between your Job Order Types and Calendly Events",
-                  "singular": "Update the mappings between your Job Order Types and Calendly Events",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "logo": {
-                  "original": "Logo",
-                  "singular": "Logo",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "color": {
-                  "original": "Color",
-                  "singular": "Color",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "background": {
-                  "original": "Background",
-                  "singular": "Background",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "title": {
-                  "original": "Title",
-                  "singular": "Title",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "subTitle": {
-                  "original": "Sub-title",
-                  "singular": "Sub-title",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "jobOrderType": {
-                  "original": "Job Order Type",
-                  "singular": "Job Order Type",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "calendlyEventId": {
-                  "original": "Calendly Event ID",
-                  "singular": "Calendly Event ID",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "preview": {
-                  "original": "Preview",
-                  "singular": "Preview",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "calendlyEvents": {
-                  "original": "Calendly Events",
-                  "singular": "Calendly Events",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "calendlyEventsSpecificDurations": {
-                  "original": "are templates you can set up in Calendly with specific durations and details.",
-                  "singular": "are templates you can set up in Calendly with specific durations and details.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "mapEachEventToJobType": {
-                  "original": "You can map each of these events to a",
-                  "singular": "You can map each of these events to a",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "mapIn": {
-                  "original": "in FieldEx using the",
-                  "singular": "in FieldEx using the",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "onceAssignAutoUpdateJobOrderTask": {
-                  "original": "Once set up, your customers can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
-                  "singular": "Once set up, your customers can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "assignTaskToJob": {
-                  "original": "assign a Task for the job.",
-                  "singular": "assign a Task for the job.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "theme": {
-                  "original": "Theme",
-                  "singular": "Theme",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "header": {
-                  "original": "Header",
-                  "singular": "Header",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "syncCustomer": {
-                  "original": "Sync Customer",
-                  "singular": "Sync Customer",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "syncContacts": {
-                  "original": "Sync Contacts",
-                  "singular": "Sync Contacts",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "syncJobOrders": {
-                  "original": "Sync Job Orders",
-                  "singular": "Sync Job Orders",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "syncSalesOrders": {
-                  "original": "Sync Sales Orders",
-                  "singular": "Sync Sales Orders",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "syncProducts": {
-                  "original": "Sync Products",
-                  "singular": "Sync Products",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec2": {
+            "original": "Enable for Organization",
+            "singular": "Benarkan untuk Organisasi",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "messages": {
-              "companyName": "Company Name",
-              "sampleCustomerBookTime": "This is a sample of what customers will see when booking time slots with you"
+          "sec3": {
+            "original": "Update Calendly Theme",
+            "singular": "Kemas kini Tema Calendly",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Update the logo, background and font color that will appear when your customers book their time slots",
+            "singular": "Kemas kini logo, latar belakang dan warna fon yang akan muncul apabila pelanggan anda menempah slot masa mereka",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Calendly Theme",
+            "singular": "Tema Calendly",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Set up your Calendly Events",
+            "singular": "Tetapkan Acara Calendly anda",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Update the mappings between your Job Order Types and Calendly Events",
+            "singular": "Kemas kini pemetaan antara Jenis Pesanan Kerja anda dan Acara Calendly",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Connect each Job Order Type to a Calendly Event",
+            "singular": "Sambungkan setiap Jenis Pesanan Kerja ke Acara Calendly",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "googleCalendarIntegration": {
+            "original": "Google Calendar Integration",
+            "singular": "Integrasi Google Calendar",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "microsoftOutlookCalendarIntegration": {
+            "original": "Microsoft Outlook Calendar Integration",
+            "singular": "Integrasi Microsoft Outlook Calendar",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "calendlyIntegration": {
+            "original": "Calendly Integration",
+            "singular": "Integrasi Calendly",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "salesforceIntegration": {
+            "original": "Salesforce Integration",
+            "singular": "Integrasi Salesforce",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "updateLogoColor": {
+            "original": "Update the logo and color scheme that will appear when your customers book their time slots",
+            "singular": "Kemas kini logo dan skema warna yang akan muncul apabila pelanggan anda menempah slot masa mereka",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "updateMappingsJobOrderCalendlyEvents": {
+            "original": "Update the mappings between your Job Order Types and Calendly Events",
+            "singular": "Kemas kini pemetaan antara Jenis Pesanan Kerja anda dan Acara Calendly",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "logo": {
+            "original": "Logo",
+            "singular": "Logo",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "color": {
+            "original": "Color",
+            "singular": "Warna",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "background": {
+            "original": "Background",
+            "singular": "Latar Belakang",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "title": {
+            "original": "Title",
+            "singular": "Tajuk",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "subTitle": {
+            "original": "Sub-title",
+            "singular": "Sub-tajuk",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderType": {
+            "original": "Job Order Type",
+            "singular": "Jenis Pesanan Kerja",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "calendlyEventId": {
+            "original": "Calendly Event ID",
+            "singular": "ID Acara Calendly",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "preview": {
+            "original": "Preview",
+            "singular": "Pratonton",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "calendlyEvents": {
+            "original": "Calendly Events",
+            "singular": "Acara Calendly",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "calendlyEventsSpecificDurations": {
+            "original": "are templates you can set up in Calendly with specific durations and details.",
+            "singular": "adalah templat yang boleh anda tetapkan dalam Calendly dengan tempoh dan butiran tertentu.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "mapEachEventToJobType": {
+            "original": "You can map each of these events to a",
+            "singular": "Anda boleh memetakan setiap acara ini ke",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "mapIn": {
+            "original": "in FieldEx using the",
+            "singular": "dalam FieldEx menggunakan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "onceAssignAutoUpdateJobOrderTask": {
+            "original": "Once set up, your customers can book slots (events) through Calendly that will automatically update your Job Order Date and Time, as well as create and",
+            "singular": "Setelah disediakan, pelanggan anda boleh menempah slot (acara) melalui Calendly yang secara automatik akan mengemas kini Tarikh dan Masa Pesanan Kerja anda, serta membuat dan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "assignTaskToJob": {
+            "original": "assign a Task for the job.",
+            "singular": "menugaskan Tugas untuk kerja tersebut.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "theme": {
+            "original": "Theme",
+            "singular": "Tema",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "header": {
+            "original": "Header",
+            "singular": "Tajuk",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "syncCustomer": {
+            "original": "Sync Customer",
+            "singular": "Penyegerakan Pelanggan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "syncContacts": {
+            "original": "Sync Contacts",
+            "singular": "Penyegerakan Kenalan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "syncJobOrders": {
+            "original": "Sync Job Orders",
+            "singular": "Penyegerakan Pesanan Kerja",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "syncSalesOrders": {
+            "original": "Sync Sales Orders",
+            "singular": "Penyegerakan Pesanan Jualan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "syncProducts": {
+            "original": "Sync Products",
+            "singular": "Penyegerakan Produk",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "clientId": {
+            "original": "Client ID",
+            "singular": "ID Pelanggan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "clientSecret": {
+            "original": "Client Secret",
+            "singular": "Rahsia Pelanggan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "validationFE": {
+          "requiredField": "Medan Wajib",
+          "invalidPhoneNumber": "Nombor Telefon Tidak Sah",
+          "invalidEmailFormat": "Format E-mel Tidak Sah"
+        },
+        "validationBE": {},
+        "messages": {
+          "companyName": "Nama Syarikat",
+          "sampleCustomerBookTime": "Ini adalah contoh apa yang pelanggan akan lihat apabila menempah slot masa dengan anda",
+          "selectDateTime": "Pilih Tarikh & Masa - Calendly",
+          "connecting": "Menyambung",
+          "windowCloseIn": "Tetingkap ini akan ditutup dalam",
+          "seconds": "saat...",
+          "invalidLink": "Pautan Tidak Sah",
+          "responseSubmit": "Respons telah dihantar untuk pautan tinjauan ini"
+        }
       },
       "importExport": {
-          "setupVisible": true,
-          "label": {
-              "original": "Import & Export",
-              "singular": "Import & Export",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+        "setupVisible": false,
+        "label": {
+          "original": "Import & Export",
+          "singular": "Import & Eksport",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Import",
+            "singular": "Import",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Import",
-                  "singular": "Import",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Export",
-                  "singular": "Export",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Import Data",
-                  "singular": "Import Data",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "Module & Action",
-                  "singular": "Module & Action",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec4": {
-                  "original": "Upload File",
-                  "singular": "Upload File",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec5": {
-                  "original": "Mapping",
-                  "singular": "Mapping",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec6": {
-                  "original": "Export Data",
-                  "singular": "Export Data",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec7": {
-                  "original": "Download",
-                  "singular": "Download",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec8": {
-                  "original": "Module & Fields",
-                  "singular": "Module & Fields",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Export",
+            "singular": "Eksport",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "type": {
-                  "original": "Type",
-                  "singular": "Jenis",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "date": {
-                  "original": "Date",
-                  "singular": "Tarikh",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "moduleSelected": {
-                  "original": "Module Selected",
-                  "singular": "Module Selected",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "userName": {
-                  "original": "User Name",
-                  "singular": "User Name",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "select": {
-                  "original": "Select",
-                  "singular": "Select",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "upload": {
-                  "original": "Upload",
-                  "singular": "Upload",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "mapping": {
-                  "original": "Mapping",
-                  "singular": "Mapping",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "selectModule": {
-                  "original": "Select a Module",
-                  "singular": "Select a Module",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "selectAction": {
-                  "original": "Select an Action",
-                  "singular": "Select an Action",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "selectFieldsToExport": {
-                  "original": "Select fields to export ",
-                  "singular": "Select fields to export ",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "csvHeader": {
-                  "original": "CSV Header",
-                  "singular": "CSV Header",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "fieldexHeader": {
-                  "original": "FieldEx Header",
-                  "singular": "FieldEx Header",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sample": {
-                  "original": "Sample",
-                  "singular": "Sample",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "importDataCsvFormat": {
-                  "original": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
-                  "singular": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "exportDataAsCsvFormat": {
-                  "original": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
-                  "singular": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec2": {
+            "original": "Import Data",
+            "singular": "Import Data",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "validationFE": {},
-          "messages": {
-              "selectFieldToMap": "Select field to map to",
-              "selectFieldList": "Select a field list",
-              "lookupVia": "Lookup via:",
-              "markRecordWithError": "Mark record with an error if more than one match is found",
-              "insertNullValue": "Insert null value(s) if no match is found"
+          "sec3": {
+            "original": "Module & Action",
+            "singular": "Modul & Tindakan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Upload File",
+            "singular": "Muat Naik Fail",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Mapping",
+            "singular": "Pemetaan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Export Data",
+            "singular": "Eksport Data",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Download",
+            "singular": "Muat Turun",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Module & Fields",
+            "singular": "Modul & Medan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "type": {
+            "original": "Type",
+            "singular": "Jenis",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "date": {
+            "original": "Date",
+            "singular": "Tarikh",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "moduleSelected": {
+            "original": "Module Selected",
+            "singular": "Modul Dipilih",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "userName": {
+            "original": "User Name",
+            "singular": "Nama Pengguna",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "select": {
+            "original": "Select",
+            "singular": "Pilih",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "upload": {
+            "original": "Upload",
+            "singular": "Muat Naik",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "mapping": {
+            "original": "Mapping",
+            "singular": "Pemetaan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "selectModule": {
+            "original": "Select a Module",
+            "singular": "Pilih Modul",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "selectAction": {
+            "original": "Select an Action",
+            "singular": "Pilih Tindakan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "selectFieldsToExport": {
+            "original": "Select fields to export",
+            "singular": "Pilih medan untuk eksport",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "csvHeader": {
+            "original": "CSV Header",
+            "singular": "Header CSV",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "fieldexHeader": {
+            "original": "FieldEx Header",
+            "singular": "Header FieldEx",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sample": {
+            "original": "Sample",
+            "singular": "Contoh",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "importDataCsvFormat": {
+            "original": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
+            "singular": "Untuk mengimport data anda ke FieldEx, sila pastikan fail yang anda muat naik mengandungi tajuk lajur dan dalam format .csv.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "exportDataAsCsvFormat": {
+            "original": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
+            "singular": "Untuk mengeksport data anda dari FieldEx, klik 'Eksport' dan ikuti langkah-langkah. Data anda akan dimuat turun sebagai fail .csv dan boleh dilihat sebagai hamparan.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "validationFE": {},
+        "messages": {
+          "selectFieldToMap": "Pilih medan untuk dipetakan ke",
+          "selectFieldList": "Pilih senarai medan",
+          "lookupVia": "Carian melalui:",
+          "markRecordWithError": "Tandakan rekod dengan ralat jika lebih daripada satu padanan ditemui",
+          "insertNullValue": "Masukkan nilai null jika tiada padanan ditemui"
+        }
       },
       "customerSurvey": {
         "setupVisible": false,
@@ -17314,25 +17295,25 @@
       }
   },
   "disclosure": {
-      "setupVisible": false,
-      "label": {
-          "original": "Application Permission Disclosure",
-          "singular": "Application Permission Disclosure",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-      },
-      "messages": {
-          "weRequireTheFollowingAccess": "We require the following access from your mobile device while using respective features in our application for a good user experience:",
-          "toCollectAndRecordBackground": "To collect and record background location data for journey tracking, task check-in/out locations and live proximity location data while using the app and when it is running in the background. Location data will not be tracked if you go offline in FieldEx.",
-          "toRetrieveImages": "To retrieve images, videos or documents from device storage to upload in tasks or job orders.",
-          "toCaptureImages": "To capture images from your device camera and upload to tasks or job orders.",
-          "toCallTheTaskAssigner": "To call the task assigner or customer's contact directly from the applicaton.",
-          "locationPermission": "Location Permission:",
-          "fileStoragePermission": "File/Storage Permission:",
-          "cameraPermission": "Camera Permission:",
-          "phonePermission": "Phone Permission:"
-      }
+    "setupVisible": false,
+    "label": {
+      "original": "Application Permission Disclosure",
+      "singular": "Pendedahan Kebenaran Aplikasi",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "messages": {
+      "weRequireTheFollowingAccess": "Kami memerlukan akses berikut dari peranti mudah alih anda semasa menggunakan ciri-ciri yang berkenaan dalam aplikasi kami untuk pengalaman pengguna yang baik:",
+      "toCollectAndRecordBackground": "Untuk mengumpul dan merekod data lokasi latar belakang untuk penjejakan perjalanan, lokasi semak masuk/keluar tugas dan data lokasi kedekatan langsung semasa menggunakan aplikasi dan apabila ia berjalan di latar belakang. Data lokasi tidak akan dijejak jika anda berada di luar talian dalam FieldEx.",
+      "toRetrieveImages": "Untuk mendapatkan imej, video atau dokumen dari storan peranti untuk dimuat naik dalam tugas atau pesanan kerja.",
+      "toCaptureImages": "Untuk menangkap imej dari kamera peranti anda dan memuat naik ke tugas atau pesanan kerja.",
+      "toCallTheTaskAssigner": "Untuk menghubungi penugasan tugas atau kenalan pelanggan secara langsung dari aplikasi.",
+      "locationPermission": "Kebenaran Lokasi:",
+      "fileStoragePermission": "Kebenaran Fail/Storan:",
+      "cameraPermission": "Kebenaran Kamera:",
+      "phonePermission": "Kebenaran Telefon:"
+    }
   },
   "message": {
       "setupVisible": true,

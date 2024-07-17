@@ -12061,91 +12061,91 @@
             }
           },
           "hierarchy": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Hierarchy",
-                  "singular": "Hierarchy",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
+            "setupVisible": false,
+            "label": {
+              "original": "Hierarchy",
+              "singular": "Hierarchy",
+              "plural": "Hierarchies",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "Hierarchy Details",
+                "singular": "Butiran Hierarki",
+                "plural": "Butiran Hierarki",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Hierarchy Details",
-                      "singular": "Hierarchy Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Assign",
-                      "singular": "Assign",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Assigned",
-                      "singular": "Assigned",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Delete Role",
-                      "singular": "Delete Role",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec1": {
+                "original": "Assign",
+                "singular": "Tetapkan",
+                "plural": "Tetapkan",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "fields": {
-                  "setupVisible": true,
-                  "name": {
-                      "original": "Name",
-                      "singular": "Nama",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "hierarchyName": {
-                      "original": "Hierarchy Name",
-                      "singular": "Hierarchy Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "fieldName": {
-                      "original": "Field Name",
-                      "singular": "Field Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "reportsTo": {
-                      "original": "Reports to",
-                      "singular": "Reports to",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec2": {
+                "original": "Assigned",
+                "singular": "Ditugaskan",
+                "plural": "Ditugaskan",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "validationFE": {},
-              "tooltips": {
-                  "setupVisible": true,
-                  "assignUser": {
-                      "original": "Assign Users",
-                      "singular": "Assign User",
-                      "plural": "Assign Users",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "messages": {
-                  "highestLevelInTheOrganization": "N/A - This is the highest hierarchy in the organization",
-                  "searchUsers": "Search User"
+              "sec3": {
+                "original": "Delete Role",
+                "singular": "Padam Peranan",
+                "plural": "Padam Peranan",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "name": {
+                "original": "Name",
+                "singular": "Nama",
+                "plural": "Nama",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "hierarchyName": {
+                "original": "Hierarchy Name",
+                "singular": "Nama Hierarki",
+                "plural": "Nama Hierarki",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "fieldName": {
+                "original": "Field Name",
+                "singular": "Nama Medan",
+                "plural": "Nama Medan",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "reportsTo": {
+                "original": "Reports to",
+                "singular": "Lapor Kepada",
+                "plural": "Lapor Kepada",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "tooltips": {
+              "setupVisible": false,
+              "assignUser": {
+                "original": "Assign Users",
+                "singular": "Tetapkan Pengguna",
+                "plural": "Tetapkan Pengguna",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "highestLevelInTheOrganization": "N/A - Ini adalah hierarki tertinggi dalam organisasi",
+              "searchUsers": "Cari Pengguna"
+            }
           },
           "skills": {
               "setupVisible": true,
@@ -12245,700 +12245,729 @@
               }
           },
           "teams": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Teams",
-                  "singular": "Pasukan",
-                  "plural": "Pasukan",
-                  "setupEdit": true,
-                  "setupVisible": true
+            "setupVisible": false,
+            "label": {
+              "original": "Teams",
+              "singular": "Pasukan",
+              "plural": "Pasukan",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "General Details",
+                "singular": "Butiran Am",
+                "plural": "Butiran Am",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "General Details",
-                      "singular": "Butiran Am",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Team Settings",
-                      "singular": "Team Settings",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Upload Team Image",
-                      "singular": "Upload Team Image",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Delete Skills Department",
-                      "singular": "Delete Skills Department",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec4": {
-                      "original": "Delete Team Profile Picture",
-                      "singular": "Delete Team Profile Picture",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec5": {
-                      "original": "Details",
-                      "singular": "Butiran",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec6": {
-                      "original": "Members",
-                      "singular": "Ahli",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec7": {
-                      "original": "New Members",
-                      "singular": "New Member",
-                      "plural": "New Members",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec8": {
-                      "original": "Upload Team Image",
-                      "singular": "Upload Team Image",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  }
+              "sec1": {
+                "original": "Team Settings",
+                "singular": "Tetapan Pasukan",
+                "plural": "Tetapan Pasukan",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "fields": {
-                  "setupVisible": true,
-                  "teamName": {
-                      "original": "Team Name",
-                      "singular": "Team Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "description": {
-                      "original": "Description",
-                      "singular": "Deskripsi",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "requireTeamMembersAcceptDecl": {
-                      "original": "Require team members to accept/decline tasks?",
-                      "singular": "Memerlukan ahli pasukan untuk menerima/menolak tugasan?",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "requireTeamMembersCheckInOut": {
-                      "original": "Require team members to check in/out from task location?",
-                      "singular": "Memerlukan ahli pasukan untuk daftar masuk/keluar dari lokasi tugasan?",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "includeTeamManager": {
-                      "original": "Include team manager(s) in smart assign?",
-                      "singular": "Sertakan pengurus pasukan dalam tugasan pintar?",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "numberOfMembers": {
-                      "original": "Number of Members",
-                      "singular": "Number of Members",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "users": {
-                      "original": "Users",
-                      "singular": "Pengguna",
-                      "plural": "Pengguna",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "role": {
-                      "original": "Role",
-                      "singular": "Peranan",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "checkInRadius": {
-                      "original": "Check In Radius",
-                      "singular": "Check In Radius",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "radius": {
-                      "original": "Radius",
-                      "singular": "Radius",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec2": {
+                "original": "Upload Team Image",
+                "singular": "Muat Naik Gambar Pasukan",
+                "plural": "Muat Naik Gambar Pasukan",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "validationFE": {},
-              "tooltips": {
-                  "setupVisible": true,
-                  "assignUser": {
-                      "original": "Assign Users",
-                      "singular": "Assign User",
-                      "plural": "Assign Users",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+              "sec3": {
+                "original": "Delete Skills Department",
+                "singular": "Padam Jabatan Kemahiran",
+                "plural": "Padam Jabatan Kemahiran",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "messages": {
-                  "selectMember": "Select Member",
-                  "selectRole": "Select Role"
+              "sec4": {
+                "original": "Delete Team Profile Picture",
+                "singular": "Padam Gambar Profil Pasukan",
+                "plural": "Padam Gambar Profil Pasukan",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec5": {
+                "original": "Details",
+                "singular": "Butiran",
+                "plural": "Butiran",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec6": {
+                "original": "Members",
+                "singular": "Ahli",
+                "plural": "Ahli",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec7": {
+                "original": "New Members",
+                "singular": "Ahli Baru",
+                "plural": "Ahli Baru",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec8": {
+                "original": "Upload Team Image",
+                "singular": "Muat Naik Gambar Pasukan",
+                "plural": "Muat Naik Gambar Pasukan",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "teamName": {
+                "original": "Team Name",
+                "singular": "Nama Pasukan",
+                "plural": "Nama Pasukan",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Penerangan",
+                "plural": "Penerangan",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "requireTeamMembersAcceptDecl": {
+                "original": "Require team members to accept/decline tasks?",
+                "singular": "Memerlukan ahli pasukan untuk menerima/menolak tugas?",
+                "plural": "Memerlukan ahli pasukan untuk menerima/menolak tugas?",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "requireTeamMembersCheckInOut": {
+                "original": "Require team members to check in/out from task location?",
+                "singular": "Memerlukan ahli pasukan untuk mendaftar masuk/keluar dari lokasi tugas?",
+                "plural": "Memerlukan ahli pasukan untuk mendaftar masuk/keluar dari lokasi tugas?",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "includeTeamManager": {
+                "original": "Include team manager(s) in smart assign?",
+                "singular": "Termasuk pengurus pasukan dalam penugasan pintar?",
+                "plural": "Termasuk pengurus pasukan dalam penugasan pintar?",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "numberOfMembers": {
+                "original": "Number of Members",
+                "singular": "Bilangan Ahli",
+                "plural": "Bilangan Ahli",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "users": {
+                "original": "Users",
+                "singular": "Pengguna",
+                "plural": "Pengguna",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "role": {
+                "original": "Role",
+                "singular": "Peranan",
+                "plural": "Peranan",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "checkInRadius": {
+                "original": "Check In Radius",
+                "singular": "Radius Daftar Masuk",
+                "plural": "Radius Daftar Masuk",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "radius": {
+                "original": "Radius",
+                "singular": "Radius",
+                "plural": "Radius",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "name": {
+                "original": "Name",
+                "singular": "Nama",
+                "plural": "Nama",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "userEmail": {
+                "original": "Email",
+                "singular": "Email",
+                "plural": "Email",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "manager": {
+                "original": "Manager",
+                "singular": "Pengurus",
+                "plural": "Pengurus",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "tooltips": {
+              "setupVisible": false,
+              "assignUser": {
+                "original": "Assign Users",
+                "singular": "Tetapkan Pengguna",
+                "plural": "Tetapkan Pengguna",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "selectMember": "Pilih Ahli",
+              "selectRole": "Pilih Peranan",
+              "viewOnlyAccess":"Akses Paparan Sahaja"
+            }
           },
           "users": {
-              "setupVisible": true,
+            "setupVisible": false,
+            "label": {
+              "original": "Users",
+              "singular": "Pengguna",
+              "plural": "Pengguna",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "Personal Information",
+                "singular": "Maklumat Peribadi",
+                "plural": "Maklumat Peribadi",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Login and Reporting",
+                "singular": "Log Masuk dan Pelaporan",
+                "plural": "Log Masuk dan Pelaporan",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Access and Hierarchy",
+                "singular": "Akses dan Hierarki",
+                "plural": "Akses dan Hierarki",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Additional Details",
+                "singular": "Butiran Tambahan",
+                "plural": "Butiran Tambahan",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec4": {
+                "original": "Delete Team Profile Picture",
+                "singular": "Padam Gambar Profil Pasukan",
+                "plural": "Padam Gambar Profil Pasukan",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec5": {
+                "original": "Details",
+                "singular": "Butiran",
+                "plural": "Butiran",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec6": {
+                "original": "Members",
+                "singular": "Ahli",
+                "plural": "Ahli",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec7": {
+                "original": "New Members",
+                "singular": "Ahli Baru",
+                "plural": "Ahli Baru",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec8": {
+                "original": "Preferences",
+                "singular": "Keutamaan",
+                "plural": "Keutamaan",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec9": {
+                "original": "Shift Based",
+                "singular": "Berdasarkan Syif",
+                "plural": "Berdasarkan Syif",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec10": {
+                "original": "Time Based",
+                "singular": "Berdasarkan Masa",
+                "plural": "Berdasarkan Masa",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec11": {
+                "original": "Addresses",
+                "singular": "Alamat",
+                "plural": "Alamat",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec12": {
+                "original": "Home Address",
+                "singular": "Alamat Rumah",
+                "plural": "Alamat Rumah",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec13": {
+                "original": "Office Address",
+                "singular": "Alamat Pejabat",
+                "plural": "Alamat Pejabat",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec14": {
+                "original": "Alerts",
+                "singular": "Amaran",
+                "plural": "Amaran",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec15": {
+                "original": "General",
+                "singular": "Umum",
+                "plural": "Umum",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec16": {
+                "original": "List View",
+                "singular": "Paparan Senarai",
+                "plural": "Paparan Senarai",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec17": {
+                "original": "Login Information",
+                "singular": "Maklumat Log Masuk",
+                "plural": "Maklumat Log Masuk",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec18": {
+                "original": "Filter By",
+                "singular": "Tapis Mengikut",
+                "plural": "Tapis Mengikut",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupVisible": false,
+              "firstName": {
+                "original": "First Name",
+                "singular": "Nama Pertama",
+                "plural": "Nama Pertama",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "lastName": {
+                "original": "Last Name",
+                "singular": "Nama Akhir",
+                "plural": "Nama Akhir",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "fullName": {
+                "original": "Full Name",
+                "singular": "Nama Penuh",
+                "plural": "Nama Penuh",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "email": {
+                "original": "Email",
+                "singular": "Email",
+                "plural": "Email",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "phone": {
+                "original": "Phone",
+                "singular": "Telefon",
+                "plural": "Telefon",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "username": {
+                "original": "Username",
+                "singular": "Nama Pengguna",
+                "plural": "Nama Pengguna",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "Status",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "manager": {
+                "original": "Manager",
+                "singular": "Pengurus",
+                "plural": "Pengurus",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "access": {
+                "original": "Access",
+                "singular": "Akses",
+                "plural": "Akses",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "hierarchy": {
+                "original": "Hierarchy",
+                "singular": "Hierarki",
+                "plural": "Hierarki",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "users": {
+                "original": "Users",
+                "singular": "Pengguna",
+                "plural": "Pengguna",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "employeeNo": {
+                "original": "Employee No",
+                "singular": "No Pekerja",
+                "plural": "No Pekerja",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "employeeNumber": {
+                "original": "Employee Number",
+                "singular": "Nombor Pekerja",
+                "plural": "Nombor Pekerja",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "depot": {
+                "original": "Depot",
+                "singular": "Depoh",
+                "plural": "Depoh",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "maxWorkingHours": {
+                "original": "Maximum Working Hours",
+                "singular": "Maksimum Jam Bekerja",
+                "plural": "Maksimum Jam Bekerja",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "bufferTime": {
+                "original": "Buffer Time",
+                "singular": "Waktu Penimbal",
+                "plural": "Waktu Penimbal",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "defaultMobileView": {
+                "original": "Default Mobile View",
+                "singular": "Paparan Mudah Alih Lalai",
+                "plural": "Paparan Mudah Alih Lalai",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "timeZone": {
+                "original": "Timezone",
+                "singular": "Zon Masa",
+                "plural": "Zon Masa",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "dateFormat": {
+                "original": "Date Format",
+                "singular": "Format Tarikh",
+                "plural": "Format Tarikh",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "hoursPer": {
+                "original": "hours per",
+                "singular": "jam setiap",
+                "plural": "jam setiap",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "mins": {
+                "original": "mins",
+                "singular": "minit",
+                "plural": "minit",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "integratesGoogle": {
+                "original": "Integrate to Google",
+                "singular": "Integrasi dengan Google",
+                "plural": "Integrasi dengan Google",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "integratesMicrosoft365": {
+                "original": "Integrate to Microsoft 365",
+                "singular": "Integrasi dengan Microsoft 365",
+                "plural": "Integrasi dengan Microsoft 365",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "integratesCalendly": {
+                "original": "Integrate to Calendly",
+                "singular": "Integrasi dengan Calendly",
+                "plural": "Integrasi dengan Calendly",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "notifyMeBeforeTask": {
+                "original": "Notify me before task starts",
+                "singular": "Beritahu saya sebelum tugas bermula",
+                "plural": "Beritahu saya sebelum tugas bermula",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "integration": {
+                "original": "Integrations",
+                "singular": "Integrasi",
+                "plural": "Integrasi",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "members": {
+                "original": "Members",
+                "singular": "Ahli",
+                "plural": "Ahli",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "descriptions": {
+              "setupVisible": false,
+              "aNotificationWillBe": {
+                "original": "A notification will be sent to remind you of your upcoming task. Use the dropdown to select how long before the task you would like to be notified.",
+                "singular": "Pemberitahuan akan dihantar untuk mengingatkan anda tentang tugas yang akan datang. Gunakan dropdown untuk memilih berapa lama sebelum tugas anda ingin diberitahu.",
+                "plural": "Pemberitahuan akan dihantar untuk mengingatkan anda tentang tugas yang akan datang. Gunakan dropdown untuk memilih berapa lama sebelum tugas anda ingin diberitahu.",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "connectToGoogleCalendar": {
+                "original": "Connect your FieldEx calendar with your Google calendar",
+                "singular": "Sambungkan kalendar FieldEx anda dengan kalendar Google anda",
+                "plural": "Sambungkan kalendar FieldEx anda dengan kalendar Google anda",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "connectToMicrosoftOutlookCalendar": {
+                "original": "Connect your FieldEx calendar with your Microsoft Outlook Calendar",
+                "singular": "Sambungkan kalendar FieldEx anda dengan Kalendar Microsoft Outlook anda",
+                "plural": "Sambungkan kalendar FieldEx anda dengan Kalendar Microsoft Outlook anda",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "connectToCalendly": {
+                "original": "Connect your Calendly account to your FieldEx calendar for job scheduling",
+                "singular": "Sambungkan akaun Calendly anda ke kalendar FieldEx anda untuk penjadualan kerja",
+                "plural": "Sambungkan akaun Calendly anda ke kalendar FieldEx anda untuk penjadualan kerja",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "selectManager": "Pilih Pengurus",
+              "selectAccess": "Pilih Akses",
+              "selectHierarchy": "Pilih Hierarki",
+              "selectDepartment": "Pilih Jabatan",
+              "selectRole": "Pilih Peranan",
+              "selectLevel": "Pilih Tahap",
+              "noIntegrationsEnabled": "Tiada integrasi diaktifkan untuk organisasi anda.",
+              "goTo": "Pergi ke",
+              "toSetUpOrContactAdmin": "untuk menyiapkannya atau hubungi Admin anda untuk bantuan.",
+              "skillAssignmentConflict": "Kemahiran ini sudah ditugaskan kepada pengguna.",
+              "invalidCredentials": "Kata laluan tidak sepadan. Sila cuba lagi.",
+              "weakPassword": "Kata laluan mempunyai bahagian daripada nama pengguna",
+              "passwordResetEmailSent": "E-mel telah dihantar untuk membantu anda menetapkan semula kata laluan anda.",
+              "accountActivationEmailSent": "E-mel telah dihantar kepada anda untuk mengaktifkan akaun tersebut.",
+              "duplicateSkillAssignmentConflict": "Kemahiran ini sudah ditugaskan kepada pengguna."
+            },
+            "listView": {
+              "setupVisible": false,
               "label": {
-                  "original": "Users",
-                  "singular": "Pengguna",
-                  "plural": "Pengguna",
-                  "setupEdit": true,
-                  "setupVisible": true
+                "original": "List Views",
+                "singular": "Paparan Senarai",
+                "plural": "Paparan Senarai",
+                "setupEdit": true,
+                "setupVisible": false
               },
               "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Personal Information",
-                      "singular": "Personal Information",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Login and Reporting",
-                      "singular": "Login and Reporting",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Access and Hierarchy",
-                      "singular": "Access and Hierarchy",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Additional Details",
-                      "singular": "Butiran Tambahan",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec4": {
-                      "original": "Delete Team Profile Picture",
-                      "singular": "Delete Team Profile Picture",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec5": {
-                      "original": "Details",
-                      "singular": "Butiran",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec6": {
-                      "original": "Members",
-                      "singular": "Ahli",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec7": {
-                      "original": "New Members",
-                      "singular": "New Member",
-                      "plural": "New Members",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec8": {
-                      "original": "Preferences",
-                      "singular": "Preferences",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec9": {
-                      "original": "Shift Based",
-                      "singular": "Shift Based",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec10": {
-                      "original": "Time Based",
-                      "singular": "Time Based",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec11": {
-                      "original": "Addresses",
-                      "singular": "Addresses",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec12": {
-                      "original": "Home Address",
-                      "singular": "Home Address",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec13": {
-                      "original": "Office Address",
-                      "singular": "Office Address",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec14": {
-                      "original": "Alerts",
-                      "singular": "Alerts",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec15": {
-                      "original": "General",
-                      "singular": "General",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec16": {
-                      "original": "List View",
-                      "singular": "List View",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec17": {
-                      "original": "Login Information",
-                      "singular": "Login Information",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec18": {
-                      "original": "Filter By",
-                      "singular": "Tapis Mengikut",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "fields": {
-                  "setupVisible": true,
-                  "firstName": {
-                      "original": "First Name",
-                      "singular": "First Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "lastName": {
-                      "original": "Last Name",
-                      "singular": "Last Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "fullName": {
-                      "original": "Full Name",
-                      "singular": "Full Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "email": {
-                      "original": "Email",
-                      "singular": "E-mel",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "phone": {
-                      "original": "Phone",
-                      "singular": "Phone",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "username": {
-                      "original": "Username",
-                      "singular": "Username",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "status": {
-                      "original": "Status",
-                      "singular": "Status",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "manager": {
-                      "original": "Manager",
-                      "singular": "Manager",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "access": {
-                      "original": "Access",
-                      "singular": "Akses",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "hierarchy": {
-                      "original": "Hierarchy",
-                      "singular": "Hierarchy",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "users": {
-                      "original": "Users",
-                      "singular": "Pengguna",
-                      "plural": "Pengguna",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "employeeNo": {
-                      "original": "Employee No",
-                      "singular": "Employee No",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "employeeNumber": {
-                      "original": "Employee Number",
-                      "singular": "Employee Number",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "depot": {
-                      "original": "Depot",
-                      "singular": "Depot",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "maxWorkingHours": {
-                      "original": "Maximum Working Hours",
-                      "singular": "Maximum Working Hours",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "bufferTime": {
-                      "original": "Buffer Time",
-                      "singular": "Buffer Time",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "defaultMobileView": {
-                      "original": "Default Mobile View",
-                      "singular": "Default Mobile View",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "timeZone": {
-                      "original": "Timezone",
-                      "singular": "Timezone",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "dateFormat": {
-                      "original": "Date Format",
-                      "singular": "Date Format",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "hoursPer": {
-                      "original": "hours per",
-                      "singular": "hours per",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "mins": {
-                      "original": "mins",
-                      "singular": "mins",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "integratesGoogle": {
-                      "original": "Integrate to Google",
-                      "singular": "Integrate to Google",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "integratesMicrosoft365": {
-                      "original": "Integrate to Microsoft 365",
-                      "singular": "Integrate to Microsoft 365",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "integratesCalendly": {
-                      "original": "Integrate to Calendly",
-                      "singular": "Integrate to Calendly",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "notifyMeBeforeTask": {
-                      "original": "Notify me before task starts",
-                      "singular": "Notify me before task starts",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "integration": {
-                      "original": "Integrations",
-                      "singular": "Integration",
-                      "plural": "Integrations",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "validationFE": {},
-              "descriptions": {
-                  "setupVisible": true,
-                  "aNotificationWillBe": {
-                      "original": "A notification will be sent to remind you of your upcoming task. Use the dropdown to select how long before the task you would like to be notified.",
-                      "singular": "A notification will be sent to remind you of your upcoming task. Use the dropdown to select how long before the task you would like to be notified.",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "connectToGoogleCalendar": {
-                      "original": "Connect your FieldEx calendar with your Google calendar",
-                      "singular": "Connect your FieldEx calendar with your Google calendar",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "connectToMicrosoftOutlookCalendar": {
-                      "original": "Connect your FieldEx calendar with your Microsoft Outlook Calendar",
-                      "singular": "Connect your FieldEx calendar with your Microsoft Outlook Calendar",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "connectToCalendly": {
-                      "original": "Connect your Calendly account to your FieldEx calendar for job scheduling",
-                      "singular": "Connect your Calendly account to your FieldEx calendar for job scheduling",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "messages": {
-                  "selectManager": "Select Manager",
-                  "selectAccess": "Select Access",
-                  "selectHierarchy": "Select Hierarchy",
-                  "selectDepartment": "Select Department",
-                  "selectRole": "Select Role",
-                  "selectLevel": "Select Level",
-                  "noIntegrationsEnabled": "No integrations enabled for your organization.",
-                  "goTo": "Go to",
-                  "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance.",
-                  "skillAssignmentConflict": "These skills are already assigned to the user.",
-                  "invalidCredentials": "Passwords do not match. Please try again.",
-                  "weakPassword": "Password has part of username",
-                  "passwordResetEmailSent": "An email has been sent to help you reset your password.",
-                  "accountActivationEmailSent": "An email has been sent to you to activate the account.",
-                  "duplicateSkillAssignmentConflict": "These skills are already assigned to the user."
-              },
-             "listView": {
                 "setupVisible": false,
-                "label": {
-                  "original": "List Views",
-                  "singular": "Paparan Senarai",
-                  "plural": "Paparan Senarai",
+                "sec0": {
+                  "original": "Default List Views",
+                  "singular": "Paparan Senarai Lalai",
+                  "plural": "Paparan Senarai Lalai",
                   "setupEdit": true,
                   "setupVisible": false
                 },
-                "sections": {
-                  "setupVisible": false,
-                  "sec0": {
-                    "original": "Default List Views",
-                    "singular": "Paparan Senarai Lalai",
-                    "plural": "Paparan Senarai Lalai",
-                    "setupEdit": true,
-                    "setupVisible": false
-                  },
-                  "sec1": {
-                    "original": "Confirm List View Update",
-                    "singular": "Sahkan Kemas Kini Paparan Senarai",
-                    "plural": "Sahkan Kemas Kini Paparan Senarai",
-                    "setupEdit": true,
-                    "setupVisible": false
-                  }
-                },
-                "fields": {
-                  "setupVisible": false,
-                  "module": {
-                    "original": "Module",
-                    "singular": "Modul",
-                    "plural": "Modul",
-                    "setupEdit": true,
-                    "setupVisible": false
-                  },
-                  "listViewEachModule": {
-                    "original": "These are the list views you see for each module. You may edit and change these as preferred. To set these up, go to the module's 'List View' section, under Setup > Modules, or contact your administrator for assistance.",
-                    "singular": "Ini adalah paparan senarai yang anda lihat untuk setiap modul. Anda boleh mengedit dan mengubahnya mengikut keutamaan. Untuk menetapkannya, pergi ke bahagian 'Paparan Senarai' modul, di bawah Persediaan > Modul, atau hubungi pentadbir anda untuk bantuan.",
-                    "plural": "",
-                    "setupEdit": true,
-                    "setupVisible": false
-                  }
-                },
-                "messages": {
-                  "for": "untuk",
-                  "willBeUpdatedTo": "akan dikemas kini kepada",
-                  "listViewCapacityReached": "Maksimum 13 lajur boleh ditambah ke paparan senarai ini."
-                }
-              }
-          },
-          "groups": {
-              "setupVisible": true,
-              "label": {
-                  "original": "User Groups",
-                  "singular": "Kumpulan Pengguna",
-                  "plural": "User Groups",
+                "sec1": {
+                  "original": "Confirm List View Update",
+                  "singular": "Sahkan Kemas Kini Paparan Senarai",
+                  "plural": "Sahkan Kemas Kini Paparan Senarai",
                   "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Group Details",
-                      "singular": "Group Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Select Member",
-                      "singular": "Select Member",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Available Users",
-                      "singular": "Available Users",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Selected Users",
-                      "singular": "Selected Users",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec4": {
-                      "original": "Delete User Group",
-                      "singular": "Delete User Group",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec5": {
-                      "original": "Members",
-                      "singular": "Ahli",
-                      "plural": "Ahli-ahli",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+                  "setupVisible": false
+                }
               },
               "fields": {
-                  "setupVisible": true,
-                  "groupName": {
-                      "original": "Group Name",
-                      "singular": "Group Name",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "defaultUser": {
-                      "original": "Default User",
-                      "singular": "Default User",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "type": {
-                      "original": "Type",
-                      "singular": "Jenis",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "status": {
-                      "original": "Status",
-                      "singular": "Status",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "tooltips": {
-                  "setupVisible": true,
-                  "defaultUser": {
-                      "original": " Default helpdesk user - Unassigned Orders will be assigned to this user",
-                      "singular": " Default helpdesk user - Unassigned Orders will be assigned to this user",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "validationFE": {
-                  "charactersExceed": "Text exceeds character limit (255)."
+                "setupVisible": false,
+                "module": {
+                  "original": "Module",
+                  "singular": "Modul",
+                  "plural": "Modul",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "listViewEachModule": {
+                  "original": "These are the list views you see for each module. You may edit and change these as preferred. To set these up, go to the module's 'List View' section, under Setup > Modules, or contact your administrator for assistance.",
+                  "singular": "Ini adalah paparan senarai yang anda lihat untuk setiap modul. Anda boleh mengedit dan menukar ini mengikut keutamaan. Untuk menyiapkannya, pergi ke bahagian 'Paparan Senarai' modul, di bawah Tetapan > Modul, atau hubungi pentadbir anda untuk mendapatkan bantuan.",
+                  "plural": "Ini adalah paparan senarai yang anda lihat untuk setiap modul. Anda boleh mengedit dan menukar ini mengikut keutamaan. Untuk menyiapkannya, pergi ke bahagian 'Paparan Senarai' modul, di bawah Tetapan > Modul, atau hubungi pentadbir anda untuk mendapatkan bantuan.",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
               },
               "messages": {
-                  "searchUsers": "Search Users",
-                  "selectType": "Select Type"
+                "for": "untuk",
+                "willBeUpdatedTo": "akan dikemas kini kepada",
+                "listViewCapacityReached": "Maksimum 13 lajur boleh ditambah ke paparan senarai ini."
               }
+            }
+          },
+          "groups": {
+            "setupVisible": false,
+            "label": {
+              "original": "User Groups",
+              "singular": "Kumpulan Pengguna",
+              "plural": "Kumpulan Pengguna",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "Group Details",
+                "singular": "Butiran Kumpulan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Select Member",
+                "singular": "Pilih Ahli",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Available Users",
+                "singular": "Pengguna yang Tersedia",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec3": {
+                "original": "Selected Users",
+                "singular": "Pengguna yang Dipilih",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec4": {
+                "original": "Delete User Group",
+                "singular": "Padam Kumpulan Pengguna",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec5": {
+                "original": "Members",
+                "singular": "Ahli",
+                "plural": "Ahli",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupVisible": false,
+              "groupName": {
+                "original": "Group Name",
+                "singular": "Nama Kumpulan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "defaultUser": {
+                "original": "Default User",
+                "singular": "Pengguna Lalai",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "type": {
+                "original": "Type",
+                "singular": "Jenis",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "tooltips": {
+              "setupVisible": false,
+              "defaultUser": {
+                "original": " Default helpdesk user - Unassigned Orders will be assigned to this user",
+                "singular": "Pengguna helpdesk lalai - Pesanan yang tidak ditugaskan akan ditugaskan kepada pengguna ini",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {
+              "charactersExceed": "Teks melebihi had aksara (255)."
+            },
+            "messages": {
+              "searchUsers": "Cari Pengguna",
+              "selectType": "Pilih Jenis"
+            }
           }
       },
       "modules": {
@@ -15020,8 +15049,7 @@
             }
           },
           "messages": {}
-        }
-,
+        },
           "preventiveMaintenance": {
             "setupVisible": false,
             "label": {

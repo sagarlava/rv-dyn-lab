@@ -17777,935 +17777,952 @@
   "dashboard": {
       "setupVisible": true,
       "label": {
-          "original": "Dashboard",
-          "singular": "Dashboard",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+        "original": "Dashboard",
+        "singular": "仪表板",
+        "plural": "仪表板",
+        "setupEdit": true,
+        "setupVisible": false
       },
       "jobOrder": {
-          "setupVisible": true,
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Workshop Fault Calls",
-                  "singular": "Workshop Fault Calls",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Total Fault Calls",
-                  "singular": "Total Fault Calls",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Overdue Fault Calls",
-                  "singular": "Overdue Fault Calls",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "Preventative Maintenance",
-                  "singular": "Preventative Maintenance",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec4": {
-                  "original": "Workshop Progress",
-                  "singular": "Workshop Progress",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec5": {
-                  "original": "Data Line Fault Calls",
-                  "singular": "Data Line Fault Calls",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec6": {
-                  "original": "Total Assignments",
-                  "singular": "Total Assignments",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec7": {
-                  "original": "Service Requests",
-                  "singular": "Service Requests",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec8": {
-                  "original": "Workshop Spare Monitoring",
-                  "singular": "Workshop Spare Monitoring",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec9": {
-                  "original": "Filter By",
-                  "singular": "Filter By",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+        "setupVisible": false,
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Workshop Fault Calls",
+            "singular": "车间故障呼叫",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "overdue": {
-                  "original": "Overdue",
-                  "singular": "Overdue",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "accumulated": {
-                  "original": "Accumulated",
-                  "singular": "Accumulated",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "completed": {
-                  "original": "Completed",
-                  "singular": "Completed",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "totalProgress": {
-                  "original": "Total Progress",
-                  "singular": "Total Progress",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "inProgress": {
-                  "original": "In Progress",
-                  "singular": "In Progress",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "allStatus": {
-                  "original": "All Status",
-                  "singular": "All Status",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "totalJobs": {
-                  "original": "Total Jobs",
-                  "singular": "Total Jobs",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "totalTasks": {
-                  "original": "Total Tasks",
-                  "singular": "Total Tasks",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "technical": {
-                  "original": "Technical",
-                  "singular": "Technical",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "nonTechnical": {
-                  "original": "Non-Technical",
-                  "singular": "Non-Technical",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "serviceRequest": {
-                  "original": "Service Requests",
-                  "singular": "Service Requests",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "status": {
-                  "original": "Status",
-                  "singular": "Status",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "faultType": {
-                  "original": "Fault Type",
-                  "singular": "Fault Type",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Total Fault Calls",
+            "singular": "总故障呼叫",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Overdue Fault Calls",
+            "singular": "逾期故障呼叫",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Preventative Maintenance",
+            "singular": "预防性维护",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Workshop Progress",
+            "singular": "车间进度",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Data Line Fault Calls",
+            "singular": "数据线故障呼叫",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Total Assignments",
+            "singular": "总任务",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Service Requests",
+            "singular": "服务请求",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Workshop Spare Monitoring",
+            "singular": "车间备用监控",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Filter By",
+            "singular": "筛选依据",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "overdue": {
+            "original": "Overdue",
+            "singular": "逾期",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "accumulated": {
+            "original": "Accumulated",
+            "singular": "累计",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "completed": {
+            "original": "Completed",
+            "singular": "已完成",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "totalProgress": {
+            "original": "Total Progress",
+            "singular": "总进度",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "inProgress": {
+            "original": "In Progress",
+            "singular": "进行中",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "allStatus": {
+            "original": "All Status",
+            "singular": "所有状态",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "totalJobs": {
+            "original": "Total Jobs",
+            "singular": "总工作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "totalTasks": {
+            "original": "Total Tasks",
+            "singular": "总任务",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "technical": {
+            "original": "Technical",
+            "singular": "技术",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "nonTechnical": {
+            "original": "Non-Technical",
+            "singular": "非技术",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "serviceRequest": {
+            "original": "Service Requests",
+            "singular": "服务请求",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "faultType": {
+            "original": "Fault Type",
+            "singular": "故障类型",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "technician": {
+            "original": "Technician",
+            "singular": "技术员",
+            "plural": "技术员",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "assignment": {
+            "original": "Assignment",
+            "singular": "任务",
+            "plural": "任务",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "searchJobOrders": "搜索工作订单"
+        }
       },
       "national": {
-          "setupVisible": true,
-          "label": {
-              "original": "National",
-              "singular": "National",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+        "setupVisible": false,
+        "label": {
+          "original": "National",
+          "singular": "全国",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Fault Type by System",
+            "singular": "系统故障类型",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Fault Type by System",
-                  "singular": "Fault Type by System",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Resolution by System",
-                  "singular": "Resolution by System",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Technician Jobs",
-                  "singular": "Technician Jobs",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "This Month",
-                  "singular": "This Month",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec4": {
-                  "original": "Faults By Technician",
-                  "singular": "Faults By Technician",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec5": {
-                  "original": "Last 6 Months",
-                  "singular": "Last 6 Months",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Resolution by System",
+            "singular": "系统解决方案",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "htrFaultTypes": {
-                  "original": "HTR Fault Types",
-                  "singular": "HTR Fault Types",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "hostelFaultTypes": {
-                  "original": "Hostel Fault Types",
-                  "singular": "Hostel Fault Types",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "lincorFaultTypes": {
-                  "original": "Lincor Fault Types",
-                  "singular": "Lincor Fault Types",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "getwellFaultTypes": {
-                  "original": "Getwell Fault Types",
-                  "singular": "Getwell Fault Types",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "htrResolution": {
-                  "original": "HTR Resolution",
-                  "singular": "HTR Resolution",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "hostelResolution": {
-                  "original": "Hostel Resolution",
-                  "singular": "Hostel Resolution",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "lincorResolution": {
-                  "original": "Lincor Resolution",
-                  "singular": "Lincor Resolution",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "getwellResolution": {
-                  "original": "Getwell Resolution",
-                  "singular": "Getwell Resolution",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "productUsage": {
-                  "original": "Product Usage",
-                  "singular": "Product Usage",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "jobsByTechnician": {
-                  "original": "Jobs By Technician",
-                  "singular": "Jobs By Technician",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "openJobs": {
-                  "original": "Open Jobs",
-                  "singular": "Open Jobs",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "closedJobs": {
-                  "original": "Closed Jobs",
-                  "singular": "Closed Jobs",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "noFaultsBySystem": {
-                  "original": "No. Of Faults By System",
-                  "singular": "No. Of Faults By System",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "totalJobsClosedBySystem": {
-                  "original": "Total Jobs Closed By System",
-                  "singular": "Total Jobs Closed By System",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "faultsClosedPerMonth": {
-                  "original": "Faults Closed Per Month By Technician",
-                  "singular": "Faults Closed Per Month By Technician",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "jobsClosedLastSixMonths": {
-                  "original": "Total Jobs Closed (Last 6 Months)",
-                  "singular": "Total Jobs Closed (Last 6 Months)",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "jobsClosedPerMonthByState": {
-                  "original": "Jobs Closed Per Month By State",
-                  "singular": "Jobs Closed Per Month By State",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "redflagsClosedPerMonthState": {
-                  "original": "Redflags Closed Per Month By State",
-                  "singular": "Redflags Closed Per Month By State",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "jobsClosedPerSystemTimeframe": {
-                  "original": "Jobs Closed Per System By Timeframe",
-                  "singular": "Jobs Closed Per System By Timeframe",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "jobsClosedPerStateTimeframe": {
-                  "original": "Jobs Closed Per State By Timeframe",
-                  "singular": "Jobs Closed Per State By Timeframe",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec2": {
+            "original": "Technician Jobs",
+            "singular": "技术员工作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "This Month",
+            "singular": "本月",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Faults By Technician",
+            "singular": "按技术员分故障",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Last 6 Months",
+            "singular": "过去6个月",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "htrFaultTypes": {
+            "original": "HTR Fault Types",
+            "singular": "HTR故障类型",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "hostelFaultTypes": {
+            "original": "Hostel Fault Types",
+            "singular": "宿舍故障类型",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "lincorFaultTypes": {
+            "original": "Lincor Fault Types",
+            "singular": "Lincor故障类型",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "getwellFaultTypes": {
+            "original": "Getwell Fault Types",
+            "singular": "Getwell故障类型",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "htrResolution": {
+            "original": "HTR Resolution",
+            "singular": "HTR解决方案",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "hostelResolution": {
+            "original": "Hostel Resolution",
+            "singular": "宿舍解决方案",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "lincorResolution": {
+            "original": "Lincor Resolution",
+            "singular": "Lincor解决方案",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "getwellResolution": {
+            "original": "Getwell Resolution",
+            "singular": "Getwell解决方案",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "productUsage": {
+            "original": "Product Usage",
+            "singular": "产品使用",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobsByTechnician": {
+            "original": "Jobs By Technician",
+            "singular": "按技术员分工作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "openJobs": {
+            "original": "Open Jobs",
+            "singular": "打开的工作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "closedJobs": {
+            "original": "Closed Jobs",
+            "singular": "关闭的工作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "noFaultsBySystem": {
+            "original": "No. Of Faults By System",
+            "singular": "系统故障数量",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "totalJobsClosedBySystem": {
+            "original": "Total Jobs Closed By System",
+            "singular": "按系统关闭的总工作量",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "faultsClosedPerMonth": {
+            "original": "Faults Closed Per Month By Technician",
+            "singular": "按技术员每月关闭的故障",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobsClosedLastSixMonths": {
+            "original": "Total Jobs Closed (Last 6 Months)",
+            "singular": "总工作关闭（过去6个月）",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobsClosedPerMonthByState": {
+            "original": "Jobs Closed Per Month By State",
+            "singular": "按州每月关闭的工作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "redflagsClosedPerMonthState": {
+            "original": "Redflags Closed Per Month By State",
+            "singular": "按州每月关闭的红旗",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobsClosedPerSystemTimeframe": {
+            "original": "Jobs Closed Per System By Timeframe",
+            "singular": "按时间框架系统关闭的工作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobsClosedPerStateTimeframe": {
+            "original": "Jobs Closed Per State By Timeframe",
+            "singular": "按时间框架州关闭的工作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        }
       },
       "chubb": {
-          "label": {
-              "original": "Chubb",
-              "singular": "Chubb",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+        "label": {
+          "original": "Chubb",
+          "singular": "Chubb",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Total Task By Team",
+            "singular": "按团队分配的总任务",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Total Task By Team",
-                  "singular": "Total Task By Team",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Total Task Status By Team",
-                  "singular": "Total Task Status By Team",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Team",
-                  "singular": "Team",
-                  "plural": "Teams",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "Journey Details",
-                  "singular": "Journey Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec4": {
-                  "original": "Driver's Supervisor Submit and Approval",
-                  "singular": "Driver's Supervisor Submit and Approval",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec5": {
-                  "original": "Vehicle Details",
-                  "singular": "Vehicle Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec6": {
-                  "original": "Vehicle Inspection",
-                  "singular": "Vehicle Inspection",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec7": {
-                  "original": "Fluids",
-                  "singular": "Fluids",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec8": {
-                  "original": "Vehicle Interior & Equipment",
-                  "singular": "Vehicle Interior & Equipment",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec9": {
-                  "original": "Functional Check before Start of Journey",
-                  "singular": "Functional Check before Start of Journey",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec10": {
-                  "original": "Central",
-                  "singular": "Central",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec11": {
-                  "original": "Northern",
-                  "singular": "Northern",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec12": {
-                  "original": "Southern",
-                  "singular": "Southern",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec13": {
-                  "original": "Sabah & Sarawak",
-                  "singular": "Sabah & Sarawak",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec14": {
-                  "original": "East Coast",
-                  "singular": "East Coast",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec15": {
-                  "original": "All Nation",
-                  "singular": "All Nation",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec16": {
-                  "original": "Journey Management Plan",
-                  "singular": "Journey Management Plan",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec17": {
-                  "original": "Chubb Dashboard",
-                  "singular": "Chubb Dashboard",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec1": {
+            "original": "Total Task Status By Team",
+            "singular": "按团队分配的总任务状态",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "openTask": {
-                  "original": "Open Task",
-                  "singular": "Open Task",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "closedTask": {
-                  "original": "Closed Task",
-                  "singular": "Closed Task",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "noJobStatusTeam": {
-                  "original": "No Job Status by this team yet",
-                  "singular": "No Job Status by this team yet",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "timeframe": {
-                  "original": "Timeframe",
-                  "singular": "Timeframe",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "timeFrame": {
-                  "original": "Time Frame",
-                  "singular": "Time Frame",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "technician": {
-                  "original": "Technician",
-                  "singular": "Technician",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "status": {
-                  "original": "Status",
-                  "singular": "Status",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "descofTrip": {
-                  "original": "Description of Trip",
-                  "singular": "Description of Trip",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "locationTravel": {
-                  "original": "Location of Travel",
-                  "singular": "Location of Travel",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "purposeOfTrip": {
-                  "original": "Purpose of Trip",
-                  "singular": "Purpose of Trip",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "departureDate": {
-                  "original": "Departure Date",
-                  "singular": "Departure Date",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "departureTime": {
-                  "original": "Departure Time",
-                  "singular": "Departure Time",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "returnDate": {
-                  "original": "Return Date",
-                  "singular": "Return Date",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "returnTime": {
-                  "original": "Return Time",
-                  "singular": "Return Time",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "estimatedDistance": {
-                  "original": "Estimated Distance (Km)",
-                  "singular": "Estimated Distance (Km)",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "submittedBy": {
-                  "original": "Submitted By",
-                  "singular": "Submitted By",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "approvedBy": {
-                  "original": "Approved By",
-                  "singular": "Approved By",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "nameOfDriverPassenger": {
-                  "original": "Name of Driver/Passenger/Department",
-                  "singular": "Name of Driver/Passenger/Department",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "nameOfCarPassengerTravel": {
-                  "original": "Name of Car/Passenger/Travel Partners",
-                  "singular": "Name of Car/Passenger/Travel Partners",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "nameOfAlternativeDrivers": {
-                  "original": "Name of Alternative Drivers/ Mobile No.",
-                  "singular": "Name of Alternative Drivers/ Mobile No.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "carRegisterNo": {
-                  "original": "Car Reg No",
-                  "singular": "Car Reg No",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "dateOfLastDefensiveDriving": {
-                  "original": "Date of Last Defensive Driving",
-                  "singular": "Date of Last Defensive Driving",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "dateOfCarLastMaintenance": {
-                  "original": "Date of Car Last Maintenance",
-                  "singular": "Date of Car Last Maintenance",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "validLicenseRoadTax": {
-                  "original": "Valid License and Road Tax",
-                  "singular": "Valid License and Road Tax",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "externalVehicleCondition": {
-                  "original": "External Vehicle Condition",
-                  "singular": "External Vehicle Condition",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "conditionBodyworkWindscreen": {
-                  "original": "Condition of bodywork, windscreen, lights",
-                  "singular": "Condition of bodywork, windscreen, lights",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "comment": {
-                  "original": "Comment",
-                  "singular": "Comment",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "conditionsOfWiper": {
-                  "original": "Condition of windscreen, wiper, blades",
-                  "singular": "Condition of windscreen, wiper, blades",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "conditionsOfTires": {
-                  "original": "Condition of tires, tire pressure, tire wear",
-                  "singular": "Condition of tires, tire pressure, tire wear",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "availabilityWheel": {
-                  "original": "Availability of spare wheel, jack and tools",
-                  "singular": "Availability of spare wheel, jack and tools",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "underVehicleInspection": {
-                  "original": "Under vehicle inspection: leaks, loose parts etc.",
-                  "singular": "Under vehicle inspection: leaks, loose parts etc.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "engineOilLevel": {
-                  "original": "Engine oil level",
-                  "singular": "Engine oil level",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "coolantLevel": {
-                  "original": "Coolant level",
-                  "singular": "Coolant level",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "windscreenWashLevel": {
-                  "original": "Windscreen wash level",
-                  "singular": "Windscreen wash level",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "brakeClutchFluid": {
-                  "original": "Brake/clutch fluid",
-                  "singular": "Brake/clutch fluid",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "powerSteeringFluid": {
-                  "original": "Power steering fluid",
-                  "singular": "Power steering fluid",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "batteryAcidLevel": {
-                  "original": "Battery acid level, connections",
-                  "singular": "Battery acid level, connections",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "oilWasteLeaks": {
-                  "original": "Oil or waste leaks",
-                  "singular": "Oil or waste leaks",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "conditionFunctionSeatbelts": {
-                  "original": "Condition & function of seat belts",
-                  "singular": "Condition & function of seat belts",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "mirrorAdjustment": {
-                  "original": "Mirror adjustment",
-                  "singular": "Mirror adjustment",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "firstAidKit": {
-                  "original": "First Aid Kit",
-                  "singular": "First Aid Kit",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "fireExtinguisher": {
-                  "original": "Fire Extinguisher",
-                  "singular": "Fire Extinguisher",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "warningTriangle": {
-                  "original": "Warning Triangle",
-                  "singular": "Warning Triangle",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "warningLightsWorking": {
-                  "original": "Warning lights in instruments panel working",
-                  "singular": "Warning lights in instruments panel working",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "headlightTailights": {
-                  "original": "Headlight, taillights, brake lights, indicators",
-                  "singular": "Headlight, taillights, brake lights, indicators",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "horn": {
-                  "original": "Horn",
-                  "singular": "Horn",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "washerWipers": {
-                  "original": "Washer & Wipers",
-                  "singular": "Washer & Wipers",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "brakes": {
-                  "original": "Brakes",
-                  "singular": "Brakes",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "knowHazardRoute": {
-                  "original": "Know Hazard on Route",
-                  "singular": "Know Hazard on Route",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "departArrivalTime": {
-                  "original": "Depart and Arrival Time",
-                  "singular": "Depart and Arrival Time",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "restBreakHour": {
-                  "original": "Rest Break Hour?",
-                  "singular": "Rest Break Hour?",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "contactRequired": {
-                  "original": "Contact Required?",
-                  "singular": "Contact Required?",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "jobsIn": {
-                  "original": "Jobs In",
-                  "singular": "Jobs In",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "attendFault": {
-                  "original": "Attend Fault",
-                  "singular": "Attend Fault",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "servicing": {
-                  "original": "Servicing",
-                  "singular": "Servicing",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "installation": {
-                  "original": "Installation",
-                  "singular": "Installation",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "billingPending": {
-                  "original": "Billing Pending",
-                  "singular": "Billing Pending",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "billingCompleted": {
-                  "original": "Billing Completed",
-                  "singular": "Billing Completed",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec2": {
+            "original": "Team",
+            "singular": "团队",
+            "plural": "团队",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "messages": {
-              "selectTimeframe": "Select Timeframe"
+          "sec3": {
+            "original": "Journey Details",
+            "singular": "行程详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Driver's Supervisor Submit and Approval",
+            "singular": "司机主管提交和审批",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Vehicle Details",
+            "singular": "车辆详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Vehicle Inspection",
+            "singular": "车辆检查",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Fluids",
+            "singular": "液体",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Vehicle Interior & Equipment",
+            "singular": "车辆内部及设备",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Functional Check before Start of Journey",
+            "singular": "行程开始前的功能检查",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Central",
+            "singular": "中部",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec11": {
+            "original": "Northern",
+            "singular": "北部",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "Southern",
+            "singular": "南部",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec13": {
+            "original": "Sabah & Sarawak",
+            "singular": "沙巴和砂拉越",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec14": {
+            "original": "East Coast",
+            "singular": "东海岸",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec15": {
+            "original": "All Nation",
+            "singular": "全国",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec16": {
+            "original": "Journey Management Plan",
+            "singular": "行程管理计划",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec17": {
+            "original": "Chubb Dashboard",
+            "singular": "Chubb 仪表板",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "openTask": {
+            "original": "Open Task",
+            "singular": "未完成任务",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "closedTask": {
+            "original": "Closed Task",
+            "singular": "已完成任务",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "noJobStatusTeam": {
+            "original": "No Job Status by this team yet",
+            "singular": "该团队尚无工作状态",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "timeframe": {
+            "original": "Timeframe",
+            "singular": "时间框架",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "timeFrame": {
+            "original": "Time Frame",
+            "singular": "时间框架",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "technician": {
+            "original": "Technician",
+            "singular": "技术员",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "descofTrip": {
+            "original": "Description of Trip",
+            "singular": "行程描述",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "locationTravel": {
+            "original": "Location of Travel",
+            "singular": "旅行地点",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "purposeOfTrip": {
+            "original": "Purpose of Trip",
+            "singular": "旅行目的",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "departureDate": {
+            "original": "Departure Date",
+            "singular": "出发日期",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "departureTime": {
+            "original": "Departure Time",
+            "singular": "出发时间",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "returnDate": {
+            "original": "Return Date",
+            "singular": "返回日期",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "returnTime": {
+            "original": "Return Time",
+            "singular": "返回时间",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "estimatedDistance": {
+            "original": "Estimated Distance (Km)",
+            "singular": "估计距离（公里）",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "submittedBy": {
+            "original": "Submitted By",
+            "singular": "提交者",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "approvedBy": {
+            "original": "Approved By",
+            "singular": "批准者",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "nameOfDriverPassenger": {
+            "original": "Name of Driver/Passenger/Department",
+            "singular": "司机/乘客/部门名称",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "nameOfCarPassengerTravel": {
+            "original": "Name of Car/Passenger/Travel Partners",
+            "singular": "汽车/乘客/旅行伙伴名称",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "nameOfAlternativeDrivers": {
+            "original": "Name of Alternative Drivers/ Mobile No.",
+            "singular": "备用司机姓名/手机号码",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "carRegisterNo": {
+            "original": "Car Reg No",
+            "singular": "汽车登记号",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "dateOfLastDefensiveDriving": {
+            "original": "Date of Last Defensive Driving",
+            "singular": "上次防御性驾驶日期",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "dateOfCarLastMaintenance": {
+            "original": "Date of Car Last Maintenance",
+            "singular": "上次汽车维护日期",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "validLicenseRoadTax": {
+            "original": "Valid License and Road Tax",
+            "singular": "有效执照和路税",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "externalVehicleCondition": {
+            "original": "External Vehicle Condition",
+            "singular": "外部车辆状况",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "conditionBodyworkWindscreen": {
+            "original": "Condition of bodywork, windscreen, lights",
+            "singular": "车身、挡风玻璃、灯光状况",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "comment": {
+            "original": "Comment",
+            "singular": "评论",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "conditionsOfWiper": {
+            "original": "Condition of windscreen, wiper, blades",
+            "singular": "挡风玻璃、雨刮器、刀片状况",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "conditionsOfTires": {
+            "original": "Condition of tires, tire pressure, tire wear",
+            "singular": "轮胎状况、轮胎压力、轮胎磨损",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "availabilityWheel": {
+            "original": "Availability of spare wheel, jack and tools",
+            "singular": "备胎、千斤顶和工具的可用性",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "underVehicleInspection": {
+            "original": "Under vehicle inspection: leaks, loose parts etc.",
+            "singular": "车辆下部检查：泄漏、松动部件等",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "engineOilLevel": {
+            "original": "Engine oil level",
+            "singular": "发动机油位",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "coolantLevel": {
+            "original": "Coolant level",
+            "singular": "冷却液液位",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "windscreenWashLevel": {
+            "original": "Windscreen wash level",
+            "singular": "挡风玻璃清洗液位",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "brakeClutchFluid": {
+            "original": "Brake/clutch fluid",
+            "singular": "刹车/离合器液",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "powerSteeringFluid": {
+            "original": "Power steering fluid",
+            "singular": "动力转向液",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "batteryAcidLevel": {
+            "original": "Battery acid level, connections",
+            "singular": "电池酸液位，连接",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "oilWasteLeaks": {
+            "original": "Oil or waste leaks",
+            "singular": "油或废物泄漏",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "conditionFunctionSeatbelts": {
+            "original": "Condition & function of seat belts",
+            "singular": "安全带状况及功能",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "mirrorAdjustment": {
+            "original": "Mirror adjustment",
+            "singular": "镜子调整",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "firstAidKit": {
+            "original": "First Aid Kit",
+            "singular": "急救箱",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "fireExtinguisher": {
+            "original": "Fire Extinguisher",
+            "singular": "灭火器",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "warningTriangle": {
+            "original": "Warning Triangle",
+            "singular": "警告三角形",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "warningLightsWorking": {
+            "original": "Warning lights in instruments panel working",
+            "singular": "仪表板上的警示灯工作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "headlightTailights": {
+            "original": "Headlight, taillights, brake lights, indicators",
+            "singular": "前灯，尾灯，刹车灯，指示灯",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "horn": {
+            "original": "Horn",
+            "singular": "喇叭",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "washerWipers": {
+            "original": "Washer & Wipers",
+            "singular": "洗涤器和雨刷器",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "brakes": {
+            "original": "Brakes",
+            "singular": "刹车",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "knowHazardRoute": {
+            "original": "Know Hazard on Route",
+            "singular": "了解路线上的危险",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "departArrivalTime": {
+            "original": "Depart and Arrival Time",
+            "singular": "出发和到达时间",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "restBreakHour": {
+            "original": "Rest Break Hour?",
+            "singular": "休息时间？",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "contactRequired": {
+            "original": "Contact Required?",
+            "singular": "需要联系？",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobsIn": {
+            "original": "Jobs In",
+            "singular": "工作在",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "attendFault": {
+            "original": "Attend Fault",
+            "singular": "参加故障",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "servicing": {
+            "original": "Servicing",
+            "singular": "维修",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "installation": {
+            "original": "Installation",
+            "singular": "安装",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "billingPending": {
+            "original": "Billing Pending",
+            "singular": "账单待定",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "billingCompleted": {
+            "original": "Billing Completed",
+            "singular": "账单已完成",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "messages": {
+          "selectTimeframe": "选择时间框架"
+        }
       },
       "service": {
           "setupVisible": true,
           "label": {
               "original": "Service",
-              "singular": "Service",
+              "singular": "服务",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true

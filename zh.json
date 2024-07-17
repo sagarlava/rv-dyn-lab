@@ -18733,123 +18733,123 @@
   "machineSpecialist": {
     "setupVisible": true,
     "label": {
-      "original": "Machine Specialist",
-      "singular": "Machine Specialist",
-      "plural": "Machine Specialists",
-      "setupEdit": true,
-      "setupVisible": true
+        "original": "Machine Specialist",
+        "singular": "机器专家",
+        "plural": "机器专家",
+        "setupEdit": true,
+        "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "sec0": {
-        "original": "Machine Specialist Details",
-        "singular": "Machine Specialist Details",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec1": {
-        "original": "Default Settings",
-        "singular": "Default Setting",
-        "plural": "Default Settings",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Details",
-        "singular": "Details",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "Filter By",
-        "singular": "Filter By",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "sec0": {
+            "original": "Machine Specialist Details",
+            "singular": "机器专家详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec1": {
+            "original": "Default Settings",
+            "singular": "默认设置",
+            "plural": "默认设置",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec2": {
+            "original": "Details",
+            "singular": "详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec3": {
+            "original": "Filter By",
+            "singular": "筛选条件",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "fields": {
-      "setupVisible": true,
-      "machineSpecialist": {
-        "original": "Machine Specialist",
-        "singular": "Machine Specialist",
-        "plural": "Machine Specialists",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "userType": {
-        "original": "User Type",
-        "singular": "User Type",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "status": {
-        "original": "Status",
-        "singular": "Status",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "active": {
-        "original": "Active",
-        "singular": "Active",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "defaultEstate": {
-        "original": "Default Estate",
-        "singular": "Default Estate",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "defaultMachine": {
-        "original": "Default Machine",
-        "singular": "Default Machine",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "machineSpecialist": {
+            "original": "Machine Specialist",
+            "singular": "机器专家",
+            "plural": "机器专家",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "userType": {
+            "original": "User Type",
+            "singular": "用户类型",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "active": {
+            "original": "Active",
+            "singular": "活跃",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "defaultEstate": {
+            "original": "Default Estate",
+            "singular": "默认区域",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "defaultMachine": {
+            "original": "Default Machine",
+            "singular": "默认机器",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "tooltips": {
-      "setupVisible": true,
-      "estateLookup": {
-        "original": "Estate Lookup",
-        "singular": "Estate Lookup",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "machineLookup": {
-        "original": "Machine Lookup",
-        "singular": "Machine Lookup",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "machineSpecialistLookup": {
-        "original": "Machine Specialist Lookup",
-        "singular": "Machine Specialist Lookup",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "pleaseKeyInReason": {
-        "original": "Please key in reason for the change",
-        "singular": "Please key in reason for the change",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "estateLookup": {
+            "original": "Estate Lookup",
+            "singular": "区域查找",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "machineLookup": {
+            "original": "Machine Lookup",
+            "singular": "机器查找",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "machineSpecialistLookup": {
+            "original": "Machine Specialist Lookup",
+            "singular": "机器专家查找",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "pleaseKeyInReason": {
+            "original": "Please key in reason for the change",
+            "singular": "请输入更改原因",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "messages": {
-      "selectOutturnCode": "Select Default Machine"
+        "selectOutturnCode": "选择默认机器"
     }
-  },
+},
   "attendance": {
     "setupVisible": true,
     "label": {

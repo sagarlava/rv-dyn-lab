@@ -12839,6 +12839,68 @@
             }
           }
       },
+      "configuration": {
+        "setupVisible": false,
+        "systemLabel": {
+          "label": {
+            "original": "Label",
+            "singular": "标签",
+            "plural": "标签",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "sec0": {
+              "original": "Modules",
+              "singular": "模块",
+              "plural": "模块",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec1": {
+              "original": "Modules Label",
+              "singular": "模块标签",
+              "plural": "模块标签",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "label": {
+              "original": "Label",
+              "singular": "标签",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "singular": {
+              "original": "Singular",
+              "singular": "单数",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "plural": {
+              "original": "Plural",
+              "singular": "复数",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "selectLanguage": {
+              "original": "Select Language",
+              "singular": "选择语言",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "customizeModuleFieldsAndLabels": "用您喜欢的术语自定义模块字段和标签，您的组织中的所有人都可以看到。您可以为所有可用语言进行此操作。",
+            "lastUpdated": "最后更新"
+          }
+        }
+      },
       "modules": {
           "setupVisible": true,
           "configuration": {

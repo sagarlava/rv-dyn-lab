@@ -12979,6 +12979,68 @@
             }
           }
       },
+      "configuration": {
+        "setupVisible": false,
+        "systemLabel": {
+          "label": {
+            "original": "Label",
+            "singular": "Label",
+            "plural": "Label",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "sec0": {
+              "original": "Modules",
+              "singular": "Modul",
+              "plural": "Modul",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec1": {
+              "original": "Modules Label",
+              "singular": "Label Modul",
+              "plural": "Label Modul",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "label": {
+              "original": "Label",
+              "singular": "Label",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "singular": {
+              "original": "Singular",
+              "singular": "Singular",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "plural": {
+              "original": "Plural",
+              "singular": "Plural",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "selectLanguage": {
+              "original": "Select Language",
+              "singular": "Pilih Bahasa",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "customizeModuleFieldsAndLabels": "Sesuaikan medan dan label modul dengan istilah pilihan anda, untuk dilihat oleh semua orang dalam organisasi anda. Anda boleh melakukan ini untuk semua bahasa yang tersedia.",
+            "lastUpdated": "Terakhir dikemaskini"
+          }
+        }
+      },
       "modules": {
           "setupVisible": true,
           "configuration": {

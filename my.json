@@ -19131,114 +19131,114 @@
   "overtime": {
     "setupVisible": true,
     "label": {
-      "original": "Overtime",
-      "singular": "Overtime",
-      "plural": "",
-      "setupEdit": true,
-      "setupVisible": true
+        "original": "Overtime",
+        "singular": "Lebih Masa",
+        "plural": "Lebih Masa",
+        "setupEdit": true,
+        "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "sec0": {
-        "original": "Overtime Details",
-        "singular": "Overtime Details",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec1": {
-        "original": "Today Pending Overtime",
-        "singular": "Today Pending Overtime",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Pending Overtime",
-        "singular": "Pending Overtime",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "All Overtime",
-        "singular": "All Overtime",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec4": {
-        "original": "Filter By",
-        "singular": "Filter By",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "sec0": {
+            "original": "Overtime Details",
+            "singular": "Butiran Lebih Masa",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec1": {
+            "original": "Today Pending Overtime",
+            "singular": "Lebih Masa Tertangguh Hari Ini",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec2": {
+            "original": "Pending Overtime",
+            "singular": "Lebih Masa Tertangguh",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec3": {
+            "original": "All Overtime",
+            "singular": "Semua Lebih Masa",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec4": {
+            "original": "Filter By",
+            "singular": "Tapis Mengikut",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "fields": {
-      "setupVisible": true,
-      "overimeDate": {
-        "original": "Overtime Date",
-        "singular": "Overtime Date",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "overtimeStatus": {
-        "original": "Overtime Status",
-        "singular": "Overtime Status",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "overtimeHours": {
-        "original": "Overtime Hours",
-        "singular": "Overtime Hours",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "notes": {
-        "original": "Notes",
-        "singular": "Note",
-        "plural": "Notes",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "rejectReason": {
-        "original": "Reject Reason",
-        "singular": "Reject Reason",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "remarks": {
-        "original": "Remarks",
-        "singular": "Remark",
-        "plural": "Remarks",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "overtimeDate": {
+            "original": "Overtime Date",
+            "singular": "Tarikh Lebih Masa",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "overtimeStatus": {
+            "original": "Overtime Status",
+            "singular": "Status Lebih Masa",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "overtimeHours": {
+            "original": "Overtime Hours",
+            "singular": "Jam Lebih Masa",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "notes": {
+            "original": "Notes",
+            "singular": "Nota",
+            "plural": "Nota",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "rejectReason": {
+            "original": "Reject Reason",
+            "singular": "Sebab Penolakan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "remarks": {
+            "original": "Remarks",
+            "singular": "Catatan",
+            "plural": "Catatan",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "tooltips": {
-      "setupVisible": true,
-      "machineSpecialistLookup": {
-        "original": "Machine Specialist Lookup",
-        "singular": "Machine Specialist Lookup",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "pleaseKeyInReason": {
-        "original": "Please key in reason for the change",
-        "singular": "Please key in reason for the change",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "machineSpecialistLookup": {
+            "original": "Machine Specialist Lookup",
+            "singular": "Carian Pakar Mesin",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "pleaseKeyInReason": {
+            "original": "Please key in reason for the change",
+            "singular": "Sila masukkan sebab untuk perubahan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "message": {
-      "selectTime": "Select Time"
+        "selectTime": "Pilih Masa"
     }
   },
   "productivity": {

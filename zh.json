@@ -18959,114 +18959,114 @@
   "overtime": {
     "setupVisible": true,
     "label": {
-      "original": "Overtime",
-      "singular": "Overtime",
-      "plural": "",
-      "setupEdit": true,
-      "setupVisible": true
+        "original": "Overtime",
+        "singular": "加班",
+        "plural": "加班",
+        "setupEdit": true,
+        "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "sec0": {
-        "original": "Overtime Details",
-        "singular": "Overtime Details",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec1": {
-        "original": "Today Pending Overtime",
-        "singular": "Today Pending Overtime",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Pending Overtime",
-        "singular": "Pending Overtime",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "All Overtime",
-        "singular": "All Overtime",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec4": {
-        "original": "Filter By",
-        "singular": "Filter By",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "sec0": {
+            "original": "Overtime Details",
+            "singular": "加班详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec1": {
+            "original": "Today Pending Overtime",
+            "singular": "今日待处理加班",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec2": {
+            "original": "Pending Overtime",
+            "singular": "待处理加班",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec3": {
+            "original": "All Overtime",
+            "singular": "所有加班",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sec4": {
+            "original": "Filter By",
+            "singular": "筛选条件",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "fields": {
-      "setupVisible": true,
-      "overimeDate": {
-        "original": "Overtime Date",
-        "singular": "Overtime Date",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "overtimeStatus": {
-        "original": "Overtime Status",
-        "singular": "Overtime Status",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "overtimeHours": {
-        "original": "Overtime Hours",
-        "singular": "Overtime Hours",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "notes": {
-        "original": "Notes",
-        "singular": "Note",
-        "plural": "Notes",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "rejectReason": {
-        "original": "Reject Reason",
-        "singular": "Reject Reason",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "remarks": {
-        "original": "Remarks",
-        "singular": "Remark",
-        "plural": "Remarks",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "overtimeDate": {
+            "original": "Overtime Date",
+            "singular": "加班日期",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "overtimeStatus": {
+            "original": "Overtime Status",
+            "singular": "加班状态",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "overtimeHours": {
+            "original": "Overtime Hours",
+            "singular": "加班时数",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "notes": {
+            "original": "Notes",
+            "singular": "备注",
+            "plural": "备注",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "rejectReason": {
+            "original": "Reject Reason",
+            "singular": "拒绝原因",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "remarks": {
+            "original": "Remarks",
+            "singular": "备注",
+            "plural": "备注",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "tooltips": {
-      "setupVisible": true,
-      "machineSpecialistLookup": {
-        "original": "Machine Specialist Lookup",
-        "singular": "Machine Specialist Lookup",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "pleaseKeyInReason": {
-        "original": "Please key in reason for the change",
-        "singular": "Please key in reason for the change",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      }
+        "setupVisible": true,
+        "machineSpecialistLookup": {
+            "original": "Machine Specialist Lookup",
+            "singular": "机器专家查找",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "pleaseKeyInReason": {
+            "original": "Please key in reason for the change",
+            "singular": "请输入更改原因",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        }
     },
     "message": {
-      "selectTime": "Select Time"
+        "selectTime": "选择时间"
     }
   },
   "productivity": {

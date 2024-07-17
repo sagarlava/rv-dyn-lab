@@ -13785,21 +13785,11 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
-            },
-            "possibleStatus": {
-              "original": "The different channels your",
-              "singular": "The different channels your",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-            },
-            "comeThrough": {
-              "original": "come through",
-              "singular": "come through",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
             }
+          },
+          "messages":{
+            "differentChannel":"The different channels your",
+            "comeThrough": "come through"
           }
         },
         "area": {

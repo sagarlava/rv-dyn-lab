@@ -13214,21 +13214,21 @@
               },
               "sec2": {
                 "original": "Sorting",
-                "singular": "Pengisihan",
+                "singular": "Penyusunan",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false
               },
               "sec3": {
                 "original": "Start by giving the list view a name",
-                "singular": "Mulakan dengan memberikan nama paparan senarai",
+                "singular": "Mulakan dengan memberi nama paparan senarai",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false
               },
               "sec4": {
                 "original": "Move the fields you want to be shown in the list view to the right-side box and arrange them in your preferred order. The first column is a running ID. You may add up to 13 additional columns.",
-                "singular": "Pindahkan medan yang anda mahu ditunjukkan dalam paparan senarai ke kotak sebelah kanan dan susun mengikut urutan pilihan anda. Lajur pertama adalah ID berjalan. Anda boleh menambah hingga 13 lajur tambahan.",
+                "singular": "Pindahkan medan yang anda mahu dipaparkan dalam paparan senarai ke kotak sebelah kanan dan susunkannya mengikut keutamaan anda. Lajur pertama adalah ID berjalan. Anda boleh menambah sehingga 13 lajur tambahan.",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false
@@ -13249,7 +13249,7 @@
               },
               "sec7": {
                 "original": "Selected",
-                "singular": "Dipilih",
+                "singular": "Terpilih",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false
@@ -13263,7 +13263,7 @@
               },
               "sec9": {
                 "original": "View Currently Used By",
-                "singular": "Paparan yang Sedang Digunakan Oleh",
+                "singular": "Paparan Kini Digunakan Oleh",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false
@@ -13292,7 +13292,7 @@
               "sec13": {
                 "original": "Users",
                 "singular": "Pengguna",
-                "plural": "",
+                "plural": "Pengguna",
                 "setupEdit": true,
                 "setupVisible": false
               }
@@ -13328,8 +13328,8 @@
                 "setupVisible": false
               },
               "order": {
-                "original": "order",
-                "singular": "pesanan",
+                "original": "Order",
+                "singular": "Susunan",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false
@@ -13361,892 +13361,882 @@
             },
             "validationFE": {},
             "messages": {
-              "createCustom": "Buat khusus",
-              "listViewInstructions": "paparan senarai: Pilih medan yang anda mahu lihat dan susun mengikut urutan yang paling sesuai untuk anda. Anda kemudian boleh menetapkan paparan lalai untuk pengguna dan profil akses yang berbeza daripada paparan yang anda buat.",
+              "createCustom": "Buat paparan tersuai",
+              "listViewInstructions": "Paparan senarai: Pilih medan yang anda mahu lihat dan susunkannya dalam urutan yang paling sesuai untuk anda. Anda kemudian boleh menetapkan paparan lalai untuk pengguna dan profil akses yang berbeza dari paparan yang anda cipta.",
               "in": "dalam",
-              "viewNotUsedAccess": "Tidak digunakan oleh sebarang Profil Akses",
-              "viewNotUsedUsers": "Tidak digunakan oleh sebarang Pengguna"
+              "viewNotUsedAccess":"Tidak digunakan oleh mana-mana Profil Akses",
+              "viewNotUsedUsers":"Tidak digunakan oleh mana-mana Pengguna"
             }
           },
           "picklist": {
               "setupVisible": false,
               "label": {
-                  "original": "Picklist",
-                  "singular": "Picklist",
-                  "plural": "Picklists",
-                  "setupEdit": true,
-                  "setupVisible": false
+                "original": "Picklist",
+                "singular": "Senarai Pilih",
+                "plural": "Senarai Pilih",
+                "setupEdit": true,
+                "setupVisible": false
               },
               "fields": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "Field Labels",
-                      "singular": "Field Label",
-                      "plural": "Field Labels",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "description": {
-                      "original": "Description",
-                      "singular": "Description",
-                      "plural": "Descriptions",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  }
+                "setupVisible": false,
+                "label": {
+                  "original": "Field Labels",
+                  "singular": "Label Medan",
+                  "plural": "Label Medan",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "description": {
+                  "original": "Description",
+                  "singular": "Deskripsi",
+                  "plural": "Deskripsi",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
               },
               "type": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Type",
+                  "singular": "Jenis",
+                  "plural": "Jenis",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Type Details",
+                    "singular": "Butiran Jenis",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "sec1": {
+                    "original": "Available Statuses for this Type",
+                    "singular": "Status Tersedia untuk Jenis ini",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "sec2": {
+                    "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                    "singular": "Nyatakan status yang terpakai untuk Jenis Pesanan Kerja ini. Yang dalam kotak sebelah kanan akan dipaparkan dalam senarai pilih status apabila Jenis Pesanan Kerja ini dipilih",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "fields": {
                   "setupVisible": false,
                   "label": {
-                      "original": "Type",
-                      "singular": "Type",
-                      "plural": "Types",
-                      "setupEdit": true,
-                      "setupVisible": false
+                    "original": "Label",
+                    "singular": "Label",
+                    "plural": "Label",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Type Details",
-                          "singular": "Type Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "sec1": {
-                          "original": "Available Statuses for this Type",
-                          "singular": "Available Statuses for this Type",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "sec2": {
-                          "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                          "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "description": {
+                    "original": "Description",
+                    "singular": "Deskripsi",
+                    "plural": "Deskripsi",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "Labels",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "description": {
-                          "original": "Description",
-                          "singular": "Description",
-                          "plural": "Descriptions",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "Codes",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "code": {
+                    "original": "Code",
+                    "singular": "Kod",
+                    "plural": "Kod",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "messages": {
-                      "describeType": "Describe the types of",
-                      "youReceive": "you receive",
-                      "availableStatus": "Available Statuses for this Type",
-                      "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                      "notForThisJobType": "Not for this Job Order Type",
-                      "forThisJobType": "For this Job Order Type"
+                  "order": {
+                    "original": "Order",
+                    "singular": "Susunan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "status": {
+                    "original": "Status",
+                    "singular": "Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "default": {
+                    "original": "Default",
+                    "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "messages": {
+                  "describeType": "Terangkan jenis",
+                  "youReceive": "anda terima",
+                  "availableStatus": "Status Tersedia untuk Jenis ini",
+                  "specifyStatusJobOrder": "Nyatakan status yang terpakai untuk Jenis Pesanan Kerja ini. Yang dalam kotak sebelah kanan akan dipaparkan dalam senarai pilih status apabila Jenis Pesanan Kerja ini dipilih",
+                  "notForThisJobType": "Bukan untuk Jenis Pesanan Kerja ini",
+                  "forThisJobType": "Untuk Jenis Pesanan Kerja ini"
+                }
               },
               "status": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Status",
+                  "singular": "Status",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Status Details",
+                    "singular": "Butiran Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "fields": {
                   "setupVisible": false,
                   "label": {
-                      "original": "Status",
-                      "singular": "Status",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": false
+                    "original": "Label",
+                    "singular": "Label",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Status Details",
-                          "singular": "Status Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "code": {
+                    "original": "Code",
+                    "singular": "Kod",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "colorCode": {
-                          "original": "Color Code",
-                          "singular": "Color Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "order": {
+                    "original": "Order",
+                    "singular": "Susunan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "messages": {
-                      "possibleStatus": "The possible statuses your",
-                      "mayGoThrough": "may go through"
+                  "status": {
+                    "original": "Status",
+                    "singular": "Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "default": {
+                    "original": "Default",
+                    "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "colorCode": {
+                    "original": "Color Code",
+                    "singular": "Kod Warna",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "messages": {
+                  "possibleStatus": "Status yang mungkin dilalui oleh",
+                  "mayGoThrough": "mungkin melalui"
+                }
               },
               "channel": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Channel",
+                  "singular": "Saluran",
+                  "plural": "Saluran",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Channel Details",
+                    "singular": "Butiran Saluran",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "fields": {
                   "setupVisible": false,
                   "label": {
-                      "original": "Channel",
-                      "singular": "Channel",
-                      "plural": "Channels",
-                      "setupEdit": true,
-                      "setupVisible": false
+                    "original": "Label",
+                    "singular": "Label",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Channel Details",
-                          "singular": "Channel Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "code": {
+                    "original": "Code",
+                    "singular": "Kod",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "possibleStatus": {
-                          "original": "The different channels your",
-                          "singular": "The different channels your",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "comeThrough": {
-                          "original": "come through",
-                          "singular": "come through",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "order": {
+                    "original": "Order",
+                    "singular": "Susunan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "status": {
+                    "original": "Status",
+                    "singular": "Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "default": {
+                    "original": "Default",
+                    "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "messages":{
+                  "differentChannel":"Saluran berbeza yang melalui",
+                  "comeThrough": "melalui"
+                }
               },
               "area": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Area",
+                  "singular": "Kawasan",
+                  "plural": "Kawasan",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Area Details",
+                    "singular": "Butiran Kawasan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "fields": {
                   "setupVisible": false,
                   "label": {
-                      "original": "Area",
-                      "singular": "Area",
-                      "plural": "Areas",
-                      "setupEdit": true,
-                      "setupVisible": false
+                    "original": "Label",
+                    "singular": "Label",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Area Details",
-                          "singular": "Area Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "code": {
+                    "original": "Code",
+                    "singular": "Kod",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "order": {
+                    "original": "Order",
+                    "singular": "Susunan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "messages": {
-                      "yourListOf": "Your list of areas your",
-                      "resideIn": "reside in"
+                  "status": {
+                    "original": "Status",
+                    "singular": "Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "default": {
+                    "original": "Default",
+                    "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "messages": {
+                  "yourListOf": "Senarai kawasan di mana",
+                  "resideIn": "berada"
+                }
               },
               "category": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Category",
+                  "singular": "Kategori",
+                  "plural": "Kategori",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Category Details",
+                    "singular": "Butiran Kategori",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "fields": {
                   "setupVisible": false,
                   "label": {
-                      "original": "Category",
-                      "singular": "Category",
-                      "plural": "Categories",
-                      "setupEdit": true,
-                      "setupVisible": false
+                    "original": "Label",
+                    "singular": "Label",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Category Details",
-                          "singular": "Category Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "code": {
+                    "original": "Code",
+                    "singular": "Kod",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "order": {
+                    "original": "Order",
+                    "singular": "Susunan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "messages": {
-                      "differentWays": "The different ways your",
-                      "categorized": "categorized"
+                  "status": {
+                    "original": "Status",
+                    "singular": "Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "default": {
+                    "original": "Default",
+                    "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "messages": {
+                  "differentWays": "Cara berbeza untuk",
+                  "categorized": "dikategorikan"
+                }
               },
               "subCategory": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Sub Category",
+                  "singular": "Sub Kategori",
+                  "plural": "Sub Kategori",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Sub Category Details",
+                    "singular": "Butiran Sub Kategori",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "fields": {
                   "setupVisible": false,
                   "label": {
-                      "original": "Sub Category",
-                      "singular": "Sub Category",
-                      "plural": "Sub Categories",
-                      "setupEdit": true,
-                      "setupVisible": false
+                    "original": "Label",
+                    "singular": "Label",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Sub Category Details",
-                          "singular": "Sub Category Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "code": {
+                    "original": "Code",
+                    "singular": "Kod",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "category": {
-                          "original": "Category",
-                          "singular": "Category",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "order": {
+                    "original": "Order",
+                    "singular": "Susunan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "messages": {
-                      "divisionCategory": "The divisions you have within each category"
+                  "category": {
+                    "original": "Category",
+                    "singular": "Kategori",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "status": {
+                    "original": "Status",
+                    "singular": "Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "default": {
+                    "original": "Default",
+                    "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "messages": {
+                  "divisionCategory": "Bahagian dalam setiap kategori"
+                }
               },
               "departments": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Department",
+                  "singular": "Jabatan",
+                  "plural": "Jabatan",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Department Details",
+                    "singular": "Butiran Jabatan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "fields": {
                   "setupVisible": false,
                   "label": {
-                      "original": "Department",
-                      "singular": "Department",
-                      "plural": "Departments",
-                      "setupEdit": true,
-                      "setupVisible": false
+                    "original": "Label",
+                    "singular": "Label",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Department Details",
-                          "singular": "Department Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "status": {
+                    "original": "Status",
+                    "singular": "Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "messages": {
-                      "departmentEachAssign": "The departments each of your",
-                      "mayAssignTo": "may be assigned to"
+                  "default": {
+                    "original": "Default",
+                    "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "messages": {
+                  "departmentEachAssign": "Jabatan yang boleh ditugaskan kepada",
+                  "mayAssignTo": "boleh ditugaskan kepada"
+                }
               },
               "fault": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Fault",
+                  "singular": "Kesalahan",
+                  "plural": "Kesalahan",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Fault Type",
+                    "singular": "Jenis Kesalahan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "sec1": {
+                    "original": "Fault Type Details",
+                    "singular": "Butiran Jenis Kesalahan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "fields": {
                   "setupVisible": false,
                   "label": {
-                      "original": "Fault",
-                      "singular": "Fault",
-                      "plural": "Faults",
-                      "setupEdit": true,
-                      "setupVisible": false
+                    "original": "Label",
+                    "singular": "Label",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Fault Type",
-                          "singular": "Fault Type",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "sec1": {
-                          "original": "Fault Type Details",
-                          "singular": "Fault Type Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "order": {
+                    "original": "Order",
+                    "singular": "Susunan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "status": {
+                    "original": "Status",
+                    "singular": "Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "messages": {
-                      "commonFaultsRaised": "The list of most common faults raised"
+                  "default": {
+                    "original": "Default",
+                    "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "messages": {
+                  "commonFaultsRaised": "Senarai kesalahan biasa yang timbul"
+                }
               },
               "priority": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Priority",
+                  "singular": "Keutamaan",
+                  "plural": "Keutamaan",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
                   "setupVisible": false,
-                  "label": {
-                      "original": "Priority",
-                      "singular": "Priority",
-                      "plural": "Priorities",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Priority Details",
-                          "singular": "Priority Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "name": {
-                          "original": "Name",
-                          "singular": "Name",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "messages": {
-                      "urgentImportant": "How urgent and important each ticket is"
+                  "sec0": {
+                    "original": "Priority Details",
+                    "singular": "Butiran Keutamaan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "fields": {
+                  "setupVisible": false,
+                  "name": {
+                    "original": "Name",
+                    "singular": "Nama",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "order": {
+                    "original": "Order",
+                    "singular": "Susunan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "status": {
+                    "original": "Status",
+                    "singular": "Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "default": {
+                    "original": "Default",
+                    "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "messages": {
+                  "urgentImportant": "Betapa mendesak dan penting setiap tiket"
+                }
               },
               "resolution": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Resolution",
+                  "singular": "Penyelesaian",
+                  "plural": "Penyelesaian",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
                   "setupVisible": false,
-                  "label": {
-                      "original": "Resolution",
-                      "singular": "Resolution",
-                      "plural": "Resolutions",
-                      "setupEdit": true,
-                      "setupVisible": false
+                  "sec0": {
+                    "original": "Resolution",
+                    "singular": "Penyelesaian",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Resolution",
-                          "singular": "Resolution",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "sec1": {
-                          "original": "Resolution Type Details",
-                          "singular": "Resolution Type Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "name": {
-                          "original": "Name",
-                          "singular": "Name",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "sec1": {
+                    "original": "Resolution Type Details",
+                    "singular": "Butiran Jenis Penyelesaian",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "fields": {
+                  "setupVisible": false,
+                  "name": {
+                    "original": "Name",
+                    "singular": "Nama",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "label": {
+                    "original": "Label",
+                    "singular": "Label",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "code": {
+                    "original": "Code",
+                    "singular": "Kod",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "order": {
+                    "original": "Order",
+                    "singular": "Susunan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "status": {
+                    "original": "Status",
+                    "singular": "Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "default": {
+                    "original": "Default",
+                    "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                }
               },
               "system": {
+                "setupVisible": false,
+                "label": {
+                  "original": "System",
+                  "singular": "Sistem",
+                  "plural": "Sistem",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "System",
+                    "singular": "Sistem",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "sec1": {
+                    "original": "System Details",
+                    "singular": "Butiran Sistem",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "fields": {
                   "setupVisible": false,
                   "label": {
-                      "original": "System",
-                      "singular": "System",
-                      "plural": "Systems",
-                      "setupEdit": true,
-                      "setupVisible": false
+                    "original": "Label",
+                    "singular": "Label",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "System",
-                          "singular": "System",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "sec1": {
-                          "original": "System Details",
-                          "singular": "System Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "order": {
+                    "original": "Order",
+                    "singular": "Susunan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "status": {
+                    "original": "Status",
+                    "singular": "Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "code": {
+                    "original": "Code",
+                    "singular": "Kod",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "default": {
+                    "original": "Default",
+                    "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                }
               },
               "family": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Family",
+                  "singular": "Keluarga",
+                  "plural": "Keluarga",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
                   "setupVisible": false,
-                  "label": {
-                      "original": "Family",
-                      "singular": "Family",
-                      "plural": "Family",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Family Details",
-                          "singular": "Family Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "name": {
-                          "original": "Name",
-                          "singular": "Name",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "sec0": {
+                    "original": "Family Details",
+                    "singular": "Butiran Keluarga",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "fields": {
+                  "setupVisible": false,
+                  "name": {
+                    "original": "Name",
+                    "singular": "Nama",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "label": {
+                    "original": "Label",
+                    "singular": "Label",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "order": {
+                    "original": "Order",
+                    "singular": "Susunan",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "status": {
+                    "original": "Status",
+                    "singular": "Status",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "code": {
+                    "original": "Code",
+                    "singular": "Kod",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "default": {
+                    "original": "Default",
+                    "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                }
               },
               "unitMeasurement": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Unit of Measurement",
+                  "singular": "Unit Pengukuran",
+                  "plural": "Unit Pengukuran",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
                   "setupVisible": false,
-                  "label": {
-                      "original": "Unit of Measurement",
-                      "singular": "Unit of Measurement",
-                      "plural": "Unit of Measurement",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Unit Details",
-                          "singular": "Unit Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
+                  "sec0": {
+                    "original": "Unit Details",
+                    "singular": "Butiran Unit",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
                   "fields": {
                       "setupVisible": false,
                       "name": {
-                          "original": "Name",
-                          "singular": "Name",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
+                        "original": "Name",
+                        "singular": "Nama",
+                        "plural": "",
+                        "setupEdit": true,
+                        "setupVisible": false
                       },
                       "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
+                        "original": "Label",
+                        "singular": "Label",
+                        "plural": "",
+                        "setupEdit": true,
+                        "setupVisible": false
                       },
                       "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
+                        "original": "Order",
+                        "singular": "Susunan",
+                        "plural": "",
+                        "setupEdit": true,
+                        "setupVisible": false
                       },
                       "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
+                        "original": "Status",
+                        "singular": "Status",
+                        "plural": "",
+                        "setupEdit": true,
+                        "setupVisible": false
                       },
                       "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
+                        "original": "Code",
+                        "singular": "Kod",
+                        "plural": "",
+                        "setupEdit": true,
+                        "setupVisible": false
                       },
                       "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
+                        "original": "Default",
+                        "singular": "Lalai",
+                        "plural": "",
+                        "setupEdit": true,
+                        "setupVisible": false
                       }
                   }
               },
               "validationFE": {},
               "messages": {
-                  "commonResolutionsEncountered": "The most common resolutions for the faults encountered"
+                "commonResolutionsEncountered": "Penyelesaian yang paling biasa untuk kesalahan yang ditemui"
               }
           },
           "geofence": {
@@ -15296,99 +15286,99 @@
             }
           },
           "serviceZone": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Service Zone",
-                  "singular": "Zon Perkhidmatan",
-                  "plural": "Service Zones",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Service Zone Details",
-                      "singular": "Service Zone Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "fields": {
-                  "setupVisible": true,
-                  "code": {
-                      "original": "Code",
-                      "singular": "Code",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "default": {
-                      "original": "Default",
-                      "singular": "Default",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "description": {
-                      "original": "Description",
-                      "singular": "Deskripsi",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "fieldLabel": {
-                      "original": "Field Label",
-                      "singular": "Field Label",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "label": {
-                      "original": "Label",
-                      "singular": "Label",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "order": {
-                      "original": "Order",
-                      "singular": "Order",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "status": {
-                      "original": "Status",
-                      "singular": "Status",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "picklist": {
-                      "original": "Picklist",
-                      "singular": "Picklist",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "validationFE": {},
-              "validationBE": {
-                  "requiredField": "Required Field",
-                  "invalidPhoneNumber": "Invalid Phone Number",
-                  "invalidEmailFormat": "Invalid Email Format"
-              },
-              "tooltips": {
-                  "setupVisible": true,
-                  "serviceZone": {
-                      "original": "Your service zones",
-                      "singular": "Your service zones",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
+            "setupVisible": false,
+            "label": {
+              "original": "Service Zone",
+              "singular": "Zon Servis",
+              "plural": "Zon Servis",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "setupVisible": false,
+              "sec0": {
+                "original": "Service Zone Details",
+                "singular": "Butiran Zon Servis",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
+            },
+            "fields": {
+              "setupVisible": false,
+              "code": {
+                "original": "Code",
+                "singular": "Kod",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "default": {
+                "original": "Default",
+                "singular": "Lalai",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Penerangan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "fieldLabel": {
+                "original": "Field Label",
+                "singular": "Label Medan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "label": {
+                "original": "Label",
+                "singular": "Label",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "order": {
+                "original": "Order",
+                "singular": "Susunan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "status": {
+                "original": "Status",
+                "singular": "Status",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "picklist": {
+                "original": "Picklist",
+                "singular": "Senarai Pilihan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "validationFE": {},
+            "validationBE": {
+              "requiredField": "Medan Diperlukan",
+              "invalidPhoneNumber": "Nombor Telefon Tidak Sah",
+              "invalidEmailFormat": "Format E-mel Tidak Sah"
+            },
+            "tooltips": {
+              "setupVisible": false,
+              "serviceZone": {
+                "original": "Your service zones",
+                "singular": "Zon Servis Anda",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            }
           }
       },
       "checklist": {

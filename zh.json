@@ -13042,1065 +13042,1055 @@
               }
           },
           "listView": {
+          "setupVisible": false,
+          "label": {
+            "original": "List View",
+            "singular": "列表视图",
+            "plural": "列表视图",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
             "setupVisible": false,
-            "label": {
-              "original": "List View",
-              "singular": "列表视图",
-              "plural": "列表视图",
+            "sec0": {
+              "original": "View Details",
+              "singular": "查看详情",
+              "plural": "",
               "setupEdit": true,
               "setupVisible": false
             },
-            "sections": {
-              "setupVisible": false,
-              "sec0": {
-                "original": "View Details",
-                "singular": "查看详情",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec1": {
-                "original": "Field Selection",
-                "singular": "字段选择",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec2": {
-                "original": "Sorting",
-                "singular": "排序",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec3": {
-                "original": "Start by giving the list view a name",
-                "singular": "首先为列表视图命名",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec4": {
-                "original": "Move the fields you want to be shown in the list view to the right-side box and arrange them in your preferred order. The first column is a running ID. You may add up to 13 additional columns.",
-                "singular": "将您希望在列表视图中显示的字段移动到右侧框中，并按您的首选顺序排列。第一列是运行ID。您可以添加最多13个附加列。",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec5": {
-                "original": "Select the column you want to sort by and mark whether it should ascend or descend",
-                "singular": "选择要排序的列并标记其应升序还是降序",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec6": {
-                "original": "Available",
-                "singular": "可用的",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec7": {
-                "original": "Selected",
-                "singular": "已选择的",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec8": {
-                "original": "Fields in View",
-                "singular": "视图中的字段",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec9": {
-                "original": "View Currently Used By",
-                "singular": "当前使用的视图",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec10": {
-                "original": "Position",
-                "singular": "位置",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec11": {
-                "original": "Field",
-                "singular": "字段",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec12": {
-                "original": "Access Profiles",
-                "singular": "访问配置文件",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sec13": {
-                "original": "Users",
-                "singular": "用户",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              }
+            "sec1": {
+              "original": "Field Selection",
+              "singular": "字段选择",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
             },
-            "fields": {
-              "setupVisible": false,
-              "name": {
-                "original": "Name",
-                "singular": "名称",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "status": {
-                "original": "Status",
-                "singular": "状态",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sortBy": {
-                "original": "Sort By",
-                "singular": "排序依据",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sortedBy": {
-                "original": "Sorted by",
-                "singular": "排序依据",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "order": {
-                "original": "order",
-                "singular": "订单",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              }
+            "sec2": {
+              "original": "Sorting",
+              "singular": "排序",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
             },
-            "tooltips": {
-              "setupVisible": false,
-              "ascending": {
-                "original": "Ascending",
-                "singular": "升序",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "descending": {
-                "original": "Descending",
-                "singular": "降序",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "viewProfiles": {
-                "original": "View Profiles",
-                "singular": "查看配置文件",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-              }
+            "sec3": {
+              "original": "Start by giving the list view a name",
+              "singular": "首先为列表视图命名",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
             },
-            "validationFE": {},
-            "messages": {
-              "createCustom": "创建自定义",
-              "listViewInstructions": "列表视图：选择要查看的字段并按最适合您的顺序排列。然后，您可以为不同的用户和访问配置文件设置默认视图。",
-              "in": "在",
-              "viewNotUsedAccess": "未被任何访问配置文件使用",
-              "viewNotUsedUsers": "未被任何用户使用"
+            "sec4": {
+              "original": "Move the fields you want to be shown in the list view to the right-side box and arrange them in your preferred order. The first column is a running ID. You may add up to 13 additional columns.",
+              "singular": "将您希望显示在列表视图中的字段移动到右侧框中，并按您的优先顺序排列。第一列是运行ID。您最多可以添加13列。",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec5": {
+              "original": "Select the column you want to sort by and mark whether it should ascend or descend",
+              "singular": "选择要排序的列，并标记它是升序还是降序",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec6": {
+              "original": "Available",
+              "singular": "可用",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec7": {
+              "original": "Selected",
+              "singular": "已选",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec8": {
+              "original": "Fields in View",
+              "singular": "视图中的字段",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec9": {
+              "original": "View Currently Used By",
+              "singular": "当前使用的视图",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec10": {
+              "original": "Position",
+              "singular": "位置",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec11": {
+              "original": "Field",
+              "singular": "字段",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec12": {
+              "original": "Access Profiles",
+              "singular": "访问配置文件",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec13": {
+              "original": "Users",
+              "singular": "用户",
+              "plural": "用户",
+              "setupEdit": true,
+              "setupVisible": false
             }
+          },
+          "fields": {
+            "setupVisible": false,
+            "name": {
+              "original": "Name",
+              "singular": "名称",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "status": {
+              "original": "Status",
+              "singular": "状态",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sortBy": {
+              "original": "Sort By",
+              "singular": "排序依据",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sortedBy": {
+              "original": "Sorted by",
+              "singular": "排序依据",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "order": {
+              "original": "Order",
+              "singular": "顺序",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "tooltips": {
+            "setupVisible": false,
+            "ascending": {
+              "original": "Ascending",
+              "singular": "升序",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "descending": {
+              "original": "Descending",
+              "singular": "降序",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "viewProfiles": {
+              "original": "View Profiles",
+              "singular": "查看配置文件",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "validationFE": {},
+          "messages": {
+            "createCustom": "创建自定义",
+            "listViewInstructions": "列表视图：选择您想要查看的字段，并按对您最有意义的顺序排列。然后，您可以从创建的视图中为不同的用户和访问配置文件设置默认视图。",
+            "in": "在",
+            "viewNotUsedAccess":"未被任何访问配置文件使用",
+            "viewNotUsedUsers":"未被任何用户使用"
+          }
           },
           "picklist": {
               "setupVisible": false,
               "label": {
-                  "original": "Picklist",
-                  "singular": "Picklist",
-                  "plural": "Picklists",
-                  "setupEdit": true,
-                  "setupVisible": false
+                "original": "Picklist",
+                "singular": "选择列表",
+                "plural": "选择列表",
+                "setupEdit": true,
+                "setupVisible": false
               },
               "fields": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Field Labels",
+                  "singular": "字段标签",
+                  "plural": "字段标签",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "description": {
+                  "original": "Description",
+                  "singular": "描述",
+                  "plural": "描述",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+             "type": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Type",
+                  "singular": "类型",
+                  "plural": "类型",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Type Details",
+                    "singular": "类型详情",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "sec1": {
+                    "original": "Available Statuses for this Type",
+                    "singular": "此类型的可用状态",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "sec2": {
+                    "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
+                    "singular": "指定适用于此工作订单类型的状态。右侧框中的状态将在选择此工作订单类型时显示在状态选择列表中",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "fields": {
                   "setupVisible": false,
                   "label": {
-                      "original": "Field Labels",
-                      "singular": "Field Label",
-                      "plural": "Field Labels",
-                      "setupEdit": true,
-                      "setupVisible": false
+                    "original": "Label",
+                    "singular": "标签",
+                    "plural": "标签",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
                   "description": {
-                      "original": "Description",
-                      "singular": "Description",
-                      "plural": "Descriptions",
-                      "setupEdit": true,
-                      "setupVisible": false
+                    "original": "Description",
+                    "singular": "描述",
+                    "plural": "描述",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "code": {
+                    "original": "Code",
+                    "singular": "代码",
+                    "plural": "代码",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "order": {
+                    "original": "Order",
+                    "singular": "顺序",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "status": {
+                    "original": "Status",
+                    "singular": "状态",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "default": {
+                    "original": "Default",
+                    "singular": "默认",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
-              },
-              "type": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "Type",
-                      "singular": "Type",
-                      "plural": "Types",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Type Details",
-                          "singular": "Type Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "sec1": {
-                          "original": "Available Statuses for this Type",
-                          "singular": "Available Statuses for this Type",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "sec2": {
-                          "original": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                          "singular": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "Labels",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "description": {
-                          "original": "Description",
-                          "singular": "Description",
-                          "plural": "Descriptions",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "Codes",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "messages": {
-                      "describeType": "Describe the types of",
-                      "youReceive": "you receive",
-                      "availableStatus": "Available Statuses for this Type",
-                      "specifyStatusJobOrder": "Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
-                      "notForThisJobType": "Not for this Job Order Type",
-                      "forThisJobType": "For this Job Order Type"
-                  }
+                },
+                "messages": {
+                  "describeType": "描述类型",
+                  "youReceive": "你收到的",
+                  "availableStatus": "此类型的可用状态",
+                  "specifyStatusJobOrder": "指定适用于此工作订单类型的状态。右侧框中的状态将在选择此工作订单类型时显示在状态选择列表中",
+                  "notForThisJobType": "不适用于此工作订单类型",
+                  "forThisJobType": "适用于此工作订单类型"
+                }
               },
               "status": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Status",
+                  "singular": "状态",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sections": {
+                  "setupVisible": false,
+                  "sec0": {
+                    "original": "Status Details",
+                    "singular": "状态详情",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  }
+                },
+                "fields": {
                   "setupVisible": false,
                   "label": {
-                      "original": "Status",
-                      "singular": "Status",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": false
+                    "original": "Label",
+                    "singular": "标签",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Status Details",
-                          "singular": "Status Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "code": {
+                    "original": "Code",
+                    "singular": "代码",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "colorCode": {
-                          "original": "Color Code",
-                          "singular": "Color Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
+                  "order": {
+                    "original": "Order",
+                    "singular": "顺序",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   },
-                  "messages": {
-                      "possibleStatus": "The possible statuses your",
-                      "mayGoThrough": "may go through"
+                  "status": {
+                    "original": "Status",
+                    "singular": "状态",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "default": {
+                    "original": "Default",
+                    "singular": "默认",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "colorCode": {
+                    "original": "Color Code",
+                    "singular": "颜色代码",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
                   }
+                },
+                "messages": {
+                  "possibleStatus": "可能的状态",
+                  "mayGoThrough": "可能经历的"
+                }
               },
-              "channel": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "Channel",
-                      "singular": "Channel",
-                      "plural": "Channels",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Channel Details",
-                          "singular": "Channel Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "possibleStatus": {
-                          "original": "The different channels your",
-                          "singular": "The different channels your",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "comeThrough": {
-                          "original": "come through",
-                          "singular": "come through",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  }
+            "channel": {
+              "setupVisible": false,
+              "label": {
+                "original": "Channel",
+                "singular": "渠道",
+                "plural": "渠道",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "area": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "Area",
-                      "singular": "Area",
-                      "plural": "Areas",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Area Details",
-                          "singular": "Area Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "messages": {
-                      "yourListOf": "Your list of areas your",
-                      "resideIn": "reside in"
-                  }
+              "sections": {
+                "setupVisible": false,
+                "sec0": {
+                  "original": "Channel Details",
+                  "singular": "渠道详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
               },
-              "category": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "Category",
-                      "singular": "Category",
-                      "plural": "Categories",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Category Details",
-                          "singular": "Category Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "messages": {
-                      "differentWays": "The different ways your",
-                      "categorized": "categorized"
-                  }
+              "fields": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Label",
+                  "singular": "标签",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "code": {
+                  "original": "Code",
+                  "singular": "代码",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "order": {
+                  "original": "Order",
+                  "singular": "顺序",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "status": {
+                  "original": "Status",
+                  "singular": "状态",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "default": {
+                  "original": "Default",
+                  "singular": "默认",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
               },
-              "subCategory": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "Sub Category",
-                      "singular": "Sub Category",
-                      "plural": "Sub Categories",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Sub Category Details",
-                          "singular": "Sub Category Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "category": {
-                          "original": "Category",
-                          "singular": "Category",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "messages": {
-                      "divisionCategory": "The divisions you have within each category"
-                  }
+              "messages": {
+                "differentChannel": "不同的渠道",
+                "comeThrough": "通过"
+              }
+            },
+            "area": {
+              "setupVisible": false,
+              "label": {
+                "original": "Area",
+                "singular": "区域",
+                "plural": "区域",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "departments": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "Department",
-                      "singular": "Department",
-                      "plural": "Departments",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Department Details",
-                          "singular": "Department Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "messages": {
-                      "departmentEachAssign": "The departments each of your",
-                      "mayAssignTo": "may be assigned to"
-                  }
+              "sections": {
+                "setupVisible": false,
+                "sec0": {
+                  "original": "Area Details",
+                  "singular": "区域详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
               },
-              "fault": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "Fault",
-                      "singular": "Fault",
-                      "plural": "Faults",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Fault Type",
-                          "singular": "Fault Type",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "sec1": {
-                          "original": "Fault Type Details",
-                          "singular": "Fault Type Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "messages": {
-                      "commonFaultsRaised": "The list of most common faults raised"
-                  }
+              "fields": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Label",
+                  "singular": "标签",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "code": {
+                  "original": "Code",
+                  "singular": "代码",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "order": {
+                  "original": "Order",
+                  "singular": "顺序",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "status": {
+                  "original": "Status",
+                  "singular": "状态",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "default": {
+                  "original": "Default",
+                  "singular": "默认",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
               },
-              "priority": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "Priority",
-                      "singular": "Priority",
-                      "plural": "Priorities",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Priority Details",
-                          "singular": "Priority Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "name": {
-                          "original": "Name",
-                          "singular": "Name",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "messages": {
-                      "urgentImportant": "How urgent and important each ticket is"
-                  }
+              "messages": {
+                "yourListOf": "您的区域列表",
+                "resideIn": "所处的区域"
+              }
+            },
+            "category": {
+              "setupVisible": false,
+              "label": {
+                "original": "Category",
+                "singular": "类别",
+                "plural": "类别",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "resolution": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "Resolution",
-                      "singular": "Resolution",
-                      "plural": "Resolutions",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Resolution",
-                          "singular": "Resolution",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "sec1": {
-                          "original": "Resolution Type Details",
-                          "singular": "Resolution Type Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "name": {
-                          "original": "Name",
-                          "singular": "Name",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  }
+              "sections": {
+                "setupVisible": false,
+                "sec0": {
+                  "original": "Category Details",
+                  "singular": "类别详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
               },
-              "system": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "System",
-                      "singular": "System",
-                      "plural": "Systems",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "System",
-                          "singular": "System",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "sec1": {
-                          "original": "System Details",
-                          "singular": "System Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  }
+              "fields": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Label",
+                  "singular": "标签",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "code": {
+                  "original": "Code",
+                  "singular": "代码",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "order": {
+                  "original": "Order",
+                  "singular": "顺序",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "status": {
+                  "original": "Status",
+                  "singular": "状态",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "default": {
+                  "original": "Default",
+                  "singular": "默认",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
               },
-              "family": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "Family",
-                      "singular": "Family",
-                      "plural": "Family",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Family Details",
-                          "singular": "Family Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "name": {
-                          "original": "Name",
-                          "singular": "Name",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  }
+              "messages": {
+                "differentWays": "您的不同分类方式",
+                "categorized": "进行分类"
+              }
+            },
+            "subCategory": {
+              "setupVisible": false,
+              "label": {
+                "original": "Sub Category",
+                "singular": "子类别",
+                "plural": "子类别",
+                "setupEdit": true,
+                "setupVisible": false
               },
-              "unitMeasurement": {
-                  "setupVisible": false,
-                  "label": {
-                      "original": "Unit of Measurement",
-                      "singular": "Unit of Measurement",
-                      "plural": "Unit of Measurement",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "sections": {
-                      "setupVisible": false,
-                      "sec0": {
-                          "original": "Unit Details",
-                          "singular": "Unit Details",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  },
-                  "fields": {
-                      "setupVisible": false,
-                      "name": {
-                          "original": "Name",
-                          "singular": "Name",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "label": {
-                          "original": "Label",
-                          "singular": "Label",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "order": {
-                          "original": "Order",
-                          "singular": "Order",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "status": {
-                          "original": "Status",
-                          "singular": "Status",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "code": {
-                          "original": "Code",
-                          "singular": "Code",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      },
-                      "default": {
-                          "original": "Default",
-                          "singular": "Default",
-                          "plural": "",
-                          "setupEdit": true,
-                          "setupVisible": false
-                      }
-                  }
+              "sections": {
+                "setupVisible": false,
+                "sec0": {
+                  "original": "Sub Category Details",
+                  "singular": "子类别详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
               },
+              "fields": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Label",
+                  "singular": "标签",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "code": {
+                  "original": "Code",
+                  "singular": "代码",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "order": {
+                  "original": "Order",
+                  "singular": "顺序",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "category": {
+                  "original": "Category",
+                  "singular": "类别",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "status": {
+                  "original": "Status",
+                  "singular": "状态",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "default": {
+                  "original": "Default",
+                  "singular": "默认",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "messages": {
+                "divisionCategory": "每个类别内的分区"
+              }
+            },
+            "departments": {
+              "setupVisible": false,
+              "label": {
+                "original": "Department",
+                "singular": "部门",
+                "plural": "部门",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sections": {
+                "setupVisible": false,
+                "sec0": {
+                  "original": "Department Details",
+                  "singular": "部门详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "fields": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Label",
+                  "singular": "标签",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "status": {
+                  "original": "Status",
+                  "singular": "状态",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "default": {
+                  "original": "Default",
+                  "singular": "默认",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "messages": {
+                "departmentEachAssign": "每个部门的",
+                "mayAssignTo": "可能被分配到"
+              }
+            },
+            "fault": {
+              "setupVisible": false,
+              "label": {
+                "original": "Fault",
+                "singular": "故障",
+                "plural": "故障",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sections": {
+                "setupVisible": false,
+                "sec0": {
+                  "original": "Fault Type",
+                  "singular": "故障类型",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sec1": {
+                  "original": "Fault Type Details",
+                  "singular": "故障类型详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "fields": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Label",
+                  "singular": "标签",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "order": {
+                  "original": "Order",
+                  "singular": "顺序",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "status": {
+                  "original": "Status",
+                  "singular": "状态",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "default": {
+                  "original": "Default",
+                  "singular": "默认",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "messages": {
+                "commonFaultsRaised": "最常见故障列表"
+              }
+            },
+            "priority": {
+              "setupVisible": false,
+              "label": {
+                "original": "Priority",
+                "singular": "优先级",
+                "plural": "优先级",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sections": {
+                "setupVisible": false,
+                "sec0": {
+                  "original": "Priority Details",
+                  "singular": "优先级详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "fields": {
+                "setupVisible": false,
+                "name": {
+                  "original": "Name",
+                  "singular": "名称",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "order": {
+                  "original": "Order",
+                  "singular": "顺序",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "status": {
+                  "original": "Status",
+                  "singular": "状态",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "default": {
+                  "original": "Default",
+                  "singular": "默认",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "messages": {
+                "urgentImportant": "每张票的紧急程度和重要性"
+              }
+            },
+            "resolution": {
+              "setupVisible": false,
+              "label": {
+                "original": "Resolution",
+                "singular": "解决方案",
+                "plural": "解决方案",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sections": {
+                "setupVisible": false,
+                "sec0": {
+                  "original": "Resolution",
+                  "singular": "解决方案",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sec1": {
+                  "original": "Resolution Type Details",
+                  "singular": "解决方案类型详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "fields": {
+                "setupVisible": false,
+                "name": {
+                  "original": "Name",
+                  "singular": "名称",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "label": {
+                  "original": "Label",
+                  "singular": "标签",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "code": {
+                  "original": "Code",
+                  "singular": "代码",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "order": {
+                  "original": "Order",
+                  "singular": "顺序",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "status": {
+                  "original": "Status",
+                  "singular": "状态",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "default": {
+                  "original": "Default",
+                  "singular": "默认",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              }
+            },
+            "system": {
+              "setupVisible": false,
+              "label": {
+                "original": "System",
+                "singular": "系统",
+                "plural": "系统",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sections": {
+                "setupVisible": false,
+                "sec0": {
+                  "original": "System",
+                  "singular": "系统",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "sec1": {
+                  "original": "System Details",
+                  "singular": "系统详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "fields": {
+                "setupVisible": false,
+                "label": {
+                  "original": "Label",
+                  "singular": "标签",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "order": {
+                  "original": "Order",
+                  "singular": "顺序",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "status": {
+                  "original": "Status",
+                  "singular": "状态",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "code": {
+                  "original": "Code",
+                  "singular": "代码",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "default": {
+                  "original": "Default",
+                  "singular": "默认",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              }
+            },
+            "family": {
+              "setupVisible": false,
+              "label": {
+                "original": "Family",
+                "singular": "家庭",
+                "plural": "家庭",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sections": {
+                "setupVisible": false,
+                "sec0": {
+                  "original": "Family Details",
+                  "singular": "家庭详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "fields": {
+                "setupVisible": false,
+                "name": {
+                  "original": "Name",
+                  "singular": "名字",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "label": {
+                  "original": "Label",
+                  "singular": "标签",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "order": {
+                  "original": "Order",
+                  "singular": "顺序",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "status": {
+                  "original": "Status",
+                  "singular": "状态",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "code": {
+                  "original": "Code",
+                  "singular": "代码",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "default": {
+                  "original": "Default",
+                  "singular": "默认",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              }
+            },
+            "unitMeasurement": {
+              "setupVisible": false,
+              "label": {
+                "original": "Unit of Measurement",
+                "singular": "计量单位",
+                "plural": "计量单位",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sections": {
+                "setupVisible": false,
+                "sec0": {
+                  "original": "Unit Details",
+                  "singular": "单位详情",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              },
+              "fields": {
+                "setupVisible": false,
+                "name": {
+                  "original": "Name",
+                  "singular": "名称",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "label": {
+                  "original": "Label",
+                  "singular": "标签",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "order": {
+                  "original": "Order",
+                  "singular": "顺序",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "status": {
+                  "original": "Status",
+                  "singular": "状态",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "code": {
+                  "original": "Code",
+                  "singular": "代码",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "default": {
+                  "original": "Default",
+                  "singular": "默认",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                }
+              }
+            },
               "validationFE": {},
               "messages": {
-                  "commonResolutionsEncountered": "The most common resolutions for the faults encountered"
+                "commonResolutionsEncountered": "最常见的故障解决方案"
               }
           },
           "geofence": {
@@ -14903,8 +14893,7 @@
               }
             },
             "messages": {}
-          }
-,
+          },
           "preventiveMaintenance": {
             "setupVisible": false,
             "label": {
@@ -15150,101 +15139,101 @@
             "partUpdatedSuccessfully": "部件更新成功"
           }
         },
-          "serviceZone": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Service Zone",
-                  "singular": "服务区",
-                  "plural": "Service Zones",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Service Zone Details",
-                      "singular": "Service Zone Details",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "fields": {
-                  "setupVisible": true,
-                  "code": {
-                      "original": "Code",
-                      "singular": "Code",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "default": {
-                      "original": "Default",
-                      "singular": "Default",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "description": {
-                      "original": "Description",
-                      "singular": "描述",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "fieldLabel": {
-                      "original": "Field Label",
-                      "singular": "Field Label",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "label": {
-                      "original": "Label",
-                      "singular": "Label",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "order": {
-                      "original": "Order",
-                      "singular": "Order",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "status": {
-                      "original": "Status",
-                      "singular": "Status",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": false
-                  },
-                  "picklist": {
-                      "original": "Picklist",
-                      "singular": "Picklist",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "validationFE": {},
-              "validationBE": {
-                  "requiredField": "Required Field",
-                  "invalidPhoneNumber": "Invalid Phone Number",
-                  "invalidEmailFormat": "Invalid Email Format"
-              },
-              "tooltips": {
-                  "setupVisible": true,
-                  "serviceZone": {
-                      "original": "Your service zones",
-                      "singular": "Your service zones",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              }
+        "serviceZone": {
+          "setupVisible": false,
+          "label": {
+            "original": "Service Zone",
+            "singular": "服务区",
+            "plural": "服务区",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "Service Zone Details",
+              "singular": "服务区详情",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "code": {
+              "original": "Code",
+              "singular": "代码",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "default": {
+              "original": "Default",
+              "singular": "默认",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "description": {
+              "original": "Description",
+              "singular": "描述",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "fieldLabel": {
+              "original": "Field Label",
+              "singular": "字段标签",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "label": {
+              "original": "Label",
+              "singular": "标签",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "order": {
+              "original": "Order",
+              "singular": "顺序",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "status": {
+              "original": "Status",
+              "singular": "状态",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "picklist": {
+              "original": "Picklist",
+              "singular": "选项列表",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "validationFE": {},
+          "validationBE": {
+            "requiredField": "必填字段",
+            "invalidPhoneNumber": "无效的电话号码",
+            "invalidEmailFormat": "无效的电子邮件格式"
+          },
+          "tooltips": {
+            "setupVisible": false,
+            "serviceZone": {
+              "original": "Your service zones",
+              "singular": "您的服务区",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
           }
+        }
       },
       "checklist": {
           "setupVisible": true,

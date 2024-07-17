@@ -851,6 +851,160 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
+        },
+        "assetStatusName": {
+          "original": "Asset Status Name",
+          "singular": "资产状态名称",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "statusChange": {
+          "original": "Status Change",
+          "singular": "状态变更",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "custodianName": {
+          "original": "Custodian Name",
+          "singular": "保管人姓名",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "changeOfCustodian": {
+          "original": "Change of Custodian",
+          "singular": "保管人变更",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "externalIdRemoved": {
+          "original": "External ID Removed",
+          "singular": "外部ID已移除",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "warrantyRemoved": {
+          "original": "Warranty Removed",
+          "singular": "保修已移除",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "serviceZoneRemoved": {
+          "original": "Service Zone Removed",
+          "singular": "服务区已移除",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "custodianRemoved": {
+          "original": "Custodian Removed",
+          "singular": "保管人已移除",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "siteRemoved": {
+          "original": "Site Removed",
+          "singular": "地点已移除",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "customerRemoved": {
+          "original": "Customer Removed",
+          "singular": "客户已移除",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "streetRemoved": {
+          "original": "Street Removed",
+          "singular": "街道已移除",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "cityRemoved": {
+          "original": "City Removed",
+          "singular": "城市已移除",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "stateRemoved": {
+          "original": "State Removed",
+          "singular": "州/省已移除",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "countryRemoved": {
+          "original": "Country Removed",
+          "singular": "国家已移除",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "externalIdUpdate": {
+          "original": "External ID Update",
+          "singular": "外部ID更新",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "changeOfAddress": {
+          "original": "Change of Address",
+          "singular": "地址变更",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "nameUpdate": {
+          "original": "Name Update",
+          "singular": "名称更新",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "siteUpdate": {
+          "original": "Site Update",
+          "singular": "地点更新",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "customerUpdate": {
+          "original": "Customer Update",
+          "singular": "客户更新",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "serviceZoneChange": {
+          "original": "Service Zone Change",
+          "singular": "服务区变更",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "serviceZoneName": {
+          "original": "Service Zone Name",
+          "singular": "服务区名称",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "siteName": {
+          "original": "Site Name",
+          "singular": "地点名称",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "messages": {

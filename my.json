@@ -851,6 +851,160 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+        },
+        "assetStatusName": {
+          "original": "Asset Status Name",
+          "singular": "Nama Status Aset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "statusChange": {
+          "original": "Status Change",
+          "singular": "Perubahan Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "custodianName": {
+          "original": "Custodian Name",
+          "singular": "Nama Pemegang Amanah",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "changeOfCustodian": {
+          "original": "Change of Custodian",
+          "singular": "Perubahan Pemegang Amanah",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "externalIdRemoved": {
+          "original": "External ID Removed",
+          "singular": "ID Luar Dikeluarkan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "warrantyRemoved": {
+          "original": "Warranty Removed",
+          "singular": "Jaminan Dikeluarkan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "serviceZoneRemoved": {
+          "original": "Service Zone Removed",
+          "singular": "Zon Perkhidmatan Dikeluarkan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "custodianRemoved": {
+          "original": "Custodian Removed",
+          "singular": "Pemegang Amanah Dikeluarkan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "siteRemoved": {
+          "original": "Site Removed",
+          "singular": "Tapak Dikeluarkan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "customerRemoved": {
+          "original": "Customer Removed",
+          "singular": "Pelanggan Dikeluarkan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "streetRemoved": {
+          "original": "Street Removed",
+          "singular": "Jalan Dikeluarkan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "cityRemoved": {
+          "original": "City Removed",
+          "singular": "Bandar Dikeluarkan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "stateRemoved": {
+          "original": "State Removed",
+          "singular": "Negeri Dikeluarkan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "countryRemoved": {
+          "original": "Country Removed",
+          "singular": "Negara Dikeluarkan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "externalIdUpdate": {
+          "original": "External ID Update",
+          "singular": "Kemas Kini ID Luar",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "changeOfAddress": {
+          "original": "Change of Address",
+          "singular": "Perubahan Alamat",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "nameUpdate": {
+          "original": "Name Update",
+          "singular": "Kemas Kini Nama",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "siteUpdate": {
+          "original": "Site Update",
+          "singular": "Kemas Kini Tapak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "customerUpdate": {
+          "original": "Customer Update",
+          "singular": "Kemas Kini Pelanggan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "serviceZoneChange": {
+          "original": "Service Zone Change",
+          "singular": "Perubahan Zon Perkhidmatan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "serviceZoneName": {
+          "original": "Service Zone Name",
+          "singular": "Nama Zon Perkhidmatan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "siteName": {
+          "original": "Site Name",
+          "singular": "Nama Tapak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
     },
     "messages": {

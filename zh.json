@@ -17186,14 +17186,166 @@
     }
   },
   "profile": {
-      "setupVisible": true,
-      "label": {
-          "original": "Profile",
-          "singular": "Profile",
-          "plural": "Profiles",
-          "setupEdit": true,
-          "setupVisible": true
+    "setupVisible": false,
+    "label": {
+      "original": "Profile",
+      "singular": "个人资料",
+      "plural": "个人资料",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "sec0": {
+        "original": "Account Info",
+        "singular": "账户信息",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Address",
+        "singular": "地址",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Security",
+        "singular": "安全",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
+    },
+    "fields": {
+      "english": {
+        "original": "English",
+        "singular": "英语",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "malay": {
+        "original": "Malay",
+        "singular": "马来语",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "chinese": {
+        "original": "Chinese",
+        "singular": "中文",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "home": {
+        "original": "Home",
+        "singular": "家",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "office": {
+        "original": "Office",
+        "singular": "办公室",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "address": {
+        "original": "Address",
+        "singular": "地址",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "homeAddress": {
+        "original": "Home Address",
+        "singular": "家庭地址",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "officeAddress": {
+        "original": "Office Address",
+        "singular": "办公室地址",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "firstName": {
+        "original": "First Name",
+        "singular": "名字",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "lastName": {
+        "original": "Last Name",
+        "singular": "姓氏",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "电子邮件",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "phone": {
+        "original": "Phone",
+        "singular": "电话",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "startBufferTime": {
+        "original": "Start Buffer Time",
+        "singular": "开始缓冲时间",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "endBufferTime": {
+        "original": "End Buffer Time",
+        "singular": "结束缓冲时间",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "timeZone": {
+        "original": "Time Zone",
+        "singular": "时区",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "profileUpdatedSuccessfully": "个人资料更新成功",
+      "addressUpdatedSuccessfully": "地址更新成功",
+      "changePassword": "更改密码",
+      "confirmChangePassword": "您确定要更改密码吗？",
+      "addYourHomeAddress": "添加您的家庭地址",
+      "addYourOfficeAddress": "添加您的办公室地址",
+      "passwordUpdatedSuccessfully": "密码更新成功"
+    },
+    "validationsFE": {
+      "currentPasswordIsRequired": "当前密码是必需的",
+      "newPasswordIsRequired": "新密码是必需的",
+      "mustContainAtLeaseUpperCase": "必须包含至少一个大写字母 (A-Z)",
+      "mustContainAtLeaseLowerCase": "必须包含至少一个小写字母 (a-z)",
+      "mustContainAtLeaseNumber": "必须包含至少一个数字 (0-9)",
+      "mustContainAtLeaseSpecialCharacter": "必须包含至少一个特殊字符 (!@#$%^&*)",
+      "mustBeAtLeastEightCharacter": "密码长度必须至少为 8 个字符",
+      "mustNotContainYourUserName": "密码不得包含您的用户名",
+      "confirmPasswordIsRequired": "确认密码是必需的",
+      "passwordMustMatch": "密码必须匹配"
+    }
   },
   "note": {
       "setupVisible": true,

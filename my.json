@@ -17347,14 +17347,166 @@
     }
   },
   "profile": {
-      "setupVisible": true,
-      "label": {
-          "original": "Profile",
-          "singular": "Profile",
-          "plural": "Profiles",
-          "setupEdit": true,
-          "setupVisible": true
+    "setupVisible": false,
+    "label": {
+      "original": "Profile",
+      "singular": "Profil",
+      "plural": "Profil",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "sec0": {
+        "original": "Account Info",
+        "singular": "Maklumat Akaun",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Address",
+        "singular": "Alamat",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Security",
+        "singular": "Keselamatan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
+    },
+    "fields": {
+      "english": {
+        "original": "English",
+        "singular": "Inggeris",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "malay": {
+        "original": "Malay",
+        "singular": "Melayu",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "chinese": {
+        "original": "Chinese",
+        "singular": "Cina",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "home": {
+        "original": "Home",
+        "singular": "Rumah",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "office": {
+        "original": "Office",
+        "singular": "Pejabat",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "address": {
+        "original": "Address",
+        "singular": "Alamat",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "homeAddress": {
+        "original": "Home Address",
+        "singular": "Alamat Rumah",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "officeAddress": {
+        "original": "Office Address",
+        "singular": "Alamat Pejabat",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "firstName": {
+        "original": "First Name",
+        "singular": "Nama Pertama",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "lastName": {
+        "original": "Last Name",
+        "singular": "Nama Terakhir",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "E-mel",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "phone": {
+        "original": "Phone",
+        "singular": "Telefon",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "startBufferTime": {
+        "original": "Start Buffer Time",
+        "singular": "Masa Penampan Mula",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "endBufferTime": {
+        "original": "End Buffer Time",
+        "singular": "Masa Penampan Tamat",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "timeZone": {
+        "original": "Time Zone",
+        "singular": "Zon Waktu",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "profileUpdatedSuccessfully": "Profil berjaya dikemas kini",
+      "addressUpdatedSuccessfully": "Alamat berjaya dikemas kini",
+      "changePassword": "Tukar Kata Laluan",
+      "confirmChangePassword": "Adakah anda pasti mahu menukar kata laluan anda?",
+      "addYourHomeAddress": "Tambah alamat rumah anda",
+      "addYourOfficeAddress": "Tambah alamat pejabat anda",
+      "passwordUpdatedSuccessfully": "Kata laluan berjaya dikemas kini"
+    },
+    "validationsFE": {
+      "currentPasswordIsRequired": "Kata laluan semasa diperlukan",
+      "newPasswordIsRequired": "Kata laluan baru diperlukan",
+      "mustContainAtLeaseUpperCase": "Mesti mengandungi sekurang-kurangnya satu huruf besar (A-Z)",
+      "mustContainAtLeaseLowerCase": "Mesti mengandungi sekurang-kurangnya satu huruf kecil (a-z)",
+      "mustContainAtLeaseNumber": "Mesti mengandungi sekurang-kurangnya satu nombor (0-9)",
+      "mustContainAtLeaseSpecialCharacter": "Mesti mengandungi sekurang-kurangnya satu aksara khas (!@#$%^&*)",
+      "mustBeAtLeastEightCharacter": "Kata laluan mesti sekurang-kurangnya 8 aksara panjang",
+      "mustNotContainYourUserName": "Kata laluan tidak boleh mengandungi nama pengguna anda",
+      "confirmPasswordIsRequired": "Pengesahan Kata Laluan diperlukan",
+      "passwordMustMatch": "Kata laluan mesti sepadan"
+    }
   },
   "note": {
       "setupVisible": true,

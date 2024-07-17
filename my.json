@@ -17525,16 +17525,16 @@
         "noteDetails": "Butiran Nota"
       }
     },
-  "report": {
-      "setupVisible": true,
+    "report": {
+      "setupVisible": false,
       "label": {
-          "original": "Reports",
-          "singular": "Report",
-          "plural": "Reports",
-          "setupEdit": true,
-          "setupVisible": true
+        "original": "Reports",
+        "singular": "Laporan",
+        "plural": "Laporan",
+        "setupEdit": true,
+        "setupVisible": false
       }
-  },
+    },
   "academy": {
       "setupVisible": true,
       "label": {

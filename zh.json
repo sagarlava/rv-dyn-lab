@@ -17365,14 +17365,14 @@
     }
   },
   "report": {
-      "setupVisible": true,
-      "label": {
-          "original": "Reports",
-          "singular": "Report",
-          "plural": "Reports",
-          "setupEdit": true,
-          "setupVisible": true
-      }
+    "setupVisible": false,
+    "label": {
+      "original": "Reports",
+      "singular": "报告",
+      "plural": "报告",
+      "setupEdit": true,
+      "setupVisible": false
+    }
   },
   "academy": {
       "setupVisible": true,

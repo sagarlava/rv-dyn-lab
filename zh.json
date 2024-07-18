@@ -9702,728 +9702,1029 @@
         "setupVisible": false
       },
       "buttons": {
-          "setupVisible": true,
-          "refresh": {
-              "original": "Refresh",
-              "singular": "Refresh",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "signAndComplete": {
-              "original": "Sign & Complete",
-              "singular": "Sign & Complete",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "completionForm": {
-              "original": "Completion Form",
-              "singular": "Completion Form",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "search": {
-              "original": "Search",
-              "singular": "Search",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "new": {
-              "original": "New",
-              "singular": "New",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "filter": {
-              "original": "Filter",
-              "singular": "Filter",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "resetFilter": {
-              "original": "Reset Filter",
-              "singular": "Reset Filter",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "closeFilter": {
-              "original": "Close Filter",
-              "singular": "Close Filter",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "clearAll": {
-              "original": "Clear All",
-              "singular": "Clear All",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "cancel": {
-              "original": "Cancel",
-              "singular": "Cancel",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "save": {
-              "original": "Save",
-              "singular": "Save",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "close": {
-              "original": "Close",
-              "singular": "Close",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "discardChanges": {
-              "original": "Discard Changes",
-              "singular": "Discard Changes",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "undo": {
-              "original": "Undo",
-              "singular": "Undo",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "transferByProducts": {
-              "original": "Transfer by Products",
-              "singular": "Transfer by Products",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "transferByBin": {
-              "original": "Transfer by Bin",
-              "singular": "Transfer by Bin",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "location": {
-              "original": "Location",
-              "singular": "Location",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "user": {
-              "original": "User",
-              "singular": "User",
-              "plural": "Users",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "apply": {
-              "original": "Apply",
-              "singular": "Apply",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "action": {
-              "original": "Action",
-              "singular": "Action",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assignTask": {
-              "original": "Assign Task",
-              "singular": "Assign Task",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "back": {
-              "original": "Back",
-              "singular": "Back",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "add": {
-              "original": "Add",
-              "singular": "Add",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "clone": {
-              "original": "Clone",
-              "singular": "Clone",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "claim": {
-              "original": "Claim",
-              "singular": "Claim",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-          },
-          "setup": {
-              "original": "Setup",
-              "singular": "Setup",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "accept": {
-              "original": "Accept",
-              "singular": "Accept",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "decline": {
-              "original": "Decline",
-              "singular": "Decline",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "reject": {
-              "original": "Reject",
-              "singular": "Reject",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "copyCode": {
-              "original": "Copy Code",
-              "singular": "Copy Code",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "delete": {
-              "original": "Delete",
-              "singular": "Delete",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "download": {
-              "original": "Download",
-              "singular": "Download",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "downloadPdf": {
-              "original": "Download PDF",
-              "singular": "Download PDF",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "edit": {
-              "original": "Edit",
-              "singular": "Edit",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "editEquipment": {
-              "original": "Edit Equipment",
-              "singular": "Edit Equipment",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "editHpForm": {
-              "original": "Edit Hp Form",
-              "singular": "Edit Hp Form",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "expandOverview": {
-              "original": "Expand Overview",
-              "singular": "Expand Overview",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "exportData": {
-              "original": "Export Data",
-              "singular": "Export Data",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "fewerOptions": {
-              "original": "Fewer Options",
-              "singular": "Fewer Options",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "generateLink": {
-              "original": "Generate Link",
-              "singular": "Generate Link",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "generatePdf": {
-              "original": "Generate PDF",
-              "singular": "Generate PDF",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "hideOverview": {
-              "original": "Hide Overview",
-              "singular": "Hide Overview",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "more": {
-              "original": "More",
-              "singular": "More",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "move": {
-              "original": "Move",
-              "singular": "Move",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "moreOptions": {
-              "original": "More Options",
-              "singular": "More Options",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "pinLocation": {
-              "original": "Pin Location",
-              "singular": "Pin Location",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "saveNext": {
-              "original": "Save & Next",
-              "singular": "Save & Next",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "send": {
-              "original": "Send",
-              "singular": "Send",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sendCalendlyLink": {
-              "original": "Send Calendly Link",
-              "singular": "Send Calendly Link",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sendSurveyLink": {
-              "original": "Send Survey Link",
-              "singular": "Send Survey Link",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "showMap": {
-              "original": "Show Map",
-              "singular": "Show Map",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "submit": {
-              "original": "Submit",
-              "singular": "Submit",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "upload": {
-              "original": "Upload",
-              "singular": "Upload",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "view": {
-              "original": "View",
-              "singular": "View",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "smartAssign": {
-              "original": "Smart Assign",
-              "singular": "Smart Assign",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "markAllAsRead": {
-              "original": "Mark all as read",
-              "singular": "Mark all as read",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assign": {
-              "original": "Assign",
-              "singular": "Assign",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "yes": {
-              "original": "Yes",
-              "singular": "Yes",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "no": {
-              "original": "No",
-              "singular": "No",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "read": {
-              "original": "Read",
-              "singular": "Read",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "redo": {
-              "original": "Redo",
-              "singular": "Redo",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "complete": {
-              "original": "Complete",
-              "singular": "Complete",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "next": {
-              "original": "Next",
-              "singular": "Next",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "proceed": {
-              "original": "Proceed",
-              "singular": "Proceed",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "remove": {
-              "original": "Remove",
-              "singular": "Remove",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "addNotes": {
-              "original": "Add Notes",
-              "singular": "Add Notes",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "editNotes": {
-              "original": "Edit Notes",
-              "singular": "Edit Notes",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "saveNotes": {
-              "original": "Save Notes",
-              "singular": "Save Notes",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "checkAvailability": {
-              "original": "Check availability",
-              "singular": "Check availability",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "findTime": {
-              "original": "Find a time",
-              "singular": "Find a time",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "uploadFile": {
-              "original": "Upload File",
-              "singular": "Upload File",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "escalate": {
-              "original": "Escalate",
-              "singular": "Escalate",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "addComment": {
-              "original": "Add Comment",
-              "singular": "添加评论",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "uploadImage": {
-              "original": "Upload Image",
-              "singular": "Upload Image",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "create": {
-              "original": "Create",
-              "singular": "Create",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "login": {
-              "original": "Log In",
-              "singular": "Log In",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "resetPassword": {
-              "original": "Reset Password",
-              "singular": "Reset Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "resendEmail": {
-              "original": "Resend Email",
-              "singular": "Resend Email",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "addLevel": {
-              "original": "Add Level",
-              "singular": "Add Level",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "addRole": {
-              "original": "Add Role",
-              "singular": "Add Role",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "removeRole": {
-              "original": "Remove Role",
-              "singular": "Remove Role",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "connect": {
-              "original": "Connect",
-              "singular": "Connect",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "disconnect": {
-              "original": "Disconnect",
-              "singular": "Disconnect",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "configure": {
-              "original": "Configure",
-              "singular": "Configure",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "preview": {
-              "original": "Preview",
-              "singular": "Preview",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "addEditCondition": {
-              "original": "Add/Edit Condition",
-              "singular": "Add/Edit Condition",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "addEditCriteria": {
-              "original": "Add/Edit Criteria",
-              "singular": "Add/Edit Criteria",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "updateTheme": {
-              "original": "Update Theme",
-              "singular": "Update Theme",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "setUpEvents": {
-              "original": "Set Up Events",
-              "singular": "Set Up Events",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "revertToDefault": {
-              "original": "Revert to Default",
-              "singular": "Revert to Default",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "removePhoto": {
-              "original": "Remove Photo",
-              "singular": "Remove Photo",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "uploadPhoto": {
-              "original": "Upload Photo",
-              "singular": "Upload Photo",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "importCsv": {
-              "original": "Import CSV",
-              "singular": "Import CSV",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "exportCsv": {
-              "original": "Export as CSV",
-              "singular": "Export as CSV",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "buildForm": {
-              "original": "Build Form",
-              "singular": "Build Form",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "approve": {
-              "original": "Approve",
-              "singular": "Approve",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "print": {
-              "original": "Print",
-              "singular": "Print",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "email": {
-              "original": "EMAIL",
-              "singular": "EMAIL",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "receipt": {
-              "original": "RECEIPT",
-              "singular": "RECEIPT",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "done": {
-              "original": "Done",
-              "singular": "Done",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "applyToAll": {
-              "original": "Apply to all",
-              "singular": "Apply to all",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "updateForNew": {
-              "original": "Update for new",
-              "singular": "Update for new",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "showMoreDetails": {
-              "original": "Show More Details",
-              "singular": "Show More Details",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-          }
+        "setupVisible": false,
+        "refresh": {
+          "original": "Refresh",
+          "singular": "Refresh",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "signAndComplete": {
+          "original": "Sign & Complete",
+          "singular": "Sign & Complete",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "completionForm": {
+          "original": "Completion Form",
+          "singular": "Completion Form",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "showDirection": {
+          "original": "Show Direction",
+          "singular": "Show Direction",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "select":{
+          "original": "SELECT",
+          "singular": "SELECT",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "select2":{
+          "original": "Select",
+          "singular": "Select",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "search": {
+          "original": "Search",
+          "singular": "Search",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "new": {
+          "original": "New",
+          "singular": "New",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "filter": {
+          "original": "Filter",
+          "singular": "Filter",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "resetFilter": {
+          "original": "Reset Filter",
+          "singular": "Reset Filter",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "closeFilter": {
+          "original": "Close Filter",
+          "singular": "Close Filter",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "clearAll": {
+          "original": "Clear All",
+          "singular": "Clear All",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "cancel": {
+          "original": "Cancel",
+          "singular": "Cancel",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "save": {
+          "original": "Save",
+          "singular": "Save",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "saveAndNext": {
+          "original": "Save & Next",
+          "singular": "Save & Next",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "close": {
+          "original": "Close",
+          "singular": "Close",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "register": {
+          "original": "Register",
+          "singular": "Register",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "discardChanges": {
+          "original": "Discard Changes",
+          "singular": "Discard Changes",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "saveChanges": {
+          "original": "Save Changes",
+          "singular": "Save Changes",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "undo": {
+          "original": "Undo",
+          "singular": "Undo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "transferByProducts": {
+          "original": "Transfer by Products",
+          "singular": "Transfer by Products",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "transferByBin": {
+          "original": "Transfer by Bin",
+          "singular": "Transfer by Bin",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "transferAnyway": {
+          "original": "Transfer Anyway",
+          "singular": "Transfer Anyway",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "transfer": {
+          "original": "Transfer",
+          "singular": "Transfer",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "location": {
+          "original": "Location",
+          "singular": "Location",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "update": {
+          "original": "Update",
+          "singular": "Update",
+          "plural": "Update",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "clear": {
+          "original": "Clear",
+          "singular": "Clear",
+          "plural": "Clear",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "user": {
+          "original": "User",
+          "singular": "User",
+          "plural": "Users",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "apply": {
+          "original": "Apply",
+          "singular": "Apply",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "action": {
+          "original": "Action",
+          "singular": "Action",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "assignTask": {
+          "original": "Assign Task",
+          "singular": "Assign Task",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "back": {
+          "original": "Back",
+          "singular": "Back",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "scan": {
+          "original": "Scan",
+          "singular": "Scan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "add": {
+          "original": "Add",
+          "singular": "Add",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "clone": {
+          "original": "Clone",
+          "singular": "Clone",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "claim": {
+          "original": "Claim",
+          "singular": "Claim",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "setup": {
+          "original": "Setup",
+          "singular": "Setup",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "accept": {
+          "original": "Accept",
+          "singular": "Accept",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "decline": {
+          "original": "Decline",
+          "singular": "Decline",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "reject": {
+          "original": "Reject",
+          "singular": "Reject",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "acknowledge": {
+          "original": "Acknowledge",
+          "singular": "Acknowledge",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "copyCode": {
+          "original": "Copy Code",
+          "singular": "Copy Code",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "copyLink": {
+          "original": "Copy Link",
+          "singular": "Copy Link",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "delete": {
+          "original": "Delete",
+          "singular": "Delete",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "download": {
+          "original": "Download",
+          "singular": "Download",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "downloadPdf": {
+          "original": "Download PDF",
+          "singular": "Download PDF",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "edit": {
+          "original": "Edit",
+          "singular": "Edit",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "editEquipment": {
+          "original": "Edit Equipment",
+          "singular": "Edit Equipment",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "editHpForm": {
+          "original": "Edit Hp Form",
+          "singular": "Edit Hp Form",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "expandOverview": {
+          "original": "Expand Overview",
+          "singular": "Expand Overview",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "exportData": {
+          "original": "Export Data",
+          "singular": "Export Data",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "fewerOptions": {
+          "original": "Fewer Options",
+          "singular": "Fewer Options",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "generateLink": {
+          "original": "Generate Link",
+          "singular": "Generate Link",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "generatePdf": {
+          "original": "Generate PDF",
+          "singular": "Generate PDF",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "hideOverview": {
+          "original": "Hide Overview",
+          "singular": "Hide Overview",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "more": {
+          "original": "More",
+          "singular": "More",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "move": {
+          "original": "Move",
+          "singular": "Move",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "moreOptions": {
+          "original": "More Options",
+          "singular": "More Options",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "pinLocation": {
+          "original": "Pin Location",
+          "singular": "Pin Location",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "saveNext": {
+          "original": "Save & Next",
+          "singular": "Save & Next",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "send": {
+          "original": "Send",
+          "singular": "Send",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "checkIn": {
+          "original": "Check In",
+          "singular": "Check In",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "checkOut": {
+          "original": "Check Out",
+          "singular": "Check Out",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sendCalendlyLink": {
+          "original": "Send Calendly Link",
+          "singular": "Send Calendly Link",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sendSurveyLink": {
+          "original": "Send Survey Link",
+          "singular": "Send Survey Link",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "showMap": {
+          "original": "Show Map",
+          "singular": "Show Map",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "submit": {
+          "original": "Submit",
+          "singular": "Submit",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "submitForAcknowledge": {
+          "original": "Submit For Acknowledge",
+          "singular": "Submit For Acknowledge",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sendEmail": {
+          "original": "Send Email",
+          "singular": "Send Email",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "upload": {
+          "original": "Upload",
+          "singular": "Upload",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "uploadFile": {
+          "original": "Upload File",
+          "singular": "Upload File",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "seeAll": {
+          "original": "See All",
+          "singular": "See All",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "view": {
+          "original": "View",
+          "singular": "View",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "smartAssign": {
+          "original": "Smart Assign",
+          "singular": "Smart Assign",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "markAllAsRead": {
+          "original": "Mark all as read",
+          "singular": "Mark all as read",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "assign": {
+          "original": "Assign",
+          "singular": "Assign",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "ok": {
+          "original": "Ok",
+          "singular": "Ok",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "read": {
+          "original": "Read",
+          "singular": "Read",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "redo": {
+          "original": "Redo",
+          "singular": "Redo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "complete": {
+          "original": "Complete",
+          "singular": "Complete",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "next": {
+          "original": "Next",
+          "singular": "Next",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "proceed": {
+          "original": "Proceed",
+          "singular": "Proceed",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "remove": {
+          "original": "Remove",
+          "singular": "Remove",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "addNotes": {
+          "original": "Add Notes",
+          "singular": "Add Notes",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "notes": {
+          "original": "Note",
+          "singular": "Note",
+          "plural": "Notes",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "assistance": {
+          "original": "Assistance",
+          "singular": "Notes",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "activity": {
+          "original": "Activity",
+          "singular": "Activity",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "journeys": {
+          "original": "Journeys",
+          "singular": "Journeys",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "editNotes": {
+          "original": "Edit Notes",
+          "singular": "Edit Notes",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "saveNotes": {
+          "original": "Save Notes",
+          "singular": "Save Notes",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "adjustInventory": {
+          "original": "Adjust Inventory",
+          "singular": "Adjust Inventory",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "checkAvailability": {
+          "original": "Check availability",
+          "singular": "Check availability",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "findTime": {
+          "original": "Find a time",
+          "singular": "Find a time",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "escalate": {
+          "original": "Escalate",
+          "singular": "Escalate",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "addComment": {
+          "original": "Add Comment",
+          "singular": "Add Comment",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "uploadImage": {
+          "original": "Upload Image",
+          "singular": "Upload Image",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "create": {
+          "original": "Create",
+          "singular": "Create",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "login": {
+          "original": "Log In",
+          "singular": "Log In",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "resetPassword": {
+          "original": "Reset Password",
+          "singular": "Reset Password",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "resendEmail": {
+          "original": "Resend Email",
+          "singular": "Resend Email",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "addLevel": {
+          "original": "Add Level",
+          "singular": "Add Level",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "addRole": {
+          "original": "Add Role",
+          "singular": "Add Role",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "removeRole": {
+          "original": "Remove Role",
+          "singular": "Remove Role",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "connect": {
+          "original": "Connect",
+          "singular": "Connect",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "disconnect": {
+          "original": "Disconnect",
+          "singular": "Disconnect",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "configure": {
+          "original": "Configure",
+          "singular": "Configure",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "preview": {
+          "original": "Preview",
+          "singular": "Preview",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "addEditCondition": {
+          "original": "Add/Edit Condition",
+          "singular": "Add/Edit Condition",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "addEditCriteria": {
+          "original": "Add/Edit Criteria",
+          "singular": "Add/Edit Criteria",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "updateTheme": {
+          "original": "Update Theme",
+          "singular": "Update Theme",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "setUpEvents": {
+          "original": "Set Up Events",
+          "singular": "Set Up Events",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "revertToDefault": {
+          "original": "Revert to Default",
+          "singular": "Revert to Default",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "removePhoto": {
+          "original": "Remove Photo",
+          "singular": "Remove Photo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "uploadPhoto": {
+          "original": "Upload Photo",
+          "singular": "Upload Photo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "importCsv": {
+          "original": "Import CSV",
+          "singular": "Import CSV",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "exportCsv": {
+          "original": "Export as CSV",
+          "singular": "Export as CSV",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "buildForm": {
+          "original": "Build Form",
+          "singular": "Build Form",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "approve": {
+          "original": "Approve",
+          "singular": "Approve",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "print": {
+          "original": "Print",
+          "singular": "Print",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "email": {
+          "original": "EMAIL",
+          "singular": "EMAIL",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "viewMap": {
+          "original": "View Map",
+          "singular": "View map",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "receipt": {
+          "original": "RECEIPT",
+          "singular": "RECEIPT",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "exit": {
+          "original": "Exit",
+          "singular": "Exit",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "done": {
+          "original": "Done",
+          "singular": "Done",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "applyToAll": {
+          "original": "Apply to all",
+          "singular": "Apply to all",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "updateForNew": {
+          "original": "Update for new",
+          "singular": "Update for new",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "startJourney": {
+          "original": "Start Journey",
+          "singular": "Start Journey",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "returnToJourney": {
+          "original": "Return to Journey",
+          "singular": "Return to Journey",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "approveAllUser": {
+          "original": "Apply changes to all users",
+          "singular": "Apply changes to all users",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "approveNewUser": {
+          "original": "Update for new users only",
+          "singular": "Update for new users only",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "check": {
+          "original": "Check",
+          "singular": "Check",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "openInNewTab": {
+          "original": "Open in New Tab",
+          "singular": "Open in New Tab",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "calendarView": {
+          "original": "Calendar View",
+          "singular": "Calendar View",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "tableView": {
+          "original": "Table View",
+          "singular": "Table View",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "mapView": {
+          "original": "Map View",
+          "singular": "Map View",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "calculate": {
+          "original": "Calculate",
+          "singular": "Calculate",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "savePlan": {
+          "original": "Save Plan",
+          "singular": "Save Plan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "makeOwner": {
+          "original": "Make Owner",
+          "singular": "Make Owner",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "yes": {
+          "original": "Yes",
+          "singular": "Yes",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "no": {
+          "original": "No",
+          "singular": "No",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "showMoreDetails": {
+          "original": "Show More Details",
+          "singular": "Show More Details",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "locate": {
+          "original": "Locate",
+          "singular": "Locate",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "viewLocation":{
+          "original": "View Location",
+          "singular": "View Location",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "pinSaveLocation": {
+          "original": "Pin & Save Your Location",
+          "singular": "Pin & Save Your Location",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "reset": {
+          "original": "Reset",
+          "singular": "Reset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "addMember": {
+          "original": "Add Members",
+          "singular": "Add Member",
+          "plural": "Add Members",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "status": {
           "setupVisible": true,

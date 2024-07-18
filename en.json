@@ -10285,8 +10285,8 @@
       },
       "addNotes": {
         "original": "Add Notes",
-        "singular": "Add Notes",
-        "plural": "",
+        "singular": "Add Note",
+        "plural": "Add Notes",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -10702,6 +10702,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "pinSaveLocation": {
+        "original": "Pin & Save Your Location",
+        "singular": "Pin & Save Your Location",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "reset": {
+        "original": "Reset",
+        "singular": "Reset",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "addMember": {
+        "original": "Add Members",
+        "singular": "Add Member",
+        "plural": "Add Members",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "status": {

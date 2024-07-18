@@ -15239,6 +15239,34 @@
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false
+              },
+              "sec13": {
+                "original": "Add Task Template",
+                "singular": "添加任务模板",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec14": {
+                "original": "Use the below fields to filter the Task template(s) you'd like to add",
+                "singular": "使用以下字段过滤您想要添加的任务模板",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec15": {
+                "original": "Task List Details",
+                "singular": "任务列表详情",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec16": {
+                "original": "Select the Task template(s) you'd like to be generated based on this answer",
+                "singular": "选择您希望根据此答案生成的任务模板",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
             },
             "fields": {

@@ -10737,214 +10737,242 @@
       "status": {
           "setupVisible": true,
           "active": {
-              "original": "Active",
-              "singular": "活跃",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Active",
+            "singular": "活跃",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "available": {
-              "original": "Available",
-              "singular": "可用",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Available",
+            "singular": "可用",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "breakDown": {
-              "original": "Break Down",
-              "singular": "Break Down",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Break Down",
+            "singular": "故障",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "expired": {
-              "original": "Expired",
-              "singular": "Expired",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Expired",
+            "singular": "过期",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "approve": {
+            "original": "Approve",
+            "singular": "批准",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "acknowledge": {
+            "original": "Acknowledge",
+            "singular": "确认",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "reject": {
+            "original": "Reject",
+            "singular": "拒绝",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "inactive": {
-              "original": "Inactive",
-              "singular": "Inactive",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Inactive",
+            "singular": "不活跃",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "incomplete": {
-              "original": "Incomplete",
-              "singular": "Incomplete",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Incomplete",
+            "singular": "未完成",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "new": {
-              "original": "New",
-              "singular": "New",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "New",
+            "singular": "新",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "onDemand": {
-              "original": "On Demand",
-              "singular": "On Demand",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "On Demand",
+            "singular": "按需",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "onRent": {
-              "original": "On Rent",
-              "singular": "On Rent",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "On Rent",
+            "singular": "租赁中",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "overdue": {
-              "original": "Overdue",
-              "singular": "Tertunggak",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Overdue",
+            "singular": "逾期",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "preventive": {
-              "original": "Preventive",
-              "singular": "Preventive",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Preventive",
+            "singular": "预防性",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "replace": {
-              "original": "Replace",
-              "singular": "Replace",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Replace",
+            "singular": "更换",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "returned": {
-              "original": "Returned",
-              "singular": "Returned",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Returned",
+            "singular": "已归还",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "service": {
-              "original": "Service",
-              "singular": "Service",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Service",
+            "singular": "服务",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "terminated": {
-              "original": "Terminated",
-              "singular": "Terminated",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Terminated",
+            "singular": "已终止",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "upToDate": {
-              "original": "Up to Date",
-              "singular": "Up to Date",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Up to Date",
+            "singular": "最新",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "inProgress": {
-              "original": "In Progress",
-              "singular": "In Progress",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "In Progress",
+            "singular": "进行中",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "completed": {
-              "original": "Completed",
-              "singular": "Completed",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Completed",
+            "singular": "已完成",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "cancelled": {
-              "original": "Cancelled",
-              "singular": "Cancelled",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Cancelled",
+            "singular": "已取消",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "pending": {
-              "original": "Pending",
-              "singular": "Pending",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Pending",
+            "singular": "待处理",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "suspend": {
-              "original": "Suspend",
-              "singular": "Suspend",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Suspend",
+            "singular": "暂停",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "suspended": {
-              "original": "Suspended",
-              "singular": "Suspended",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Suspended",
+            "singular": "已暂停",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "activate": {
-              "original": "Activate",
-              "singular": "Activate",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Activate",
+            "singular": "激活",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "deactivate": {
-              "original": "Deactivate",
-              "singular": "Deactivate",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Deactivate",
+            "singular": "停用",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "deactivated": {
-              "original": "Deactivated",
-              "singular": "Deactivated",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Deactivated",
+            "singular": "已停用",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "pendingActivation": {
-              "original": "Pending Activation",
-              "singular": "Pending Activation",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Pending Activation",
+            "singular": "待激活",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "deleted": {
-              "original": "Deleted",
-              "singular": "Deleted",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Deleted",
+            "singular": "已删除",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "accepted": {
-              "original": "Accepted",
-              "singular": "Accepted",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Accepted",
+            "singular": "已接受",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "open": {
-              "original": "Open",
-              "singular": "Open",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Open",
+            "singular": "打开",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "waiting": {
-              "original": "Waiting",
-              "singular": "Waiting",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Waiting",
+            "singular": "等待中",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "messages": {
+            "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
+            "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",
+            "updateStatusTo": "更新状态为",
+            "updateStatus": "更新状态",
+            "confirmMarkTaskComplete": "您是否要将此任务标记为完成？"
           }
       },
       "messages": {

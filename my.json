@@ -10737,235 +10737,242 @@
       "status": {
           "setupVisible": true,
           "active": {
-              "original": "Active",
-              "singular": "Aktif",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Active",
+            "singular": "Aktif",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "available": {
-              "original": "Available",
-              "singular": "Tersedia",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Available",
+            "singular": "Tersedia",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "breakDown": {
-              "original": "Break Down",
-              "singular": "Break Down",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Break Down",
+            "singular": "Rosak",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "expired": {
-              "original": "Expired",
-              "singular": "Expired",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "inactive": {
-              "original": "Inactive",
-              "singular": "Inactive",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "incomplete": {
-              "original": "Incomplete",
-              "singular": "Incomplete",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "new": {
-              "original": "New",
-              "singular": "New",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "onDemand": {
-              "original": "On Demand",
-              "singular": "On Demand",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "onRent": {
-              "original": "On Rent",
-              "singular": "On Rent",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "overdue": {
-              "original": "Overdue",
-              "singular": "Tertunggak",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "preventive": {
-              "original": "Preventive",
-              "singular": "Preventive",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "replace": {
-              "original": "Replace",
-              "singular": "Replace",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "returned": {
-              "original": "Returned",
-              "singular": "Returned",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "service": {
-              "original": "Service",
-              "singular": "Service",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "terminated": {
-              "original": "Terminated",
-              "singular": "Terminated",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "upToDate": {
-              "original": "Up to Date",
-              "singular": "Up to Date",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "inProgress": {
-              "original": "In Progress",
-              "singular": "In Progress",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "completed": {
-              "original": "Completed",
-              "singular": "Completed",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "cancelled": {
-              "original": "Cancelled",
-              "singular": "Cancelled",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "pending": {
-              "original": "Pending",
-              "singular": "Pending",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "suspend": {
-              "original": "Suspend",
-              "singular": "Suspend",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "suspended": {
-              "original": "Suspended",
-              "singular": "Suspended",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "activate": {
-              "original": "Activate",
-              "singular": "Activate",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "deactivate": {
-              "original": "Deactivate",
-              "singular": "Deactivate",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "deactivated": {
-              "original": "Deactivated",
-              "singular": "Deactivated",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "pendingActivation": {
-              "original": "Pending Activation",
-              "singular": "Pending Activation",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "deleted": {
-              "original": "Deleted",
-              "singular": "Deleted",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "accepted": {
-              "original": "Accepted",
-              "singular": "Accepted",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "open": {
-              "original": "Open",
-              "singular": "Open",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "waiting": {
-              "original": "Waiting",
-              "singular": "Waiting",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Expired",
+            "singular": "Tamat Tempoh",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "approve": {
-              "original": "Approve",
-              "singular": "Approve",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
+            "original": "Approve",
+            "singular": "Luluskan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "acknowledge": {
+            "original": "Acknowledge",
+            "singular": "Akui",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "reject": {
-              "original": "Reject",
-              "singular": "Reject",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
+            "original": "Reject",
+            "singular": "Tolak",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "showMoreDetails": {
-              "original": "Show More Details",
-              "singular": "Show More Details",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
+          "inactive": {
+            "original": "Inactive",
+            "singular": "Tidak Aktif",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "incomplete": {
+            "original": "Incomplete",
+            "singular": "Tidak Lengkap",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "new": {
+            "original": "New",
+            "singular": "Baru",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "onDemand": {
+            "original": "On Demand",
+            "singular": "Atas Permintaan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "onRent": {
+            "original": "On Rent",
+            "singular": "Disewa",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "overdue": {
+            "original": "Overdue",
+            "singular": "Lewat",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "preventive": {
+            "original": "Preventive",
+            "singular": "Pencegahan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "replace": {
+            "original": "Replace",
+            "singular": "Ganti",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "returned": {
+            "original": "Returned",
+            "singular": "Dikembalikan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "service": {
+            "original": "Service",
+            "singular": "Perkhidmatan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "terminated": {
+            "original": "Terminated",
+            "singular": "Ditamatkan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "upToDate": {
+            "original": "Up to Date",
+            "singular": "Terkini",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "inProgress": {
+            "original": "In Progress",
+            "singular": "Sedang Berlangsung",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "completed": {
+            "original": "Completed",
+            "singular": "Selesai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "cancelled": {
+            "original": "Cancelled",
+            "singular": "Dibatalkan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "pending": {
+            "original": "Pending",
+            "singular": "Tertunda",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "suspend": {
+            "original": "Suspend",
+            "singular": "Gantung",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "suspended": {
+            "original": "Suspended",
+            "singular": "Digantung",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "activate": {
+            "original": "Activate",
+            "singular": "Aktifkan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "deactivate": {
+            "original": "Deactivate",
+            "singular": "Nyahaktifkan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "deactivated": {
+            "original": "Deactivated",
+            "singular": "Telah Dinonaktifkan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "pendingActivation": {
+            "original": "Pending Activation",
+            "singular": "Menunggu Pengaktifan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "deleted": {
+            "original": "Deleted",
+            "singular": "Dihapuskan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "accepted": {
+            "original": "Accepted",
+            "singular": "Diterima",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "open": {
+            "original": "Open",
+            "singular": "Buka",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "waiting": {
+            "original": "Waiting",
+            "singular": "Menunggu",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "messages": {
+            "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
+            "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",
+            "updateStatusTo": "Kemas kini status kepada",
+            "updateStatus": "Kemas Kini Status",
+            "confirmMarkTaskComplete": "Adakah anda ingin menandakan tugas ini sebagai selesai?"
           }
       },
       "messages": {

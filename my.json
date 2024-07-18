@@ -243,7 +243,14 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-        }
+        },
+        "fieldExID": {
+        "original": "FieldEx ID",
+        "singular": "FieldEx ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
     },
       "validationFE": {},
       "validationBE": {
@@ -1117,7 +1124,8 @@
       "messages": {
           "resetMeterForLowerReading": "Pilih 'Tetapkan Semula Meter' jika bacaan meter baru anda lebih kecil daripada bacaan semasa",
           "futureDateTimeEntryNotAllowed": "Entri tidak boleh dibuat untuk tarikh dan masa hadapan",
-          "entryCannotBeNegativeValue": "Entri tidak boleh dibuat dengan nilai negatif"
+          "entryCannotBeNegativeValue": "Entri tidak boleh dibuat dengan nilai negatif",
+          "areYouSureDeleteReading": "Adakah anda pasti mahu memadam bacaan ini pada"
       }
   },
   "vanLog": {
@@ -2253,6 +2261,13 @@
           "original": "Change Status",
           "singular": "Tukar Status",
           "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec13": {
+          "original": "Task List",
+          "singular": "Senarai Tugas",
+          "plural": "Senarai Tugas",
           "setupEdit": true,
           "setupVisible": false
         }

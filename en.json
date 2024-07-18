@@ -243,6 +243,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "fieldExID": {
+        "original": "FieldEx ID",
+        "singular": "FieldEx ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -1117,7 +1124,8 @@
     "messages": {
       "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
       "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",
-      "entryCannotBeNegativeValue": "Entry cannot be made with minus values"
+      "entryCannotBeNegativeValue": "Entry cannot be made with minus values",
+      "areYouSureDeleteReading":"Are you sure you want to delete this reading on"
     }
   },
   "vanLog":{
@@ -2253,6 +2261,13 @@
         "original": "Change Status",
         "singular": "Change Status",
         "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sec13": {
+        "original": "Task List",
+        "singular": "Task List",
+        "plural": "TTask List",
         "setupEdit": true,
         "setupVisible": false
       }

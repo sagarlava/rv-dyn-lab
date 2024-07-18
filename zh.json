@@ -243,7 +243,14 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
-        }
+        },
+        "fieldExID": {
+        "original": "FieldEx ID",
+        "singular": "FieldEx ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
       },
       "validationFE": {},
       "validationBE": {
@@ -1117,7 +1124,8 @@
       "messages": {
           "resetMeterForLowerReading": "如果您的新仪表读数小于当前读数，请选择“重置仪表”",
           "futureDateTimeEntryNotAllowed": "不能输入未来的日期和时间",
-          "entryCannotBeNegativeValue": "不能输入负值"
+          "entryCannotBeNegativeValue": "不能输入负值",
+          "areYouSureDeleteReading": "您确定要删除这个读数吗？"
       }
   },
   "vanLog": {
@@ -2253,6 +2261,13 @@
           "original": "Change Status",
           "singular": "更改状态",
           "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec13": {
+          "original": "Task List",
+          "singular": "任务列表",
+          "plural": "任务列表",
           "setupEdit": true,
           "setupVisible": false
         }

@@ -19721,7 +19721,7 @@
     "setupVisible": true,
     "label": {
       "original": "Productivity",
-      "singular": "Productivity",
+      "singular": "生产力",
       "plural": "",
       "setupEdit": true,
       "setupVisible": true
@@ -19730,35 +19730,35 @@
       "setupVisible": true,
       "sec0": {
         "original": "Productivity Details",
-        "singular": "Productivity Details",
+        "singular": "生产力详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
         "original": "Today Pending Productivity",
-        "singular": "Today Pending Productivity",
+        "singular": "今天待处理的生产力",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
         "original": "Pending Productivity",
-        "singular": "Pending Productivity",
-        "plural": "",
+        "singular": "待处理的生产力",
+        "plural": "生产力",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
         "original": "All Productivity",
-        "singular": "All Productivity",
+        "singular": "所有生产力",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "Filter By",
+        "singular": "过滤条件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -19768,43 +19768,43 @@
       "setupVisible": true,
       "productivityDateTime": {
         "original": "Productivity Date and Time",
-        "singular": "Productivity Date and Time",
+        "singular": "生产力日期和时间",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productivityStatus": {
         "original": "Productivity Status",
-        "singular": "Productivity Status",
+        "singular": "生产力状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "division": {
         "original": "Division",
-        "singular": "Division",
+        "singular": "部门",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "notes": {
         "original": "Notes",
-        "singular": "Note",
-        "plural": "Notes",
+        "singular": "备注",
+        "plural": "备注",
         "setupEdit": true,
         "setupVisible": true
       },
       "rejectReason": {
         "original": "Reject Reason",
-        "singular": "Reject Reason",
+        "singular": "拒绝原因",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "remarks": {
         "original": "Remarks",
-        "singular": "Remark",
-        "plural": "Remarks",
+        "singular": "备注",
+        "plural": "备注",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -19813,35 +19813,35 @@
       "setupVisible": true,
       "estateLookup": {
         "original": "Estate Lookup",
-        "singular": "Estate Lookup",
+        "singular": "地产查询",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
-        "singular": "Machine Specialist Lookup",
+        "singular": "机器专家查询",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "Please key in reason for the change",
+        "singular": "请输入更改原因",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
     "message": {
-      "selectTime": "Select Time"
+     "selectTime": "选择时间"
     },
     "primary": {
       "setupVisible": true,
       "label": {
         "original": "Primary",
-        "singular": "Primary",
-        "plural": "",
+        "singular": "主要",
+        "plural": "主要",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -19849,42 +19849,42 @@
         "setupVisible": true,
         "sec0": {
           "original": "General Details",
-          "singular": "General Details",
+          "singular": "一般详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec1": {
           "original": "Field 1",
-          "singular": "Field 1",
+          "singular": "字段 1",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
           "original": "Field 2",
-          "singular": "Field 2",
+          "singular": "字段 2",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec3": {
           "original": "Field 3",
-          "singular": "Field 3",
+          "singular": "字段 3",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec4": {
           "original": "Issues",
-          "singular": "Issues",
+          "singular": "问题",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec5": {
           "original": "Filter By",
-          "singular": "Filter By",
+          "singular": "过滤条件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -19894,71 +19894,71 @@
         "setupVisible": true,
         "workAccountCode": {
           "original": "Work Account Code",
-          "singular": "Work Account Code",
+          "singular": "工作账户代码",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "totalHectares": {
           "original": "Total Hectares",
-          "singular": "Total Hectare",
-          "plural": "Total Hectares",
+          "singular": "总公顷",
+          "plural": "总公顷",
           "setupEdit": true,
           "setupVisible": true
         },
         "totalHectaresMorning": {
           "original": "Total Hectares (Morning)",
-          "singular": "Total Hectare (Morning)",
-          "plural": "Total Hectares (Morning)",
+          "singular": "总公顷（早上）",
+          "plural": "总公顷（早上）",
           "setupEdit": true,
           "setupVisible": true
         },
         "totalHectaresAfternoon": {
           "original": "Total Hectares (Afternoon)",
-          "singular": "Total Hectares (Afternoon)",
-          "plural": "Total Hectares (Afternoon)",
+          "singular": "总公顷（下午）",
+          "plural": "总公顷（下午）",
           "setupEdit": true,
           "setupVisible": true
         },
         "rejectReason": {
           "original": "Reject Reason",
-          "singular": "Reject Reason",
+          "singular": "拒绝原因",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "fieldOne": {
           "original": "Field 1",
-          "singular": "Field 1",
+          "singular": "字段 1",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "fieldTwo": {
           "original": "Field 2",
-          "singular": "Field 2",
+          "singular": "字段 2",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "fieldThree": {
           "original": "Field 3",
-          "singular": "Field 3",
+          "singular": "字段 3",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "issues": {
           "original": "Issues",
-          "singular": "Issue",
-          "plural": "Issues",
+          "singular": "问题",
+          "plural": "问题",
           "setupEdit": true,
           "setupVisible": true
         },
         "remarks": {
           "original": "Remarks",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "singular": "备注",
+          "plural": "备注",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -19967,29 +19967,29 @@
         "setupVisible": true,
         "machineLookup": {
           "original": "Machines Lookup",
-          "singular": "Machine Lookup",
-          "plural": "Machines Lookup",
+          "singular": "机器查询",
+          "plural": "机器查询",
           "setupEdit": true,
           "setupVisible": true
         },
         "pleaseKeyInReason": {
           "original": "Please key in reason for the change",
-          "singular": "Please key in reason for the change",
+          "singular": "请输入更改原因",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
       },
       "message": {
-        "selectIssue": "Select Issue"
+        "selectIssue": "选择问题"
       }
     },
     "secondary": {
       "setupVisible": true,
       "label": {
         "original": "Secondary",
-        "singular": "Secondary",
-        "plural": "",
+        "singular": "次要",
+        "plural": "次要",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -19997,35 +19997,35 @@
         "setupVisible": true,
         "sec0": {
           "original": "General Details",
-          "singular": "General Details",
+          "singular": "一般详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec1": {
           "original": "Field 1",
-          "singular": "Field 1",
+          "singular": "字段 1",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
           "original": "Field 2",
-          "singular": "Field 2",
+          "singular": "字段 2",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec3": {
           "original": "Field 3",
-          "singular": "Field 3",
+          "singular": "字段 3",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec4": {
           "original": "Filter By",
-          "singular": "Filter By",
+          "singular": "过滤条件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -20035,84 +20035,84 @@
         "setupVisible": true,
         "typeSecondaryWork": {
           "original": "Type of Secondary Work",
-          "singular": "Type of Secondary Work",
+          "singular": "次要工作的类型",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "nameOfWork": {
           "original": "Name of Work",
-          "singular": "Name of Work",
+          "singular": "工作的名称",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "machineUsed": {
           "original": "Machine Used",
-          "singular": "Machine Used",
+          "singular": "使用的机器",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "evitNo": {
           "original": "EVIT No.",
-          "singular": "EVIT No.",
+          "singular": "EVIT 号",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "workAccountCode": {
           "original": "Work Account Code",
-          "singular": "Work Account Code",
+          "singular": "工作账户代码",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "totalHectares": {
           "original": "Total Hectares",
-          "singular": "Total Hectare",
-          "plural": "Total Hectares",
+          "singular": "总公顷",
+          "plural": "总公顷",
           "setupEdit": true,
           "setupVisible": true
         },
         "totalHectaresMorning": {
           "original": "Total Hectares (Morning)",
-          "singular": "Total Hectare (Morning)",
-          "plural": "Total Hectares (Morning)",
+          "singular": "总公顷（早上）",
+          "plural": "总公顷（早上）",
           "setupEdit": true,
           "setupVisible": true
         },
         "totalHectaresAfternoon": {
           "original": "Total Hectares (Afternoon)",
-          "singular": "Total Hectares (Afternoon)",
-          "plural": "Total Hectares (Afternoon)",
+          "singular": "总公顷（下午）",
+          "plural": "总公顷（下午）",
           "setupEdit": true,
           "setupVisible": true
         },
         "fieldOne": {
           "original": "Field 1",
-          "singular": "Field 1",
+          "singular": "字段 1",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "fieldTwo": {
           "original": "Field 2",
-          "singular": "Field 2",
+          "singular": "字段 2",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "fieldThree": {
           "original": "Field 3",
-          "singular": "Field 3",
+          "singular": "字段 3",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
       },
       "messages": {
-        "nameOfSecondaryWork": "Name of Secondary Work"
+        "nameOfSecondaryWork": "次要工作的名称"
       }
     }
   },

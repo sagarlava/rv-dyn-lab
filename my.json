@@ -19753,8 +19753,8 @@
     "setupVisible": true,
     "label": {
       "original": "Productivity",
-      "singular": "Productivity",
-      "plural": "",
+      "singular": "Produktiviti",
+      "plural": "Produktiviti",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -19762,35 +19762,35 @@
       "setupVisible": true,
       "sec0": {
         "original": "Productivity Details",
-        "singular": "Productivity Details",
+        "singular": "Butiran Produktiviti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
         "original": "Today Pending Productivity",
-        "singular": "Today Pending Productivity",
+        "singular": "Produktiviti Tertunggak Hari Ini",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
         "original": "Pending Productivity",
-        "singular": "Pending Productivity",
+        "singular": "Produktiviti Tertunggak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
         "original": "All Productivity",
-        "singular": "All Productivity",
+        "singular": "Semua Produktiviti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "Filter By",
+        "singular": "Tapis Mengikut",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -19800,43 +19800,43 @@
       "setupVisible": true,
       "productivityDateTime": {
         "original": "Productivity Date and Time",
-        "singular": "Productivity Date and Time",
+        "singular": "Tarikh dan Masa Produktiviti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productivityStatus": {
         "original": "Productivity Status",
-        "singular": "Productivity Status",
+        "singular": "Status Produktiviti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "division": {
         "original": "Division",
-        "singular": "Division",
+        "singular": "Bahagian",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "notes": {
         "original": "Notes",
-        "singular": "Note",
-        "plural": "Notes",
+        "singular": "Nota",
+        "plural": "Nota",
         "setupEdit": true,
         "setupVisible": true
       },
       "rejectReason": {
         "original": "Reject Reason",
-        "singular": "Reject Reason",
+        "singular": "Sebab Penolakan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "remarks": {
         "original": "Remarks",
-        "singular": "Remark",
-        "plural": "Remarks",
+        "singular": "Ulasan",
+        "plural": "Ulasan",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -19845,35 +19845,35 @@
       "setupVisible": true,
       "estateLookup": {
         "original": "Estate Lookup",
-        "singular": "Estate Lookup",
+        "singular": "Carian Harta",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
-        "singular": "Machine Specialist Lookup",
+        "singular": "Carian Pakar Mesin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "Please key in reason for the change",
+        "singular": "Sila masukkan sebab untuk perubahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
     },
     "message": {
-      "selectTime": "Select Time"
+      "selectTime": "Pilih Masa"
     },
     "primary": {
       "setupVisible": true,
       "label": {
         "original": "Primary",
-        "singular": "Primary",
-        "plural": "",
+        "singular": "Utama",
+        "plural": "Utama",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -19881,42 +19881,42 @@
         "setupVisible": true,
         "sec0": {
           "original": "General Details",
-          "singular": "General Details",
+          "singular": "Butiran Umum",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec1": {
           "original": "Field 1",
-          "singular": "Field 1",
+          "singular": "Medan 1",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
           "original": "Field 2",
-          "singular": "Field 2",
+          "singular": "Medan 2",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec3": {
           "original": "Field 3",
-          "singular": "Field 3",
+          "singular": "Medan 3",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec4": {
           "original": "Issues",
-          "singular": "Issues",
+          "singular": "Isu",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec5": {
           "original": "Filter By",
-          "singular": "Filter By",
+          "singular": "Tapis Mengikut",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -19926,71 +19926,71 @@
         "setupVisible": true,
         "workAccountCode": {
           "original": "Work Account Code",
-          "singular": "Work Account Code",
+          "singular": "Kod Akaun Kerja",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "totalHectares": {
           "original": "Total Hectares",
-          "singular": "Total Hectare",
-          "plural": "Total Hectares",
+          "singular": "Jumlah Hektar",
+          "plural": "Jumlah Hektar",
           "setupEdit": true,
           "setupVisible": true
         },
         "totalHectaresMorning": {
           "original": "Total Hectares (Morning)",
-          "singular": "Total Hectare (Morning)",
-          "plural": "Total Hectares (Morning)",
+          "singular": "Jumlah Hektar (Pagi)",
+          "plural": "Jumlah Hektar (Pagi)",
           "setupEdit": true,
           "setupVisible": true
         },
         "totalHectaresAfternoon": {
           "original": "Total Hectares (Afternoon)",
-          "singular": "Total Hectares (Afternoon)",
-          "plural": "Total Hectares (Afternoon)",
+          "singular": "Jumlah Hektar (Petang)",
+          "plural": "Jumlah Hektar (Petang)",
           "setupEdit": true,
           "setupVisible": true
         },
         "rejectReason": {
           "original": "Reject Reason",
-          "singular": "Reject Reason",
+          "singular": "Sebab Penolakan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "fieldOne": {
           "original": "Field 1",
-          "singular": "Field 1",
+          "singular": "Medan 1",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "fieldTwo": {
           "original": "Field 2",
-          "singular": "Field 2",
+          "singular": "Medan 2",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "fieldThree": {
           "original": "Field 3",
-          "singular": "Field 3",
+          "singular": "Medan 3",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "issues": {
           "original": "Issues",
-          "singular": "Issue",
-          "plural": "Issues",
+          "singular": "Isu",
+          "plural": "Isu",
           "setupEdit": true,
           "setupVisible": true
         },
         "remarks": {
           "original": "Remarks",
-          "singular": "Remark",
-          "plural": "Remarks",
+          "singular": "Ulasan",
+          "plural": "Ulasan",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -19999,29 +19999,29 @@
         "setupVisible": true,
         "machineLookup": {
           "original": "Machines Lookup",
-          "singular": "Machine Lookup",
-          "plural": "Machines Lookup",
+          "singular": "Carian Mesin",
+          "plural": "Carian Mesin",
           "setupEdit": true,
           "setupVisible": true
         },
         "pleaseKeyInReason": {
           "original": "Please key in reason for the change",
-          "singular": "Please key in reason for the change",
+          "singular": "Sila masukkan sebab untuk perubahan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
       },
       "message": {
-        "selectIssue": "Select Issue"
+        "selectIssue": "Pilih Isu"
       }
     },
     "secondary": {
       "setupVisible": true,
       "label": {
         "original": "Secondary",
-        "singular": "Secondary",
-        "plural": "",
+        "singular": "Sekunder",
+        "plural": "Sekunder",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -20029,35 +20029,35 @@
         "setupVisible": true,
         "sec0": {
           "original": "General Details",
-          "singular": "General Details",
+          "singular": "Butiran Umum",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec1": {
           "original": "Field 1",
-          "singular": "Field 1",
+          "singular": "Medan 1",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec2": {
           "original": "Field 2",
-          "singular": "Field 2",
+          "singular": "Medan 2",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec3": {
           "original": "Field 3",
-          "singular": "Field 3",
+          "singular": "Medan 3",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec4": {
           "original": "Filter By",
-          "singular": "Filter By",
+          "singular": "Tapis Mengikut",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -20067,21 +20067,21 @@
         "setupVisible": true,
         "typeSecondaryWork": {
           "original": "Type of Secondary Work",
-          "singular": "Type of Secondary Work",
+          "singular": "Jenis Kerja Sekunder",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "nameOfWork": {
           "original": "Name of Work",
-          "singular": "Name of Work",
+          "singular": "Nama Kerja",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "machineUsed": {
           "original": "Machine Used",
-          "singular": "Machine Used",
+          "singular": "Mesin yang Digunakan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -20095,56 +20095,56 @@
         },
         "workAccountCode": {
           "original": "Work Account Code",
-          "singular": "Work Account Code",
+          "singular": "Kod Akaun Kerja",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "totalHectares": {
           "original": "Total Hectares",
-          "singular": "Total Hectare",
-          "plural": "Total Hectares",
+          "singular": "Jumlah Hektar",
+          "plural": "Jumlah Hektar",
           "setupEdit": true,
           "setupVisible": true
         },
         "totalHectaresMorning": {
           "original": "Total Hectares (Morning)",
-          "singular": "Total Hectare (Morning)",
-          "plural": "Total Hectares (Morning)",
+          "singular": "Jumlah Hektar (Pagi)",
+          "plural": "Jumlah Hektar (Pagi)",
           "setupEdit": true,
           "setupVisible": true
         },
         "totalHectaresAfternoon": {
           "original": "Total Hectares (Afternoon)",
-          "singular": "Total Hectares (Afternoon)",
-          "plural": "Total Hectares (Afternoon)",
+          "singular": "Jumlah Hektar (Petang)",
+          "plural": "Jumlah Hektar (Petang)",
           "setupEdit": true,
           "setupVisible": true
         },
         "fieldOne": {
           "original": "Field 1",
-          "singular": "Field 1",
+          "singular": "Medan 1",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "fieldTwo": {
           "original": "Field 2",
-          "singular": "Field 2",
+          "singular": "Medan 2",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "fieldThree": {
           "original": "Field 3",
-          "singular": "Field 3",
+          "singular": "Medan 3",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
       },
       "messages": {
-        "nameOfSecondaryWork": "Name of Secondary Work"
+        "nameOfSecondaryWork": "Nama Kerja Sekunder"
       }
     }
   },

@@ -2263,13 +2263,6 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
-      },
-      "sec13": {
-        "original": "Task List",
-        "singular": "Task List",
-        "plural": "TTask List",
-        "setupEdit": true,
-        "setupVisible": false
       }
     },
     "fields": {
@@ -2750,7 +2743,6 @@
       "newProductType":"New Product Type",
       "subTotal": "Sub Total",
       "totalAmount": "Total Amount"
-
     }
   },
   "task": {
@@ -7647,7 +7639,6 @@
       "noSlaStepDefined": "No SLA step yet",
       "createJobOrder":"Create Job Order",
       "linkCopied":"Link Copied"
-
     }
   },
   "inventory": {
@@ -8035,7 +8026,6 @@
         "setupEdit": true,
         "setupVisible": false
       }
-     
     },
     "validationFE": {
         "pleaseSelectOne":"Please select one product or one asset"
@@ -8543,7 +8533,6 @@
           "setupEdit": true,
           "setupVisible": true
         },
-
         "selectProduct": {
           "original": "Select Product",
           "singular": "Select Product",
@@ -8580,7 +8569,6 @@
           "setupVisible": true
         }
       }
-    
   },
   "consignment": {
     "setupVisible": true,
@@ -9088,6 +9076,13 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "itemNo": {
+          "original": "Item No.",
+          "singular": "Item No.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      },
       "quantity": {
         "original": "Quantity",
         "singular": "Quantity",
@@ -9286,7 +9281,6 @@
       "confirmActivateUser": "Are you sure you want to activate this user?",
       "confirmDeactivateUser": "Are you sure you want to deactivate this user’s account? This user cannot be activated again after deactivation.",
       "confirmSuspendUser": "Are you sure you want to suspend this user’s account?"
-
     }
   },
   "helpdesk": {
@@ -15959,6 +15953,13 @@
           "original": "Change Status",
           "singular": "Change Status",
           "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec15": {
+          "original": "Task List",
+          "singular": "Task List",
+          "plural": "Task List",
           "setupEdit": true,
           "setupVisible": false
         }

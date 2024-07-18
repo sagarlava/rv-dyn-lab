@@ -2263,13 +2263,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "sec13": {
-          "original": "Task List",
-          "singular": "Senarai Tugas",
-          "plural": "Senarai Tugas",
-          "setupEdit": true,
-          "setupVisible": false
         }
       },
       "fields": {
@@ -9084,7 +9077,7 @@
               "setupVisible": true
           },
           "itemNo": {
-              "original": "No. Item",
+              "original": "Item No.",
               "singular": "No. Item",
               "plural": "",
               "setupEdit": true,
@@ -9720,322 +9713,322 @@
       "setupVisible": false,
       "refresh": {
         "original": "Refresh",
-        "singular": "Refresh",
+        "singular": "Muat Semula",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "signAndComplete": {
         "original": "Sign & Complete",
-        "singular": "Sign & Complete",
+        "singular": "Tandatangan & Selesaikan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "completionForm": {
         "original": "Completion Form",
-        "singular": "Completion Form",
+        "singular": "Borang Penyelesaian",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "showDirection": {
         "original": "Show Direction",
-        "singular": "Show Direction",
+        "singular": "Tunjukkan Arah",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
-      "select":{
+      "select": {
         "original": "SELECT",
-        "singular": "SELECT",
+        "singular": "Pilih",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
-      "select2":{
+      "select2": {
         "original": "Select",
-        "singular": "Select",
+        "singular": "Pilih",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "search": {
         "original": "Search",
-        "singular": "Search",
+        "singular": "Cari",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "new": {
         "original": "New",
-        "singular": "New",
+        "singular": "Baru",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "filter": {
         "original": "Filter",
-        "singular": "Filter",
+        "singular": "Tapis",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "resetFilter": {
         "original": "Reset Filter",
-        "singular": "Reset Filter",
+        "singular": "Tetapkan Semula Penapis",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "closeFilter": {
         "original": "Close Filter",
-        "singular": "Close Filter",
+        "singular": "Tutup Penapis",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "clearAll": {
         "original": "Clear All",
-        "singular": "Clear All",
+        "singular": "Kosongkan Semua",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "cancel": {
         "original": "Cancel",
-        "singular": "Cancel",
+        "singular": "Batal",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "save": {
         "original": "Save",
-        "singular": "Save",
+        "singular": "Simpan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "saveAndNext": {
         "original": "Save & Next",
-        "singular": "Save & Next",
+        "singular": "Simpan & Seterusnya",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "close": {
         "original": "Close",
-        "singular": "Close",
+        "singular": "Tutup",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "register": {
         "original": "Register",
-        "singular": "Register",
+        "singular": "Daftar",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "discardChanges": {
         "original": "Discard Changes",
-        "singular": "Discard Changes",
+        "singular": "Buang Perubahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "saveChanges": {
         "original": "Save Changes",
-        "singular": "Save Changes",
+        "singular": "Simpan Perubahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "undo": {
         "original": "Undo",
-        "singular": "Undo",
+        "singular": "Batal",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "transferByProducts": {
         "original": "Transfer by Products",
-        "singular": "Transfer by Products",
+        "singular": "Pindahkan Mengikut Produk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "transferByBin": {
         "original": "Transfer by Bin",
-        "singular": "Transfer by Bin",
+        "singular": "Pindahkan Mengikut Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "transferAnyway": {
         "original": "Transfer Anyway",
-        "singular": "Transfer Anyway",
+        "singular": "Tetap Pindahkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "transfer": {
         "original": "Transfer",
-        "singular": "Transfer",
+        "singular": "Pindahkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "location": {
         "original": "Location",
-        "singular": "Location",
+        "singular": "Lokasi",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "update": {
         "original": "Update",
-        "singular": "Update",
-        "plural": "Update",
+        "singular": "Kemaskini",
+        "plural": "Kemaskini",
         "setupEdit": true,
         "setupVisible": false
       },
       "clear": {
         "original": "Clear",
-        "singular": "Clear",
-        "plural": "Clear",
+        "singular": "Kosongkan",
+        "plural": "Kosongkan",
         "setupEdit": true,
         "setupVisible": false
       },
       "user": {
         "original": "User",
-        "singular": "User",
-        "plural": "Users",
+        "singular": "Pengguna",
+        "plural": "Pengguna",
         "setupEdit": true,
         "setupVisible": false
       },
       "apply": {
         "original": "Apply",
-        "singular": "Apply",
+        "singular": "Guna",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "action": {
         "original": "Action",
-        "singular": "Action",
+        "singular": "Tindakan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "assignTask": {
         "original": "Assign Task",
-        "singular": "Assign Task",
+        "singular": "Tugaskan Tugas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "back": {
         "original": "Back",
-        "singular": "Back",
+        "singular": "Kembali",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "scan": {
         "original": "Scan",
-        "singular": "Scan",
+        "singular": "Imbas",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "add": {
         "original": "Add",
-        "singular": "Add",
+        "singular": "Tambah",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "clone": {
         "original": "Clone",
-        "singular": "Clone",
+        "singular": "Klon",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "claim": {
         "original": "Claim",
-        "singular": "Claim",
+        "singular": "Tuntut",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "setup": {
         "original": "Setup",
-        "singular": "Setup",
+        "singular": "Tetapkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "accept": {
         "original": "Accept",
-        "singular": "Accept",
+        "singular": "Terima",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "decline": {
         "original": "Decline",
-        "singular": "Decline",
+        "singular": "Tolak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "reject": {
         "original": "Reject",
-        "singular": "Reject",
+        "singular": "Tolak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "acknowledge": {
         "original": "Acknowledge",
-        "singular": "Acknowledge",
+        "singular": "Akui",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "copyCode": {
         "original": "Copy Code",
-        "singular": "Copy Code",
+        "singular": "Salin Kod",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "copyLink": {
         "original": "Copy Link",
-        "singular": "Copy Link",
+        "singular": "Salin Pautan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "delete": {
         "original": "Delete",
-        "singular": "Delete",
+        "singular": "Padam",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "download": {
         "original": "Download",
-        "singular": "Download",
+        "singular": "Muat Turun",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "downloadPdf": {
         "original": "Download PDF",
-        "singular": "Download PDF",
+        "singular": "Muat Turun PDF",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -10049,203 +10042,203 @@
       },
       "editEquipment": {
         "original": "Edit Equipment",
-        "singular": "Edit Equipment",
+        "singular": "Edit Peralatan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "editHpForm": {
         "original": "Edit Hp Form",
-        "singular": "Edit Hp Form",
+        "singular": "Edit Borang Hp",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "expandOverview": {
         "original": "Expand Overview",
-        "singular": "Expand Overview",
+        "singular": "Kembangkan Gambaran Keseluruhan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "exportData": {
         "original": "Export Data",
-        "singular": "Export Data",
+        "singular": "Eksport Data",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "fewerOptions": {
         "original": "Fewer Options",
-        "singular": "Fewer Options",
+        "singular": "Pilihan Lebih Sedikit",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "generateLink": {
         "original": "Generate Link",
-        "singular": "Generate Link",
+        "singular": "Jana Pautan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "generatePdf": {
         "original": "Generate PDF",
-        "singular": "Generate PDF",
+        "singular": "Jana PDF",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "hideOverview": {
         "original": "Hide Overview",
-        "singular": "Hide Overview",
+        "singular": "Sembunyikan Gambaran Keseluruhan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "more": {
         "original": "More",
-        "singular": "More",
+        "singular": "Lebih Banyak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "move": {
         "original": "Move",
-        "singular": "Move",
+        "singular": "Pindahkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "moreOptions": {
         "original": "More Options",
-        "singular": "More Options",
+        "singular": "Lebih Banyak Pilihan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "pinLocation": {
         "original": "Pin Location",
-        "singular": "Pin Location",
+        "singular": "Pin Lokasi",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "saveNext": {
         "original": "Save & Next",
-        "singular": "Save & Next",
+        "singular": "Simpan & Seterusnya",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "send": {
         "original": "Send",
-        "singular": "Send",
+        "singular": "Hantar",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "checkIn": {
         "original": "Check In",
-        "singular": "Check In",
+        "singular": "Daftar Masuk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "checkOut": {
         "original": "Check Out",
-        "singular": "Check Out",
+        "singular": "Daftar Keluar",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "sendCalendlyLink": {
         "original": "Send Calendly Link",
-        "singular": "Send Calendly Link",
+        "singular": "Hantar Pautan Calendly",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "sendSurveyLink": {
         "original": "Send Survey Link",
-        "singular": "Send Survey Link",
+        "singular": "Hantar Pautan Tinjauan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "showMap": {
         "original": "Show Map",
-        "singular": "Show Map",
+        "singular": "Tunjukkan Peta",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "submit": {
         "original": "Submit",
-        "singular": "Submit",
+        "singular": "Hantar",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "submitForAcknowledge": {
         "original": "Submit For Acknowledge",
-        "singular": "Submit For Acknowledge",
+        "singular": "Hantar Untuk Pengesahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "sendEmail": {
         "original": "Send Email",
-        "singular": "Send Email",
+        "singular": "Hantar E-mel",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "upload": {
         "original": "Upload",
-        "singular": "Upload",
+        "singular": "Muat Naik",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "uploadFile": {
         "original": "Upload File",
-        "singular": "Upload File",
+        "singular": "Muat Naik Fail",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "seeAll": {
         "original": "See All",
-        "singular": "See All",
+        "singular": "Lihat Semua",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "view": {
         "original": "View",
-        "singular": "View",
+        "singular": "Lihat",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "smartAssign": {
         "original": "Smart Assign",
-        "singular": "Smart Assign",
+        "singular": "Peruntukkan Pintar",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "markAllAsRead": {
         "original": "Mark all as read",
-        "singular": "Mark all as read",
+        "singular": "Tanda semua sebagai dibaca",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "assign": {
         "original": "Assign",
-        "singular": "Assign",
+        "singular": "Peruntukkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -10259,259 +10252,259 @@
       },
       "read": {
         "original": "Read",
-        "singular": "Read",
+        "singular": "Baca",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "redo": {
         "original": "Redo",
-        "singular": "Redo",
+        "singular": "Buat Semula",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "complete": {
         "original": "Complete",
-        "singular": "Complete",
+        "singular": "Selesai",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "next": {
         "original": "Next",
-        "singular": "Next",
+        "singular": "Seterusnya",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "proceed": {
         "original": "Proceed",
-        "singular": "Proceed",
+        "singular": "Teruskan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "remove": {
         "original": "Remove",
-        "singular": "Remove",
+        "singular": "Alih Keluar",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "addNotes": {
         "original": "Add Notes",
-        "singular": "Add Notes",
-        "plural": "",
+        "singular": "Tambah Nota",
+        "plural": "Tambah Nota",
         "setupEdit": true,
         "setupVisible": false
       },
       "notes": {
         "original": "Note",
-        "singular": "Note",
-        "plural": "Notes",
+        "singular": "Nota",
+        "plural": "Nota",
         "setupEdit": true,
         "setupVisible": false
       },
       "assistance": {
         "original": "Assistance",
-        "singular": "Notes",
+        "singular": "Bantuan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "activity": {
         "original": "Activity",
-        "singular": "Activity",
+        "singular": "Aktiviti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "journeys": {
         "original": "Journeys",
-        "singular": "Journeys",
+        "singular": "Perjalanan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "editNotes": {
         "original": "Edit Notes",
-        "singular": "Edit Notes",
+        "singular": "Edit Nota",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "saveNotes": {
         "original": "Save Notes",
-        "singular": "Save Notes",
+        "singular": "Simpan Nota",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "adjustInventory": {
         "original": "Adjust Inventory",
-        "singular": "Adjust Inventory",
+        "singular": "Sesuaikan Inventori",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "checkAvailability": {
         "original": "Check availability",
-        "singular": "Check availability",
+        "singular": "Periksa ketersediaan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "findTime": {
         "original": "Find a time",
-        "singular": "Find a time",
+        "singular": "Cari masa",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "escalate": {
         "original": "Escalate",
-        "singular": "Escalate",
+        "singular": "Tingkatkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "addComment": {
         "original": "Add Comment",
-        "singular": "Add Comment",
+        "singular": "Tambah Komen",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "uploadImage": {
         "original": "Upload Image",
-        "singular": "Upload Image",
+        "singular": "Muat Naik Gambar",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "create": {
         "original": "Create",
-        "singular": "Create",
+        "singular": "Cipta",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "login": {
         "original": "Log In",
-        "singular": "Log In",
+        "singular": "Log Masuk",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "resetPassword": {
         "original": "Reset Password",
-        "singular": "Reset Password",
+        "singular": "Tetapkan Semula Kata Laluan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "resendEmail": {
         "original": "Resend Email",
-        "singular": "Resend Email",
+        "singular": "Hantar Semula E-mel",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "addLevel": {
         "original": "Add Level",
-        "singular": "Add Level",
+        "singular": "Tambah Tahap",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "addRole": {
         "original": "Add Role",
-        "singular": "Add Role",
+        "singular": "Tambah Peranan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "removeRole": {
         "original": "Remove Role",
-        "singular": "Remove Role",
+        "singular": "Alih Keluar Peranan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "connect": {
         "original": "Connect",
-        "singular": "Connect",
+        "singular": "Sambung",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "disconnect": {
         "original": "Disconnect",
-        "singular": "Disconnect",
+        "singular": "Putuskan Sambungan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "configure": {
         "original": "Configure",
-        "singular": "Configure",
+        "singular": "Konfigurasikan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "preview": {
         "original": "Preview",
-        "singular": "Preview",
+        "singular": "Pratonton",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "addEditCondition": {
         "original": "Add/Edit Condition",
-        "singular": "Add/Edit Condition",
+        "singular": "Tambah/Edit Syarat",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "addEditCriteria": {
         "original": "Add/Edit Criteria",
-        "singular": "Add/Edit Criteria",
+        "singular": "Tambah/Edit Kriteria",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "updateTheme": {
         "original": "Update Theme",
-        "singular": "Update Theme",
+        "singular": "Kemas Kini Tema",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "setUpEvents": {
         "original": "Set Up Events",
-        "singular": "Set Up Events",
+        "singular": "Tetapkan Acara",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "revertToDefault": {
         "original": "Revert to Default",
-        "singular": "Revert to Default",
+        "singular": "Kembali ke Lalai",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "removePhoto": {
         "original": "Remove Photo",
-        "singular": "Remove Photo",
+        "singular": "Alih Keluar Foto",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "uploadPhoto": {
         "original": "Upload Photo",
-        "singular": "Upload Photo",
+        "singular": "Muat Naik Foto",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -10525,218 +10518,218 @@
       },
       "exportCsv": {
         "original": "Export as CSV",
-        "singular": "Export as CSV",
+        "singular": "Eksport sebagai CSV",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "buildForm": {
         "original": "Build Form",
-        "singular": "Build Form",
+        "singular": "Bina Borang",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "approve": {
         "original": "Approve",
-        "singular": "Approve",
+        "singular": "Luluskan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "print": {
         "original": "Print",
-        "singular": "Print",
+        "singular": "Cetak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "email": {
         "original": "EMAIL",
-        "singular": "EMAIL",
+        "singular": "EMEL",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "viewMap": {
         "original": "View Map",
-        "singular": "View map",
+        "singular": "Lihat Peta",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "receipt": {
         "original": "RECEIPT",
-        "singular": "RECEIPT",
+        "singular": "RESIT",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "exit": {
         "original": "Exit",
-        "singular": "Exit",
+        "singular": "Keluar",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "done": {
         "original": "Done",
-        "singular": "Done",
+        "singular": "Selesai",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "applyToAll": {
         "original": "Apply to all",
-        "singular": "Apply to all",
+        "singular": "Guna kepada semua",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "updateForNew": {
         "original": "Update for new",
-        "singular": "Update for new",
+        "singular": "Kemas Kini untuk yang baru",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "startJourney": {
         "original": "Start Journey",
-        "singular": "Start Journey",
+        "singular": "Mulakan Perjalanan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "returnToJourney": {
         "original": "Return to Journey",
-        "singular": "Return to Journey",
+        "singular": "Kembali ke Perjalanan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "approveAllUser": {
         "original": "Apply changes to all users",
-        "singular": "Apply changes to all users",
+        "singular": "Guna perubahan kepada semua pengguna",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "approveNewUser": {
         "original": "Update for new users only",
-        "singular": "Update for new users only",
+        "singular": "Kemas Kini untuk pengguna baru sahaja",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "check": {
         "original": "Check",
-        "singular": "Check",
+        "singular": "Periksa",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "openInNewTab": {
         "original": "Open in New Tab",
-        "singular": "Open in New Tab",
+        "singular": "Buka dalam Tab Baru",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "calendarView": {
         "original": "Calendar View",
-        "singular": "Calendar View",
+        "singular": "Pandangan Kalendar",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "tableView": {
         "original": "Table View",
-        "singular": "Table View",
+        "singular": "Pandangan Jadual",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "mapView": {
         "original": "Map View",
-        "singular": "Map View",
+        "singular": "Pandangan Peta",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "calculate": {
         "original": "Calculate",
-        "singular": "Calculate",
+        "singular": "Kira",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "savePlan": {
         "original": "Save Plan",
-        "singular": "Save Plan",
+        "singular": "Simpan Rancangan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "makeOwner": {
         "original": "Make Owner",
-        "singular": "Make Owner",
+        "singular": "Jadikan Pemilik",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "yes": {
         "original": "Yes",
-        "singular": "Yes",
+        "singular": "Ya",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "no": {
         "original": "No",
-        "singular": "No",
+        "singular": "Tidak",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "showMoreDetails": {
         "original": "Show More Details",
-        "singular": "Show More Details",
+        "singular": "Tunjukkan Lebih Banyak Butiran",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "locate": {
         "original": "Locate",
-        "singular": "Locate",
+        "singular": "Cari",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
-      "viewLocation":{
+      "viewLocation": {
         "original": "View Location",
-        "singular": "View Location",
+        "singular": "Lihat Lokasi",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "pinSaveLocation": {
         "original": "Pin & Save Your Location",
-        "singular": "Pin & Save Your Location",
+        "singular": "Pin & Simpan Lokasi Anda",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "reset": {
         "original": "Reset",
-        "singular": "Reset",
+        "singular": "Tetapkan Semula",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "addMember": {
         "original": "Add Members",
-        "singular": "Add Member",
-        "plural": "Add Members",
+        "singular": "Tambah Ahli",
+        "plural": "Tambah Ahli",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -15794,7 +15787,7 @@
       "checklist": {
           "setupVisible": true,
           "label": {
-              "original": "Checklists",
+              "original": "Checklist",
               "singular": "Senarai Semak",
               "plural": "Senarai Semak",
               "setupEdit": true,
@@ -15906,6 +15899,13 @@
                   "plural": "",
                   "setupEdit": true,
                   "setupVisible": false
+              },
+              "sec15": {
+                "original": "Task List",
+                "singular": "Senarai Tugas",
+                "plural": "Senarai Tugas",
+                "setupEdit": true,
+                "setupVisible": false
               }
           },
           "fields": {

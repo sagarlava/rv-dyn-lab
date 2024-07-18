@@ -2263,13 +2263,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "sec13": {
-          "original": "Task List",
-          "singular": "任务列表",
-          "plural": "任务列表",
-          "setupEdit": true,
-          "setupVisible": false
         }
       },
       "fields": {
@@ -9084,7 +9077,7 @@
               "setupVisible": true
           },
           "itemNo": {
-              "original": "项目编号",
+              "original": "Item No.",
               "singular": "项目编号",
               "plural": "",
               "setupEdit": true,
@@ -9720,1023 +9713,1023 @@
         "setupVisible": false,
         "refresh": {
           "original": "Refresh",
-          "singular": "Refresh",
+          "singular": "刷新",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "signAndComplete": {
           "original": "Sign & Complete",
-          "singular": "Sign & Complete",
+          "singular": "签名并完成",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "completionForm": {
           "original": "Completion Form",
-          "singular": "Completion Form",
+          "singular": "完成表",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "showDirection": {
           "original": "Show Direction",
-          "singular": "Show Direction",
+          "singular": "显示方向",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
-        "select":{
+        "select": {
           "original": "SELECT",
-          "singular": "SELECT",
+          "singular": "选择",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
-        "select2":{
+        "select2": {
           "original": "Select",
-          "singular": "Select",
+          "singular": "选择",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "search": {
           "original": "Search",
-          "singular": "Search",
+          "singular": "搜索",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "new": {
           "original": "New",
-          "singular": "New",
+          "singular": "新建",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "filter": {
           "original": "Filter",
-          "singular": "Filter",
+          "singular": "过滤",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "resetFilter": {
           "original": "Reset Filter",
-          "singular": "Reset Filter",
+          "singular": "重置过滤器",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "closeFilter": {
           "original": "Close Filter",
-          "singular": "Close Filter",
+          "singular": "关闭过滤器",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "clearAll": {
           "original": "Clear All",
-          "singular": "Clear All",
+          "singular": "清除所有",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "cancel": {
           "original": "Cancel",
-          "singular": "Cancel",
+          "singular": "取消",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "save": {
           "original": "Save",
-          "singular": "Save",
+          "singular": "保存",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "saveAndNext": {
           "original": "Save & Next",
-          "singular": "Save & Next",
+          "singular": "保存并继续",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "close": {
           "original": "Close",
-          "singular": "Close",
+          "singular": "关闭",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "register": {
           "original": "Register",
-          "singular": "Register",
+          "singular": "注册",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "discardChanges": {
           "original": "Discard Changes",
-          "singular": "Discard Changes",
+          "singular": "放弃更改",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "saveChanges": {
           "original": "Save Changes",
-          "singular": "Save Changes",
+          "singular": "保存更改",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "undo": {
           "original": "Undo",
-          "singular": "Undo",
+          "singular": "撤销",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "transferByProducts": {
           "original": "Transfer by Products",
-          "singular": "Transfer by Products",
+          "singular": "按产品转移",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "transferByBin": {
           "original": "Transfer by Bin",
-          "singular": "Transfer by Bin",
+          "singular": "按箱转移",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "transferAnyway": {
           "original": "Transfer Anyway",
-          "singular": "Transfer Anyway",
+          "singular": "仍然转移",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "transfer": {
           "original": "Transfer",
-          "singular": "Transfer",
+          "singular": "转移",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "location": {
           "original": "Location",
-          "singular": "Location",
+          "singular": "位置",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "update": {
           "original": "Update",
-          "singular": "Update",
-          "plural": "Update",
+          "singular": "更新",
+          "plural": "更新",
           "setupEdit": true,
           "setupVisible": false
         },
         "clear": {
           "original": "Clear",
-          "singular": "Clear",
-          "plural": "Clear",
+          "singular": "清除",
+          "plural": "清除",
           "setupEdit": true,
           "setupVisible": false
         },
         "user": {
           "original": "User",
-          "singular": "User",
-          "plural": "Users",
+          "singular": "用户",
+          "plural": "用户",
           "setupEdit": true,
           "setupVisible": false
         },
         "apply": {
           "original": "Apply",
-          "singular": "Apply",
+          "singular": "应用",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "action": {
           "original": "Action",
-          "singular": "Action",
+          "singular": "操作",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "assignTask": {
           "original": "Assign Task",
-          "singular": "Assign Task",
+          "singular": "分配任务",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "back": {
           "original": "Back",
-          "singular": "Back",
+          "singular": "返回",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "scan": {
           "original": "Scan",
-          "singular": "Scan",
+          "singular": "扫描",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "add": {
           "original": "Add",
-          "singular": "Add",
+          "singular": "添加",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "clone": {
           "original": "Clone",
-          "singular": "Clone",
+          "singular": "克隆",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "claim": {
           "original": "Claim",
-          "singular": "Claim",
+          "singular": "认领",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "setup": {
           "original": "Setup",
-          "singular": "Setup",
+          "singular": "设置",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "accept": {
           "original": "Accept",
-          "singular": "Accept",
+          "singular": "接受",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "decline": {
           "original": "Decline",
-          "singular": "Decline",
+          "singular": "拒绝",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "reject": {
           "original": "Reject",
-          "singular": "Reject",
+          "singular": "驳回",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "acknowledge": {
           "original": "Acknowledge",
-          "singular": "Acknowledge",
+          "singular": "确认",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "copyCode": {
           "original": "Copy Code",
-          "singular": "Copy Code",
+          "singular": "复制代码",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "copyLink": {
           "original": "Copy Link",
-          "singular": "Copy Link",
+          "singular": "复制链接",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "delete": {
           "original": "Delete",
-          "singular": "Delete",
+          "singular": "删除",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "download": {
           "original": "Download",
-          "singular": "Download",
+          "singular": "下载",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "downloadPdf": {
           "original": "Download PDF",
-          "singular": "Download PDF",
+          "singular": "下载 PDF",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "edit": {
           "original": "Edit",
-          "singular": "Edit",
+          "singular": "编辑",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "editEquipment": {
           "original": "Edit Equipment",
-          "singular": "Edit Equipment",
+          "singular": "编辑设备",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "editHpForm": {
           "original": "Edit Hp Form",
-          "singular": "Edit Hp Form",
+          "singular": "编辑 Hp 表单",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "expandOverview": {
           "original": "Expand Overview",
-          "singular": "Expand Overview",
+          "singular": "展开概述",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "exportData": {
           "original": "Export Data",
-          "singular": "Export Data",
+          "singular": "导出数据",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "fewerOptions": {
           "original": "Fewer Options",
-          "singular": "Fewer Options",
+          "singular": "更少选项",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "generateLink": {
           "original": "Generate Link",
-          "singular": "Generate Link",
+          "singular": "生成链接",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "generatePdf": {
           "original": "Generate PDF",
-          "singular": "Generate PDF",
+          "singular": "生成 PDF",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "hideOverview": {
           "original": "Hide Overview",
-          "singular": "Hide Overview",
+          "singular": "隐藏概述",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "more": {
           "original": "More",
-          "singular": "More",
+          "singular": "更多",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "move": {
           "original": "Move",
-          "singular": "Move",
+          "singular": "移动",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "moreOptions": {
           "original": "More Options",
-          "singular": "More Options",
+          "singular": "更多选项",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "pinLocation": {
           "original": "Pin Location",
-          "singular": "Pin Location",
+          "singular": "标记位置",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "saveNext": {
           "original": "Save & Next",
-          "singular": "Save & Next",
+          "singular": "保存并继续",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "send": {
           "original": "Send",
-          "singular": "Send",
+          "singular": "发送",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "checkIn": {
           "original": "Check In",
-          "singular": "Check In",
+          "singular": "签到",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "checkOut": {
           "original": "Check Out",
-          "singular": "Check Out",
+          "singular": "签退",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sendCalendlyLink": {
           "original": "Send Calendly Link",
-          "singular": "Send Calendly Link",
+          "singular": "发送 Calendly 链接",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sendSurveyLink": {
           "original": "Send Survey Link",
-          "singular": "Send Survey Link",
+          "singular": "发送调查链接",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "showMap": {
           "original": "Show Map",
-          "singular": "Show Map",
+          "singular": "显示地图",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "submit": {
           "original": "Submit",
-          "singular": "Submit",
+          "singular": "提交",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "submitForAcknowledge": {
           "original": "Submit For Acknowledge",
-          "singular": "Submit For Acknowledge",
+          "singular": "提交以确认",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sendEmail": {
           "original": "Send Email",
-          "singular": "Send Email",
+          "singular": "发送电子邮件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "upload": {
           "original": "Upload",
-          "singular": "Upload",
+          "singular": "上传",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "uploadFile": {
           "original": "Upload File",
-          "singular": "Upload File",
+          "singular": "上传文件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "seeAll": {
           "original": "See All",
-          "singular": "See All",
+          "singular": "查看全部",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "view": {
           "original": "View",
-          "singular": "View",
+          "singular": "查看",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "smartAssign": {
           "original": "Smart Assign",
-          "singular": "Smart Assign",
+          "singular": "智能分配",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "markAllAsRead": {
           "original": "Mark all as read",
-          "singular": "Mark all as read",
+          "singular": "标记全部为已读",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "assign": {
           "original": "Assign",
-          "singular": "Assign",
+          "singular": "分配",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "ok": {
           "original": "Ok",
-          "singular": "Ok",
+          "singular": "好",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "read": {
           "original": "Read",
-          "singular": "Read",
+          "singular": "阅读",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "redo": {
           "original": "Redo",
-          "singular": "Redo",
+          "singular": "重做",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "complete": {
           "original": "Complete",
-          "singular": "Complete",
+          "singular": "完成",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "next": {
           "original": "Next",
-          "singular": "Next",
+          "singular": "下一步",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "proceed": {
           "original": "Proceed",
-          "singular": "Proceed",
+          "singular": "继续",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "remove": {
           "original": "Remove",
-          "singular": "Remove",
+          "singular": "移除",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "addNotes": {
           "original": "Add Notes",
-          "singular": "Add Notes",
-          "plural": "",
+          "singular": "添加备注",
+          "plural": "添加备注",
           "setupEdit": true,
           "setupVisible": false
         },
         "notes": {
           "original": "Note",
-          "singular": "Note",
-          "plural": "Notes",
+          "singular": "备注",
+          "plural": "备注",
           "setupEdit": true,
           "setupVisible": false
         },
         "assistance": {
           "original": "Assistance",
-          "singular": "Notes",
+          "singular": "帮助",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "activity": {
           "original": "Activity",
-          "singular": "Activity",
+          "singular": "活动",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "journeys": {
           "original": "Journeys",
-          "singular": "Journeys",
+          "singular": "旅程",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "editNotes": {
           "original": "Edit Notes",
-          "singular": "Edit Notes",
+          "singular": "编辑备注",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "saveNotes": {
           "original": "Save Notes",
-          "singular": "Save Notes",
+          "singular": "保存备注",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "adjustInventory": {
           "original": "Adjust Inventory",
-          "singular": "Adjust Inventory",
+          "singular": "调整库存",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "checkAvailability": {
           "original": "Check availability",
-          "singular": "Check availability",
+          "singular": "检查可用性",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "findTime": {
           "original": "Find a time",
-          "singular": "Find a time",
+          "singular": "找到时间",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "escalate": {
           "original": "Escalate",
-          "singular": "Escalate",
+          "singular": "升级",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "addComment": {
           "original": "Add Comment",
-          "singular": "Add Comment",
+          "singular": "添加评论",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "uploadImage": {
           "original": "Upload Image",
-          "singular": "Upload Image",
+          "singular": "上传图片",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "create": {
           "original": "Create",
-          "singular": "Create",
+          "singular": "创建",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "login": {
           "original": "Log In",
-          "singular": "Log In",
+          "singular": "登录",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "resetPassword": {
           "original": "Reset Password",
-          "singular": "Reset Password",
+          "singular": "重置密码",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "resendEmail": {
           "original": "Resend Email",
-          "singular": "Resend Email",
+          "singular": "重新发送电子邮件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "addLevel": {
           "original": "Add Level",
-          "singular": "Add Level",
+          "singular": "添加级别",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "addRole": {
           "original": "Add Role",
-          "singular": "Add Role",
+          "singular": "添加角色",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "removeRole": {
           "original": "Remove Role",
-          "singular": "Remove Role",
+          "singular": "移除角色",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "connect": {
           "original": "Connect",
-          "singular": "Connect",
+          "singular": "连接",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "disconnect": {
           "original": "Disconnect",
-          "singular": "Disconnect",
+          "singular": "断开连接",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "configure": {
           "original": "Configure",
-          "singular": "Configure",
+          "singular": "配置",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "preview": {
           "original": "Preview",
-          "singular": "Preview",
+          "singular": "预览",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "addEditCondition": {
           "original": "Add/Edit Condition",
-          "singular": "Add/Edit Condition",
+          "singular": "添加/编辑条件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "addEditCriteria": {
           "original": "Add/Edit Criteria",
-          "singular": "Add/Edit Criteria",
+          "singular": "添加/编辑标准",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "updateTheme": {
           "original": "Update Theme",
-          "singular": "Update Theme",
+          "singular": "更新主题",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "setUpEvents": {
           "original": "Set Up Events",
-          "singular": "Set Up Events",
+          "singular": "设置事件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "revertToDefault": {
           "original": "Revert to Default",
-          "singular": "Revert to Default",
+          "singular": "恢复默认",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "removePhoto": {
           "original": "Remove Photo",
-          "singular": "Remove Photo",
+          "singular": "移除照片",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "uploadPhoto": {
           "original": "Upload Photo",
-          "singular": "Upload Photo",
+          "singular": "上传照片",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "importCsv": {
           "original": "Import CSV",
-          "singular": "Import CSV",
+          "singular": "导入CSV",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "exportCsv": {
           "original": "Export as CSV",
-          "singular": "Export as CSV",
+          "singular": "导出为CSV",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "buildForm": {
           "original": "Build Form",
-          "singular": "Build Form",
+          "singular": "构建表单",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "approve": {
           "original": "Approve",
-          "singular": "Approve",
+          "singular": "批准",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "print": {
           "original": "Print",
-          "singular": "Print",
+          "singular": "打印",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "email": {
           "original": "EMAIL",
-          "singular": "EMAIL",
+          "singular": "电子邮件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "viewMap": {
           "original": "View Map",
-          "singular": "View map",
+          "singular": "查看地图",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "receipt": {
           "original": "RECEIPT",
-          "singular": "RECEIPT",
+          "singular": "收据",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "exit": {
           "original": "Exit",
-          "singular": "Exit",
+          "singular": "退出",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "done": {
           "original": "Done",
-          "singular": "Done",
+          "singular": "完成",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "applyToAll": {
           "original": "Apply to all",
-          "singular": "Apply to all",
+          "singular": "应用于所有",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "updateForNew": {
           "original": "Update for new",
-          "singular": "Update for new",
+          "singular": "为新内容更新",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "startJourney": {
           "original": "Start Journey",
-          "singular": "Start Journey",
+          "singular": "开始旅程",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "returnToJourney": {
           "original": "Return to Journey",
-          "singular": "Return to Journey",
+          "singular": "返回旅程",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "approveAllUser": {
           "original": "Apply changes to all users",
-          "singular": "Apply changes to all users",
+          "singular": "对所有用户应用更改",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "approveNewUser": {
           "original": "Update for new users only",
-          "singular": "Update for new users only",
+          "singular": "仅为新用户更新",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "check": {
           "original": "Check",
-          "singular": "Check",
+          "singular": "检查",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "openInNewTab": {
           "original": "Open in New Tab",
-          "singular": "Open in New Tab",
+          "singular": "在新标签页中打开",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "calendarView": {
           "original": "Calendar View",
-          "singular": "Calendar View",
+          "singular": "日历视图",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "tableView": {
           "original": "Table View",
-          "singular": "Table View",
+          "singular": "表格视图",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "mapView": {
           "original": "Map View",
-          "singular": "Map View",
+          "singular": "地图视图",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "calculate": {
           "original": "Calculate",
-          "singular": "Calculate",
+          "singular": "计算",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "savePlan": {
           "original": "Save Plan",
-          "singular": "Save Plan",
+          "singular": "保存计划",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "makeOwner": {
           "original": "Make Owner",
-          "singular": "Make Owner",
+          "singular": "设为所有者",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "yes": {
           "original": "Yes",
-          "singular": "Yes",
+          "singular": "是",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "no": {
           "original": "No",
-          "singular": "No",
+          "singular": "否",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "showMoreDetails": {
           "original": "Show More Details",
-          "singular": "Show More Details",
+          "singular": "显示更多详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "locate": {
           "original": "Locate",
-          "singular": "Locate",
+          "singular": "定位",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
-        "viewLocation":{
+        "viewLocation": {
           "original": "View Location",
-          "singular": "View Location",
+          "singular": "查看位置",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "pinSaveLocation": {
           "original": "Pin & Save Your Location",
-          "singular": "Pin & Save Your Location",
+          "singular": "标记并保存您的位置",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "reset": {
           "original": "Reset",
-          "singular": "Reset",
+          "singular": "重置",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "addMember": {
           "original": "Add Members",
-          "singular": "Add Member",
-          "plural": "Add Members",
+          "singular": "添加成员",
+          "plural": "添加成员",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -15879,6 +15872,13 @@
                   "plural": "",
                   "setupEdit": true,
                   "setupVisible": true
+              },
+              "sec15": {
+                "original": "Task List",
+                "singular": "任务列表",
+                "plural": "任务列表",
+                "setupEdit": true,
+                "setupVisible": false
               }
           },
           "fields": {

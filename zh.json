@@ -2786,9 +2786,20 @@
       },
       "validationFE": {},
       "validationBE": {
-          "requiredField": "Required Field",
-          "invalidPhoneNumber": "Invalid Phone Number",
-          "invalidEmailFormat": "Invalid Email Format"
+        "productNotFound": "未找到产品",
+        "productIdNotFound": "未找到ID",
+        "productHasJobOrderOrSalesOrder": "系统中存在产品的工作订单/销售订单数据",
+        "productHasCustomerServiceReportItem": "系统中存在产品的客户服务报告项目数据",
+        "productHasInventoryItem": "系统中存在产品的库存项目数据",
+        "productHasConsignmentItem": "系统中存在产品的托运项目数据",
+        "productHasRequisitionItem": "系统中存在产品的申请项目数据",
+        "productTableSetupNotFound": "未找到产品表格设置，请联系支持",
+        "productWithExtIdNotFound": "外部ID无效",
+        "productFamilyNotFound": "未找到产品系列",
+        "productTypeNotFound": "未找到产品类型",
+        "productMeasureUnitNotFound": "未找到产品计量单位",
+        "productIdExists": "新产品不能已有ID",
+        "productIdExtIdNotFound": "未找到ID/外部ID"
       },
       "tooltips": {
         "setupVisible": true,

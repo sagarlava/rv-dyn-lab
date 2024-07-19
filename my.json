@@ -2786,9 +2786,20 @@
       },
       "validationFE": {},
       "validationBE": {
-          "requiredField": "Required Field",
-          "invalidPhoneNumber": "Invalid Phone Number",
-          "invalidEmailFormat": "Invalid Email Format"
+        "productNotFound": "Produk tidak dijumpai",
+        "productIdNotFound": "ID tidak dijumpai",
+        "productHasJobOrderOrSalesOrder": "Data Pesanan Kerja/Pesanan Jualan wujud dalam sistem untuk Produk",
+        "productHasCustomerServiceReportItem": "Data Item Laporan Perkhidmatan Pelanggan wujud dalam sistem untuk Produk",
+        "productHasInventoryItem": "Data Item Inventori wujud dalam sistem untuk Produk",
+        "productHasConsignmentItem": "Data Item Konsainan wujud dalam sistem untuk Produk",
+        "productHasRequisitionItem": "Data Item Requisisi wujud dalam sistem untuk Produk",
+        "productTableSetupNotFound": "Tetapan Jadual Produk tidak dijumpai, sila hubungi sokongan",
+        "productWithExtIdNotFound": "ID Luar tidak sah",
+        "productFamilyNotFound": "Keluarga Produk tidak dijumpai",
+        "productTypeNotFound": "Jenis Produk tidak dijumpai",
+        "productMeasureUnitNotFound": "Unit Ukuran Produk tidak dijumpai",
+        "productIdExists": "Produk baru tidak boleh mempunyai ID sedia ada",
+        "productIdExtIdNotFound": "ID/ID Luar tidak dijumpai"
       },
      "tooltips": {
         "setupVisible": true,

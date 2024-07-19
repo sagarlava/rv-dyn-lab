@@ -2786,9 +2786,20 @@
     },
     "validationFE": {},
     "validationBE": {
-      "requiredField": "Required Field",
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format"
+      "productNotFound": "Product not found",
+      "productIdNotFound": "Id not found",
+      "productHasJobOrderOrSalesOrder": "Job Order/Sales Order Data exists in the system for the Product",
+      "productHasCustomerServiceReportItem": "Customer Service Report Item Data exists in the system for the Product",
+      "productHasInventoryItem": "Inventory Item Data exists in the system for the Product",
+      "productHasConsignmentItem": "Consignment Item Data exists in the system for the Product",
+      "productHasRequisitionItem": "Requisition Item Data exists in the system for the Product",
+      "productTableSetupNotFound": "Product Table Setup not found, please contact support",
+      "productWithExtIdNotFound": "Invalid ExternalId",
+      "productFamilyNotFound": "Product Family not found",
+      "productTypeNotFound": "Product Type not found",
+      "productMeasureUnitNotFound": "Product Measure Unit not found",
+      "productIdExists": "A new product cannot already have an ID",
+      "productIdExtIdNotFound": "Id/ExternalId not found"
     },
     "tooltips": {
       "setupVisible": true,

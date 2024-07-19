@@ -20394,8 +20394,8 @@
     "setupVisible": true,
     "label": {
       "original": "Visits",
-      "singular": "Visit",
-      "plural": "Visits",
+      "singular": "访问",
+      "plural": "访问",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -20403,35 +20403,35 @@
       "setupVisible": true,
       "sec0": {
         "original": "Visit Details",
-        "singular": "Visit Details",
+        "singular": "访问详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
         "original": "Today Pending Visits",
-        "singular": "Today Pending Visits",
+        "singular": "今日待处理访问",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
         "original": "Pending Visits",
-        "singular": "Pending Visits",
+        "singular": "待处理访问",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
         "original": "All Visits",
-        "singular": "All Visits",
+        "singular": "所有访问",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "Filter By",
+        "singular": "筛选条件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -20441,57 +20441,57 @@
       "setupVisible": true,
       "visitDateTime": {
         "original": "Visit Date and Time",
-        "singular": "Visit Date and Time",
+        "singular": "访问日期和时间",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "approvalStatus": {
         "original": "Approval Status",
-        "singular": "Approval Status",
+        "singular": "审批状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "visitStatus": {
         "original": "Visit Status",
-        "singular": "Visit Status",
+        "singular": "访问状态",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "visitType": {
         "original": "Visit Type",
-        "singular": "Visit Type",
+        "singular": "访问类型",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "visitDateRange": {
         "original": "Visit Date Range",
-        "singular": "Visit Date Range",
+        "singular": "访问日期范围",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "userGroup": {
         "original": "User Group",
-        "singular": "User Group",
+        "singular": "用户组",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "rejectReason": {
         "original": "Reject Reason",
-        "singular": "Reject Reason",
+        "singular": "拒绝原因",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "remarks": {
         "original": "Remarks",
-        "singular": "Remark",
-        "plural": "Remarks",
+        "singular": "备注",
+        "plural": "备注",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -20500,21 +20500,21 @@
       "setupVisible": true,
       "estateLookup": {
         "original": "Estate Lookup",
-        "singular": "Estate Lookup",
+        "singular": "房地产查找",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
-        "singular": "Machine Specialist Lookup",
+        "singular": "机器专家查找",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "Please key in reason for the change",
+        "singular": "请输入更改原因",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -20527,8 +20527,8 @@
       "visitAtlasNotEnabled": "未启用Atlas"
     },
     "messages": {
-      "selectVisitType": "Select Visit Type",
-      "selectApprovalStatus": "Select Approval Status"
+      "selectVisitType": "选择访问类型",
+      "selectApprovalStatus": "选择审批状态"
     }
   },
   "pmv": {

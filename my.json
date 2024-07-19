@@ -20394,8 +20394,8 @@
     "setupVisible": true,
     "label": {
       "original": "Visits",
-      "singular": "Visit",
-      "plural": "Visits",
+      "singular": "Lawatan",
+      "plural": "Lawatan",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -20403,35 +20403,35 @@
       "setupVisible": true,
       "sec0": {
         "original": "Visit Details",
-        "singular": "Visit Details",
+        "singular": "Butiran Lawatan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec1": {
         "original": "Today Pending Visits",
-        "singular": "Today Pending Visits",
+        "singular": "Lawatan Tertunda Hari Ini",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
         "original": "Pending Visits",
-        "singular": "Pending Visits",
+        "singular": "Lawatan Tertunda",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec3": {
         "original": "All Visits",
-        "singular": "All Visits",
+        "singular": "Semua Lawatan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "Filter By",
+        "singular": "Tapis Mengikut",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -20441,57 +20441,57 @@
       "setupVisible": true,
       "visitDateTime": {
         "original": "Visit Date and Time",
-        "singular": "Visit Date and Time",
+        "singular": "Tarikh dan Masa Lawatan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "approvalStatus": {
         "original": "Approval Status",
-        "singular": "Approval Status",
+        "singular": "Status Kelulusan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "visitStatus": {
         "original": "Visit Status",
-        "singular": "Visit Status",
+        "singular": "Status Lawatan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "visitType": {
         "original": "Visit Type",
-        "singular": "Visit Type",
+        "singular": "Jenis Lawatan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "visitDateRange": {
         "original": "Visit Date Range",
-        "singular": "Visit Date Range",
+        "singular": "Julat Tarikh Lawatan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "userGroup": {
         "original": "User Group",
-        "singular": "User Group",
+        "singular": "Kumpulan Pengguna",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "rejectReason": {
         "original": "Reject Reason",
-        "singular": "Reject Reason",
+        "singular": "Sebab Penolakan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "remarks": {
         "original": "Remarks",
-        "singular": "Remark",
-        "plural": "Remarks",
+        "singular": "Catatan",
+        "plural": "Catatan",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -20500,21 +20500,21 @@
       "setupVisible": true,
       "estateLookup": {
         "original": "Estate Lookup",
-        "singular": "Estate Lookup",
+        "singular": "Cari Ladang",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
-        "singular": "Machine Specialist Lookup",
+        "singular": "Cari Pakar Mesin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
-        "singular": "Please key in reason for the change",
+        "singular": "Sila masukkan sebab perubahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -20527,8 +20527,8 @@
       "visitAtlasNotEnabled": "Atlas tidak diaktifkan"
     },
     "messages": {
-      "selectVisitType": "Select Visit Type",
-      "selectApprovalStatus": "Select Approval Status"
+      "selectVisitType": "Pilih Jenis Lawatan",
+      "selectApprovalStatus": "Pilih Status Kelulusan"
     }
   },
   "pmv": {

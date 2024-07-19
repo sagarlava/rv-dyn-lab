@@ -13225,7 +13225,8 @@
                 "weakPassword": "密码包含用户名的一部分",
                 "passwordResetEmailSent": "已发送电子邮件以帮助您重置密码。",
                 "accountActivationEmailSent": "已向您发送电子邮件以激活账户。",
-                "duplicateSkillAssignmentConflict": "这些技能已分配给用户。"
+                "duplicateSkillAssignmentConflict": "这些技能已分配给用户。",
+                "passwordMeetCriteria": "请确保您的密码符合所有指定的标准"
               },
               "listView": {
                 "setupVisible": false,
@@ -15837,254 +15838,276 @@
         }
       },
       "checklist": {
-          "setupVisible": true,
-          "label": {
-              "original": "Checklists",
-              "singular": "检查清单",
-              "plural": "检查清单",
-              "setupEdit": true,
-              "setupVisible": true
+        "setupVisible": false,
+        "label": {
+          "original": "Checklists",
+          "singular": "Checklist",
+          "plural": "Checklists",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Checklist Details",
+            "singular": "Checklist Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Checklist Details",
-                  "singular": "检查清单详情",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Updating the Asset within Checklist",
-                  "singular": "更新检查清单中的资产",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Assets that use this Checklist",
-                  "singular": "Assets that use this Checklist",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "Follow-Up Checklist",
-                  "singular": "后续检查清单",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec4": {
-                  "original": "Start by naming your checklist. You may update the",
-                  "singular": "Start by naming your checklist. You may update the Status of this checklist to 'Active' once you have added at least one question to it.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec5": {
-                  "original": "Specify if users can update the linked Asset from within the Checklist.",
-                  "singular": "Specify if users can update the linked Asset from within the Checklist.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec6": {
-                  "original": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
-                  "singular": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec7": {
-                  "original": "Should an additional checklist be generated when this checklist is completed?",
-                  "singular": "Should an additional checklist be generated when this checklist is completed?",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec8": {
-                  "original": "This Checklist will be selected when the Asset's",
-                  "singular": "This Checklist will be selected when the Asset's",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec9": {
-                  "original": "Assets that have below criteria will trigger this checklist",
-                  "singular": "Assets that have below criteria will trigger this checklist",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec10": {
-                  "original": "The Checklist to be generated when one is completed",
-                  "singular": "The Checklist to be generated when one is completed",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec11": {
-                  "original": "Filter By",
-                  "singular": "Filter By",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec12": {
-                  "original": "of this checklist to 'Active' once you have added at least one question to it.",
-                  "singular": "of this checklist to 'Active' once you have added at least one question to it.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec13": {
-                  "original": "Details",
-                  "singular": "Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec15": {
-                "original": "Task List",
-                "singular": "任务列表",
-                "plural": "任务列表",
-                "setupEdit": true,
-                "setupVisible": false
-              }
+          "sec1": {
+            "original": "Updating the Asset within Checklist",
+            "singular": "Updating the Asset within Checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "name": {
-                  "original": "Name",
-                  "singular": "姓名",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "status": {
-                  "original": "Status",
-                  "singular": "状态",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "statusUpdateWithinChecklist": {
-                  "original": "Can the Asset status be updated within the checklist?",
-                  "singular": "Can the Asset status be updated within the checklist?",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "statusMeterReadingWithinChecklist": {
-                  "original": "Can the Equipment Meter Reading be updated within the checklist?",
-                  "singular": "Can the Equipment Meter Reading be updated within the checklist?",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "updateAtStart": {
-                  "original": "Update at start of checklist",
-                  "singular": "Update at start of checklist",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "updateAfterComplete": {
-                  "original": "Update after completing checklist",
-                  "singular": "Update after completing checklist",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "showOptionChangeStatusBefore": {
-                  "original": "Show option to change status before checklist questions",
-                  "singular": "Show option to change status before checklist questions",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "showOptionChangeStatusAfter": {
-                  "original": "Show option to change status after checklist responses are submitted",
-                  "singular": "Show option to change status after checklist responses are submitted",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "is": {
-                  "original": "is",
-                  "singular": "is",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "type": {
-                  "original": "Type",
-                  "singular": "类型",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "assetType": {
-                  "original": "Asset Type",
-                  "singular": "资产类型",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "equipmentType": {
-                  "original": "Equipment Type",
-                  "singular": "设备类型",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "newChecklistGenerated": {
-                  "original": "New Checklist to be Generated",
-                  "singular": "New Checklist to be Generated",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "whereToShowStatus": {
-                  "original": "Where to show Status",
-                  "singular": "Where to show Status",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "whereToShowMeterReading": {
-                  "original": "Where to show Equipment Meter Reading",
-                  "singular": "Where to show Equipment Meter Reading",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec2": {
+            "original": "Assets that use this Checklist",
+            "singular": "Assets that use this Checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "tooltips": {
-              "setupVisible": true,
-              "yesUpdateAsset": {
-                  "original": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
-                  "singular": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "yesUpdateMeterReading": {
-                  "original": "Choosing Yes adds an option to change Equipment Meter Reading in the checklist. Upon submission, the reading will be updated",
-                  "singular": "Choosing Yes adds an option to change Equipment Meter Reading in the checklist. Upon submission, the reading will be updated",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec3": {
+            "original": "Follow-Up Checklist",
+            "singular": "Follow-Up Checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "validationFE": {},
-          "messages": {
-              "selectAssetTypes": "Select Asset Types",
-              "selectServiceZone": "Select Service Zone",
-              "selectEquipmentType": "Select Equipment Type",
-              "checklistName": "检查清单名称"
+          "sec4": {
+            "original": "Start by naming your checklist. You may update the",
+            "singular": "Start by naming your checklist. You may update the",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Specify if users can update the linked Asset from within the Checklist.",
+            "singular": "Specify if users can update the linked Asset from within the Checklist.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
+            "singular": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Should an additional checklist be generated when this checklist is completed?",
+            "singular": "Should an additional checklist be generated when this checklist is completed?",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "This Checklist will be selected when the Asset's",
+            "singular": "This Checklist will be selected when the Asset's",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Assets that have below criteria will trigger this checklist",
+            "singular": "Assets that have below criteria will trigger this checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "The Checklist to be generated when one is completed",
+            "singular": "The Checklist to be generated when one is completed",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec11": {
+            "original": "Filter By",
+            "singular": "Filter By",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "of this checklist to 'Active' once you have added at least one question to it.",
+            "singular": "of this checklist to 'Active' once you have added at least one question to it.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec13": {
+            "original": "Details",
+            "singular": "Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec14": {
+            "original": "Change Status",
+            "singular": "Change Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec15": {
+            "original": "Task List",
+            "singular": "Task List",
+            "plural": "Task List",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Name",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "statusUpdateWithinChecklist": {
+            "original": "Can the Asset status be updated within the checklist?",
+            "singular": "Can the Asset status be updated within the checklist?",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "statusMeterReadingWithinChecklist": {
+            "original": "Can the Equipment Meter Reading be updated within the checklist?",
+            "singular": "Can the Equipment Meter Reading be updated within the checklist?",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "updateAtStart": {
+            "original": "Update at start of checklist",
+            "singular": "Update at start of checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "updateAfterComplete": {
+            "original": "Update after completing checklist",
+            "singular": "Update after completing checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "atStartOfChecklist": {
+            "original": "At start of Checklist",
+            "singular": "At start of Checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "completionChecklist": {
+            "original": "On Completion of Checklist",
+            "singular": "On Completion of Checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "showOptionChangeStatusBefore": {
+            "original": "Show option to change status before checklist questions",
+            "singular": "Show option to change status before checklist questions",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "showOptionChangeStatusAfter": {
+            "original": "Show option to change status after checklist responses are submitted",
+            "singular": "Show option to change status after checklist responses are submitted",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "is": {
+            "original": "is",
+            "singular": "is",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "type": {
+            "original": "Type",
+            "singular": "Type",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "assetType": {
+            "original": "Asset Type",
+            "singular": "Asset Type",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "equipmentType": {
+            "original": "Equipment Type",
+            "singular": "Equipment Type",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "newChecklistGenerated": {
+            "original": "New Checklist to be Generated",
+            "singular": "New Checklist to be Generated",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "whereToShowStatus": {
+            "original": "Where to show Status",
+            "singular": "Where to show Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "whereToShowMeterReading": {
+            "original": "Where to show Equipment Meter Reading",
+            "singular": "Where to show Equipment Meter Reading",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "tooltips": {
+          "setupVisible": false,
+          "yesUpdateAsset": {
+            "original": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
+            "singular": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "yesUpdateMeterReading": {
+            "original": "Choosing Yes adds an option to change Equipment Meter Reading in the checklist. Upon submission, the reading will be updated",
+            "singular": "Choosing Yes adds an option to change Equipment Meter Reading in the checklist. Upon submission, the reading will be updated",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "validationFE": {},
+        "messages": {
+          "selectAssetTypes": "Select Asset Types",
+          "selectServiceZone": "Select Service Zone",
+          "selectEquipmentType": "Select Equipment Type",
+          "checklistName": "Checklist Name"
+          
+        }
       },
       "department": {
         "setupVisible": false,
@@ -16404,6 +16427,13 @@
       },
       "sla": {
           "setupVisible": true,
+          "label":{
+            "original": "SLA",
+            "singular": "SLA",
+            "plural": "SLA",
+            "setupEdit": true,
+            "setupVisible": false
+          },
           "packages": {
             "setupVisible": false,
             "label": {
@@ -18199,6 +18229,13 @@
               "plural": "请假结果代码",
               "setupEdit": true,
               "setupVisible": true
+          },
+          "leaveNo": {
+            "original": "Leave No.",
+            "singular": "休假编号",
+            "plural": "休假编号",
+            "setupEdit": true,
+            "setupVisible": true
           }
       },
       "messages": {
@@ -18217,191 +18254,212 @@
       }
   },
   "login": {
-      "setupVisible": true,
-      "label": {
-          "original": "Log In",
-          "singular": "Log In",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-      },
-      "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "Log In",
-              "singular": "Log In",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
-      "fields": {
-          "setupVisible": true,
-          "username": {
-              "original": "Username",
-              "singular": "Username",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "password": {
-              "original": "Password",
-              "singular": "Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "rememberMe": {
-              "original": "Remember Me",
-              "singular": "Remember Me",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "forgotPassword": {
-              "original": "Forgot Your Password?",
-              "singular": "Forgot Your Password?",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
-      "messages": {
-          "mostFeaturesMobileApp": "For the most features and functionality of FieldEx on the go, please download our mobile app."
+    "setupVisible": false,
+    "label": {
+      "original": "Log In",
+      "singular": "Log In",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "sec0": {
+        "original": "Log In",
+        "singular": "Log In",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
+    },
+    "fields": {
+      "setupVisible": false,
+      "username": {
+        "original": "Username",
+        "singular": "Username",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "password": {
+        "original": "Password",
+        "singular": "Password",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "rememberMe": {
+        "original": "Remember Me",
+        "singular": "Remember Me",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "forgotPassword": {
+        "original": "Forgot Your Password?",
+        "singular": "Forgot Your Password?",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "mostFeaturesMobileApp": "For the most features and functionality of FieldEx on the go, please download our mobile app.",
+      "bySigniningIn": "By signing in, you agree to our",
+      "privacyPolicy": "Privacy Policy",
+      "pleaseProvideUsernameAndPassword" : "Please provide username and password",
+      "problemFetchingJourneyTask": "There is a problem while fetching journey task.",
+      "problemFetchingJourneyStatus": "There is a problem while fetching journey status.",
+      "userNameOrPasswordWrong": "Username or password wrong!",
+      "enterUserName": "Enter User Name",
+      "passwordResetInfo": "No worries, we just need your username so that we can send you a  password reset",
+      "passwordResetSuccessMessage" : "Reset successfully. An email has been sent to your address.",
+      "downloadApp":"For the most features and functionality of FieldEx on the go, please download our mobile app." 
+    }
   },
   "resetPassword": {
-      "setupVisible": true,
-      "label": {
-          "original": "Reset Password",
-          "singular": "Reset Password",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+    "setupVisible": false,
+    "label": {
+      "original": "Reset Password",
+      "singular": "Reset Password",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "sec0": {
+        "original": "Reset Password",
+        "singular": "Reset Password",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       },
-      "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "Reset Password",
-              "singular": "Reset Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Create New Password",
-              "singular": "Create New Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+      "sec1": {
+        "original": "Create New Password",
+        "singular": "Create New Password",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       },
-      "fields": {
-          "setupVisible": true,
-          "username": {
-              "original": "Username",
-              "singular": "Username",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "oldPassword": {
-              "original": "Old Password",
-              "singular": "Old Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "newPassword": {
-              "original": "New Password",
-              "singular": "New Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "confirmPassword": {
-              "original": "Confirm Password",
-              "singular": "Confirm Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "confirmNewPassword": {
-              "original": "Confirm New Password",
-              "singular": "Confirm New Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "returnLogin": {
-              "original": "Return to login",
-              "singular": "Return to login",
-              "plural": "Return to login",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
-      "messages": {
-          "minimumChars": "8 characters minimum",
-          "oneLowercase": "1 lowercase letter (a-z)",
-          "oneUppercase": "1 uppercase letter (A-Z)",
-          "oneNumeric": "1 number (0-9)",
-          "oneSymbol": "1 symbol (!, @, #, $, etc)",
-          "passwordsDoNotMatch": "Password does not match",
-          "passwordRequirement": "Password must contain at least",
-          "usernameExclusion": "must not contain part of your username"
+      "sec2": {
+        "original": "Resend Email",
+        "singular": "Resend Email",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
+    },
+    "fields": {
+      "setupVisible": false,
+      "username": {
+        "original": "Username",
+        "singular": "Username",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "oldPassword": {
+        "original": "Old Password",
+        "singular": "Old Password",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "newPassword": {
+        "original": "New Password",
+        "singular": "New Password",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "confirmPassword": {
+        "original": "Confirm Password",
+        "singular": "Confirm Password",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "confirmNewPassword": {
+        "original": "Confirm New Password",
+        "singular": "Confirm New Password",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "returnLogin": {
+        "original": "Return to login",
+        "singular": "Return to login",
+        "plural": "Return to login",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "minimumChars": "8 characters minimum",
+      "oneLowercase": "1 lowercase letter (a-z)",
+      "oneUppercase": "1 uppercase letter (A-Z)",
+      "oneNumeric": "1 number (0-9)",
+      "oneSymbol": "1 symbol (!, @, #, $, etc)",
+      "passwordRequirement": "Password must contain at least",
+      "usernameExclusion": "must not contain part of your username",
+      "anEmailWillBeSentTo": "An email will be sent to",
+      "doYouWishProceed": "Do you wish to proceed"
+    },
+    "validationFE": {
+      "passwordsDoNotMatch": "Password does not match"
+    }
   },
   "createProfile": {
-      "setupVisible": true,
-      "label": {
-          "original": "Create your profile",
-          "singular": "Create your profile",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-      },
-      "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "Create your profile",
-              "singular": "Create your profile",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
-      },
-      "fields": {
-          "setupVisible": true,
-          "firstName": {
-              "original": "First Name",
-              "singular": "First Name",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "lastName": {
-              "original": "Last Name",
-              "singular": "Last Name",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "email": {
-              "original": "Email",
-              "singular": "电子邮箱",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "phone": {
-              "original": "Phone",
-              "singular": "Phone",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+    "setupVisible": false,
+    "label": {
+      "original": "Create your profile",
+      "singular": "Create your profile",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
+    "sections": {
+      "setupVisible": false,
+      "sec0": {
+        "original": "Create your profile",
+        "singular": "Create your profile",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
+    },
+    "fields": {
+      "setupVisible": false,
+      "firstName": {
+        "original": "First Name",
+        "singular": "First Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "lastName": {
+        "original": "Last Name",
+        "singular": "Last Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "Email",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "phone": {
+        "original": "Phone",
+        "singular": "Phone",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      }
+    }
   },
  "mobileDashboard": {
     "setupVisible": false,
@@ -19377,7 +19435,6 @@
           }
       }
   },
-
   "machineSpecialist": {
     "setupVisible": true,
     "label": {

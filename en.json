@@ -13225,7 +13225,8 @@
           "weakPassword": "Password has part of username",
           "passwordResetEmailSent": "An email has been sent to help you reset your password.",
           "accountActivationEmailSent": "An email has been sent to you to activate the account.",
-          "duplicateSkillAssignmentConflict": "These skills are already assigned to the user."
+          "duplicateSkillAssignmentConflict": "These skills are already assigned to the user.",
+          "passwordMeetCriteria":"Please ensure your password meets all the specified criteria"
         },
         "listView": {
           "setupVisible": false,
@@ -17812,7 +17813,6 @@
   },
   "disclosure":{
     "setupVisible": false,
-
     "label": {
       "original": "Application Permission Disclosure",
       "singular": "Application Permission Disclosure",
@@ -18002,12 +18002,6 @@
           "setupEdit": true,
           "setupVisible": false
         }
-
-        
-
-
-      
-      
     },
     "messages":{
       "profileUpdatedSuccessfully":"Profile updated successfully",
@@ -18208,7 +18202,6 @@
         "setupEdit": true,
         "setupVisible": true
       },
-
       "user": {
         "original": "User",
         "singular": "User",
@@ -18258,8 +18251,6 @@
       "leaveRejectedSuccessfully":"Leave rejected successfully",
       "editLeave":"Edit Leave",
       "optional":"Optional"
-      
-
     }
   },
   "login": {
@@ -18470,7 +18461,6 @@
       }
     }
   },
-
   "mobileDashboard":{
     "setupVisible": false,
     "label": {
@@ -18490,7 +18480,6 @@
       "looksYouAreOutOfTasks":"Looks you are out of tasks today."
     }
   },
-
   "dashboard": {
     "setupVisible": false,
     "label": {
@@ -18685,7 +18674,6 @@
       }, 
       "messages": {
         "searchJobOrders" : "Search Job Orders"
-
       }
     },
     "national": {
@@ -19447,7 +19435,6 @@
       }
     }
   },
-
   "machineSpecialist": {
     "setupVisible": true,
     "label": {

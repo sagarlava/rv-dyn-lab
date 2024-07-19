@@ -13225,7 +13225,8 @@
               "weakPassword": "Kata laluan mempunyai bahagian daripada nama pengguna",
               "passwordResetEmailSent": "E-mel telah dihantar untuk membantu anda menetapkan semula kata laluan anda.",
               "accountActivationEmailSent": "E-mel telah dihantar kepada anda untuk mengaktifkan akaun tersebut.",
-              "duplicateSkillAssignmentConflict": "Kemahiran ini sudah ditugaskan kepada pengguna."
+              "duplicateSkillAssignmentConflict": "Kemahiran ini sudah ditugaskan kepada pengguna.",
+              "passwordMeetCriteria": "Sila pastikan kata laluan anda memenuhi semua kriteria yang ditentukan"
             },
             "listView": {
               "setupVisible": false,
@@ -15837,275 +15838,276 @@
           }
       },
       "checklist": {
-          "setupVisible": true,
-          "label": {
-              "original": "Checklist",
-              "singular": "Senarai Semak",
-              "plural": "Senarai Semak",
-              "setupEdit": true,
-              "setupVisible": true
+        "setupVisible": false,
+        "label": {
+          "original": "Checklists",
+          "singular": "Checklist",
+          "plural": "Checklists",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Checklist Details",
+            "singular": "Checklist Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "sections": {
-              "setupVisible": true,
-              "sec0": {
-                  "original": "Checklist Details",
-                  "singular": "Butiran Senarai Semak",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec1": {
-                  "original": "Updating the Asset within Checklist",
-                  "singular": "Mengemas kini Aset dalam Senarai Semak",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec2": {
-                  "original": "Assets that use this Checklist",
-                  "singular": "Assets that use this Checklist",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec3": {
-                  "original": "Follow-Up Checklist",
-                  "singular": "Senarai Semak Susulan",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec4": {
-                  "original": "Start by naming your checklist. You may update the",
-                  "singular": "Start by naming your checklist. You may update the Status of this checklist to 'Active' once you have added at least one question to it.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec5": {
-                  "original": "Specify if users can update the linked Asset from within the Checklist.",
-                  "singular": "Specify if users can update the linked Asset from within the Checklist.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec6": {
-                  "original": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
-                  "singular": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec7": {
-                  "original": "Should an additional checklist be generated when this checklist is completed?",
-                  "singular": "Should an additional checklist be generated when this checklist is completed?",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec8": {
-                  "original": "This Checklist will be selected when the Asset's",
-                  "singular": "This Checklist will be selected when the Asset's",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec9": {
-                  "original": "Assets that have below criteria will trigger this checklist",
-                  "singular": "Assets that have below criteria will trigger this checklist",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec10": {
-                  "original": "The Checklist to be generated when one is completed",
-                  "singular": "The Checklist to be generated when one is completed",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec11": {
-                  "original": "Filter By",
-                  "singular": "Filter By",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec12": {
-                  "original": "of this checklist to 'Active' once you have added at least one question to it.",
-                  "singular": "of this checklist to 'Active' once you have added at least one question to it.",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec13": {
-                  "original": "Details",
-                  "singular": "Details",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sec14": {
-                  "original": "Change Status",
-                  "singular": "Change Status",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "sec15": {
-                "original": "Task List",
-                "singular": "Senarai Tugas",
-                "plural": "Senarai Tugas",
-                "setupEdit": true,
-                "setupVisible": false
-              }
+          "sec1": {
+            "original": "Updating the Asset within Checklist",
+            "singular": "Updating the Asset within Checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "fields": {
-              "setupVisible": true,
-              "name": {
-                  "original": "Name",
-                  "singular": "Nama",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "status": {
-                  "original": "Status",
-                  "singular": "Status",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "statusUpdateWithinChecklist": {
-                  "original": "Can the Asset status be updated within the checklist?",
-                  "singular": "Can the Asset status be updated within the checklist?",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "statusMeterReadingWithinChecklist": {
-                  "original": "Can the Equipment Meter Reading be updated within the checklist?",
-                  "singular": "Can the Equipment Meter Reading be updated within the checklist?",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "updateAtStart": {
-                  "original": "Update at start of checklist",
-                  "singular": "Update at start of checklist",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "updateAfterComplete": {
-                  "original": "Update after completing checklist",
-                  "singular": "Update after completing checklist",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "showOptionChangeStatusBefore": {
-                  "original": "Show option to change status before checklist questions",
-                  "singular": "Show option to change status before checklist questions",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "showOptionChangeStatusAfter": {
-                  "original": "Show option to change status after checklist responses are submitted",
-                  "singular": "Show option to change status after checklist responses are submitted",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "is": {
-                  "original": "is",
-                  "singular": "is",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "type": {
-                  "original": "Type",
-                  "singular": "Jenis",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "assetType": {
-                  "original": "Asset Type",
-                  "singular": "Jenis Aset",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "equipmentType": {
-                  "original": "Equipment Type",
-                  "singular": "Jenis Peralatan",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "newChecklistGenerated": {
-                  "original": "New Checklist to be Generated",
-                  "singular": "New Checklist to be Generated",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "whereToShowStatus": {
-                  "original": "Where to show Status",
-                  "singular": "Where to show Status",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "whereToShowMeterReading": {
-                  "original": "Where to show Equipment Meter Reading",
-                  "singular": "Where to show Equipment Meter Reading",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "atStartOfChecklist": {
-                  "original": "At start of Checklist",
-                  "singular": "At start of Checklist",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              },
-              "completionChecklist": {
-                  "original": "On Completion of Checklist",
-                  "singular": "On Completion of Checklist",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": false
-              }
+          "sec2": {
+            "original": "Assets that use this Checklist",
+            "singular": "Assets that use this Checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "tooltips": {
-              "setupVisible": true,
-              "yesUpdateAsset": {
-                  "original": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
-                  "singular": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "yesUpdateMeterReading": {
-                  "original": "Choosing Yes adds an option to change Equipment Meter Reading in the checklist. Upon submission, the reading will be updated",
-                  "singular": "Choosing Yes adds an option to change Equipment Meter Reading in the checklist. Upon submission, the reading will be updated",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              }
+          "sec3": {
+            "original": "Follow-Up Checklist",
+            "singular": "Follow-Up Checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
-          "validationFE": {},
-          "messages": {
-              "selectAssetTypes": "Select Asset Types",
-              "selectServiceZone": "Select Service Zone",
-              "selectEquipmentType": "Select Equipment Type",
-              "checklistName": "Nama Senarai Semak"
+          "sec4": {
+            "original": "Start by naming your checklist. You may update the",
+            "singular": "Start by naming your checklist. You may update the",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Specify if users can update the linked Asset from within the Checklist.",
+            "singular": "Specify if users can update the linked Asset from within the Checklist.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
+            "singular": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Should an additional checklist be generated when this checklist is completed?",
+            "singular": "Should an additional checklist be generated when this checklist is completed?",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "This Checklist will be selected when the Asset's",
+            "singular": "This Checklist will be selected when the Asset's",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Assets that have below criteria will trigger this checklist",
+            "singular": "Assets that have below criteria will trigger this checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "The Checklist to be generated when one is completed",
+            "singular": "The Checklist to be generated when one is completed",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec11": {
+            "original": "Filter By",
+            "singular": "Filter By",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "of this checklist to 'Active' once you have added at least one question to it.",
+            "singular": "of this checklist to 'Active' once you have added at least one question to it.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec13": {
+            "original": "Details",
+            "singular": "Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec14": {
+            "original": "Change Status",
+            "singular": "Change Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec15": {
+            "original": "Task List",
+            "singular": "Task List",
+            "plural": "Task List",
+            "setupEdit": true,
+            "setupVisible": false
           }
+        },
+        "fields": {
+          "setupVisible": false,
+          "name": {
+            "original": "Name",
+            "singular": "Name",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "statusUpdateWithinChecklist": {
+            "original": "Can the Asset status be updated within the checklist?",
+            "singular": "Can the Asset status be updated within the checklist?",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "statusMeterReadingWithinChecklist": {
+            "original": "Can the Equipment Meter Reading be updated within the checklist?",
+            "singular": "Can the Equipment Meter Reading be updated within the checklist?",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "updateAtStart": {
+            "original": "Update at start of checklist",
+            "singular": "Update at start of checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "updateAfterComplete": {
+            "original": "Update after completing checklist",
+            "singular": "Update after completing checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "atStartOfChecklist": {
+            "original": "At start of Checklist",
+            "singular": "At start of Checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "completionChecklist": {
+            "original": "On Completion of Checklist",
+            "singular": "On Completion of Checklist",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "showOptionChangeStatusBefore": {
+            "original": "Show option to change status before checklist questions",
+            "singular": "Show option to change status before checklist questions",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "showOptionChangeStatusAfter": {
+            "original": "Show option to change status after checklist responses are submitted",
+            "singular": "Show option to change status after checklist responses are submitted",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "is": {
+            "original": "is",
+            "singular": "is",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "type": {
+            "original": "Type",
+            "singular": "Type",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "assetType": {
+            "original": "Asset Type",
+            "singular": "Asset Type",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "equipmentType": {
+            "original": "Equipment Type",
+            "singular": "Equipment Type",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "newChecklistGenerated": {
+            "original": "New Checklist to be Generated",
+            "singular": "New Checklist to be Generated",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "whereToShowStatus": {
+            "original": "Where to show Status",
+            "singular": "Where to show Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "whereToShowMeterReading": {
+            "original": "Where to show Equipment Meter Reading",
+            "singular": "Where to show Equipment Meter Reading",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "tooltips": {
+          "setupVisible": false,
+          "yesUpdateAsset": {
+            "original": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
+            "singular": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "yesUpdateMeterReading": {
+            "original": "Choosing Yes adds an option to change Equipment Meter Reading in the checklist. Upon submission, the reading will be updated",
+            "singular": "Choosing Yes adds an option to change Equipment Meter Reading in the checklist. Upon submission, the reading will be updated",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "validationFE": {},
+        "messages": {
+          "selectAssetTypes": "Select Asset Types",
+          "selectServiceZone": "Select Service Zone",
+          "selectEquipmentType": "Select Equipment Type",
+          "checklistName": "Checklist Name"
+          
+        }
       },
       "department": {
         "setupVisible": false,
@@ -16425,6 +16427,13 @@
       },
       "sla": {
           "setupVisible": true,
+          "label":{
+            "original": "SLA",
+            "singular": "SLA",
+            "plural": "SLA",
+            "setupEdit": true,
+            "setupVisible": false
+          },
           "packages": {
             "setupVisible": false,
             "label": {
@@ -18220,6 +18229,13 @@
               "plural": "Kod Keputusan Cuti",
               "setupEdit": true,
               "setupVisible": true
+          },
+          "leaveNo": {
+            "original": "Leave No.",
+            "singular": "No. Cuti",
+            "plural": "No. Cuti",
+            "setupEdit": true,
+            "setupVisible": true
           }
       },
       "messages": {
@@ -18288,7 +18304,17 @@
           }
       },
       "messages": {
-          "mostFeaturesMobileApp": "For the most features and functionality of FieldEx on the go, please download our mobile app."
+        "mostFeaturesMobileApp": "Untuk ciri dan fungsi FieldEx yang paling banyak semasa dalam perjalanan, sila muat turun aplikasi mudah alih kami.",
+        "bySigniningIn": "Dengan log masuk, anda bersetuju dengan",
+        "privacyPolicy": "Dasar Privasi kami",
+        "pleaseProvideUsernameAndPassword": "Sila berikan nama pengguna dan kata laluan",
+        "problemFetchingJourneyTask": "Terdapat masalah semasa mengambil tugas perjalanan.",
+        "problemFetchingJourneyStatus": "Terdapat masalah semasa mengambil status perjalanan.",
+        "userNameOrPasswordWrong": "Nama pengguna atau kata laluan salah!",
+        "enterUserName": "Masukkan Nama Pengguna",
+        "passwordResetInfo": "Jangan risau, kami hanya memerlukan nama pengguna anda supaya kami dapat menghantar anda tetapan semula kata laluan",
+        "passwordResetSuccessMessage": "Berjaya diset semula. E-mel telah dihantar ke alamat anda.",
+        "downloadApp": "Untuk ciri dan fungsi FieldEx yang paling banyak semasa dalam perjalanan, sila muat turun aplikasi mudah alih kami."
       }
   },
   "resetPassword": {
@@ -19409,7 +19435,6 @@
         }
     }
   },
-
   "machineSpecialist": {
     "setupVisible": true,
     "label": {

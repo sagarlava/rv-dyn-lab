@@ -15854,8 +15854,8 @@
         "setupVisible": false,
         "label": {
           "original": "Checklists",
-          "singular": "Checklist",
-          "plural": "Checklists",
+          "singular": "Senarai Semak",
+          "plural": "Senarai Semak",
           "setupEdit": true,
           "setupVisible": false
         },
@@ -15863,113 +15863,106 @@
           "setupVisible": false,
           "sec0": {
             "original": "Checklist Details",
-            "singular": "Checklist Details",
+            "singular": "Butiran Senarai Semak",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec1": {
             "original": "Updating the Asset within Checklist",
-            "singular": "Updating the Asset within Checklist",
+            "singular": "Mengemas kini Aset dalam Senarai Semak",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec2": {
             "original": "Assets that use this Checklist",
-            "singular": "Assets that use this Checklist",
+            "singular": "Aset yang menggunakan Senarai Semak ini",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Follow-Up Checklist",
-            "singular": "Follow-Up Checklist",
+            "singular": "Senarai Semak Susulan",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec4": {
             "original": "Start by naming your checklist. You may update the",
-            "singular": "Start by naming your checklist. You may update the",
+            "singular": "Mulakan dengan menamakan senarai semak anda. Anda boleh mengemas kini",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec5": {
             "original": "Specify if users can update the linked Asset from within the Checklist.",
-            "singular": "Specify if users can update the linked Asset from within the Checklist.",
+            "singular": "Nyatakan jika pengguna boleh mengemas kini Aset yang dipautkan dari dalam Senarai Semak.",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec6": {
             "original": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
-            "singular": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
+            "singular": "Nyatakan butiran Aset untuk Senarai Semak ini. Aset yang sepadan dengan nilai di bawah akan mencetuskan Senarai Semak ini.",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec7": {
             "original": "Should an additional checklist be generated when this checklist is completed?",
-            "singular": "Should an additional checklist be generated when this checklist is completed?",
+            "singular": "Perlukah senarai semak tambahan dihasilkan apabila senarai semak ini selesai?",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec8": {
             "original": "This Checklist will be selected when the Asset's",
-            "singular": "This Checklist will be selected when the Asset's",
+            "singular": "Senarai Semak ini akan dipilih apabila Aset",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec9": {
             "original": "Assets that have below criteria will trigger this checklist",
-            "singular": "Assets that have below criteria will trigger this checklist",
+            "singular": "Aset yang mempunyai kriteria di bawah akan mencetuskan senarai semak ini",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec10": {
             "original": "The Checklist to be generated when one is completed",
-            "singular": "The Checklist to be generated when one is completed",
+            "singular": "Senarai Semak yang akan dihasilkan apabila satu selesai",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec11": {
             "original": "Filter By",
-            "singular": "Filter By",
+            "singular": "Tapis Mengikut",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec12": {
             "original": "of this checklist to 'Active' once you have added at least one question to it.",
-            "singular": "of this checklist to 'Active' once you have added at least one question to it.",
+            "singular": "senarai semak ini kepada 'Aktif' sebaik sahaja anda telah menambah sekurang-kurangnya satu soalan kepadanya.",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec13": {
             "original": "Details",
-            "singular": "Details",
+            "singular": "Butiran",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec14": {
             "original": "Change Status",
-            "singular": "Change Status",
+            "singular": "Tukar Status",
             "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec15": {
-            "original": "Task List",
-            "singular": "Task List",
-            "plural": "Task List",
             "setupEdit": true,
             "setupVisible": false
           }
@@ -15978,7 +15971,7 @@
           "setupVisible": false,
           "name": {
             "original": "Name",
-            "singular": "Name",
+            "singular": "Nama",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15992,105 +15985,105 @@
           },
           "statusUpdateWithinChecklist": {
             "original": "Can the Asset status be updated within the checklist?",
-            "singular": "Can the Asset status be updated within the checklist?",
+            "singular": "Bolehkah status Aset dikemas kini dalam senarai semak?",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "statusMeterReadingWithinChecklist": {
             "original": "Can the Equipment Meter Reading be updated within the checklist?",
-            "singular": "Can the Equipment Meter Reading be updated within the checklist?",
+            "singular": "Bolehkah Bacaan Meter Peralatan dikemas kini dalam senarai semak?",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "updateAtStart": {
             "original": "Update at start of checklist",
-            "singular": "Update at start of checklist",
+            "singular": "Kemas kini pada permulaan senarai semak",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "updateAfterComplete": {
             "original": "Update after completing checklist",
-            "singular": "Update after completing checklist",
+            "singular": "Kemas kini selepas menyelesaikan senarai semak",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "atStartOfChecklist": {
             "original": "At start of Checklist",
-            "singular": "At start of Checklist",
+            "singular": "Pada permulaan Senarai Semak",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "completionChecklist": {
             "original": "On Completion of Checklist",
-            "singular": "On Completion of Checklist",
+            "singular": "Pada Penyelesaian Senarai Semak",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "showOptionChangeStatusBefore": {
             "original": "Show option to change status before checklist questions",
-            "singular": "Show option to change status before checklist questions",
+            "singular": "Tunjukkan pilihan untuk menukar status sebelum soalan senarai semak",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "showOptionChangeStatusAfter": {
             "original": "Show option to change status after checklist responses are submitted",
-            "singular": "Show option to change status after checklist responses are submitted",
+            "singular": "Tunjukkan pilihan untuk menukar status selepas respons senarai semak dihantar",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "is": {
             "original": "is",
-            "singular": "is",
+            "singular": "ialah",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "type": {
             "original": "Type",
-            "singular": "Type",
+            "singular": "Jenis",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "assetType": {
             "original": "Asset Type",
-            "singular": "Asset Type",
+            "singular": "Jenis Aset",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "equipmentType": {
             "original": "Equipment Type",
-            "singular": "Equipment Type",
+            "singular": "Jenis Peralatan",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "newChecklistGenerated": {
             "original": "New Checklist to be Generated",
-            "singular": "New Checklist to be Generated",
+            "singular": "Senarai Semak Baru akan Dijana",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "whereToShowStatus": {
             "original": "Where to show Status",
-            "singular": "Where to show Status",
+            "singular": "Di mana untuk menunjukkan Status",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "whereToShowMeterReading": {
             "original": "Where to show Equipment Meter Reading",
-            "singular": "Where to show Equipment Meter Reading",
+            "singular": "Di mana untuk menunjukkan Bacaan Meter Peralatan",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -16100,14 +16093,14 @@
           "setupVisible": false,
           "yesUpdateAsset": {
             "original": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
-            "singular": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
+            "singular": "Memilih Ya menambah pilihan untuk menukar status Aset dalam senarai semak. Setelah dihantar, status Aset akan dikemas kini",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "yesUpdateMeterReading": {
             "original": "Choosing Yes adds an option to change Equipment Meter Reading in the checklist. Upon submission, the reading will be updated",
-            "singular": "Choosing Yes adds an option to change Equipment Meter Reading in the checklist. Upon submission, the reading will be updated",
+            "singular": "Memilih Ya menambah pilihan untuk menukar Bacaan Meter Peralatan dalam senarai semak. Setelah dihantar, bacaan akan dikemas kini",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -16115,11 +16108,10 @@
         },
         "validationFE": {},
         "messages": {
-          "selectAssetTypes": "Select Asset Types",
-          "selectServiceZone": "Select Service Zone",
-          "selectEquipmentType": "Select Equipment Type",
-          "checklistName": "Checklist Name"
-          
+          "selectAssetTypes": "Pilih Jenis Aset",
+          "selectServiceZone": "Pilih Zon Perkhidmatan",
+          "selectEquipmentType": "Pilih Jenis Peralatan",
+          "checklistName": "Nama Senarai Semak"
         }
       },
       "department": {

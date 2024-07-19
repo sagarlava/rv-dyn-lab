@@ -15854,8 +15854,8 @@
         "setupVisible": false,
         "label": {
           "original": "Checklists",
-          "singular": "Checklist",
-          "plural": "Checklists",
+          "singular": "清单",
+          "plural": "清单",
           "setupEdit": true,
           "setupVisible": false
         },
@@ -15863,113 +15863,106 @@
           "setupVisible": false,
           "sec0": {
             "original": "Checklist Details",
-            "singular": "Checklist Details",
+            "singular": "清单详情",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec1": {
             "original": "Updating the Asset within Checklist",
-            "singular": "Updating the Asset within Checklist",
+            "singular": "在清单内更新资产",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec2": {
             "original": "Assets that use this Checklist",
-            "singular": "Assets that use this Checklist",
+            "singular": "使用此清单的资产",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Follow-Up Checklist",
-            "singular": "Follow-Up Checklist",
+            "singular": "后续清单",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec4": {
             "original": "Start by naming your checklist. You may update the",
-            "singular": "Start by naming your checklist. You may update the",
+            "singular": "首先为您的清单命名。您可以更新",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec5": {
             "original": "Specify if users can update the linked Asset from within the Checklist.",
-            "singular": "Specify if users can update the linked Asset from within the Checklist.",
+            "singular": "指定用户是否可以在清单内更新链接的资产。",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec6": {
             "original": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
-            "singular": "Specify the details of the Assets this Checklist is for. Assets matching the below values will trigger this Checklist.",
+            "singular": "指定此清单所针对的资产的详细信息。匹配以下值的资产将触发此清单。",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec7": {
             "original": "Should an additional checklist be generated when this checklist is completed?",
-            "singular": "Should an additional checklist be generated when this checklist is completed?",
+            "singular": "此清单完成后是否应生成附加清单？",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec8": {
             "original": "This Checklist will be selected when the Asset's",
-            "singular": "This Checklist will be selected when the Asset's",
+            "singular": "当资产的",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec9": {
             "original": "Assets that have below criteria will trigger this checklist",
-            "singular": "Assets that have below criteria will trigger this checklist",
+            "singular": "符合以下标准的资产将触发此清单",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec10": {
             "original": "The Checklist to be generated when one is completed",
-            "singular": "The Checklist to be generated when one is completed",
+            "singular": "完成一个后要生成的清单",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec11": {
             "original": "Filter By",
-            "singular": "Filter By",
+            "singular": "过滤条件",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec12": {
             "original": "of this checklist to 'Active' once you have added at least one question to it.",
-            "singular": "of this checklist to 'Active' once you have added at least one question to it.",
+            "singular": "在添加至少一个问题后，将此清单设置为“活动”。",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec13": {
             "original": "Details",
-            "singular": "Details",
+            "singular": "详情",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec14": {
             "original": "Change Status",
-            "singular": "Change Status",
+            "singular": "更改状态",
             "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec15": {
-            "original": "Task List",
-            "singular": "Task List",
-            "plural": "Task List",
             "setupEdit": true,
             "setupVisible": false
           }
@@ -15978,119 +15971,119 @@
           "setupVisible": false,
           "name": {
             "original": "Name",
-            "singular": "Name",
+            "singular": "名称",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "status": {
             "original": "Status",
-            "singular": "Status",
+            "singular": "状态",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "statusUpdateWithinChecklist": {
             "original": "Can the Asset status be updated within the checklist?",
-            "singular": "Can the Asset status be updated within the checklist?",
+            "singular": "资产状态可以在清单中更新吗？",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "statusMeterReadingWithinChecklist": {
             "original": "Can the Equipment Meter Reading be updated within the checklist?",
-            "singular": "Can the Equipment Meter Reading be updated within the checklist?",
+            "singular": "设备读数可以在清单中更新吗？",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "updateAtStart": {
             "original": "Update at start of checklist",
-            "singular": "Update at start of checklist",
+            "singular": "在清单开始时更新",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "updateAfterComplete": {
             "original": "Update after completing checklist",
-            "singular": "Update after completing checklist",
+            "singular": "完成清单后更新",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "atStartOfChecklist": {
             "original": "At start of Checklist",
-            "singular": "At start of Checklist",
+            "singular": "在清单开始时",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "completionChecklist": {
             "original": "On Completion of Checklist",
-            "singular": "On Completion of Checklist",
+            "singular": "在完成清单时",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "showOptionChangeStatusBefore": {
             "original": "Show option to change status before checklist questions",
-            "singular": "Show option to change status before checklist questions",
+            "singular": "在清单问题之前显示更改状态的选项",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "showOptionChangeStatusAfter": {
             "original": "Show option to change status after checklist responses are submitted",
-            "singular": "Show option to change status after checklist responses are submitted",
+            "singular": "提交清单响应后显示更改状态的选项",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "is": {
             "original": "is",
-            "singular": "is",
+            "singular": "是",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "type": {
             "original": "Type",
-            "singular": "Type",
+            "singular": "类型",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "assetType": {
             "original": "Asset Type",
-            "singular": "Asset Type",
+            "singular": "资产类型",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "equipmentType": {
             "original": "Equipment Type",
-            "singular": "Equipment Type",
+            "singular": "设备类型",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "newChecklistGenerated": {
             "original": "New Checklist to be Generated",
-            "singular": "New Checklist to be Generated",
+            "singular": "生成的新清单",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "whereToShowStatus": {
             "original": "Where to show Status",
-            "singular": "Where to show Status",
+            "singular": "在哪里显示状态",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "whereToShowMeterReading": {
             "original": "Where to show Equipment Meter Reading",
-            "singular": "Where to show Equipment Meter Reading",
+            "singular": "在哪里显示设备读数",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -16100,14 +16093,14 @@
           "setupVisible": false,
           "yesUpdateAsset": {
             "original": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
-            "singular": "Choosing Yes adds an option to change Asset status in the checklist. Upon submission, the Asset status will be updated",
+            "singular": "选择“是”会在清单中添加一个更改资产状态的选项。提交后，资产状态将被更新",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "yesUpdateMeterReading": {
             "original": "Choosing Yes adds an option to change Equipment Meter Reading in the checklist. Upon submission, the reading will be updated",
-            "singular": "Choosing Yes adds an option to change Equipment Meter Reading in the checklist. Upon submission, the reading will be updated",
+            "singular": "选择“是”会在清单中添加一个更改设备读数的选项。提交后，读数将被更新",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -16115,11 +16108,10 @@
         },
         "validationFE": {},
         "messages": {
-          "selectAssetTypes": "Select Asset Types",
-          "selectServiceZone": "Select Service Zone",
-          "selectEquipmentType": "Select Equipment Type",
-          "checklistName": "Checklist Name"
-          
+          "selectAssetTypes": "选择资产类型",
+          "selectServiceZone": "选择服务区域",
+          "selectEquipmentType": "选择设备类型",
+          "checklistName": "清单名称"
         }
       },
       "department": {

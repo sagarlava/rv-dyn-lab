@@ -8816,7 +8816,8 @@
       },
       "messages": {
           "selectType": "选择类型",
-          "selectCompany": "选择公司"
+          "selectCompany": "选择公司",
+          "uploadCopyApproved": "请上传批准的托运副本"
       }
   },
   "requisition": {
@@ -11111,7 +11112,8 @@
           "youDontHaveReportingManager": "您没有汇报经理，请联系您的管理员",
           "thereAreNoTasksWithLocation": "没有带有位置的任务可以在地图上显示",
           "reasonOptional": "原因（可选）",
-          "areYouSureWantToExit": "您确定要退出吗？"
+          "areYouSureWantToExit": "您确定要退出吗？",
+          "mustUploadFile": "必须上传文件到"
       },
       "location": {
         "endDateExceeds": "结束日期不应超过开始日期",

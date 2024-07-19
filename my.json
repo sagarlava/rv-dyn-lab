@@ -8816,7 +8816,8 @@
       },
       "messages": {
           "selectType": "Pilih Jenis",
-          "selectCompany": "Pilih Syarikat"
+          "selectCompany": "Pilih Syarikat",
+          "uploadCopyApproved": "Sila muat naik salinan Konsainan yang Diluluskan"
       }
   },
   "requisition": {
@@ -11111,7 +11112,8 @@
         "youDontHaveReportingManager": "Anda tidak mempunyai pengurus pelaporan, Sila hubungi admin anda",
         "thereAreNoTasksWithLocation": "Tiada tugas dengan lokasi untuk dipaparkan di peta",
         "reasonOptional": "Alasan (Pilihan)",
-        "areYouSureWantToExit": "Adakah anda pasti mahu keluar?"
+        "areYouSureWantToExit": "Adakah anda pasti mahu keluar?",
+  "mustUploadFile": "Mesti memuat naik fail ke"
       },
       "location": {
         "endDateExceeds": "Tarikh tamat tidak boleh melebihi tarikh mula",

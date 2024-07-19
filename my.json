@@ -2019,11 +2019,16 @@
       },
       "validationFE": {},
       "validationBE": {
-          "invalidPhoneNumber": "Nombor Telefon Tidak Sah",
-          "invalidEmailFormat": "Format E-mel Tidak Sah",
-          "onlyAlphabetsAllowed": "Hanya huruf dibenarkan",
-          "requiredField": "Medan Diperlukan"
-      },
+          "contractNotFound": "Kontrak tidak dijumpai",
+          "contractHasMaintenance": "Data Penyelenggaraan wujud dalam sistem untuk Kontrak",
+          "contractCustomerNotFound": "Pelanggan Kontrak tidak dijumpai",
+          "contractStatusNotFound": "Status Kontrak tidak sah",
+          "contractAssetsNotFound": "Aset Kontrak tidak dijumpai",
+          "contractTableSetupNotFound": "Tetapan Jadual Kontrak tidak dijumpai, sila hubungi sokongan",
+          "contractContactNotFound": "Kenalan Kontrak tidak dijumpai",
+          "contractIdNotFound": "ID tidak dijumpai",
+          "contractIdExists": "Kontrak baru tidak boleh mempunyai ID sedia ada"
+        },
       "tooltips": {
           "setupVisible": true,
           "contractLookup": {

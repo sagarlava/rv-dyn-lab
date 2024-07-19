@@ -2019,11 +2019,16 @@
     },
     "validationFE": {},
     "validationBE": {
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format",
-      "onlyAlphabetsAllowed": "Only alphabets allowed",
-      "requiredField": "Required Field"
-    },
+      "contractNotFound": "Contract not found",
+      "contractHasMaintenance": "Maintenance Data exists in the system for the Contract",
+      "contractCustomerNotFound": "Contract Customer not found",
+      "contractStatusNotFound": "Invalid Contract status",
+      "contractAssetsNotFound": "Contract Assets not found",
+      "contractTableSetupNotFound": "Contract Table Setup not found, please contact support",
+      "contractContactNotFound": "Contract Contact not found",
+      "contractIdNotFound": "Id not found",
+      "contractIdExists": "A new contract cannot already have an ID"
+  },
     "tooltips": {
       "setupVisible": true,
       "contractLookup": {

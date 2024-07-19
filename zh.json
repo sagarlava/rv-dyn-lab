@@ -1853,177 +1853,182 @@
             "setupVisible": true
         }
     },
-        "fields": {
-            "setupVisible": true,
-            "status": {
-                "original": "Status",
-                "singular": "状态",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "custodian": {
-                "original": "Custodian",
-                "singular": "监护人",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "startDate": {
-                "original": "Start Date",
-                "singular": "开始日期",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "endDate": {
-                "original": "End Date",
-                "singular": "结束日期",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "refNo": {
-                "original": "Ref No",
-                "singular": "参考编号",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "assetName": {
-                "original": "Asset Name",
-                "singular": "资产名称",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "assetCode": {
-                "original": "Asset Code",
-                "singular": "资产代码",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "accessoryName": {
-                "original": "Accessory Name",
-                "singular": "配件名称",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "accessoryCode": {
-                "original": "Accessory Code",
-                "singular": "配件代码",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "serialNo": {
-                "original": "Serial No",
-                "singular": "序列号",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "serialNumber": {
-                "original": "Serial Number",
-                "singular": "序列号",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "bin": {
-                "original": "Bin",
-                "singular": "仓位",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "available": {
-                "original": "Available",
-                "singular": "可用",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "qty": {
-                "original": "Qty",
-                "singular": "数量",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "quantity": {
-                "original": "Quantity",
-                "singular": "数量",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "returnQty": {
-                "original": "Return Quantity",
-                "singular": "退回数量",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "updateInventory": {
-                "original": "Update Inventory",
-                "singular": "更新库存",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "active": {
-                "original": "Active",
-                "singular": "活跃",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "contractItemNo": {
-                "original": "Contract Item No.",
-                "singular": "合同项目编号",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "transferredFromBin": {
-                "original": "Transfered from Bin",
-                "singular": "从仓库转移",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "type": {
-                "original": "Type",
-                "singular": "类型",
-                "plural": "类型",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "contractItemId": {
-                "original": "Contract Item ID",
-                "singular": "合同项目ID",
-                "plural": "合同项目ID",
-                "setupEdit": true,
-                "setupVisible": true
-            },
-            "contractItem": {
-                "original": "Contract Item",
-                "singular": "合同项目",
-                "plural": "合同项目",
-                "setupEdit": true,
-                "setupVisible": true
-            }
+    "fields": {
+        "setupVisible": true,
+        "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
         },
-        "validationFE": {},
-        "validationBE": {
-            "invalidPhoneNumber": "无效的电话号码",
-            "invalidEmailFormat": "无效的电子邮件格式",
-            "onlyAlphabetsAllowed": "只允许字母",
-            "requiredField": "必填字段"
+        "custodian": {
+            "original": "Custodian",
+            "singular": "监护人",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
         },
+        "startDate": {
+            "original": "Start Date",
+            "singular": "开始日期",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "endDate": {
+            "original": "End Date",
+            "singular": "结束日期",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "refNo": {
+            "original": "Ref No",
+            "singular": "参考编号",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "assetName": {
+            "original": "Asset Name",
+            "singular": "资产名称",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "assetCode": {
+            "original": "Asset Code",
+            "singular": "资产代码",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "accessoryName": {
+            "original": "Accessory Name",
+            "singular": "配件名称",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "accessoryCode": {
+            "original": "Accessory Code",
+            "singular": "配件代码",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "serialNo": {
+            "original": "Serial No",
+            "singular": "序列号",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "serialNumber": {
+            "original": "Serial Number",
+            "singular": "序列号",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "bin": {
+            "original": "Bin",
+            "singular": "仓位",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "available": {
+            "original": "Available",
+            "singular": "可用",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "qty": {
+            "original": "Qty",
+            "singular": "数量",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "quantity": {
+            "original": "Quantity",
+            "singular": "数量",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "returnQty": {
+            "original": "Return Quantity",
+            "singular": "退回数量",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "updateInventory": {
+            "original": "Update Inventory",
+            "singular": "更新库存",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "active": {
+            "original": "Active",
+            "singular": "活跃",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "contractItemNo": {
+            "original": "Contract Item No.",
+            "singular": "合同项目编号",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "transferredFromBin": {
+            "original": "Transfered from Bin",
+            "singular": "从仓库转移",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "type": {
+            "original": "Type",
+            "singular": "类型",
+            "plural": "类型",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "contractItemId": {
+            "original": "Contract Item ID",
+            "singular": "合同项目ID",
+            "plural": "合同项目ID",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "contractItem": {
+            "original": "Contract Item",
+            "singular": "合同项目",
+            "plural": "合同项目",
+            "setupEdit": true,
+            "setupVisible": true
+        }
+    },
+    "validationFE": {},
+    "validationBE": {
+      "contractNotFound": "未找到合同",
+      "contractHasMaintenance": "系统中存在合同的维护数据",
+      "contractCustomerNotFound": "未找到合同客户",
+      "contractStatusNotFound": "无效的合同状态",
+      "contractAssetsNotFound": "未找到合同资产",
+      "contractTableSetupNotFound": "未找到合同表格设置，请联系支持",
+      "contractContactNotFound": "未找到合同联系人",
+      "contractIdNotFound": "未找到ID",
+      "contractIdExists": "新合同不能已有ID"
+    },
         "tooltips": {
             "setupVisible": true,
             "contractLookup": {

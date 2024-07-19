@@ -2217,6 +2217,12 @@
           "setupVisible": true
         }
       },
+      "validationBE": {
+        "contractMaintenanceContractNotFound": "需要合同",
+        "contractItemNotFound": "需要合同项目",
+        "contractItemIdExists": "新合同项目不能已有ID",
+        "contractMaintenanceIdExists": "新合同维护不能已有ID"
+      },
       "messages": {
         "maintenanceAppliesToAllContractAssets": "此维护将应用于此合同中的所有资产"
       }

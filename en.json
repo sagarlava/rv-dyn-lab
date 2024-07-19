@@ -17573,10 +17573,18 @@
       "validationFE": {},
       "messages": {
         "selectFieldToMap": "Select field to map to",
-           "selectFieldList": "Select a field list",
+        "selectFieldList": "Select a field list",
         "lookupVia": "Lookup via:",
         "markRecordWithError": "Mark record with an error if more than one match is found",
-        "insertNullValue": "Insert null value(s) if no match is found"
+        "insertNullValue": "Insert null value(s) if no match is found",
+        "specifyOneMoreFields":"Please specify one or more fields to be exported",
+        "mapFieldsBefore":"Please map all the fields before import or remove fields from .csv",
+        "exportedSuccesfully":"Data exported successfully",
+        "importedSuccesfully":"Data imported successfully",
+        "unableToSave":"Unable to save. Please try again",
+        "unableToImport":"Unable to import. Please check the error file",
+        "fileHeadersGreater":"Number of file headers greater than number of module fields",
+        "selectValidFile":"Please select a valid file to upload"
       }
     },
     "customerSurvey": {

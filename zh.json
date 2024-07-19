@@ -17576,7 +17576,15 @@
           "selectFieldList": "选择一个字段列表",
           "lookupVia": "通过查找：",
           "markRecordWithError": "如果找到多个匹配项，请标记记录有错误",
-          "insertNullValue": "如果没有找到匹配项，则插入空值"
+          "insertNullValue": "如果没有找到匹配项，则插入空值",
+          "specifyOneMoreFields": "请指定一个或多个要导出的字段",
+          "mapFieldsBefore": "请在导入前映射所有字段或从 .csv 中删除字段",
+          "exportedSuccesfully": "数据导出成功",
+          "importedSuccesfully": "数据导入成功",
+          "unableToSave": "无法保存。请再试一次",
+          "unableToImport": "无法导入。请检查错误文件",
+          "fileHeadersGreater": "文件标题数量大于模块字段数量",
+          "selectValidFile": "请选择一个有效的文件上传"
         }
       },
       "customerSurvey": {

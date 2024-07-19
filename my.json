@@ -17576,7 +17576,15 @@
           "selectFieldList": "Pilih senarai medan",
           "lookupVia": "Carian melalui:",
           "markRecordWithError": "Tandakan rekod dengan ralat jika lebih daripada satu padanan ditemui",
-          "insertNullValue": "Masukkan nilai null jika tiada padanan ditemui"
+          "insertNullValue": "Masukkan nilai null jika tiada padanan ditemui",
+          "specifyOneMoreFields": "Sila tentukan satu atau lebih medan untuk dieksport",
+          "mapFieldsBefore": "Sila petakan semua medan sebelum import atau keluarkan medan dari .csv",
+          "exportedSuccesfully": "Data berjaya dieksport",
+          "importedSuccesfully": "Data berjaya diimport",
+          "unableToSave": "Tidak dapat disimpan. Sila cuba lagi",
+          "unableToImport": "Tidak dapat diimport. Sila semak fail ralat",
+          "fileHeadersGreater": "Bilangan tajuk fail lebih besar daripada bilangan medan modul",
+          "selectValidFile": "Sila pilih fail yang sah untuk dimuat naik"
         }
       },
       "customerSurvey": {

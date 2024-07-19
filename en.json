@@ -250,6 +250,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "hospitalName": {
+        "original": "Hospital Name",
+        "singular": "Hospital Name",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "hospitalCode": {
+        "original": "Hospital Code",
+        "singular": "Hospital Code",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},

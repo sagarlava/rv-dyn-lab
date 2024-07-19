@@ -250,6 +250,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "hospitalName": {
+        "original": "Hospital Name",
+        "singular": "医院名称",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "hospitalCode": {
+        "original": "Hospital Code",
+        "singular": "医院代码",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
       },
       "validationFE": {},

@@ -1162,6 +1162,10 @@
         "setupVisible": true
       }
     },
+    "validationBE": {
+      "assetLogIdExists": "A new assetLog cannot already have an ID",
+      "assetLogIdNotFound": "Id not found"
+    },
     "messages": {
       "resetMeterForLowerReading": "Select 'Reset Meter' if your new meter reading is smaller than the current reading",
       "futureDateTimeEntryNotAllowed": "Entry cannot be made for future date and time",

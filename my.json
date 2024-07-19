@@ -1162,6 +1162,10 @@
               "setupVisible": true
           }
       },
+      "validationBE": {
+        "assetLogIdExists": "Log aset baru tidak boleh mempunyai ID sedia ada",
+        "assetLogIdNotFound": "ID tidak dijumpai"
+      },
       "messages": {
           "resetMeterForLowerReading": "Pilih 'Tetapkan Semula Meter' jika bacaan meter baru anda lebih kecil daripada bacaan semasa",
           "futureDateTimeEntryNotAllowed": "Entri tidak boleh dibuat untuk tarikh dan masa hadapan",

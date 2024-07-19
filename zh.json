@@ -1162,6 +1162,10 @@
               "setupVisible": true
           }
       },
+      "validationBE": {
+        "assetLogIdExists": "新资产日志不能已有ID",
+        "assetLogIdNotFound": "未找到ID"
+      },
       "messages": {
           "resetMeterForLowerReading": "如果您的新仪表读数小于当前读数，请选择“重置仪表”",
           "futureDateTimeEntryNotAllowed": "不能输入未来的日期和时间",

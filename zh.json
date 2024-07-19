@@ -1990,7 +1990,9 @@
             "errorFetchingAllContractItems": "获取所有合同项目时出错。",
             "errorFetchingContractData": "获取合同数据时发生错误",
             "selectedQtyGreater": "选择的“数量”大于“可用数量”",
-            "removeItems": "移除需要退回的项目"
+            "removeItems": "移除需要退回的项目",
+            "pleaseSelectAssetName": "请选择资产名称",
+            "qtyGreaterThanZero": "数量应大于0"
         }
     },
   "contractMaintenance": {

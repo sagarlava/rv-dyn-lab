@@ -1990,7 +1990,9 @@
       "errorFetchingAllContractItems":"Error fetching all contract items.",
       "errorFetchingContractData": "Error occured while fetching contract data",
       "selectedQtyGreater":"Selected 'Quantity' is greater than 'Quantity Available'",
-      "removeItems":"Remove items that need to be returned"
+      "removeItems":"Remove items that need to be returned",
+      "pleaseSelectAssetName":"Please select an Asset Name",
+      "qtyGreaterThanZero":"Quantity should be greater than 0"
     }
   },
   "contractMaintenance": {

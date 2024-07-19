@@ -9264,6 +9264,27 @@
               "setupVisible": true
           }
       },
+      "validationBE": {
+        "requisitionIdNotFound": "未找到ID",
+        "requisitionNotFound": "未找到申请",
+        "requisitionStatusNotPending": "只有待验证的申请单才能被验证/拒绝",
+        "requisitionRequiredCreatedUser": "验证/拒绝需要创建用户",
+        "requisitionNotApproved": "申请未批准",
+        "requisitionCreatedUserSupervisorNotFound": "需要为申请创建用户的主管",
+        "requisitionEmailNotFound": "未找到电子邮件",
+        "requisitionCreatedByUserNotFound": "未找到创建申请的用户",
+        "requisitionVerifiedByUserNotFound": "未找到验证申请的用户",
+        "requisitionHODVerifiedByUserNotFound": "未找到HOD验证申请的用户",
+        "requisitionRequiredVerifiedUser": "验证/拒绝需要验证用户",
+        "requisitionRequiredHODVerifiedUser": "验证/拒绝需要HOD验证用户",
+        "requisitionVerifiedUserSupervisorNotFound": "需要为验证用户的主管",
+        "requisitionHODStatusNotPending": "只有待HOD批准的申请才能被验证/拒绝",
+        "requisitionNotSubmitToHOD": "只有提交给HOD的申请才能被验证/拒绝",
+        "requisitionIdExists": "新申请单不能已有ID",
+        "requisitionItemIdExists": "新申请项目不能已有ID",
+        "requisitionItemTypeFound": "未找到申请项目类型",
+        "requisitionItemIdNotFound": "未找到ID"
+      },
       "messages": {
           "selectPriority": "选择优先级",
           "selectType": "选择类型",

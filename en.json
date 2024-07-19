@@ -9264,6 +9264,27 @@
         "setupVisible": true
       }
     },
+    "validationBE": {
+      "requisitionIdNotFound": "Id not found",
+      "requisitionNotFound": "Requisition not found",
+      "requisitionStatusNotPending": "Only Pending Verification Requisition Notes can be verified/rejected",
+      "requisitionRequiredCreatedUser": "Created User required for verification/rejection",
+      "requisitionNotApproved": "Requisition not approved",
+      "requisitionCreatedUserSupervisorNotFound": "Supervisor required for Created user of Requisition",
+      "requisitionEmailNotFound": "Email not found",
+      "requisitionCreatedByUserNotFound": "Requisition Created By User Not found",
+      "requisitionVerifiedByUserNotFound": "Requisition Verified By User Not found",
+      "requisitionHODVerifiedByUserNotFound": "Requisition HOD Verified By User Not found",
+      "requisitionRequiredVerifiedUser": "Verified User required for verification/rejection",
+      "requisitionRequiredHODVerifiedUser": "HOD Verified User required for verification/rejection",
+      "requisitionVerifiedUserSupervisorNotFound": "Supervisor required for Verified user of Requisition",
+      "requisitionHODStatusNotPending": "Only Pending HOD Approval Requisition can be verified/rejected",
+      "requisitionNotSubmitToHOD": "Only Submit-to-HOD checked Requisition can be verified/rejected",
+      "requisitionIdExists": "A new requisitionNote cannot already have an ID",
+      "requisitionItemIdExists": "A new requisitionItem cannot already have an ID",
+      "requisitionItemTypeFound": "RequisitionItem type not found",
+      "requisitionItemIdNotFound": "Id not found"
+    },
     "messages": {
       "selectPriority": "Select Priority",
       "selectType": "Select Type",

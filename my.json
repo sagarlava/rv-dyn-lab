@@ -9264,6 +9264,27 @@
               "setupVisible": true
           }
       },
+      "validationBE": {
+        "requisitionIdNotFound": "ID tidak dijumpai",
+        "requisitionNotFound": "Permintaan tidak dijumpai",
+        "requisitionStatusNotPending": "Hanya Nota Permintaan yang Menunggu Verifikasi boleh diverifikasi/ditolak",
+        "requisitionRequiredCreatedUser": "Pengguna yang Dicipta diperlukan untuk verifikasi/penolakan",
+        "requisitionNotApproved": "Permintaan tidak diluluskan",
+        "requisitionCreatedUserSupervisorNotFound": "Penyelia diperlukan untuk pengguna yang mencipta Permintaan",
+        "requisitionEmailNotFound": "Emel tidak dijumpai",
+        "requisitionCreatedByUserNotFound": "Pengguna yang Mencipta Permintaan tidak dijumpai",
+        "requisitionVerifiedByUserNotFound": "Pengguna yang Mengesahkan Permintaan tidak dijumpai",
+        "requisitionHODVerifiedByUserNotFound": "Pengguna yang Disahkan oleh Ketua Jabatan tidak dijumpai",
+        "requisitionRequiredVerifiedUser": "Pengguna yang Disahkan diperlukan untuk verifikasi/penolakan",
+        "requisitionRequiredHODVerifiedUser": "Pengguna yang Disahkan oleh Ketua Jabatan diperlukan untuk verifikasi/penolakan",
+        "requisitionVerifiedUserSupervisorNotFound": "Penyelia diperlukan untuk pengguna yang disahkan Permintaan",
+        "requisitionHODStatusNotPending": "Hanya Permintaan yang Menunggu Kelulusan Ketua Jabatan boleh diverifikasi/ditolak",
+        "requisitionNotSubmitToHOD": "Hanya Permintaan yang Ditandakan untuk Ketua Jabatan boleh diverifikasi/ditolak",
+        "requisitionIdExists": "Nota permintaan baru tidak boleh mempunyai ID sedia ada",
+        "requisitionItemIdExists": "Item permintaan baru tidak boleh mempunyai ID sedia ada",
+        "requisitionItemTypeFound": "Jenis Item Permintaan tidak dijumpai",
+        "requisitionItemIdNotFound": "ID tidak dijumpai"
+      },
       "messages": {
           "selectPriority": "Pilih Keutamaan",
           "selectType": "Pilih Jenis",

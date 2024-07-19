@@ -1579,11 +1579,9 @@
       },
       "validationFE": {},
       "validationBE": {
-          "invalidPhoneNumber": "Invalid Phone Number",
-          "invalidEmailFormat": "Invalid Email Format",
-          "onlyAlphabetsAllowed": "Only alphabets allowed",
-          "requiredField": "Required Field",
-          "assetAlreadyHasAnActiveMaintenance": "Asset already has an active maintenance"
+        "maintenanceIdExists": "Penyelenggaraan baru tidak boleh mempunyai ID sedia ada",
+        "maintenanceNotFound": "Penyelenggaraan tidak dijumpai",
+        "assetHasActiveMaintenance": "Aset tersebut sudah mempunyai penyelenggaraan aktif"
       },
       "tooltips": {
           "setupVisible": true,

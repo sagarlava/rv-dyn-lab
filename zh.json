@@ -1576,14 +1576,12 @@
           "setupEdit": true,
           "setupVisible": true
         }
-      }
-    ,
+      },
       "validationFE": {},
       "validationBE": {
-          "invalidPhoneNumber": "Invalid Phone Number",
-          "invalidEmailFormat": "Invalid Email Format",
-          "onlyAlphabetsAllowed": "Only alphabets allowed",
-          "requiredField": "Required Field"
+        "maintenanceIdExists": "新维护不能已有ID",
+        "maintenanceNotFound": "未找到维护",
+        "assetHasActiveMaintenance": "该资产已有一个活动的维护"
       },
       "tooltips": {
           "setupVisible": true,

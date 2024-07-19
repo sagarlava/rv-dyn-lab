@@ -1579,11 +1579,9 @@
     },
     "validationFE": {},
     "validationBE": {
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format",
-      "onlyAlphabetsAllowed": "Only alphabets allowed",
-      "requiredField": "Required Field",
-      "assetAlreadyHasAnActiveMaintenance": "Asset already has an active maintenance"
+      "maintenanceIdExists": "A new maintenance cannot already have an ID",
+      "maintenanceNotFound": "Maintenance not found",
+      "assetHasActiveMaintenance": "The asset already has an active maintenance"
     },
     "tooltips": {
       "setupVisible": true,

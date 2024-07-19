@@ -1749,10 +1749,15 @@
       },
       "validationFE": {},
       "validationBE": {
-          "invalidPhoneNumber": "Invalid Phone Number",
-          "invalidEmailFormat": "Invalid Email Format",
-          "onlyAlphabetsAllowed": "Only alphabets allowed",
-          "requiredField": "Required Field"
+        "preventativeFrequencyInvalidType": "Nilai tidak sah untuk jenis frekuensi",
+        "preventativeFrequencyDayWithInvalidFrequency": "Jika jenis frekuensi adalah HARI, frekuensi mesti sekurang-kurangnya 7 hari",
+        "preventativeFrequencyHasPreventativeFrequencyPart": "Data Bahagian Frekuensi Pencegahan wujud dalam sistem untuk Frekuensi Pencegahan",
+        "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "ID Templat Penyelenggaraan Pencegahan atau ID Penyelenggaraan tidak dijumpai",
+        "preventativeMaintenanceFrequencyTemplateNotFound": "Templat Penyelenggaraan Pencegahan tidak dijumpai",
+        "preventativeMaintenanceFrequencyInvalidType": "Jenis frekuensi tidak sah",
+        "preventativeMaintenanceTemplateMaintenanceNotFound": "Penyelenggaraan tidak dijumpai",
+        "preventativeMaintenanceTemplateInvalidReminderTo": "Hantar peringatan kepada tidak sah",
+        "preventativeTemplateHasPreventativeFrequency": "Data Frekuensi Pencegahan wujud dalam sistem untuk Templat Pencegahan"
       },
       "tooltips": {
           "setupVisible": true,

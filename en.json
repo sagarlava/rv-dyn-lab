@@ -1749,10 +1749,15 @@
     },
     "validationFE": {},
     "validationBE": {
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format",
-      "onlyAlphabetsAllowed": "Only alphabets allowed",
-      "requiredField": "Required Field"
+        "preventativeFrequencyInvalidType": "Invalid value for frequency type",
+        "preventativeFrequencyDayWithInvalidFrequency": "If the frequency type is DAY, the frequency must be minimum 7 days",
+        "preventativeFrequencyHasPreventativeFrequencyPart": "Preventative Frequency Parts Data exists in the system for the Preventative Frequency",
+        "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "Preventative Maintenance Template Id or Maintenance Id not found",
+        "preventativeMaintenanceFrequencyTemplateNotFound": "Preventative Maintenance Template not found",
+        "preventativeMaintenanceFrequencyInvalidType": "Invalid frequency type",
+        "preventativeMaintenanceTemplateMaintenanceNotFound": "Maintenance not found",
+        "preventativeMaintenanceTemplateInvalidReminderTo": "Invalid send reminder to",
+        "preventativeTemplateHasPreventativeFrequency": "Preventative Frequency Data exists in the system for the Preventative Template"
     },
     "tooltips": {
       "setupVisible": true,

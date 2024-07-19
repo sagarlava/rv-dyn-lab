@@ -1749,10 +1749,15 @@
       },
       "validationFE": {},
       "validationBE": {
-          "invalidPhoneNumber": "Invalid Phone Number",
-          "invalidEmailFormat": "Invalid Email Format",
-          "onlyAlphabetsAllowed": "Only alphabets allowed",
-          "requiredField": "Required Field"
+        "preventativeFrequencyInvalidType": "频率类型值无效",
+        "preventativeFrequencyDayWithInvalidFrequency": "如果频率类型是天，频率必须至少为7天",
+        "preventativeFrequencyHasPreventativeFrequencyPart": "系统中存在预防频率的预防频率部分数据",
+        "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "未找到预防性维护模板 ID 或维护 ID",
+        "preventativeMaintenanceFrequencyTemplateNotFound": "未找到预防性维护模板",
+        "preventativeMaintenanceFrequencyInvalidType": "无效的频率类型",
+        "preventativeMaintenanceTemplateMaintenanceNotFound": "未找到维护",
+        "preventativeMaintenanceTemplateInvalidReminderTo": "无效的发送提醒对象",
+        "preventativeTemplateHasPreventativeFrequency": "系统中存在预防模板的预防频率数据"
       },
       "tooltips": {
           "setupVisible": true,

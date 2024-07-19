@@ -8817,7 +8817,8 @@
       "messages": {
           "selectType": "Pilih Jenis",
           "selectCompany": "Pilih Syarikat",
-          "uploadCopyApproved": "Sila muat naik salinan Konsainan yang Diluluskan"
+          "uploadCopyApproved": "Sila muat naik salinan Konsainan yang Diluluskan",
+          "approvedCannotDelete": "Nota Konsainan telah diluluskan, oleh itu tidak dapat dipadamkan"
       }
   },
   "requisition": {
@@ -9136,7 +9137,8 @@
           "selectPriority": "Pilih Keutamaan",
           "selectType": "Pilih Jenis",
           "selectCompany": "Pilih Syarikat",
-          "selectUser": "Pilih Pengguna"
+          "selectUser": "Pilih Pengguna",
+          "uploadCopyApproved": "Sila muat naik salinan Requisisi yang Diluluskan"        
       }
   },
   "contacts": {

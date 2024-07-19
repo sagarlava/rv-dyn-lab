@@ -8817,7 +8817,8 @@
     "messages": {
       "selectType": "Select Type",
       "selectCompany": "Select Company",
-      "uploadCopyApproved":"Please upload a copy of Approved Consignment"
+      "uploadCopyApproved":"Please upload a copy of Approved Consignment",
+      "approvedCannotDelete":"Consignment Note has been approved hence unable to delete"
     }
   },
   "requisition": {
@@ -9136,7 +9137,8 @@
       "selectPriority": "Select Priority",
       "selectType": "Select Type",
       "selectCompany": "Select Company",
-      "selectUser": "Select User"
+      "selectUser": "Select User",
+      "uploadCopyApproved":"Please upload a copy of Approved Requisition"
     }
   },
   "contacts": {

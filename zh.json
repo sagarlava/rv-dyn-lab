@@ -8817,7 +8817,8 @@
       "messages": {
           "selectType": "选择类型",
           "selectCompany": "选择公司",
-          "uploadCopyApproved": "请上传批准的托运副本"
+          "uploadCopyApproved": "请上传批准的托运副本",
+          "approvedCannotDelete": "托运单已批准，因此无法删除"
       }
   },
   "requisition": {
@@ -9136,7 +9137,8 @@
           "selectPriority": "选择优先级",
           "selectType": "选择类型",
           "selectCompany": "选择公司",
-          "selectUser": "选择用户"
+          "selectUser": "选择用户",
+          "uploadCopyApproved": "请上传批准的申请副本"
       }
   },
   "contacts": {

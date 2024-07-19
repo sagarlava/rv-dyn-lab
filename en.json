@@ -19742,6 +19742,13 @@
         "setupVisible": true
       }
     },
+    "validationBE": {
+        "msUserActiveOnAnotherSite": "User is already active on another site",
+        "msLeadActiveOnAnotherSite": "User is already active as lead on another site",
+        "msMachineSpVMNotFound": "Machine Specialist not found",
+        "msDefaultSiteNotFound": "Default Site not found, please contact Admin",
+        "msAtlasNotEnabled": "Atlas is not enabled"
+    },
     "messages": {
       "selectOutturnCode": "Select Default Machine"
     }
@@ -19847,6 +19854,12 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationBE": {
+        "attendanceAlreadySubmitted": "Attendance has already been submitted",
+        "attendanceStatusNotFound": "Attendance status not found",
+        "attendanceNotFound": "Attendance not found",
+        "attendanceAtlasNotEnabled": "Atlas is not enabled"
     },
     "message": {
       "selectOutturnCode": "Select Outturn Code"
@@ -19960,6 +19973,11 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationBE": {
+        "overtimeStatusNotFound": "Overtime status not found",
+        "overtimeNotFound": "Overtime not found",
+        "overtimeAtlasNotEnabled": "Atlas is not enabled"
     },
     "message": {
       "selectTime": "Select Time"
@@ -20080,6 +20098,14 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationBE": {
+      "productivitySiteNotFound": "Productivity site not found",
+      "productivityAssetsNotFound": "Productivity assets not found",
+      "productivityStatusNotFound": "Productivity status not found",
+      "productivityNotFound": "Productivity not found",
+      "productivityHasPrimaryWork": "Primary Works Data exists in the system for the productivity",
+      "productivityAtlasNotEnabled": "Atlas is not enabled"
     },
     "message": {
       "selectTime": "Select Time"
@@ -20494,6 +20520,12 @@
         "setupVisible": true
       }
     },
+    "validationBE": {
+        "visitStatusNotFound": "Visit status not found",
+        "visitApprovalStatusNotFound": "Visit approval status not found",
+        "visitNotFound": "Visit not found",
+        "visitAtlasNotEnabled": "Atlas is not enabled"
+    },
     "messages": {
       "selectVisitType": "Select Visit Type",
       "selectApprovalStatus": "Select Approval Status"
@@ -20669,10 +20701,10 @@
       }
     },
     "validationFE": {},
-    "validationBE": {
-      "requiredField": "Required Field",
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format"
+   "validationBE": {
+        "pmvPrimaryWorkRequired": "Pmv primary work is required",
+        "pmvPrimaryWorkNotFound": "Primary Work not found",
+        "pmvAtlasNotEnabled": "Atlas is not enabled"
     },
     "tooltips": {
       "setupVisible": true,

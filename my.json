@@ -19742,6 +19742,13 @@
             "setupVisible": true
         }
     },
+    "validationBE": {
+      "msUserActiveOnAnotherSite": "Pengguna sudah aktif di tapak lain",
+      "msLeadActiveOnAnotherSite": "Pengguna sudah aktif sebagai ketua di tapak lain",
+      "msMachineSpVMNotFound": "Pakar Mesin tidak dijumpai",
+      "msDefaultSiteNotFound": "Tapak Lalai tidak dijumpai, sila hubungi Pentadbir",
+      "msAtlasNotEnabled": "Atlas tidak diaktifkan"
+    },
     "messages": {
         "selectOutturnCode": "Pilih Mesin Lalai"
     }
@@ -19847,6 +19854,12 @@
             "setupEdit": true,
             "setupVisible": true
         }
+    },
+    "validationBE": {
+      "attendanceAlreadySubmitted": "Kehadiran telah dihantar",
+      "attendanceStatusNotFound": "Status kehadiran tidak dijumpai",
+      "attendanceNotFound": "Rekod kehadiran tidak dijumpai",
+      "attendanceAtlasNotEnabled": "Atlas tidak diaktifkan"
     },
     "message": {
         "selectOutturnCode": "Pilih Kod Keputusan"
@@ -19960,6 +19973,11 @@
             "setupEdit": true,
             "setupVisible": true
         }
+    },
+    "validationBE": {
+      "overtimeStatusNotFound": "Status kerja lebih masa tidak dijumpai",
+      "overtimeNotFound": "Kerja lebih masa tidak dijumpai",
+      "overtimeAtlasNotEnabled": "Atlas tidak diaktifkan"
     },
     "message": {
         "selectTime": "Pilih Masa"
@@ -20080,6 +20098,14 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationBE": {
+      "productivitySiteNotFound": "Tapak produktiviti tidak dijumpai",
+      "productivityAssetsNotFound": "Aset produktiviti tidak dijumpai",
+      "productivityStatusNotFound": "Status produktiviti tidak dijumpai",
+      "productivityNotFound": "Produktiviti tidak dijumpai",
+      "productivityHasPrimaryWork": "Data Kerja Utama wujud dalam sistem untuk produktiviti",
+      "productivityAtlasNotEnabled": "Atlas tidak diaktifkan"
     },
     "message": {
       "selectTime": "Pilih Masa"
@@ -20494,6 +20520,12 @@
         "setupVisible": true
       }
     },
+    "validationBE": {
+      "visitStatusNotFound": "Status lawatan tidak dijumpai",
+      "visitApprovalStatusNotFound": "Status kelulusan lawatan tidak dijumpai",
+      "visitNotFound": "Lawatan tidak dijumpai",
+      "visitAtlasNotEnabled": "Atlas tidak diaktifkan"
+    },
     "messages": {
       "selectVisitType": "Select Visit Type",
       "selectApprovalStatus": "Select Approval Status"
@@ -20670,9 +20702,9 @@
     },
     "validationFE": {},
     "validationBE": {
-      "requiredField": "Required Field",
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format"
+      "pmvPrimaryWorkRequired": "Kerja utama PMV diperlukan",
+      "pmvPrimaryWorkNotFound": "Kerja Utama tidak dijumpai",
+      "pmvAtlasNotEnabled": "Atlas tidak diaktifkan"
     },
     "tooltips": {
       "setupVisible": true,

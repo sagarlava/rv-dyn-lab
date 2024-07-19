@@ -19742,6 +19742,13 @@
             "setupVisible": true
         }
     },
+    "validationBE": {
+      "msUserActiveOnAnotherSite": "用户已在其他地点活跃",
+      "msLeadActiveOnAnotherSite": "用户已在其他地点担任负责人",
+      "msMachineSpVMNotFound": "未找到机器专家",
+      "msDefaultSiteNotFound": "未找到默认地点，请联系管理员",
+      "msAtlasNotEnabled": "未启用Atlas"
+    },
     "messages": {
         "selectOutturnCode": "选择默认机器"
     }
@@ -19847,6 +19854,12 @@
             "setupEdit": true,
             "setupVisible": true
         }
+    },
+    "validationBE": {
+      "attendanceAlreadySubmitted": "考勤已提交",
+      "attendanceStatusNotFound": "未找到考勤状态",
+      "attendanceNotFound": "未找到考勤记录",
+      "attendanceAtlasNotEnabled": "未启用Atlas"
     },
     "message": {
         "selectOutturnCode": "选择结果代码"
@@ -19960,6 +19973,11 @@
             "setupEdit": true,
             "setupVisible": true
         }
+    },
+    "validationBE": {
+      "overtimeStatusNotFound": "未找到加班状态",
+      "overtimeNotFound": "未找到加班记录",
+      "overtimeAtlasNotEnabled": "未启用Atlas"
     },
     "message": {
         "selectTime": "选择时间"
@@ -20080,6 +20098,14 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationBE": {
+      "productivitySiteNotFound": "未找到生产力地点",
+      "productivityAssetsNotFound": "未找到生产力资产",
+      "productivityStatusNotFound": "未找到生产力状态",
+      "productivityNotFound": "未找到生产力记录",
+      "productivityHasPrimaryWork": "系统中存在生产力的主要工作数据",
+      "productivityAtlasNotEnabled": "未启用Atlas"
     },
     "message": {
      "selectTime": "选择时间"
@@ -20494,6 +20520,12 @@
         "setupVisible": true
       }
     },
+    "validationBE": {
+      "visitStatusNotFound": "未找到访问状态",
+      "visitApprovalStatusNotFound": "未找到访问审批状态",
+      "visitNotFound": "未找到访问记录",
+      "visitAtlasNotEnabled": "未启用Atlas"
+    },
     "messages": {
       "selectVisitType": "Select Visit Type",
       "selectApprovalStatus": "Select Approval Status"
@@ -20670,9 +20702,9 @@
     },
     "validationFE": {},
     "validationBE": {
-      "requiredField": "Required Field",
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format"
+      "pmvPrimaryWorkRequired": "需要PMV主要工作",
+      "pmvPrimaryWorkNotFound": "未找到主要工作",
+      "pmvAtlasNotEnabled": "未启用Atlas"
     },
     "tooltips": {
       "setupVisible": true,

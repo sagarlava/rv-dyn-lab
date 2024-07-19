@@ -4732,9 +4732,21 @@
       },
       "validationFE": {},
       "validationBE": {
-          "requiredField": "Medan Diperlukan",
-          "invalidPhoneNumber": "Nombor Telefon Tidak Sah",
-          "invalidEmailFormat": "Format Emel Tidak Sah"
+        "projectWithExtIdNotFound": "ID Luar tidak sah",
+        "projectNotFound": "Projek tidak dijumpai",
+        "projectIdNotFound": "ID tidak dijumpai",
+        "projectTableSetupNotFound": "Tetapan Jadual Projek tidak dijumpai, sila hubungi sokongan",
+        "projectIdExidNotFound": "ID Projek/ID Luar tidak dijumpai",
+        "projectWithSecondExtIdNotFound": "ID Luar Kedua tidak sah",
+        "projectWithSFExtIdNotFound": "ID Luar SF tidak sah",
+        "projectGeoFenceNotFound": "Geografi Projek tidak dijumpai",
+        "projectServiceZoneNotFound": "Zon Perkhidmatan Projek tidak dijumpai",
+        "projectCategoryNotFound": "Kategori Projek tidak dijumpai",
+        "projectStatusNotFound": "Status Projek tidak dijumpai",
+        "projectCustomerNotFound": "Pelanggan Projek tidak dijumpai",
+        "projectTypeNotFound": "Jenis Projek tidak dijumpai",
+        "projectIdExists": "Projek baru tidak boleh mempunyai ID sedia ada",
+        "projectExtidNotFound": "ID Luar Projek tidak dijumpai"
       },
       "tooltips": {
           "setupVisible": true,

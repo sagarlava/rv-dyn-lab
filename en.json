@@ -4732,9 +4732,21 @@
     },
     "validationFE": {},
     "validationBE": {
-      "requiredField": "Required Field",
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format"
+        "projectWithExtIdNotFound": "Invalid ExternalId",
+        "projectNotFound": "Project not found",
+        "projectIdNotFound": "Id not found",
+        "projectTableSetupNotFound": "Project Table Setup not found, please contact support",
+        "projectIdExidNotFound": "Project Id/ExternalId not found",
+        "projectWithSecondExtIdNotFound": "Invalid Second ExternalId",
+        "projectWithSFExtIdNotFound": "Invalid SF ExternalId",
+        "projectGeoFenceNotFound": "Project GeoFence not found",
+        "projectServiceZoneNotFound": "Project Service Zone not found",
+        "projectCategoryNotFound": "Project Category not found",
+        "projectStatusNotFound": "Project Status not found",
+        "projectCustomerNotFound": "Project Customer not found",
+        "projectTypeNotFound": "Project Type not found",
+        "projectIdExists": "A new project cannot already have an ID",
+        "projectExtidNotFound": "Project ExternalId not found"
     },
     "tooltips": {
       "setupVisible": true,

@@ -4732,9 +4732,21 @@
     },
       "validationFE": {},
       "validationBE": {
-          "requiredField": "必填字段",
-          "invalidPhoneNumber": "无效的电话号码",
-          "invalidEmailFormat": "无效的电子邮件格式"
+        "projectWithExtIdNotFound": "无效的外部ID",
+        "projectNotFound": "未找到项目",
+        "projectIdNotFound": "未找到ID",
+        "projectTableSetupNotFound": "未找到项目表格设置，请联系支持",
+        "projectIdExidNotFound": "未找到项目ID/外部ID",
+        "projectWithSecondExtIdNotFound": "无效的第二外部ID",
+        "projectWithSFExtIdNotFound": "无效的SF外部ID",
+        "projectGeoFenceNotFound": "未找到项目地理围栏",
+        "projectServiceZoneNotFound": "未找到项目服务区",
+        "projectCategoryNotFound": "未找到项目类别",
+        "projectStatusNotFound": "未找到项目状态",
+        "projectCustomerNotFound": "未找到项目客户",
+        "projectTypeNotFound": "未找到项目类型",
+        "projectIdExists": "新项目不能已有ID",
+        "projectExtidNotFound": "未找到项目外部ID"
       },
       "tooltips": {
           "setupVisible": true,

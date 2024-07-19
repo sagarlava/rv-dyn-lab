@@ -254,10 +254,24 @@
     },
       "validationFE": {},
       "validationBE": {
-          "invalidPhoneNumber": "Invalid Phone Number",
-          "invalidEmailFormat": "Invalid Email Format",
-          "onlyAlphabetsAllowed": "Only alphabets allowed",
-          "requiredField": "Required Field"
+        "customerIdExidNotFound": "Id/CustomerExternalId tidak dijumpai",
+        "customerExidNotFound": "ExternalId tidak dijumpai",
+        "customerIdExists": "Pelanggan baru tidak boleh mempunyai ID sedia ada",
+        "customerIdNotFound": "ID tidak dijumpai",
+        "customerNotFound": "Pelanggan tidak dijumpai",
+        "customerDeleted": "Pelanggan telah dipadam",
+        "customerCannotDeleteByProjects": "Tidak dapat dipadamkan: pelanggan adalah sebahagian daripada satu atau lebih projek",
+        "customerLocationNotFound": "Lokasi pengguna tidak sah",
+        "customerGeoFenceNotFound": "Geografi pelanggan tidak dijumpai",
+        "customerServiceZoneNotFound": "Zon Perkhidmatan Pelanggan tidak dijumpai",
+        "customerCategoryTypeNotFound": "Jenis Kategori Pelanggan tidak dijumpai",
+        "customerTypeNotFound": "Jenis Pelanggan tidak dijumpai",
+        "customerChannelNotFound": "Saluran Pelanggan tidak dijumpai",
+        "customerSectorNotFound": "Sektor Pelanggan tidak dijumpai",
+        "customerSubSectorNotFound": "Sub Sektor Pelanggan tidak dijumpai",
+        "customerIndustryNotFound": "Industri Pelanggan tidak dijumpai",
+        "customerTableSetupNotFound": "Tetapan Jadual Pelanggan tidak dijumpai, sila hubungi sokongan",
+        "customerContactNameLimitExceed": "Nama Kenalan Pelanggan tidak boleh melebihi 255 aksara"
       },
      "tooltips": {
         "setupVisible": true,

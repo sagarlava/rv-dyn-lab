@@ -254,10 +254,24 @@
       },
       "validationFE": {},
       "validationBE": {
-          "invalidPhoneNumber": "Invalid Phone Number",
-          "invalidEmailFormat": "Invalid Email Format",
-          "onlyAlphabetsAllowed": "Only alphabets allowed",
-          "requiredField": "Required Field"
+        "customerIdExidNotFound": "未找到 ID/客户外部ID",
+        "customerExidNotFound": "未找到外部ID",
+        "customerIdExists": "新客户不能已有ID",
+        "customerIdNotFound": "未找到ID",
+        "customerNotFound": "未找到客户",
+        "customerDeleted": "客户已删除",
+        "customerCannotDeleteByProjects": "无法删除：客户是一个或多个项目的一部分",
+        "customerLocationNotFound": "用户位置无效",
+        "customerGeoFenceNotFound": "未找到客户地理围栏",
+        "customerServiceZoneNotFound": "未找到客户服务区",
+        "customerCategoryTypeNotFound": "未找到客户类别类型",
+        "customerTypeNotFound": "未找到客户类型",
+        "customerChannelNotFound": "未找到客户渠道",
+        "customerSectorNotFound": "未找到客户行业",
+        "customerSubSectorNotFound": "未找到客户子行业",
+        "customerIndustryNotFound": "未找到客户行业",
+        "customerTableSetupNotFound": "未找到客户表格设置，请联系支持",
+        "customerContactNameLimitExceed": "客户联系人姓名不能超过255个字符"
       },
       "tooltips": {
         "setupVisible": true,

@@ -254,10 +254,24 @@
     },
     "validationFE": {},
     "validationBE": {
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format",
-      "onlyAlphabetsAllowed": "Only alphabets allowed",
-      "requiredField": "Required Field"
+      "customerIdExidNotFound": "Id/CustomerExternalId not found",
+      "customerExidNotFound": "ExternalId not found",
+      "customerIdExists": "A new customer cannot already have an ID",
+      "customerIdNotFound": "Id not found",
+      "customerNotFound": "Customer not found",
+      "customerDeleted": "Customer is Deleted",
+      "customerCannotDeleteByProjects": "Unable to Delete: customer is part of one or more projects",
+      "customerLocationNotFound": "Invalid user location",
+      "customerGeoFenceNotFound": "Customer Geo Fence not found",
+      "customerServiceZoneNotFound": "Customer Service Zone not found",
+      "customerCategoryTypeNotFound": "Customer Category Type not found",
+      "customerTypeNotFound": "Customer Type not found",
+      "customerChannelNotFound": "Customer Channel not found",
+      "customerSectorNotFound": "Customer Sector not found",
+      "customerSubSectorNotFound": "Customer Sub Sector not found",
+      "customerIndustryNotFound": "Customer Industry not found",
+      "customerTableSetupNotFound": "Customer Table Setup not found, please contact support",
+      "customerContactNameLimitExceed": "Customer Contact Name cannot be longer than 255 characters"
     },
     "tooltips": {
       "setupVisible": true,

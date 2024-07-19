@@ -9431,6 +9431,28 @@
         }
       },
       "validationFE": {},
+      "validationBE": {
+        "contactNotFound": "Kenalan tidak dijumpai",
+        "contactHasCustomerUser": "Data Pengguna Pelanggan wujud dalam sistem untuk Kenalan",
+        "contactHasLoadingBay": "Data Kawasan Muatan wujud dalam sistem untuk Kenalan",
+        "contactHasConsignorOrConsignee": "Data Pengirim/Penerima wujud dalam sistem untuk Kenalan",
+        "contactHasServiceChecklist": "Data Senarai Semak Perkhidmatan wujud dalam sistem untuk Kenalan",
+        "contactHasCustomerServiceReport": "Data Laporan Perkhidmatan Pelanggan wujud dalam sistem untuk Kenalan",
+        "contactHasHandoverCertificate": "Data Sijil Penyerahan wujud dalam sistem untuk Kenalan",
+        "contactHasTicket": "Data Tiket wujud dalam sistem untuk Kenalan",
+        "contactHasContract": "Data Kontrak wujud dalam sistem untuk Kenalan",
+        "contactWithExtIdNotFound": "ID Luar tidak sah",
+        "contactCustomerNotFound": "Kenalan Pelanggan tidak dijumpai",
+        "contactSiteNotFound": "Kenalan Tapak tidak dijumpai",
+        "contactProjectNotFound": "Kenalan Projek tidak dijumpai",
+        "contactIdNotFound": "ID tidak dijumpai",
+        "contactIdExists": "Kenalan baru tidak boleh mempunyai ID sedia ada",
+        "contactNameLimitExceed": "Nama Kenalan tidak boleh melebihi 255 aksara",
+        "contactNameNotFound": "Nama tidak boleh kosong",
+        "contactEmailNotFound": "Emel tidak boleh kosong",
+        "contactUserNameNotFound": "Nama Pengguna tidak boleh kosong",
+        "contactExtIdNotFound": "ID Luar tidak dijumpai"
+      },
       "messages": {
         "searchContact": "Cari Kontak",
         "noContactsFound": "Tiada kontak ditemui",

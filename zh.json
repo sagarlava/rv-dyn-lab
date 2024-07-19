@@ -9431,6 +9431,28 @@
         }
       },
       "validationFE": {},
+      "validationBE": {
+        "contactNotFound": "未找到联系人",
+        "contactHasCustomerUser": "系统中存在联系人的客户用户数据",
+        "contactHasLoadingBay": "系统中存在联系人的装卸区数据",
+        "contactHasConsignorOrConsignee": "系统中存在联系人的托运人/收货人数据",
+        "contactHasServiceChecklist": "系统中存在联系人的服务清单数据",
+        "contactHasCustomerServiceReport": "系统中存在联系人的客户服务报告数据",
+        "contactHasHandoverCertificate": "系统中存在联系人的移交证书数据",
+        "contactHasTicket": "系统中存在联系人的工单数据",
+        "contactHasContract": "系统中存在联系人的合同数据",
+        "contactWithExtIdNotFound": "外部ID无效",
+        "contactCustomerNotFound": "未找到联系客户",
+        "contactSiteNotFound": "未找到联系地点",
+        "contactProjectNotFound": "未找到联系项目",
+        "contactIdNotFound": "未找到ID",
+        "contactIdExists": "新联系人不能已有ID",
+        "contactNameLimitExceed": "联系人姓名不能超过255个字符",
+        "contactNameNotFound": "姓名不能为空",
+        "contactEmailNotFound": "电子邮件不能为空",
+        "contactUserNameNotFound": "用户名不能为空",
+        "contactExtIdNotFound": "未找到外部ID"
+      },
       "messages": {
         "searchContact": "搜索联系人",
         "noContactsFound": "未找到联系人",

@@ -9431,6 +9431,28 @@
       }
     },
     "validationFE": {},
+    "validationBE": {
+      "contactNotFound": "Contact not found",
+      "contactHasCustomerUser": "Customer User Data exists in the system for the Contact",
+      "contactHasLoadingBay": "Loading Bay Data exists in the system for the Contact",
+      "contactHasConsignorOrConsignee": "Consignor/Consignee Data exists in the system for the Contact",
+      "contactHasServiceChecklist": "Service Checklist Data exists in the system for the Contact",
+      "contactHasCustomerServiceReport": "Customer Service Report Data exists in the system for the Contact",
+      "contactHasHandoverCertificate": "Handover Certificate Data exists in the system for the Contact",
+      "contactHasTicket": "Ticket Data exists in the system for the Contact",
+      "contactHasContract": "Contract Data exists in the system for the Contact",
+      "contactWithExtIdNotFound": "Invalid ExternalId",
+      "contactCustomerNotFound": "Contact Customer not found",
+      "contactSiteNotFound": "Contact Site not found",
+      "contactProjectNotFound": "Contact Project not found",
+      "contactIdNotFound": "Id not found",
+      "contactIdExists": "A new contact cannot already have an ID",
+      "contactNameLimitExceed": "Contact Name cannot be longer than 255 characters",
+      "contactNameNotFound": "Name can not be empty",
+      "contactEmailNotFound": "Email can not be empty",
+      "contactUserNameNotFound": "Username can not be empty",
+      "contactExtIdNotFound": "ExternalId not found"
+  },
     "messages":{
       "searchContact": "Search Contact",
       "noContactsFound": "No contacts found",

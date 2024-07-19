@@ -1337,6 +1337,10 @@
               "setupVisible": true
           }
       },
+      "validationBE": {
+        "accessoryIdExists": "新附件不能已有ID",
+        "accessoryIdNotFound": "未找到ID"
+      },
       "messages": {
           "quantityCantBeZero": "数量不能为零"
       }

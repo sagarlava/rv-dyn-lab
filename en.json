@@ -1337,6 +1337,10 @@
         "setupVisible": true
       }
     },
+    "validationBE": {
+      "accessoryIdExists": "A new accessory cannot already have an ID",
+      "accessoryIdNotFound": "Id not found"
+    },
     "messages": {
       "quantityCantBeZero": "Quantity Cannot be Zero"
     }

@@ -1337,6 +1337,10 @@
               "setupVisible": true
           }
       },
+      "validationBE": {
+        "accessoryIdExists": "Aksesori baru tidak boleh mempunyai ID sedia ada",
+        "accessoryIdNotFound": "ID tidak dijumpai"
+      },
       "messages": {
           "quantityCantBeZero": "Kuantiti Tidak Boleh Kosong"
       }

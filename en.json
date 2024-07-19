@@ -8931,6 +8931,20 @@
         "setupVisible": true
       }
     },
+    "validationBE": {
+        "consignmentIdNotFound": "Id not found",
+        "consignmentNotFound": "Consignment not found",
+        "consignmentEmailNotFound": "Consignment Email not found",
+        "consignmentNotApproved": "Consignment not approved",
+        "consignmentAttentionToUserNotFound": "Consignment Attention-to User not found",
+        "consignmentRequiredCreatedUser": "Created User required for submission/cancellation",
+        "consignmentStatusNotPending": "Only Pending Consignment can be acknowledged/rejected",
+        "consignmentRequiresAttentionToUser": "Attention-to User required to acknowledge/reject",
+        "consignmentIdExists": "A new consignmentNote cannot already have an ID",
+        "consignmentItemIdExists": "A new consignmentItem cannot already have an ID",
+        "consignmentItemTypeNotFound": "ConsignmentItem Type not found",
+        "consignmentItemIdNotFound": "Id not found"
+    },
     "messages": {
       "selectType": "Select Type",
       "selectCompany": "Select Company",

@@ -8931,6 +8931,20 @@
               "setupVisible": true
           }
       },
+      "validationBE": {
+        "consignmentIdNotFound": "未找到ID",
+        "consignmentNotFound": "未找到托运",
+        "consignmentEmailNotFound": "未找到托运电子邮件",
+        "consignmentNotApproved": "托运未批准",
+        "consignmentAttentionToUserNotFound": "未找到托运关注用户",
+        "consignmentRequiredCreatedUser": "提交/取消需要创建用户",
+        "consignmentStatusNotPending": "只有待处理的托运可以被确认/拒绝",
+        "consignmentRequiresAttentionToUser": "需要关注用户来确认/拒绝",
+        "consignmentIdExists": "新托运单不能已有ID",
+        "consignmentItemIdExists": "新托运项目不能已有ID",
+        "consignmentItemTypeNotFound": "未找到托运项目类型",
+        "consignmentItemIdNotFound": "未找到ID"
+      },
       "messages": {
           "selectType": "选择类型",
           "selectCompany": "选择公司",

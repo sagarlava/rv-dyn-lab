@@ -8931,6 +8931,20 @@
               "setupVisible": true
           }
       },
+      "validationBE": {
+        "consignmentIdNotFound": "ID tidak dijumpai",
+        "consignmentNotFound": "Konsainan tidak dijumpai",
+        "consignmentEmailNotFound": "Emel Konsainan tidak dijumpai",
+        "consignmentNotApproved": "Konsainan tidak diluluskan",
+        "consignmentAttentionToUserNotFound": "Pengguna Perhatian Konsainan tidak dijumpai",
+        "consignmentRequiredCreatedUser": "Pengguna yang Dicipta diperlukan untuk penghantaran/pembatalan",
+        "consignmentStatusNotPending": "Hanya Konsainan yang Menunggu boleh diakui/ditolak",
+        "consignmentRequiresAttentionToUser": "Pengguna yang Perhatian diperlukan untuk mengakui/menolak",
+        "consignmentIdExists": "Nota konsainan baru tidak boleh mempunyai ID sedia ada",
+        "consignmentItemIdExists": "Item konsainan baru tidak boleh mempunyai ID sedia ada",
+        "consignmentItemTypeNotFound": "Jenis Item Konsainan tidak dijumpai",
+        "consignmentItemIdNotFound": "ID tidak dijumpai"
+      },
       "messages": {
           "selectType": "Pilih Jenis",
           "selectCompany": "Pilih Syarikat",

@@ -46,16 +46,16 @@
           "setupVisible": true
         },
         "sec5": {
-          "original": "Stats",
-          "singular": "统计",
-          "plural": "统计",
+          "original": "Customer Details",
+          "singular": "客户信息",
+          "plural": "客户信息",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec6": {
-          "original": "Customer Details",
-          "singular": "客户信息",
-          "plural": "客户信息",
+          "original": "Overview",
+          "singular": "概述",
+          "plural": "",
           "setupEdit": true,
           "setupVisible": true
         }
@@ -264,6 +264,48 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "next": {
+        "original": "Next",
+        "singular": "下一步",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "currentContract": {
+        "original": "Current Contract",
+        "singular": "当前合同",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "expiresIn": {
+        "original": "Expires in",
+        "singular": "到期于",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "latestActiveContract": {
+        "original": "Latest Active Contract",
+        "singular": "最新有效合同",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "stat": {
+        "original": "Stats",
+        "singular": "统计",
+        "plural": "统计",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "day": {
+        "original": "day",
+        "singular": "天",
+        "plural": "天",
+        "setupEdit": true,
+        "setupVisible": true
       }
       },
       "validationFE": {},
@@ -315,7 +357,8 @@
           "technicianOnRoute": "正在前往此任务的用户。",
           "addressNotFallGeoFence": "此地址不包含在您的任何地理围栏中。",
           "deleteMessage": "删除此客户，您还将删除所有相关信息，如订单、联系人和其他相关数据。此操作无法撤消。您确定要继续吗？",
-          "selectGeofences": "选择地理围栏"
+          "selectGeofences": "选择地理围栏",
+          "noJobOrder": "暂无工作单"
       }
   },
   "asset": {

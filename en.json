@@ -46,16 +46,16 @@
         "setupVisible": true
       },
       "sec5": {
-        "original": "Stats",
-        "singular": "Stats",
-        "plural": "Stats",
+        "original": "Customer Details",
+        "singular": "Customer Details",
+        "plural": "Customer Details",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec6": {
-        "original": "Customer Details",
-        "singular": "Customer Details",
-        "plural": "Customer Details",
+        "original": "Overview",
+        "singular": "Overview",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       }
@@ -264,6 +264,48 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "next": {
+        "original": "Next",
+        "singular": "Next",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "currentContract": {
+        "original": "Current Contract",
+        "singular": "Current Contract",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "expiresIn": {
+        "original": "Expires in",
+        "singular": "Expires in",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "latestActiveContract": {
+        "original": "Latest Active Contract",
+        "singular": "Latest Active Contract",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "stat": {
+        "original": "Stats",
+        "singular": "Stat",
+        "plural": "Stats",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "day": {
+        "original": "day",
+        "singular": "day",
+        "plural": "days",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -315,7 +357,8 @@
       "technicianOnRoute": "Currently a user is en route to this task.",
       "addressNotFallGeoFence": "Address does not fall under any of your geofences.",
       "deleteMessage": "By deleting this customer, you will also be removing all associated information such as orders, contacts, and other related data. You will not be able to undo this. Do you wish to proceed?",
-      "selectGeofences": "Select Geofences"
+      "selectGeofences": "Select Geofences",
+      "noJobOrder": "No Job Orders yet"
     }
   },
   "asset": {

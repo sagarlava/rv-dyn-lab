@@ -46,18 +46,18 @@
         "setupVisible": true
         },
         "sec5": {
-        "original": "Stats",
-        "singular": "Statistik",
-        "plural": "Statistik",
-        "setupEdit": true,
-        "setupVisible": true
+          "original": "Customer Details",
+          "singular": "Butiran Pelanggan",
+          "plural": "Butiran Pelanggan",
+          "setupEdit": true,
+          "setupVisible": true
         },
         "sec6": {
-        "original": "Customer Details",
-        "singular": "Butiran Pelanggan",
-        "plural": "Butiran Pelanggan",
-        "setupEdit": true,
-        "setupVisible": true
+          "original": "Overview",
+          "singular": "Gambaran Keseluruhan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
         }
     },
     "fields": {
@@ -264,6 +264,48 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "next": {
+        "original": "Next",
+        "singular": "Seterusnya",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "currentContract": {
+        "original": "Current Contract",
+        "singular": "Kontrak Semasa",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "expiresIn": {
+        "original": "Expires in",
+        "singular": "Tamat dalam",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "latestActiveContract": {
+        "original": "Latest Active Contract",
+        "singular": "Kontrak Aktif Terbaru",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "stat": {
+        "original": "Stats",
+        "singular": "Statistik",
+        "plural": "Statistik",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "day": {
+        "original": "day",
+        "singular": "hari",
+        "plural": "hari",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
       "validationFE": {},
@@ -315,7 +357,8 @@
           "technicianOnRoute": "Ada pengguna sedang menuju ke tugasan ini",
           "addressNotFallGeoFence": "Alamat ini tidak termasuk dalam mana-mana Pagar Geofence anda.",
           "deleteMessage": "Dengan memadam pelanggan ini, anda juga akan memadamkan semua maklumat berkaitan seperti pesanan, kenalan, dan data lain yang berkaitan. Tindakan ini tidak boleh dibatalkan. Adakah anda ingin meneruskan?",
-          "selectGeofences": "Pilih Geofence"
+          "selectGeofences": "Pilih Geofence",
+          "noJobOrder": "Belum ada Pesanan Kerja"
       }
   },
   "asset": {

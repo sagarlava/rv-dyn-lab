@@ -3983,7 +3983,14 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
-          }      
+          },
+          "completed": {
+            "original": "Completed",
+            "singular": "已完成",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }  
       },
       "validationFE": {},
       "validationBE": {

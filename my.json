@@ -4921,6 +4921,13 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
+          },
+          "sec13": {
+            "original": "Conversations",
+            "singular": "Perbualan",
+            "plural": "Perbualan",
+            "setupEdit": true,
+            "setupVisible": true
           }
       },
       "fields": {
@@ -8408,6 +8415,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "unit": {
+            "original": "Unit",
+            "singular": "Unit",
+            "plural": "Unit",
+            "setupEdit": true,
+            "setupVisible": false
           }
       }
   },
@@ -10966,6 +10980,13 @@
         "original": "Add Members",
         "singular": "Tambah Ahli",
         "plural": "Tambah Ahli",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "optimize": {
+        "original": "Optimize",
+        "singular": "Optimumkan",
+        "plural": "Optimumkan",
         "setupEdit": true,
         "setupVisible": true
       }

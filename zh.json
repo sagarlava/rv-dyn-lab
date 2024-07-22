@@ -4921,6 +4921,13 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
+          },
+          "sec13": {
+            "original": "Conversations",
+            "singular": "对话",
+            "plural": "对话",
+            "setupEdit": true,
+            "setupVisible": true
           }
       },
      "fields": {
@@ -8408,6 +8415,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "unit": {
+            "original": "Unit",
+            "singular": "单位",
+            "plural": "单位",
+            "setupEdit": true,
+            "setupVisible": false
           }
       }
   },
@@ -10966,6 +10980,13 @@
           "original": "Add Members",
           "singular": "添加成员",
           "plural": "添加成员",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "optimize": {
+          "original": "Optimize",
+          "singular": "优化",
+          "plural": "优化",
           "setupEdit": true,
           "setupVisible": true
         }

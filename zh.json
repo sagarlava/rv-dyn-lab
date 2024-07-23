@@ -1132,7 +1132,7 @@
       "label": {
           "original": "Asset Log",
           "singular": "资产日志",
-          "plural": "",
+          "plural": "资产日志",
           "setupEdit": true,
           "setupVisible": true
       },
@@ -1242,7 +1242,7 @@
       "label": {
           "original": "Van Log",
           "singular": "货车日志",
-          "plural": "",
+          "plural": "货车日志",
           "setupEdit": true,
           "setupVisible": true
       },
@@ -1414,7 +1414,7 @@
       "label": {
           "original": "Maintenance Schedule",
           "singular": "维护计划",
-          "plural": "",
+          "plural": "维护计划",
           "setupEdit": true,
           "setupVisible": true
       },
@@ -1690,7 +1690,7 @@
           "setupVisible": true,
           "sec0": {
               "original": "Preventive Maintenance Details",
-              "singular": "Preventative Maintenance Details",
+              "singular": "预防性维护详情",
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
@@ -1748,11 +1748,11 @@
               "setupVisible": true
           },
           "skillsAndTools": {
-              "original": "Skills & Tools",
-              "singular": "Skills & Tools",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Skills & Tools",
+            "singular": "技能和工具",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           },
           "maintenanceFrequency": {
               "original": "Maintenance Frequency",
@@ -1804,11 +1804,11 @@
               "setupVisible": true
           },
           "frequencyName": {
-              "original": "Frequency Name",
-              "singular": "Frequency Name",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Frequency Name",
+            "singular": "频率名称",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
       },
       "validationFE": {},
@@ -2121,7 +2121,7 @@
       "label": {
         "original": "Contract Maintenance",
         "singular": "合同维护",
-        "plural": "",
+        "plural": "合同维护",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -2266,6 +2266,34 @@
         "contractMaintenanceNumber": {
           "original": "Contract Maintenance Number",
           "singular": "合同维护编号",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "maintenanceTemplate": {
+          "original": "Maintenance Template",
+          "singular": "维护模板",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sendInitialReminder": {
+          "original": "Send Initial Reminder (Days Before)",
+          "singular": "发送初始提醒（提前几天）",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "followUpReminder": {
+          "original": "Follow Up Reminder (Days Before)",
+          "singular": "发送后续提醒（提前几天）",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sendOverdueReminder": {
+          "original": "Send Overdue Reminder (Days After)",
+          "singular": "发送逾期提醒（逾期几天）",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -5266,8 +5294,8 @@
       "setupVisible": true,
       "label": {
           "original": "Job Order",
-          "singular": "Tempahan Kerja",
-          "plural": "Tempahan Kerja",
+          "singular": "工单号",
+          "plural": "工单号",
           "setupEdit": true,
           "setupVisible": true
       },
@@ -8444,7 +8472,7 @@
       "label": {
           "original": "Bin Transfer",
           "singular": "仓位转移",
-          "plural": "",
+          "plural": "仓位转移",
           "setupEdit": true,
           "setupVisible": true
       },
@@ -8709,7 +8737,7 @@
     "label": {
       "original": "Check availability",
       "singular": "检查可用性",
-      "plural": "",
+      "plural": "检查可用性",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -9746,7 +9774,7 @@
       "label": {
           "original": "History",
           "singular": "历史记录",
-          "plural": "",
+          "plural": "历史记录",
           "setupEdit": true,
           "setupVisible": true
       },

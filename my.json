@@ -1132,7 +1132,7 @@
       "label": {
           "original": "Asset Log",
           "singular": "Log Aset",
-          "plural": "",
+          "plural": "Log Aset",
           "setupEdit": true,
           "setupVisible": true
       },
@@ -1242,7 +1242,7 @@
       "label": {
           "original": "Van Log",
           "singular": "Log Van",
-          "plural": "",
+          "plural": "Log Van",
           "setupEdit": true,
           "setupVisible": true
       },
@@ -1414,7 +1414,7 @@
       "label": {
           "original": "Maintenance Schedule",
           "singular": "Jadual Penyelenggaraan",
-          "plural": "",
+          "plural": "Jadual Penyelenggaraan",
           "setupEdit": true,
           "setupVisible": true
       },
@@ -1748,11 +1748,11 @@
               "setupVisible": true
           },
           "skillsAndTools": {
-              "original": "Skills & Tools",
-              "singular": "Skills & Tools",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Skills & Tools",
+            "singular": "Kemahiran & Alat",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           },
           "maintenanceFrequency": {
               "original": "Maintenance Frequency",
@@ -1804,11 +1804,11 @@
               "setupVisible": true
           },
           "frequencyName": {
-              "original": "Frequency Name",
-              "singular": "Frequency Name",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Frequency Name",
+            "singular": "Nama Kekerapan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
       },
       "validationFE": {},
@@ -2121,7 +2121,7 @@
     "label": {
         "original": "Contract Maintenance",
         "singular": "Penyelenggaraan Kontrak",
-        "plural": "",
+        "plural": "Penyelenggaraan Kontrak",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -2266,6 +2266,34 @@
         "contractMaintenanceNumber": {
           "original": "Contract Maintenance Number",
           "singular": "Nombor Penyelenggaraan Kontrak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "maintenanceTemplate": {
+            "original": "Maintenance Template",
+            "singular": "Templat Penyelenggaraan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "sendInitialReminder": {
+          "original": "Send Initial Reminder (Days Before)",
+          "singular": "Hantar Peringatan Awal (Hari Sebelum)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "followUpReminder": {
+          "original": "Follow Up Reminder (Days Before)",
+          "singular": "Hantar Peringatan Susulan (Hari Sebelum)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sendOverdueReminder": {
+          "original": "Send Overdue Reminder (Days After)",
+          "singular": "Hantar Peringatan Lewat (Hari Selepas)",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -8444,7 +8472,7 @@
       "label": {
           "original": "Bin Transfer",
           "singular": "Pemindahan Bin",
-          "plural": "",
+          "plural": "Pemindahan Bin",
           "setupEdit": true,
           "setupVisible": true
       },
@@ -8709,7 +8737,7 @@
     "label": {
       "original": "Check availability",
       "singular": "Periksa ketersediaan",
-      "plural": "",
+      "plural": "Periksa ketersediaan",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -9746,7 +9774,7 @@
       "label": {
           "original": "History",
           "singular": "Rekod Sejarah",
-          "plural": "",
+          "plural": "Rekod Sejarah",
           "setupEdit": true,
           "setupVisible": true
       },

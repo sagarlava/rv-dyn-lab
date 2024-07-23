@@ -2269,6 +2269,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "maintenanceTemplate": {
+        "original": "Maintenance Template",
+        "singular": "Maintenance Template",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sendInitialReminder": {
+        "original": "Send Initial Reminder (Days Before)",
+        "singular": "Send Initial Reminder (Days Before)",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "followUpReminder": {
+        "original": "Follow Up Reminder (Days Before)",
+        "singular": "Follow Up Reminder (Days Before)",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sendOverdueReminder": {
+        "original": "Send Overdue Reminder (Days After)",
+        "singular": "Send Overdue Reminder (Days After)",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "tooltips": {

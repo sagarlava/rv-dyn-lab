@@ -18563,6 +18563,13 @@
         "setupVisible": true
       }
     },
+    "validationBE": {
+        "userLeaveUserNotFound": "User Leave User not found",
+        "userLeaveIdExists": "A new User Leave cannot already have an ID",
+        "userLeaveCannotBeDeleted": "User Leave not allowed to be deleted",
+        "userLeaveNotFound": "User Leave not found",
+        "userLeaveUserManagerNotFound": "Manager not found, please contact your admin"
+    },
     "messages": {
       "selectOutturnCode": "Select Outturn Code",
       "selectApprovalStatus": "Select Approval Status",

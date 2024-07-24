@@ -18563,6 +18563,13 @@
             "setupVisible": true
           }
       },
+      "validationBE": {
+          "userLeaveUserNotFound": "Rekod Cuti Pengguna tidak dijumpai",
+          "userLeaveIdExists": "Rekod Cuti Pengguna baru tidak boleh mempunyai ID",
+          "userLeaveCannotBeDeleted": "Rekod Cuti Pengguna tidak dibenarkan dipadam",
+          "userLeaveNotFound": "Rekod Cuti Pengguna tidak dijumpai",
+          "userLeaveUserManagerNotFound": "Pengurus tidak dijumpai, sila hubungi pentadbir anda"
+      },
       "messages": {
           "selectOutturnCode": "Pilih Kod Keputusan",
           "selectApprovalStatus": "Pilih Status Kelulusan",

@@ -12020,11 +12020,11 @@
   "setup": {
     "setupVisible": false,
       "label": {
-          "original": "Setup",
-          "singular": "Setup",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
+        "original": "Setup",
+        "singular": "设置",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       },
       "general": {
         "setupVisible": false,
@@ -12033,7 +12033,7 @@
           "label": {
             "original": "Organization Details",
             "singular": "组织详情",
-            "plural": "",
+            "plural": "组织详情",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -12160,7 +12160,7 @@
           "label": {
             "original": "License and Billing",
             "singular": "许可和账单",
-            "plural": "",
+            "plural": "许可和账单",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -12211,7 +12211,7 @@
           "label": {
             "original": "Working Hours",
             "singular": "工作时间",
-            "plural": "",
+            "plural": "工作时间",
             "setupEdit": true,
             "setupVisible": false
           },

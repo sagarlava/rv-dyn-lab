@@ -2525,9 +2525,22 @@
       },
       "validationFE": {},
       "validationBE": {
-          "requiredField": "Required Field",
-          "invalidPhoneNumber": "Invalid Phone Number",
-          "invalidEmailFormat": "Invalid Email Format"
+        "checklistIdExists": "新的检查表不能已有ID",
+        "checklistIdNotFound": "未找到ID",
+        "checklistSectionIdExists": "新的检查表部分不能已有ID",
+        "checklistSectionIdNotFound": "未找到ID",
+        "checklistSectionItemIdExists": "新的检查表部分项不能已有ID",
+        "checklistSectionItemIdNotFound": "未找到ID",
+        "checklistRecordStatusNotFound": "未找到检查表记录状态",
+        "checklistRecordIdExists": "新的检查表记录不能已有ID",
+        "checklistRecordIdNotFound": "未找到ID",
+        "checklistQuestionPmvNotFound": "未找到检查表问题Pmv",
+        "checklistQuestionProductivityGenerationFailed": "生产力生成失败",
+        "checklistQuestionChecklistRecordTmplChecklistNotFound": "未找到检查表记录，检查表记录.TmplChecklist",
+        "checklistQuestionChecklistRecordNotFound": "未找到检查表记录",
+        "checklistQuestionIdExists": "新的检查表问题不能已有ID",
+        "checklistQuestionAssetNotFound": "未找到检查表问题资产",
+        "checklistAnsIdExists": "新的检查表答案不能已有ID"
       },
       "tooltips": {
           "setupVisible": true,

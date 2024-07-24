@@ -2525,9 +2525,22 @@
     },
     "validationFE": {},
     "validationBE": {
-      "requiredField": "Required Field",
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format"
+        "checklistIdExists": "A new checklist cannot already have an ID",
+        "checklistIdNotFound": "Id not found",
+        "checklistSectionIdExists": "A new checklistSection cannot already have an ID",
+        "checklistSectionIdNotFound": "Id not found",
+        "checklistSectionItemIdExists": "A new checklist SectionItem cannot already have an ID",
+        "checklistSectionItemIdNotFound": "Id not found",
+        "checklistRecordStatusNotFound": "Checklist Record Status not found",
+        "checklistRecordIdExists": "A new Checklist Record cannot already have an ID",
+        "checklistRecordIdNotFound": "Id not found",
+        "checklistQuestionPmvNotFound": "Checklist Question Pmv not found",
+        "checklistQuestionProductivityGenerationFailed": "Productivity Generation failed",
+        "checklistQuestionChecklistRecordTmplChecklistNotFound": "Checklist Record, Checklist Record.TmplChecklist not found",
+        "checklistQuestionChecklistRecordNotFound": "Checklist Record not found",
+        "checklistQuestionIdExists": "A new Checklist Question cannot already have an ID",
+        "checklistQuestionAssetNotFound": "Checklist Question Asset not found",
+        "checklistAnsIdExists": "A new Checklist Answer cannot already have an ID"
     },
     "tooltips": {
       "setupVisible": true,

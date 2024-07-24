@@ -2525,9 +2525,22 @@
       },
       "validationFE": {},
       "validationBE": {
-          "requiredField": "Required Field",
-          "invalidPhoneNumber": "Invalid Phone Number",
-          "invalidEmailFormat": "Invalid Email Format"
+        "checklistIdExists": "Senarai semak baru tidak boleh mempunyai ID sedia ada",
+        "checklistIdNotFound": "ID tidak dijumpai",
+        "checklistSectionIdExists": "Bahagian senarai semak baru tidak boleh mempunyai ID sedia ada",
+        "checklistSectionIdNotFound": "ID tidak dijumpai",
+        "checklistSectionItemIdExists": "Item Bahagian senarai semak baru tidak boleh mempunyai ID sedia ada",
+        "checklistSectionItemIdNotFound": "ID tidak dijumpai",
+        "checklistRecordStatusNotFound": "Status Rekod Senarai Semak tidak dijumpai",
+        "checklistRecordIdExists": "Rekod Senarai Semak baru tidak boleh mempunyai ID sedia ada",
+        "checklistRecordIdNotFound": "ID tidak dijumpai",
+        "checklistQuestionPmvNotFound": "Soalan Senarai Semak Pmv tidak dijumpai",
+        "checklistQuestionProductivityGenerationFailed": "Penjanaan Produktiviti gagal",
+        "checklistQuestionChecklistRecordTmplChecklistNotFound": "Rekod Senarai Semak, Rekod Senarai Semak.TmplChecklist tidak dijumpai",
+        "checklistQuestionChecklistRecordNotFound": "Rekod Senarai Semak tidak dijumpai",
+        "checklistQuestionIdExists": "Soalan Senarai Semak baru tidak boleh mempunyai ID sedia ada",
+        "checklistQuestionAssetNotFound": "Aset Soalan Senarai Semak tidak dijumpai",
+        "checklistAnsIdExists": "Jawapan Senarai Semak baru tidak boleh mempunyai ID sedia ada"
       },
       "tooltips": {
           "setupVisible": true,

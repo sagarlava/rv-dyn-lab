@@ -15471,116 +15471,116 @@
                 "selectUser": "选择用户"
               }
           },
-          "faultResolution": {
-              "setupVisible": true,
-              "label": {
-                  "original": "Fault and Resolutions",
-                  "singular": "Fault and Resolutions",
-                  "plural": "",
-                  "setupEdit": true,
-                  "setupVisible": true
-              },
-              "sections": {
-                  "setupVisible": true,
-                  "sec0": {
-                      "original": "Fault",
-                      "singular": "Fault",
-                      "plural": "Faults",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec1": {
-                      "original": "Resolutions",
-                      "singular": "解决方案",
-                      "plural": "Resolutions",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec2": {
-                      "original": "Fields",
-                      "singular": "Field",
-                      "plural": "Fields",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec3": {
-                      "original": "Field Mapping",
-                      "singular": "Field Mapping",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec4": {
-                      "original": "Fault Mapping",
-                      "singular": "Fault Mapping",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec5": {
-                      "original": "Resolution Mapping",
-                      "singular": "Resolution Mapping",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec6": {
-                      "original": "System",
-                      "singular": "System",
-                      "plural": "Systems",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "sec7": {
-                      "original": "Preview",
-                      "singular": "Preview",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "fields": {
-                  "setupVisible": true,
-                  "mapSystemFault": {
-                      "original": "Map System to Fault",
-                      "singular": "Map System to Fault",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "mapSystemResolution": {
-                      "original": "Map System to Resolution",
-                      "singular": "Map System to Resolution",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "mapSystemFaultToSystem": {
-                      "original": "Map the Faults that belong to each system",
-                      "singular": "Map the Faults that belong to each system",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "mapSystemResolutionToSystem": {
-                      "original": "Map the Resolutions that belong to each system",
-                      "singular": "Map the Resolutions that belong to each system",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  },
-                  "removeFault": {
-                      "original": "Remove faults that is not needed by clicking the icons on the right of faults",
-                      "singular": "Remove faults that is not needed by clicking the icons on the right of faults",
-                      "plural": "",
-                      "setupEdit": true,
-                      "setupVisible": true
-                  }
-              },
-              "messages": {
-                  "faultMappingSuccessful": "Fault Mapping Successfully"
-              }
-          },
+       "faultResolution": {
+        "setupVisible": false,
+        "label": {
+            "original": "Fault and Resolutions",
+            "singular": "故障和解决方案",
+            "plural": "故障和解决方案",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sections": {
+            "setupVisible": false,
+            "sec0": {
+                "original": "Fault",
+                "singular": "故障",
+                "plural": "故障",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec1": {
+                "original": "Resolutions",
+                "singular": "解决方案",
+                "plural": "解决方案",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec2": {
+                "original": "Fields",
+                "singular": "字段",
+                "plural": "字段",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec3": {
+                "original": "Field Mapping",
+                "singular": "字段映射",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec4": {
+                "original": "Fault Mapping",
+                "singular": "故障映射",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec5": {
+                "original": "Resolution Mapping",
+                "singular": "解决方案映射",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec6": {
+                "original": "System",
+                "singular": "系统",
+                "plural": "系统",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec7": {
+                "original": "Preview",
+                "singular": "预览",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            }
+        },
+        "fields": {
+            "setupVisible": false,
+            "mapSystemFault": {
+                "original": "Map System to Fault",
+                "singular": "将系统映射到故障",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "mapSystemResolution": {
+                "original": "Map System to Resolution",
+                "singular": "将系统映射到解决方案",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "mapSystemFaultToSystem": {
+                "original": "Map the Faults that belong to each system",
+                "singular": "映射每个系统的故障",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "mapSystemResolutionToSystem": {
+                "original": "Map the Resolutions that belong to each system",
+                "singular": "映射每个系统的解决方案",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "removeFault": {
+                "original": "Remove faults that is not needed by clicking the icons on the right of faults",
+                "singular": "通过点击故障右侧的图标来删除不需要的故障",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            }
+        },
+        "messages": {
+            "faultMappingSuccessful": "故障映射成功"
+        }
+    },
          "templates": {
             "setupVisible": false,
             "label": {

@@ -8837,6 +8837,17 @@
               "setupVisible": true
           }
       },
+      "validationBE": {
+        "binTransferIdExists": "Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada",
+        "binTransferCannotBeEdited": "Rekod ini tidak dibenarkan untuk diedit kerana ia telah diterima",
+        "binTransferNotAuthorized": "Anda hanya dibenarkan melakukan transaksi di seluruh Bin anda",
+        "binTransferBinNotFound": "Bin Pemindahan Bin tidak ditemui",
+        "binTransferProductNotFound": "Produk Pemindahan Bin tidak ditemui",
+        "binTransferAssetsNotFound": "Aset Pemindahan Bin tidak ditemui",
+        "binTransferInvalidStatus": "Status yang dibenarkan hanya: DITERIMA/DITOLAK/DIBATALKAN",
+        "binTransferNotFound": "Pemindahan Bin tidak ditemui",
+        "binTransferItemIdExists": "Item Pemindahan Bin baru tidak boleh mempunyai ID yang sudah ada"
+      },
       "messages": {
           "selectApprovalStatus": "Pilih Status Kelulusan",
           "enterBinName": "Masukkan Nama Bin",

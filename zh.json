@@ -8837,6 +8837,17 @@
               "setupVisible": true
           }
       },
+      "validationBE": {
+        "binTransferIdExists": "新的仓位转移不能已经有一个ID",
+        "binTransferCannotBeEdited": "此记录不允许编辑，因为它已被接受",
+        "binTransferNotAuthorized": "您只被授权在您的仓位之间执行交易",
+        "binTransferBinNotFound": "未找到仓位转移仓位",
+        "binTransferProductNotFound": "未找到仓位转移产品",
+        "binTransferAssetsNotFound": "未找到仓位转移资产",
+        "binTransferInvalidStatus": "仅允许的状态：已接受/已拒绝/已取消",
+        "binTransferNotFound": "未找到仓位转移",
+        "binTransferItemIdExists": "新的仓位转移项目不能已经有一个ID"
+      },
       "messages": {
           "selectApprovalStatus": "选择审批状态",
           "enterBinName": "输入仓位名称",

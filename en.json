@@ -8837,6 +8837,17 @@
         "setupVisible": true
       }
     },
+    "validationBE": {
+      "binTransferIdExists": "A new Bin Transfer cannot already have an ID",
+      "binTransferCannotBeEdited": "This record is not allowed to edit as it has being accepted",
+      "binTransferNotAuthorized": "You are only authorized to perform transactions across your Bin(s)",
+      "binTransferBinNotFound": "Bin Transfer Bin not found",
+      "binTransferProductNotFound": "Bin Transfer Product not found",
+      "binTransferAssetsNotFound": "Bin Transfer Assets not found",
+      "binTransferInvalidStatus": "Only allowed statuses: ACCEPTED/DECLINED/CANCEL",
+      "binTransferNotFound": "Bin Transfer not found",
+      "binTransferItemIdExists": "A new Bin Transfer Item cannot already have an ID"
+    },
     "messages": {
       "selectApprovalStatus": "Select Approval Status",
       "enterBinName": "Enter Bin Name",

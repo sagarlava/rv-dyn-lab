@@ -9907,6 +9907,24 @@
         "setupVisible": false
       }
     },
+    "validationBE": {
+      "attachmentIdExists": "A new attachment cannot already have an ID",
+      "attachmentInvalid": "Invalid attachment",
+      "attachmentParentIdNotFound": "Parent ID cannot be null",
+      "attachmentParentTypeNotFound": "Parent type cannot be null",
+      "attachmentParentNotFound": "Parent not found",
+      "attachmentUploadFailed": "Unable to upload file",
+      "attachmentParentIdTypeNotFound": "Parent Id/ Parent Type not found",
+      "attachmentParentTypeUnknown": "Unknown Parent Type",
+      "attachmentParentTypeNotFoundOrNotMatched": "Parent type cannot be null/ not matched",
+      "attachmentParentIdInvalid": "Invalid Parent Id",
+      "attachmentNotFound": "Attachment not found",
+      "attachmentHandoverCertificateNotFound": "Handover Certificate not found",
+      "attachmentServiceChecklistNotFound": "Service Checklist not found",
+      "attachmentCustomerServiceReportNotFound": "Customer Service Report not found",
+      "attachmentUnableToGeneratePDF": "Unable to generate pdf forms",
+      "attachmentHasInvalidCharacters": "Special characters are not allowed in the file name"
+    },
     "messages": {
       "invalidFileSize": "Invalid file size",
       "allowedFileSize": "File size should be less than 25MB",

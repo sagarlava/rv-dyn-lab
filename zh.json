@@ -9907,6 +9907,24 @@
               "setupVisible": false
           }
       },
+      "validationBE": {
+        "attachmentIdExists": "新的附件不能已经有一个ID",
+        "attachmentInvalid": "无效的附件",
+        "attachmentParentIdNotFound": "父ID不能为空",
+        "attachmentParentTypeNotFound": "父类型不能为空",
+        "attachmentParentNotFound": "未找到父级",
+        "attachmentUploadFailed": "无法上传文件",
+        "attachmentParentIdTypeNotFound": "未找到父ID/父类型",
+        "attachmentParentTypeUnknown": "未知的父类型",
+        "attachmentParentTypeNotFoundOrNotMatched": "父类型不能为空/不匹配",
+        "attachmentParentIdInvalid": "无效的父ID",
+        "attachmentNotFound": "未找到附件",
+        "attachmentHandoverCertificateNotFound": "未找到交接证书",
+        "attachmentServiceChecklistNotFound": "未找到服务检查表",
+        "attachmentCustomerServiceReportNotFound": "未找到客户服务报告",
+        "attachmentUnableToGeneratePDF": "无法生成PDF表单",
+        "attachmentHasInvalidCharacters": "文件名中不允许使用特殊字符"
+      },
       "messages": {
           "invalidFileSize": "文件大小无效",
           "allowedFileSize": "文件大小应小于25MB",

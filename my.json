@@ -9907,6 +9907,24 @@
               "setupVisible": false
           }
       },
+      "validationBE": {
+        "attachmentIdExists": "Lampiran baru tidak boleh mempunyai ID yang sudah ada",
+        "attachmentInvalid": "Lampiran tidak sah",
+        "attachmentParentIdNotFound": "ID induk tidak boleh kosong",
+        "attachmentParentTypeNotFound": "Jenis induk tidak boleh kosong",
+        "attachmentParentNotFound": "Induk tidak ditemui",
+        "attachmentUploadFailed": "Tidak dapat memuat naik fail",
+        "attachmentParentIdTypeNotFound": "ID induk / Jenis induk tidak ditemui",
+        "attachmentParentTypeUnknown": "Jenis induk tidak diketahui",
+        "attachmentParentTypeNotFoundOrNotMatched": "Jenis induk tidak boleh kosong / tidak sepadan",
+        "attachmentParentIdInvalid": "ID induk tidak sah",
+        "attachmentNotFound": "Lampiran tidak ditemui",
+        "attachmentHandoverCertificateNotFound": "Sijil serahan tidak ditemui",
+        "attachmentServiceChecklistNotFound": "Senarai semak perkhidmatan tidak ditemui",
+        "attachmentCustomerServiceReportNotFound": "Laporan perkhidmatan pelanggan tidak ditemui",
+        "attachmentUnableToGeneratePDF": "Tidak dapat menjana borang pdf",
+        "attachmentHasInvalidCharacters": "Aksara khas tidak dibenarkan dalam nama fail"
+      },
       "messages": {
           "invalidFileSize": "Saiz fail tidak sah",
           "allowedFileSize": "Saiz fail harus kurang daripada 25MB",

@@ -8377,9 +8377,17 @@
         "pleaseSelectOne":"Please select one product or one asset"
     },
     "validationBE": {
-      "requiredField": "Required Field",
-      "invalidPhoneNumber": "Invalid Phone Number",
-      "invalidEmailFormat": "Invalid Email Format"
+      "inventoryIdExists": "A new Inventory cannot already have an ID",
+      "inventoryItemsNotFound": "Inventory Items not found",
+      "inventoryBinNotFound": "Bin not found",
+      "inventoryZoneNotFound": "Zone not found",
+      "inventoryLocationNotFound": "Location not found",
+      "inventoryAssetsNotFound": "Assets not found",
+      "inventoryProductNotFound": "Product not found",
+      "inventoryNotFound": "Inventory not found",
+      "inventoryFilterRequired": "Please select at least one filter",
+      "inventoryStockInsufficient": "Insufficient product/assets inventory stock",
+      "inventoryTableSetupNotFound": "Inventory Table Setup not found, please contact support"
     },
     "messages": {
       "selectLocation": "Select Location",

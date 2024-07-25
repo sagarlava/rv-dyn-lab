@@ -8377,9 +8377,17 @@
           "pleaseSelectOne": "请选择一个产品或资产"
       },
       "validationBE": {
-          "requiredField": "必填字段",
-          "invalidPhoneNumber": "无效的电话号码",
-          "invalidEmailFormat": "无效的电子邮件格式"
+        "inventoryIdExists": "新库存不能已经有一个ID",
+        "inventoryItemsNotFound": "未找到库存项目",
+        "inventoryBinNotFound": "未找到仓位",
+        "inventoryZoneNotFound": "未找到区域",
+        "inventoryLocationNotFound": "未找到位置",
+        "inventoryAssetsNotFound": "未找到资产",
+        "inventoryProductNotFound": "未找到产品",
+        "inventoryNotFound": "未找到库存",
+        "inventoryFilterRequired": "请选择至少一个筛选条件",
+        "inventoryStockInsufficient": "产品/资产库存不足",
+        "inventoryTableSetupNotFound": "未找到库存表格设置，请联系支持"
       },
       "messages": {
           "selectLocation": "选择位置",

@@ -8377,9 +8377,17 @@
           "pleaseSelectOne": "Sila pilih satu produk atau satu aset"
       },
       "validationBE": {
-          "requiredField": "Medan Diperlukan",
-          "invalidPhoneNumber": "Nombor Telefon Tidak Sah",
-          "invalidEmailFormat": "Format Emel Tidak Sah"
+        "inventoryIdExists": "Inventori baru tidak boleh mempunyai ID yang sudah ada",
+        "inventoryItemsNotFound": "Item Inventori tidak ditemui",
+        "inventoryBinNotFound": "Bin tidak ditemui",
+        "inventoryZoneNotFound": "Zon tidak ditemui",
+        "inventoryLocationNotFound": "Lokasi tidak ditemui",
+        "inventoryAssetsNotFound": "Aset tidak ditemui",
+        "inventoryProductNotFound": "Produk tidak ditemui",
+        "inventoryNotFound": "Inventori tidak ditemui",
+        "inventoryFilterRequired": "Sila pilih sekurang-kurangnya satu penapis",
+        "inventoryStockInsufficient": "Stok produk/aset inventori tidak mencukupi",
+        "inventoryTableSetupNotFound": "Tetapan Jadual Inventori tidak ditemui, sila hubungi sokongan"
       },
       "messages": {
           "selectLocation": "Pilih Lokasi",

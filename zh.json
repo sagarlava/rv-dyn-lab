@@ -8601,6 +8601,20 @@
             "setupEdit": true,
             "setupVisible": true
         }
+      },
+      "validationBE": {
+        "binIdExists": "新的Bin不能已经有一个ID",
+        "binIdExtIdNotFound": "未找到ID/外部ID",
+        "binHasAUser": "用户已分配到一个Bin",
+        "binExternalIdExists": "外部ID已存在",
+        "binNotAuthorized": "未授权",
+        "binNotFound": "未找到Bin",
+        "binHasInventory": "系统中存在该Bin的库存数据",
+        "binHasBinTransfer": "系统中存在该Bin的Bin转移数据",
+        "binLocationNotFound": "未找到Bin位置",
+        "binZoneNotFound": "未找到Bin区域",
+        "binWithExtIdNotFound": "无效的外部ID",
+        "binInventoryHistoryIdExists": "新的Bin库存历史记录不能已有ID"
       }
   },
   "binTransfer": {

@@ -8601,6 +8601,20 @@
         "setupEdit": true,
         "setupVisible": true
       }
+    },
+    "validationBE": {
+      "binIdExists": "A new Bin cannot already have an ID",
+      "binIdExtIdNotFound": "Id/ExternalId not found",
+      "binHasAUser": "User already assigned to a bin",
+      "binExternalIdExists": "External Id already exists",
+      "binNotAuthorized": "Not Authorized",
+      "binNotFound": "Bin not found",
+      "binHasInventory": "Inventory Data exists in the system for the Bin",
+      "binHasBinTransfer": "Bin Transfer Data exists in the system for the Bin",
+      "binLocationNotFound": "Bin Location not found",
+      "binZoneNotFound": "Bin Zone not found",
+      "binWithExtIdNotFound": "Invalid ExternalId",
+      "binInventoryHistoryIdExists": "A new Bin Inventory History cannot already have an ID"
     }
   },
   "binTransfer": {

@@ -8601,6 +8601,20 @@
             "setupEdit": true,
             "setupVisible": true
           }
+      },
+      "validationBE": {
+        "binIdExists": "Bin baru tidak boleh mempunyai ID yang sudah ada",
+        "binIdExtIdNotFound": "ID/ID luaran tidak ditemui",
+        "binHasAUser": "Pengguna sudah ditugaskan ke bin",
+        "binExternalIdExists": "ID luaran sudah ada",
+        "binNotAuthorized": "Tidak diberi kuasa",
+        "binNotFound": "Bin tidak ditemui",
+        "binHasInventory": "Data inventori wujud dalam sistem untuk Bin",
+        "binHasBinTransfer": "Data Pemindahan Bin wujud dalam sistem untuk Bin",
+        "binLocationNotFound": "Lokasi Bin tidak ditemui",
+        "binZoneNotFound": "Zon Bin tidak ditemui",
+        "binWithExtIdNotFound": "ID luaran tidak sah",
+        "binInventoryHistoryIdExists": "Sejarah Inventori Bin baru tidak boleh mempunyai ID yang sudah ada"
       }
   },
   "binTransfer": {

@@ -18073,7 +18073,12 @@
           "unableToSave": "Tidak dapat disimpan. Sila cuba lagi",
           "unableToImport": "Tidak dapat diimport. Sila semak fail ralat",
           "fileHeadersGreater": "Bilangan tajuk fail lebih besar daripada bilangan medan modul",
-          "selectValidFile": "Sila pilih fail yang sah untuk dimuat naik"
+          "selectValidFile": "Sila pilih fail yang sah untuk dimuat naik",
+          "importSimpleSteps": "Fungsi import kami membolehkan anda membawa data anda ke dalam FieldEx dalam beberapa langkah mudah. Inilah caranya:",
+          "importSimpleStepsUpload": "Muat naik data anda: Seret dan lepas fail .csv atau .xls, atau semak komputer anda.",
+          "importSimpleStepsMapping": "Peta medan anda: Padankan lajur dalam fail anda dengan medan yang sepadan dalam FieldEx.",
+          "importSimpleStepsVerify": "Sahkan dan edit: Semak data anda, buat sebarang perubahan yang diperlukan, dan keluarkan baris jika perlu. Sistem akan menyerlahkan sebarang maklumat yang hilang dalam medan yang diperlukan untuk mengelakkan ralat import.",
+          "importSimpleStepsImport": "Import data anda: Setelah semuanya kelihatan baik, klik import untuk membawa data anda ke dalam FieldEx."
         }
       },
       "customerSurvey": {

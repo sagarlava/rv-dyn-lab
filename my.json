@@ -18044,19 +18044,40 @@
             "setupEdit": true,
             "setupVisible": false
           },
-          "importDataCsvFormat": {
-            "original": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
-            "singular": "Untuk mengimport data anda ke FieldEx, sila pastikan fail yang anda muat naik mengandungi tajuk lajur dan dalam format .csv.",
+          "surveyNo": {
+            "original": "Survey No.",
+            "singular": "No. Tinjauan",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
-          "exportDataAsCsvFormat": {
-            "original": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
-            "singular": "Untuk mengeksport data anda dari FieldEx, klik 'Eksport' dan ikuti langkah-langkah. Data anda akan dimuat turun sebagai fail .csv dan boleh dilihat sebagai hamparan.",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
+          "surveyName": {
+              "original": "Survey Name",
+              "singular": "Nama Tinjauan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+          },
+          "createdDateTime": {
+              "original": "Created Date & Time",
+              "singular": "Tarikh & Masa Dicipta",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+          },
+          "status": {
+              "original": "Status",
+              "singular": "Status",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+          },
+          "createdBy": {
+              "original": "Created By",
+              "singular": "Dicipta Oleh",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
           }
         },
         "validationFE": {},
@@ -18079,7 +18100,10 @@
           "importSimpleStepsMapping": "Peta medan anda: Padankan lajur dalam fail anda dengan medan yang sepadan dalam FieldEx.",
           "importSimpleStepsVerify": "Sahkan dan edit: Semak data anda, buat sebarang perubahan yang diperlukan, dan keluarkan baris jika perlu. Sistem akan menyerlahkan sebarang maklumat yang hilang dalam medan yang diperlukan untuk mengelakkan ralat import.",
           "importSimpleStepsImport": "Import data anda: Setelah semuanya kelihatan baik, klik import untuk membawa data anda ke dalam FieldEx.",
-          "importDataIn": "Import data anda ke dalam FieldEx"
+          "importDataIn": "Import data anda ke dalam FieldEx",
+          "importDataCsvFormat":"Untuk mengimport data anda ke FieldEx, sila pastikan fail yang anda muat naik mengandungi tajuk lajur dan dalam format .csv.",
+          "exportDataAsCsvFormat":"Untuk mengeksport data anda dari FieldEx, klik 'Eksport' dan ikuti langkah-langkah. Data anda akan dimuat turun sebagai fail .csv dan boleh dilihat sebagai hamparan."
+          
         }
       },
       "customerSurvey": {

@@ -18044,16 +18044,37 @@
           "setupEdit": true,
           "setupVisible": false
         },
-        "importDataCsvFormat": {
-          "original": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
-          "singular": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
+        "surveyNo": {
+          "original": "Survey No.",
+          "singular": "Survey No.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
-        "exportDataAsCsvFormat": {
-          "original": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
-          "singular": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
+        "surveyName": {
+          "original": "Survey Name",
+          "singular": "Survey Name",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "createdDateTime": {
+          "original": "Created Date & Time",
+          "singular": "Created Date & Time",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "createdBy": {
+          "original": "Created By",
+          "singular": "Created By",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -18079,7 +18100,10 @@
         "importSimpleStepsMapping":"Map your fields: Match the columns in your file to the corresponding fields in FieldEx.",
         "importSimpleStepsVerify":"Verify and edit: Review your data, make any necessary changes, and remove rows if needed. The system will highlight any missing information in required fields to prevent import errors.",
         "importSimpleStepsImport":"Import your data: Once everything looks good, click import to bring your data into FieldEx.",
-        "importDataIn":"Import your data into FieldEx"
+        "importDataIn":"Import your data into FieldEx",
+        "importDataCsvFormat":"To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
+        "exportDataAsCsvFormat":"To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet."
+        
       }
     },
     "customerSurvey": {

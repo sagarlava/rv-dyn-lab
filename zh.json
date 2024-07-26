@@ -18043,19 +18043,40 @@
             "setupEdit": true,
             "setupVisible": false
           },
-          "importDataCsvFormat": {
-            "original": "To import your data into FieldEx,Please ensure the file you are uploading contains column headings and is of .csv format.",
-            "singular": "将数据导入到 FieldEx，请确保上传的文件包含列标题，并且是 .csv 格式。",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
+         "surveyNo": {
+              "original": "Survey No.",
+              "singular": "调查编号",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
           },
-          "exportDataAsCsvFormat": {
-            "original": "To export your data from FieldEx, click 'Export' and follow the steps. Your data will be downloaded as a .csv file and can be viewed as a spreadsheet.",
-            "singular": "要从 FieldEx 导出数据，请点击“导出”并按照步骤操作。您的数据将作为 .csv 文件下载，并可以作为电子表格查看。",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
+          "surveyName": {
+              "original": "Survey Name",
+              "singular": "调查名称",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+          },
+          "createdDateTime": {
+              "original": "Created Date & Time",
+              "singular": "创建日期和时间",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+          },
+          "status": {
+              "original": "Status",
+              "singular": "状态",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+          },
+          "createdBy": {
+              "original": "Created By",
+              "singular": "创建者",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
           }
         },
         "validationFE": {},
@@ -18078,7 +18099,9 @@
           "importSimpleStepsMapping": "映射您的字段：将文件中的列匹配到FieldEx中的相应字段。",
           "importSimpleStepsVerify": "验证和编辑：审核您的数据，进行必要的更改，并在需要时删除行。系统将突出显示必填字段中缺失的信息，以防止导入错误。",
           "importSimpleStepsImport": "导入您的数据：一切就绪后，点击导入将数据带入FieldEx。",
-          "importDataIn": "将您的数据导入FieldEx"
+          "importDataIn": "将您的数据导入FieldEx",
+          "importDataCsvFormat":"将数据导入到 FieldEx，请确保上传的文件包含列标题，并且是 .csv 格式。",
+          "exportDataAsCsvFormat":"要从 FieldEx 导出数据，请点击“导出”并按照步骤操作。您的数据将作为 .csv 文件下载，并可以作为电子表格查看。"
         }
       },
       "customerSurvey": {

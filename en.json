@@ -13055,7 +13055,8 @@
         },
         "messages": {
           "highestLevelInTheOrganization": "N/A - This is the highest hierarchy in the organization",
-          "searchUsers": "Search User"
+          "searchUsers": "Search User",
+          "cannotAssignUserToNoHierarchy":"Cannot unassign a user to no hierarchy, but you may assign the user to another hierarchy"
         }
       },
       "skills": {

@@ -13055,7 +13055,8 @@
             },
             "messages": {
               "highestLevelInTheOrganization": "N/A - 这是组织中的最高层级",
-              "searchUsers": "搜索用户"
+              "searchUsers": "搜索用户",
+              "cannotAssignUserToNoHierarchy": "不能将用户分配到没有层次结构，但您可以将用户分配到另一个层次结构"
             }
           },
           "skills": {

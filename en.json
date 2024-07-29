@@ -19977,6 +19977,98 @@
         "setupEdit": true,
         "setupVisible": false
       }
+    },
+    "hillsCustomer":{
+      "setupVisible": false,
+      "label":{
+        "original": "Hills",
+        "singular": "Hills",
+        "plural": "Hills",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupVisible": false,
+        "sec0": {
+          "original": "Customer Dashboard Part 1 for Last 6 Months",
+          "singular": "Customer Dashboard Part 1 for Last 6 Months",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "fields":{
+        "closedJobOrders6Months": {
+          "original": "Closed Job Orders (Last 6 Months)",
+          "singular": "Closed Job Orders (Last 6 Months)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "closedJobOrdersByDuration": {
+          "original": "Closed Job Orders by Duration (Last 6 Months)",
+          "singular": "Closed Job Orders by Duration (Last 6 Months)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "closedRedFlag6Months": {
+          "original": "Closed Red Flags (Last 6 Months)",
+          "singular": "Closed Red Flags (Last 6 Months)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "closedFaultType6Months": {
+          "original": "Closed Fault Type (Last 6 Months)",
+          "singular": "Closed Fault Type (Last 6 Months)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "closedResolutionType6Months": {
+          "original": "Closed Resolution Type (Last 6 Months)",
+          "singular": "Closed Resolution Type (Last 6 Months)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "customerDashboardPart2Last6Months": {
+          "original": "Customer Dashboard Part 2 for Last 6 Months",
+          "singular": "Customer Dashboard Part 2 for Last 6 Months",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "numberOfFaultsLogged": {
+          "original": "Number of Faults Logged",
+          "singular": "Number of Faults Logged",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "faultsAbleToFixedByCsr6Months": {
+          "original": "Faults Able to be Fixed by CSR (Last 6 Months)",
+          "singular": "Faults Able to be Fixed by CSR (Last 6 Months)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "billableJobsLast6Months": {
+          "original": "Billable Jobs (Last 6 Months)",
+          "singular": "Billable Jobs (Last 6 Months)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "productUsage": {
+          "original": "Product Usage",
+          "singular": "Product Usage",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      }
     }
   },
   "machineSpecialist": {

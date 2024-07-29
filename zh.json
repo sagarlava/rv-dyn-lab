@@ -19977,6 +19977,98 @@
               "setupEdit": true,
               "setupVisible": true
           }
+      },
+      "hillsCustomer":{
+        "setupVisible": false,
+        "label":{
+          "original": "Hills",
+          "singular": "Hills",
+          "plural": "Hills",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections": {
+          "setupVisible": false,
+          "sec0": {
+            "original": "Customer Dashboard Part 1 for Last 6 Months",
+            "singular": "客户仪表盘第一部分（过去6个月）",
+            "plural": "客户仪表盘第一部分（过去6个月）",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "closedJobOrders6Months": {
+            "original": "Closed Job Orders (Last 6 Months)",
+            "singular": "关闭的工作订单（过去6个月）",
+            "plural": "关闭的工作订单（过去6个月）",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "closedJobOrdersByDuration": {
+            "original": "Closed Job Orders by Duration (Last 6 Months)",
+            "singular": "按持续时间关闭的工作订单（过去6个月）",
+            "plural": "按持续时间关闭的工作订单（过去6个月）",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "closedRedFlag6Months": {
+            "original": "Closed Red Flags (Last 6 Months)",
+            "singular": "关闭的红旗（过去6个月）",
+            "plural": "关闭的红旗（过去6个月）",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "closedFaultType6Months": {
+            "original": "Closed Fault Type (Last 6 Months)",
+            "singular": "关闭的故障类型（过去6个月）",
+            "plural": "关闭的故障类型（过去6个月）",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "closedResolutionType6Months": {
+            "original": "Closed Resolution Type (Last 6 Months)",
+            "singular": "关闭的解决类型（过去6个月）",
+            "plural": "关闭的解决类型（过去6个月）",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "customerDashboardPart2Last6Months": {
+            "original": "Customer Dashboard Part 2 for Last 6 Months",
+            "singular": "客户仪表盘第二部分（过去6个月）",
+            "plural": "客户仪表盘第二部分（过去6个月）",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "numberOfFaultsLogged": {
+            "original": "Number of Faults Logged",
+            "singular": "记录的故障数量",
+            "plural": "记录的故障数量",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "faultsAbleToFixedByCsr6Months": {
+            "original": "Faults Able to be Fixed by CSR (Last 6 Months)",
+            "singular": "客服能够修复的故障（过去6个月）",
+            "plural": "客服能够修复的故障（过去6个月）",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "billableJobsLast6Months": {
+            "original": "Billable Jobs (Last 6 Months)",
+            "singular": "可计费的工作（过去6个月）",
+            "plural": "可计费的工作（过去6个月）",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "productUsage": {
+            "original": "Product Usage",
+            "singular": "产品使用情况",
+            "plural": "产品使用情况",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        }
       }
   },
   "machineSpecialist": {

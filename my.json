@@ -19977,6 +19977,98 @@
             "setupEdit": true,
             "setupVisible": true
         }
+    },
+    "hillsCustomer": {
+      "setupVisible": false,
+      "label": {
+        "original": "Hills",
+        "singular": "Hills",
+        "plural": "Hills",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupVisible": false,
+        "sec0": {
+          "original": "Customer Dashboard Part 1 for Last 6 Months",
+          "singular": "Papan Pemuka Pelanggan Bahagian 1 untuk 6 Bulan Terakhir",
+          "plural": "Papan Pemuka Pelanggan Bahagian 1 untuk 6 Bulan Terakhir",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "closedJobOrders6Months": {
+          "original": "Closed Job Orders (Last 6 Months)",
+          "singular": "Pesanan Kerja Ditutup (6 Bulan Terakhir)",
+          "plural": "Pesanan Kerja Ditutup (6 Bulan Terakhir)",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "closedJobOrdersByDuration": {
+          "original": "Closed Job Orders by Duration (Last 6 Months)",
+          "singular": "Pesanan Kerja Ditutup Mengikut Tempoh (6 Bulan Terakhir)",
+          "plural": "Pesanan Kerja Ditutup Mengikut Tempoh (6 Bulan Terakhir)",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "closedRedFlag6Months": {
+          "original": "Closed Red Flags (Last 6 Months)",
+          "singular": "Isu Merah Ditutup (6 Bulan Terakhir)",
+          "plural": "Isu Merah Ditutup (6 Bulan Terakhir)",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "closedFaultType6Months": {
+          "original": "Closed Fault Type (Last 6 Months)",
+          "singular": "Jenis Kerosakan Ditutup (6 Bulan Terakhir)",
+          "plural": "Jenis Kerosakan Ditutup (6 Bulan Terakhir)",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "closedResolutionType6Months": {
+          "original": "Closed Resolution Type (Last 6 Months)",
+          "singular": "Jenis Penyelesaian Ditutup (6 Bulan Terakhir)",
+          "plural": "Jenis Penyelesaian Ditutup (6 Bulan Terakhir)",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "customerDashboardPart2Last6Months": {
+          "original": "Customer Dashboard Part 2 for Last 6 Months",
+          "singular": "Papan Pemuka Pelanggan Bahagian 2 untuk 6 Bulan Terakhir",
+          "plural": "Papan Pemuka Pelanggan Bahagian 2 untuk 6 Bulan Terakhir",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "numberOfFaultsLogged": {
+          "original": "Number of Faults Logged",
+          "singular": "Bilangan Kerosakan Direkodkan",
+          "plural": "Bilangan Kerosakan Direkodkan",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "faultsAbleToFixedByCsr6Months": {
+          "original": "Faults Able to be Fixed by CSR (Last 6 Months)",
+          "singular": "Kerosakan Yang Dapat Dibaiki oleh CSR (6 Bulan Terakhir)",
+          "plural": "Kerosakan Yang Dapat Dibaiki oleh CSR (6 Bulan Terakhir)",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "billableJobsLast6Months": {
+          "original": "Billable Jobs (Last 6 Months)",
+          "singular": "Kerja Berbayar (6 Bulan Terakhir)",
+          "plural": "Kerja Berbayar (6 Bulan Terakhir)",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "productUsage": {
+          "original": "Product Usage",
+          "singular": "Penggunaan Produk",
+          "plural": "Penggunaan Produk",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      }
     }
   },
   "machineSpecialist": {

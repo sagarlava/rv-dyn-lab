@@ -19995,6 +19995,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec1": {
+          "original": "Customer Dashboard Part 2 for Last 6 Months",
+          "singular": "Customer Dashboard Part 2 for Last 6 Months",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields":{
@@ -20029,13 +20036,6 @@
         "closedResolutionType6Months": {
           "original": "Closed Resolution Type (Last 6 Months)",
           "singular": "Closed Resolution Type (Last 6 Months)",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "customerDashboardPart2Last6Months": {
-          "original": "Customer Dashboard Part 2 for Last 6 Months",
-          "singular": "Customer Dashboard Part 2 for Last 6 Months",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

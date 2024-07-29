@@ -19995,6 +19995,13 @@
             "plural": "客户仪表盘第一部分（过去6个月）",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec1": {
+            "original": "Customer Dashboard Part 2 for Last 6 Months",
+            "singular": "客户仪表盘第二部分（过去6个月）",
+            "plural": "客户仪表盘第二部分（过去6个月）",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -20030,13 +20037,6 @@
             "original": "Closed Resolution Type (Last 6 Months)",
             "singular": "关闭的解决类型（过去6个月）",
             "plural": "关闭的解决类型（过去6个月）",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "customerDashboardPart2Last6Months": {
-            "original": "Customer Dashboard Part 2 for Last 6 Months",
-            "singular": "客户仪表盘第二部分（过去6个月）",
-            "plural": "客户仪表盘第二部分（过去6个月）",
             "setupEdit": true,
             "setupVisible": false
           },

@@ -12984,7 +12984,12 @@
               "selectAccessPermission": "请选择访问权限",
               "selectHierarchy": "请选择层次结构",
               "selectDateFormat": "请选择日期格式",
-              "selectDefaultMobileView": "请选择默认移动视图"
+              "selectDefaultMobileView": "请选择默认移动视图",
+              "calendarConnectedSuccessfully": "日历已成功连接",
+              "calendarConnectionNotSuccessful": "日历连接未成功",
+              "googleCalendarDisconnectedSuccessfully": "Google 日历已成功断开",
+              "microsoftCalendarDisconnectedSuccessfully": "Microsoft 日历已成功断开",
+              "calendyDisconnectedSuccessfully": "Calendy 已成功断开"
             }
           },
           "hierarchy": {

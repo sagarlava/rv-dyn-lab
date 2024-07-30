@@ -12984,7 +12984,12 @@
           "selectAccessPermission":"Please select an Access Permissions",
           "selectHierarchy":"Please select a Hierarchy",
           "selectDateFormat":"Please select a Date Format",
-          "selectDefaultMobileView":"Please select a Default Mobile View"
+          "selectDefaultMobileView":"Please select a Default Mobile View",
+          "calendarConnectedSuccessfully":"Calendar has been connected successfully",
+          "calendarConnectionNotSuccessful":"Calendar connection was not successful",
+          "googleCalendarDisconnectedSuccessfully":"Google Calendar disconnected successfully",
+          "microsoftCalendarDisconnectedSuccessfully":"Microsoft Calendar disconnected successfully",
+          "calendyDisconnectedSuccessfully":"Calendy disconnected successfully"
         }
       },
       "hierarchy": {

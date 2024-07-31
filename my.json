@@ -14428,6 +14428,8 @@
                 "messages": {
                   "describeType": "Terangkan jenis",
                   "youReceive": "anda terima",
+                  "youHave": "anda mempunyai",
+                  "raisedToTeam": "dinaikkan kepada pasukan anda",
                   "availableStatus": "Status Tersedia untuk Jenis ini",
                   "specifyStatusJobOrder": "Nyatakan status yang terpakai untuk Jenis Pesanan Kerja ini. Yang dalam kotak sebelah kanan akan dipaparkan dalam senarai pilih status apabila Jenis Pesanan Kerja ini dipilih",
                   "notForThisJobType": "Bukan untuk Jenis Pesanan Kerja ini",
@@ -15055,6 +15057,10 @@
                     "setupEdit": true,
                     "setupVisible": false
                   }
+                },
+                "messages": {
+                  "differentSystem": "Sistem yang berbeza mengikut mana",
+                  "areCategorized": "dikategorikan"
                 }
               },
               "family": {

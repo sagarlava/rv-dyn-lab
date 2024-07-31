@@ -14428,6 +14428,8 @@
           "messages":{
             "describeType": "Describe the types of",
             "youReceive": "you receive",
+            "youHave": "you have",
+            "raisedToTeam": "raised to your team",
             "availableStatus":"Available Statuses for this Type",
             "specifyStatusJobOrder":"Specify the statuses that apply to this Job Order Type. Those in the right hand box will be displayed in the status picklist when this Job Order Type is selected",
             "notForThisJobType":"Not for this Job Order Type",
@@ -15055,6 +15057,10 @@
                 "setupEdit": true,
                 "setupVisible": false
               }
+          },
+          "messages":{
+            "differentSystem":"The different systems by which your",
+            "areCategorized":"are categorized"
           }
         },
         "family": {

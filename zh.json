@@ -14428,6 +14428,8 @@
                 "messages": {
                   "describeType": "描述类型",
                   "youReceive": "你收到的",
+                  "youHave": "你有",
+                  "raisedToTeam": "提升到您的团队",
                   "availableStatus": "此类型的可用状态",
                   "specifyStatusJobOrder": "指定适用于此工作订单类型的状态。右侧框中的状态将在选择此工作订单类型时显示在状态选择列表中",
                   "notForThisJobType": "不适用于此工作订单类型",
@@ -15055,6 +15057,10 @@
                   "setupEdit": true,
                   "setupVisible": false
                 }
+              },
+              "messages": {
+                "differentSystem": "不同的系统，通过这些系统",
+                "areCategorized": "被分类"
               }
             },
             "family": {

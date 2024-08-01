@@ -920,198 +920,198 @@
         "assetCustodianNotFound": "Penjaga Aset tidak dijumpai",
         "assetSiteNotFound": "Tapak Aset tidak dijumpai"
       },
-    "tooltips": {
+      "tooltips": {
         "setupVisible": true,
         "assetLookup": {
-        "original": "Asset Lookup",
-        "singular": "Carian Aset",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+          "original": "Asset Lookup",
+          "singular": "Carian Aset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
         },
         "binLookup": {
-        "original": "Bin Lookup",
-        "singular": "Carian Bin",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+          "original": "Bin Lookup",
+          "singular": "Carian Bin",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
         },
         "serialNo": {
-        "original": "This is a unique number that can be used to identify your Asset across the system",
-        "singular": "Ini adalah nombor unik yang boleh digunakan untuk mengenal pasti Aset anda di seluruh sistem",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+          "original": "This is a unique number that can be used to identify your Asset across the system",
+          "singular": "Ini adalah nombor unik yang boleh digunakan untuk mengenal pasti Aset anda di seluruh sistem",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
         },
         "custodian": {
-        "original": "The custodian is the person within your organization that's responsible for this Asset",
-        "singular": "Pemegang amanah adalah orang dalam organisasi anda yang bertanggungjawab untuk Aset ini",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+          "original": "The custodian is the person within your organization that's responsible for this Asset",
+          "singular": "Pemegang amanah adalah orang dalam organisasi anda yang bertanggungjawab untuk Aset ini",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
         },
         "assetSummary": {
-        "original": "Asset Summary",
-        "singular": "Ringkasan Aset",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+          "original": "Asset Summary",
+          "singular": "Ringkasan Aset",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
         },
         "assetStatusName": {
           "original": "Asset Status Name",
           "singular": "Nama Status Aset",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "statusChange": {
           "original": "Status Change",
           "singular": "Perubahan Status",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "custodianName": {
           "original": "Custodian Name",
           "singular": "Nama Pemegang Amanah",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "changeOfCustodian": {
           "original": "Change of Custodian",
           "singular": "Perubahan Pemegang Amanah",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "externalIdRemoved": {
           "original": "External ID Removed",
           "singular": "ID Luar Dikeluarkan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "warrantyRemoved": {
           "original": "Warranty Removed",
           "singular": "Jaminan Dikeluarkan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "serviceZoneRemoved": {
           "original": "Service Zone Removed",
           "singular": "Zon Perkhidmatan Dikeluarkan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "custodianRemoved": {
           "original": "Custodian Removed",
           "singular": "Pemegang Amanah Dikeluarkan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "siteRemoved": {
           "original": "Site Removed",
           "singular": "Tapak Dikeluarkan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "customerRemoved": {
           "original": "Customer Removed",
           "singular": "Pelanggan Dikeluarkan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "streetRemoved": {
           "original": "Street Removed",
           "singular": "Jalan Dikeluarkan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "cityRemoved": {
           "original": "City Removed",
           "singular": "Bandar Dikeluarkan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "stateRemoved": {
           "original": "State Removed",
           "singular": "Negeri Dikeluarkan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "countryRemoved": {
           "original": "Country Removed",
           "singular": "Negara Dikeluarkan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "externalIdUpdate": {
           "original": "External ID Update",
           "singular": "Kemas Kini ID Luar",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "changeOfAddress": {
           "original": "Change of Address",
           "singular": "Perubahan Alamat",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "nameUpdate": {
           "original": "Name Update",
           "singular": "Kemas Kini Nama",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "siteUpdate": {
           "original": "Site Update",
           "singular": "Kemas Kini Tapak",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "customerUpdate": {
           "original": "Customer Update",
           "singular": "Kemas Kini Pelanggan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "serviceZoneChange": {
           "original": "Service Zone Change",
           "singular": "Perubahan Zon Perkhidmatan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "serviceZoneName": {
           "original": "Service Zone Name",
           "singular": "Nama Zon Perkhidmatan",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "siteName": {
           "original": "Site Name",
           "singular": "Nama Tapak",
           "plural": "",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         }
-    },
+      },
     "messages": {
         "configureQrBarcodeInAssetSetup": "Untuk menyediakan QR/Barcode, pergi ke Konfigurasi Aset dalam Tetapan",
         "resetMeterForLowerReading": "Pilih 'Reset Meter' jika bacaan meter baru anda lebih kecil daripada bacaan semasa",

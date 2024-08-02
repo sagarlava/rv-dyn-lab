@@ -13975,131 +13975,131 @@
             "youHaveUnsavedChanges":"您有未保存的更改，将会丢失。您想如何继续?"
           }
         },
-        "notifications":{
-          "setupVisible": true,
+       "notifications":{
+          "setupVisible": false,
           "label": {
             "original": "Notifcations",
             "singular": "Notifcation",
             "plural": "Notifcations",
             "setupEdit": true,
-            "setupVisible": true
+            "setupVisible": false
           },
           "sections": {
-            "setupVisible": true,
+            "setupVisible": false,
             "sec0": {
                 "original": "Notification Details",
                 "singular": "通知详情",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "sec1": {
                 "original": "1. What the notification will contain",
                 "singular": "1. 通知内容",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "sec2": {
                 "original": "Send as App Notification",
                 "singular": "发送为应用通知",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "sec3": {
                 "original": "Send as Email Notification",
                 "singular": "发送为电子邮件通知",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "sec4": {
                 "original": "2. Who will receive the notification",
                 "singular": "2. 谁将收到通知",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "sec5": {
                 "original": "Send Test Email",
                 "singular": "发送测试电子邮件",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             }
           },
           "fields": {
-            "setupVisible": true,
+            "setupVisible": false,
             "name": {
                 "original": "Name",
                 "singular": "名称",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "module": {
                 "original": "Module",
                 "singular": "模块",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "description": {
                 "original": "Description",
                 "singular": "描述",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "message": {
                 "original": "Message",
                 "singular": "消息",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "navigateTo": {
                 "original": "Navigate To",
                 "singular": "导航至",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "userInField": {
                 "original": "User in Field",
                 "singular": "现场用户",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "emails": {
                 "original": "Emails",
                 "singular": "电子邮件",
                 "plural": "电子邮件",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "user": {
                 "original": "Users",
                 "singular": "用户",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "group": {
                 "original": "Groups",
                 "singular": "组",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "subject": {
                 "original": "Subject",
                 "singular": "主题",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             }
           },
           "messages": {
@@ -18526,137 +18526,410 @@
           "registerYourDevice": "注册您的设备"
         }
       },
-      "workflows": {
-        "setupVisible": true,
-        "label": {
-          "original": "Workflows",
-          "singular": "工作流程",
-          "plural": "工作流程",
-          "setupEdit": true,
-          "setupVisible": true
+    "workflows": {
+      "setupVisible": false,
+      "label": {
+        "original": "Workflows",
+        "singular": "工作流程",
+        "plural": "工作流程",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupVisible": false,
+        "sec0": {
+            "original": "Workflow Details",
+            "singular": "工作流程详情",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
         },
-        "sections": {
-          "setupVisible": true,
+        "sec1": {
+            "original": "Give your workflow a name, select the module it is tied to, and add a description to capture additional details.",
+            "singular": "为您的工作流程命名，选择其关联的模块，并添加描述以捕捉更多细节。",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec2": {
+            "original": "When to trigger the workflow",
+            "singular": "何时触发工作流程",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec3": {
+            "original": "Specify the event(s) and timing that will activate this workflow",
+            "singular": "指定将激活此工作流程的事件和时间",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec4": {
+            "original": "What conditions should be met",
+            "singular": "应满足哪些条件",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec5": {
+            "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
+            "singular": "指定应触发此工作流程的条件和条件组合",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sec6": {
+            "original": "Workflow Actions",
+            "singular": "工作流程操作",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupVisible": false,
+        "name": {
+            "original": "Name",
+            "singular": "名称",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "module": {
+            "original": "Module",
+            "singular": "模块",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "description": {
+            "original": "Description",
+            "singular": "描述",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "recordCreated": {
+            "original": "Record created",
+            "singular": "记录创建",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "recordUpdatedFirstTime": {
+            "original": "Record updated for first time",
+            "singular": "记录首次更新",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "recordUpdatedEverytime": {
+            "original": "Everytime record is updated",
+            "singular": "每次记录更新",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "recordDeleted": {
+            "original": "Record deleted",
+            "singular": "记录删除",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+        }
+      },
+      "messages": {
+        "helpAutomateInternal": "工作流帮助您通过创建条件触发器来自动化内部流程，例如发送通知、更新字段和应用验证。",
+        "triggerWhenNewRecordCreated": "此选项将在创建新记录时触发工作流。",
+        "triggerWhenUpdatedFirstTime": "此选项将在记录首次更新时触发工作流。",
+        "triggerWhenRecordUpdatedEverytime": "此选项将在每次记录更新时触发工作流。",
+        "triggerWhenRecordDeleted": "此选项将在记录删除时触发工作流。",
+        "selectStatus": "选择状态",
+        "noConditionsAvailable": "没有可用条件。点击“添加/编辑条件”来创建一个。",
+        "noWorkflowActionsAvailable": "没有可用的工作流操作。点击“添加通知”来创建一个。"
+      }
+    },
+    "templates":{
+      "setupVisible": false,
+      "label": {
+          "original": "Templates",
+          "singular": "模板",
+          "plural": "模板",
+          "setupEdit": true,
+          "setupVisible": false
+      },
+      "email":{
+        "label": {
+          "original": "Emails",
+          "singular": "电子邮件",
+          "plural": "电子邮件",
+          "setupEdit": true,
+          "setupVisible": false
+      },
+      "sections": {
+          "setupVisible": false,
           "sec0": {
-              "original": "Workflow Details",
-              "singular": "工作流程详情",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Email Header",
+            "singular": "电子邮件标题",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "sec1": {
-              "original": "Give your workflow a name, select the module it is tied to, and add a description to capture additional details.",
-              "singular": "为您的工作流程命名，选择其关联的模块，并添加描述以捕捉更多细节。",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "When to trigger the workflow",
-              "singular": "何时触发工作流程",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec3": {
-              "original": "Specify the event(s) and timing that will activate this workflow",
-              "singular": "指定将激活此工作流程的事件和时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec4": {
-              "original": "What conditions should be met",
-              "singular": "应满足哪些条件",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec5": {
-              "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
-              "singular": "指定应触发此工作流程的条件和条件组合",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec6": {
-              "original": "Workflow Actions",
-              "singular": "工作流程操作",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Template Name",
+            "singular": "模板名称",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
-          "setupVisible": true,
-          "name": {
-              "original": "Name",
-              "singular": "名称",
+          "setupVisible": false,
+          "image": {
+              "original": "Image",
+              "singular": "图像",
               "plural": "",
               "setupEdit": true,
-              "setupVisible": true
+              "setupVisible": false
           },
-          "module": {
-              "original": "Module",
-              "singular": "模块",
+          "alignment": {
+              "original": "Alignment",
+              "singular": "对齐",
               "plural": "",
               "setupEdit": true,
-              "setupVisible": true
+              "setupVisible": false
           },
-          "description": {
-              "original": "Description",
-              "singular": "描述",
+          "subject": {
+              "original": "Subject",
+              "singular": "主题",
               "plural": "",
               "setupEdit": true,
-              "setupVisible": true
-          },
-          "status": {
-              "original": "Status",
-              "singular": "状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "recordCreated": {
-              "original": "Record created",
-              "singular": "记录创建",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "recordUpdatedFirstTime": {
-              "original": "Record updated for first time",
-              "singular": "记录首次更新",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "recordUpdatedEverytime": {
-              "original": "Everytime record is updated",
-              "singular": "每次记录更新",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "recordDeleted": {
-              "original": "Record deleted",
-              "singular": "记录删除",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+              "setupVisible": false
           }
         },
         "messages": {
-          "helpAutomateInternal": "工作流帮助您通过创建条件触发器来自动化内部流程，例如发送通知、更新字段和应用验证。",
-          "triggerWhenNewRecordCreated": "此选项将在创建新记录时触发工作流。",
-          "triggerWhenUpdatedFirstTime": "此选项将在记录首次更新时触发工作流。",
-          "triggerWhenRecordUpdatedEverytime": "此选项将在每次记录更新时触发工作流。",
-          "triggerWhenRecordDeleted": "此选项将在记录删除时触发工作流。",
-          "selectStatus": "选择状态",
-          "noConditionsAvailable": "没有可用条件。点击“添加/编辑条件”来创建一个。",
-          "noWorkflowActionsAvailable": "没有可用的工作流操作。点击“添加通知”来创建一个。"
+          "emailTemplatesAllowStandard": "电子邮件模板允许您创建组织使用的标准蓝图，以便在设置通知和工作流程时轻松访问。",
+          "addTheTextToInclude": "在下面添加您希望包含在电子邮件中的文本。您还可以添加按钮、表格和来自FieldEx的任何字段以个性化您的消息。",
+          "addHeaderImage": "添加标题图像",
+          "addFooterImage": "添加页脚图像"
+        },
+        "settings":{
+          "label": {
+            "original": "Settings",
+            "singular": "设置",
+            "plural": "设置",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "sec0": {
+                "original": "Template Details",
+                "singular": "模板详情",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec1": {
+                "original": "Subject",
+                "singular": "主题",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec2": {
+                "original": "Test Email Template",
+                "singular": "测试邮件模板",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "templateName": {
+                "original": "Template Name",
+                "singular": "模板名称",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "module": {
+                "original": "Module",
+                "singular": "模块",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "description": {
+                "original": "Description",
+                "singular": "描述",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "subject": {
+                "original": "Subject",
+                "singular": "主题",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sendSampleEmailTo": {
+                "original": "Send a sample of this email to:",
+                "singular": "将此邮件的示例发送至:",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            }
+          },
+          "tooltips": {
+            "setupVisible": false,
+            "subjectOfEmail": {
+                "original": "This will be the subject of the email",
+                "singular": "这将是电子邮件的主题",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            }
+          }
+        },
+        "builder":{
+          "label": {
+            "original": "Builder",
+            "singular": "构建器",
+            "plural": "构建器",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+              "sec0": {
+                  "original": "Text",
+                  "singular": "文本",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+              },
+              "sec1": {
+                  "original": "Button",
+                  "singular": "按钮",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+              },
+              "sec2": {
+                  "original": "Table",
+                  "singular": "表格",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+              }
+          },
+          "fields": {
+            "setupVisible": false,
+            "fieldsIncludeInEmail": {
+                "original": "Fields to include in email",
+                "singular": "包含在电子邮件中的字段",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "buttonLabel": {
+                "original": "Button Label",
+                "singular": "按钮标签",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "buttonNavigatesTo": {
+                "original": "Button Navigates To",
+                "singular": "按钮导航到",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "tableModule": {
+                "original": "Table Module",
+                "singular": "表格模块",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "columnsToDisplay": {
+                "original": "Columns to display",
+                "singular": "显示的列",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "moduleFields": {
+                "original": "Module Fields",
+                "singular": "模块字段",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sort": {
+                "original": "Sort",
+                "singular": "排序",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "filterBy": {
+                "original": "Filter by",
+                "singular": "筛选条件",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            }
+        },
+        "tooltips": {
+            "setupVisible": false,
+            "sortTableOrder": {
+                "original": "Choose the field and order (ascending or descending) to sort the table results",
+                "singular": "选择字段和排序方式（升序或降序）以排序表结果",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "selectFieldsToInclude": {
+                "original": "Select the fields you want to include in your email and copy the displayed text into the message body on the right. Note: The text within the curly braces ({{}}) will be replaced by the actual field values in the emails sent out.",
+                "singular": "选择要包含在电子邮件中的字段，并将显示的文本复制到右侧的消息正文中。注意：花括号（{{}}）中的文本将在发送的电子邮件中替换为实际字段值。",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "selectFieldToFilter": {
+                "original": "Select a field to filter the table records by, and choose the value for that field to apply the filter. Note: Emails will display a maximum of 5 rows in the table.",
+                "singular": "选择一个字段以过滤表记录，并选择该字段的值来应用过滤。注意：电子邮件最多显示表中的5行。",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "selectFieldsToDisplay": {
+                "original": "Select up to 4 fields to display as columns in your email table and add them to the box on the right.",
+                "singular": "选择最多4个字段作为电子邮件表中的列显示，并将它们添加到右侧的框中。",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            }
+          },
+          "messages": {
+              "firstSelectSettings": "首先在“设置”选项卡中选择一个模块以开始构建电子邮件",
+              "includeButtonInEmail": "在电子邮件中包含一个按钮",
+              "includeTableInEmail": "在电子邮件中包含一个表格"
+          }
         }
       }
+    }
   },
   "disclosure": {
     "setupVisible": false,

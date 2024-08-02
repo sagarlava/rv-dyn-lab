@@ -13976,130 +13976,130 @@
           }
         },
         "notifications":{
-          "setupVisible": true,
+          "setupVisible": false,
           "label": {
             "original": "Notifcations",
             "singular": "Notifcation",
             "plural": "Notifcations",
             "setupEdit": true,
-            "setupVisible": true
+            "setupVisible": false
           },
           "sections": {
-            "setupVisible": true,
+            "setupVisible": false,
             "sec0": {
                 "original": "Notification Details",
                 "singular": "Butiran Pemberitahuan",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "sec1": {
                 "original": "1. What the notification will contain",
                 "singular": "1. Kandungan pemberitahuan",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "sec2": {
                 "original": "Send as App Notification",
                 "singular": "Hantar sebagai Pemberitahuan Aplikasi",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "sec3": {
                 "original": "Send as Email Notification",
                 "singular": "Hantar sebagai Pemberitahuan E-mel",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "sec4": {
                 "original": "2. Who will receive the notification",
                 "singular": "2. Siapa yang akan menerima pemberitahuan",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "sec5": {
                 "original": "Send Test Email",
                 "singular": "Hantar E-mel Ujian",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             }
           },
           "fields": {
-            "setupVisible": true,
+            "setupVisible": false,
             "name": {
                 "original": "Name",
                 "singular": "Nama",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "module": {
                 "original": "Module",
                 "singular": "Modul",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "description": {
                 "original": "Description",
                 "singular": "Deskripsi",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "message": {
                 "original": "Message",
                 "singular": "Mesej",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "navigateTo": {
                 "original": "Navigate To",
                 "singular": "Navigasi Ke",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "userInField": {
                 "original": "User in Field",
                 "singular": "Pengguna di Lapangan",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "emails": {
                 "original": "Emails",
                 "singular": "E-mel",
                 "plural": "E-mel",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "user": {
                 "original": "Users",
                 "singular": "Pengguna",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "group": {
                 "original": "Groups",
                 "singular": "Kumpulan",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             },
             "subject": {
                 "original": "Subject",
                 "singular": "Subjek",
                 "plural": "",
                 "setupEdit": true,
-                "setupVisible": true
+                "setupVisible": false
             }
           },
           "messages": {
@@ -18527,123 +18527,123 @@
         }
       },
       "workflows": {
-        "setupVisible": true,
+        "setupVisible": false,
         "label": {
           "original": "Workflows",
           "singular": "Aliran Kerja",
           "plural": "Aliran Kerja",
           "setupEdit": true,
-          "setupVisible": true
+          "setupVisible": false
         },
         "sections": {
-          "setupVisible": true,
+          "setupVisible": false,
           "sec0": {
-              "original": "Workflow Details",
-              "singular": "Butiran Aliran Kerja",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Workflow Details",
+            "singular": "Butiran Aliran Kerja",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "sec1": {
-              "original": "Give your workflow a name, select the module it is tied to, and add a description to capture additional details.",
-              "singular": "Beri aliran kerja anda nama, pilih modul yang berkaitan, dan tambah penerangan untuk menangkap butiran tambahan.",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Give your workflow a name, select the module it is tied to, and add a description to capture additional details.",
+            "singular": "Beri aliran kerja anda nama, pilih modul yang berkaitan, dan tambah penerangan untuk menangkap butiran tambahan.",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "sec2": {
-              "original": "When to trigger the workflow",
-              "singular": "Bila untuk mencetuskan aliran kerja",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "When to trigger the workflow",
+            "singular": "Bila untuk mencetuskan aliran kerja",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "sec3": {
-              "original": "Specify the event(s) and timing that will activate this workflow",
-              "singular": "Nyatakan acara dan masa yang akan mengaktifkan aliran kerja ini",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Specify the event(s) and timing that will activate this workflow",
+            "singular": "Nyatakan acara dan masa yang akan mengaktifkan aliran kerja ini",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "sec4": {
-              "original": "What conditions should be met",
-              "singular": "Apa syarat yang perlu dipenuhi",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "What conditions should be met",
+            "singular": "Apa syarat yang perlu dipenuhi",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "sec5": {
-              "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
-              "singular": "Nyatakan syarat dan kombinasi syarat yang perlu mencetuskan aliran kerja ini",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
+            "singular": "Nyatakan syarat dan kombinasi syarat yang perlu mencetuskan aliran kerja ini",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "sec6": {
-              "original": "Workflow Actions",
-              "singular": "Tindakan Aliran Kerja",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Workflow Actions",
+            "singular": "Tindakan Aliran Kerja",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
-          "setupVisible": true,
+          "setupVisible": false,
           "name": {
-              "original": "Name",
-              "singular": "Nama",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Name",
+            "singular": "Nama",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "module": {
-              "original": "Module",
-              "singular": "Modul",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Module",
+            "singular": "Modul",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "description": {
-              "original": "Description",
-              "singular": "Deskripsi",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Description",
+            "singular": "Deskripsi",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "status": {
-              "original": "Status",
-              "singular": "Status",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "recordCreated": {
-              "original": "Record created",
-              "singular": "Rekod dibuat",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Record created",
+            "singular": "Rekod dibuat",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "recordUpdatedFirstTime": {
-              "original": "Record updated for first time",
-              "singular": "Rekod dikemas kini untuk kali pertama",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Record updated for first time",
+            "singular": "Rekod dikemas kini untuk kali pertama",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "recordUpdatedEverytime": {
-              "original": "Everytime record is updated",
-              "singular": "Setiap kali rekod dikemas kini",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Everytime record is updated",
+            "singular": "Setiap kali rekod dikemas kini",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           },
           "recordDeleted": {
-              "original": "Record deleted",
-              "singular": "Rekod dipadamkan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
+            "original": "Record deleted",
+            "singular": "Rekod dipadamkan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -18655,8 +18655,281 @@
           "selectStatus": "Pilih Status",
           "noConditionsAvailable": "Tiada syarat tersedia. Klik 'Tambah/Edit Syarat' untuk mencipta satu.",
           "noWorkflowActionsAvailable": "Tiada tindakan aliran kerja tersedia. Klik 'Tambah Pemberitahuan' untuk mencipta satu."
+        }
+      },
+      "templates": {
+        "setupVisible": false,
+        "label": {
+          "original": "Templates",
+          "singular": "Templat",
+          "plural": "Templat",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "email": {
+          "label": {
+            "original": "Emails",
+            "singular": "Emel",
+            "plural": "Emel",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sections": {
+            "setupVisible": false,
+            "sec0": {
+              "original": "Email Header",
+              "singular": "Tajuk Emel",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sec1": {
+              "original": "Template Name",
+              "singular": "Nama Templat",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "fields": {
+            "setupVisible": false,
+            "image": {
+              "original": "Image",
+              "singular": "Imej",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "alignment": {
+              "original": "Alignment",
+              "singular": "Penyelarasan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "subject": {
+              "original": "Subject",
+              "singular": "Subjek",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            }
+          },
+          "messages": {
+            "emailTemplatesAllowStandard": "Templat emel membolehkan anda mencipta pelan piawai untuk emel yang digunakan oleh organisasi anda supaya mudah diakses apabila menyediakan perkara seperti pemberitahuan dan aliran kerja dalam FieldEx.",
+            "addTheTextToInclude": "Tambah teks yang anda ingin sertakan dalam emel anda di bawah. Anda juga boleh menambah butang, jadual dan sebarang medan daripada FieldEx untuk mempersonalisasikan mesej anda.",
+            "addHeaderImage": "Tambah Imej Tajuk",
+            "addFooterImage": "Tambah Imej Kaki"
+          },
+          "settings": {
+            "label": {
+              "original": "Settings",
+              "singular": "Tetapan",
+              "plural": "Tetapan",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "sec0": {
+                "original": "Template Details",
+                "singular": "Butiran Templat",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Subject",
+                "singular": "Subjek",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Test Email Template",
+                "singular": "Uji Templat Emel",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupVisible": false,
+              "templateName": {
+                "original": "Template Name",
+                "singular": "Nama Templat",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "module": {
+                "original": "Module",
+                "singular": "Modul",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "description": {
+                "original": "Description",
+                "singular": "Deskripsi",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "subject": {
+                "original": "Subject",
+                "singular": "Subjek",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sendSampleEmailTo": {
+                "original": "Send a sample of this email to:",
+                "singular": "Hantar sampel emel ini kepada:",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "tooltips": {
+              "setupVisible": false,
+              "subjectOfEmail": {
+                "original": "This will be the subject of the email",
+                "singular": "Ini akan menjadi subjek emel",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            }
+          },
+          "builder": {
+            "label": {
+              "original": "Builder",
+              "singular": "Pembina",
+              "plural": "Pembina",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "sections": {
+              "sec0": {
+                "original": "Text",
+                "singular": "Teks",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec1": {
+                "original": "Button",
+                "singular": "Butang",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec2": {
+                "original": "Table",
+                "singular": "Jadual",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "fields": {
+              "setupVisible": false,
+              "fieldsIncludeInEmail": {
+                "original": "Fields to include in email",
+                "singular": "Medan untuk disertakan dalam e-mel",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "buttonLabel": {
+                "original": "Button Label",
+                "singular": "Label Butang",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "buttonNavigatesTo": {
+                "original": "Button Navigates To",
+                "singular": "Butang Navigasi Ke",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "tableModule": {
+                "original": "Table Module",
+                "singular": "Modul Jadual",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "columnsToDisplay": {
+                "original": "Columns to display",
+                "singular": "Lajur untuk dipaparkan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "moduleFields": {
+                "original": "Module Fields",
+                "singular": "Medan Modul",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sort": {
+                "original": "Sort",
+                "singular": "Susun",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "filterBy": {
+                "original": "Filter by",
+                "singular": "Tapis mengikut",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "tooltips": {
+              "setupVisible": false,
+              "sortTableOrder": {
+                "original": "Choose the field and order (ascending or descending) to sort the table results",
+                "singular": "Pilih medan dan susunan (menaik atau menurun) untuk menyusun hasil jadual",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "selectFieldsToInclude": {
+                "original": "Select the fields you want to include in your email and copy the displayed text into the message body on the right. Note: The text within the curly braces ({{}}) will be replaced by the actual field values in the emails sent out.",
+                "singular": "Pilih medan yang ingin disertakan dalam e-mel anda dan salin teks yang dipaparkan ke dalam badan mesej di sebelah kanan. Nota: Teks dalam kurungan keriting ({{}}) akan digantikan oleh nilai medan sebenar dalam e-mel yang dihantar.",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "selectFieldToFilter": {
+                "original": "Select a field to filter the table records by, and choose the value for that field to apply the filter. Note: Emails will display a maximum of 5 rows in the table.",
+                "singular": "Pilih medan untuk menapis rekod jadual, dan pilih nilai untuk medan tersebut untuk menggunakan penapis. Nota: E-mel akan memaparkan maksimum 5 baris dalam jadual.",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "selectFieldsToDisplay": {
+                "original": "Select up to 4 fields to display as columns in your email table and add them to the box on the right.",
+                "singular": "Pilih sehingga 4 medan untuk dipaparkan sebagai lajur dalam jadual e-mel anda dan tambahkannya ke dalam kotak di sebelah kanan.",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              }
+            },
+            "messages": {
+              "firstSelectSettings": "Mula-mula pilih modul dalam tab 'Tetapan' untuk mula membina e-mel anda",
+              "includeButtonInEmail": "sertakan butang dalam e-mel",
+              "includeTableInEmail": "sertakan jadual dalam e-mel"
+            }
+          }
+        }
       }
-    }
   },
   "disclosure": {
     "setupVisible": false,

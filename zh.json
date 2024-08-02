@@ -11238,6 +11238,13 @@
           "plural": "创建新通知",
           "setupEdit": true,
           "setupVisible": true
+        },
+        "workflowAction":{
+          "original": "Workflow Actions",
+          "singular": "工作流程操作",
+          "plural": "工作流程操作",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "status": {

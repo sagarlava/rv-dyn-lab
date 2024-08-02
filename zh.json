@@ -18525,6 +18525,137 @@
           "deviceIDCopiedToClipBoard": "设备ID已复制到剪贴板",
           "registerYourDevice": "注册您的设备"
         }
+      },
+      "workflows": {
+        "setupVisible": true,
+        "label": {
+          "original": "Workflows",
+          "singular": "工作流程",
+          "plural": "工作流程",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sections": {
+          "setupVisible": true,
+          "sec0": {
+              "original": "Workflow Details",
+              "singular": "工作流程详情",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "sec1": {
+              "original": "Give your workflow a name, select the module it is tied to, and add a description to capture additional details.",
+              "singular": "为您的工作流程命名，选择其关联的模块，并添加描述以捕捉更多细节。",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "sec2": {
+              "original": "When to trigger the workflow",
+              "singular": "何时触发工作流程",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "sec3": {
+              "original": "Specify the event(s) and timing that will activate this workflow",
+              "singular": "指定将激活此工作流程的事件和时间",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "sec4": {
+              "original": "What conditions should be met",
+              "singular": "应满足哪些条件",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "sec5": {
+              "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
+              "singular": "指定应触发此工作流程的条件和条件组合",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "sec6": {
+              "original": "Workflow Actions",
+              "singular": "工作流程操作",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          }
+        },
+        "fields": {
+          "setupVisible": true,
+          "name": {
+              "original": "Name",
+              "singular": "名称",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "module": {
+              "original": "Module",
+              "singular": "模块",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "description": {
+              "original": "Description",
+              "singular": "描述",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "status": {
+              "original": "Status",
+              "singular": "状态",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "recordCreated": {
+              "original": "Record created",
+              "singular": "记录创建",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "recordUpdatedFirstTime": {
+              "original": "Record updated for first time",
+              "singular": "记录首次更新",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "recordUpdatedEverytime": {
+              "original": "Everytime record is updated",
+              "singular": "每次记录更新",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "recordDeleted": {
+              "original": "Record deleted",
+              "singular": "记录删除",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          }
+        },
+        "messages": {
+          "helpAutomateInternal": "工作流帮助您通过创建条件触发器来自动化内部流程，例如发送通知、更新字段和应用验证。",
+          "triggerWhenNewRecordCreated": "此选项将在创建新记录时触发工作流。",
+          "triggerWhenUpdatedFirstTime": "此选项将在记录首次更新时触发工作流。",
+          "triggerWhenRecordUpdatedEverytime": "此选项将在每次记录更新时触发工作流。",
+          "triggerWhenRecordDeleted": "此选项将在记录删除时触发工作流。",
+          "selectStatus": "选择状态",
+          "noConditionsAvailable": "没有可用条件。点击“添加/编辑条件”来创建一个。",
+          "noWorkflowActionsAvailable": "没有可用的工作流操作。点击“添加通知”来创建一个。"
+        }
       }
   },
   "disclosure": {

@@ -18525,7 +18525,138 @@
           "deviceIDCopiedToClipBoard": "ID Peranti disalin ke papan klip",
           "registerYourDevice": "Daftar Peranti Anda"
         }
+      },
+      "workflows": {
+        "setupVisible": true,
+        "label": {
+          "original": "Workflows",
+          "singular": "Aliran Kerja",
+          "plural": "Aliran Kerja",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sections": {
+          "setupVisible": true,
+          "sec0": {
+              "original": "Workflow Details",
+              "singular": "Butiran Aliran Kerja",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "sec1": {
+              "original": "Give your workflow a name, select the module it is tied to, and add a description to capture additional details.",
+              "singular": "Beri aliran kerja anda nama, pilih modul yang berkaitan, dan tambah penerangan untuk menangkap butiran tambahan.",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "sec2": {
+              "original": "When to trigger the workflow",
+              "singular": "Bila untuk mencetuskan aliran kerja",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "sec3": {
+              "original": "Specify the event(s) and timing that will activate this workflow",
+              "singular": "Nyatakan acara dan masa yang akan mengaktifkan aliran kerja ini",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "sec4": {
+              "original": "What conditions should be met",
+              "singular": "Apa syarat yang perlu dipenuhi",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "sec5": {
+              "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
+              "singular": "Nyatakan syarat dan kombinasi syarat yang perlu mencetuskan aliran kerja ini",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "sec6": {
+              "original": "Workflow Actions",
+              "singular": "Tindakan Aliran Kerja",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          }
+        },
+        "fields": {
+          "setupVisible": true,
+          "name": {
+              "original": "Name",
+              "singular": "Nama",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "module": {
+              "original": "Module",
+              "singular": "Modul",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "description": {
+              "original": "Description",
+              "singular": "Deskripsi",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "status": {
+              "original": "Status",
+              "singular": "Status",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "recordCreated": {
+              "original": "Record created",
+              "singular": "Rekod dibuat",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "recordUpdatedFirstTime": {
+              "original": "Record updated for first time",
+              "singular": "Rekod dikemas kini untuk kali pertama",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "recordUpdatedEverytime": {
+              "original": "Everytime record is updated",
+              "singular": "Setiap kali rekod dikemas kini",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          },
+          "recordDeleted": {
+              "original": "Record deleted",
+              "singular": "Rekod dipadamkan",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
+          }
+        },
+        "messages": {
+          "helpAutomateInternal": "Aliran kerja membantu anda mengautomatikkan proses dalaman dengan membolehkan penciptaan pencetus bersyarat untuk tindakan seperti menghantar pemberitahuan, mengemas kini medan, dan menerapkan pengesahan.",
+          "triggerWhenNewRecordCreated": "Pilihan ini akan mencetuskan aliran kerja apabila rekod baru dibuat.",
+          "triggerWhenUpdatedFirstTime": "Pilihan ini akan mencetuskan aliran kerja apabila rekod dikemas kini untuk kali pertama.",
+          "triggerWhenRecordUpdatedEverytime": "Pilihan ini akan mencetuskan aliran kerja setiap kali rekod dikemas kini.",
+          "triggerWhenRecordDeleted": "Pilihan ini akan mencetuskan aliran kerja setiap kali rekod dipadamkan.",
+          "selectStatus": "Pilih Status",
+          "noConditionsAvailable": "Tiada syarat tersedia. Klik 'Tambah/Edit Syarat' untuk mencipta satu.",
+          "noWorkflowActionsAvailable": "Tiada tindakan aliran kerja tersedia. Klik 'Tambah Pemberitahuan' untuk mencipta satu."
       }
+    }
   },
   "disclosure": {
     "setupVisible": false,

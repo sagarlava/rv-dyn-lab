@@ -11224,6 +11224,13 @@
         "plural": "Confirm",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sendTestEmail": {
+        "original": "Send Test Email",
+        "singular": "Send Test Email",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "status": {
@@ -13966,6 +13973,145 @@
           "customizeModuleFieldsAndLabels":"Customize module fields and labels with your preferred terms, to be seen by everyone in your organization. You may do this for all available languages.",
           "lastUpdated":"Last updated",
           "youHaveUnsavedChanges":"You have unsaved changes that will be lost. How do you want to proceed?"
+        }
+      },
+      "notifications":{
+        "setupVisible": true,
+        "label": {
+          "original": "Notifcations",
+          "singular": "Notifcation",
+          "plural": "Notifcations",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sections": {
+          "setupVisible": true,
+          "sec0": {
+            "original": "Notification Details",
+            "singular": "Notification Details",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec1": {
+            "original": "1. What the notification will contain",
+            "singular": "1. What the notification will contain",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec2": {
+            "original": "Send as App Notification",
+            "singular": "Send as App Notification",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec3": {
+            "original": "Send as Email Notification",
+            "singular": "Send as Email Notification",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec4": {
+            "original": "2. Who will receive the notification",
+            "singular": "2. Who will receive the notification",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "sec5": {
+            "original": "Send Test Email",
+            "singular": "Send Test Email",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        },
+        "fields": {
+          "setupVisible": true,
+          "name": {
+            "original": "Name",
+            "singular": "Name",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "module": {
+            "original": "Module",
+            "singular": "Module",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Description",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "message": {
+            "original": "Message",
+            "singular": "Message",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "navigateTo": {
+            "original": "Navigate To",
+            "singular": "Navigate To",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "userInField": {
+            "original": "User in Field",
+            "singular": "User in Field",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "emails": {
+            "original": "Emails",
+            "singular": "Email",
+            "plural": "Emails",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "user": {
+            "original": "Users",
+            "singular": "User",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "group": {
+            "original": "Groups",
+            "singular": "Group",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "subject": {
+            "original": "Subject",
+            "singular": "Subject",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        },
+        "messages":{
+          "notificationsAllowNotify":"Notifications allow you to notify users about specific activities in FieldEx, such as updates and assignments, both within the app and as email notifications. Create workflows to trigger your notifications and configure them to fit your business process.",
+          "fillNotificationDetails":"Fill in your notification details with a name and description. This will be visible to all users in their notification preferences.",
+          "typeOutMessage":"Type out your message, select the fields you want to include, and copy the displayed text into the message body on the left.",
+          "selectWhereLikeNotificationNavigate":"Select where you'd like the notification to navigate to and whether you want key information bolded.",
+          "selectEmailTemplate":"Select the email template you'd like to be sent out for this notification",
+          "defineRecipients":"Define recipients for this notification by specifying individual users or groups of users.",
+          "makeKeyDataBold":"Make key data bold",
+          "createEmailTemplate":"Create an Email Template",
+          "aSampleEmailWillBeSent":"A sample email will be sent to your email: admin.Albert@gmail.com. Do you wish to proceed?"
         }
       }
     },

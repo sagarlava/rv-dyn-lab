@@ -4045,6 +4045,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "taskNo": {
+            "original": "Task No.",
+            "singular": "任务编号",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }  
       },
       "validationFE": {},

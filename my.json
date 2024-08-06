@@ -4045,7 +4045,14 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
-          }       
+          },
+          "taskNo": {
+            "original": "Task No.",
+            "singular": "No. Tugas",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          }     
       },
       "validationFE": {},
       "validationBE": {

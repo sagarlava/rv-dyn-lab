@@ -1835,7 +1835,9 @@
         "preventativeMaintenanceFrequencyInvalidType": "Jenis frekuensi tidak sah",
         "preventativeMaintenanceTemplateMaintenanceNotFound": "Penyelenggaraan tidak dijumpai",
         "preventativeMaintenanceTemplateInvalidReminderTo": "Hantar peringatan kepada tidak sah",
-        "preventativeTemplateHasPreventativeFrequency": "Data Frekuensi Pencegahan wujud dalam sistem untuk Templat Pencegahan"
+        "preventativeTemplateHasPreventativeFrequency": "Data Frekuensi Pencegahan wujud dalam sistem untuk Templat Pencegahan",
+        "preventativeTemplateIdExists": "Templat Pencegahan baru tidak boleh sudah mempunyai ID",
+        "preventativeTemplateSendReminderToInvalid": "Nilai tidak sah untuk send_reminder_to"
       },
       "tooltips": {
           "setupVisible": true,

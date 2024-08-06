@@ -1835,7 +1835,9 @@
         "preventativeMaintenanceFrequencyInvalidType": "无效的频率类型",
         "preventativeMaintenanceTemplateMaintenanceNotFound": "未找到维护",
         "preventativeMaintenanceTemplateInvalidReminderTo": "无效的发送提醒对象",
-        "preventativeTemplateHasPreventativeFrequency": "系统中存在预防模板的预防频率数据"
+        "preventativeTemplateHasPreventativeFrequency": "系统中存在预防模板的预防频率数据",
+        "preventativeTemplateIdExists": "新预防模板不能已有ID",
+        "preventativeTemplateSendReminderToInvalid": "发送提醒至的值无效"
       },
       "tooltips": {
           "setupVisible": true,

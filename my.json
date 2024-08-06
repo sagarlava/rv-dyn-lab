@@ -11823,6 +11823,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+        },
+        "createdDateTime": {
+          "original": "Created Date & Time",
+          "singular": "Tarikh & Masa Dicipta",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "lastModifiedDateTime": {
+          "original": "Last Modified Date & Time",
+          "singular": "Tarikh & Masa Terakhir Diubah",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
         }
     },

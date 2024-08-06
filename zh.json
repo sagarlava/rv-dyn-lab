@@ -11823,6 +11823,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "createdDateTime": {
+            "original": "Created Date & Time",
+            "singular": "创建日期和时间",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "lastModifiedDateTime": {
+            "original": "Last Modified Date & Time",
+            "singular": "最后修改日期和时间",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         }
       },

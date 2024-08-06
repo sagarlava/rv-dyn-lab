@@ -11238,6 +11238,13 @@
         "plural": "Create a New Notification",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "workflowAction":{
+        "original": "Workflow Actions",
+        "singular": "Workflow Actions",
+        "plural": "Workflow Actions",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "status": {
@@ -11813,6 +11820,20 @@
         "lastModifiedBy": {
           "original": "Last Modified By",
           "singular": "Last Modified By",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "createdDateTime": {
+          "original": "Created Date & Time",
+          "singular": "Created Date & Time",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "lastModifiedDateTime": {
+          "original": "Last Modified Date & Time",
+          "singular": "Last Modified Date & Time",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

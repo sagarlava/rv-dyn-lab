@@ -306,6 +306,20 @@
         "plural": "days",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "customerChannel": {
+        "original": "Customer Channel",
+        "singular": "Customer Channel",
+        "plural": "Customer Channel",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "state": {
+        "original": "State",
+        "singular": "State",
+        "plural": "State",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},

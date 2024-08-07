@@ -4703,13 +4703,16 @@
         "salesOrderHasCustomerPayment": "系统中存在该销售订单的客户付款数据",
         "salesOrderHasCustomerPurchase": "系统中存在该销售订单的客户购买数据",
         "salesOrderHasContract": "系统中存在该销售订单的合同数据",
-        "salesOrderProductNotFound": "未找到产品",
         "salesOrderChannelNotFound": "未找到销售订单渠道",
         "salesOrderOwnerNotFound": "未找到销售订单所有者",
         "salesOrderBillingContactNotFound": "未找到账单联系人",
         "salesOrderShippingContactNotFound": "未找到送货联系人",
         "salesOrderCountryNotFound": "未找到国家",
-        "salesOrderTableSetupNotFound": "未找到销售订单表格设置，请联系支持"
+        "salesOrderTableSetupNotFound": "未找到销售订单表格设置，请联系支持",
+        "salesOrderAuditEventHistoryIdExists": "新的销售订单审核事件历史不能已有ID",
+        "salesOrderProductIdExists": "新的销售订单产品不能已有ID",
+        "salesOrderProductNotFound": "未找到销售订单产品",
+        "salesOrderActivityIdExists": "新的销售订单活动不能已有ID"
       },
       "tooltips": {
         "setupVisible": true,

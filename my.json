@@ -4703,13 +4703,16 @@
         "salesOrderHasCustomerPayment": "Data Pembayaran Pelanggan wujud dalam sistem untuk pesanan jualan",
         "salesOrderHasCustomerPurchase": "Data Pembelian Pelanggan wujud dalam sistem untuk pesanan jualan",
         "salesOrderHasContract": "Data Kontrak wujud dalam sistem untuk pesanan jualan",
-        "salesOrderProductNotFound": "Produk tidak dijumpai",
         "salesOrderChannelNotFound": "Saluran pesanan jualan tidak dijumpai",
         "salesOrderOwnerNotFound": "Pemilik pesanan jualan tidak dijumpai",
         "salesOrderBillingContactNotFound": "Hubungan bil tidak dijumpai",
         "salesOrderShippingContactNotFound": "Hubungan penghantaran tidak dijumpai",
         "salesOrderCountryNotFound": "Negara tidak dijumpai",
-        "salesOrderTableSetupNotFound": "Penyiapan Jadual Pesanan Jualan tidak dijumpai, sila hubungi sokongan"
+        "salesOrderTableSetupNotFound": "Penyiapan Jadual Pesanan Jualan tidak dijumpai, sila hubungi sokongan",
+        "salesOrderAuditEventHistoryIdExists": "Sejarah Acara Audit Pesanan Jualan baru tidak boleh sudah mempunyai ID",
+        "salesOrderProductIdExists": "Produk Pesanan Jualan baru tidak boleh sudah mempunyai ID",
+        "salesOrderProductNotFound": "Produk Pesanan Jualan tidak dijumpai",
+        "salesOrderActivityIdExists": "Aktiviti Pesanan Jualan baru tidak boleh sudah mempunyai ID"
       },
       "tooltips": {
         "setupVisible": true,

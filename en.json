@@ -4703,13 +4703,16 @@
       "salesOrderHasCustomerPayment": "Customer Payment Data exists in the system for the Sales order",
       "salesOrderHasCustomerPurchase": "Customer Purchase Data exists in the system for the Sales order",
       "salesOrderHasContract": "Contract Data exists in the system for the Sales order",
-      "salesOrderProductNotFound": "Product not found",
       "salesOrderChannelNotFound": "Sales order channel not found",
       "salesOrderOwnerNotFound": "Sales order owner not found",
       "salesOrderBillingContactNotFound": "Billing contact not found",
       "salesOrderShippingContactNotFound": "Shipping contact not found",
       "salesOrderCountryNotFound": "Country not found",
-      "salesOrderTableSetupNotFound": "Sales order Table Setup not found, please contact support"
+      "salesOrderTableSetupNotFound": "Sales order Table Setup not found, please contact support",
+      "salesOrderAuditEventHistoryIdExists": "A new Sales Order Audit Event History cannot already have an ID",
+      "salesOrderProductIdExists": "A new Sales Order Product cannot already have an ID",
+      "salesOrderProductNotFound": "Sales Order Product not found",
+      "salesOrderActivityIdExists": "A new Sales Order Activity cannot already have an ID"
     },
     "tooltips": {
       "setupVisible": true,

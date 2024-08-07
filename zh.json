@@ -14312,6 +14312,13 @@
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false
+              },
+              "sec10": {
+                "original": "Journey Settings",
+                "singular": "行程设置",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
             },
             "fields": {
@@ -14368,6 +14375,27 @@
               "helpdeskEmail": {
                 "original": "Helpdesk Email",
                 "singular": "帮助台电子邮件",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "mileageTracking": {
+                "original": "Mileage Tracking",
+                "singular": "里程跟踪",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "estimateMileageTracking": {
+                "original": "Estimate Mileage Tracking",
+                "singular": "估算里程跟踪",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "liveMileageTracking": {
+                "original": "Live Mileage Tracking",
+                "singular": "实时里程跟踪",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false

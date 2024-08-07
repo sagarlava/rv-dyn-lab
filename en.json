@@ -14312,6 +14312,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec10": {
+            "original": "Journey Settings",
+            "singular": "Journey Settings",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -14368,6 +14375,27 @@
           "helpdeskEmail": {
             "original": "Helpdesk Email",
             "singular": "Helpdesk Email",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "mileageTracking": {
+            "original": "Mileage Tracking",
+            "singular": "Mileage Tracking",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "estimateMileageTracking": {
+            "original": "Estimate Mileage Tracking",
+            "singular": "Estimate Mileage Tracking",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "liveMileageTracking": {
+            "original": "Live Mileage Tracking",
+            "singular": "Live Mileage Tracking",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false

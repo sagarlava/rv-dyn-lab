@@ -1659,7 +1659,15 @@
     "validationBE": {
       "maintenanceIdExists": "A new maintenance cannot already have an ID",
       "maintenanceNotFound": "Maintenance not found",
-      "assetHasActiveMaintenance": "The asset already has an active maintenance"
+      "assetHasActiveMaintenance": "The asset already has an active maintenance",
+      "maintenanceItemIdExists": "A new Maintenance Item cannot already have an ID",
+      "maintenanceItemIdNotFound": "Id not found",
+      "maintenanceItemNotFound": "Maintenance Item not found",
+      "maintenanceItemInvalidStatus": "Only allowed statuses: COMPLETED/PENDING/OVER_DUE",
+      "maintenanceItemHasJobOrderOrMaintenanceStatus": "Active Job Order or COMPLETED/OVERDUE Schedules Data exists in the system for the Maintenance Item",
+      "maintenanceItemHasJobOrder": "Job Order Data exists in the system for the Maintenance Item",
+      "maintenanceItemUnableToDelete": "Only allowed to delete PENDING Maintenance Status",
+      "maintenanceItemTableSetupNotFound": "Maintenance Item Table Setup not found, please contact support"
     },
     "tooltips": {
       "setupVisible": true,

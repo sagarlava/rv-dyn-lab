@@ -1657,9 +1657,17 @@
       },
       "validationFE": {},
       "validationBE": {
-        "maintenanceIdExists": "Penyelenggaraan baru tidak boleh mempunyai ID sedia ada",
+        "maintenanceIdExists": "Penyelenggaraan baru tidak boleh sudah mempunyai ID",
         "maintenanceNotFound": "Penyelenggaraan tidak dijumpai",
-        "assetHasActiveMaintenance": "Aset tersebut sudah mempunyai penyelenggaraan aktif"
+        "assetHasActiveMaintenance": "Aset sudah mempunyai penyelenggaraan aktif",
+        "maintenanceItemIdExists": "Item Penyelenggaraan baru tidak boleh sudah mempunyai ID",
+        "maintenanceItemIdNotFound": "ID tidak dijumpai",
+        "maintenanceItemNotFound": "Item Penyelenggaraan tidak dijumpai",
+        "maintenanceItemInvalidStatus": "Hanya status yang dibenarkan: SELESAI/TERGANTUNG/TERLEWAT",
+        "maintenanceItemHasJobOrderOrMaintenanceStatus": "Data Jadual Pesanan Kerja Aktif atau SELESAI/TERLEWAT wujud dalam sistem untuk Item Penyelenggaraan",
+        "maintenanceItemHasJobOrder": "Data Pesanan Kerja wujud dalam sistem untuk Item Penyelenggaraan",
+        "maintenanceItemUnableToDelete": "Hanya dibenarkan memadamkan Status Penyelenggaraan yang TERGANTUNG",
+        "maintenanceItemTableSetupNotFound": "Tetapan Jadual Item Penyelenggaraan tidak dijumpai, sila hubungi sokongan"
       },
       "tooltips": {
           "setupVisible": true,

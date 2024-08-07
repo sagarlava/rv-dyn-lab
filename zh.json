@@ -1657,9 +1657,17 @@
       },
       "validationFE": {},
       "validationBE": {
-        "maintenanceIdExists": "新维护不能已有ID",
+        "maintenanceIdExists": "新的维护不能已有ID",
         "maintenanceNotFound": "未找到维护",
-        "assetHasActiveMaintenance": "该资产已有一个活动的维护"
+        "assetHasActiveMaintenance": "资产已经有一个活动维护",
+        "maintenanceItemIdExists": "新的维护项目不能已有ID",
+        "maintenanceItemIdNotFound": "未找到ID",
+        "maintenanceItemNotFound": "未找到维护项目",
+        "maintenanceItemInvalidStatus": "仅允许的状态：已完成/待处理/逾期",
+        "maintenanceItemHasJobOrderOrMaintenanceStatus": "系统中存在维护项目的活动工作订单或已完成/逾期的计划数据",
+        "maintenanceItemHasJobOrder": "系统中存在维护项目的工作订单数据",
+        "maintenanceItemUnableToDelete": "仅允许删除待处理的维护状态",
+        "maintenanceItemTableSetupNotFound": "未找到维护项目表格设置，请联系支持"
       },
       "tooltips": {
           "setupVisible": true,

@@ -1827,17 +1827,23 @@
       },
       "validationFE": {},
       "validationBE": {
-        "preventativeFrequencyInvalidType": "Nilai tidak sah untuk jenis frekuensi",
+        "preventativeFrequencyInvalidType": "Jenis frekuensi tidak sah",
         "preventativeFrequencyDayWithInvalidFrequency": "Jika jenis frekuensi adalah HARI, frekuensi mesti sekurang-kurangnya 7 hari",
         "preventativeFrequencyHasPreventativeFrequencyPart": "Data Bahagian Frekuensi Pencegahan wujud dalam sistem untuk Frekuensi Pencegahan",
         "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "ID Templat Penyelenggaraan Pencegahan atau ID Penyelenggaraan tidak dijumpai",
         "preventativeMaintenanceFrequencyTemplateNotFound": "Templat Penyelenggaraan Pencegahan tidak dijumpai",
         "preventativeMaintenanceFrequencyInvalidType": "Jenis frekuensi tidak sah",
         "preventativeMaintenanceTemplateMaintenanceNotFound": "Penyelenggaraan tidak dijumpai",
-        "preventativeMaintenanceTemplateInvalidReminderTo": "Hantar peringatan kepada tidak sah",
+        "preventativeMaintenanceTemplateInvalidReminderTo": "Nilai tidak sah untuk hantar peringatan kepada",
         "preventativeTemplateHasPreventativeFrequency": "Data Frekuensi Pencegahan wujud dalam sistem untuk Templat Pencegahan",
         "preventativeTemplateIdExists": "Templat Pencegahan baru tidak boleh sudah mempunyai ID",
-        "preventativeTemplateSendReminderToInvalid": "Nilai tidak sah untuk send_reminder_to"
+        "preventativeTemplateSendReminderToInvalid": "Nilai tidak sah untuk hantar peringatan kepada",
+        "pmFrequencyPartsIdExists": "Bahagian Frekuensi Pm baru tidak boleh sudah mempunyai ID",
+        "preventativeFrequencyPartsIdExists": "Bahagian Frekuensi Pencegahan baru tidak boleh sudah mempunyai ID",
+        "preventativeFrequencyIdExists": "Frekuensi Pencegahan baru tidak boleh sudah mempunyai ID",
+        "preventativeMaintenanceFrequencyIdExists": "Frekuensi Penyelenggaraan Pencegahan baru tidak boleh sudah mempunyai ID",
+        "preventativeMaintenanceTemplateIdExists": "Templat Penyelenggaraan Pencegahan baru tidak boleh sudah mempunyai ID",
+        "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Data Frekuensi Penyelenggaraan Pencegahan wujud dalam sistem untuk Templat Penyelenggaraan Pencegahan"
       },
       "tooltips": {
           "setupVisible": true,

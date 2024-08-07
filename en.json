@@ -1837,7 +1837,13 @@
         "preventativeMaintenanceTemplateInvalidReminderTo": "Invalid send reminder to",
         "preventativeTemplateHasPreventativeFrequency": "Preventative Frequency Data exists in the system for the Preventative Template",
         "preventativeTemplateIdExists": "A new Preventative Template cannot already have an ID",
-        "preventativeTemplateSendReminderToInvalid": "Invalid value for send_reminder_to"
+        "preventativeTemplateSendReminderToInvalid": "Invalid value for send_reminder_to",
+        "pmFrequencyPartsIdExists": "A new PmFrequencyParts cannot already have an ID",
+        "preventativeFrequencyPartsIdExists": "A new Preventative Frequency Parts cannot already have an ID",
+        "preventativeFrequencyIdExists": "A new Preventative Frequency cannot already have an ID",
+        "preventativeMaintenanceFrequencyIdExists": "A new Preventative Maintenance Frequency cannot already have an ID",
+        "preventativeMaintenanceTemplateIdExists": "A new Preventative Maintenance Template cannot already have an ID",
+        "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Preventative Maintenance Frequency Data exists in the system for the Preventative Maintenance Template"
     },
     "tooltips": {
       "setupVisible": true,

@@ -1657,9 +1657,17 @@
       },
       "validationFE": {},
       "validationBE": {
-        "maintenanceIdExists": "新维护不能已有ID",
+        "maintenanceIdExists": "新的维护不能已有ID",
         "maintenanceNotFound": "未找到维护",
-        "assetHasActiveMaintenance": "该资产已有一个活动的维护"
+        "assetHasActiveMaintenance": "资产已经有一个活动维护",
+        "maintenanceItemIdExists": "新的维护项目不能已有ID",
+        "maintenanceItemIdNotFound": "未找到ID",
+        "maintenanceItemNotFound": "未找到维护项目",
+        "maintenanceItemInvalidStatus": "仅允许的状态：已完成/待处理/逾期",
+        "maintenanceItemHasJobOrderOrMaintenanceStatus": "系统中存在维护项目的活动工作订单或已完成/逾期的计划数据",
+        "maintenanceItemHasJobOrder": "系统中存在维护项目的工作订单数据",
+        "maintenanceItemUnableToDelete": "仅允许删除待处理的维护状态",
+        "maintenanceItemTableSetupNotFound": "未找到维护项目表格设置，请联系支持"
       },
       "tooltips": {
           "setupVisible": true,
@@ -1827,17 +1835,23 @@
       },
       "validationFE": {},
       "validationBE": {
-        "preventativeFrequencyInvalidType": "频率类型值无效",
-        "preventativeFrequencyDayWithInvalidFrequency": "如果频率类型是天，频率必须至少为7天",
+        "preventativeFrequencyInvalidType": "频率类型无效",
+        "preventativeFrequencyDayWithInvalidFrequency": "如果频率类型为天，频率必须至少为7天",
         "preventativeFrequencyHasPreventativeFrequencyPart": "系统中存在预防频率的预防频率部分数据",
-        "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "未找到预防性维护模板 ID 或维护 ID",
-        "preventativeMaintenanceFrequencyTemplateNotFound": "未找到预防性维护模板",
-        "preventativeMaintenanceFrequencyInvalidType": "无效的频率类型",
-        "preventativeMaintenanceTemplateMaintenanceNotFound": "未找到维护",
-        "preventativeMaintenanceTemplateInvalidReminderTo": "无效的发送提醒对象",
+        "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "找不到预防性维护模板ID或维护ID",
+        "preventativeMaintenanceFrequencyTemplateNotFound": "找不到预防性维护模板",
+        "preventativeMaintenanceFrequencyInvalidType": "频率类型无效",
+        "preventativeMaintenanceTemplateMaintenanceNotFound": "找不到维护",
+        "preventativeMaintenanceTemplateInvalidReminderTo": "无效的发送提醒给",
         "preventativeTemplateHasPreventativeFrequency": "系统中存在预防模板的预防频率数据",
         "preventativeTemplateIdExists": "新预防模板不能已有ID",
-        "preventativeTemplateSendReminderToInvalid": "发送提醒至的值无效"
+        "preventativeTemplateSendReminderToInvalid": "发送提醒给的值无效",
+        "pmFrequencyPartsIdExists": "新预防频率部件不能已有ID",
+        "preventativeFrequencyPartsIdExists": "新预防频率部分不能已有ID",
+        "preventativeFrequencyIdExists": "新预防频率不能已有ID",
+        "preventativeMaintenanceFrequencyIdExists": "新预防性维护频率不能已有ID",
+        "preventativeMaintenanceTemplateIdExists": "新预防性维护模板不能已有ID",
+        "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "系统中存在预防性维护模板的预防性维护频率数据"
       },
       "tooltips": {
           "setupVisible": true,
@@ -4091,7 +4105,41 @@
         "taskJobOrderExidValidation": "无效的工作订单外部ID",
         "taskSiteExidValidation": "无效的地点外部ID",
         "taskProjectExidValidation": "无效的项目外部ID",
-        "taskAssignedToLiteUserLoginValidation": "无效的分配给精简用户登录"
+        "taskAssignedToLiteUserLoginValidation": "无效的分配给精简用户登录",
+        "recommendationLimitedUsersAvailable": "仅有限的用户符合您的标准",
+        "recommendationBestFitUsersNotFound": "未找到符合您标准的最佳用户",
+        "recommendationTaskNotFound": "未找到推荐任务",
+        "requestAssistanceIdExists": "新的请求援助不能已有ID",
+        "requestAssistanceIdNotFound": "未找到ID",
+        "routeIdExists": "新的路线不能已有ID",
+        "scheduleIdExists": "新的计划不能已有ID",
+        "scheduleTaskIdExists": "新的计划任务不能已有ID",
+        "taskActivityIdExists": "新的任务活动不能已有ID",
+        "taskBucketIdExists": "新的任务桶不能已有ID",
+        "taskDynamicSkillIdExists": "新的任务动态技能不能已有ID",
+        "taskDynamicSkillIdNotFound": "未找到ID",
+        "taskExternalCalendarIdExists": "新的任务外部日历不能已有ID",
+        "taskNoteIdExists": "新的任务备注不能已有ID",
+        "taskNoteWithIdNotFound": "无效的ID",
+        "teamIdExists": "新的团队不能已有ID",
+        "teamIdNotFound": "未找到ID",
+        "teamNotFound": "未找到团队",
+        "teamIdRequired": "需要teamId",
+        "teamStartDateEndDateNotFound": "未找到startDate和endDate参数",
+        "teamUserIdRequired": "需要userId",
+        "teamIdsRequired": "teamIds不允许为空或为null",
+        "teamHasTask": "系统中存在团队的任务数据",
+        "teamWithIdNotFound": "无效的ID",
+        "teamUserNotFound": "未找到团队用户",
+        "teamUserPositionNotFound": "未找到团队用户职位",
+        "teamUserIdNotFound": "未找到ID",
+        "teamUserTeamIdNotFound": "未找到团队用户teamId",
+        "teamUserUserIdNotFound": "未找到团队用户userId",
+        "teamUserIdExists": "新的团队用户不能已有ID",
+        "teamSkillIdExists": "新的团队技能不能已有ID",
+        "userTaskIdExists": "新的用户任务不能已有ID",
+        "userTaskIdNotFound": "未找到ID",
+        "userTaskNotFound": "未找到用户任务"
       },
       "tooltips": {
           "setupVisible": true,
@@ -4697,13 +4745,16 @@
         "salesOrderHasCustomerPayment": "系统中存在该销售订单的客户付款数据",
         "salesOrderHasCustomerPurchase": "系统中存在该销售订单的客户购买数据",
         "salesOrderHasContract": "系统中存在该销售订单的合同数据",
-        "salesOrderProductNotFound": "未找到产品",
         "salesOrderChannelNotFound": "未找到销售订单渠道",
         "salesOrderOwnerNotFound": "未找到销售订单所有者",
         "salesOrderBillingContactNotFound": "未找到账单联系人",
         "salesOrderShippingContactNotFound": "未找到送货联系人",
         "salesOrderCountryNotFound": "未找到国家",
-        "salesOrderTableSetupNotFound": "未找到销售订单表格设置，请联系支持"
+        "salesOrderTableSetupNotFound": "未找到销售订单表格设置，请联系支持",
+        "salesOrderAuditEventHistoryIdExists": "新的销售订单审核事件历史不能已有ID",
+        "salesOrderProductIdExists": "新的销售订单产品不能已有ID",
+        "salesOrderProductNotFound": "未找到销售订单产品",
+        "salesOrderActivityIdExists": "新的销售订单活动不能已有ID"
       },
       "tooltips": {
         "setupVisible": true,
@@ -13801,12 +13852,18 @@
                 "goTo": "去",
                 "toSetUpOrContactAdmin": "去设置这些或联系您的管理员以获取帮助。",
                 "skillAssignmentConflict": "这些技能已分配给用户。",
-                "invalidCredentials": "密码不匹配。请再试一次。",
+                "invalidCredentials": "凭证无效。请再试一次",
                 "weakPassword": "密码包含用户名的一部分",
                 "passwordResetEmailSent": "已发送电子邮件以帮助您重置密码。",
                 "accountActivationEmailSent": "已向您发送电子邮件以激活账户。",
-                "duplicateSkillAssignmentConflict": "这些技能已分配给用户。",
-                "passwordMeetCriteria": "请确保您的密码符合所有指定的标准"
+                "duplicateSkillAssignmentConflict": "这些技能已分配给用户。", 
+                "passwordMeetCriteria": "请确保您的密码符合所有指定的标准",
+                "passwordsDoNotMatch": "密码不匹配。请再试一次。",
+                "somethingWentWrong": "看起来出了点问题，请再试一次。",
+                "ensureNoBlankSpacesUsername": "请确保您的用户名前后没有空格",
+                "passwordCriteriaNotMet": "请确保您的密码符合所有指定的标准。",
+                "passwordsDoNotMatchTryAgain": "您输入的密码不匹配。请再试一次。",
+                "passwordResetSuccess": "密码重置成功。继续登录"
               },
               "listView": {
                 "setupVisible": false,
@@ -14255,6 +14312,13 @@
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false
+              },
+              "sec10": {
+                "original": "Journey Settings",
+                "singular": "行程设置",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
             },
             "fields": {
@@ -14311,6 +14375,27 @@
               "helpdeskEmail": {
                 "original": "Helpdesk Email",
                 "singular": "帮助台电子邮件",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "mileageTracking": {
+                "original": "Mileage Tracking",
+                "singular": "里程跟踪",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "estimateMileageTracking": {
+                "original": "Estimate Mileage Tracking",
+                "singular": "估算里程跟踪",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "liveMileageTracking": {
+                "original": "Live Mileage Tracking",
+                "singular": "实时里程跟踪",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false
@@ -15063,6 +15148,13 @@
                 "default": {
                   "original": "Default",
                   "singular": "默认",
+                  "plural": "",
+                  "setupEdit": true,
+                  "setupVisible": false
+                },
+                "code": {
+                  "original": "Code",
+                  "singular": "代码",
                   "plural": "",
                   "setupEdit": true,
                   "setupVisible": false

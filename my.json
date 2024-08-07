@@ -1657,9 +1657,17 @@
       },
       "validationFE": {},
       "validationBE": {
-        "maintenanceIdExists": "Penyelenggaraan baru tidak boleh mempunyai ID sedia ada",
+        "maintenanceIdExists": "Penyelenggaraan baru tidak boleh sudah mempunyai ID",
         "maintenanceNotFound": "Penyelenggaraan tidak dijumpai",
-        "assetHasActiveMaintenance": "Aset tersebut sudah mempunyai penyelenggaraan aktif"
+        "assetHasActiveMaintenance": "Aset sudah mempunyai penyelenggaraan aktif",
+        "maintenanceItemIdExists": "Item Penyelenggaraan baru tidak boleh sudah mempunyai ID",
+        "maintenanceItemIdNotFound": "ID tidak dijumpai",
+        "maintenanceItemNotFound": "Item Penyelenggaraan tidak dijumpai",
+        "maintenanceItemInvalidStatus": "Hanya status yang dibenarkan: SELESAI/TERGANTUNG/TERLEWAT",
+        "maintenanceItemHasJobOrderOrMaintenanceStatus": "Data Jadual Pesanan Kerja Aktif atau SELESAI/TERLEWAT wujud dalam sistem untuk Item Penyelenggaraan",
+        "maintenanceItemHasJobOrder": "Data Pesanan Kerja wujud dalam sistem untuk Item Penyelenggaraan",
+        "maintenanceItemUnableToDelete": "Hanya dibenarkan memadamkan Status Penyelenggaraan yang TERGANTUNG",
+        "maintenanceItemTableSetupNotFound": "Tetapan Jadual Item Penyelenggaraan tidak dijumpai, sila hubungi sokongan"
       },
       "tooltips": {
           "setupVisible": true,
@@ -1827,17 +1835,23 @@
       },
       "validationFE": {},
       "validationBE": {
-        "preventativeFrequencyInvalidType": "Nilai tidak sah untuk jenis frekuensi",
+        "preventativeFrequencyInvalidType": "Jenis frekuensi tidak sah",
         "preventativeFrequencyDayWithInvalidFrequency": "Jika jenis frekuensi adalah HARI, frekuensi mesti sekurang-kurangnya 7 hari",
         "preventativeFrequencyHasPreventativeFrequencyPart": "Data Bahagian Frekuensi Pencegahan wujud dalam sistem untuk Frekuensi Pencegahan",
         "preventativeMaintenanceFrequencyTemplateIdOrMaintenanceIdNotFound": "ID Templat Penyelenggaraan Pencegahan atau ID Penyelenggaraan tidak dijumpai",
         "preventativeMaintenanceFrequencyTemplateNotFound": "Templat Penyelenggaraan Pencegahan tidak dijumpai",
         "preventativeMaintenanceFrequencyInvalidType": "Jenis frekuensi tidak sah",
         "preventativeMaintenanceTemplateMaintenanceNotFound": "Penyelenggaraan tidak dijumpai",
-        "preventativeMaintenanceTemplateInvalidReminderTo": "Hantar peringatan kepada tidak sah",
+        "preventativeMaintenanceTemplateInvalidReminderTo": "Nilai tidak sah untuk hantar peringatan kepada",
         "preventativeTemplateHasPreventativeFrequency": "Data Frekuensi Pencegahan wujud dalam sistem untuk Templat Pencegahan",
         "preventativeTemplateIdExists": "Templat Pencegahan baru tidak boleh sudah mempunyai ID",
-        "preventativeTemplateSendReminderToInvalid": "Nilai tidak sah untuk send_reminder_to"
+        "preventativeTemplateSendReminderToInvalid": "Nilai tidak sah untuk hantar peringatan kepada",
+        "pmFrequencyPartsIdExists": "Bahagian Frekuensi Pm baru tidak boleh sudah mempunyai ID",
+        "preventativeFrequencyPartsIdExists": "Bahagian Frekuensi Pencegahan baru tidak boleh sudah mempunyai ID",
+        "preventativeFrequencyIdExists": "Frekuensi Pencegahan baru tidak boleh sudah mempunyai ID",
+        "preventativeMaintenanceFrequencyIdExists": "Frekuensi Penyelenggaraan Pencegahan baru tidak boleh sudah mempunyai ID",
+        "preventativeMaintenanceTemplateIdExists": "Templat Penyelenggaraan Pencegahan baru tidak boleh sudah mempunyai ID",
+        "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Data Frekuensi Penyelenggaraan Pencegahan wujud dalam sistem untuk Templat Penyelenggaraan Pencegahan"
       },
       "tooltips": {
           "setupVisible": true,
@@ -4091,7 +4105,41 @@
         "taskJobOrderExidValidation": "ID luar Pesanan Kerja tidak sah",
         "taskSiteExidValidation": "ID luar Tapak tidak sah",
         "taskProjectExidValidation": "ID luar Projek tidak sah",
-        "taskAssignedToLiteUserLoginValidation": "Login pengguna lite yang ditugaskan tidak sah"
+        "taskAssignedToLiteUserLoginValidation": "Login pengguna lite yang ditugaskan tidak sah",
+        "recommendationLimitedUsersAvailable": "Hanya pengguna terhad yang tersedia untuk kriteria anda",
+        "recommendationBestFitUsersNotFound": "Pengguna terbaik untuk kriteria anda tidak dijumpai",
+        "recommendationTaskNotFound": "Tugas cadangan tidak dijumpai",
+        "requestAssistanceIdExists": "Permintaan Bantuan baru tidak boleh sudah mempunyai ID",
+        "requestAssistanceIdNotFound": "ID tidak dijumpai",
+        "routeIdExists": "Laluan baru tidak boleh sudah mempunyai ID",
+        "scheduleIdExists": "Jadual baru tidak boleh sudah mempunyai ID",
+        "scheduleTaskIdExists": "Tugas Jadual baru tidak boleh sudah mempunyai ID",
+        "taskActivityIdExists": "Aktiviti Tugas baru tidak boleh sudah mempunyai ID",
+        "taskBucketIdExists": "Bucket Tugas baru tidak boleh sudah mempunyai ID",
+        "taskDynamicSkillIdExists": "Kemahiran Dinamik Tugas baru tidak boleh sudah mempunyai ID",
+        "taskDynamicSkillIdNotFound": "ID tidak dijumpai",
+        "taskExternalCalendarIdExists": "Kalendar Luar Tugas baru tidak boleh sudah mempunyai ID",
+        "taskNoteIdExists": "Nota Tugas baru tidak boleh sudah mempunyai ID",
+        "taskNoteWithIdNotFound": "ID tidak sah",
+        "teamIdExists": "Pasukan baru tidak boleh sudah mempunyai ID",
+        "teamIdNotFound": "ID tidak dijumpai",
+        "teamNotFound": "Pasukan tidak dijumpai",
+        "teamIdRequired": "teamId diperlukan",
+        "teamStartDateEndDateNotFound": "parameter startDate dan endDate tidak dijumpai",
+        "teamUserIdRequired": "userId diperlukan",
+        "teamIdsRequired": "teamIds tidak dibenarkan kosong atau null",
+        "teamHasTask": "Data Tugas wujud dalam sistem untuk Pasukan",
+        "teamWithIdNotFound": "ID tidak sah",
+        "teamUserNotFound": "Pengguna Pasukan tidak dijumpai",
+        "teamUserPositionNotFound": "Jawatan Pengguna Pasukan tidak dijumpai",
+        "teamUserIdNotFound": "ID tidak dijumpai",
+        "teamUserTeamIdNotFound": "teamId Pengguna Pasukan tidak dijumpai",
+        "teamUserUserIdNotFound": "userId Pengguna Pasukan tidak dijumpai",
+        "teamUserIdExists": "Pengguna Pasukan baru tidak boleh sudah mempunyai ID",
+        "teamSkillIdExists": "Kemahiran Pasukan baru tidak boleh sudah mempunyai ID",
+        "userTaskIdExists": "Tugas Pengguna baru tidak boleh sudah mempunyai ID",
+        "userTaskIdNotFound": "ID tidak dijumpai",
+        "userTaskNotFound": "Tugas Pengguna tidak dijumpai"
       },
       "tooltips": {
           "setupVisible": true,
@@ -4697,13 +4745,16 @@
         "salesOrderHasCustomerPayment": "Data Pembayaran Pelanggan wujud dalam sistem untuk pesanan jualan",
         "salesOrderHasCustomerPurchase": "Data Pembelian Pelanggan wujud dalam sistem untuk pesanan jualan",
         "salesOrderHasContract": "Data Kontrak wujud dalam sistem untuk pesanan jualan",
-        "salesOrderProductNotFound": "Produk tidak dijumpai",
         "salesOrderChannelNotFound": "Saluran pesanan jualan tidak dijumpai",
         "salesOrderOwnerNotFound": "Pemilik pesanan jualan tidak dijumpai",
         "salesOrderBillingContactNotFound": "Hubungan bil tidak dijumpai",
         "salesOrderShippingContactNotFound": "Hubungan penghantaran tidak dijumpai",
         "salesOrderCountryNotFound": "Negara tidak dijumpai",
-        "salesOrderTableSetupNotFound": "Penyiapan Jadual Pesanan Jualan tidak dijumpai, sila hubungi sokongan"
+        "salesOrderTableSetupNotFound": "Penyiapan Jadual Pesanan Jualan tidak dijumpai, sila hubungi sokongan",
+        "salesOrderAuditEventHistoryIdExists": "Sejarah Acara Audit Pesanan Jualan baru tidak boleh sudah mempunyai ID",
+        "salesOrderProductIdExists": "Produk Pesanan Jualan baru tidak boleh sudah mempunyai ID",
+        "salesOrderProductNotFound": "Produk Pesanan Jualan tidak dijumpai",
+        "salesOrderActivityIdExists": "Aktiviti Pesanan Jualan baru tidak boleh sudah mempunyai ID"
       },
       "tooltips": {
         "setupVisible": true,
@@ -13801,12 +13852,18 @@
               "goTo": "Pergi ke",
               "toSetUpOrContactAdmin": "untuk menyiapkannya atau hubungi Admin anda untuk bantuan.",
               "skillAssignmentConflict": "Kemahiran ini sudah ditugaskan kepada pengguna.",
-              "invalidCredentials": "Kata laluan tidak sepadan. Sila cuba lagi.",
+              "invalidCredentials": "Kelayakan tidak sah. Sila cuba lagi",
               "weakPassword": "Kata laluan mempunyai bahagian daripada nama pengguna",
               "passwordResetEmailSent": "E-mel telah dihantar untuk membantu anda menetapkan semula kata laluan anda.",
               "accountActivationEmailSent": "E-mel telah dihantar kepada anda untuk mengaktifkan akaun tersebut.",
               "duplicateSkillAssignmentConflict": "Kemahiran ini sudah ditugaskan kepada pengguna.",
-              "passwordMeetCriteria": "Sila pastikan kata laluan anda memenuhi semua kriteria yang ditentukan"
+              "passwordMeetCriteria": "Sila pastikan kata laluan anda memenuhi semua kriteria yang ditetapkan",
+              "passwordsDoNotMatch": "Kata laluan tidak sepadan. Sila cuba lagi.",
+              "somethingWentWrong": "Nampaknya ada yang tidak kena, sila cuba lagi.",
+              "ensureNoBlankSpacesUsername": "Sila pastikan tiada ruang kosong sebelum atau selepas nama pengguna anda",
+              "passwordCriteriaNotMet": "Sila pastikan kata laluan anda memenuhi semua kriteria yang ditetapkan.",
+              "passwordsDoNotMatchTryAgain": "Kata laluan yang anda masukkan tidak sepadan. Sila cuba lagi.",
+              "passwordResetSuccess": "Kata laluan berjaya ditetapkan semula. Teruskan untuk log masuk"
             },
             "listView": {
               "setupVisible": false,
@@ -14255,6 +14312,13 @@
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false
+              },
+              "sec10": {
+                "original": "Journey Settings",
+                "singular": "Tetapan Perjalanan",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
               }
             },
             "fields": {
@@ -14311,6 +14375,27 @@
               "helpdeskEmail": {
                 "original": "Helpdesk Email",
                 "singular": "Emel Helpdesk",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "mileageTracking": {
+                "original": "Mileage Tracking",
+                "singular": "Penjejakan Jarak",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "estimateMileageTracking": {
+                "original": "Estimate Mileage Tracking",
+                "singular": "Anggaran Penjejakan Jarak",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "liveMileageTracking": {
+                "original": "Live Mileage Tracking",
+                "singular": "Penjejakan Jarak Langsung",
                 "plural": "",
                 "setupEdit": true,
                 "setupVisible": false
@@ -15063,6 +15148,13 @@
                   "default": {
                     "original": "Default",
                     "singular": "Lalai",
+                    "plural": "",
+                    "setupEdit": true,
+                    "setupVisible": false
+                  },
+                  "code": {
+                    "original": "Code",
+                    "singular": "Kod",
                     "plural": "",
                     "setupEdit": true,
                     "setupVisible": false

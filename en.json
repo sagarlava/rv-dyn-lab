@@ -1659,7 +1659,15 @@
     "validationBE": {
       "maintenanceIdExists": "A new maintenance cannot already have an ID",
       "maintenanceNotFound": "Maintenance not found",
-      "assetHasActiveMaintenance": "The asset already has an active maintenance"
+      "assetHasActiveMaintenance": "The asset already has an active maintenance",
+      "maintenanceItemIdExists": "A new Maintenance Item cannot already have an ID",
+      "maintenanceItemIdNotFound": "Id not found",
+      "maintenanceItemNotFound": "Maintenance Item not found",
+      "maintenanceItemInvalidStatus": "Only allowed statuses: COMPLETED/PENDING/OVER_DUE",
+      "maintenanceItemHasJobOrderOrMaintenanceStatus": "Active Job Order or COMPLETED/OVERDUE Schedules Data exists in the system for the Maintenance Item",
+      "maintenanceItemHasJobOrder": "Job Order Data exists in the system for the Maintenance Item",
+      "maintenanceItemUnableToDelete": "Only allowed to delete PENDING Maintenance Status",
+      "maintenanceItemTableSetupNotFound": "Maintenance Item Table Setup not found, please contact support"
     },
     "tooltips": {
       "setupVisible": true,
@@ -1837,7 +1845,13 @@
         "preventativeMaintenanceTemplateInvalidReminderTo": "Invalid send reminder to",
         "preventativeTemplateHasPreventativeFrequency": "Preventative Frequency Data exists in the system for the Preventative Template",
         "preventativeTemplateIdExists": "A new Preventative Template cannot already have an ID",
-        "preventativeTemplateSendReminderToInvalid": "Invalid value for send_reminder_to"
+        "preventativeTemplateSendReminderToInvalid": "Invalid value for send_reminder_to",
+        "pmFrequencyPartsIdExists": "A new PmFrequencyParts cannot already have an ID",
+        "preventativeFrequencyPartsIdExists": "A new Preventative Frequency Parts cannot already have an ID",
+        "preventativeFrequencyIdExists": "A new Preventative Frequency cannot already have an ID",
+        "preventativeMaintenanceFrequencyIdExists": "A new Preventative Maintenance Frequency cannot already have an ID",
+        "preventativeMaintenanceTemplateIdExists": "A new Preventative Maintenance Template cannot already have an ID",
+        "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Preventative Maintenance Frequency Data exists in the system for the Preventative Maintenance Template"
     },
     "tooltips": {
       "setupVisible": true,
@@ -4091,7 +4105,41 @@
         "taskJobOrderExidValidation": "Invalid Job Order externalId",
         "taskSiteExidValidation": "Invalid Site externalId",
         "taskProjectExidValidation": "Invalid Project externalId",
-        "taskAssignedToLiteUserLoginValidation": "Invalid assigned to lite user login"
+        "taskAssignedToLiteUserLoginValidation": "Invalid assigned to lite user login",
+        "recommendationLimitedUsersAvailable": "Only limited users available for your criteria",
+        "recommendationBestFitUsersNotFound": "Best fit users for your criteria not found",
+        "recommendationTaskNotFound": "Recommend task not found",
+        "requestAssistanceIdExists": "A new Request Assistance cannot already have an ID",
+        "requestAssistanceIdNotFound": "Id not found",
+        "routeIdExists": "A new Route cannot already have an ID",
+        "scheduleIdExists": "A new Schedule cannot already have an ID",
+        "scheduleTaskIdExists": "A new Schedule Task cannot already have an ID",
+        "taskActivityIdExists": "A new Task Activity cannot already have an ID",
+        "taskBucketIdExists": "A new Task Bucket cannot already have an ID",
+        "taskDynamicSkillIdExists": "A new Task Dynamic Skill cannot already have an ID",
+        "taskDynamicSkillIdNotFound": "Id not found",
+        "taskExternalCalendarIdExists": "A new Task External Calendar cannot already have an ID",
+        "taskNoteIdExists": "A new Task Note cannot already have an ID",
+        "taskNoteWithIdNotFound": "Invalid ID",
+        "teamIdExists": "A new Team cannot already have an ID",
+        "teamIdNotFound": "Id not found",
+        "teamNotFound": "Team not found",
+        "teamIdRequired": "teamId is required",
+        "teamStartDateEndDateNotFound": "startDate and endDate parameters not found",
+        "teamUserIdRequired": "userId is required",
+        "teamIdsRequired": "teamIds not allowed to be null or empty",
+        "teamHasTask": "Task Data exists in the system for the Team",
+        "teamWithIdNotFound": "Invalid ID",
+        "teamUserNotFound": "Team User not found",
+        "teamUserPositionNotFound": "Team User Position not found",
+        "teamUserIdNotFound": "Id not found",
+        "teamUserTeamIdNotFound": "Team User teamId not found",
+        "teamUserUserIdNotFound": "Team User userId not found",
+        "teamUserIdExists": "A new Team User cannot already have an ID",
+        "teamSkillIdExists": "A new Team Skill cannot already have an ID",
+        "userTaskIdExists": "A new User Task cannot already have an ID",
+        "userTaskIdNotFound": "Id not found",
+        "userTaskNotFound": "User Task not found"
     },
     "tooltips": {
       "setupVisible": true,
@@ -4697,13 +4745,16 @@
       "salesOrderHasCustomerPayment": "Customer Payment Data exists in the system for the Sales order",
       "salesOrderHasCustomerPurchase": "Customer Purchase Data exists in the system for the Sales order",
       "salesOrderHasContract": "Contract Data exists in the system for the Sales order",
-      "salesOrderProductNotFound": "Product not found",
       "salesOrderChannelNotFound": "Sales order channel not found",
       "salesOrderOwnerNotFound": "Sales order owner not found",
       "salesOrderBillingContactNotFound": "Billing contact not found",
       "salesOrderShippingContactNotFound": "Shipping contact not found",
       "salesOrderCountryNotFound": "Country not found",
-      "salesOrderTableSetupNotFound": "Sales order Table Setup not found, please contact support"
+      "salesOrderTableSetupNotFound": "Sales order Table Setup not found, please contact support",
+      "salesOrderAuditEventHistoryIdExists": "A new Sales Order Audit Event History cannot already have an ID",
+      "salesOrderProductIdExists": "A new Sales Order Product cannot already have an ID",
+      "salesOrderProductNotFound": "Sales Order Product not found",
+      "salesOrderActivityIdExists": "A new Sales Order Activity cannot already have an ID"
     },
     "tooltips": {
       "setupVisible": true,
@@ -13808,12 +13859,18 @@
           "goTo": "Go to",
           "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance.",
           "skillAssignmentConflict": "These skills are already assigned to the user.",
-          "invalidCredentials": "Passwords do not match. Please try again.",
+          "invalidCredentials": "Invalid credentials. Please try again",
           "weakPassword": "Password has part of username",
           "passwordResetEmailSent": "An email has been sent to help you reset your password.",
           "accountActivationEmailSent": "An email has been sent to you to activate the account.",
           "duplicateSkillAssignmentConflict": "These skills are already assigned to the user.",
-          "passwordMeetCriteria":"Please ensure your password meets all the specified criteria"
+          "passwordMeetCriteria":"Please ensure your password meets all the specified criteria",
+          "passwordsDoNotMatch": "Passwords do not match. Please try again.",
+          "somethingWentWrong": "Looks like something went wrong, please try again.",
+          "ensureNoBlankSpacesUsername": "Please ensure you have no blank spaces before or after your username",
+          "passwordCriteriaNotMet": "Please ensure your password meets all the specified criteria.",
+          "passwordsDoNotMatchTryAgain": "The passwords you entered do not match. Please try again.",
+          "passwordResetSuccess": "Password successfully reset. Proceed to login"
         },
         "listView": {
           "setupVisible": false,
@@ -14262,6 +14319,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec10": {
+            "original": "Journey Settings",
+            "singular": "Journey Settings",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -14318,6 +14382,27 @@
           "helpdeskEmail": {
             "original": "Helpdesk Email",
             "singular": "Helpdesk Email",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "mileageTracking": {
+            "original": "Mileage Tracking",
+            "singular": "Mileage Tracking",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "estimateMileageTracking": {
+            "original": "Estimate Mileage Tracking",
+            "singular": "Estimate Mileage Tracking",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "liveMileageTracking": {
+            "original": "Live Mileage Tracking",
+            "singular": "Live Mileage Tracking",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15070,6 +15155,13 @@
             "default": {
               "original": "Default",
               "singular": "Default",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": false
+            },
+            "code": {
+              "original": "Code",
+              "singular": "Code",
               "plural": "",
               "setupEdit": true,
               "setupVisible": false

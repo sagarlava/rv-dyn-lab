@@ -13801,12 +13801,18 @@
                 "goTo": "去",
                 "toSetUpOrContactAdmin": "去设置这些或联系您的管理员以获取帮助。",
                 "skillAssignmentConflict": "这些技能已分配给用户。",
-                "invalidCredentials": "密码不匹配。请再试一次。",
+                "invalidCredentials": "凭证无效。请再试一次",
                 "weakPassword": "密码包含用户名的一部分",
                 "passwordResetEmailSent": "已发送电子邮件以帮助您重置密码。",
                 "accountActivationEmailSent": "已向您发送电子邮件以激活账户。",
-                "duplicateSkillAssignmentConflict": "这些技能已分配给用户。",
-                "passwordMeetCriteria": "请确保您的密码符合所有指定的标准"
+                "duplicateSkillAssignmentConflict": "这些技能已分配给用户。", 
+                "passwordMeetCriteria": "请确保您的密码符合所有指定的标准",
+                "passwordsDoNotMatch": "密码不匹配。请再试一次。",
+                "somethingWentWrong": "看起来出了点问题，请再试一次。",
+                "ensureNoBlankSpacesUsername": "请确保您的用户名前后没有空格",
+                "passwordCriteriaNotMet": "请确保您的密码符合所有指定的标准。",
+                "passwordsDoNotMatchTryAgain": "您输入的密码不匹配。请再试一次。",
+                "passwordResetSuccess": "密码重置成功。继续登录"
               },
               "listView": {
                 "setupVisible": false,

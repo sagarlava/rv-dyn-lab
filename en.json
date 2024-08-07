@@ -13801,12 +13801,18 @@
           "goTo": "Go to",
           "toSetUpOrContactAdmin": "to set these up or contact your Admin for assistance.",
           "skillAssignmentConflict": "These skills are already assigned to the user.",
-          "invalidCredentials": "Passwords do not match. Please try again.",
+          "invalidCredentials": "Invalid credentials. Please try again",
           "weakPassword": "Password has part of username",
           "passwordResetEmailSent": "An email has been sent to help you reset your password.",
           "accountActivationEmailSent": "An email has been sent to you to activate the account.",
           "duplicateSkillAssignmentConflict": "These skills are already assigned to the user.",
-          "passwordMeetCriteria":"Please ensure your password meets all the specified criteria"
+          "passwordMeetCriteria":"Please ensure your password meets all the specified criteria",
+          "passwordsDoNotMatch": "Passwords do not match. Please try again.",
+          "somethingWentWrong": "Looks like something went wrong, please try again.",
+          "ensureNoBlankSpacesUsername": "Please ensure you have no blank spaces before or after your username",
+          "passwordCriteriaNotMet": "Please ensure your password meets all the specified criteria.",
+          "passwordsDoNotMatchTryAgain": "The passwords you entered do not match. Please try again.",
+          "passwordResetSuccess": "Password successfully reset. Proceed to login"
         },
         "listView": {
           "setupVisible": false,

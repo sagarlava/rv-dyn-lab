@@ -13801,12 +13801,18 @@
               "goTo": "Pergi ke",
               "toSetUpOrContactAdmin": "untuk menyiapkannya atau hubungi Admin anda untuk bantuan.",
               "skillAssignmentConflict": "Kemahiran ini sudah ditugaskan kepada pengguna.",
-              "invalidCredentials": "Kata laluan tidak sepadan. Sila cuba lagi.",
+              "invalidCredentials": "Kelayakan tidak sah. Sila cuba lagi",
               "weakPassword": "Kata laluan mempunyai bahagian daripada nama pengguna",
               "passwordResetEmailSent": "E-mel telah dihantar untuk membantu anda menetapkan semula kata laluan anda.",
               "accountActivationEmailSent": "E-mel telah dihantar kepada anda untuk mengaktifkan akaun tersebut.",
               "duplicateSkillAssignmentConflict": "Kemahiran ini sudah ditugaskan kepada pengguna.",
-              "passwordMeetCriteria": "Sila pastikan kata laluan anda memenuhi semua kriteria yang ditentukan"
+              "passwordMeetCriteria": "Sila pastikan kata laluan anda memenuhi semua kriteria yang ditetapkan",
+              "passwordsDoNotMatch": "Kata laluan tidak sepadan. Sila cuba lagi.",
+              "somethingWentWrong": "Nampaknya ada yang tidak kena, sila cuba lagi.",
+              "ensureNoBlankSpacesUsername": "Sila pastikan tiada ruang kosong sebelum atau selepas nama pengguna anda",
+              "passwordCriteriaNotMet": "Sila pastikan kata laluan anda memenuhi semua kriteria yang ditetapkan.",
+              "passwordsDoNotMatchTryAgain": "Kata laluan yang anda masukkan tidak sepadan. Sila cuba lagi.",
+              "passwordResetSuccess": "Kata laluan berjaya ditetapkan semula. Teruskan untuk log masuk"
             },
             "listView": {
               "setupVisible": false,

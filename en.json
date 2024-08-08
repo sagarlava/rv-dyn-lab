@@ -5406,7 +5406,7 @@
         "ticketTableSetupNotFound": "Ticket Table Setup not found, please contact support",
         "ticketWithExtIdNotFound": "Invalid ExternalId",
         "ticketChannelNotFound": "Ticket Channel not found",
-        "Ticket Owner not found": "ticketOwnerNotFound",
+        "ticketOwnerNotFound": "Ticket Owner not found",
         "ticketStatusNotFound": "Ticket Status not found",
         "ticketTypeNotFound": "Ticket Type not found",
         "ticketDepartmentNotFound": "Ticket Department not found",
@@ -11289,6 +11289,13 @@
         "original": "Generate",
         "singular": "Generate",
         "plural": "Generate",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "continue": {
+        "original": "Continue",
+        "singular": "Continue",
+        "plural": "Continue",
         "setupEdit": true,
         "setupVisible": true
       },

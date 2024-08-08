@@ -13615,6 +13615,27 @@
                 "plural": "Tapis Mengikut",
                 "setupEdit": true,
                 "setupVisible": false
+              },
+              "sec19": {
+                "original": "List Views",
+                "singular": "List View",
+                "plural": "List Views",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec20": {
+                "original": "Default List Views",
+                "singular": "Default List View",
+                "plural": "Default List Views",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec21": {
+                "original": "Confirm List View Update",
+                "singular": "Confirm List View Update",
+                "plural": "Confirm List View Update",
+                "setupEdit": true,
+                "setupVisible": false
               }
             },
             "fields": {
@@ -13807,6 +13828,13 @@
                 "plural": "Ahli",
                 "setupEdit": true,
                 "setupVisible": false
+              },
+              "module": {
+                  "original": "Module",
+                  "singular": "Modul",
+                  "plural": "Modul",
+                  "setupEdit": true,
+                  "setupVisible": false
               }
             },
             "validationFE": {},
@@ -13863,58 +13891,13 @@
               "ensureNoBlankSpacesUsername": "Sila pastikan tiada ruang kosong sebelum atau selepas nama pengguna anda",
               "passwordCriteriaNotMet": "Sila pastikan kata laluan anda memenuhi semua kriteria yang ditetapkan.",
               "passwordsDoNotMatchTryAgain": "Kata laluan yang anda masukkan tidak sepadan. Sila cuba lagi.",
-              "passwordResetSuccess": "Kata laluan berjaya ditetapkan semula. Teruskan untuk log masuk"
-            },
-            "listView": {
-              "setupVisible": false,
-              "label": {
-                "original": "List Views",
-                "singular": "Paparan Senarai",
-                "plural": "Paparan Senarai",
-                "setupEdit": true,
-                "setupVisible": false
-              },
-              "sections": {
-                "setupVisible": false,
-                "sec0": {
-                  "original": "Default List Views",
-                  "singular": "Paparan Senarai Lalai",
-                  "plural": "Paparan Senarai Lalai",
-                  "setupEdit": true,
-                  "setupVisible": false
-                },
-                "sec1": {
-                  "original": "Confirm List View Update",
-                  "singular": "Sahkan Kemas Kini Paparan Senarai",
-                  "plural": "Sahkan Kemas Kini Paparan Senarai",
-                  "setupEdit": true,
-                  "setupVisible": false
-                }
-              },
-              "fields": {
-                "setupVisible": false,
-                "module": {
-                  "original": "Module",
-                  "singular": "Modul",
-                  "plural": "Modul",
-                  "setupEdit": true,
-                  "setupVisible": false
-                },
-                "listViewEachModule": {
-                  "original": "These are the list views you see for each module. You may edit and change these as preferred. To set these up, go to the module's 'List View' section, under Setup > Modules, or contact your administrator for assistance.",
-                  "singular": "Ini adalah paparan senarai yang anda lihat untuk setiap modul. Anda boleh mengedit dan menukar ini mengikut keutamaan. Untuk menyiapkannya, pergi ke bahagian 'Paparan Senarai' modul, di bawah Tetapan > Modul, atau hubungi pentadbir anda untuk mendapatkan bantuan.",
-                  "plural": "Ini adalah paparan senarai yang anda lihat untuk setiap modul. Anda boleh mengedit dan menukar ini mengikut keutamaan. Untuk menyiapkannya, pergi ke bahagian 'Paparan Senarai' modul, di bawah Tetapan > Modul, atau hubungi pentadbir anda untuk mendapatkan bantuan.",
-                  "setupEdit": true,
-                  "setupVisible": false
-                }
-              },
-              "messages": {
-                "for": "untuk",
-                "willBeUpdatedTo": "akan dikemas kini kepada",
-                "listViewCapacityReached": "Maksimum 13 lajur boleh ditambah ke paparan senarai ini.",
-                "selectDefaultTemplate": "Pilih Templat Lalai",
-                "usersOnly": "hanya pengguna"
-              }
+              "passwordResetSuccess": "Kata laluan berjaya ditetapkan semula. Teruskan untuk log masuk",
+              "for": "untuk",
+              "willBeUpdatedTo": "akan dikemas kini kepada",
+              "listViewCapacityReached": "Maksimum 13 lajur boleh ditambah ke paparan senarai ini.",
+              "selectDefaultTemplate": "Pilih Templat Lalai",
+              "usersOnly": "hanya pengguna",
+              "listViewEachModule":"Ini adalah paparan senarai yang anda lihat untuk setiap modul. Anda boleh mengedit dan menukar ini mengikut keutamaan. Untuk menyiapkannya, pergi ke bahagian 'Paparan Senarai' modul, di bawah Tetapan > Modul, atau hubungi pentadbir anda untuk mendapatkan bantuan."
             }
           },
           "groups": {

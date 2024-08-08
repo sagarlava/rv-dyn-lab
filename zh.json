@@ -13615,6 +13615,27 @@
                 "plural": "筛选条件",
                 "setupEdit": true,
                 "setupVisible": false
+              },
+              "sec19": {
+                "original": "List Views",
+                "singular": "列表视图",
+                "plural": "列表视图",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec20": {
+                "original": "Default List Views",
+                "singular": "默认列表视图",
+                "plural": "默认列表视图",
+                "setupEdit": true,
+                "setupVisible": false
+              },
+              "sec21": {
+                "original": "Confirm List View Update",
+                "singular": "确认列表视图更新",
+                "plural": "确认列表视图更新",
+                "setupEdit": true,
+                "setupVisible": false
               }
             },
             "fields": {
@@ -13807,6 +13828,13 @@
                 "plural": "成员",
                 "setupEdit": true,
                 "setupVisible": false
+              },
+              "module": {
+                "original": "Module",
+                "singular": "模块",
+                "plural": "模块",
+                "setupEdit": true,
+                "setupVisible": false
               }
               },
               "validationFE": {},
@@ -13863,58 +13891,13 @@
                 "ensureNoBlankSpacesUsername": "请确保您的用户名前后没有空格",
                 "passwordCriteriaNotMet": "请确保您的密码符合所有指定的标准。",
                 "passwordsDoNotMatchTryAgain": "您输入的密码不匹配。请再试一次。",
-                "passwordResetSuccess": "密码重置成功。继续登录"
-              },
-              "listView": {
-                "setupVisible": false,
-                "label": {
-                  "original": "List Views",
-                  "singular": "列表视图",
-                  "plural": "列表视图",
-                  "setupEdit": true,
-                  "setupVisible": false
-                },
-                "sections": {
-                  "setupVisible": false,
-                  "sec0": {
-                    "original": "Default List Views",
-                    "singular": "默认列表视图",
-                    "plural": "默认列表视图",
-                    "setupEdit": true,
-                    "setupVisible": false
-                  },
-                  "sec1": {
-                    "original": "Confirm List View Update",
-                    "singular": "确认列表视图更新",
-                    "plural": "确认列表视图更新",
-                    "setupEdit": true,
-                    "setupVisible": false
-                  }
-                },
-                "fields": {
-                  "setupVisible": false,
-                  "module": {
-                    "original": "Module",
-                    "singular": "模块",
-                    "plural": "模块",
-                    "setupEdit": true,
-                    "setupVisible": false
-                  },
-                  "listViewEachModule": {
-                    "original": "These are the list views you see for each module. You may edit and change these as preferred. To set these up, go to the module's 'List View' section, under Setup > Modules, or contact your administrator for assistance.",
-                    "singular": "这些是您为每个模块看到的列表视图。您可以根据需要编辑和更改这些视图。要设置这些视图，请转到模块的'列表视图'部分，位于设置 > 模块下，或联系您的管理员以获取帮助。",
-                    "plural": "这些是您为每个模块看到的列表视图。您可以根据需要编辑和更改这些视图。要设置这些视图，请转到模块的'列表视图'部分，位于设置 > 模块下，或联系您的管理员以获取帮助。",
-                    "setupEdit": true,
-                    "setupVisible": false
-                  }
-                },
-                "messages": {
-                  "for": "为",
-                  "willBeUpdatedTo": "将更新为",
-                  "listViewCapacityReached": "此列表视图最多可以添加13列。",
-                  "selectDefaultTemplate": "选择默认模板",
-                  "usersOnly": "仅用户"
-                }
+                "passwordResetSuccess": "密码重置成功。继续登录",
+                "for": "为",
+                "willBeUpdatedTo": "将更新为",
+                "listViewCapacityReached": "此列表视图最多可以添加13列。",
+                "selectDefaultTemplate": "选择默认模板",
+                "usersOnly": "仅用户",
+                "listViewEachModule": "这些是您为每个模块看到的列表视图。您可以根据需要编辑和更改这些视图。要设置这些视图，请转到模块的'列表视图'部分，位于设置 > 模块下，或联系您的管理员以获取帮助。"
               }
           },
           "groups": {

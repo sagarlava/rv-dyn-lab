@@ -18946,6 +18946,9 @@
               "setupEdit": true,
               "setupVisible": false
             }
+          },
+          "messages":{
+            "subjectGoesHere": "Subject goes here"
           }
         },
         "builder":{
@@ -19072,7 +19075,10 @@
           "messages":{
             "firstSelectSettings":"First select a module in the 'Settings' tab to start building your email",
             "includeButtonInEmail":"include a button in the email",
-            "includeTableInEmail":"include a table in the email"
+            "includeTableInEmail":"include a table in the email",
+            "selectFieldFilter":"Select Field to Filter",
+            "selectModule":"Select Module",
+            "selectSortBy":"Select Sort By"
           }
         }
       }

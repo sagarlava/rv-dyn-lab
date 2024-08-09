@@ -18946,6 +18946,9 @@
                 "setupEdit": true,
                 "setupVisible": false
             }
+          },
+          "messages": {
+            "subjectGoesHere": "主题在此"
           }
         },
         "builder":{
@@ -19072,7 +19075,10 @@
           "messages": {
               "firstSelectSettings": "首先在“设置”选项卡中选择一个模块以开始构建电子邮件",
               "includeButtonInEmail": "在电子邮件中包含一个按钮",
-              "includeTableInEmail": "在电子邮件中包含一个表格"
+              "includeTableInEmail": "在电子邮件中包含一个表格",
+              "selectFieldFilter": "选择筛选字段",
+              "selectModule": "选择模块",
+              "selectSortBy": "选择排序方式"
           }
         }
       }

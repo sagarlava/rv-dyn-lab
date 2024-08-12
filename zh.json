@@ -2169,7 +2169,7 @@
         }
     },
   "contractMaintenance": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Contract Maintenance",
         "singular": "合同维护",
@@ -2619,7 +2619,7 @@
     }
   },
   "journey": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Journey",
         "singular": "旅程",
@@ -4856,7 +4856,7 @@
       }
   },
   "project": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Project",
           "singular": "项目",
@@ -5079,7 +5079,7 @@
       }
   },
   "ticket": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Ticket",
           "singular": "工单",
@@ -8167,7 +8167,7 @@
       }
   },
   "inventory": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Inventory",
           "singular": "库存",
@@ -8585,7 +8585,7 @@
       }
   },
   "bin": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Bins",
           "singular": "仓位",
@@ -8797,7 +8797,7 @@
       }
   },
   "binTransfer": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Bin Transfer",
           "singular": "仓位转移",
@@ -9074,6 +9074,7 @@
       }
   },
   "checkAvailibility": {
+    "setupVisible": false,
     "label": {
       "original": "Check availability",
       "singular": "检查可用性",
@@ -9143,7 +9144,7 @@
     }
   },
   "consignment": {
-      "setupVisible": true,
+     "setupVisible": false,
       "label": {
           "original": "Consignment",
           "singular": "寄售",
@@ -9406,7 +9407,7 @@
       }
   },
   "requisition": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Requisition",
           "singular": "请购单",
@@ -9747,7 +9748,7 @@
       }
   },
   "contacts": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Contact",
         "singular": "联系人",
@@ -10128,7 +10129,7 @@
       }
   },
   "history": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "History",
           "singular": "历史记录",
@@ -10351,7 +10352,7 @@
       }
   },
   "general": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "General",
         "singular": "常规",
@@ -19463,7 +19464,7 @@
     }
   },
   "message": {
-      "setupVisible": true,
+     "setupVisible": false,
       "label": {
           "original": "Message",
           "singular": "消息",
@@ -19693,7 +19694,7 @@
     }
   },
   "leave": {
-      "setupVisible": true,
+     "setupVisible": false,
       "label": {
           "original": "Leave",
           "singular": "请假",
@@ -20119,7 +20120,7 @@
     }
   },
   "dashboard": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Dashboard",
         "singular": "仪表板",
@@ -21166,7 +21167,7 @@
       }
   },
   "machineSpecialist": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
         "original": "Machine Specialist",
         "singular": "机器专家",
@@ -21293,7 +21294,7 @@
     }
   },
   "attendance": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
         "original": "Attendance",
         "singular": "考勤",
@@ -21405,7 +21406,7 @@
     }
   },
   "overtime": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
         "original": "Overtime",
         "singular": "加班",
@@ -21523,7 +21524,7 @@
     }
   },
   "productivity": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Productivity",
       "singular": "生产力",
@@ -21930,7 +21931,7 @@
     }
   },
   "visits": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Visits",
       "singular": "访问",
@@ -22071,7 +22072,7 @@
     }
   },
   "pmv": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "PMV",
       "singular": "PMV",

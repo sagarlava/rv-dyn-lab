@@ -2169,7 +2169,7 @@
       }
   },
   "contractMaintenance": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
         "original": "Contract Maintenance",
         "singular": "Penyelenggaraan Kontrak",
@@ -2619,7 +2619,7 @@
       }
   },
   "journey": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Journey",
         "singular": "Perjalanan",
@@ -4856,7 +4856,7 @@
     }
   },
   "project": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Project",
           "singular": "Projek",
@@ -5079,7 +5079,7 @@
       }
   },
   "ticket": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Ticket",
           "singular": "Tiket",
@@ -8167,7 +8167,7 @@
       }
   },
   "inventory": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Inventory",
           "singular": "Inventori",
@@ -8585,7 +8585,7 @@
       }
   },
   "bin": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Bins",
           "singular": "Bin",
@@ -8797,7 +8797,7 @@
       }
   },
   "binTransfer": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Bin Transfer",
           "singular": "Pemindahan Bin",
@@ -9074,6 +9074,7 @@
       }
   },
   "checkAvailibility": {
+    "setupVisible": false,
     "label": {
       "original": "Check availability",
       "singular": "Periksa ketersediaan",
@@ -9143,7 +9144,7 @@
     }
   },
   "consignment": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Consignment",
           "singular": "Konsainan",
@@ -9406,7 +9407,7 @@
       }
   },
   "requisition": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Requisition",
           "singular": "Permintaan",
@@ -9747,7 +9748,7 @@
       }
   },
   "contacts": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Contact",
         "singular": "Kontak",
@@ -10128,7 +10129,7 @@
       }
   },
   "history": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "History",
           "singular": "Rekod Sejarah",
@@ -10351,7 +10352,7 @@
       }
   },
   "general": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "General",
         "singular": "Umum",
@@ -19463,7 +19464,7 @@
     }
   },
   "message": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Message",
           "singular": "Mesej",
@@ -19693,7 +19694,7 @@
     }
   },
   "leave": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Leave",
           "singular": "Cuti",
@@ -19892,7 +19893,7 @@
       }
   },
   "login": {
-      "setupVisible": true,
+     "setupVisible": false,
       "label": {
           "original": "Log In",
           "singular": "Log In",
@@ -19956,7 +19957,7 @@
       }
   },
   "resetPassword": {
-      "setupVisible": true,
+     "setupVisible": false,
       "label": {
           "original": "Reset Password",
           "singular": "Reset Password",
@@ -20049,7 +20050,7 @@
       }
   },
   "createProfile": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
           "original": "Create your profile",
           "singular": "Create your profile",
@@ -20119,7 +20120,7 @@
     }
   },
   "dashboard": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Dashboard",
         "singular": "Papan Pemuka",
@@ -21166,7 +21167,7 @@
     }
   },
   "machineSpecialist": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
         "original": "Machine Specialist",
         "singular": "Pakar Mesin",
@@ -21293,7 +21294,7 @@
     }
   },
   "attendance": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
         "original": "Attendance",
         "singular": "Kehadiran",
@@ -21405,7 +21406,7 @@
     }
   },
   "overtime": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
         "original": "Overtime",
         "singular": "Lebih Masa",
@@ -21523,7 +21524,7 @@
     }
   },
   "productivity": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Productivity",
       "singular": "Produktiviti",
@@ -21930,7 +21931,7 @@
     }
   },
   "visits": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Visits",
       "singular": "Lawatan",
@@ -22071,7 +22072,7 @@
     }
   },
   "pmv": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "PMV",
       "singular": "PMV",

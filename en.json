@@ -2169,7 +2169,7 @@
     }
   },
   "contractMaintenance": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Contract Maintenance",
       "singular": "Contract Maintenance",
@@ -2619,7 +2619,7 @@
     }
   },
   "journey": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Journey",
       "singular": "Journey",
@@ -4856,7 +4856,7 @@
     }
   },
   "project": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Project",
       "singular": "Project",
@@ -5079,7 +5079,7 @@
     }
   },
   "ticket": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Ticket",
       "singular": "Ticket",
@@ -8167,7 +8167,7 @@
     }
   },
   "inventory": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Inventory",
       "singular": "Inventory",
@@ -8585,7 +8585,7 @@
     }
   },
   "bin": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Bins",
       "singular": "Bin",
@@ -8797,7 +8797,7 @@
     }
   },
   "binTransfer": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Bin Transfer",
       "singular": "Bin Transfer",
@@ -9074,6 +9074,7 @@
     }
   },
   "checkAvailibility": {
+    "setupVisible": false,
     "label": {
       "original": "Check availability",
       "singular": "Check availability",
@@ -9143,7 +9144,7 @@
       }
   },
   "consignment": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Consignment",
       "singular": "Consignment",
@@ -9406,7 +9407,7 @@
     }
   },
   "requisition": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Requisition",
       "singular": "Requisition",
@@ -9747,7 +9748,7 @@
     }
   },
   "contacts": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Contact",
       "singular": "Contact",
@@ -10128,7 +10129,7 @@
     }
   },
   "history": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "History",
       "singular": "History",
@@ -19693,7 +19694,7 @@
     }
   },
   "leave": {
-    "setupVisible": true,
+   "setupVisible": false,
     "label": {
       "original": "Leave",
       "singular": "Leave",
@@ -21166,7 +21167,7 @@
     }
   },
   "machineSpecialist": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Machine Specialist",
       "singular": "Machine Specialist",
@@ -21293,7 +21294,7 @@
     }
   },
   "attendance": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Attendance",
       "singular": "Attendance",
@@ -21405,7 +21406,7 @@
     }
   },
   "overtime": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Overtime",
       "singular": "Overtime",
@@ -21523,7 +21524,7 @@
     }
   },
   "productivity": {
-    "setupVisible": true,
+   "setupVisible": false,
     "label": {
       "original": "Productivity",
       "singular": "Productivity",
@@ -21930,7 +21931,7 @@
     }
   },
   "visits": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "Visits",
       "singular": "Visit",
@@ -22071,7 +22072,7 @@
     }
   },
   "pmv": {
-    "setupVisible": true,
+    "setupVisible": false,
     "label": {
       "original": "PMV",
       "singular": "PMV",

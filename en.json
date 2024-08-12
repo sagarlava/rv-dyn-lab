@@ -3177,6 +3177,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec27": {
+        "original": "Task Journey",
+        "singular": "Task Journey",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -4090,6 +4097,55 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "staffMember": {
+        "original": "Staff Members",
+        "singular": "Staff Member",
+        "plural": "Staff Members",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "teamMember": {
+        "original": "Team Members",
+        "singular": "Team Member",
+        "plural": "Team Members",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "month": {
+        "original": "Month",
+        "singular": "Month",
+        "plural": "Months",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "week": {
+        "original": "Week",
+        "singular": "Week",
+        "plural": "Weeks",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "day": {
+        "original": "Day",
+        "singular": "Day",
+        "plural": "Days",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "utilization": {
+        "original": "Utilization",
+        "singular": "Utilization",
+        "plural": "Utilization",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "makeOwner": {
+        "original": "Make Owner",
+        "singular": "Make Owner",
+        "plural": "Make Owner",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},

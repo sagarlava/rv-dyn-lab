@@ -3177,6 +3177,13 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
+          },
+          "sec27": {
+              "original": "Task Journey",
+              "singular": "Perjalanan Tugas",
+              "plural": "",
+              "setupEdit": true,
+              "setupVisible": true
           }
       },
       "fields": {
@@ -4090,7 +4097,56 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
-          }     
+          },
+          "staffMember": {
+            "original": "Staff Members",
+            "singular": "Ahli Kakitangan",
+            "plural": "Ahli Kakitangan",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "teamMember": {
+            "original": "Team Members",
+            "singular": "Ahli Pasukan",
+            "plural": "Ahli Pasukan",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "month": {
+            "original": "Month",
+            "singular": "Bulan",
+            "plural": "Bulan",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "week": {
+            "original": "Week",
+            "singular": "Minggu",
+            "plural": "Minggu",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "day": {
+            "original": "Day",
+            "singular": "Hari",
+            "plural": "Hari",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "utilization": {
+            "original": "Utilization",
+            "singular": "Penggunaan",
+            "plural": "Penggunaan",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "makeOwner": {
+            "original": "Make Owner",
+            "singular": "Jadikan Pemilik",
+            "plural": "Jadikan Pemilik",
+            "setupEdit": true,
+            "setupVisible": true
+          }
       },
       "validationFE": {},
       "validationBE": {

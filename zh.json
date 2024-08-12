@@ -3177,6 +3177,13 @@
               "plural": "",
               "setupEdit": true,
               "setupVisible": true
+          },
+          "sec27": {
+            "original": "Task Journey",
+            "singular": "任务行程",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
           }
       },
       "fields": {
@@ -4090,6 +4097,55 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "staffMember": {
+            "original": "Staff Members",
+            "singular": "员工",
+            "plural": "员工",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "teamMember": {
+            "original": "Team Members",
+            "singular": "团队成员",
+            "plural": "团队成员",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "month": {
+            "original": "Month",
+            "singular": "月",
+            "plural": "月",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "week": {
+            "original": "Week",
+            "singular": "周",
+            "plural": "周",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "day": {
+            "original": "Day",
+            "singular": "天",
+            "plural": "天",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "utilization": {
+            "original": "Utilization",
+            "singular": "利用率",
+            "plural": "利用率",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "makeOwner": {
+            "original": "Make Owner",
+            "singular": "设为所有者",
+            "plural": "设为所有者",
+            "setupEdit": true,
+            "setupVisible": true
           }
       },
       "validationFE": {},

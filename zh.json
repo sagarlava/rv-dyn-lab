@@ -5456,7 +5456,8 @@
           "ticketTypeExists": "工单类型已存在",
           "ticketHasTicketType": "系统中存在该工单的类型数据",
           "ticketTypeSystemGenerated": "系统生成的工单类型不允许删除",
-          "ticketTypeIdExists": "新的工单类型不能已有ID"
+          "ticketTypeIdExists": "新的工单类型不能已有ID",
+          "slaTicketIdExists": "新的SLA工单不能已有ID"
       },
       "tooltips": {
         "setupVisible": true,

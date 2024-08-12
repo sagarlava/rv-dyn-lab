@@ -11673,6 +11673,34 @@
             "setupEdit": true,
             "setupVisible": false
           },
+          "incompleted": {
+            "original": "Incompleted",
+            "singular": "未完成",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "applied": {
+            "original": "Applied",
+            "singular": "已申请",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "approved": {
+            "original": "Approved",
+            "singular": "已批准",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "rejected": {
+            "original": "Rejected",
+            "singular": "已拒绝",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
           "messages": {
             "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
             "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",

@@ -19781,7 +19781,8 @@
         "userLeaveIdExists": "新的用户请假记录不能已有ID",
         "userLeaveCannotBeDeleted": "用户请假记录不允许被删除",
         "userLeaveNotFound": "未找到用户请假记录",
-        "userLeaveUserManagerNotFound": "未找到经理，请联系您的管理员"
+        "userLeaveUserManagerNotFound": "未找到经理，请联系您的管理员",
+        "leaveAuditEventHistoryIdExists": "新的请假审核事件历史不能已有ID"
       },
       "messages": {
           "selectOutturnCode": "选择结果代码",

@@ -19781,7 +19781,8 @@
         "userLeaveIdExists": "A new User Leave cannot already have an ID",
         "userLeaveCannotBeDeleted": "User Leave not allowed to be deleted",
         "userLeaveNotFound": "User Leave not found",
-        "userLeaveUserManagerNotFound": "Manager not found, please contact your admin"
+        "userLeaveUserManagerNotFound": "Manager not found, please contact your admin",
+        "leaveAuditEventHistoryIdExists": "A new Leave Audit Event History cannot already have an ID"
     },
     "messages": {
       "selectOutturnCode": "Select Outturn Code",

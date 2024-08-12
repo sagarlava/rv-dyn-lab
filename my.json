@@ -14013,6 +14013,13 @@
       },
       "configuration": {
         "setupVisible": false,
+        "label": {
+          "original": "System Configuration",
+          "singular": "Konfigurasi Sistem",
+          "plural": "Konfigurasi Sistem",
+          "setupEdit": true,
+          "setupVisible": false
+        },
         "systemLabel": {
           "label": {
             "original": "Label",
@@ -14222,6 +14229,13 @@
       },
       "modules": {
           "setupVisible": true,
+          "label":{
+            "original": "Modules",
+            "singular": "Modul",
+            "plural": "Modul",
+            "setupEdit": true,
+            "setupVisible": false
+           },
           "configuration": {
             "setupVisible": false,
             "label": {
@@ -19139,6 +19153,7 @@
         "setupResolutionUnableToDelete": "Tidak dibenarkan untuk memadam nilai sistem",
         "setupResolutionHasJobOrder": "Data Pesanan Kerja wujud dalam sistem untuk Penyelesaian",
         "setupResolutionHasResolutionMapping": "Data Pemetaan Penyelesaian wujud dalam sistem untuk Penyelesaian",
+        "setupResolutionHasResolutionJobOrderMapping": "Data Pemetaan Pesanan Kerja Penyelesaian wujud dalam sistem untuk Penyelesaian",
         "setupJobOrderStatusIdExists": "Status Pesanan Kerja baru tidak boleh sudah mempunyai ID",
         "setupJobOrderStatusIdNotFound": "ID tidak ditemui",
         "setupJobOrderStatusNameNotFound": "Nama tidak ditemui",

@@ -12462,9 +12462,9 @@
       "licenseBilling": {
         "setupVisible": false,
         "label": {
-          "original": "License and Billing",
-          "singular": "License and Billing",
-          "plural": "License and Billing",
+          "original": "Licenses and Billings",
+          "singular": "Licenses and Billings",
+          "plural": "Licenses and Billings",
           "setupEdit": true,
           "setupVisible": false
         },
@@ -14013,6 +14013,13 @@
     },
     "configuration":{
       "setupVisible": false,
+      "label":{
+          "original": "System Configuration",
+          "singular": "System Configuration",
+          "plural": "System Configurations",
+          "setupEdit": true,
+          "setupVisible": false
+      },
       "systemLabel":{
         "label":{
           "original": "Label",
@@ -14222,6 +14229,13 @@
     },
     "modules": {
       "setupVisible": false,
+      "label":{
+        "original": "Modules",
+        "singular": "Module",
+        "plural": "Modules",
+        "setupEdit": true,
+        "setupVisible": false
+       },
       "configuration": {
         "setupVisible": false,
         "label": {

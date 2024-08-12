@@ -14013,6 +14013,13 @@
       },
       "configuration": {
         "setupVisible": false,
+        "label": {
+          "original": "System Configuration",
+          "singular": "系统配置",
+          "plural": "系统配置",
+          "setupEdit": true,
+          "setupVisible": false
+        },
         "systemLabel": {
           "label": {
             "original": "Label",
@@ -14222,6 +14229,13 @@
       },
       "modules": {
           "setupVisible": true,
+          "label": {
+            "original": "Modules",
+            "singular": "模块",
+            "plural": "模块",
+            "setupEdit": true,
+            "setupVisible": false
+          },
           "configuration": {
             "setupVisible": false,
             "label": {

@@ -4416,42 +4416,42 @@
               "original": "General Details",
               "singular": "Butiran Am",
               "plural": "Butiran Am",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec1": {
               "original": "Contact Details",
               "singular": "Butiran Hubungan",
               "plural": "Butiran Hubungan",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec2": {
               "original": "Site Details",
               "singular": "Butiran Tapak",
               "plural": "Butiran Tapak",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec3": {
               "original": "Details",
               "singular": "Butiran",
               "plural": "Butiran",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec4": {
               "original": "Filter By",
               "singular": "Tapis Mengikut",
               "plural": "Tapis Mengikut",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec5": {
             "original": "Forms",
             "singular": "Borang",
             "plural": "Borang",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": true
           }
       },
@@ -4461,14 +4461,14 @@
           "original": "Name",
           "singular": "Nama",
           "plural": "Nama",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "status": {
           "original": "Status",
           "singular": "Status",
           "plural": "Status",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "type": {
@@ -4503,7 +4503,7 @@
           "original": "Description",
           "singular": "Penerangan",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "subCategory": {
@@ -4517,63 +4517,63 @@
           "original": "External ID",
           "singular": "ID Luaran",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "email": {
           "original": "Email",
           "singular": "Emel",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "designation": {
           "original": "Designation",
           "singular": "Jawatan",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "phone1": {
           "original": "Phone 1",
           "singular": "Telefon 1",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "phone2": {
           "original": "Phone 2",
           "singular": "Telefon 2",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "siteName": {
           "original": "Site Name",
           "singular": "Nama Tapak",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "siteNumber": {
           "original": "Site Number",
           "singular": "Nombor Tapak",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "userGroup": {
           "original": "User Group",
           "singular": "Kumpulan Pengguna",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "userType": {
           "original": "User Type",
           "singular": "Jenis Pengguna",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         }
       },
@@ -4623,7 +4623,7 @@
               "original": "Site Lookup",
               "singular": "Carian Tapak",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           }
       },

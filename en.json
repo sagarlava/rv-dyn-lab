@@ -4416,42 +4416,42 @@
         "original": "General Details",
         "singular": "General Details",
         "plural": "General Details",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec1": {
         "original": "Contact Details",
         "singular": "Contact Details",
         "plural": "Contact Details",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec2": {
         "original": "Site Details",
         "singular": "Site Details",
         "plural": "Site Details",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec3": {
         "original": "Details",
         "singular": "Details",
         "plural": "Details",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec4": {
         "original": "Filter By",
         "singular": "Filter By",
         "plural": "Filter By",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec5": {
         "original": "Forms",
         "singular": "Form",
         "plural": "Forms",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },
@@ -4461,14 +4461,14 @@
         "original": "Name",
         "singular": "Name",
         "plural": "Names",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "Statuses",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "type": {
@@ -4503,7 +4503,7 @@
         "original": "Description",
         "singular": "Description",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "subCategory": {
@@ -4513,67 +4513,67 @@
         "setupEdit": true,
         "setupVisible": true
       },
-       "extId": {
+      "extId": {
         "original": "External ID",
         "singular": "External ID",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "email": {
         "original": "Email",
         "singular": "Email",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "designation": {
         "original": "Designation",
         "singular": "Designation",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "phone1": {
         "original": "Phone 1",
         "singular": "Phone 1",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "phone2": {
         "original": "Phone 2",
         "singular": "Phone 2",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "siteName": {
         "original": "Site Name",
         "singular": "Site Name",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "siteNumber": {
         "original": "Site Number",
         "singular": "Site Number",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "userGroup": {
         "original": "User Group",
         "singular": "User Group",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "userType": {
         "original": "User Type",
         "singular": "User Type",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },
@@ -4623,7 +4623,7 @@
         "original": "Site Lookup",
         "singular": "Site Lookup",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },

@@ -4416,42 +4416,42 @@
               "original": "General Details",
               "singular": "基本信息 ",
               "plural": "基本信息 ",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec1": {
               "original": "Contact Details",
               "singular": "联系详情",
               "plural": "联系详情",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec2": {
               "original": "Site Details",
               "singular": "站点详情",
               "plural": "站点详情",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec3": {
               "original": "Details",
               "singular": "细节",
               "plural": "细节",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec4": {
               "original": "Filter By",
               "singular": "过滤",
               "plural": "过滤",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec5": {
             "original": "Forms",
             "singular": "表单",
             "plural": "表单",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": true
           }
       },
@@ -4461,14 +4461,14 @@
           "original": "Name",
           "singular": "名称",
           "plural": "名称",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "status": {
           "original": "Status",
           "singular": "状态",
           "plural": "状态",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "type": {
@@ -4503,7 +4503,7 @@
           "original": "Description",
           "singular": "描述",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "subCategory": {
@@ -4517,63 +4517,63 @@
           "original": "External ID",
           "singular": "外部ID",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "email": {
           "original": "Email",
           "singular": "电子邮件",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "designation": {
           "original": "Designation",
           "singular": "职位",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "phone1": {
           "original": "Phone 1",
           "singular": "电话 1",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "phone2": {
           "original": "Phone 2",
           "singular": "电话 2",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "siteName": {
           "original": "Site Name",
           "singular": "站点名称",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "siteNumber": {
           "original": "Site Number",
           "singular": "站点编号",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "userGroup": {
           "original": "User Group",
           "singular": "用户组",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "userType": {
           "original": "User Type",
           "singular": "用户类型",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         }
       },
@@ -4623,7 +4623,7 @@
               "original": "Site Lookup",
               "singular": "场地查找 ",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           }
       },

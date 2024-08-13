@@ -1331,111 +1331,111 @@
           "setupVisible": true
       },
       "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "Accessory Details",
-              "singular": "Butiran Aksesori",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Select an accessory to be added to the contract",
-              "singular": "Pilih aksesori untuk ditambah ke kontrak",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Select Bin to transfer from",
-              "singular": "Pilih Bin untuk dipindahkan dari",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "sec0": {
+            "original": "Accessory Details",
+            "singular": "Butiran Aksesori",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec1": {
+            "original": "Select an accessory to be added to the contract",
+            "singular": "Pilih aksesori untuk ditambah ke kontrak",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec2": {
+            "original": "Select Bin to transfer from",
+            "singular": "Pilih Bin untuk dipindahkan dari",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        }
       },
       "fields": {
-          "setupVisible": true,
-          "assetName": {
-              "original": "Asset Name",
-              "singular": "Nama Aset",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetCode": {
-              "original": "Asset Code",
-              "singular": "Kod Aset",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "serialNo": {
-              "original": "Serial No",
-              "singular": "No Siri",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "serialNumber": {
-              "original": "Serial Number",
-              "singular": "Nombor Siri",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "qty": {
-              "original": "Qty",
-              "singular": "Kuantiti",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "quantity": {
-              "original": "Quantity",
-              "singular": "Kuantiti",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "accessoryName": {
-              "original": "Accessory Name",
-              "singular": "Nama Aksesori",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "accessoryCode": {
-              "original": "Accessory Code",
-              "singular": "Kod Aksesori",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "status": {
-              "original": "Status",
-              "singular": "Status",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "bin": {
-              "original": "Bin",
-              "singular": "Bin",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "assetName": {
+            "original": "Asset Name",
+            "singular": "Nama Aset",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "assetCode": {
+            "original": "Asset Code",
+            "singular": "Kod Aset",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "serialNo": {
+            "original": "Serial No",
+            "singular": "No Siri",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "serialNumber": {
+            "original": "Serial Number",
+            "singular": "Nombor Siri",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "qty": {
+            "original": "Qty",
+            "singular": "Kuantiti",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "quantity": {
+            "original": "Quantity",
+            "singular": "Kuantiti",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "accessoryName": {
+            "original": "Accessory Name",
+            "singular": "Nama Aksesori",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "accessoryCode": {
+            "original": "Accessory Code",
+            "singular": "Kod Aksesori",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "bin": {
+            "original": "Bin",
+            "singular": "Bin",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        }
       },
       "tooltip": {
-          "setupVisible": true,
-          "accessoryLookup": {
-              "original": "Accessory Lookup",
-              "singular": "Carian Aksesori",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "accessoryLookup": {
+            "original": "Accessory Lookup",
+            "singular": "Carian Aksesori",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        }
       },
       "validationBE": {
         "accessoryIdExists": "Aksesori baru tidak boleh mempunyai ID sedia ada",

@@ -1331,111 +1331,111 @@
           "setupVisible": true
       },
       "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "Accessory Details",
-              "singular": "配件详情",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Select an accessory to be added to the contract",
-              "singular": "选择要添加到合同的配件",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Select Bin to transfer from",
-              "singular": "选择要转移的仓位",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "sec0": {
+            "original": "Accessory Details",
+            "singular": "配件详情",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec1": {
+            "original": "Select an accessory to be added to the contract",
+            "singular": "选择要添加到合同的配件",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec2": {
+            "original": "Select Bin to transfer from",
+            "singular": "选择要转移的仓位",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        }
       },
       "fields": {
-          "setupVisible": true,
-          "assetName": {
-              "original": "Asset Name",
-              "singular": "资产名称",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assetCode": {
-              "original": "Asset Code",
-              "singular": "资产代码",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "serialNo": {
-              "original": "Serial No",
-              "singular": "序列号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "serialNumber": {
-              "original": "Serial Number",
-              "singular": "序列号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "qty": {
-              "original": "Qty",
-              "singular": "数量",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "quantity": {
-              "original": "Quantity",
-              "singular": "数量",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "accessoryName": {
-              "original": "Accessory Name",
-              "singular": "配件名称",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "accessoryCode": {
-              "original": "Accessory Code",
-              "singular": "配件代码",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "status": {
-              "original": "Status",
-              "singular": "状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "bin": {
-              "original": "Bin",
-              "singular": "仓位",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "assetName": {
+            "original": "Asset Name",
+            "singular": "资产名称",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "assetCode": {
+            "original": "Asset Code",
+            "singular": "资产代码",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "serialNo": {
+            "original": "Serial No",
+            "singular": "序列号",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "serialNumber": {
+            "original": "Serial Number",
+            "singular": "序列号",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "qty": {
+            "original": "Qty",
+            "singular": "数量",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "quantity": {
+            "original": "Quantity",
+            "singular": "数量",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "accessoryName": {
+            "original": "Accessory Name",
+            "singular": "配件名称",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "accessoryCode": {
+            "original": "Accessory Code",
+            "singular": "配件代码",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "bin": {
+            "original": "Bin",
+            "singular": "仓位",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        }
       },
       "tooltip": {
-          "setupVisible": true,
-          "accessoryLookup": {
-              "original": "Accessory Lookup",
-              "singular": "配件查询",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "accessoryLookup": {
+            "original": "Accessory Lookup",
+            "singular": "配件查询",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        }
       },
       "validationBE": {
         "accessoryIdExists": "新附件不能已有ID",

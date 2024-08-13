@@ -2386,91 +2386,91 @@
           "original": "General Details",
           "singular": "常规详情",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec1": {
           "original": "Checklist Details",
           "singular": "清单详情",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec2": {
           "original": "Select the checklist you'd like to generate for this Asset",
           "singular": "选择要为此资产生成的清单",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec3": {
           "original": "Updating the Asset within Checklist",
           "singular": "在清单中更新资产",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec4": {
           "original": "Update the status of",
           "singular": "更新状态",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec5": {
           "original": "Asset Summary",
           "singular": "资产概述",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec6": {
           "original": "Details",
           "singular": "详情",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec7": {
           "original": "Filter By",
           "singular": "筛选条件",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec8": {
           "original": "Asset Details",
           "singular": "资产详情",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec9": {
           "original": "Questions",
           "singular": "问题",
           "plural": "问题",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec10": {
           "original": "Asset Updates",
           "singular": "资产更新",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec11": {
           "original": "Follow-Up Checklist",
           "singular": "后续清单",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec12": {
           "original": "Change Status",
           "singular": "更改状态",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": false
         }
       },
@@ -2480,98 +2480,98 @@
           "original": "Date Range",
           "singular": "日期范围",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "assetType": {
           "original": "Asset Type",
           "singular": "资产类型",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "assetStatus": {
           "original": "Asset Status",
           "singular": "资产状态",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "checklistNo": {
           "original": "Checklist No",
           "singular": "清单编号",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "checklistName": {
           "original": "Checklist Name",
           "singular": "清单名称",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "equipmentType": {
           "original": "Equipment Type",
           "singular": "设备类型",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "equipmentMeterReading": {
           "original": "Equipment Meter Reading",
           "singular": "设备读数",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "selectAsset": {
           "original": "Select Asset",
           "singular": "选择资产",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "selectChecklistToGenerate": {
           "original": "Select the checklist you'd like to generate for this Asset",
           "singular": "选择要为此资产生成的清单",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "selectOne": {
           "original": "Select one",
           "singular": "选择一个",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "status": {
           "original": "Status",
           "singular": "状态",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "from": {
           "original": "From",
           "singular": "从",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "to": {
           "original": "To",
           "singular": "到",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "checklistToGenerate": {
           "original": "New Checklist to be Generated",
           "singular": "要生成的新清单",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         }
       },
@@ -2600,7 +2600,7 @@
               "original": "Checklist Lookup",
               "singular": "检查清单查询",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           }
       },

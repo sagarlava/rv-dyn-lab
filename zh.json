@@ -21,14 +21,14 @@
           "original": "Main Contact Details",
           "singular": "主要联系人信息",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec2": {
           "original": "Integration Details",
           "singular": "集成信息",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec3": {
@@ -42,21 +42,21 @@
           "original": "Details",
           "singular": "详细信息",
           "plural": "详细信息",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec5": {
           "original": "Customer Details",
           "singular": "客户信息",
           "plural": "客户信息",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sec6": {
           "original": "Overview",
           "singular": "概述",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         }
       },

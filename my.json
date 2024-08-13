@@ -9,56 +9,56 @@
         "setupVisible": true
     },
     "sections": {
-        "setupVisible": true,
-        "sec0": {
+      "setupVisible": true,
+      "sec0": {
         "original": "General Details",
         "singular": "Butiran Am",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-        },
-        "sec1": {
+      },
+      "sec1": {
         "original": "Main Contact Details",
         "singular": "Butiran Hubungan Utama",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
-        },
-        "sec2": {
+      },
+      "sec2": {
         "original": "Integration Details",
         "singular": "Butiran Integrasi",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
-        },
-        "sec3": {
+      },
+      "sec3": {
         "original": "Additional Details",
         "singular": "Butiran Tambahan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-        },
-        "sec4": {
+      },
+      "sec4": {
         "original": "Details",
         "singular": "Butiran",
         "plural": "Butiran",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
-        },
-        "sec5": {
-          "original": "Customer Details",
-          "singular": "Butiran Pelanggan",
-          "plural": "Butiran Pelanggan",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec6": {
-          "original": "Overview",
-          "singular": "Gambaran Keseluruhan",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        }
+      },
+      "sec5": {
+        "original": "Customer Details",
+        "singular": "Butiran Pelanggan",
+        "plural": "Butiran Pelanggan",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "sec6": {
+        "original": "Overview",
+        "singular": "Gambaran Keseluruhan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": true
+      }
     },
     "fields": {
         "setupVisible": true,

@@ -8,7 +8,7 @@
       "setupEdit": true,
       "setupVisible": true
     },
-    "sections": {
+   "sections": {
       "setupVisible": true,
       "sec0": {
         "original": "General Details",
@@ -21,14 +21,14 @@
         "original": "Main Contact Details",
         "singular": "Main Contact Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec2": {
         "original": "Integration Details",
         "singular": "Integration Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec3": {
@@ -42,21 +42,21 @@
         "original": "Details",
         "singular": "Details",
         "plural": "Details",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec5": {
         "original": "Customer Details",
         "singular": "Customer Details",
         "plural": "Customer Details",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec6": {
         "original": "Overview",
         "singular": "Overview",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },

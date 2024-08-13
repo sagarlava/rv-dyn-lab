@@ -1460,28 +1460,28 @@
         "original": "Maintenance Details",
         "singular": "Maintenance Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec1": {
         "original": "Maintenance Template",
         "singular": "Maintenance Template",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec2": {
         "original": "Preventative Maintenance",
         "singular": "Preventative Maintenances",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec3": {
         "original": "Details",
         "singular": "Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },
@@ -1491,189 +1491,189 @@
         "original": "Status",
         "singular": "Status",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "startDate": {
         "original": "Start Date",
         "singular": "Start Date",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "endDate": {
         "original": "End Date",
         "singular": "End Date",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "endTime": {
         "original": "End Time",
         "singular": "End Time",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "assetStatus": {
         "original": "Asset Status",
         "singular": "Asset Status",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "maintenanceTemplate": {
         "original": "Maintenance Template",
         "singular": "Maintenance Template",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sendInitialReminder": {
         "original": "Send Initial Reminder (Days Before)",
         "singular": "Send Initial Reminder (Days Before)",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "followUpReminder": {
         "original": "Follow Up Reminder (Days Before)",
         "singular": "Follow Up Reminder (Days Before)",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sendOverdueReminder": {
         "original": "Send Overdue Reminder (Days After)",
         "singular": "Send Overdue Reminder (Days After)",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "generateNextMaintenance": {
         "original": "Generate Next Maintenance",
         "singular": "Generate Next Maintenance",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "generateAllMaintenanceNow": {
         "original": "Generate All Maintenance Now",
         "singular": "Generate All Maintenance Now",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "onlyUponPreviousCompletion": {
         "original": "Only Upon Previous Completion",
         "singular": "Only Upon Previous Completion",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "autoCreateJobOrder": {
         "original": "Automatically Generate Job Order",
         "singular": "Automatically Generate Job Order",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "initialReminder": {
         "original": "Initial Reminder (Days Before)",
         "singular": "Initial Reminder (Days Before)",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "overdueReminder": {
         "original": "Overdue Reminder (Days After)",
         "singular": "Overdue Reminder (Days After)",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "nextServiceDate": {
         "original": "Next Service Date",
         "singular": "Next Service Date",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "nextServiceType": {
         "original": "Next Service Type",
         "singular": "Next Service Type",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "maintenanceId": {
         "original": "Maintenance ID",
         "singular": "Maintenance ID",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "scheduleNumber": {
         "original": "Scheduled No",
         "singular": "Scheduled No",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "scheduledDateTime": {
         "original": "Scheduled Date",
         "singular": "Scheduled Date",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "serviceType": {
         "original": "Service Type",
         "singular": "Service Type",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "type": {
         "original": "Type",
         "singular": "Type",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "other": {
         "original": "Other",
         "singular": "Other",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "actualCompletionDateTime": {
         "original": "Actual Completion Date",
         "singular": "Actual Completion Date",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "assetName": {
         "original": "Asset Name",
         "singular": "Asset Name",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "maintenanceDate": {
         "original": "Maintenance Date",
         "singular": "Maintenance Date",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "generateJobOrder": {
         "original": "Generate Job Order",
         "singular": "Generate Job Order",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },
@@ -1697,14 +1697,14 @@
         "original": "This is the timeframe in which the maintenance will be active",
         "singular": "This is the timeframe in which the maintenance will be active",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "maintenanceLookup": {
         "original": "Maintenance Lookup",
         "singular": "Maintenance Lookup",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },

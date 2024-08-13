@@ -1460,28 +1460,28 @@
               "original": "Maintenance Details",
               "singular": "维护详情",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec1": {
               "original": "Maintenance Template",
               "singular": "维护模板",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec2": {
               "original": "Preventative Maintenance",
               "singular": "预防性维护",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec3": {
               "original": "Details",
               "singular": "细节",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           }
       },
@@ -1491,189 +1491,189 @@
           "original": "Status",
           "singular": "状态",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "startDate": {
           "original": "Start Date",
           "singular": "开始日期",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "endDate": {
           "original": "End Date",
           "singular": "结束日期",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "endTime": {
           "original": "End Time",
           "singular": "结束时间",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "assetStatus": {
           "original": "Asset Status",
           "singular": "资产状态",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "maintenanceTemplate": {
           "original": "Maintenance Template",
           "singular": "维护模板",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sendInitialReminder": {
           "original": "Send Initial Reminder (Days Before)",
           "singular": "发送初始提醒（提前几天）",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "followUpReminder": {
           "original": "Follow Up Reminder (Days Before)",
           "singular": "发送后续提醒（提前几天）",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sendOverdueReminder": {
           "original": "Send Overdue Reminder (Days After)",
           "singular": "发送逾期提醒（逾期几天）",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "generateNextMaintenance": {
           "original": "Generate Next Maintenance",
           "singular": "生成下一次维护",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "generateAllMaintenanceNow": {
           "original": "Generate All Maintenance Now",
           "singular": "立即生成所有维护",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "onlyUponPreviousCompletion": {
           "original": "Only Upon Previous Completion",
           "singular": "仅在上次完成后",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "autoCreateJobOrder": {
           "original": "Automatically Generate Job Order",
           "singular": "自动生成工作订单",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "initialReminder": {
           "original": "Initial Reminder (Days Before)",
           "singular": "初始提醒（提前几天）",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "overdueReminder": {
           "original": "Overdue Reminder (Days After)",
           "singular": "逾期提醒（逾期几天）",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "nextServiceDate": {
           "original": "Next Service Date",
           "singular": "下次服务日期",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "nextServiceType": {
           "original": "Next Service Type",
           "singular": "下次服务类型",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "maintenanceId": {
           "original": "Maintenance ID",
           "singular": "维护ID",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "scheduleNumber": {
           "original": "Scheduled No",
           "singular": "计划编号",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "scheduledDateTime": {
           "original": "Scheduled Date",
           "singular": "计划日期",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "serviceType": {
           "original": "Service Type",
           "singular": "服务类型",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "type": {
           "original": "Type",
           "singular": "类型",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "other": {
           "original": "Other",
           "singular": "其他",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "actualCompletionDateTime": {
           "original": "Actual Completion Date",
           "singular": "实际完成日期",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "assetName": {
           "original": "Asset Name",
           "singular": "资产名称",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "maintenanceDate": {
           "original": "Maintenance Date",
           "singular": "维护日期",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "generateJobOrder": {
           "original": "Generate Job Order",
           "singular": "生成工作订单",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         }
       },
@@ -1692,21 +1692,21 @@
         "maintenanceItemTableSetupNotFound": "未找到维护项目表格设置，请联系支持"
       },
       "tooltips": {
-          "setupVisible": true,
-          "preventiveMaintenance": {
-              "original": "This is the timeframe in which the maintenance will be active",
-              "singular": "这是维护活动的时间范围",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "maintenanceLookup": {
-              "original": "Maintenance Lookup",
-              "singular": "查找维护",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "preventiveMaintenance": {
+            "original": "This is the timeframe in which the maintenance will be active",
+            "singular": "这是维护活动的时间范围",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "maintenanceLookup": {
+            "original": "Maintenance Lookup",
+            "singular": "查找维护",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        }
       },
       "messages": {
           "maintenanceAppliesToAllContractAssets": "此维护将适用于本合同内的所有资产",

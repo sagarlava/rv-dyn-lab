@@ -1731,129 +1731,129 @@
           "setupVisible": true
       },
       "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "Preventive Maintenance Details",
-              "singular": "预防性维护详情",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Maintenance Template",
-              "singular": "维护模板",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Maintenance Details",
-              "singular": "保养详情",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec3": {
-              "original": "Filter By",
-              "singular": "过滤",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec4": {
-              "original": "Details",
-              "singular": "细节",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "sec0": {
+            "original": "Preventive Maintenance Details",
+            "singular": "预防性维护详情",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec1": {
+            "original": "Maintenance Template",
+            "singular": "维护模板",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec2": {
+            "original": "Maintenance Details",
+            "singular": "保养详情",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec3": {
+            "original": "Filter By",
+            "singular": "过滤",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec4": {
+            "original": "Details",
+            "singular": "细节",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        }
       },
       "fields": {
-          "setupVisible": true,
-          "actualCompletionDate": {
-              "original": "Actual Completion Date",
-              "singular": "实际完成日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "maintenance": {
-              "original": "Maintenance",
-              "singular": "维护",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "generateJobOrder": {
-              "original": "Generate Job Order",
-              "singular": "生成工作订单",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "skillsAndTools": {
-            "original": "Skills & Tools",
-            "singular": "技能和工具",
+        "setupVisible": true,
+        "actualCompletionDate": {
+            "original": "Actual Completion Date",
+            "singular": "实际完成日期",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": true
-          },
-          "maintenanceFrequency": {
-              "original": "Maintenance Frequency",
-              "singular": "维护频率",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "maintenanceTemplate": {
-              "original": "Maintenance Template",
-              "singular": "维护模板",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "maintenanceDate": {
-              "original": "Maintenance Date",
-              "singular": "维护日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assignedUser": {
-              "original": "Assigned User",
-              "singular": "指派用户",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "types": {
-              "original": "Type",
-              "singular": "类型",
-              "plural": "类型",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "maintenanceDateRange": {
-              "original": "Maintenance Date Range",
-              "singular": "维护日期范围",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "preventativeMaintenanceNo": {
-              "original": "Preventative Maintenance No",
-              "singular": "预防性维护编号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "frequencyName": {
-            "original": "Frequency Name",
-            "singular": "频率名称",
+        },
+        "maintenance": {
+            "original": "Maintenance",
+            "singular": "维护",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": true
-          }
+        },
+        "generateJobOrder": {
+            "original": "Generate Job Order",
+            "singular": "生成工作订单",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "skillsAndTools": {
+          "original": "Skills & Tools",
+          "singular": "技能和工具",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "maintenanceFrequency": {
+            "original": "Maintenance Frequency",
+            "singular": "维护频率",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "maintenanceTemplate": {
+            "original": "Maintenance Template",
+            "singular": "维护模板",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "maintenanceDate": {
+            "original": "Maintenance Date",
+            "singular": "维护日期",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "assignedUser": {
+            "original": "Assigned User",
+            "singular": "指派用户",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "types": {
+            "original": "Type",
+            "singular": "类型",
+            "plural": "类型",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "maintenanceDateRange": {
+            "original": "Maintenance Date Range",
+            "singular": "维护日期范围",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "preventativeMaintenanceNo": {
+            "original": "Preventative Maintenance No",
+            "singular": "预防性维护编号",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "frequencyName": {
+          "original": "Frequency Name",
+          "singular": "频率名称",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
+        }
       },
       "validationFE": {},
       "validationBE": {
@@ -1881,7 +1881,7 @@
               "original": "Preventive Maintenance Lookup",
               "singular": "预防性维护查找",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           }
       },

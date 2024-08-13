@@ -1173,94 +1173,94 @@
           "setupVisible": true
       },
       "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "Log Details",
-              "singular": "Butiran Log",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "New Entry",
-              "singular": "Entri Baru",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Filter By",
-              "singular": "Tapis Mengikut",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "sec0": {
+            "original": "Log Details",
+            "singular": "Butiran Log",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec1": {
+            "original": "New Entry",
+            "singular": "Entri Baru",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec2": {
+            "original": "Filter By",
+            "singular": "Tapis Mengikut",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        }
       },
       "fields": {
-          "setupVisible": true,
-          "currentReading": {
-              "original": "Current Reading",
-              "singular": "Bacaan Semasa",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "logDate": {
-              "original": "Log Date",
-              "singular": "Tarikh Log",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "logDateTime": {
-              "original": "Log Date & Time",
-              "singular": "Tarikh & Masa Log",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "modifiedBy": {
-              "original": "Modified By",
-              "singular": "Diubah Oleh",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "modifiedDateTime": {
-              "original": "Modified Date & Time",
-              "singular": "Tarikh & Masa Diubah",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "newValue": {
-              "original": "New Value",
-              "singular": "Nilai Baru",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "oldValue": {
-              "original": "Old Value",
-              "singular": "Nilai Lama",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "newMeterReading": {
-              "original": "New Meter Reading",
-              "singular": "Bacaan Meter Baru",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "resetMeter": {
-            "original": "Reset Meter",
-            "singular": "Tetapkan Semula Meter",
+        "setupVisible": true,
+        "currentReading": {
+            "original": "Current Reading",
+            "singular": "Bacaan Semasa",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": true
-          }
+        },
+        "logDate": {
+            "original": "Log Date",
+            "singular": "Tarikh Log",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "logDateTime": {
+            "original": "Log Date & Time",
+            "singular": "Tarikh & Masa Log",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "modifiedBy": {
+            "original": "Modified By",
+            "singular": "Diubah Oleh",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "modifiedDateTime": {
+            "original": "Modified Date & Time",
+            "singular": "Tarikh & Masa Diubah",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "newValue": {
+            "original": "New Value",
+            "singular": "Nilai Baru",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "oldValue": {
+            "original": "Old Value",
+            "singular": "Nilai Lama",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "newMeterReading": {
+            "original": "New Meter Reading",
+            "singular": "Bacaan Meter Baru",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "resetMeter": {
+          "original": "Reset Meter",
+          "singular": "Tetapkan Semula Meter",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
+        }
       },
       "validationBE": {
         "assetLogIdExists": "Log aset baru tidak boleh mempunyai ID sedia ada",

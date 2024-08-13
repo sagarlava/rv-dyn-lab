@@ -371,21 +371,21 @@
           "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
           "singular": "选中此框将根据下面提供的地址中的经纬度找到并绑定相关的地理围栏到该客户",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "customerSummary": {
           "original": "Customer Summary",
           "singular": "客户概要",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "customerLookup": {
           "original": "Customer Lookup",
           "singular": "客户查询",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         }
       },

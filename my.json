@@ -366,28 +366,28 @@
         "customerSubSectorHasCustomerSector": "Data Sektor Pelanggan wujud dalam sistem untuk Sub Sektor Pelanggan"
       },
      "tooltips": {
-        "setupVisible": true,
-        "geofenceIconMessage": {
+      "setupVisible": true,
+      "geofenceIconMessage": {
         "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
         "singular": "Menandakan kotak ini akan mencari dan mengaitkan Geofence yang relevan dengan Pelanggan ini berdasarkan Latitud dan Longitud yang disediakan dalam alamat di bawah",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
-        },
-        "customerSummary": {
+      },
+      "customerSummary": {
         "original": "Customer Summary",
         "singular": "Ringkasan Pelanggan",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
-        },
-        "customerLookup": {
+      },
+      "customerLookup": {
         "original": "Customer Lookup",
         "singular": "Carian Pelanggan",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
-        }
+      }
     },
       "messages": {
           "technicianOnRoute": "Ada pengguna sedang menuju ke tugasan ini",

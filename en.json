@@ -365,27 +365,27 @@
       "customerSubSectorSystemGenerated": "System generated Customer Sub Sectors are not allowed to be deleted",
       "customerSubSectorHasCustomerSector": "Customer Sector Data exists in the system for the Customer Sub Sector"
     },
-    "tooltips": {
+   "tooltips": {
       "setupVisible": true,
       "geofenceIconMessage": {
         "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
         "singular": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "customerSummary": {
         "original": "Customer Summary",
         "singular": "Customer Summary",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "customerLookup": {
         "original": "Customer Lookup",
         "singular": "Customer Lookup",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },

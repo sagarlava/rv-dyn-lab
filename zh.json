@@ -2656,9 +2656,9 @@
   "product": {
       "setupVisible": true,
       "label": {
-          "original": "Product",
-          "singular": "产品",
-          "plural": "产品",
+          "original": "Spare Parts",
+          "singular": "备件",
+          "plural": "备件",
           "setupEdit": true,
           "setupVisible": true
       },
@@ -2668,279 +2668,279 @@
               "original": "General Details",
               "singular": "基本信息 ",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec1": {
               "original": "Manufacturer Details",
               "singular": "制造商详情",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec2": {
               "original": "Price Details",
               "singular": "价格详情",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec3": {
               "original": "Additional Details",
               "singular": "附加信息 ",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec4": {
-              "original": "Product Details",
-              "singular": "产品详情",
+              "original": "Spare Part Details",
+              "singular": "备件详情",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec5": {
               "original": "Adjust Inventory",
               "singular": "调整库存",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec6": {
               "original": "Check availability",
               "singular": "检查可用性",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec7": {
               "original": "Details",
               "singular": "细节",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec8": {
-              "original": "Add a product and quantity to be created under Job Orders generated from this template",
-              "singular": "添加产品和数量，以在从此模板生成的工作订单下创建",
+              "original": "Add a spare part and quantity to be created under Job Orders generated from this template",
+              "singular": "添加备件和数量，以在从此模板生成的工作订单下创建",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           }
       },
-      "fields": {
-        "setupVisible": true,
-        "name": {
-          "original": "Name",
-          "singular": "名称",
-          "plural": "名称",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "status": {
-          "original": "Status",
-          "singular": "状态",
-          "plural": "状态",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sku": {
-          "original": "SKU",
-          "singular": "库存单位 (SKU)",
-          "plural": "库存单位 (SKU)",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "type": {
-          "original": "Type",
-          "singular": "类型",
-          "plural": "类型",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "productFamily": {
-          "original": "Product Family",
-          "singular": "产品系列",
-          "plural": "产品系列",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "warrantyPeriod": {
-          "original": "Warranty Period",
-          "singular": "保修期",
-          "plural": "保修期",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "expiryDate": {
-          "original": "Expiry Date",
-          "singular": "到期日期",
-          "plural": "到期日期",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "serialNo": {
-          "original": "Serial Number",
-          "singular": "序列号",
-          "plural": "序列号",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "unitMeasurement": {
-          "original": "Unit of Measurement",
-          "singular": "计量单位",
-          "plural": "计量单位",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "photo": {
-          "original": "Photo",
-          "singular": "照片",
-          "plural": "照片",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "makeModel": {
-          "original": "Make/Model",
-          "singular": "品牌/型号",
-          "plural": "品牌/型号",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "manufacturer": {
-          "original": "Manufacturer",
-          "singular": "制造商",
-          "plural": "制造商",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "manufacturerYear": {
-          "original": "Manufacture Year",
-          "singular": "制造年份",
-          "plural": "制造年份",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "unitPrice": {
-          "original": "Unit Price",
-          "singular": "单价",
-          "plural": "单价",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "taxIncluded": {
-          "original": "Tax Included",
-          "singular": "含税",
-          "plural": "含税",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "notForSale": {
-          "original": "Not For Sale",
-          "singular": "非卖品",
-          "plural": "非卖品",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "remarks": {
-          "original": "Remark",
-          "singular": "备注",
-          "plural": "备注",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "monthS": {
-          "original": "Month(s)",
-          "singular": "月",
-          "plural": "月",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "productName": {
-          "original": "Product Name",
-          "singular": "产品名称",
-          "plural": "产品名称",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "productType": {
-          "original": "Product Type",
-          "singular": "产品类型",
-          "plural": "产品类型",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "productNo": {
-          "original": "Product No.",
-          "singular": "产品编号",
-          "plural": "产品编号",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "qty": {
-          "original": "Qty",
-          "singular": "数量",
-          "plural": "数量",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "quantity": {
-          "original": "quantity",
-          "singular": "数量",
-          "plural": "数量",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "totalPrice": {
-          "original": "Total Price",
-          "singular": "总价",
-          "plural": "总价",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "warranty": {
-          "original": "Warranty",
-          "singular": "保修期",
-          "plural": "保修期",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "user": {
-          "original": "User",
-          "singular": "用户",
-          "plural": "用户",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "description": {
-          "original": "Description",
-          "singular": "描述",
-          "plural": "描述",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "total": {
-          "original": "Total",
-          "singular": "总计",
-          "plural": "总计",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "totalAmount": {
-          "original": "Total Amount",
-          "singular": "总金额",
-          "plural": "总金额",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "subTotal": {
-          "original": "Sub-total",
-          "singular": "小计",
-          "plural": "小计",
-          "setupEdit": true,
-          "setupVisible": true
-        }
+    "fields": {
+      "setupVisible": true,
+      "name": {
+        "original": "Name",
+        "singular": "名称",
+        "plural": "名称",
+        "setupEdit": false,
+        "setupVisible": true
       },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "状态",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "sku": {
+        "original": "SKU",
+        "singular": "库存单位 (SKU)",
+        "plural": "库存单位 (SKU)",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "type": {
+        "original": "Type",
+        "singular": "类型",
+        "plural": "类型",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "productFamily": {
+        "original": "Product Family",
+        "singular": "备件系列",
+        "plural": "备件系列",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "warrantyPeriod": {
+        "original": "Warranty Period",
+        "singular": "保修期",
+        "plural": "保修期",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "expiryDate": {
+        "original": "Expiry Date",
+        "singular": "到期日期",
+        "plural": "到期日期",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "serialNo": {
+        "original": "Serial Number",
+        "singular": "序列号",
+        "plural": "序列号",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "unitMeasurement": {
+        "original": "Unit of Measurement",
+        "singular": "计量单位",
+        "plural": "计量单位",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "photo": {
+        "original": "Photo",
+        "singular": "照片",
+        "plural": "照片",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "makeModel": {
+        "original": "Make/Model",
+        "singular": "品牌/型号",
+        "plural": "品牌/型号",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "manufacturer": {
+        "original": "Manufacturer",
+        "singular": "制造商",
+        "plural": "制造商",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "manufacturerYear": {
+        "original": "Manufacture Year",
+        "singular": "制造年份",
+        "plural": "制造年份",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "unitPrice": {
+        "original": "Unit Price",
+        "singular": "单价",
+        "plural": "单价",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "taxIncluded": {
+        "original": "Tax Included",
+        "singular": "含税",
+        "plural": "含税",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "notForSale": {
+        "original": "Not For Sale",
+        "singular": "非卖品",
+        "plural": "非卖品",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "remarks": {
+        "original": "Remark",
+        "singular": "备注",
+        "plural": "备注",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "monthS": {
+        "original": "Month(s)",
+        "singular": "月",
+        "plural": "月",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "productName": {
+        "original": "Product Name",
+        "singular": "备件名称",
+        "plural": "备件名称",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "productType": {
+        "original": "Product Type",
+        "singular": "备件类型",
+        "plural": "备件类型",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "productNo": {
+        "original": "Product No.",
+        "singular": "备件编号",
+        "plural": "备件编号",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "qty": {
+        "original": "Qty",
+        "singular": "数量",
+        "plural": "数量",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "quantity": {
+        "original": "quantity",
+        "singular": "数量",
+        "plural": "数量",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "totalPrice": {
+        "original": "Total Price",
+        "singular": "总价",
+        "plural": "总价",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "warranty": {
+        "original": "Warranty",
+        "singular": "保修期",
+        "plural": "保修期",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "user": {
+        "original": "User",
+        "singular": "用户",
+        "plural": "用户",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "description": {
+        "original": "Description",
+        "singular": "描述",
+        "plural": "描述",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "total": {
+        "original": "Total",
+        "singular": "总计",
+        "plural": "总计",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "totalAmount": {
+        "original": "Total Amount",
+        "singular": "总金额",
+        "plural": "总金额",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "subTotal": {
+        "original": "Sub-total",
+        "singular": "小计",
+        "plural": "小计",
+        "setupEdit": false,
+        "setupVisible": true
+      }
+    },
       "validationFE": {},
       "validationBE": {
         "productNotFound": "未找到产品",
@@ -2962,18 +2962,18 @@
         "setupVisible": true,
         "productLookup": {
           "original": "Product Lookup",
-          "singular": "产品查找",
+          "singular": "备件查找",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         }
       },
       "messages": {
-        "productFamilyRemoved": "产品系列已成功移除",
-        "deleteProductFamily": "删除产品系列",
-        "deleteProductType": "删除产品类型",
-        "newProductFamily": "新产品系列",
-        "newProductType": "新产品类型",
+        "productFamilyRemoved": "备件系列已成功移除",
+        "deleteProductFamily": "删除备件系列",
+        "deleteProductType": "删除备件类型",
+        "newProductFamily": "新备件系列",
+        "newProductType": "新备件类型",
         "subTotal": "小计",
         "totalAmount": "总金额"
       }

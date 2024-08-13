@@ -2656,9 +2656,9 @@
   "product": {
       "setupVisible": true,
       "label": {
-          "original": "Product",
-          "singular": "Produk",
-          "plural": "Produk",
+          "original": "Spare Parts",
+          "singular": "Alat Ganti",
+          "plural": "Alat Ganti",
           "setupEdit": true,
           "setupVisible": true
       },
@@ -2668,63 +2668,63 @@
               "original": "General Details",
               "singular": "Butiran Am",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec1": {
               "original": "Manufacturer Details",
               "singular": "Butiran Pengilang",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec2": {
               "original": "Price Details",
               "singular": "Butiran Harga",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec3": {
               "original": "Additional Details",
               "singular": "Butiran Tambahan",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec4": {
-              "original": "Product Details",
-              "singular": "Butiran Produk",
+              "original": "Spare Part Details",
+              "singular": "Butiran Alat Ganti",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec5": {
               "original": "Adjust Inventory",
               "singular": "Laras Inventori",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec6": {
               "original": "Check availability",
               "singular": "Semak Ketersediaan",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec7": {
               "original": "Details",
               "singular": "Butiran",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec8": {
-              "original": "Add a product and quantity to be created under Job Orders generated from this template",
-              "singular": "Tambah produk dan kuantiti untuk dihasilkan di bawah Pesanan Kerja yang dihasilkan dari templat ini",
+              "original": "Add a spare part and quantity to be created under Job Orders generated from this template",
+              "singular": "Tambah alat ganti dan kuantiti untuk dihasilkan di bawah Pesanan Kerja yang dihasilkan dari templat ini",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           }
       },
@@ -2734,21 +2734,21 @@
           "original": "Name",
           "singular": "Nama",
           "plural": "Nama-nama",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "status": {
           "original": "Status",
           "singular": "Status",
           "plural": "Status",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "sku": {
           "original": "SKU",
           "singular": "SKU",
           "plural": "SKU",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "type": {
@@ -2759,9 +2759,9 @@
           "setupVisible": true
         },
         "productFamily": {
-          "original": "Product Family",
-          "singular": "Keluarga Produk",
-          "plural": "Keluarga Produk",
+          "original": "Spare Part Family",
+          "singular": "Keluarga Alat Ganti",
+          "plural": "Keluarga Alat Ganti",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -2769,175 +2769,175 @@
           "original": "Warranty Period",
           "singular": "Tempoh Jaminan",
           "plural": "Tempoh Jaminan",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "expiryDate": {
           "original": "Expiry Date",
           "singular": "Tarikh Tamat",
           "plural": "Tarikh Tamat",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "serialNo": {
           "original": "Serial Number",
           "singular": "Nombor Siri",
           "plural": "Nombor Siri",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "unitMeasurement": {
           "original": "Unit of Measurement",
           "singular": "Unit Pengukuran",
           "plural": "Unit Pengukuran",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "photo": {
           "original": "Photo",
           "singular": "Foto",
           "plural": "Foto",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "makeModel": {
           "original": "Make/Model",
           "singular": "Jenama/Model",
           "plural": "Jenama/Model",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "manufacturer": {
           "original": "Manufacturer",
           "singular": "Pengilang",
           "plural": "Pengilang",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "manufacturerYear": {
           "original": "Manufacture Year",
           "singular": "Tahun Pembuatan",
           "plural": "Tahun Pembuatan",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "unitPrice": {
           "original": "Unit Price",
           "singular": "Harga Seunit",
           "plural": "Harga Seunit",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "taxIncluded": {
           "original": "Tax Included",
           "singular": "Termasuk Cukai",
           "plural": "Termasuk Cukai",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "notForSale": {
           "original": "Not For Sale",
           "singular": "Bukan Untuk Dijual",
           "plural": "Bukan Untuk Dijual",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "remarks": {
           "original": "Remark",
           "singular": "Catatan",
           "plural": "Catatan",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "monthS": {
           "original": "Month(s)",
           "singular": "Bulan",
           "plural": "Bulan",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "productName": {
-          "original": "Product Name",
-          "singular": "Nama Produk",
-          "plural": "Nama Produk",
-          "setupEdit": true,
+          "original": "Spare Part Name",
+          "singular": "Nama Alat Ganti",
+          "plural": "Nama Alat Ganti",
+          "setupEdit": false,
           "setupVisible": true
         },
         "productType": {
-          "original": "Product Type",
-          "singular": "Jenis Produk",
-          "plural": "Jenis Produk",
-          "setupEdit": true,
+          "original": "Spare Part Type",
+          "singular": "Jenis Alat Ganti",
+          "plural": "Jenis Alat Ganti",
+          "setupEdit": false,
           "setupVisible": true
         },
         "productNo": {
-          "original": "Product No.",
-          "singular": "Nombor Produk",
-          "plural": "Nombor Produk",
-          "setupEdit": true,
+          "original": "Spare Part No.",
+          "singular": "Nombor Alat Ganti",
+          "plural": "Nombor Alat Ganti",
+          "setupEdit": false,
           "setupVisible": true
         },
         "qty": {
           "original": "Qty",
           "singular": "Kuantiti",
           "plural": "Kuantiti",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "quantity": {
           "original": "quantity",
           "singular": "kuantiti",
           "plural": "kuantiti",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "totalPrice": {
           "original": "Total Price",
           "singular": "Jumlah Harga",
           "plural": "Jumlah Harga",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "warranty": {
           "original": "Warranty",
           "singular": "Jaminan",
           "plural": "Jaminan",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "user": {
           "original": "User",
           "singular": "Pengguna",
           "plural": "Pengguna",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "description": {
           "original": "Description",
           "singular": "Deskripsi",
           "plural": "Deskripsi",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "total": {
           "original": "Total",
           "singular": "Jumlah",
           "plural": "Jumlah",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "totalAmount": {
           "original": "Total Amount",
           "singular": "Jumlah Keseluruhan",
           "plural": "Jumlah Keseluruhan",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         },
         "subTotal": {
           "original": "Sub-total",
           "singular": "Jumlah Kecil",
           "plural": "Jumlah Kecil",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         }
       },
@@ -2962,18 +2962,18 @@
         "setupVisible": true,
         "productLookup": {
         "original": "Product Lookup",
-        "singular": "Carian Produk",
+        "singular": "Carian Alat Ganti",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
         }
     },
     "messages": {
-        "productFamilyRemoved": "Keluarga produk berjaya dibuang",
-        "deleteProductFamily": "Padam Keluarga Produk",
-        "deleteProductType": "Padam Jenis Produk",
-        "newProductFamily": "Keluarga Produk Baru",
-        "newProductType": "Jenis Produk Baru",
+        "productFamilyRemoved": "Keluarga alat ganti berjaya dibuang",
+        "deleteProductFamily": "Padam Keluarga Alat Ganti",
+        "deleteProductType": "Padam Jenis Alat Ganti",
+        "newProductFamily": "Keluarga Alat Ganti Baru",
+        "newProductType": "Jenis Alat Ganti Baru",
         "subTotal": "Jumlah Kecil",
         "totalAmount": "Jumlah Keseluruhan"
     }

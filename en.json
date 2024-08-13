@@ -2656,9 +2656,9 @@
   "product": {
     "setupVisible": true,
     "label": {
-      "original": "Product",
-      "singular": "Product",
-      "plural": "Products",
+      "original": "Spare Parts",
+      "singular": "Spare Part",
+      "plural": "Spare Parts",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -2668,63 +2668,63 @@
         "original": "General Details",
         "singular": "General Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec1": {
         "original": "Manufacturer Details",
         "singular": "Manufacturer Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec2": {
         "original": "Price Details",
         "singular": "Price Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec3": {
         "original": "Additional Details",
         "singular": "Additional Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec4": {
-        "original": "Product Details",
-        "singular": "Product Details",
+        "original": "Spare Part Details",
+        "singular": "Spare Part Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec5": {
         "original": "Adjust Inventory",
         "singular": "Adjust Inventory",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec6": {
         "original": "Check availability",
         "singular": "Check availability",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec7": {
         "original": "Details",
         "singular": "Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec8": {
-        "original": "Add a product and quantity to be created under Job Orders generated from this template",
-        "singular": "Add a product and quantity to be created under Job Orders generated from this template",
+        "original": "Add a spare part and quantity to be created under Job Orders generated from this template",
+        "singular": "Add a spare part and quantity to be created under Job Orders generated from this template",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },
@@ -2734,21 +2734,21 @@
         "original": "Name",
         "singular": "Name",
         "plural": "Names",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "Statuses",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sku": {
         "original": "SKU",
         "singular": "SKU",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "type": {
@@ -2759,8 +2759,8 @@
         "setupVisible": true
       },
       "productFamily": {
-        "original": "Product Family",
-        "singular": "Product Family",
+        "original": "Spare Part Family",
+        "singular": "Spare Part Family",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2769,175 +2769,175 @@
         "original": "Warranty Period",
         "singular": "Warranty Period",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "expiryDate": {
         "original": "Expiry Date",
         "singular": "Expiry Date",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "serialNo": {
         "original": "Serial Number",
         "singular": "Serial Number",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "unitMeasurement": {
         "original": "Unit of Measurement",
         "singular": "Unit of Measurement",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "photo": {
         "original": "Photo",
         "singular": "Photo",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "makeModel": {
         "original": "Make/Model",
         "singular": "Make/Model",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "manufacturer": {
         "original": "Manufacturer",
         "singular": "Manufacturer",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "manufacturerYear": {
         "original": "Manufacture Year",
         "singular": "Manufacture Year",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "unitPrice": {
         "original": "Unit Price",
         "singular": "Unit Price",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "taxIncluded": {
         "original": "Tax Included",
         "singular": "Tax Included",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "notForSale": {
         "original": "Not For Sale",
         "singular": "Not For Sale",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "remarks": {
         "original": "Remark",
         "singular": "Remark",
         "plural": "Remarks",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "monthS": {
         "original": "Month(s)",
         "singular": "Month(s)",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
-        "singular": "Product Name",
+        "original": "Spare Part Name",
+        "singular": "Spare Part Name",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "productType": {
-        "original": "Product Type",
-        "singular": "Product Type",
+        "original": "Spare Part Type",
+        "singular": "Spare Part Type",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "productNo": {
-        "original": "Product No.",
-        "singular": "Product No.",
+        "original": "Spare Part No.",
+        "singular": "Spare Part No.",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "qty": {
         "original": "Qty",
         "singular": "Qty",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "quantity": {
         "original": "quantity",
         "singular": "quantity",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "totalPrice": {
         "original": "Total Price",
         "singular": "Total Price",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "warranty": {
         "original": "Warranty",
         "singular": "Warranty",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "user": {
         "original": "User",
         "singular": "User",
         "plural": "Users",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "description": {
         "original": "Description",
         "singular": "Description",
         "plural": "Descriptions",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "total": {
         "original": "Total",
         "singular": "Total",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "totalAmount": {
         "original": "Total Amount",
         "singular": "Total Amount",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "subTotal": {
         "original": "Sub-total",
         "singular": "Sub-total",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },
@@ -2961,19 +2961,19 @@
     "tooltips": {
       "setupVisible": true,
       "productLookup": {
-        "original": "Product Lookup",
-        "singular": "Product Lookup",
+        "original": "Spare Part Lookup",
+        "singular": "Spare Part Lookup",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },
     "messages": {
-      "productFamilyRemoved": "Product family removed successfully",
-      "deleteProductFamily": "Delete Product Family",
-      "deleteProductType": "Delete Product Type",
-      "newProductFamily":"New Product Family",
-      "newProductType":"New Product Type",
+      "productFamilyRemoved": "Spare Part family removed successfully",
+      "deleteProductFamily": "Delete Spare Part Family",
+      "deleteProductType": "Delete Spare Part Type",
+      "newProductFamily":"New Spare Part Family",
+      "newProductType":"New Spare Part Type",
       "subTotal": "Sub Total",
       "totalAmount": "Total Amount"
     }

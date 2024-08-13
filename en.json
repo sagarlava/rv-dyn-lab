@@ -12463,7 +12463,7 @@
     }
   },
   "setup": {
-    "setupVisible": false,
+    "setupVisible": true,
     "label": {
       "original": "Setup",
       "singular": "Setup",
@@ -14369,7 +14369,7 @@
     }
     },
     "modules": {
-      "setupVisible": false,
+      "setupVisible": true,
       "label":{
         "original": "Modules",
         "singular": "Module",
@@ -15643,7 +15643,7 @@
        }
       },
       "geofence": {
-        "setupVisible": false,
+        "setupVisible": true,
         "label": {
           "original": "Geofence",
           "singular": "Geofence",
@@ -16717,13 +16717,13 @@
         }
       },
       "serviceZone": {
-        "setupVisible": false,
+        "setupVisible": true,
         "label": {
           "original": "Service Zone",
           "singular": "Service Zone",
           "plural": "Service Zones",
           "setupEdit": true,
-          "setupVisible": false
+          "setupVisible": true
         },
         "sections": {
           "setupVisible": false,

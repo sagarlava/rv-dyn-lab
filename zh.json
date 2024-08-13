@@ -12463,7 +12463,7 @@
     }
   },
   "setup": {
-    "setupVisible": false,
+    "setupVisible": true,
       "label": {
         "original": "Setup",
         "singular": "设置",
@@ -16717,13 +16717,13 @@
           }
         },
         "serviceZone": {
-          "setupVisible": false,
+          "setupVisible": true,
           "label": {
             "original": "Service Zone",
             "singular": "服务区",
             "plural": "服务区",
             "setupEdit": true,
-            "setupVisible": false
+            "setupVisible": true
           },
           "sections": {
             "setupVisible": false,

@@ -12456,7 +12456,7 @@
     }
   },
   "setup": {
-    "setupVisible": false,
+    "setupVisible": true,
       "label": {
         "original": "Setup",
         "singular": "Tetapan",
@@ -16710,13 +16710,13 @@
             }
           },
           "serviceZone": {
-            "setupVisible": false,
+            "setupVisible": true,
             "label": {
               "original": "Service Zone",
               "singular": "Zon Servis",
               "plural": "Zon Servis",
               "setupEdit": true,
-              "setupVisible": false
+              "setupVisible": true
             },
             "sections": {
               "setupVisible": false,

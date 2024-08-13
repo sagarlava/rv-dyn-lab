@@ -73,7 +73,7 @@
         "original": "Category Type",
         "singular": "Category Type",
         "plural": "Category Types",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sector": {
@@ -115,35 +115,35 @@
         "original": "System Used",
         "singular": "System Used",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "patientRental": {
         "original": "Patient Rental TV",
         "singular": "Patient Rental TV",
         "plural": "Patient Rental TVs",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "fixedRental": {
         "original": "Fixed Rental TV",
         "singular": "Fixed Rental TV",
         "plural": "Fixed Rental TVs",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "industry": {
         "original": "Industry",
         "singular": "Industry",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "numberOfEmployees": {
         "original": "Number of Employees",
         "singular": "Number of Employees",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "area": {
@@ -157,7 +157,7 @@
         "original": "Payment Term",
         "singular": "Payment Term",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "description": {
@@ -171,42 +171,42 @@
         "original": "Account Name",
         "singular": "Account Name",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "referenceNo": {
         "original": "Reference No.",
         "singular": "Reference No.",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "name": {
         "original": "Name",
         "singular": "Name",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "noOfTerminals": {
         "original": "No. Of Terminal",
         "singular": "No. Of Terminal",
         "plural": "No. Of Terminals",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "autoTieGeofence": {
         "original": "Auto-tie Geofence",
         "singular": "Auto-tie Geofence",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "customerNo": {
         "original": "Customer No.",
         "singular": "Customer No.",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "customerReferenceId": {
@@ -220,105 +220,105 @@
         "original": "Case Contact Phone",
         "singular": "Case Contact Phone",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "assignedTo": {
         "original": "Assigned To",
         "singular": "Assigned To",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "team": {
         "original": "Team",
         "singular": "Team",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "location": {
         "original": "Location",
         "singular": "Location",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "fieldExID": {
         "original": "FieldEx ID",
         "singular": "FieldEx ID",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "hospitalName": {
         "original": "Hospital Name",
         "singular": "Hospital Name",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "hospitalCode": {
         "original": "Hospital Code",
         "singular": "Hospital Code",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "next": {
         "original": "Next",
         "singular": "Next",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "currentContract": {
         "original": "Current Contract",
         "singular": "Current Contract",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "expiresIn": {
         "original": "Expires in",
         "singular": "Expires in",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "latestActiveContract": {
         "original": "Latest Active Contract",
         "singular": "Latest Active Contract",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "stat": {
         "original": "Stats",
         "singular": "Stat",
         "plural": "Stats",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "day": {
         "original": "day",
         "singular": "day",
         "plural": "days",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "customerChannel": {
         "original": "Customer Channel",
         "singular": "Customer Channel",
         "plural": "Customer Channel",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "state": {
         "original": "State",
         "singular": "State",
         "plural": "State",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },

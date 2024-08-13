@@ -2988,1165 +2988,1165 @@
           "setupVisible": true
       },
       "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "General Details",
-              "singular": "基本信息 ",
-              "plural": "基本信息 ",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Additional Details",
-              "singular": "附加信息 ",
-              "plural": "附加信息 ",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Edit Note",
-              "singular": "编辑备注",
-              "plural": "编辑备注",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec3": {
-              "original": "Edit Task",
-              "singular": "编辑任务",
-              "plural": "编辑任务",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec4": {
-              "original": "Hazard Control Details",
-              "singular": "危害控制详情",
-              "plural": "危害控制详情",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec5": {
-              "original": "Journey Details",
-              "singular": "行程详情",
-              "plural": "行程详情",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec6": {
-              "original": "New Task",
-              "singular": "新任务",
-              "plural": "新任务",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec7": {
-              "original": "Note",
-              "singular": "备注",
-              "plural": "备注",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec8": {
-              "original": "Optimize your Tasks",
-              "singular": "优化您的任务",
-              "plural": "优化您的任务",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec9": {
-              "original": "Reference Checklist",
-              "singular": "参考清单",
-              "plural": "参考清单",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec10": {
-              "original": "Servicing Checklist",
-              "singular": "服务检查清单",
-              "plural": "服务检查清单",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec11": {
-              "original": "Time and Journey Details",
-              "singular": "时间和行程详情",
-              "plural": "时间和行程详情",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec12": {
-              "original": "Details",
-              "singular": "细节",
-              "plural": "细节",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec13": {
-              "original": "Filter By",
-              "singular": "过滤",
-              "plural": "过滤",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec14": {
-              "original": "Accept/Decline",
-              "singular": "接受/拒绝",
-              "plural": "接受/拒绝",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec15": {
-              "original": "Check Availability",
-              "singular": "检查可用性",
-              "plural": "检查可用性",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec16": {
-              "original": "Clone Task",
-              "singular": "克隆任务",
-              "plural": "克隆任务",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec17": {
-              "original": "View Task Journey",
-              "singular": "查看任务旅程",
-              "plural": "查看任务旅程",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec18": {
-              "original": "Journey Performed",
-              "singular": "完成的行程",
-              "plural": "完成的行程",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec19": {
-              "original": "Select Start and End Location",
-              "singular": "选择开始和结束位置",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec20": {
-              "original": "Calculate Duration & Distance",
-              "singular": "计算持续时间和距离",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec21": {
-              "original": "Exit Map",
-              "singular": "退出地图",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec22": {
-              "original": "There are no users matching your search criteria!",
-              "singular": "没有符合您搜索条件的用户！",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec23": {
-              "original": "Select User",
-              "singular": "选择用户",
-              "plural": "选择用户",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec24": {
-              "original": "Assigned User",
-              "singular": "分配的用户",
-              "plural": "分配的用户",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec25": {
-              "original": "Form",
-              "singular": "表格",
-              "plural": "表格",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec26": {
-              "original": "Activity",
-              "singular": "活动",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec27": {
-            "original": "Task Journey",
-            "singular": "任务行程",
-            "plural": "",
-            "setupEdit": true,
+        "setupVisible": true,
+        "sec0": {
+            "original": "General Details",
+            "singular": "基本信息 ",
+            "plural": "基本信息 ",
+            "setupEdit": false,
             "setupVisible": true
-          }
+        },
+        "sec1": {
+            "original": "Additional Details",
+            "singular": "附加信息 ",
+            "plural": "附加信息 ",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec2": {
+            "original": "Edit Note",
+            "singular": "编辑备注",
+            "plural": "编辑备注",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec3": {
+            "original": "Edit Task",
+            "singular": "编辑任务",
+            "plural": "编辑任务",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec4": {
+            "original": "Hazard Control Details",
+            "singular": "危害控制详情",
+            "plural": "危害控制详情",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec5": {
+            "original": "Journey Details",
+            "singular": "行程详情",
+            "plural": "行程详情",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec6": {
+            "original": "New Task",
+            "singular": "新任务",
+            "plural": "新任务",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec7": {
+            "original": "Note",
+            "singular": "备注",
+            "plural": "备注",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec8": {
+            "original": "Optimize your Tasks",
+            "singular": "优化您的任务",
+            "plural": "优化您的任务",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec9": {
+            "original": "Reference Checklist",
+            "singular": "参考清单",
+            "plural": "参考清单",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec10": {
+            "original": "Servicing Checklist",
+            "singular": "服务检查清单",
+            "plural": "服务检查清单",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec11": {
+            "original": "Time and Journey Details",
+            "singular": "时间和行程详情",
+            "plural": "时间和行程详情",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec12": {
+            "original": "Details",
+            "singular": "细节",
+            "plural": "细节",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec13": {
+            "original": "Filter By",
+            "singular": "过滤",
+            "plural": "过滤",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec14": {
+            "original": "Accept/Decline",
+            "singular": "接受/拒绝",
+            "plural": "接受/拒绝",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec15": {
+            "original": "Check Availability",
+            "singular": "检查可用性",
+            "plural": "检查可用性",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec16": {
+            "original": "Clone Task",
+            "singular": "克隆任务",
+            "plural": "克隆任务",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec17": {
+            "original": "View Task Journey",
+            "singular": "查看任务旅程",
+            "plural": "查看任务旅程",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec18": {
+            "original": "Journey Performed",
+            "singular": "完成的行程",
+            "plural": "完成的行程",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec19": {
+            "original": "Select Start and End Location",
+            "singular": "选择开始和结束位置",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec20": {
+            "original": "Calculate Duration & Distance",
+            "singular": "计算持续时间和距离",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec21": {
+            "original": "Exit Map",
+            "singular": "退出地图",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec22": {
+            "original": "There are no users matching your search criteria!",
+            "singular": "没有符合您搜索条件的用户！",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec23": {
+            "original": "Select User",
+            "singular": "选择用户",
+            "plural": "选择用户",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec24": {
+            "original": "Assigned User",
+            "singular": "分配的用户",
+            "plural": "分配的用户",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec25": {
+            "original": "Form",
+            "singular": "表格",
+            "plural": "表格",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec26": {
+            "original": "Activity",
+            "singular": "活动",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sec27": {
+          "original": "Task Journey",
+          "singular": "任务行程",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
+        }
       },
       "fields": {
-          "setupVisible": true,
-          "acceptDeclineTask": {
-              "original": "Require team members to accept/decline tasks?",
-              "singular": "要求团队成员接受/拒绝任务？",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "access": {
-              "original": "Access",
-              "singular": "访问",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "activity": {
-              "original": "Activity",
-              "singular": "活动",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "actual": {
-              "original": "Actual",
-              "singular": "实际",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "actualTravelDistance": {
-              "original": "Actual Travel Distance:",
-              "singular": "实际行驶距离:",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "actualTravelTime": {
-              "original": "Actual Travel Time:",
-              "singular": "实际行驶时间:",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "addTaskNote": {
-              "original": "Add a Task Note",
-              "singular": "添加任务备注",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "advancedOptions": {
-              "original": "Advanced Options",
-              "singular": "高级选项",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "allTasks": {
-              "original": "All Tasks",
-              "singular": "所有任务",
-              "plural": "所有任务",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "areControlsEffective": {
-              "original": "Are Controls Effective?",
-              "singular": "控制是否有效？",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assignTextTask": {
-              "original": "Select the field agent(s) you would like to assign this task to",
-              "singular": "选择您想分配此任务的现场代理",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assignToUsers": {
-              "original": "Assign Task to User(s)",
-              "singular": "分配任务给用户",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assignedBy": {
-              "original": "Assigned By",
-              "singular": "分配者",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assignedTeam": {
-              "original": "Assigned Team",
-              "singular": "分配的团队",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assignedTo": {
-              "original": "Assigned To",
-              "singular": "分配给",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assignedUsers": {
-              "original": "Assigned User",
-              "singular": "分配的用户",
-              "plural": "分配的用户",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assistanceReason": {
-              "original": "Assistance Reason",
-              "singular": "帮助原因",
-              "plural": "帮助原因",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "assistanceRequests": {
-              "original": "Assistance Request",
-              "singular": "帮助请求",
-              "plural": "帮助请求",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "bufferAfterTask": {
-              "original": "Buffer After Task",
-              "singular": "任务后的缓冲",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "bufferBeforeTask": {
-              "original": "Buffer Before Task",
-              "singular": "任务前的缓冲",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "buffer": {
-              "original": "Buffer",
-              "singular": "缓冲",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "calculatedDistanceTime": {
-              "original": "Calculate Duration & Distance",
-              "singular": "计算持续时间和距离",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "checkInDuration": {
-              "original": "Check-in Duration",
-              "singular": "签到时长",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "checkInOut": {
-              "original": "Require team members to check in/out from task location?",
-              "singular": "要求团队成员从任务地点签到/签退？",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "checkoutTask": {
-              "original": "Check-out of Task",
-              "singular": "签退任务",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "complaint": {
-              "original": "Complaint",
-              "singular": "投诉",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "completionDateTime": {
-              "original": "Completion Date & Time",
-              "singular": "完成日期和时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "conditionsBeforeAssigning": {
-              "original": "Consider these conditions while assigning",
-              "singular": "分配时请考虑这些条件",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "confirmTaskAcceptance": {
-              "original": "Confirm Task Acceptance",
-              "singular": "确认任务接受",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "confirmTaskDecline": {
-              "original": "Confirm Task Decline",
-              "singular": "确认任务拒绝",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "controlImplement": {
-              "original": "Control Implemented",
-              "singular": "实施控制",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "controls": {
-              "original": "Controls",
-              "singular": "控制",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "createTextTask": {
-              "original": "This task will be assigned to you and automatically accepted",
-              "singular": "此任务将分配给您并自动接受",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "criticalHazards": {
-              "original": "Critical Hazards",
-              "singular": "关键危险",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "criticalHazardsNo": {
-              "original": "Critical Hazards Number",
-              "singular": "关键危险编号",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "currentLocation": {
-              "original": "Current Location",
-              "singular": "当前位置",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "currentOwner": {
-              "original": "Current Owner",
-              "singular": "当前所有者",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "customerServiceReport": {
-              "original": "Customer Service Report",
-              "singular": "客户服务报告",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "distanceTravelled": {
-              "original": "Distance Travelled",
-              "singular": "行驶距离",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "date": {
-              "original": "Date",
-              "singular": "日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "dateTime": {
-              "original": "Date & Time",
-              "singular": "日期和时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "datesCloneTaskFrom": {
-              "original": "Date to Clone Tasks from",
-              "singular": "克隆任务的起始日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "datesCloneTaskTo": {
-              "original": "Date to Clone Tasks to",
-              "singular": "克隆任务的结束日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "department": {
-              "original": "Department",
-              "singular": "部门",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "description": {
-              "original": "Description",
-              "singular": "描述",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "distance": {
-              "original": "Distance",
-              "singular": "距离",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "duration": {
-              "original": "Duration",
-              "singular": "持续时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "otherUsers": {
-              "original": "Other Users",
-              "singular": "其他用户",
-              "plural": "其他用户",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "checkedInDuration": {
-              "original": "Checked in duration",
-              "singular": "签到时长",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "emailAssignee": {
-              "original": "Email Assignee",
-              "singular": "任务分配者的电子邮件",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "endTime": {
-              "original": "End Time",
-              "singular": "结束时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "form": {
-              "original": "Form",
-              "singular": "表格",
-              "plural": "表格",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "handoverCertificate": {
-              "original": "Handover Certificate",
-              "singular": "交接证书",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "haveCheckedAffectsOtherPeople": {
-              "original": "I have checked if this task affects other people in the work area?",
-              "singular": "我是否检查了这项任务是否影响工作区的其他人？",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "haveCommunicatedHazard": {
-              "original": "I have communicated hazards associated with the task to others?",
-              "singular": "我是否已将与任务相关的危险传达给其他人？",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "haveCompleteThisTaskSafely": {
-              "original": "I can complete this task safely?",
-              "singular": "我能否安全完成这项任务？",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "haveCorrectPpeEquip": {
-              "original": "I have the correct PPE, tools and equipment to complete the task?",
-              "singular": "我是否拥有完成任务所需的正确PPE、工具和设备？",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "includeTeamManager": {
-              "original": "Include team manager(s) in smart assign?",
-              "singular": "在智能分配中包括团队经理？",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "indicateTheNumber": {
-              "original": "Indicate the number of users you want FieldEx to assign",
-              "singular": "指明您希望FieldEx分配的用户数量",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "journeyPerformed": {
-              "original": "Journey Performed",
-              "singular": "完成的行程",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "level": {
-              "original": "Level",
-              "singular": "级别",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "location": {
-              "original": "Location",
-              "singular": "位置",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "lock": {
-              "original": "Lock",
-              "singular": "锁定",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "mandatory": {
-              "original": "mandatory",
-              "singular": "强制性",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "member": {
-              "original": "Member",
-              "singular": "成员",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "minsAfter": {
-              "original": "min(s) after.",
-              "singular": "分钟后",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "minsBefore": {
-              "original": "min(s) before.",
-              "singular": "分钟前",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "newLocation": {
-              "original": "New Location",
-              "singular": "新位置",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "numberUsers": {
-              "original": "Number of Users",
-              "singular": "用户数量",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "otherTaskMembers": {
-              "original": "Other Task Members",
-              "singular": "其他任务成员",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "phoneNumber": {
-              "original": "Phone Number",
-              "singular": "电话号码",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "planned": {
-              "original": "Planned",
-              "singular": "计划的",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "predictiveTraffic": {
-              "original": "Predictive Traffic",
-              "singular": "预测流量",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "priority": {
-              "original": "Priority",
-              "singular": "优先级",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "priorityDistance": {
-              "original": "Priority & Distance",
-              "singular": "优先级和距离",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "rejectReason": {
-              "original": "Reject Reason",
-              "singular": "拒绝原因",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "requestAssistance": {
-              "original": "Request Assistance",
-              "singular": "请求帮助",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "requireSkills": {
-              "original": "Require skills to do the task",
-              "singular": "需要技能来完成任务",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "requireToBeFree": {
-              "original": "Require to be free",
-              "singular": "需要空闲",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "requireToTravel": {
-              "original": "Require to travel to location",
-              "singular": "需要前往地点",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "requiredForms": {
-              "original": "Required Form",
-              "singular": "必填表格",
-              "plural": "必填表格",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "role": {
-              "original": "Role",
-              "singular": "角色",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "searchForLocation": {
-              "original": "Search for Location",
-              "singular": "搜索位置",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectCloneDates": {
-              "original": "Select Clone Dates",
-              "singular": "选择克隆日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectDate": {
-              "original": "Select Date",
-              "singular": "选择日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectPreferred": {
-              "original": "Select preferred users/team for your task",
-              "singular": "为您的任务选择首选用户/团队",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectStartLocationTimes": {
-              "original": "Select Start Location and Times",
-              "singular": "选择开始位置和时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectTask": {
-              "original": "Select Task",
-              "singular": "选择任务",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectTaskDisplayAddress": {
-              "original": "Select Task to Display Address",
-              "singular": "选择任务以显示地址",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectTasksClone": {
-              "original": "Select Tasks to Clone",
-              "singular": "选择要克隆的任务",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectTeam": {
-              "original": "Select Team",
-              "singular": "选择团队",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectTime": {
-              "original": "Select Time",
-              "singular": "选择时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectUser": {
-              "original": "Select User",
-              "singular": "选择用户",
-              "plural": "选择用户",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selected": {
-              "original": "Selected",
-              "singular": "已选择",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "showTeamTaskOnly": {
-              "original": "Show team tasks only",
-              "singular": "仅显示团队任务",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "skills": {
-              "original": "Skills",
-              "singular": "技能",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "my": {
-              "original": "My",
-              "singular": "我的",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "staff": {
-              "original": "Staff",
-              "singular": "员工",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "startEndLocation": {
-              "original": "Select Start and End Location",
-              "singular": "选择开始和结束位置",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "startTime": {
-              "original": "Start Time",
-              "singular": "开始时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "status": {
-              "original": "Status",
-              "singular": "状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "supervisorChargehand": {
-              "original": "Supervisor/Chargehand",
-              "singular": "主管/工头",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "takeFive": {
-              "original": "Take 5",
-              "singular": "Take 5",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "taskDate": {
-              "original": "Task Date",
-              "singular": "任务日期",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "taskName": {
-              "original": "Task Name",
-              "singular": "任务名称",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "taskOwner": {
-              "original": "Task Owner",
-              "singular": "任务所有者",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "team": {
-              "original": "Team",
-              "singular": "团队",
-              "plural": "团队",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "time": {
-              "original": "Time",
-              "singular": "时间",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "to": {
-              "original": "To",
-              "singular": "到",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "today": {
-              "original": "Today",
-              "singular": "今天",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "all": {
-              "original": "All",
-              "singular": "全部",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "tomorrow": {
-              "original": "Tomorrow",
-              "singular": "明天",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "todaysTasks": {
-              "original": "Today's Tasks",
-              "singular": "今天的任务",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "totalDistanceTravelled": {
-              "original": "Total Distance Travelled",
-              "singular": "总行驶距离",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "totalTimeSpent": {
-              "original": "Total Time Spent",
-              "singular": "总耗时",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "generateJobOrder": {
-              "original": "Generate Job Order",
-              "singular": "生成工作订单",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "upcoming": {
-              "original": "Upcoming",
-              "singular": "即将到来",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "updateLocationFollowingTask": {
-              "original": "Update Location of the Following Tasks",
-              "singular": "更新以下任务的位置",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "user": {
-              "original": "User",
-              "singular": "用户",
-              "plural": "用户",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "userStatus": {
-              "original": "User Status",
-              "singular": "用户状态",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "serviceChecklist": {
-              "original": "Service Checklist",
-              "singular": "服务清单",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "office": {
-              "original": "Office",
-              "singular": "办公室",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "home": {
-              "original": "Home",
-              "singular": "家",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "name": {
-              "original": "Name",
-              "singular": "姓名",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "referenceChecklist": {
-              "original": "Reference Checklist",
-              "singular": "参考清单",
-              "plural": "参考清单",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "dateAndTime": {
+        "setupVisible": true,
+        "acceptDeclineTask": {
+            "original": "Require team members to accept/decline tasks?",
+            "singular": "要求团队成员接受/拒绝任务？",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "access": {
+            "original": "Access",
+            "singular": "访问",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "activity": {
+            "original": "Activity",
+            "singular": "活动",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "actual": {
+            "original": "Actual",
+            "singular": "实际",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "actualTravelDistance": {
+            "original": "Actual Travel Distance:",
+            "singular": "实际行驶距离:",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "actualTravelTime": {
+            "original": "Actual Travel Time:",
+            "singular": "实际行驶时间:",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "addTaskNote": {
+            "original": "Add a Task Note",
+            "singular": "添加任务备注",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "advancedOptions": {
+            "original": "Advanced Options",
+            "singular": "高级选项",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "allTasks": {
+            "original": "All Tasks",
+            "singular": "所有任务",
+            "plural": "所有任务",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "areControlsEffective": {
+            "original": "Are Controls Effective?",
+            "singular": "控制是否有效？",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "assignTextTask": {
+            "original": "Select the field agent(s) you would like to assign this task to",
+            "singular": "选择您想分配此任务的现场代理",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "assignToUsers": {
+            "original": "Assign Task to User(s)",
+            "singular": "分配任务给用户",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "assignedBy": {
+            "original": "Assigned By",
+            "singular": "分配者",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "assignedTeam": {
+            "original": "Assigned Team",
+            "singular": "分配的团队",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "assignedTo": {
+            "original": "Assigned To",
+            "singular": "分配给",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "assignedUsers": {
+            "original": "Assigned User",
+            "singular": "分配的用户",
+            "plural": "分配的用户",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "assistanceReason": {
+            "original": "Assistance Reason",
+            "singular": "帮助原因",
+            "plural": "帮助原因",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "assistanceRequests": {
+            "original": "Assistance Request",
+            "singular": "帮助请求",
+            "plural": "帮助请求",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "bufferAfterTask": {
+            "original": "Buffer After Task",
+            "singular": "任务后的缓冲",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "bufferBeforeTask": {
+            "original": "Buffer Before Task",
+            "singular": "任务前的缓冲",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "buffer": {
+            "original": "Buffer",
+            "singular": "缓冲",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "calculatedDistanceTime": {
+            "original": "Calculate Duration & Distance",
+            "singular": "计算持续时间和距离",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "checkInDuration": {
+            "original": "Check-in Duration",
+            "singular": "签到时长",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "checkInOut": {
+            "original": "Require team members to check in/out from task location?",
+            "singular": "要求团队成员从任务地点签到/签退？",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "checkoutTask": {
+            "original": "Check-out of Task",
+            "singular": "签退任务",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "complaint": {
+            "original": "Complaint",
+            "singular": "投诉",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "completionDateTime": {
+            "original": "Completion Date & Time",
+            "singular": "完成日期和时间",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "conditionsBeforeAssigning": {
+            "original": "Consider these conditions while assigning",
+            "singular": "分配时请考虑这些条件",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "confirmTaskAcceptance": {
+            "original": "Confirm Task Acceptance",
+            "singular": "确认任务接受",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "confirmTaskDecline": {
+            "original": "Confirm Task Decline",
+            "singular": "确认任务拒绝",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "controlImplement": {
+            "original": "Control Implemented",
+            "singular": "实施控制",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "controls": {
+            "original": "Controls",
+            "singular": "控制",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "createTextTask": {
+            "original": "This task will be assigned to you and automatically accepted",
+            "singular": "此任务将分配给您并自动接受",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "criticalHazards": {
+            "original": "Critical Hazards",
+            "singular": "关键危险",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "criticalHazardsNo": {
+            "original": "Critical Hazards Number",
+            "singular": "关键危险编号",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "currentLocation": {
+            "original": "Current Location",
+            "singular": "当前位置",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "currentOwner": {
+            "original": "Current Owner",
+            "singular": "当前所有者",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "customerServiceReport": {
+            "original": "Customer Service Report",
+            "singular": "客户服务报告",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "distanceTravelled": {
+            "original": "Distance Travelled",
+            "singular": "行驶距离",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "date": {
+            "original": "Date",
+            "singular": "日期",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "dateTime": {
             "original": "Date & Time",
             "singular": "日期和时间",
             "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "from": {
-            "original": "From",
-            "singular": "从",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "createdVia": {
-            "original": "Created Via",
-            "singular": "创建于",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "completed": {
-            "original": "Completed",
-            "singular": "已完成",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "taskNo": {
-            "original": "Task No.",
-            "singular": "任务编号",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "datesCloneTaskFrom": {
+            "original": "Date to Clone Tasks from",
+            "singular": "克隆任务的起始日期",
             "plural": "",
             "setupEdit": false,
-            "setupVisible": false
-          },
-          "staffMember": {
-            "original": "Staff Members",
+            "setupVisible": true
+        },
+        "datesCloneTaskTo": {
+            "original": "Date to Clone Tasks to",
+            "singular": "克隆任务的结束日期",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "department": {
+            "original": "Department",
+            "singular": "部门",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "description": {
+            "original": "Description",
+            "singular": "描述",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "distance": {
+            "original": "Distance",
+            "singular": "距离",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "duration": {
+            "original": "Duration",
+            "singular": "持续时间",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "otherUsers": {
+            "original": "Other Users",
+            "singular": "其他用户",
+            "plural": "其他用户",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "checkedInDuration": {
+            "original": "Checked in duration",
+            "singular": "签到时长",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "emailAssignee": {
+            "original": "Email Assignee",
+            "singular": "任务分配者的电子邮件",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "endTime": {
+            "original": "End Time",
+            "singular": "结束时间",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "form": {
+            "original": "Form",
+            "singular": "表格",
+            "plural": "表格",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "handoverCertificate": {
+            "original": "Handover Certificate",
+            "singular": "交接证书",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "haveCheckedAffectsOtherPeople": {
+            "original": "I have checked if this task affects other people in the work area?",
+            "singular": "我是否检查了这项任务是否影响工作区的其他人？",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "haveCommunicatedHazard": {
+            "original": "I have communicated hazards associated with the task to others?",
+            "singular": "我是否已将与任务相关的危险传达给其他人？",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "haveCompleteThisTaskSafely": {
+            "original": "I can complete this task safely?",
+            "singular": "我能否安全完成这项任务？",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "haveCorrectPpeEquip": {
+            "original": "I have the correct PPE, tools and equipment to complete the task?",
+            "singular": "我是否拥有完成任务所需的正确PPE、工具和设备？",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "includeTeamManager": {
+            "original": "Include team manager(s) in smart assign?",
+            "singular": "在智能分配中包括团队经理？",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "indicateTheNumber": {
+            "original": "Indicate the number of users you want FieldEx to assign",
+            "singular": "指明您希望FieldEx分配的用户数量",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "journeyPerformed": {
+            "original": "Journey Performed",
+            "singular": "完成的行程",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "level": {
+            "original": "Level",
+            "singular": "级别",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "location": {
+            "original": "Location",
+            "singular": "位置",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "lock": {
+            "original": "Lock",
+            "singular": "锁定",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "mandatory": {
+            "original": "mandatory",
+            "singular": "强制性",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "member": {
+            "original": "Member",
+            "singular": "成员",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "minsAfter": {
+            "original": "min(s) after.",
+            "singular": "分钟后",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "minsBefore": {
+            "original": "min(s) before.",
+            "singular": "分钟前",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "newLocation": {
+            "original": "New Location",
+            "singular": "新位置",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "numberUsers": {
+            "original": "Number of Users",
+            "singular": "用户数量",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "otherTaskMembers": {
+            "original": "Other Task Members",
+            "singular": "其他任务成员",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "phoneNumber": {
+            "original": "Phone Number",
+            "singular": "电话号码",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "planned": {
+            "original": "Planned",
+            "singular": "计划的",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "predictiveTraffic": {
+            "original": "Predictive Traffic",
+            "singular": "预测流量",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "priority": {
+            "original": "Priority",
+            "singular": "优先级",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "priorityDistance": {
+            "original": "Priority & Distance",
+            "singular": "优先级和距离",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "rejectReason": {
+            "original": "Reject Reason",
+            "singular": "拒绝原因",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "requestAssistance": {
+            "original": "Request Assistance",
+            "singular": "请求帮助",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "requireSkills": {
+            "original": "Require skills to do the task",
+            "singular": "需要技能来完成任务",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "requireToBeFree": {
+            "original": "Require to be free",
+            "singular": "需要空闲",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "requireToTravel": {
+            "original": "Require to travel to location",
+            "singular": "需要前往地点",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "requiredForms": {
+            "original": "Required Form",
+            "singular": "必填表格",
+            "plural": "必填表格",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "role": {
+            "original": "Role",
+            "singular": "角色",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "searchForLocation": {
+            "original": "Search for Location",
+            "singular": "搜索位置",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "selectCloneDates": {
+            "original": "Select Clone Dates",
+            "singular": "选择克隆日期",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "selectDate": {
+            "original": "Select Date",
+            "singular": "选择日期",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "selectPreferred": {
+            "original": "Select preferred users/team for your task",
+            "singular": "为您的任务选择首选用户/团队",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "selectStartLocationTimes": {
+            "original": "Select Start Location and Times",
+            "singular": "选择开始位置和时间",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "selectTask": {
+            "original": "Select Task",
+            "singular": "选择任务",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "selectTaskDisplayAddress": {
+            "original": "Select Task to Display Address",
+            "singular": "选择任务以显示地址",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "selectTasksClone": {
+            "original": "Select Tasks to Clone",
+            "singular": "选择要克隆的任务",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "selectTeam": {
+            "original": "Select Team",
+            "singular": "选择团队",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "selectTime": {
+            "original": "Select Time",
+            "singular": "选择时间",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "selectUser": {
+            "original": "Select User",
+            "singular": "选择用户",
+            "plural": "选择用户",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "selected": {
+            "original": "Selected",
+            "singular": "已选择",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "showTeamTaskOnly": {
+            "original": "Show team tasks only",
+            "singular": "仅显示团队任务",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "skills": {
+            "original": "Skills",
+            "singular": "技能",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "my": {
+            "original": "My",
+            "singular": "我的",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "staff": {
+            "original": "Staff",
             "singular": "员工",
-            "plural": "员工",
-            "setupEdit": true,
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": true
-          },
-          "teamMember": {
-            "original": "Team Members",
-            "singular": "团队成员",
-            "plural": "团队成员",
-            "setupEdit": true,
+        },
+        "startEndLocation": {
+            "original": "Select Start and End Location",
+            "singular": "选择开始和结束位置",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": true
-          },
-          "month": {
-            "original": "Month",
-            "singular": "月",
-            "plural": "月",
-            "setupEdit": true,
+        },
+        "startTime": {
+            "original": "Start Time",
+            "singular": "开始时间",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": true
-          },
-          "week": {
-            "original": "Week",
-            "singular": "周",
-            "plural": "周",
-            "setupEdit": true,
+        },
+        "status": {
+            "original": "Status",
+            "singular": "状态",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": true
-          },
-          "day": {
-            "original": "Day",
-            "singular": "天",
-            "plural": "天",
-            "setupEdit": true,
+        },
+        "supervisorChargehand": {
+            "original": "Supervisor/Chargehand",
+            "singular": "主管/工头",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": true
-          },
-          "utilization": {
-            "original": "Utilization",
-            "singular": "利用率",
-            "plural": "利用率",
-            "setupEdit": true,
+        },
+        "takeFive": {
+            "original": "Take 5",
+            "singular": "Take 5",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": true
-          },
-          "makeOwner": {
-            "original": "Make Owner",
-            "singular": "设为所有者",
-            "plural": "设为所有者",
-            "setupEdit": true,
+        },
+        "taskDate": {
+            "original": "Task Date",
+            "singular": "任务日期",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": true
-          }
+        },
+        "taskName": {
+            "original": "Task Name",
+            "singular": "任务名称",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "taskOwner": {
+            "original": "Task Owner",
+            "singular": "任务所有者",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "team": {
+            "original": "Team",
+            "singular": "团队",
+            "plural": "团队",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "time": {
+            "original": "Time",
+            "singular": "时间",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "to": {
+            "original": "To",
+            "singular": "到",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "today": {
+            "original": "Today",
+            "singular": "今天",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "all": {
+            "original": "All",
+            "singular": "全部",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "tomorrow": {
+            "original": "Tomorrow",
+            "singular": "明天",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "todaysTasks": {
+            "original": "Today's Tasks",
+            "singular": "今天的任务",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "totalDistanceTravelled": {
+            "original": "Total Distance Travelled",
+            "singular": "总行驶距离",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "totalTimeSpent": {
+            "original": "Total Time Spent",
+            "singular": "总耗时",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "generateJobOrder": {
+            "original": "Generate Job Order",
+            "singular": "生成工作订单",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "upcoming": {
+            "original": "Upcoming",
+            "singular": "即将到来",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "updateLocationFollowingTask": {
+            "original": "Update Location of the Following Tasks",
+            "singular": "更新以下任务的位置",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "user": {
+            "original": "User",
+            "singular": "用户",
+            "plural": "用户",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "userStatus": {
+            "original": "User Status",
+            "singular": "用户状态",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "serviceChecklist": {
+            "original": "Service Checklist",
+            "singular": "服务清单",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "office": {
+            "original": "Office",
+            "singular": "办公室",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "home": {
+            "original": "Home",
+            "singular": "家",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "name": {
+            "original": "Name",
+            "singular": "姓名",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "referenceChecklist": {
+            "original": "Reference Checklist",
+            "singular": "参考清单",
+            "plural": "参考清单",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "dateAndTime": {
+          "original": "Date & Time",
+          "singular": "日期和时间",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "from": {
+          "original": "From",
+          "singular": "从",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "createdVia": {
+          "original": "Created Via",
+          "singular": "创建于",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "completed": {
+          "original": "Completed",
+          "singular": "已完成",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "taskNo": {
+          "original": "Task No.",
+          "singular": "任务编号",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "staffMember": {
+          "original": "Staff Members",
+          "singular": "员工",
+          "plural": "员工",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "teamMember": {
+          "original": "Team Members",
+          "singular": "团队成员",
+          "plural": "团队成员",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "month": {
+          "original": "Month",
+          "singular": "月",
+          "plural": "月",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "week": {
+          "original": "Week",
+          "singular": "周",
+          "plural": "周",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "day": {
+          "original": "Day",
+          "singular": "天",
+          "plural": "天",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "utilization": {
+          "original": "Utilization",
+          "singular": "利用率",
+          "plural": "利用率",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "makeOwner": {
+          "original": "Make Owner",
+          "singular": "设为所有者",
+          "plural": "设为所有者",
+          "setupEdit": false,
+          "setupVisible": true
+        }
       },
       "validationFE": {},
       "validationBE": {
@@ -4220,119 +4220,119 @@
         "userTaskNotFound": "未找到用户任务"
       },
       "tooltips": {
-          "setupVisible": true,
-          "timeAddedBeforeOr": {
-              "original": "Time added before or after a task when using the Optimizer e.g. time needed for parking.",
-              "singular": "在使用优化器时，任务前后增加的时间，例如停车所需的时间。",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "skillsUsedToFind": {
-              "original": "Skills are used to find the best staff for the job when using Smart Assign",
-              "singular": "使用技能来找到最适合这项工作的员工，当使用智能分配时",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "smartAssignTextTask": {
-              "original": "Let FieldEx find and assign the best candidate(s) for this task based on criteria you set",
-              "singular": "让FieldEx根据您设定的标准找到并分配此任务的最佳候选人",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "specifiedTaskSkills": {
-              "original": "Selecting this eliminates users that do not have at least one of the specified task skills",
-              "singular": "选择此选项将消除没有至少一个指定任务技能的用户",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "selectingThisEliminates": {
-              "original": "Selecting this eliminates users that have a task at the specified time",
-              "singular": "选择此选项将消除在指定时间内有任务的用户",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sentAnAssistanceRequest": {
-              "original": "sent an Assistance Request",
-              "singular": "发送了帮助请求",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "lockingPuts": {
-              "original": "Locking a task puts it in a fixed time slot when using the optimizer",
-              "singular": "锁定任务将其放在固定时间段内，当使用优化器时",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "letFieldexFindBestFieldAgent": {
-              "original": "Let FieldEx help you assign this task to the best field agent(s)",
-              "singular": "让FieldEx帮助您将此任务分配给最好的现场代理",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "futureTaskOnTime": {
-              "original": "Selecting this eliminates users that are unable to reach this task or future tasks on time",
-              "singular": "选择此选项将消除无法及时到达此任务或未来任务的用户",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "taskLocked": {
-              "original": "This task is locked",
-              "singular": "此任务已锁定",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "taskUnlocked": {
-              "original": "This task is unlocked",
-              "singular": "此任务未锁定",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "phoneNumber": {
-              "original": "Phone Number",
-              "singular": "电话号码",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "emailAssignee": {
-              "original": "Email Assignee",
-              "singular": "任务分配者的电子邮件",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "messageAssignee": {
-              "original": "Message Assignee",
-              "singular": "任务分配者的消息",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "requestAssistance": {
-              "original": "Request Assistance",
-              "singular": "请求帮助",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "taskLookup": {
-              "original": "Task Lookup",
-              "singular": "任务查询",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "timeAddedBeforeOr": {
+            "original": "Time added before or after a task when using the Optimizer e.g. time needed for parking.",
+            "singular": "在使用优化器时，任务前后增加的时间，例如停车所需的时间。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "skillsUsedToFind": {
+            "original": "Skills are used to find the best staff for the job when using Smart Assign",
+            "singular": "使用技能来找到最适合这项工作的员工，当使用智能分配时",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "smartAssignTextTask": {
+            "original": "Let FieldEx find and assign the best candidate(s) for this task based on criteria you set",
+            "singular": "让FieldEx根据您设定的标准找到并分配此任务的最佳候选人",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "specifiedTaskSkills": {
+            "original": "Selecting this eliminates users that do not have at least one of the specified task skills",
+            "singular": "选择此选项将消除没有至少一个指定任务技能的用户",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "selectingThisEliminates": {
+            "original": "Selecting this eliminates users that have a task at the specified time",
+            "singular": "选择此选项将消除在指定时间内有任务的用户",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "sentAnAssistanceRequest": {
+            "original": "sent an Assistance Request",
+            "singular": "发送了帮助请求",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "lockingPuts": {
+            "original": "Locking a task puts it in a fixed time slot when using the optimizer",
+            "singular": "锁定任务将其放在固定时间段内，当使用优化器时",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "letFieldexFindBestFieldAgent": {
+            "original": "Let FieldEx help you assign this task to the best field agent(s)",
+            "singular": "让FieldEx帮助您将此任务分配给最好的现场代理",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "futureTaskOnTime": {
+            "original": "Selecting this eliminates users that are unable to reach this task or future tasks on time",
+            "singular": "选择此选项将消除无法及时到达此任务或未来任务的用户",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "taskLocked": {
+            "original": "This task is locked",
+            "singular": "此任务已锁定",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "taskUnlocked": {
+            "original": "This task is unlocked",
+            "singular": "此任务未锁定",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "phoneNumber": {
+            "original": "Phone Number",
+            "singular": "电话号码",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "emailAssignee": {
+            "original": "Email Assignee",
+            "singular": "任务分配者的电子邮件",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "messageAssignee": {
+            "original": "Message Assignee",
+            "singular": "任务分配者的消息",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "requestAssistance": {
+            "original": "Request Assistance",
+            "singular": "请求帮助",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "taskLookup": {
+            "original": "Task Lookup",
+            "singular": "任务查询",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        }
       },
       "messages": {
           "technicianOnRoute": "当前用户正在前往此任务的途中。",

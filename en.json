@@ -4647,35 +4647,35 @@
         "original": "General Details",
         "singular": "General Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec1": {
         "original": "Sales Order Details",
         "singular": "Sales Order Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec2": {
         "original": "Details",
         "singular": "Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec3": {
         "original": "Filter By",
         "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "sec4": {
         "original": "Customer Details",
         "singular": "Customer Details",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },
@@ -4685,21 +4685,21 @@
         "original": "Name",
         "singular": "Name",
         "plural": "Names",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "Statuses",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "owner": {
         "original": "Owner",
         "singular": "Owner",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "type": {
@@ -4713,7 +4713,7 @@
           "original": "Order Owner",
           "singular": "Order Owner",
           "plural": "Order Owner",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
       },
       "channel": {
@@ -4727,82 +4727,89 @@
         "original": "Description",
         "singular": "Description",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "startDate": {
         "original": "Start Date",
         "singular": "Start Date",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "endDate": {
         "original": "End Date",
         "singular": "End Date",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "billToContact": {
         "original": "Bill To Contact",
         "singular": "Bill To Contact",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "shipToContact": {
         "original": "Ship To Contact",
         "singular": "Ship To Contact",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "billingAddress": {
         "original": "Billing Address",
         "singular": "Billing Address",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "totalAmount": {
         "original": "Total Amount",
         "singular": "Total Amount",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "orderName": {
         "original": "Order Name",
         "singular": "Order Name",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "orderDate": {
         "original": "Order Date",
         "singular": "Order Date",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "salesOrderNo": {
         "original": "Sales Order No",
         "singular": "Sales Order No",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "customerName": {
         "original": "Customer Name",
         "singular": "Customer Name",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       },
       "email": {
         "original": "Email",
         "singular": "Email",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "extId": {
+        "original": "External ID",
+        "singular": "External ID",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -4840,7 +4847,7 @@
         "original": "Sales Order Lookup",
         "singular": "Sales Order Lookup",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
       }
     },

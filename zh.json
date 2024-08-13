@@ -4647,59 +4647,59 @@
               "original": "General Details",
               "singular": "基本信息 ",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec1": {
               "original": "Sales Order Details",
               "singular": "销售订单详情",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec2": {
               "original": "Details",
               "singular": "细节",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec3": {
               "original": "Filter By",
               "singular": "过滤",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec4": {
             "original": "Customer Details",
             "singular": "客户详情",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": true
           }
-      },
+        },
       "fields": {
           "setupVisible": true,
           "name": {
               "original": "Name",
               "singular": "姓名",
               "plural": "姓名",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "status": {
               "original": "Status",
               "singular": "状态",
               "plural": "状态",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "owner": {
               "original": "Owner",
               "singular": "所有者",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "type": {
@@ -4713,7 +4713,7 @@
               "original": "Order Owner",
               "singular": "订单所有者",
               "plural": "订单所有者",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "channel": {
@@ -4727,82 +4727,89 @@
               "original": "Description",
               "singular": "姓名",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "startDate": {
               "original": "Start Date",
               "singular": "开始日期",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "endDate": {
               "original": "End Date",
               "singular": "结束日期",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "billToContact": {
               "original": "Bill To Contact",
               "singular": "账单联系人",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "shipToContact": {
               "original": "Ship To Contact",
               "singular": "发货联系人",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "billingAddress": {
             "original": "Billing Address",
             "singular": "账单地址",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": true
           },
           "totalAmount": {
               "original": "Total Amount",
               "singular": "总金额",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "orderName": {
               "original": "Order Name",
               "singular": "订单名称",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "orderDate": {
               "original": "Order Date",
               "singular": "订单日期",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "salesOrderNo": {
               "original": "Sales Order No",
               "singular": "销售订单号",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "customerName": {
               "original": "Customer Name",
               "singular": "客户名称",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "email": {
             "original": "Email",
             "singular": "电子邮件",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+          },
+          "extId": {
+            "original": "External ID",
+            "singular": "外部ID",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
@@ -4840,7 +4847,7 @@
           "original": "Sales Order Lookup",
           "singular": "销售订单查找",
           "plural": "",
-          "setupEdit": true,
+          "setupEdit": false,
           "setupVisible": true
         }
       },

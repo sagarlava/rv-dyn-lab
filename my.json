@@ -4647,166 +4647,173 @@
               "original": "General Details",
               "singular": "Butiran Am",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec1": {
               "original": "Sales Order Details",
               "singular": "Butiran Pesanan Jualan",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec2": {
               "original": "Details",
               "singular": "Butiran",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec3": {
               "original": "Filter By",
               "singular": "Tapis Mengikut",
               "plural": "",
-              "setupEdit": true,
+              "setupEdit": false,
               "setupVisible": true
           },
           "sec4": {
             "original": "Customer Details",
             "singular": "Butiran Pelanggan",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": true
           }
-      },
+        },
       "fields": {
-          "setupVisible": true,
-          "name": {
-              "original": "Name",
-              "singular": "Nama",
-              "plural": "Nama",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "status": {
-              "original": "Status",
-              "singular": "Status",
-              "plural": "Statuses",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "owner": {
-              "original": "Owner",
-              "singular": "Pemilik",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "type": {
-              "original": "Type",
-              "singular": "Jenis",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "orderOwner": {
-              "original": "Order Owner",
-              "singular": "Pemilik Pesanan",
-              "plural": "Pemilik Pesanan",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "channel": {
-              "original": "Channel",
-              "singular": "Saluran",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "description": {
-              "original": "Description",
-              "singular": "Nama",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "startDate": {
-              "original": "Start Date",
-              "singular": "Tarikh Mula",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "endDate": {
-              "original": "End Date",
-              "singular": "Tarikh Tamat",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "billToContact": {
-              "original": "Bill To Contact",
-              "singular": "Hubungi untuk Bil",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "shipToContact": {
-              "original": "Ship To Contact",
-              "singular": "Hubungi untuk Penghantaran",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "billingAddress": {
-            "original": "Billing Address",
-            "singular": "Alamat Penagihan",
+        "setupVisible": true,
+        "name": {
+            "original": "Name",
+            "singular": "Nama",
+            "plural": "Nama",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Statuses",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "owner": {
+            "original": "Owner",
+            "singular": "Pemilik",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "type": {
+            "original": "Type",
+            "singular": "Jenis",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
-          },
-          "totalAmount": {
-              "original": "Total Amount",
-              "singular": "Jumlah Keseluruhan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "orderName": {
-              "original": "Order Name",
-              "singular": "Nama Pesanan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "orderDate": {
-              "original": "Order Date",
-              "singular": "Tarikh Pesanan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "salesOrderNo": {
-              "original": "Sales Order No",
-              "singular": "No Pesanan Jualan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "customerName": {
-              "original": "Customer Name",
-              "singular": "Nama Pelanggan",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "email": {
-            "original": "Email",
-            "singular": "E-mel",
+        },
+        "orderOwner": {
+            "original": "Order Owner",
+            "singular": "Pemilik Pesanan",
+            "plural": "Pemilik Pesanan",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "channel": {
+            "original": "Channel",
+            "singular": "Saluran",
             "plural": "",
             "setupEdit": true,
             "setupVisible": true
-          }
+        },
+        "description": {
+            "original": "Description",
+            "singular": "Nama",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "startDate": {
+            "original": "Start Date",
+            "singular": "Tarikh Mula",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "endDate": {
+            "original": "End Date",
+            "singular": "Tarikh Tamat",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "billToContact": {
+            "original": "Bill To Contact",
+            "singular": "Hubungi untuk Bil",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "shipToContact": {
+            "original": "Ship To Contact",
+            "singular": "Hubungi untuk Penghantaran",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "billingAddress": {
+          "original": "Billing Address",
+          "singular": "Alamat Penagihan",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "totalAmount": {
+            "original": "Total Amount",
+            "singular": "Jumlah Keseluruhan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "orderName": {
+            "original": "Order Name",
+            "singular": "Nama Pesanan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "orderDate": {
+            "original": "Order Date",
+            "singular": "Tarikh Pesanan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "salesOrderNo": {
+            "original": "Sales Order No",
+            "singular": "No Pesanan Jualan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "customerName": {
+            "original": "Customer Name",
+            "singular": "Nama Pelanggan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": true
+        },
+        "email": {
+          "original": "Email",
+          "singular": "E-mel",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "extId": {
+            "original": "External ID",
+            "singular": "ID Luaran",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        }
       },
       "validationFE": {},
       "validationBE": {
@@ -4840,7 +4847,7 @@
         "original": "Sales Order Lookup",
         "singular": "Carian Pesanan Jualan",
         "plural": "",
-        "setupEdit": true,
+        "setupEdit": false,
         "setupVisible": true
         }
     },

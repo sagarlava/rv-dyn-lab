@@ -12089,6 +12089,22 @@
         "charactersExceed": "文本超过字符限制（255）。",
         "endDateThanStartDate": "结束日期必须在开始日期之后"
       },
+      "validationBE": {
+        "sendGridEmailTenantReferenceIdExists": "新的Send Grid电子邮件租户引用不能已有ID",
+        "slaLineItemIdExists": "新的SlaLine项目不能已有ID",
+        "slaLineItemIdNotFound": "未找到ID",
+        "slaLineItemNotFound": "未找到SlaLine项目",
+        "slaLineItemHasSLAPackage": "系统中存在SlaLine项目的SLA套餐数据",
+        "slaLineItemWithSlaLineItemIdNotFound": "无效的slaLineItemId",
+        "slaNotificationIdExists": "新的Sla通知不能已有ID",
+        "slaPackageCustomerIdExists": "新的SlaPackage客户不能已有ID",
+        "slaPackageIdExists": "新的SlaPackage不能已有ID",
+        "slaPackageIdNotFound": "未找到ID",
+        "slaPackageNotFound": "未找到SlaPackage",
+        "slaPackageHasCustomer": "系统中存在SlaPackage的客户数据",
+        "slaPackageHasSLATicket": "系统中存在SlaPackage的SLA工单数据",
+        "slaPackageHasSLAJobOrder": "系统中存在SlaPackage的SLA作业订单数据"
+      },
       "tabs": {
         "details": "详情",
         "purchaseHistory": "购买历史",

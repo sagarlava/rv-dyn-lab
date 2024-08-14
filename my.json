@@ -12082,6 +12082,22 @@
         "charactersExceed": "Teks melebihi had aksara (255).",
         "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula"
       },
+      "validationBE": {
+        "sendGridEmailTenantReferenceIdExists": "Rujukan Penyewa E-mel Send Grid baru tidak boleh sudah mempunyai ID",
+        "slaLineItemIdExists": "Item SlaLine baru tidak boleh sudah mempunyai ID",
+        "slaLineItemIdNotFound": "ID tidak dijumpai",
+        "slaLineItemNotFound": "Item SlaLine tidak dijumpai",
+        "slaLineItemHasSLAPackage": "Data Pakej SLA wujud dalam sistem untuk Item SlaLine",
+        "slaLineItemWithSlaLineItemIdNotFound": "ID slaLineItem tidak sah",
+        "slaNotificationIdExists": "Pemberitahuan SLA baru tidak boleh sudah mempunyai ID",
+        "slaPackageCustomerIdExists": "Pelanggan Pakej SLA baru tidak boleh sudah mempunyai ID",
+        "slaPackageIdExists": "Pakej SLA baru tidak boleh sudah mempunyai ID",
+        "slaPackageIdNotFound": "ID tidak dijumpai",
+        "slaPackageNotFound": "Pakej SLA tidak dijumpai",
+        "slaPackageHasCustomer": "Data Pelanggan wujud dalam sistem untuk Pakej SLA",
+        "slaPackageHasSLATicket": "Data Tiket SLA wujud dalam sistem untuk Pakej SLA",
+        "slaPackageHasSLAJobOrder": "Data Pesanan Kerja SLA wujud dalam sistem untuk Pakej SLA"
+      },
       "tabs": {
         "details": "Butiran",
         "purchaseHistory": "Sejarah Pembelian",

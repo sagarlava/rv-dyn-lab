@@ -12089,6 +12089,22 @@
       "charactersExceed": "Text exceeds character limit (255).",
       "endDateThanStartDate": "End date must be after start date"
     },
+    "validationBE": {
+      "sendGridEmailTenantReferenceIdExists": "A new Send Grid Email Tenant Reference cannot already have an ID",
+      "slaLineItemIdExists": "A new SlaLine Item cannot already have an ID",
+      "slaLineItemIdNotFound": "Id not found",
+      "slaLineItemNotFound": "SlaLine Item not found",
+      "slaLineItemHasSLAPackage": "SLA Package Data exists in the system for the SlaLine Item",
+      "slaLineItemWithSlaLineItemIdNotFound": "Invalid slaLineItemId",
+      "slaNotificationIdExists": "A new SlaNotification cannot already have an ID",
+      "slaPackageCustomerIdExists": "A new SlaPackage Customer cannot already have an ID",
+      "slaPackageIdExists": "A new SlaPackage cannot already have an ID",
+      "slaPackageIdNotFound": "Id not found",
+      "slaPackageNotFound": "SlaPackage not found",
+      "slaPackageHasCustomer": "Customer Data exists in the system for the SlaPackage",
+      "slaPackageHasSLATicket": "SLA Ticket Data exists in the system for the SlaPackage",
+      "slaPackageHasSLAJobOrder": "SLA Job Order Data exists in the system for the SlaPackage"
+    },
     "tabs": {
       "details": "Details",
       "purchaseHistory": "Purchase History",

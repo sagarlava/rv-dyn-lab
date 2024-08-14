@@ -19493,6 +19493,15 @@
           "noMessageToDisplay": "没有要显示的消息",
           "typeYourMessageHere": "在此处输入您的消息",
           "selectConversation": "选择一个对话"
+      },
+      "validationBE": {
+        "announcementIdExists": "新的公告不能已有ID",
+        "messageIdExists": "新的消息不能已有ID",
+        "messageStatusNotFound": "消息状态不能为空或为空",
+        "userWithIdNotFound": "无效的用户ID",
+        "messageThreadIdExists": "新的消息线程不能已有ID",
+        "messageThreadWithIdNotFound": "无效的消息线程ID",
+        "messageThreadUserIdExists": "新的消息线程用户不能已有ID"
       }
   },
   "myBin": {

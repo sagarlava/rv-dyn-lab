@@ -19493,6 +19493,15 @@
       "noMessageToDisplay":"No Message to Display",
       "typeYourMessageHere":"Type your message here",
       "selectConversation":"Select a conversation"
+    },
+    "validationBE": {
+      "announcementIdExists": "A new Announcement cannot already have an ID",
+      "messageIdExists": "A new Message cannot already have an ID",
+      "messageStatusNotFound": "Message Status cannot be null or Empty",
+      "userWithIdNotFound": "Invalid User Id",
+      "messageThreadIdExists": "A new Message Thread cannot already have an ID",
+      "messageThreadWithIdNotFound": "Invalid Message Thread Id",
+      "messageThreadUserIdExists": "A new Message Thread User cannot already have an ID"
     }
   },
   "myBin": {

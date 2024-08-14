@@ -19493,6 +19493,15 @@
           "noMessageToDisplay": "Tiada Mesej untuk Dipaparkan",
           "typeYourMessageHere": "Taip mesej anda di sini",
           "selectConversation": "Pilih perbualan"
+      },
+      "validationBE": {
+        "announcementIdExists": "Pengumuman baru tidak boleh sudah mempunyai ID",
+        "messageIdExists": "Mesej baru tidak boleh sudah mempunyai ID",
+        "messageStatusNotFound": "Status Mesej tidak boleh kosong atau tidak diisi",
+        "userWithIdNotFound": "ID Pengguna tidak sah",
+        "messageThreadIdExists": "Thread Mesej baru tidak boleh sudah mempunyai ID",
+        "messageThreadWithIdNotFound": "ID Thread Mesej tidak sah",
+        "messageThreadUserIdExists": "Pengguna Thread Mesej baru tidak boleh sudah mempunyai ID"
       }
   },
   "myBin": {

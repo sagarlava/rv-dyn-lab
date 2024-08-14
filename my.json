@@ -19976,53 +19976,53 @@
   },
   "login": {
      "setupVisible": false,
-      "label": {
+     "label": {
+        "original": "Log In",
+        "singular": "Log Masuk",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": true,
+        "sec0": {
           "original": "Log In",
-          "singular": "Log In",
+          "singular": "Log Masuk",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
-      },
-      "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "Log In",
-              "singular": "Log In",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        }
       },
       "fields": {
-          "setupVisible": true,
-          "username": {
-              "original": "Username",
-              "singular": "Username",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "password": {
-              "original": "Password",
-              "singular": "Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "rememberMe": {
-              "original": "Remember Me",
-              "singular": "Remember Me",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "forgotPassword": {
-              "original": "Forgot Your Password?",
-              "singular": "Forgot Your Password?",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "username": {
+          "original": "Username",
+          "singular": "Nama Pengguna",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "password": {
+          "original": "Password",
+          "singular": "Kata Laluan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "rememberMe": {
+          "original": "Remember Me",
+          "singular": "Ingat Saya",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "forgotPassword": {
+          "original": "Forgot Your Password?",
+          "singular": "Lupa Kata Laluan Anda?",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "messages": {
         "mostFeaturesMobileApp": "Untuk ciri dan fungsi FieldEx yang paling banyak semasa dalam perjalanan, sila muat turun aplikasi mudah alih kami.",
@@ -20041,145 +20041,145 @@
   "resetPassword": {
      "setupVisible": false,
       "label": {
+        "original": "Reset Password",
+        "singular": "Tetapkan Semula Kata Laluan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupVisible": false,
+        "sec0": {
           "original": "Reset Password",
-          "singular": "Reset Password",
+          "singular": "Tetapkan Semula Kata Laluan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Create New Password",
+          "singular": "Cipta Kata Laluan Baru",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Resend Email",
+          "singular": "Hantar Semula E-mel",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupVisible": true,
+        "username": {
+          "original": "Username",
+          "singular": "Nama Pengguna",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
-      },
-      "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "Reset Password",
-              "singular": "Reset Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec1": {
-              "original": "Create New Password",
-              "singular": "Create New Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "sec2": {
-              "original": "Resend Email",
-              "singular": "Resend Email",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": false
-          }
-      },
-      "fields": {
-          "setupVisible": true,
-          "username": {
-              "original": "Username",
-              "singular": "Username",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "oldPassword": {
-              "original": "Old Password",
-              "singular": "Old Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "newPassword": {
-              "original": "New Password",
-              "singular": "New Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "confirmPassword": {
-              "original": "Confirm Password",
-              "singular": "Confirm Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "confirmNewPassword": {
-              "original": "Confirm New Password",
-              "singular": "Confirm New Password",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "returnLogin": {
-              "original": "Return to login",
-              "singular": "Return to login",
-              "plural": "Return to login",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        },
+        "oldPassword": {
+          "original": "Old Password",
+          "singular": "Kata Laluan Lama",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "newPassword": {
+          "original": "New Password",
+          "singular": "Kata Laluan Baru",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "confirmPassword": {
+          "original": "Confirm Password",
+          "singular": "Sahkan Kata Laluan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "confirmNewPassword": {
+          "original": "Confirm New Password",
+          "singular": "Sahkan Kata Laluan Baru",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "returnLogin": {
+          "original": "Return to login",
+          "singular": "Kembali ke log masuk",
+          "plural": "Kembali ke log masuk",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       },
       "messages": {
-          "minimumChars": "8 characters minimum",
-          "oneLowercase": "1 lowercase letter (a-z)",
-          "oneUppercase": "1 uppercase letter (A-Z)",
-          "oneNumeric": "1 number (0-9)",
-          "oneSymbol": "1 symbol (!, @, #, $, etc)",
-          "passwordRequirement": "Password must contain at least",
-          "usernameExclusion": "must not contain part of your username",
-          "anEmailWillBeSentTo": "An email will be sent to",
-          "doYouWishProceed": "Do you wish to proceed"
+        "minimumChars": "Sekurang-kurangnya 8 aksara",
+        "oneLowercase": "1 huruf kecil (a-z)",
+        "oneUppercase": "1 huruf besar (A-Z)",
+        "oneNumeric": "1 nombor (0-9)",
+        "oneSymbol": "1 simbol (!, @, #, $, dll)",
+        "passwordRequirement": "Kata laluan mesti mengandungi sekurang-kurangnya",
+        "usernameExclusion": "tidak boleh mengandungi sebahagian daripada nama pengguna anda",
+        "anEmailWillBeSentTo": "E-mel akan dihantar kepada",
+        "doYouWishProceed": "Adakah anda ingin meneruskan"
       },
       "validationFE": {
-          "passwordsDoNotMatch": "Password does not match"
+        "passwordsDoNotMatch": "Kata laluan tidak sepadan"
       }
   },
   "createProfile": {
-      "setupVisible": false,
-      "label": {
+     "setupVisible": false,
+     "label": {
+        "original": "Create your profile",
+        "singular": "Cipta profil anda",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": true,
+        "sec0": {
           "original": "Create your profile",
-          "singular": "Create your profile",
+          "singular": "Cipta profil anda",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
-      },
-      "sections": {
-          "setupVisible": true,
-          "sec0": {
-              "original": "Create your profile",
-              "singular": "Create your profile",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        }
       },
       "fields": {
-          "setupVisible": true,
-          "firstName": {
-              "original": "First Name",
-              "singular": "First Name",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "lastName": {
-              "original": "Last Name",
-              "singular": "Last Name",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "email": {
-              "original": "Email",
-              "singular": "E-mel",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          },
-          "phone": {
-              "original": "Phone",
-              "singular": "Phone",
-              "plural": "",
-              "setupEdit": true,
-              "setupVisible": true
-          }
+        "setupVisible": true,
+        "firstName": {
+          "original": "First Name",
+          "singular": "Nama Pertama",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "lastName": {
+          "original": "Last Name",
+          "singular": "Nama Akhir",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "email": {
+          "original": "Email",
+          "singular": "Emel",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "phone": {
+          "original": "Phone",
+          "singular": "Telefon",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        }
       }
   },
   "mobileDashboard": {

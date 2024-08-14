@@ -2653,25 +2653,25 @@
       "journeyAlreadyRunningForAnotherTask": "另一个任务的旅程已经在运行"
     },
     "validationBE": {
-      "routeIdTaskIdNotFound": "RouteId or TaskId not found",
-      "coordinatesNotFound": "Coordinates not found",
-      "coordinateAddressedNotFound": "Coordinate addresses not found",
-      "journeyStartEndTimeNotFound": "Journey start/end time not found",
-      "journeyUserIdNotFound": "User id not found",
-      "journeyTaskNotFound": "Task not found",
-      "journeyUserNotFound": "User not found",
-      "journeyStartEndLocationIdNotFound": "Journey start/end location id not found",
-      "journeyRouteLocationNotFound": "User location in route not found",
-      "liveJourneyNotAllowToEdit": "Live recorded journey date is not allowed to be edited",
-      "systemGeneratedJourneyNotAllowToEdit": "System recorded journey date is not allowed to be edited",
-      "journeyStartLocationNotFound": "Journey start location data not found",
-      "journeyEndLocationNotFound": "Journey end location data not found",
-      "failedToRetrieveDistanceMatrixData": "Failed to retrieve distance matrix data",
-      "failedToIdentifyCoordinatesGeographically": "The origin and/or destination could not be identified geographically",
-      "failedToIdentifyRoute": "No route could be found between the origin and destination",
-      "userActiveInJourneyTask": "Currently a user already active in the task",
-      "journeyStateNotFound": "Journey State not found",
-      "taskIdNotFound": "Task Id not found"
+      "routeIdTaskIdNotFound": "未找到RouteId或TaskId",
+      "coordinatesNotFound": "未找到坐标",
+      "coordinateAddressedNotFound": "未找到坐标地址",
+      "journeyStartEndTimeNotFound": "未找到行程的开始/结束时间",
+      "journeyUserIdNotFound": "未找到用户ID",
+      "journeyTaskNotFound": "未找到任务",
+      "journeyUserNotFound": "未找到用户",
+      "journeyStartEndLocationIdNotFound": "未找到行程的开始/结束位置ID",
+      "journeyRouteLocationNotFound": "未找到路线中的用户位置",
+      "liveJourneyNotAllowToEdit": "不允许编辑实时记录的行程日期",
+      "systemGeneratedJourneyNotAllowToEdit": "不允许编辑系统记录的行程日期",
+      "journeyStartLocationNotFound": "未找到行程起点位置数据",
+      "journeyEndLocationNotFound": "未找到行程终点位置数据",
+      "failedToRetrieveDistanceMatrixData": "无法检索距离矩阵数据",
+      "failedToIdentifyCoordinatesGeographically": "无法地理定位起点和/或终点",
+      "failedToIdentifyRoute": "无法在起点和终点之间找到路线",
+      "userActiveInJourneyTask": "当前已有用户在任务中活跃",
+      "journeyStateNotFound": "未找到行程状态",
+      "taskIdNotFound": "未找到任务ID"
     }
   },
   "product": {
@@ -19783,25 +19783,25 @@
       "passwordMustMatch": "密码必须匹配"
     },
     "validationBE": {
-      "profileNameExists": "Profile name already exist",
-      "profileNotFound": "Profile not found",
-      "userRoleNotFound": "User Role not found",
-      "userRoleHasLowerUserRoles": "Lower Level User Roles exists in the system for the selected User role",
-      "profileIdNotFound": "Profile id not found",
-      "profileFeatureNotFound": "Profile feature not found",
-      "userNotFound": "User not found",
-      "supervisorIsYourStaff": "Selected supervisor is your staff",
-      "licenceLimitReached": "You have reached your limit for user licences, please contact admin",
-      "tenantNotFound": "Tenant not found",
-      "unableToActiveUserDeactivated": "Unable to activate, the user has been deactivated",
-      "subscriptionDateNotFound": "Invalid subscription, please contact your admin",
-      "customerUserContactNotFound": "Customer User Contact not found",
-      "customerUserNameNotFound": "User's Name not found",
-      "customerUserEmailNotFound": "User's Email not found",
-      "circularDependencyOnSupervisor": "Circular dependency : Two users cannot be each other's approval managers",
-      "noDownLineFound": "You do not have any staff assigned",
-      "unableToActiveOwnAccount": "You are not allowed to suspend or deactivate your own account",
-      "unableToDeActiveDefaultMember": "Cannot deactivate: User is a default member of one or more groups."
+      "profileNameExists": "配置文件名称已存在",
+      "profileNotFound": "未找到配置文件",
+      "userRoleNotFound": "未找到用户角色",
+      "userRoleHasLowerUserRoles": "系统中存在所选用户角色的下级用户角色",
+      "profileIdNotFound": "未找到配置文件ID",
+      "profileFeatureNotFound": "未找到配置文件功能",
+      "userNotFound": "未找到用户",
+      "supervisorIsYourStaff": "所选主管是您的员工",
+      "licenceLimitReached": "您已达到用户许可证的限制，请联系管理员",
+      "tenantNotFound": "未找到租户",
+      "unableToActiveUserDeactivated": "无法激活，用户已被停用",
+      "subscriptionDateNotFound": "订阅无效，请联系管理员",
+      "customerUserContactNotFound": "未找到客户用户联系方式",
+      "customerUserNameNotFound": "未找到用户名称",
+      "customerUserEmailNotFound": "未找到用户电子邮件",
+      "circularDependencyOnSupervisor": "循环依赖：两个用户不能互为审批经理",
+      "noDownLineFound": "您没有分配任何员工",
+      "unableToActiveOwnAccount": "您不允许暂停或停用自己的帐户",
+      "unableToDeActiveDefaultMember": "无法停用：用户是一个或多个组的默认成员。"
     }
   },
   "note": {
@@ -20044,81 +20044,81 @@
     "setupVisible": false,
     "label": {
       "original": "Log In",
-      "singular": "Log In",
+      "singular": "登录",
       "plural": "",
       "setupEdit": true,
-      "setupVisible": false
+      "setupVisible": true
     },
     "sections": {
-      "setupVisible": false,
+      "setupVisible": true,
       "sec0": {
         "original": "Log In",
-        "singular": "Log In",
+        "singular": "登录",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       }
     },
     "fields": {
       "setupVisible": false,
       "username": {
         "original": "Username",
-        "singular": "Username",
+        "singular": "用户名",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       },
       "password": {
         "original": "Password",
-        "singular": "Password",
+        "singular": "密码",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       },
       "rememberMe": {
         "original": "Remember Me",
-        "singular": "Remember Me",
+        "singular": "记住我",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       },
       "forgotPassword": {
         "original": "Forgot Your Password?",
-        "singular": "Forgot Your Password?",
+        "singular": "忘记密码？",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       }
     },
     "messages": {
-      "mostFeaturesMobileApp": "For the most features and functionality of FieldEx on the go, please download our mobile app.",
-      "bySigniningIn": "By signing in, you agree to our",
-      "privacyPolicy": "Privacy Policy",
-      "pleaseProvideUsernameAndPassword" : "Please provide username and password",
-      "problemFetchingJourneyTask": "There is a problem while fetching journey task.",
-      "problemFetchingJourneyStatus": "There is a problem while fetching journey status.",
-      "userNameOrPasswordWrong": "Username or password wrong!",
-      "enterUserName": "Enter User Name",
-      "passwordResetInfo": "No worries, we just need your username so that we can send you a  password reset",
-      "passwordResetSuccessMessage" : "Reset successfully. An email has been sent to your address.",
-      "downloadApp":"For the most features and functionality of FieldEx on the go, please download our mobile app."
+      "mostFeaturesMobileApp": "要在旅途中使用FieldEx的所有功能，请下载我们的移动应用程序。",
+      "bySigniningIn": "通过登录，您同意我们的",
+      "privacyPolicy": "隐私政策",
+      "pleaseProvideUsernameAndPassword": "请输入用户名和密码",
+      "problemFetchingJourneyTask": "获取任务时出现问题。",
+      "problemFetchingJourneyStatus": "获取行程状态时出现问题。",
+      "userNameOrPasswordWrong": "用户名或密码错误！",
+      "enterUserName": "输入用户名",
+      "passwordResetInfo": "别担心，我们只需要您的用户名以便向您发送密码重置",
+      "passwordResetSuccessMessage": "重置成功。邮件已发送到您的地址。",
+      "downloadApp": "要在旅途中使用FieldEx的所有功能，请下载我们的移动应用程序。"
     },
     "validationBE": {
-      "invalidCredentials": "Please provide correct credentials and try again",
-      "subscriptionExpired": "Your subscription has expired, please contact your admin.",
-      "userNotActive": "User was not activated",
-      "userNotFound": "User not found",
-      "userProfileNotFound": "Current user has no profile attached",
-      "driverNotAllowed": "You are not allowed to login to the web application. Please proceed with Mobile App",
-      "userLoginNotFound": "User's login not found",
-      "userNameExists": "Username already in use"
+      "invalidCredentials": "请提供正确的凭据并重试",
+      "subscriptionExpired": "您的订阅已过期，请联系您的管理员。",
+      "userNotActive": "用户未激活",
+      "userNotFound": "未找到用户",
+      "userProfileNotFound": "当前用户没有关联的个人资料",
+      "driverNotAllowed": "您不允许登录网页应用程序。请使用移动应用程序继续",
+      "userLoginNotFound": "未找到用户的登录信息",
+      "userNameExists": "用户名已被使用"
     }
   },
   "resetPassword": {
     "setupVisible": false,
     "label": {
       "original": "Reset Password",
-      "singular": "Reset Password",
+      "singular": "重置密码",
       "plural": "",
       "setupEdit": true,
       "setupVisible": false
@@ -20127,139 +20127,139 @@
       "setupVisible": false,
       "sec0": {
         "original": "Reset Password",
-        "singular": "Reset Password",
+        "singular": "重置密码",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "sec1": {
         "original": "Create New Password",
-        "singular": "Create New Password",
+        "singular": "创建新密码",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "sec2": {
         "original": "Resend Email",
-        "singular": "Resend Email",
+        "singular": "重新发送邮件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": false,
+      "setupVisible": true,
       "username": {
         "original": "Username",
-        "singular": "Username",
+        "singular": "用户名",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       },
       "oldPassword": {
         "original": "Old Password",
-        "singular": "Old Password",
+        "singular": "旧密码",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       },
       "newPassword": {
         "original": "New Password",
-        "singular": "New Password",
+        "singular": "新密码",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       },
       "confirmPassword": {
         "original": "Confirm Password",
-        "singular": "Confirm Password",
+        "singular": "确认密码",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       },
       "confirmNewPassword": {
         "original": "Confirm New Password",
-        "singular": "Confirm New Password",
+        "singular": "确认新密码",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       },
       "returnLogin": {
         "original": "Return to login",
-        "singular": "Return to login",
-        "plural": "Return to login",
+        "singular": "返回登录",
+        "plural": "返回登录",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       }
     },
     "messages": {
-      "minimumChars": "8 characters minimum",
-      "oneLowercase": "1 lowercase letter (a-z)",
-      "oneUppercase": "1 uppercase letter (A-Z)",
-      "oneNumeric": "1 number (0-9)",
-      "oneSymbol": "1 symbol (!, @, #, $, etc)",
-      "passwordRequirement": "Password must contain at least",
-      "usernameExclusion": "must not contain part of your username",
-      "anEmailWillBeSentTo": "An email will be sent to",
-      "doYouWishProceed": "Do you wish to proceed"
+      "minimumChars": "至少8个字符",
+      "oneLowercase": "1个小写字母 (a-z)",
+      "oneUppercase": "1个大写字母 (A-Z)",
+      "oneNumeric": "1个数字 (0-9)",
+      "oneSymbol": "1个符号 (!, @, #, $, 等)",
+      "passwordRequirement": "密码必须至少包含",
+      "usernameExclusion": "不得包含您的用户名部分",
+      "anEmailWillBeSentTo": "将发送电子邮件至",
+      "doYouWishProceed": "您希望继续吗"
     },
     "validationFE": {
-      "passwordsDoNotMatch": "Password does not match"
+      "passwordsDoNotMatch": "密码不匹配"
     },
     "validationBE": {
-      "userNotFound": "User not found",
-      "invalidPassword": "Invalid password",
-      "activationLinkExpired": "Activation link has expired after 24 hours or has already been used."
+      "userNotFound": "未找到用户",
+      "invalidPassword": "密码无效",
+      "activationLinkExpired": "激活链接已在24小时后过期或已被使用。"
     }
   },
   "createProfile": {
     "setupVisible": false,
     "label": {
       "original": "Create your profile",
-      "singular": "Create your profile",
+      "singular": "创建您的个人资料",
       "plural": "",
       "setupEdit": true,
-      "setupVisible": false
+      "setupVisible": true
     },
     "sections": {
-      "setupVisible": false,
+      "setupVisible": true,
       "sec0": {
         "original": "Create your profile",
-        "singular": "Create your profile",
+        "singular": "创建您的个人资料",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       }
     },
     "fields": {
-      "setupVisible": false,
+      "setupVisible": true,
       "firstName": {
         "original": "First Name",
-        "singular": "First Name",
+        "singular": "名字",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       },
       "lastName": {
         "original": "Last Name",
-        "singular": "Last Name",
+        "singular": "姓氏",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       },
       "email": {
         "original": "Email",
-        "singular": "Email",
+        "singular": "电子邮件",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       },
       "phone": {
         "original": "Phone",
-        "singular": "Phone",
+        "singular": "电话",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": false
+        "setupVisible": true
       }
     }
   },

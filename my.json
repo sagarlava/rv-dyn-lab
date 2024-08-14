@@ -2653,25 +2653,25 @@
       "journeyAlreadyRunningForAnotherTask": "Perjalanan sudah berjalan untuk tugas lain"
     },
     "validationBE": {
-      "routeIdTaskIdNotFound": "RouteId or TaskId not found",
-      "coordinatesNotFound": "Coordinates not found",
-      "coordinateAddressedNotFound": "Coordinate addresses not found",
-      "journeyStartEndTimeNotFound": "Journey start/end time not found",
-      "journeyUserIdNotFound": "User id not found",
-      "journeyTaskNotFound": "Task not found",
-      "journeyUserNotFound": "User not found",
-      "journeyStartEndLocationIdNotFound": "Journey start/end location id not found",
-      "journeyRouteLocationNotFound": "User location in route not found",
-      "liveJourneyNotAllowToEdit": "Live recorded journey date is not allowed to be edited",
-      "systemGeneratedJourneyNotAllowToEdit": "System recorded journey date is not allowed to be edited",
-      "journeyStartLocationNotFound": "Journey start location data not found",
-      "journeyEndLocationNotFound": "Journey end location data not found",
-      "failedToRetrieveDistanceMatrixData": "Failed to retrieve distance matrix data",
-      "failedToIdentifyCoordinatesGeographically": "The origin and/or destination could not be identified geographically",
-      "failedToIdentifyRoute": "No route could be found between the origin and destination",
-      "userActiveInJourneyTask": "Currently a user already active in the task",
-      "journeyStateNotFound": "Journey State not found",
-      "taskIdNotFound": "Task Id not found"
+      "routeIdTaskIdNotFound": "RouteId atau TaskId tidak dijumpai",
+      "coordinatesNotFound": "Koordinat tidak dijumpai",
+      "coordinateAddressedNotFound": "Alamat koordinat tidak dijumpai",
+      "journeyStartEndTimeNotFound": "Masa mula/akhir perjalanan tidak dijumpai",
+      "journeyUserIdNotFound": "ID pengguna tidak dijumpai",
+      "journeyTaskNotFound": "Tugas tidak dijumpai",
+      "journeyUserNotFound": "Pengguna tidak dijumpai",
+      "journeyStartEndLocationIdNotFound": "ID lokasi mula/akhir perjalanan tidak dijumpai",
+      "journeyRouteLocationNotFound": "Lokasi pengguna dalam laluan tidak dijumpai",
+      "liveJourneyNotAllowToEdit": "Tarikh perjalanan yang direkodkan secara langsung tidak dibenarkan untuk disunting",
+      "systemGeneratedJourneyNotAllowToEdit": "Tarikh perjalanan yang direkodkan oleh sistem tidak dibenarkan untuk disunting",
+      "journeyStartLocationNotFound": "Data lokasi permulaan perjalanan tidak dijumpai",
+      "journeyEndLocationNotFound": "Data lokasi akhir perjalanan tidak dijumpai",
+      "failedToRetrieveDistanceMatrixData": "Gagal untuk mendapatkan data matriks jarak",
+      "failedToIdentifyCoordinatesGeographically": "Asal dan/atau destinasi tidak dapat dikenal pasti secara geografi",
+      "failedToIdentifyRoute": "Tiada laluan dapat ditemui antara asal dan destinasi",
+      "userActiveInJourneyTask": "Pada masa ini, sudah ada pengguna yang aktif dalam tugas",
+      "journeyStateNotFound": "Status perjalanan tidak dijumpai",
+      "taskIdNotFound": "ID tugas tidak dijumpai"
     }
   },
   "product": {
@@ -19783,25 +19783,25 @@
       "passwordMustMatch": "Kata laluan mesti sepadan"
     },
     "validationBE": {
-      "profileNameExists": "Profile name already exist",
-      "profileNotFound": "Profile not found",
-      "userRoleNotFound": "User Role not found",
-      "userRoleHasLowerUserRoles": "Lower Level User Roles exists in the system for the selected User role",
-      "profileIdNotFound": "Profile id not found",
-      "profileFeatureNotFound": "Profile feature not found",
-      "userNotFound": "User not found",
-      "supervisorIsYourStaff": "Selected supervisor is your staff",
-      "licenceLimitReached": "You have reached your limit for user licences, please contact admin",
-      "tenantNotFound": "Tenant not found",
-      "unableToActiveUserDeactivated": "Unable to activate, the user has been deactivated",
-      "subscriptionDateNotFound": "Invalid subscription, please contact your admin",
-      "customerUserContactNotFound": "Customer User Contact not found",
-      "customerUserNameNotFound": "User's Name not found",
-      "customerUserEmailNotFound": "User's Email not found",
-      "circularDependencyOnSupervisor": "Circular dependency : Two users cannot be each other's approval managers",
-      "noDownLineFound": "You do not have any staff assigned",
-      "unableToActiveOwnAccount": "You are not allowed to suspend or deactivate your own account",
-      "unableToDeActiveDefaultMember": "Cannot deactivate: User is a default member of one or more groups."
+      "profileNameExists": "Nama profil sudah wujud",
+      "profileNotFound": "Profil tidak dijumpai",
+      "userRoleNotFound": "Peranan Pengguna tidak dijumpai",
+      "userRoleHasLowerUserRoles": "Peranan Pengguna Peringkat Rendah wujud dalam sistem untuk peranan Pengguna yang dipilih",
+      "profileIdNotFound": "ID profil tidak dijumpai",
+      "profileFeatureNotFound": "Ciri profil tidak dijumpai",
+      "userNotFound": "Pengguna tidak dijumpai",
+      "supervisorIsYourStaff": "Penyelia yang dipilih adalah kakitangan anda",
+      "licenceLimitReached": "Anda telah mencapai had lesen pengguna, sila hubungi pentadbir",
+      "tenantNotFound": "Penyewa tidak dijumpai",
+      "unableToActiveUserDeactivated": "Tidak dapat mengaktifkan, pengguna telah dinyahaktifkan",
+      "subscriptionDateNotFound": "Langganan tidak sah, sila hubungi pentadbir anda",
+      "customerUserContactNotFound": "Maklumat Perhubungan Pengguna Pelanggan tidak dijumpai",
+      "customerUserNameNotFound": "Nama Pengguna tidak dijumpai",
+      "customerUserEmailNotFound": "E-mel Pengguna tidak dijumpai",
+      "circularDependencyOnSupervisor": "Kebergantungan bulat: Dua pengguna tidak boleh menjadi pengurus kelulusan antara satu sama lain",
+      "noDownLineFound": "Anda tidak mempunyai sebarang kakitangan yang ditugaskan",
+      "unableToActiveOwnAccount": "Anda tidak dibenarkan untuk menggantung atau menyahaktifkan akaun anda sendiri",
+      "unableToDeActiveDefaultMember": "Tidak dapat dinyahaktifkan: Pengguna adalah ahli lalai satu atau lebih kumpulan."
     }
   },
   "note": {
@@ -20104,14 +20104,14 @@
       "downloadApp": "Untuk ciri dan fungsi FieldEx yang paling banyak semasa dalam perjalanan, sila muat turun aplikasi mudah alih kami."
     },
     "validationBE": {
-      "invalidCredentials": "Please provide correct credentials and try again",
-      "subscriptionExpired": "Your subscription has expired, please contact your admin.",
-      "userNotActive": "User was not activated",
-      "userNotFound": "User not found",
-      "userProfileNotFound": "Current user has no profile attached",
-      "driverNotAllowed": "You are not allowed to login to the web application. Please proceed with Mobile App",
-      "userLoginNotFound": "User's login not found",
-      "userNameExists": "Username already in use"
+      "invalidCredentials": "Sila berikan kelayakan yang betul dan cuba lagi",
+      "subscriptionExpired": "Langganan anda telah tamat tempoh, sila hubungi pentadbir anda.",
+      "userNotActive": "Pengguna tidak diaktifkan",
+      "userNotFound": "Pengguna tidak dijumpai",
+      "userProfileNotFound": "Pengguna semasa tidak mempunyai profil yang dilampirkan",
+      "driverNotAllowed": "Anda tidak dibenarkan untuk log masuk ke aplikasi web. Sila teruskan dengan Aplikasi Mudah Alih",
+      "userLoginNotFound": "Log masuk pengguna tidak dijumpai",
+      "userNameExists": "Nama pengguna sudah digunakan"
     }
   },
   "resetPassword": {
@@ -20207,9 +20207,9 @@
       "passwordsDoNotMatch": "Kata laluan tidak sepadan"
     },
     "validationBE": {
-      "userNotFound": "User not found",
-      "invalidPassword": "Invalid password",
-      "activationLinkExpired": "Activation link has expired after 24 hours or has already been used."
+      "userNotFound": "Pengguna tidak dijumpai",
+      "invalidPassword": "Kata laluan tidak sah",
+      "activationLinkExpired": "Pautan pengaktifan telah tamat tempoh selepas 24 jam atau telah digunakan."
     }
   },
   "createProfile": {

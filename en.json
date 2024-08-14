@@ -8063,6 +8063,34 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
+        },
+        "violated": {
+          "original": "Violated",
+          "singular": "Violated",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "completed": {
+          "original": "Completed",
+          "singular": "Completed",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "timeLapsedSoFar": {
+          "original": "Time lapsed so far",
+          "singular": "Time lapsed so far",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "pausedAt": {
+          "original": "Paused at",
+          "singular": "Paused at",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
         }
       },
     "validationFE": {

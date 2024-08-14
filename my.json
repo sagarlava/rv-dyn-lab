@@ -8063,6 +8063,34 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
+        },
+        "violated": {
+          "original": "Violated",
+          "singular": "Dilanggar",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "completed": {
+          "original": "Completed",
+          "singular": "Selesai",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "timeLapsedSoFar": {
+          "original": "Time lapsed so far",
+          "singular": "Masa yang berlalu setakat ini",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
+        },
+        "pausedAt": {
+          "original": "Paused at",
+          "singular": "Dijeda pada",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": true
         }
     },
       "validationFE": {

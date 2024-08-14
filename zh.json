@@ -8063,6 +8063,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "violated": {
+        "original": "Violated",
+        "singular": "违反",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "completed": {
+        "original": "Completed",
+        "singular": "已完成",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "timeLapsedSoFar": {
+        "original": "Time lapsed so far",
+        "singular": "目前为止的时间流逝",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "pausedAt": {
+        "original": "Paused at",
+        "singular": "暂停于",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": true
       }
       },
       "validationFE": {

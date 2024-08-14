@@ -19028,6 +19028,8 @@
       "triggerWhenRecordUpdatedEverytime":"This option will trigger the workflow whenever a record is updated.",
       "triggerWhenRecordDeleted":"This option will trigger the workflow whenever a record is deleted.",
       "selectStatus":"Select Status",
+      "selectAttribute": "Select Attribute",
+      "selectOperator": "Select Operator",
       "noConditionsAvailable":"No conditions available. Click 'Add/Edit Conditions' to create one.",
       "noWorkflowActionsAvailable":"No workflow actions available. Click 'Add Notification' to create one."
     }

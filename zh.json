@@ -19028,6 +19028,8 @@
         "triggerWhenRecordUpdatedEverytime": "此选项将在每次记录更新时触发工作流。",
         "triggerWhenRecordDeleted": "此选项将在记录删除时触发工作流。",
         "selectStatus": "选择状态",
+        "selectAttribute": "选择属性",
+        "selectOperator": "选择运算符",
         "noConditionsAvailable": "没有可用条件。点击“添加/编辑条件”来创建一个。",
         "noWorkflowActionsAvailable": "没有可用的工作流操作。点击“添加通知”来创建一个。"
       }
@@ -19978,71 +19980,71 @@
     "setupVisible": false,
     "label": {
       "original": "Log In",
-      "singular": "登录",
+      "singular": "Log In",
       "plural": "",
       "setupEdit": true,
-      "setupVisible": true
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Log In",
-        "singular": "登录",
+        "singular": "Log In",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "username": {
         "original": "Username",
-        "singular": "用户名",
+        "singular": "Username",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "password": {
         "original": "Password",
-        "singular": "密码",
+        "singular": "Password",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "rememberMe": {
         "original": "Remember Me",
-        "singular": "记住我",
+        "singular": "Remember Me",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "forgotPassword": {
         "original": "Forgot Your Password?",
-        "singular": "忘记密码？",
+        "singular": "Forgot Your Password?",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {
-      "mostFeaturesMobileApp": "要在旅途中使用FieldEx的大多数功能，请下载我们的移动应用程序。",
-      "bySigniningIn": "通过登录，您同意我们的",
-      "privacyPolicy": "隐私政策",
-      "pleaseProvideUsernameAndPassword": "请输入用户名和密码",
-      "problemFetchingJourneyTask": "获取任务时出现问题。",
-      "problemFetchingJourneyStatus": "获取行程状态时出现问题。",
-      "userNameOrPasswordWrong": "用户名或密码错误！",
-      "enterUserName": "输入用户名",
-      "passwordResetInfo": "别担心，我们只需要您的用户名以便向您发送密码重置。",
-      "passwordResetSuccessMessage": "重置成功。邮件已发送到您的地址。",
-      "downloadApp": "要在旅途中使用FieldEx的大多数功能，请下载我们的移动应用程序。"
+      "mostFeaturesMobileApp": "For the most features and functionality of FieldEx on the go, please download our mobile app.",
+      "bySigniningIn": "By signing in, you agree to our",
+      "privacyPolicy": "Privacy Policy",
+      "pleaseProvideUsernameAndPassword" : "Please provide username and password",
+      "problemFetchingJourneyTask": "There is a problem while fetching journey task.",
+      "problemFetchingJourneyStatus": "There is a problem while fetching journey status.",
+      "userNameOrPasswordWrong": "Username or password wrong!",
+      "enterUserName": "Enter User Name",
+      "passwordResetInfo": "No worries, we just need your username so that we can send you a  password reset",
+      "passwordResetSuccessMessage" : "Reset successfully. An email has been sent to your address.",
+      "downloadApp":"For the most features and functionality of FieldEx on the go, please download our mobile app." 
     }
   },
   "resetPassword": {
     "setupVisible": false,
     "label": {
       "original": "Reset Password",
-      "singular": "重置密码",
+      "singular": "Reset Password",
       "plural": "",
       "setupEdit": true,
       "setupVisible": false
@@ -20051,134 +20053,134 @@
       "setupVisible": false,
       "sec0": {
         "original": "Reset Password",
-        "singular": "重置密码",
+        "singular": "Reset Password",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "sec1": {
         "original": "Create New Password",
-        "singular": "创建新密码",
+        "singular": "Create New Password",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "sec2": {
         "original": "Resend Email",
-        "singular": "重新发送邮件",
+        "singular": "Resend Email",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       }
     },
-   "fields": {
-    "setupVisible": true,
+    "fields": {
+      "setupVisible": false,
       "username": {
         "original": "Username",
-        "singular": "用户名",
+        "singular": "Username",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "oldPassword": {
         "original": "Old Password",
-        "singular": "旧密码",
+        "singular": "Old Password",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "newPassword": {
         "original": "New Password",
-        "singular": "新密码",
+        "singular": "New Password",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "confirmPassword": {
         "original": "Confirm Password",
-        "singular": "确认密码",
+        "singular": "Confirm Password",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "confirmNewPassword": {
         "original": "Confirm New Password",
-        "singular": "确认新密码",
+        "singular": "Confirm New Password",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "returnLogin": {
         "original": "Return to login",
-        "singular": "返回登录",
-        "plural": "返回登录",
+        "singular": "Return to login",
+        "plural": "Return to login",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {
-      "minimumChars": "至少8个字符",
-      "oneLowercase": "1个小写字母 (a-z)",
-      "oneUppercase": "1个大写字母 (A-Z)",
-      "oneNumeric": "1个数字 (0-9)",
-      "oneSymbol": "1个符号 (!, @, #, $, 等)",
-      "passwordRequirement": "密码必须至少包含",
-      "usernameExclusion": "不得包含您的用户名部分",
-      "anEmailWillBeSentTo": "将发送电子邮件至",
-      "doYouWishProceed": "您希望继续吗"
+      "minimumChars": "8 characters minimum",
+      "oneLowercase": "1 lowercase letter (a-z)",
+      "oneUppercase": "1 uppercase letter (A-Z)",
+      "oneNumeric": "1 number (0-9)",
+      "oneSymbol": "1 symbol (!, @, #, $, etc)",
+      "passwordRequirement": "Password must contain at least",
+      "usernameExclusion": "must not contain part of your username",
+      "anEmailWillBeSentTo": "An email will be sent to",
+      "doYouWishProceed": "Do you wish to proceed"
     },
     "validationFE": {
-      "passwordsDoNotMatch": "密码不匹配"
+      "passwordsDoNotMatch": "Password does not match"
     }
   },
   "createProfile": {
     "setupVisible": false,
     "label": {
       "original": "Create your profile",
-      "singular": "创建您的个人资料",
+      "singular": "Create your profile",
       "plural": "",
       "setupEdit": true,
-      "setupVisible": true
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Create your profile",
-        "singular": "创建您的个人资料",
+        "singular": "Create your profile",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "firstName": {
         "original": "First Name",
-        "singular": "名字",
+        "singular": "First Name",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "lastName": {
         "original": "Last Name",
-        "singular": "姓氏",
+        "singular": "Last Name",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "email": {
         "original": "Email",
-        "singular": "电子邮件",
+        "singular": "Email",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       },
       "phone": {
         "original": "Phone",
-        "singular": "电话",
+        "singular": "Phone",
         "plural": "",
         "setupEdit": true,
-        "setupVisible": true
+        "setupVisible": false
       }
     }
   },

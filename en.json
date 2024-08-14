@@ -8198,7 +8198,18 @@
       "noJobOrderContact": "No contact found for the Job Order",
       "noSlaStepDefined": "No SLA step yet",
       "createJobOrder":"Create Job Order",
-      "linkCopied":"Link Copied"
+      "linkCopied":"Link Copied",
+      "beforeViolation":"before Violation",
+      "afterViolation":"after Violation",
+      "sinceViolation":"since Violation",
+      "within":"within",
+      "remaining":"remaining",
+      "delayedSoFar":"delayed so far",
+      "violationIn":"violation in",
+      "paused":"Paused",
+      "violated":"Violated",
+      "completedWithin":"Completed within",
+      "viewCompletionPdf":"View Job Order Completion form in PDF"
     }
   },
   "inventory": {

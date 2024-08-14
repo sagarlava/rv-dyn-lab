@@ -8198,7 +8198,18 @@
           "noJobOrderContact": "未找到工单的联系方式",
           "noSlaStepDefined": "尚未定义SLA步骤",
           "createJobOrder": "创建工单",
-          "linkCopied": "链接已复制"
+          "linkCopied": "链接已复制",
+          "beforeViolation": "在违反之前",
+          "afterViolation": "在违反之后",
+          "sinceViolation": "自违反以来",
+          "within": "在...之内",
+          "remaining": "剩余",
+          "delayedSoFar": "至今延迟",
+          "violationIn": "将在...内违反",
+          "paused": "已暂停",
+          "violated": "已违反",
+          "completedWithin": "在...内完成",
+          "viewCompletionPdf": "以PDF格式查看作业订单完成表单"
       }
   },
   "inventory": {

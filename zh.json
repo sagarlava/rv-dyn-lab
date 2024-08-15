@@ -20024,7 +20024,9 @@
       "userLeaveCannotBeDeleted": "用户请假记录不允许被删除",
       "userLeaveNotFound": "未找到用户请假记录",
       "userLeaveUserManagerNotFound": "未找到经理，请联系您的管理员",
-      "leaveAuditEventHistoryIdExists": "新的请假审核事件历史不能已有ID"
+      "leaveAuditEventHistoryIdExists": "新的请假审核事件历史不能已有ID",
+      "userLeaveOnlyAppliedCanBeEdited": "Only Applied user leave can be edited",
+      "userLeaveOverlappingWithHolidays": "You have overlapping holidays, please change your leave dates and try again"
     },
     "messages": {
       "selectOutturnCode": "选择结果代码",
@@ -20112,7 +20114,9 @@
       "userProfileNotFound": "当前用户没有关联的个人资料",
       "driverNotAllowed": "您不允许登录网页应用程序。请使用移动应用程序继续",
       "userLoginNotFound": "未找到用户的登录信息",
-      "userNameExists": "用户名已被使用"
+      "userNameExists": "用户名已被使用",
+      "userNotAllowedInMobile": "You are not allowed to login to the Mobile App. Please proceed with web application",
+      "deviceNotAllowed": "This device is not allowed to login. Please contact your admin"
     }
   },
   "resetPassword": {

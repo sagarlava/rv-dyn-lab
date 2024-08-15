@@ -20024,7 +20024,9 @@
       "userLeaveCannotBeDeleted": "User Leave not allowed to be deleted",
       "userLeaveNotFound": "User Leave not found",
       "userLeaveUserManagerNotFound": "Manager not found, please contact your admin",
-      "leaveAuditEventHistoryIdExists": "A new Leave Audit Event History cannot already have an ID"
+      "leaveAuditEventHistoryIdExists": "A new Leave Audit Event History cannot already have an ID",
+      "userLeaveOnlyAppliedCanBeEdited": "Only Applied user leave can be edited",
+      "userLeaveOverlappingWithHolidays": "You have overlapping holidays, please change your leave dates and try again"
     },
     "messages": {
       "selectOutturnCode": "Select Outturn Code",
@@ -20112,7 +20114,9 @@
       "userProfileNotFound": "Current user has no profile attached",
       "driverNotAllowed": "You are not allowed to login to the web application. Please proceed with Mobile App",
       "userLoginNotFound": "User's login not found",
-      "userNameExists": "Username already in use"
+      "userNameExists": "Username already in use",
+      "userNotAllowedInMobile": "You are not allowed to login to the Mobile App. Please proceed with web application",
+      "deviceNotAllowed": "This device is not allowed to login. Please contact your admin"
     }
   },
   "resetPassword": {

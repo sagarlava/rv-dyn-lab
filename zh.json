@@ -12737,7 +12737,12 @@
           "invalidTaxAmount": "税额无效"
         },
         "messages": {
-          "organizationSettingsUpdatedSuccessfully": "组织设置更新成功"
+          "organizationSettingsUpdatedSuccessfully": "组织设置更新成功",
+          "searchForLocation": "搜索位置",
+          "selectTimezone": "选择时区",
+          "selectDateFormat": "选择日期格式",
+          "selectCurrency": "选择货币",
+          "taxPercentage": "税率"
         }
       },
       "licenseBilling": {

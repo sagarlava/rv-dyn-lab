@@ -12737,7 +12737,12 @@
           "invalidTaxAmount": "Invalid Tax Amount"
         },
         "messages": {
-          "organizationSettingsUpdatedSuccessfully": "Org settings updated successfully"
+          "organizationSettingsUpdatedSuccessfully": "Org settings updated successfully",
+          "searchForLocation":"Search for Location",
+          "selectTimezone":"Select Timezone",
+          "selectDateFormat":"Select Date Format",
+          "selectCurrency":"Select Currency",
+          "taxPercentage":"Tax Percentage"
         }
       },
       "licenseBilling": {

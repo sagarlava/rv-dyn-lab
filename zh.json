@@ -5562,7 +5562,9 @@
     },
     "messages": {
       "phoneOrEmailMandatory": "电话或电子邮件是必需的",
-      "typeMessageOrAddAttachment": "请键入消息或添加附件"
+      "typeMessageOrAddAttachment": "请键入消息或添加附件",
+      "hasBeenAssignedTo": "已分配给",
+      "this": "此"
     }
   },
   "jobOrder": {
@@ -8233,7 +8235,8 @@
       "viewCompletionPdf": "以PDF格式查看作业订单完成表单",
       "days": "天",
       "hours": "小时",
-      "mins": "分钟"
+      "mins": "分钟",
+      "startSLA": "启动SLA"
     }
   },
   "inventory": {

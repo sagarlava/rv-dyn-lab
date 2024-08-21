@@ -5562,7 +5562,9 @@
     },
     "messages": {
       "phoneOrEmailMandatory": "Sama ada Telefon atau Emel adalah wajib",
-      "typeMessageOrAddAttachment": "Sila taip mesej atau tambah lampiran"
+      "typeMessageOrAddAttachment": "Sila taip mesej atau tambah lampiran",
+      "hasBeenAssignedTo": "telah ditugaskan kepada",
+      "this": "Ini"
     }
   },
   "jobOrder": {
@@ -8233,7 +8235,8 @@
       "viewCompletionPdf": "Lihat borang Penyiapan Pesanan Kerja dalam PDF",
       "days": "hari",
       "hours": "jam",
-      "mins": "minit"
+      "mins": "minit",
+      "startSLA":"SLA Bermula"
     }
   },
   "inventory": {

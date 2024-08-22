@@ -353,7 +353,7 @@
       "customerPurchaseHistoryNotFound": "Purchase History not found",
       "customerPurchaseHistoryWithCusExtIdNotFound": "Invalid Customer External Id",
       "customerPurchaseHistorySalesOrderWithSOExtIdNotFound": "Invalid Sales Order External Id",
-      "customerPurchaseHistoryProductWithProductExtIdNotFound": "Invalid Product External Id",
+      "customerPurchaseHistoryProductWithProductExtIdNotFound": "Invalid Spare Part External Id",
       "customerPurchaseHistoryIdNotFound": "Id not found",
       "customerPurchaseHistoryWithIdNotFound": "Invalid Customer Purchase History Id",
       "customerSectorIdExists": "A new Customer Sector cannot already have an ID",
@@ -946,7 +946,7 @@
       "assetTableSetupNotFound": "Assets Table Setup not found, please contact support",
       "assetCustomerNotFound": "Assets customer not found",
       "assetServiceZoneNotFound": "Assets service zone not found",
-      "assetProductNotFound": "Assets product not found",
+      "assetProductNotFound": "Assets Spare Part not found",
       "assetTypeNotFound": "Assets type not found",
       "assetStatusNotFound": "Assets status not found",
       "assetProjectNotFound": "Assets project not found",
@@ -2964,19 +2964,19 @@
     },
     "validationFE": {},
     "validationBE": {
-      "productNotFound": "Product not found",
+      "productNotFound": "Spare Part not found",
       "productIdNotFound": "Id not found",
-      "productHasJobOrderOrSalesOrder": "Job Order/Sales Order Data exists in the system for the Product",
-      "productHasCustomerServiceReportItem": "Customer Service Report Item Data exists in the system for the Product",
-      "productHasInventoryItem": "Inventory Item Data exists in the system for the Product",
-      "productHasConsignmentItem": "Consignment Item Data exists in the system for the Product",
-      "productHasRequisitionItem": "Requisition Item Data exists in the system for the Product",
-      "productTableSetupNotFound": "Product Table Setup not found, please contact support",
+      "productHasJobOrderOrSalesOrder": "Job Order/Sales Order Data exists in the system for the Spare Part",
+      "productHasCustomerServiceReportItem": "Customer Service Report Item Data exists in the system for the Spare Part",
+      "productHasInventoryItem": "Inventory Item Data exists in the system for the Spare Part",
+      "productHasConsignmentItem": "Consignment Item Data exists in the system for the Spare Part",
+      "productHasRequisitionItem": "Requisition Item Data exists in the system for the Spare Part",
+      "productTableSetupNotFound": "Spare Part Table Setup not found, please contact support",
       "productWithExtIdNotFound": "Invalid ExternalId",
-      "productFamilyNotFound": "Product Family not found",
-      "productTypeNotFound": "Product Type not found",
-      "productMeasureUnitNotFound": "Product Measure Unit not found",
-      "productIdExists": "A new product cannot already have an ID",
+      "productFamilyNotFound": "Spare Part Family not found",
+      "productTypeNotFound": "Spare Part Type not found",
+      "productMeasureUnitNotFound": "Spare Part Measure Unit not found",
+      "productIdExists": "A new Spare Part cannot already have an ID",
       "productIdExtIdNotFound": "Id/ExternalId not found"
     },
     "tooltips": {
@@ -4200,7 +4200,7 @@
       "taskTeamExidValidation": "Invalid Team externalId",
       "taskStockCheckRunningNoValidation": "Invalid Stock Check runningNo",
       "taskAssignedByUserValidation": "Invalid assigned by user",
-      "taskProductExidValidation": "Invalid Product externalId",
+      "taskProductExidValidation": "Invalid Spare Part externalId",
       "taskJobOrderExidValidation": "Invalid Job Order externalId",
       "taskSiteExidValidation": "Invalid Site externalId",
       "taskProjectExidValidation": "Invalid Project externalId",
@@ -4858,8 +4858,8 @@
       "salesOrderCountryNotFound": "Country not found",
       "salesOrderTableSetupNotFound": "Sales order Table Setup not found, please contact support",
       "salesOrderAuditEventHistoryIdExists": "A new Sales Order Audit Event History cannot already have an ID",
-      "salesOrderProductIdExists": "A new Sales Order Product cannot already have an ID",
-      "salesOrderProductNotFound": "Sales Order Product not found",
+      "salesOrderProductIdExists": "A new Sales Order Spare Part cannot already have an ID",
+      "salesOrderProductNotFound": "Sales Order Spare Part not found",
       "salesOrderActivityIdExists": "A new Sales Order Activity cannot already have an ID"
     },
     "tooltips": {
@@ -4874,13 +4874,13 @@
     },
     "messages": {
       "orderEndDateAfterStart": "Order End Date must be after Order Start Date",
-      "pleaseSelectOneOrMoreProducts":"Please select one or more products",
+      "pleaseSelectOneOrMoreProducts":"Please select one or more Spare Parts",
       "doYouWantToRemoveThisSalesOrder": "Do you want to remove this sales order?",
-      "doYouWantToRemoveThisProduct": "Do you want to remove this product?",
+      "doYouWantToRemoveThisProduct": "Do you want to remove this Spare Part?",
       "searchSalesOrders" : "Search Sales Orders",
       "salesOrderFilter" : "Sales Order Filter",
       "filterByCustomer": "Filter By Customer",
-      "soRequiresMinimumOneProduct": "Sales order requires minimum one product"
+      "soRequiresMinimumOneProduct": "Sales order requires minimum one Spare Part"
     }
   },
   "project": {
@@ -5733,16 +5733,16 @@
         "setupVisible": true
       },
       "sec22": {
-        "original": "Product Details",
-        "singular": "Product Details",
-        "plural": "Product Details",
+        "original": "Spare Part Details",
+        "singular": "Spare Part Details",
+        "plural": "Spare Part Details",
         "setupEdit": false,
         "setupVisible": true
       },
       "sec23": {
-        "original": "Products and Service Charges",
-        "singular": "Products and Service Charges",
-        "plural": "Products and Service Charges",
+        "original": "Spare Parts and Service Charges",
+        "singular": "Spare Parts and Service Charges",
+        "plural": "Spare Parts and Service Charges",
         "setupEdit": false,
         "setupVisible": true
       },
@@ -8120,7 +8120,7 @@
       "endDateThanStartDate": "End date must be after start date",
       "notAvailable": "N/A",
       "onDemand": "On Demand",
-      "selectAProduct": "Select a Product",
+      "selectAProduct": "Select a Spare Part",
       "userCalendlyNoIntegrate": "This user does not have Calendly integrated to their account",
       "noContactFoundForThisJobOrder": "No contact found for this Job Order",
       "noContactFoundForTheJobOrdersCustomer": "No contact found for the Job Order's Customer"
@@ -8176,10 +8176,10 @@
       "jobOrderCompletionRecordIdNotFound": "Id not found",
       "jobOrderFaultTypeIdExists": "A new Job Order Fault Type cannot already have an ID",
       "jobOrderFaultTypeIdNotFound": "Id not found",
-      "jobOrderProductIdExists": "A new Job Order Product cannot already have an ID",
+      "jobOrderProductIdExists": "A new Job Order Spare Part cannot already have an ID",
       "jobOrderProductIdNotFound": "Id not found",
-      "jobOrderProductNotFound": "Job Order Product not found",
-      "jobOrderProductStatusIdExists": "A new Job Order Product Status cannot already have an ID",
+      "jobOrderProductNotFound": "Job Order Spare Part not found",
+      "jobOrderProductStatusIdExists": "A new Job Order Spare Part Status cannot already have an ID",
       "jobOrderProductStatusIdNotFound": "Id not found",
       "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID"
     },
@@ -8265,8 +8265,8 @@
         "setupVisible": true
       },
       "sec2": {
-        "original": "Product available in other locations",
-        "singular": "Product available in other locations",
+        "original": "Spare Part available in other locations",
+        "singular": "Spare Part available in other locations",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8300,8 +8300,8 @@
         "setupVisible": true
       },
       "sec7": {
-        "original": "Transfer Details Product",
-        "singular": "Transfer Details Product",
+        "original": "Transfer Details Spare Part",
+        "singular": "Transfer Details Spare Part",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8335,8 +8335,8 @@
         "setupVisible": true
       },
       "sec12": {
-        "original": "Adjust a Product",
-        "singular": "Adjust a Product",
+        "original": "Adjust a Spare Part",
+        "singular": "Adjust a Spare Part",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8590,29 +8590,29 @@
         "setupVisible": true
       },
       "productType":{
-        "original": "Product Type",
-        "singular": "Product Type",
+        "original": "Spare Part Type",
+        "singular": "Spare Part Type",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productFamily":{
-        "original": "Product Family",
-        "singular": "Product Family",
+        "original": "Spare Part Family",
+        "singular": "Spare Part Family",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
-        "singular": "Product Name",
+        "original": "Spare Part Name",
+        "singular": "Spare Part Name",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "productSku": {
-        "original": "Product SKU",
-        "singular": "Product SKU",
+        "original": "Spare Part SKU",
+        "singular": "Spare Part SKU",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -8626,7 +8626,7 @@
       }
     },
     "validationFE": {
-      "pleaseSelectOne":"Please select one product or one asset"
+      "pleaseSelectOne":"Please select one Spare Part or one asset"
     },
     "validationBE": {
       "inventoryIdExists": "A new Inventory cannot already have an ID",
@@ -8635,10 +8635,10 @@
       "inventoryZoneNotFound": "Zone not found",
       "inventoryLocationNotFound": "Location not found",
       "inventoryAssetsNotFound": "Assets not found",
-      "inventoryProductNotFound": "Product not found",
+      "inventoryProductNotFound": "Spare Part not found",
       "inventoryNotFound": "Inventory not found",
       "inventoryFilterRequired": "Please select at least one filter",
-      "inventoryStockInsufficient": "Insufficient product/assets inventory stock",
+      "inventoryStockInsufficient": "Insufficient Spare Part/Assets inventory stock",
       "inventoryTableSetupNotFound": "Inventory Table Setup not found, please contact support"
     },
     "messages": {
@@ -8646,14 +8646,14 @@
       "selectZone": "Select Zone",
       "selectBin": "Select Bin",
       "selectUserBin": "Select User Bin",
-      "searchProduct": "Search Product",
+      "searchProduct": "Search Spare Part",
       "searchAsset": "Search Asset",
       "selectType": "Select Type",
       "selectFamily": "Select Family",
       "pleaseSelectOneFilter": "Please select at least one filter",
       "availableOtherLocations":"available in other locations",
-      "sameProductBinTransferNotAllowed": "You are not allowed to select the same Product in a bin transfer",
-      "sameProductBinNotAllowed": "You are not allowed to select the same Product in a bin",
+      "sameProductBinTransferNotAllowed": "You are not allowed to select the same Spare Part in a bin transfer",
+      "sameProductBinNotAllowed": "You are not allowed to select the same Spare Part in a bin",
       "sameAssetBinNotAllowed": "You are not allowed to select the same asset in a bin"
     }
   },
@@ -8700,8 +8700,8 @@
     "fields": {
       "setupVisible": true,
       "addProductsToBin": {
-        "original": "Add Products to Bin",
-        "singular": "Add Products to Bin",
+        "original": "Add Spare Parts to Bin",
+        "singular": "Add Spare Parts to Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8791,8 +8791,8 @@
         "setupVisible": true
       },
       "noOfProducts": {
-        "original": "No. of Products",
-        "singular": "No. of Products",
+        "original": "No. of Spare Parts",
+        "singular": "No. of Spare Parts",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8805,15 +8805,15 @@
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
-        "singular": "Product Name",
+        "original": "Spare Part Name",
+        "singular": "Spare Part Name",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "productSku": {
-        "original": "Product SKU",
-        "singular": "Product SKU",
+        "original": "Spare Part SKU",
+        "singular": "Spare Part SKU",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -8930,8 +8930,8 @@
         "setupVisible": true
       },
       "sec7": {
-        "original": "Transfer by Product",
-        "singular": "Transfer by Product",
+        "original": "Transfer by Spare Part",
+        "singular": "Transfer by Spare Part",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8975,8 +8975,8 @@
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
-        "singular": "Product Name",
+        "original": "Spare Part Name",
+        "singular": "Spare Part Name",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9108,7 +9108,7 @@
       "binTransferCannotBeEdited": "This record is not allowed to edit as it has being accepted",
       "binTransferNotAuthorized": "You are only authorized to perform transactions across your Bin(s)",
       "binTransferBinNotFound": "Bin Transfer Bin not found",
-      "binTransferProductNotFound": "Bin Transfer Product not found",
+      "binTransferProductNotFound": "Bin Transfer Spare Part not found",
       "binTransferAssetsNotFound": "Bin Transfer Assets not found",
       "binTransferInvalidStatus": "Only allowed statuses: ACCEPTED/DECLINED/CANCEL",
       "binTransferNotFound": "Bin Transfer not found",
@@ -9118,7 +9118,7 @@
       "selectApprovalStatus": "Select Approval Status",
       "enterBinName": "Enter Bin Name",
       "enterUserName": "Enter User Name",
-      "enterProductName": "Enter Product Name",
+      "enterProductName": "Enter Spare Part Name",
       "enterAssetName": "Enter Asset Name",
       "selectBin": "Select Bin",
       "confirmAcceptance": "Confirm Acceptance",
@@ -9128,7 +9128,7 @@
       "declineTransfer": "Are you sure you want to decline this transfer?",
       "acceptTransfer": "Are you sure you want to accept this transfer?",
       "cancelTransfer": "Are you sure you want to cancel this transfer?",
-      "minAddProductAsset": "Minimum add 1 product or asset to be transferred",
+      "minAddProductAsset": "Minimum add 1 Spare Part or asset to be transferred",
       "attemptTransferMoreThanAvailable": "You are attempting to transfer more than available quantity, Do you want to proceed?",
       "sameAssetBinTransferNotAllowed": "You are not allowed to select the same asset in a bin transfer",
       "transferAcceptedSuccessfully": "Transfer accepted successfully",
@@ -9143,7 +9143,7 @@
       "transferQtyIsGreaterThanAvailableQuantityFor":"Transfer quantity is greater than available quantity for one or more transfer.",
       "binTransferSavedSuccessfully":"Bin Transfer saved successfully",
       "assetsTransferred":"Asset(s) transferred",
-      "productsTransferred":"Product(s) transferred"
+      "productsTransferred":"Spare Part(s) transferred"
     }
   },
   "checkAvailibility": {
@@ -9157,8 +9157,8 @@
     },
     "sections": {
       "sec0": {
-        "original": "Select Product/Asset",
-        "singular": "Select Product/Asset",
+        "original": "Select Spare Part/Asset",
+        "singular": "Select Spare Part/Asset",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9180,8 +9180,8 @@
         "setupVisible": true
       },
       "selectProduct": {
-        "original": "Select Product",
-        "singular": "Select Product",
+        "original": "Select Spare Part",
+        "singular": "Select Spare Part",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9451,8 +9451,8 @@
         "setupVisible": true
       },
       "productPartNoLookup": {
-        "original": "Product Part No. Lookup",
-        "singular": "Product Part No. Lookup",
+        "original": "Spare Part Part No. Lookup",
+        "singular": "Spare Part Part No. Lookup",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9784,8 +9784,8 @@
         "setupVisible": true
       },
       "productPartNoLookup": {
-        "original": "Product Part No. Lookup",
-        "singular": "Product Part No. Lookup",
+        "original": "Spare Part Part No. Lookup",
+        "singular": "Spare Part Part No. Lookup",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -10576,8 +10576,8 @@
         "setupVisible": false
       },
       "transferByProducts": {
-        "original": "Transfer by Products",
-        "singular": "Transfer by Products",
+        "original": "Transfer by Spare Parts",
+        "singular": "Transfer by Spare Parts",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -11521,8 +11521,8 @@
         "setupVisible": false
       },
       "addNotification":{
-        "original": "Add Notifcation",
-        "singular": "Add Notifcation",
+        "original": "Add Notification",
+        "singular": "Add Notification",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -11930,7 +11930,7 @@
       "selectCustomerFromList": "Select a Customer from the list",
       "selectJoOrderTemplateFromList": "Select Jo Order Template From List",
       "selectMachineSpecialistFromList": "Select a Machine Specialist from the list",
-      "selectProductFromList": "Select a Product from the list",
+      "selectProductFromList": "Select a Spare Part from the list",
       "selectProjectFromList": "Select Project From List",
       "selectSalesOrderFromList": "Select a Sales Order from the list",
       "selectSiteFromList": "Select Site From List",
@@ -11943,9 +11943,9 @@
       "noJobOrderFound": "No Job Order found",
       "noSalesOrdersFound": "No Sales Orders found",
       "noJobOrdersToDisplay": "No Job Orders to display",
-      "noProductsFound": "No Products found",
+      "noProductsFound": "No Spare Parts found",
       "noHistoriesToDisplay": "No Histories to display",
-      "noProductsToDisplay": "No Products to display",
+      "noProductsToDisplay": "No Spare Parts to display",
       "noStatusToDisplay": "No Status to display",
       "selected":"selected",
       "noRecordsToDisplay": "No records to display",
@@ -12532,8 +12532,8 @@
           "setupVisible": false
         },
         "sec9": {
-          "original": "Select a Product from the list",
-          "singular": "Select a Product from the list",
+          "original": "Select a Spare Part from the list",
+          "singular": "Select a Spare Part from the list",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -13300,8 +13300,8 @@
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
-            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
-            "singular": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
+            "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Spare Parts",
+            "singular": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Spare Parts",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15956,7 +15956,7 @@
             }
           },
           "validationFE":{
-            "pleaseSelectOne":"Please select one product or one asset"
+            "pleaseSelectOne":"Please select one Spare Part or one Asset"
           }
         },
         "zones": {
@@ -16836,8 +16836,8 @@
         "sections": {
           "setupVisible": false,
           "sec0": {
-            "original": "Product Details",
-            "singular": "Product Details",
+            "original": "Spare Part Details",
+            "singular": "Spare Part Details",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -16846,8 +16846,8 @@
         "fields": {
           "setupVisible": false,
           "product": {
-            "original": "Product",
-            "singular": "Product",
+            "original": "Spare Part",
+            "singular": "Spare Part",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -17344,8 +17344,8 @@
           "setupVisible": false
         },
         "sec5": {
-          "original": "Additional Job Order Products generated by this answer",
-          "singular": "Additional Job Order Products generated by this answer",
+          "original": "Additional Job Order Spare Parts generated by this answer",
+          "singular": "Additional Job Order Spare Parts generated by this answer",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -17428,8 +17428,8 @@
           "setupVisible": false
         },
         "aJobOrderGeneratedSelectedTemplate": {
-          "original": "A Job Order and it's associated Tasks and Products will be generated from the selected template if the answer is submitted",
-          "singular": "A Job Order and it's associated Tasks and Products will be generated from the selected template if the answer is submitted",
+          "original": "A Job Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
+          "singular": "A Job Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -18465,8 +18465,8 @@
           "setupVisible": false
         },
         "syncProducts": {
-          "original": "Sync Products",
-          "singular": "Sync Products",
+          "original": "Sync Spare Parts",
+          "singular": "Sync Spare Parts",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -19531,17 +19531,17 @@
       "setupLeaveOutTurnCodeIdExists": "A new Leave Out Turn Code cannot already have an ID",
       "setupOutTurnCodeIdExists": "A new Out Turn Code cannot already have an ID",
       "setupPreventiveMaintenanceNotificationSetupIdExists": "A new Preventive Maintenance Notification Setup cannot already have an ID",
-      "setupProductConfigIdExists": "A new Product Config cannot already have an ID",
+      "setupProductConfigIdExists": "A new Spare Part Config cannot already have an ID",
       "setupProductConfigIdNotFound": "Id not found",
-      "setupProductFamilyIdExists": "A new Product Family cannot already have an ID",
-      "setupProductFamilyHasProduct": "Product Data exists in the system for the Product Family",
-      "setupProductFamilyNotFound": "Product Family not found",
-      "setupProductMeasureUnitIdExists": "A new Product Measure Unit cannot already have an ID",
+      "setupProductFamilyIdExists": "A new Spare Part Family cannot already have an ID",
+      "setupProductFamilyHasProduct": "Spare Part Data exists in the system for the Spare Part Family",
+      "setupProductFamilyNotFound": "Spare Part Family not found",
+      "setupProductMeasureUnitIdExists": "A new Spare Part Measure Unit cannot already have an ID",
       "setupProductMeasureUnitNameExists": "Name already exists",
-      "setupProductTypeIdExists": "A new Product Type cannot already have an ID",
+      "setupProductTypeIdExists": "A new Spare Part Type cannot already have an ID",
       "setupProductTypeNameExists": "Name already exists",
       "setupProductTypeUnableToDelete": "Not allowed to delete system values",
-      "setupProductTypeHasProduct": "Product Data exists in the system for the Product Type",
+      "setupProductTypeHasProduct": "Spare Part Data exists in the system for the Spare Part Type",
       "setupProjectCategoryIdExists": "A new Project Category cannot already have an ID",
       "setupProjectCategoryNameExists": "Name already exists",
       "setupProjectCategorySystemGenerated": "System generated Project Category are not allowed to be deleted",
@@ -19578,7 +19578,7 @@
       "setupTaskConfigIdNotFound": "Id not found",
       "setupTaskSegmentIdExists": "A new Task Segment cannot already have an ID",
       "setupTemplateIdExists": "A new Template cannot already have an ID",
-      "setupTmplChecklistAnsProductIdExists": "A new TmplChecklistAnsProduct cannot already have an ID",
+      "setupTmplChecklistAnsProductIdExists": "A new TmplChecklistAnsSpare Part cannot already have an ID",
       "setupTmplChecklistAnsIdExists": "A new TmplChecklistAns cannot already have an ID",
       "setupTmplChecklistAnsTaskIdExists": "A new TmplChecklistAnsTask cannot already have an ID",
       "setupTmplChecklistAnsTaskTmplTasksNotFound": "TmplTasks not found",
@@ -20657,8 +20657,8 @@
           "setupVisible": false
         },
         "productUsage": {
-          "original": "Product Usage",
-          "singular": "Product Usage",
+          "original": "Spare Part Usage",
+          "singular": "Spare Part Usage",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -21386,8 +21386,8 @@
           "setupVisible": false
         },
         "productUsage": {
-          "original": "Product Usage",
-          "singular": "Product Usage",
+          "original": "Spare Part Usage",
+          "singular": "Spare Part Usage",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

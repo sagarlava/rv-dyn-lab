@@ -376,7 +376,7 @@
       },
       "customerSummary": {
         "original": "Customer Summary",
-        "singular": "客户概要",
+        "singular": "客户概况",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -410,7 +410,7 @@
       "setupVisible": true,
       "sec0": {
         "original": "General Details",
-        "singular": "一般详情",
+        "singular": "基本详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -445,7 +445,7 @@
       },
       "sec5": {
         "original": "Overview",
-        "singular": "概览",
+        "singular": "概况",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -459,7 +459,7 @@
       },
       "sec7": {
         "original": "Current Meter Reading",
-        "singular": "当前计量读数",
+        "singular": "当前设备度数",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -473,7 +473,7 @@
       },
       "sec9": {
         "original": "QR/Barcode",
-        "singular": "QR/条码",
+        "singular": "二维码/条形码",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -665,7 +665,7 @@
       },
       "engineMake": {
         "original": "Engine Make",
-        "singular": "发动机制造商",
+        "singular": "发动机品牌",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -686,7 +686,7 @@
       },
       "makeModel": {
         "original": "Make/Model",
-        "singular": "制造/型号",
+        "singular": "品牌/型号",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1149,7 +1149,7 @@
       }
     },
     "messages": {
-      "configureQrBarcodeInAssetSetup": "要设置QR/条码，请转到设置中的资产配置",
+      "configureQrBarcodeInAssetSetup": "要设置二维码/条形码，请转到设置中的资产配置",
       "resetMeterForLowerReading": "如果您的新计量读数小于当前读数，请选择“重置计量器”",
       "futureDateTimeEntryNotAllowed": "无法为未来的日期和时间进行条目",
       "maintenanceAppliesToAllContractAssets": "此维护将应用于合同中的所有资产",
@@ -1685,10 +1685,10 @@
       "maintenanceItemIdExists": "新的维护项目不能已有ID",
       "maintenanceItemIdNotFound": "未找到ID",
       "maintenanceItemNotFound": "未找到维护项目",
-      "maintenanceItemInvalidStatus": "仅允许的状态：已完成/待处理/逾期",
+      "maintenanceItemInvalidStatus": "仅允许的状态：已完成/处理中/逾期",
       "maintenanceItemHasJobOrderOrMaintenanceStatus": "系统中存在维护项目的活动工作订单或已完成/逾期的计划数据",
       "maintenanceItemHasJobOrder": "系统中存在维护项目的工作订单数据",
-      "maintenanceItemUnableToDelete": "仅允许删除待处理的维护状态",
+      "maintenanceItemUnableToDelete": "仅允许删除处理中的维护状态",
       "maintenanceItemTableSetupNotFound": "未找到维护项目表格设置，请联系支持"
     },
     "tooltips": {
@@ -1714,7 +1714,7 @@
       "startDateNotGreaterThenEnd": "开始日期不应大于结束日期",
       "noMaintenanceItemsToDisplay": "没有要显示的计划维护项目",
       "errorFetchingMaintenanceItems": "获取计划维护项目时出错",
-      "onlyPendingStatusRecordAllowedToDelete": "只允许删除“待处理”状态的记录",
+      "onlyPendingStatusRecordAllowedToDelete": "只允许删除“处理中”状态的记录",
       "doYouWantToRemoveThisItem": "您确定要移除此项目吗？",
       "maintenance": "维护",
       "maintenanceDetails": "维护详情",
@@ -1900,7 +1900,7 @@
       "setupVisible": true,
       "sec0": {
         "original": "General Details",
-        "singular": "一般详情",
+        "singular": "基本详情",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -2129,6 +2129,13 @@
         "original": "Contract Item",
         "singular": "合同项目",
         "plural": "合同项目",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "contractNo": {
+        "original": "Contract No.",
+        "singular": "合同编号",
+        "plural": "合同编号",
         "setupEdit": false,
         "setupVisible": true
       }
@@ -4426,8 +4433,8 @@
     "setupVisible": true,
     "label": {
       "original": "Site",
-      "singular": "场地 ",
-      "plural": "场地 ",
+      "singular": "站点 ",
+      "plural": "站点 ",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -4642,7 +4649,7 @@
       "setupVisible": true,
       "siteLookup": {
         "original": "Site Lookup",
-        "singular": "场地查找 ",
+        "singular": "站点查找 ",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -4732,8 +4739,8 @@
       },
       "orderOwner": {
         "original": "Order Owner",
-        "singular": "订单所有者",
-        "plural": "订单所有者",
+        "singular": "订单负责人",
+        "plural": "订单负责人",
         "setupEdit": false,
         "setupVisible": true
       },
@@ -4852,7 +4859,7 @@
       "salesOrderHasCustomerPurchase": "系统中存在该销售订单的客户购买数据",
       "salesOrderHasContract": "系统中存在该销售订单的合同数据",
       "salesOrderChannelNotFound": "未找到销售订单渠道",
-      "salesOrderOwnerNotFound": "未找到销售订单所有者",
+      "salesOrderOwnerNotFound": "未找到销售订单负责人",
       "salesOrderBillingContactNotFound": "未找到账单联系人",
       "salesOrderShippingContactNotFound": "未找到送货联系人",
       "salesOrderCountryNotFound": "未找到国家",
@@ -4896,7 +4903,7 @@
       "setupVisible": true,
       "sec0": {
         "original": "General Details",
-        "singular": "一般详情",
+        "singular": "基本详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -5571,8 +5578,8 @@
     "setupVisible": true,
     "label": {
       "original": "Job Order",
-      "singular": "工单号",
-      "plural": "工单号",
+      "singular": "工作订单",
+      "plural": "工作订单",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -5580,8 +5587,8 @@
       "setupVisible": true,
       "sec0": {
         "original": "General Details",
-        "singular": "一般详情",
-        "plural": "一般详情",
+        "singular": "基本详情",
+        "plural": "基本详情",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -6591,7 +6598,7 @@
       },
       "joOwner": {
         "original": "Job Order Owner",
-        "singular": "工作订单所有者",
+        "singular": "工作订单负责人",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -6836,7 +6843,7 @@
       },
       "pendingResponse": {
         "original": "Pending Response",
-        "singular": "待处理响应",
+        "singular": "处理中响应",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -8012,8 +8019,8 @@
       },
       "orderOwner": {
         "original": "Order Owner",
-        "singular": "订单所有者",
-        "plural": "订单所有者",
+        "singular": "订单负责人",
+        "plural": "订单负责人",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -8137,7 +8144,7 @@
       "jobOrderTableSetupNotFound": "未找到工作订单表格设置，请联系支持",
       "jobOrderCustomerNotFound": "未找到客户",
       "jobOrderSalesOrderNotFound": "未找到销售订单",
-      "jobOrderOwnerNotFound": "未找到订单所有者",
+      "jobOrderOwnerNotFound": "未找到订单负责人",
       "jobOrderCustomerPurchaseHistoryNotFound": "未找到客户购买历史",
       "jobOrderTypeNotFound": "未找到工作订单类型",
       "jobOrderFaultTypeNotFound": "未找到工作订单故障类型",
@@ -8252,7 +8259,7 @@
       "setupVisible": true,
       "sec0": {
         "original": "General Details",
-        "singular": "一般详情",
+        "singular": "基本详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9123,7 +9130,7 @@
       "selectBin": "选择仓位",
       "confirmAcceptance": "确认接受",
       "confirmRejection": "确认拒绝",
-      "enterJobOrderNumber": "输入工单号",
+      "enterJobOrderNumber": "输入工作订单",
       "reasonOptional": "理由（可选）",
       "declineTransfer": "您确定要拒绝此转移吗？",
       "acceptTransfer": "您确定要接受此转移吗？",
@@ -9465,7 +9472,7 @@
       "consignmentNotApproved": "托运未批准",
       "consignmentAttentionToUserNotFound": "未找到托运关注用户",
       "consignmentRequiredCreatedUser": "提交/取消需要创建用户",
-      "consignmentStatusNotPending": "只有待处理的托运可以被确认/拒绝",
+      "consignmentStatusNotPending": "只有处理中的托运可以被确认/拒绝",
       "consignmentRequiresAttentionToUser": "需要关注用户来确认/拒绝",
       "consignmentIdExists": "新托运单不能已有ID",
       "consignmentItemIdExists": "新托运项目不能已有ID",
@@ -10047,8 +10054,8 @@
       },
       "openPendingTickets": {
         "original": "Open & Pending Tickets",
-        "singular": "打开和待处理的票",
-        "plural": "打开和待处理的票",
+        "singular": "打开和处理中的票",
+        "plural": "打开和处理中的票",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -10822,7 +10829,7 @@
       },
       "hideOverview": {
         "original": "Hide Overview",
-        "singular": "隐藏概述",
+        "singular": "隐藏概况",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -11721,7 +11728,7 @@
       },
       "pending": {
         "original": "Pending",
-        "singular": "待处理",
+        "singular": "处理中",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -11868,7 +11875,7 @@
       "search": "搜索",
       "searchAddress": "搜索地址",
       "confirmAction": "你确定吗？",
-      "confirmDelete": "你确定要删除吗",
+      "confirmDelete": "你确定要删除",
       "step1": "步骤 1",
       "step2": "步骤 2",
       "step3": "步骤 3",
@@ -12279,7 +12286,7 @@
         },
         "sec4": {
           "original": "Customer Summary",
-          "singular": "客户概要",
+          "singular": "客户概况",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -13595,8 +13602,8 @@
           "setupVisible": false,
           "sec0": {
             "original": "General Details",
-            "singular": "一般详情",
-            "plural": "一般详情",
+            "singular": "基本详情",
+            "plural": "基本详情",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -15802,8 +15809,8 @@
         "setupVisible": true,
         "label": {
           "original": "Geofence",
-          "singular": "电子围栏",
-          "plural": "电子围栏",
+          "singular": "地理围栏",
+          "plural": "地理围栏",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -18919,7 +18926,7 @@
         "setupVisible": false,
         "sec0": {
           "original": "General Details",
-          "singular": "一般详情",
+          "singular": "基本详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -19679,7 +19686,7 @@
       "setupVisible": false
     },
     "messages": {
-      "pendingTransfers": "待处理的转移",
+      "pendingTransfers": "处理中的转移",
       "binItemDetails": "箱子物品详情"
     }
   },
@@ -19923,15 +19930,15 @@
       },
       "sec1": {
         "original": "Today Pending Leaves",
-        "singular": "今天待处理的请假",
-        "plural": "今天待处理的请假",
+        "singular": "今天处理中的请假",
+        "plural": "今天处理中的请假",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
         "original": "Pending Leaves",
-        "singular": "待处理的请假",
-        "plural": "待处理的请假",
+        "singular": "处理中的请假",
+        "plural": "处理中的请假",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -20339,7 +20346,7 @@
       "setupVisible": false
     },
     "messages": {
-      "pendingJobOrders": "待处理工单",
+      "pendingJobOrders": "处理中工单",
       "todaysTasks": "今天的任务",
       "tasksToAcceptDecline": "接受/拒绝的任务",
       "assignedTasks": "分配的任务",
@@ -21542,15 +21549,15 @@
       },
       "sec1": {
         "original": "Today Pending Attendance",
-        "singular": "今日待处理考勤",
-        "plural": "今日待处理考勤",
+        "singular": "今日处理中考勤",
+        "plural": "今日处理中考勤",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
         "original": "Pending Attendance",
-        "singular": "待处理考勤",
-        "plural": "待处理考勤",
+        "singular": "处理中考勤",
+        "plural": "处理中考勤",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -21654,14 +21661,14 @@
       },
       "sec1": {
         "original": "Today Pending Overtime",
-        "singular": "今日待处理加班",
+        "singular": "今日处理中加班",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
         "original": "Pending Overtime",
-        "singular": "待处理加班",
+        "singular": "处理中加班",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -21772,14 +21779,14 @@
       },
       "sec1": {
         "original": "Today Pending Productivity",
-        "singular": "今天待处理的生产力",
+        "singular": "今天处理中的生产力",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
         "original": "Pending Productivity",
-        "singular": "待处理的生产力",
+        "singular": "处理中的生产力",
         "plural": "生产力",
         "setupEdit": true,
         "setupVisible": true
@@ -21892,7 +21899,7 @@
         "setupVisible": true,
         "sec0": {
           "original": "General Details",
-          "singular": "一般详情",
+          "singular": "基本详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -22040,7 +22047,7 @@
         "setupVisible": true,
         "sec0": {
           "original": "General Details",
-          "singular": "一般详情",
+          "singular": "基本详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -22179,14 +22186,14 @@
       },
       "sec1": {
         "original": "Today Pending Visits",
-        "singular": "今日待处理访问",
+        "singular": "今日处理中访问",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "sec2": {
         "original": "Pending Visits",
-        "singular": "待处理访问",
+        "singular": "处理中访问",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -22313,7 +22320,7 @@
       "setupVisible": true,
       "sec0": {
         "original": "General Details",
-        "singular": "一般详情",
+        "singular": "基本详情",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

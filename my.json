@@ -353,7 +353,7 @@
       "customerPurchaseHistoryNotFound": "Sejarah Pembelian tidak dijumpai",
       "customerPurchaseHistoryWithCusExtIdNotFound": "ID Luaran Pelanggan tidak sah",
       "customerPurchaseHistorySalesOrderWithSOExtIdNotFound": "ID Luaran Pesanan Jualan tidak sah",
-      "customerPurchaseHistoryProductWithProductExtIdNotFound": "ID Luaran Produk tidak sah",
+      "customerPurchaseHistoryProductWithProductExtIdNotFound": "ID Luaran Alat Ganti tidak sah",
       "customerPurchaseHistoryIdNotFound": "ID tidak dijumpai",
       "customerPurchaseHistoryWithIdNotFound": "ID Sejarah Pembelian Pelanggan tidak sah",
       "customerSectorIdExists": "Sektor Pelanggan baru tidak boleh sudah mempunyai ID",
@@ -946,7 +946,7 @@
       "assetTableSetupNotFound": "Tetapan Jadual Aset tidak dijumpai, sila hubungi sokongan",
       "assetCustomerNotFound": "Pelanggan Aset tidak dijumpai",
       "assetServiceZoneNotFound": "Zon Perkhidmatan Aset tidak dijumpai",
-      "assetProductNotFound": "Produk Aset tidak dijumpai",
+      "assetProductNotFound": "Alat Ganti Aset tidak dijumpai",
       "assetTypeNotFound": "Jenis Aset tidak dijumpai",
       "assetStatusNotFound": "Status Aset tidak dijumpai",
       "assetProjectNotFound": "Projek Aset tidak dijumpai",
@@ -2964,19 +2964,19 @@
     },
     "validationFE": {},
     "validationBE": {
-      "productNotFound": "Produk tidak dijumpai",
+      "productNotFound": "Alat Ganti tidak dijumpai",
       "productIdNotFound": "ID tidak dijumpai",
-      "productHasJobOrderOrSalesOrder": "Data Pesanan Kerja/Pesanan Jualan wujud dalam sistem untuk Produk",
-      "productHasCustomerServiceReportItem": "Data Item Laporan Perkhidmatan Pelanggan wujud dalam sistem untuk Produk",
-      "productHasInventoryItem": "Data Item Inventori wujud dalam sistem untuk Produk",
-      "productHasConsignmentItem": "Data Item Konsainan wujud dalam sistem untuk Produk",
-      "productHasRequisitionItem": "Data Item Requisisi wujud dalam sistem untuk Produk",
-      "productTableSetupNotFound": "Tetapan Jadual Produk tidak dijumpai, sila hubungi sokongan",
+      "productHasJobOrderOrSalesOrder": "Data Pesanan Kerja/Pesanan Jualan wujud dalam sistem untuk Alat Ganti",
+      "productHasCustomerServiceReportItem": "Data Item Laporan Perkhidmatan Pelanggan wujud dalam sistem untuk Alat Ganti",
+      "productHasInventoryItem": "Data Item Inventori wujud dalam sistem untuk Alat Ganti",
+      "productHasConsignmentItem": "Data Item Konsainan wujud dalam sistem untuk Alat Ganti",
+      "productHasRequisitionItem": "Data Item Requisisi wujud dalam sistem untuk Alat Ganti",
+      "productTableSetupNotFound": "Tetapan Jadual Alat Ganti tidak dijumpai, sila hubungi sokongan",
       "productWithExtIdNotFound": "ID Luar tidak sah",
-      "productFamilyNotFound": "Keluarga Produk tidak dijumpai",
-      "productTypeNotFound": "Jenis Produk tidak dijumpai",
-      "productMeasureUnitNotFound": "Unit Ukuran Produk tidak dijumpai",
-      "productIdExists": "Produk baru tidak boleh mempunyai ID sedia ada",
+      "productFamilyNotFound": "Keluarga Alat Ganti tidak dijumpai",
+      "productTypeNotFound": "Jenis Alat Ganti tidak dijumpai",
+      "productMeasureUnitNotFound": "Unit Ukuran Alat Ganti tidak dijumpai",
+      "productIdExists": "Alat Ganti baru tidak boleh mempunyai ID sedia ada",
       "productIdExtIdNotFound": "ID/ID Luar tidak dijumpai"
     },
     "tooltips": {
@@ -4200,7 +4200,7 @@
       "taskTeamExidValidation": "ID luar Pasukan tidak sah",
       "taskStockCheckRunningNoValidation": "Nombor larian Semak Stok tidak sah",
       "taskAssignedByUserValidation": "Ditetapkan oleh pengguna tidak sah",
-      "taskProductExidValidation": "ID luar Produk tidak sah",
+      "taskProductExidValidation": "ID luar Alat Ganti tidak sah",
       "taskJobOrderExidValidation": "ID luar Pesanan Kerja tidak sah",
       "taskSiteExidValidation": "ID luar Tapak tidak sah",
       "taskProjectExidValidation": "ID luar Projek tidak sah",
@@ -4858,8 +4858,8 @@
       "salesOrderCountryNotFound": "Negara tidak dijumpai",
       "salesOrderTableSetupNotFound": "Penyiapan Jadual Pesanan Jualan tidak dijumpai, sila hubungi sokongan",
       "salesOrderAuditEventHistoryIdExists": "Sejarah Acara Audit Pesanan Jualan baru tidak boleh sudah mempunyai ID",
-      "salesOrderProductIdExists": "Produk Pesanan Jualan baru tidak boleh sudah mempunyai ID",
-      "salesOrderProductNotFound": "Produk Pesanan Jualan tidak dijumpai",
+      "salesOrderProductIdExists": "Alat Ganti Pesanan Jualan baru tidak boleh sudah mempunyai ID",
+      "salesOrderProductNotFound": "Alat Ganti Pesanan Jualan tidak dijumpai",
       "salesOrderActivityIdExists": "Aktiviti Pesanan Jualan baru tidak boleh sudah mempunyai ID"
     },
     "tooltips": {
@@ -4874,13 +4874,13 @@
     },
     "messages": {
       "orderEndDateAfterStart": "Tarikh Akhir Pesanan mestilah selepas Tarikh Mula Pesanan",
-      "pleaseSelectOneOrMoreProducts": "Sila pilih satu atau lebih produk",
+      "pleaseSelectOneOrMoreProducts": "Sila pilih satu atau lebih Alat Ganti",
       "doYouWantToRemoveThisSalesOrder": "Adakah anda mahu mengeluarkan pesanan jualan ini?",
-      "doYouWantToRemoveThisProduct": "Adakah anda mahu mengeluarkan produk ini?",
+      "doYouWantToRemoveThisProduct": "Adakah anda mahu mengeluarkan Alat Ganti ini?",
       "searchSalesOrders": "Cari Pesanan Jualan",
       "salesOrderFilter": "Penapis Pesanan Jualan",
       "filterByCustomer": "Tapis Mengikut Pelanggan",
-      "soRequiresMinimumOneProduct": "Pesanan jualan memerlukan sekurang-kurangnya satu produk"
+      "soRequiresMinimumOneProduct": "Pesanan jualan memerlukan sekurang-kurangnya satu Alat Ganti"
     }
   },
   "project": {
@@ -5734,15 +5734,15 @@
       },
       "sec22": {
         "original": "Product Details",
-        "singular": "Butiran Produk",
-        "plural": "Butiran Produk",
+        "singular": "Butiran Alat Ganti",
+        "plural": "Butiran Alat Ganti",
         "setupEdit": false,
         "setupVisible": true
       },
       "sec23": {
         "original": "Products and Service Charges",
-        "singular": "Caj Produk dan Perkhidmatan",
-        "plural": "Caj Produk dan Perkhidmatan",
+        "singular": "Caj Alat Ganti dan Perkhidmatan",
+        "plural": "Caj Alat Ganti dan Perkhidmatan",
         "setupEdit": false,
         "setupVisible": true
       },
@@ -8120,7 +8120,7 @@
       "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula",
       "notAvailable": "N/A",
       "onDemand": "Atas Permintaan",
-      "selectAProduct": "Pilih Produk",
+      "selectAProduct": "Pilih Alat Ganti",
       "userCalendlyNoIntegrate": "Pengguna ini tidak mempunyai integrasi Calendly dalam akaun mereka",
       "noContactFoundForThisJobOrder": "Tiada kenalan dijumpai untuk Pesanan Kerja ini",
       "noContactFoundForTheJobOrdersCustomer": "Tiada kenalan dijumpai untuk Pelanggan Pesanan Kerja ini"
@@ -8176,10 +8176,10 @@
       "jobOrderCompletionRecordIdNotFound": "ID tidak dijumpai",
       "jobOrderFaultTypeIdExists": "Jenis Kerosakan Pesanan Kerja baru tidak boleh sudah mempunyai ID",
       "jobOrderFaultTypeIdNotFound": "ID tidak dijumpai",
-      "jobOrderProductIdExists": "Produk Pesanan Kerja baru tidak boleh sudah mempunyai ID",
+      "jobOrderProductIdExists": "Alat Ganti Pesanan Kerja baru tidak boleh sudah mempunyai ID",
       "jobOrderProductIdNotFound": "ID tidak dijumpai",
-      "jobOrderProductNotFound": "Produk Pesanan Kerja tidak dijumpai",
-      "jobOrderProductStatusIdExists": "Status Produk Pesanan Kerja baru tidak boleh sudah mempunyai ID",
+      "jobOrderProductNotFound": "Alat Ganti Pesanan Kerja tidak dijumpai",
+      "jobOrderProductStatusIdExists": "Status Alat Ganti Pesanan Kerja baru tidak boleh sudah mempunyai ID",
       "jobOrderProductStatusIdNotFound": "ID tidak dijumpai",
       "slaJobOrderIdExists": "Pesanan Kerja SLA baru tidak boleh sudah mempunyai ID"
     },
@@ -8266,7 +8266,7 @@
       },
       "sec2": {
         "original": "Product available in other locations",
-        "singular": "Produk tersedia di lokasi lain",
+        "singular": "Alat Ganti tersedia di lokasi lain",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8301,7 +8301,7 @@
       },
       "sec7": {
         "original": "Transfer Details Product",
-        "singular": "Butiran Pemindahan Produk",
+        "singular": "Butiran Pemindahan Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8336,7 +8336,7 @@
       },
       "sec12": {
         "original": "Adjust a Product",
-        "singular": "Laraskan Produk",
+        "singular": "Laraskan Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8591,28 +8591,28 @@
       },
       "productType": {
         "original": "Product Type",
-        "singular": "Jenis Produk",
+        "singular": "Jenis Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productFamily": {
         "original": "Product Family",
-        "singular": "Keluarga Produk",
+        "singular": "Keluarga Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productName": {
         "original": "Product Name",
-        "singular": "Nama Produk",
+        "singular": "Nama Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "productSku": {
         "original": "Product SKU",
-        "singular": "SKU Produk",
+        "singular": "SKU Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -8626,7 +8626,7 @@
       }
     },
     "validationFE": {
-      "pleaseSelectOne": "Sila pilih satu produk atau satu aset"
+      "pleaseSelectOne": "Sila pilih satu Alat Ganti atau satu Aset"
     },
     "validationBE": {
       "inventoryIdExists": "Inventori baru tidak boleh mempunyai ID yang sudah ada",
@@ -8635,10 +8635,10 @@
       "inventoryZoneNotFound": "Zon tidak ditemui",
       "inventoryLocationNotFound": "Lokasi tidak ditemui",
       "inventoryAssetsNotFound": "Aset tidak ditemui",
-      "inventoryProductNotFound": "Produk tidak ditemui",
+      "inventoryProductNotFound": "Alat Ganti tidak ditemui",
       "inventoryNotFound": "Inventori tidak ditemui",
       "inventoryFilterRequired": "Sila pilih sekurang-kurangnya satu penapis",
-      "inventoryStockInsufficient": "Stok produk/aset inventori tidak mencukupi",
+      "inventoryStockInsufficient": "Stok Alat Ganti/Aset inventori tidak mencukupi",
       "inventoryTableSetupNotFound": "Tetapan Jadual Inventori tidak ditemui, sila hubungi sokongan"
     },
     "messages": {
@@ -8646,14 +8646,14 @@
       "selectZone": "Pilih Zon",
       "selectBin": "Pilih Bin",
       "selectUserBin": "Pilih Bin Pengguna",
-      "searchProduct": "Cari Produk",
+      "searchProduct": "Cari Alat Ganti",
       "searchAsset": "Cari Aset",
       "selectType": "Pilih Jenis",
       "selectFamily": "Pilih Keluarga",
       "pleaseSelectOneFilter": "Sila pilih sekurang-kurangnya satu penapis",
       "availableOtherLocations": "tersedia di lokasi lain",
-      "sameProductBinTransferNotAllowed": "Anda tidak dibenarkan untuk memilih Produk yang sama dalam pemindahan bin",
-      "sameProductBinNotAllowed": "Anda tidak dibenarkan untuk memilih Produk yang sama dalam bin",
+      "sameProductBinTransferNotAllowed": "Anda tidak dibenarkan untuk memilih Alat Ganti yang sama dalam pemindahan bin",
+      "sameProductBinNotAllowed": "Anda tidak dibenarkan untuk memilih Alat Ganti yang sama dalam bin",
       "sameAssetBinNotAllowed": "Anda tidak dibenarkan untuk memilih aset yang sama dalam bin"
     }
   },
@@ -8701,7 +8701,7 @@
       "setupVisible": true,
       "addProductsToBin": {
         "original": "Add Products to Bin",
-        "singular": "Tambah Produk ke Bin",
+        "singular": "Tambah Alat Ganti ke Bin",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8792,7 +8792,7 @@
       },
       "noOfProducts": {
         "original": "No. of Products",
-        "singular": "Bilangan Produk",
+        "singular": "Bilangan Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8806,14 +8806,14 @@
       },
       "productName": {
         "original": "Product Name",
-        "singular": "Nama Produk",
+        "singular": "Nama Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "productSku": {
         "original": "Product SKU",
-        "singular": "SKU Produk",
+        "singular": "SKU Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -8931,7 +8931,7 @@
       },
       "sec7": {
         "original": "Transfer by Product",
-        "singular": "Pemindahan oleh Produk",
+        "singular": "Pemindahan oleh Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8976,7 +8976,7 @@
       },
       "productName": {
         "original": "Product Name",
-        "singular": "Nama Produk",
+        "singular": "Nama Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9108,7 +9108,7 @@
       "binTransferCannotBeEdited": "Rekod ini tidak dibenarkan untuk diedit kerana ia telah diterima",
       "binTransferNotAuthorized": "Anda hanya dibenarkan melakukan transaksi di seluruh Bin anda",
       "binTransferBinNotFound": "Bin Pemindahan Bin tidak ditemui",
-      "binTransferProductNotFound": "Produk Pemindahan Bin tidak ditemui",
+      "binTransferProductNotFound": "Alat Ganti Pemindahan Bin tidak ditemui",
       "binTransferAssetsNotFound": "Aset Pemindahan Bin tidak ditemui",
       "binTransferInvalidStatus": "Status yang dibenarkan hanya: DITERIMA/DITOLAK/DIBATALKAN",
       "binTransferNotFound": "Pemindahan Bin tidak ditemui",
@@ -9118,7 +9118,7 @@
       "selectApprovalStatus": "Pilih Status Kelulusan",
       "enterBinName": "Masukkan Nama Bin",
       "enterUserName": "Masukkan Nama Pengguna",
-      "enterProductName": "Masukkan Nama Produk",
+      "enterProductName": "Masukkan Nama Alat Ganti",
       "enterAssetName": "Masukkan Nama Aset",
       "selectBin": "Pilih Bin",
       "confirmAcceptance": "Sahkan Penerimaan",
@@ -9128,7 +9128,7 @@
       "declineTransfer": "Adakah anda pasti mahu menolak pemindahan ini?",
       "acceptTransfer": "Adakah anda pasti mahu menerima pemindahan ini?",
       "cancelTransfer": "Adakah anda pasti mahu membatalkan pemindahan ini?",
-      "minAddProductAsset": "Tambah sekurang-kurangnya 1 produk atau aset untuk dipindahkan",
+      "minAddProductAsset": "Tambah sekurang-kurangnya 1 Alat Ganti atau aset untuk dipindahkan",
       "attemptTransferMoreThanAvailable": "Anda cuba memindahkan lebih daripada kuantiti yang tersedia, Adakah anda mahu meneruskan?",
       "sameAssetBinTransferNotAllowed": "Tidak dibenarkan memilih aset yang sama dalam pemindahan bin",
       "transferAcceptedSuccessfully": "Pemindahan diterima dengan berjaya",
@@ -9143,7 +9143,7 @@
       "transferQtyIsGreaterThanAvailableQuantityFor": "Kuantiti pemindahan lebih besar daripada kuantiti yang tersedia untuk satu atau lebih pemindahan.",
       "binTransferSavedSuccessfully": "Pemindahan Bin disimpan dengan berjaya",
       "assetsTransferred": "Aset dipindahkan",
-      "productsTransferred": "Produk dipindahkan"
+      "productsTransferred": "Alat Ganti dipindahkan"
     }
   },
   "checkAvailibility": {
@@ -9158,7 +9158,7 @@
     "sections": {
       "sec0": {
         "original": "Select Product/Asset",
-        "singular": "Pilih Produk/Aset",
+        "singular": "Pilih Alat Ganti/Aset",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9181,7 +9181,7 @@
       },
       "selectProduct": {
         "original": "Select Product",
-        "singular": "Pilih Produk",
+        "singular": "Pilih Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9452,7 +9452,7 @@
       },
       "productPartNoLookup": {
         "original": "Product Part No. Lookup",
-        "singular": "Carian No Bahagian Produk",
+        "singular": "Carian No Bahagian Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -9785,7 +9785,7 @@
       },
       "productPartNoLookup": {
         "original": "Product Part No. Lookup",
-        "singular": "Carian No Bahagian Produk",
+        "singular": "Carian No Bahagian Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -10577,7 +10577,7 @@
       },
       "transferByProducts": {
         "original": "Transfer by Products",
-        "singular": "Pindahkan Mengikut Produk",
+        "singular": "Pindahkan Mengikut Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -11930,7 +11930,7 @@
       "selectCustomerFromList": "Pilih Pelanggan dari senarai",
       "selectJoOrderTemplateFromList": "Pilih Templat Pesanan Kerja dari senarai",
       "selectMachineSpecialistFromList": "Pilih Pakar Mesin dari senarai",
-      "selectProductFromList": "Pilih Produk dari senarai",
+      "selectProductFromList": "Pilih Alat Ganti dari senarai",
       "selectProjectFromList": "Pilih Projek dari senarai",
       "selectSalesOrderFromList": "Pilih Pesanan Jualan dari senarai",
       "selectSiteFromList": "Pilih Tapak dari senarai",
@@ -11943,9 +11943,9 @@
       "noJobOrderFound": "Tiada Pesanan Kerja ditemui",
       "noSalesOrdersFound": "Tiada Pesanan Jualan ditemui",
       "noJobOrdersToDisplay": "Tiada Pesanan Kerja untuk dipaparkan",
-      "noProductsFound": "Tiada Produk ditemui",
+      "noProductsFound": "Tiada Alat Ganti ditemui",
       "noHistoriesToDisplay": "Tiada Sejarah untuk dipaparkan",
-      "noProductsToDisplay": "Tiada Produk untuk dipaparkan",
+      "noProductsToDisplay": "Tiada Alat Ganti untuk dipaparkan",
       "noStatusToDisplay": "Tiada Status untuk dipaparkan",
       "selected": "dipilih",
       "noRecordsToDisplay": "Tiada rekod untuk dipaparkan",
@@ -12533,7 +12533,7 @@
         },
         "sec9": {
           "original": "Select a Product from the list",
-          "singular": "Pilih Produk dari senarai",
+          "singular": "Pilih Alat Ganti dari senarai",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -13301,7 +13301,7 @@
           },
           "userBinTransferReceiveProd": {
             "original": "A 'User Bin' may be created for users with this access to transfer and receive Assets and Products",
-            "singular": "Bin Pengguna boleh dibuat untuk pengguna dengan akses ini untuk pindah dan terima Aset dan Produk",
+            "singular": "Bin Pengguna boleh dibuat untuk pengguna dengan akses ini untuk pindah dan terima Aset dan Alat Ganti",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15956,7 +15956,7 @@
             }
           },
           "validationFE": {
-            "pleaseSelectOne": "Sila pilih satu produk atau satu aset"
+            "pleaseSelectOne": "Sila pilih satu Alat Ganti atau satu Aset"
           }
         },
         "zones": {
@@ -16837,7 +16837,7 @@
           "setupVisible": false,
           "sec0": {
             "original": "Product Details",
-            "singular": "Butiran Produk",
+            "singular": "Butiran Alat Ganti",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -16847,7 +16847,7 @@
           "setupVisible": false,
           "product": {
             "original": "Product",
-            "singular": "Produk",
+            "singular": "Alat Ganti",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -17345,7 +17345,7 @@
         },
         "sec5": {
           "original": "Additional Job Order Products generated by this answer",
-          "singular": "Produk Pesanan Kerja Tambahan yang dijana oleh jawapan ini",
+          "singular": "Alat Ganti Pesanan Kerja Tambahan yang dijana oleh jawapan ini",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -17429,7 +17429,7 @@
         },
         "aJobOrderGeneratedSelectedTemplate": {
           "original": "A Job Order and it's associated Tasks and Products will be generated from the selected template if the answer is submitted",
-          "singular": "Pesanan Kerja dan Tugas serta Produk yang berkaitan akan dijana daripada templat yang dipilih jika jawapan dihantar",
+          "singular": "Pesanan Kerja dan Tugas serta Alat Ganti yang berkaitan akan dijana daripada templat yang dipilih jika jawapan dihantar",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -18466,7 +18466,7 @@
         },
         "syncProducts": {
           "original": "Sync Products",
-          "singular": "Penyegerakan Produk",
+          "singular": "Penyegerakan Alat Ganti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -19531,17 +19531,17 @@
       "setupLeaveOutTurnCodeIdExists": "Kod Keluar Cuti baru tidak boleh sudah mempunyai ID",
       "setupOutTurnCodeIdExists": "Kod Keluar baru tidak boleh sudah mempunyai ID",
       "setupPreventiveMaintenanceNotificationSetupIdExists": "Tetapan Pemberitahuan Penyelenggaraan Pencegahan baru tidak boleh sudah mempunyai ID",
-      "setupProductConfigIdExists": "Konfigurasi Produk baru tidak boleh sudah mempunyai ID",
+      "setupProductConfigIdExists": "Konfigurasi Alat Ganti baru tidak boleh sudah mempunyai ID",
       "setupProductConfigIdNotFound": "ID tidak ditemui",
-      "setupProductFamilyIdExists": "Keluarga Produk baru tidak boleh sudah mempunyai ID",
-      "setupProductFamilyHasProduct": "Data Produk wujud dalam sistem untuk Keluarga Produk",
-      "setupProductFamilyNotFound": "Keluarga Produk tidak ditemui",
-      "setupProductMeasureUnitIdExists": "Unit Ukuran Produk baru tidak boleh sudah mempunyai ID",
+      "setupProductFamilyIdExists": "Keluarga Alat Ganti baru tidak boleh sudah mempunyai ID",
+      "setupProductFamilyHasProduct": "Data Alat Ganti wujud dalam sistem untuk Keluarga Alat Ganti",
+      "setupProductFamilyNotFound": "Keluarga Alat Ganti tidak ditemui",
+      "setupProductMeasureUnitIdExists": "Unit Ukuran Alat Ganti baru tidak boleh sudah mempunyai ID",
       "setupProductMeasureUnitNameExists": "Nama sudah wujud",
-      "setupProductTypeIdExists": "Jenis Produk baru tidak boleh sudah mempunyai ID",
+      "setupProductTypeIdExists": "Jenis Alat Ganti baru tidak boleh sudah mempunyai ID",
       "setupProductTypeNameExists": "Nama sudah wujud",
       "setupProductTypeUnableToDelete": "Tidak dibenarkan memadam nilai sistem",
-      "setupProductTypeHasProduct": "Data Produk wujud dalam sistem untuk Jenis Produk",
+      "setupProductTypeHasProduct": "Data Alat Ganti wujud dalam sistem untuk Jenis Alat Ganti",
       "setupProjectCategoryIdExists": "Kategori Projek baru tidak boleh sudah mempunyai ID",
       "setupProjectCategoryNameExists": "Nama sudah wujud",
       "setupProjectCategorySystemGenerated": "Kategori Projek yang dijana oleh sistem tidak dibenarkan untuk dipadam",
@@ -20658,7 +20658,7 @@
         },
         "productUsage": {
           "original": "Product Usage",
-          "singular": "Penggunaan Produk",
+          "singular": "Penggunaan Alat Ganti",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -21387,8 +21387,8 @@
         },
         "productUsage": {
           "original": "Product Usage",
-          "singular": "Penggunaan Produk",
-          "plural": "Penggunaan Produk",
+          "singular": "Penggunaan Alat Ganti",
+          "plural": "Penggunaan Alat Ganti",
           "setupEdit": true,
           "setupVisible": false
         }

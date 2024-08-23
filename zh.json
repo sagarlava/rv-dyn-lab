@@ -333,7 +333,7 @@
       "customerCannotDeleteByProjects": "无法删除：客户是一个或多个项目的一部分",
       "customerLocationNotFound": "用户位置无效",
       "customerGeoFenceNotFound": "未找到客户地理围栏",
-      "customerServiceZoneNotFound": "未找到客户服务区",
+      "customerServiceZoneNotFound": "未找到客户服务区域",
       "customerCategoryTypeNotFound": "未找到客户类别类型",
       "customerTypeNotFound": "未找到客户类型",
       "customerChannelNotFound": "未找到客户渠道",
@@ -945,7 +945,7 @@
       "assetHasMachineSpecialist": "系统中存在资产的机器专家数据",
       "assetTableSetupNotFound": "未找到资产表格设置，请联系支持",
       "assetCustomerNotFound": "未找到资产客户",
-      "assetServiceZoneNotFound": "未找到资产服务区",
+      "assetServiceZoneNotFound": "未找到资产服务区域",
       "assetProductNotFound": "未找到资产备件",
       "assetTypeNotFound": "未找到资产类型",
       "assetStatusNotFound": "未找到资产状态",
@@ -1037,7 +1037,7 @@
       },
       "serviceZoneRemoved": {
         "original": "Service Zone Removed",
-        "singular": "服务区已移除",
+        "singular": "服务区域已移除",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -1128,14 +1128,14 @@
       },
       "serviceZoneChange": {
         "original": "Service Zone Change",
-        "singular": "服务区变更",
+        "singular": "服务区域变更",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
       },
       "serviceZoneName": {
         "original": "Service Zone Name",
-        "singular": "服务区名称",
+        "singular": "服务区域名称",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -1755,7 +1755,7 @@
       },
       "sec3": {
         "original": "Filter By",
-        "singular": "过滤",
+        "singular": "筛选",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -1842,7 +1842,7 @@
       },
       "preventativeMaintenanceNo": {
         "original": "Preventative Maintenance No",
-        "singular": "预防性维护编号",
+        "singular": "预防维护编号",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -2289,14 +2289,14 @@
       },
       "minorMaintenance": {
         "original": "Minor Maintenance",
-        "singular": "小维护",
+        "singular": "小型维护",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "majorMaintenance": {
         "original": "Major Maintenance",
-        "singular": "大维护",
+        "singular": "大型维护",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -3110,8 +3110,8 @@
       },
       "sec13": {
         "original": "Filter By",
-        "singular": "过滤",
-        "plural": "过滤",
+        "singular": "筛选",
+        "plural": "筛选",
         "setupEdit": false,
         "setupVisible": true
       },
@@ -4470,8 +4470,8 @@
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "过滤",
-        "plural": "过滤",
+        "singular": "筛选",
+        "plural": "筛选",
         "setupEdit": false,
         "setupVisible": true
       },
@@ -4622,7 +4622,7 @@
       "siteSubCategoryNotFound": "站点子类别未找到",
       "siteAreaNotFound": "站点区域未找到",
       "siteGeoFenceNotFound": "站点地理围栏未找到",
-      "siteServiceZoneNotFound": "站点服务区未找到",
+      "siteServiceZoneNotFound": "站点服务区域未找到",
       "siteUserGroupNotFound": "站点用户组未找到",
       "siteStatusNotFound": "站点状态未找到",
       "siteIdExists": "新的站点不能已有ID",
@@ -4694,7 +4694,7 @@
       },
       "sec3": {
         "original": "Filter By",
-        "singular": "过滤",
+        "singular": "筛选",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -5090,7 +5090,7 @@
       "projectWithSecondExtIdNotFound": "无效的第二外部ID",
       "projectWithSFExtIdNotFound": "无效的SF外部ID",
       "projectGeoFenceNotFound": "未找到项目地理围栏",
-      "projectServiceZoneNotFound": "未找到项目服务区",
+      "projectServiceZoneNotFound": "未找到项目服务区域",
       "projectCategoryNotFound": "未找到项目类别",
       "projectStatusNotFound": "未找到项目状态",
       "projectCustomerNotFound": "未找到项目客户",
@@ -5210,7 +5210,7 @@
       },
       "sec12": {
         "original": "Filter By",
-        "singular": "过滤",
+        "singular": "筛选",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -5234,7 +5234,7 @@
       },
       "ticketOwner": {
         "original": "Ticket Owner",
-        "singular": "工单所有者",
+        "singular": "工单负责人",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -5568,7 +5568,7 @@
       }
     },
     "messages": {
-      "phoneOrEmailMandatory": "电话或电子邮件是必需的",
+      "phoneOrEmailMandatory": "必须提供电话或电子邮件",
       "typeMessageOrAddAttachment": "请键入消息或添加附件",
       "hasBeenAssignedTo": "已分配给",
       "this": "此"
@@ -7060,7 +7060,7 @@
       },
       "selectServiceZone": {
         "original": "Select Service Zone",
-        "singular": "选择服务区",
+        "singular": "选择服务区域",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -8148,7 +8148,7 @@
       "jobOrderCustomerPurchaseHistoryNotFound": "未找到客户购买历史",
       "jobOrderTypeNotFound": "未找到工作订单类型",
       "jobOrderFaultTypeNotFound": "未找到工作订单故障类型",
-      "jobOrderServiceZoneNotFound": "未找到服务区",
+      "jobOrderServiceZoneNotFound": "未找到服务区域",
       "jobOrderUncompletedNotFound": "未找到未完成的工作订单",
       "jobOrderAssetNotFound": "未找到资产",
       "jobOrderFaultNotFound": "未找到故障",
@@ -10500,21 +10500,21 @@
       },
       "filter": {
         "original": "Filter",
-        "singular": "过滤",
+        "singular": "筛选",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "resetFilter": {
         "original": "Reset Filter",
-        "singular": "重置过滤器",
+        "singular": "重置筛选器",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "closeFilter": {
         "original": "Close Filter",
-        "singular": "关闭过滤器",
+        "singular": "关闭筛选",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -11595,7 +11595,7 @@
       },
       "expired": {
         "original": "Expired",
-        "singular": "过期",
+        "singular": "已过期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -11859,7 +11859,7 @@
       "none": "无",
       "records": "记录",
       "details": "详情",
-      "filterBy": "过滤条件",
+      "filterBy": "筛选条件",
       "information": "信息",
       "noViewAccess": "您无权查看此记录",
       "dragAndDropFileToUpload": "拖放文件上传",
@@ -12366,7 +12366,7 @@
         },
         "servZone": {
           "original": "Service Zone",
-          "singular": "服务区",
+          "singular": "服务区域",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -16388,7 +16388,7 @@
           },
           "sec14": {
             "original": "Use the below fields to filter the Task template(s) you'd like to add",
-            "singular": "使用以下字段过滤您想要添加的任务模板",
+            "singular": "使用以下字段筛选您想要添加的任务模板",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -16883,8 +16883,8 @@
         "setupVisible": true,
         "label": {
           "original": "Service Zone",
-          "singular": "服务区",
-          "plural": "服务区",
+          "singular": "服务区域",
+          "plural": "服务区域",
           "setupEdit": true,
           "setupVisible": true
         },
@@ -16892,7 +16892,7 @@
           "setupVisible": false,
           "sec0": {
             "original": "Service Zone Details",
-            "singular": "服务区详情",
+            "singular": "服务区域详情",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -16967,7 +16967,7 @@
           "setupVisible": false,
           "serviceZone": {
             "original": "Your service zones",
-            "singular": "您的服务区",
+            "singular": "您的服务区域",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -17065,7 +17065,7 @@
         },
         "sec11": {
           "original": "Filter By",
-          "singular": "过滤条件",
+          "singular": "筛选条件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -17234,7 +17234,7 @@
       "validationFE": {},
       "messages": {
         "selectAssetTypes": "选择资产类型",
-        "selectServiceZone": "选择服务区域",
+        "selectServiceZone": "选择服务区域域",
         "selectEquipmentType": "选择设备类型",
         "checklistName": "清单名称"
       }
@@ -19380,7 +19380,7 @@
             },
             "selectFieldToFilter": {
               "original": "Select a field to filter the table records by, and choose the value for that field to apply the filter. Note: Emails will display a maximum of 5 rows in the table.",
-              "singular": "选择一个字段以过滤表记录，并选择该字段的值来应用过滤。注意：电子邮件最多显示表中的5行。",
+              "singular": "选择一个字段以筛选表记录，并选择该字段的值来应用筛选。注意：电子邮件最多显示表中的5行。",
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
@@ -19421,14 +19421,14 @@
       "setupCustomerTypeNameExists": "名称已存在",
       "setupCustomerTypeSystemGenerated": "不允许删除系统生成的客户类型",
       "setupCustomerTypeHasCustomer": "系统中存在客户类型的数据",
-      "setupServiceZoneIdExists": "新服务区不能已有ID",
+      "setupServiceZoneIdExists": "新服务区域不能已有ID",
       "setupServiceZoneNameExists": "名称已存在",
-      "setupServiceZoneNotFound": "未找到服务区",
-      "setupServiceZoneSystemGenerated": "不允许删除系统生成的服务区",
-      "setupServiceZoneHasAsset": "系统中存在服务区的资产数据",
-      "setupServiceZoneHasCustomer": "系统中存在服务区的客户数据",
-      "setupServiceZoneHasJobOrder": "系统中存在服务区的工作订单数据",
-      "setupServiceZoneHasProject": "系统中存在服务区的项目数据",
+      "setupServiceZoneNotFound": "未找到服务区域",
+      "setupServiceZoneSystemGenerated": "不允许删除系统生成的服务区域",
+      "setupServiceZoneHasAsset": "系统中存在服务区域的资产数据",
+      "setupServiceZoneHasCustomer": "系统中存在服务区域的客户数据",
+      "setupServiceZoneHasJobOrder": "系统中存在服务区域的工作订单数据",
+      "setupServiceZoneHasProject": "系统中存在服务区域的项目数据",
       "setupGeoFenceIdExists": "新地理围栏不能已有ID",
       "setupGeoFenceNotFound": "未找到地理围栏",
       "setupWareHouseLocationIdExists": "新仓库位置不能已有ID",
@@ -20017,14 +20017,14 @@
       },
       "from": {
         "original": "From",
-        "singular": "从",
+        "singular": "从开始日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "to": {
         "original": "To",
-        "singular": "到",
+        "singular": "结束日期",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -21800,7 +21800,7 @@
       },
       "sec4": {
         "original": "Filter By",
-        "singular": "过滤条件",
+        "singular": "筛选条件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -21934,7 +21934,7 @@
         },
         "sec5": {
           "original": "Filter By",
-          "singular": "过滤条件",
+          "singular": "筛选条件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -22075,7 +22075,7 @@
         },
         "sec4": {
           "original": "Filter By",
-          "singular": "过滤条件",
+          "singular": "筛选条件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -22369,7 +22369,7 @@
       },
       "sec7": {
         "original": "Filter By",
-        "singular": "过滤条件",
+        "singular": "筛选条件",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

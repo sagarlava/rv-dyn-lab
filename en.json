@@ -8873,7 +8873,9 @@
       "binLocationNotFound": "Bin Location not found",
       "binZoneNotFound": "Bin Zone not found",
       "binWithExtIdNotFound": "Invalid ExternalId",
-      "binInventoryHistoryIdExists": "A new Bin Inventory History cannot already have an ID"
+      "binInventoryHistoryIdExists": "A new Bin Inventory History cannot already have an ID",
+      "binHasInventoryNotAllowedChangeType": "Cannot change the bin type when having an inventory"
+	    "binHasInventoryNotAllowedChangeZoneOrLocation": "Cannot change the bin zone/location when having an inventory"
     }
   },
   "binTransfer": {
@@ -19630,7 +19632,8 @@
       "setupUserShiftUserNotFound": "User not found for the shift",
       "setupUserShiftStartTimeNotFound": "Start time not found for the shift",
       "setupUserShiftEndTimeNotFound": "End time not found for the shift",
-      "setupUserShiftNotFound": "User Shift not found"
+      "setupUserShiftNotFound": "User Shift not found",
+      "setupZoneHasInventoryNotAllowedChangeLocation": "Cannot change the zone location when having an inventory"
     }
   },
   "disclosure":{

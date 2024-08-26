@@ -8873,7 +8873,9 @@
       "binLocationNotFound": "未找到Bin位置",
       "binZoneNotFound": "未找到Bin区域",
       "binWithExtIdNotFound": "无效的外部ID",
-      "binInventoryHistoryIdExists": "新的Bin库存历史记录不能已有ID"
+      "binInventoryHistoryIdExists": "新的Bin库存历史记录不能已有ID",
+      "binHasInventoryNotAllowedChangeType": "Cannot change the bin type when having an inventory",
+	    "binHasInventoryNotAllowedChangeZoneOrLocation": "Cannot change the bin zone/location when having an inventory"
     }
   },
   "binTransfer": {
@@ -19630,7 +19632,8 @@
       "setupUserShiftUserNotFound": "未找到班次用户",
       "setupUserShiftStartTimeNotFound": "未找到班次开始时间",
       "setupUserShiftEndTimeNotFound": "未找到班次结束时间",
-      "setupUserShiftNotFound": "未找到用户班次"
+      "setupUserShiftNotFound": "未找到用户班次",
+      "setupZoneHasInventoryNotAllowedChangeLocation": "Cannot change the zone location when having an inventory"
     }
   },
   "disclosure": {

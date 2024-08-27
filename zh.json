@@ -8874,8 +8874,8 @@
       "binZoneNotFound": "未找到Bin区域",
       "binWithExtIdNotFound": "无效的外部ID",
       "binInventoryHistoryIdExists": "新的Bin库存历史记录不能已有ID",
-      "binHasInventoryNotAllowedChangeType": "Cannot change the bin type when having an inventory",
-	    "binHasInventoryNotAllowedChangeZoneOrLocation": "Cannot change the bin zone/location when having an inventory"
+      "binHasInventoryNotAllowedChangeType": "有库存时无法更改箱类型",
+      "binHasInventoryNotAllowedChangeZoneOrLocation": "有库存时无法更改箱的区域/位置"
     }
   },
   "binTransfer": {

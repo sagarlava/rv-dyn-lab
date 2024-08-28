@@ -8633,7 +8633,7 @@
       }
     },
     "validationFE": {
-      "pleaseSelectOne": "请选择一个备件或资产"
+      "pleaseSelectOne": "请选择一个备件或一项资产"
     },
     "validationBE": {
       "inventoryIdExists": "新库存不能已经有一个ID",
@@ -10386,14 +10386,14 @@
       },
       "english": {
         "original": "English",
-        "singular": "英语",
+        "singular": "English",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "malay": {
-        "original": "Malay",
-        "singular": "马来语",
+        "original": "Bahasa Melayu",
+        "singular": "Bahasa Melayu",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -16071,7 +16071,7 @@
             }
           },
           "validationFE": {
-            "pleaseSelectOne": "请选择一个备件或一个资产"
+            "pleaseSelectOne": "请选择一个备件或一项资产"
           }
         },
         "zones": {
@@ -19744,14 +19744,14 @@
     "fields": {
       "english": {
         "original": "English",
-        "singular": "英语",
+        "singular": "English",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "malay": {
-        "original": "Malay",
-        "singular": "马来语",
+        "original": "Bahasa Melayu",
+        "singular": "Bahasa Melayu",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

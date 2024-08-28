@@ -10011,8 +10011,8 @@
       "setupVisible": false,
       "sec0": {
         "original": "Queue",
-        "singular": "队列",
-        "plural": "队列",
+        "singular": "列表",
+        "plural": "列表",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -10032,8 +10032,8 @@
       },
       "sec3": {
         "original": "All Tickets",
-        "singular": "所有票",
-        "plural": "所有票",
+        "singular": "所有工单",
+        "plural": "所有工单",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -10049,36 +10049,36 @@
       "setupVisible": false,
       "allMyTickets": {
         "original": "All My Tickets",
-        "singular": "所有我的票",
-        "plural": "所有我的票",
+        "singular": "我的所有工单",
+        "plural": "我的所有工单",
         "setupEdit": true,
         "setupVisible": false
       },
       "openPendingTickets": {
         "original": "Open & Pending Tickets",
-        "singular": "打开和处理中的票",
-        "plural": "打开和处理中的票",
+        "singular": "开放和待处理工单",
+        "plural": "开放和待处理工单",
         "setupEdit": true,
         "setupVisible": false
       },
       "overdueTickets": {
         "original": "Overdue Tickets",
-        "singular": "过期的票",
-        "plural": "过期的票",
+        "singular": "逾期工单",
+        "plural": "逾期工单",
         "setupEdit": true,
         "setupVisible": false
       },
       "highPriorityTickets": {
         "original": "High Priority Tickets",
-        "singular": "高优先级的票",
-        "plural": "高优先级的票",
+        "singular": "高优先级工单",
+        "plural": "高优先级工单",
         "setupEdit": true,
         "setupVisible": false
       },
       "unresolvedTickets": {
         "original": "Unresolved Tickets",
-        "singular": "未解决的票",
-        "plural": "未解决的票",
+        "singular": "未解决工单",
+        "plural": "未解决工单",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -10112,8 +10112,8 @@
       },
       "dueToday": {
         "original": "Due Today",
-        "singular": "今天到期",
-        "plural": "今天到期",
+        "singular": "今日到期",
+        "plural": "今日到期",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -10126,15 +10126,15 @@
       },
       "allTickets": {
         "original": "All Tickets",
-        "singular": "所有票",
-        "plural": "所有票",
+        "singular": "所有工单",
+        "plural": "所有工单",
         "setupEdit": true,
         "setupVisible": false
       },
       "recentlyUpdatedTickets": {
         "original": "Recently Updated Tickets",
-        "singular": "最近更新的票",
-        "plural": "最近更新的票",
+        "singular": "最近更新的工单",
+        "plural": "最近更新的工单",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -10713,13 +10713,6 @@
       "decline": {
         "original": "Decline",
         "singular": "拒绝",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
-      "declined": {
-        "original": "Declined",
-        "singular": "已拒绝",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -11835,6 +11828,13 @@
       },
       "rejected": {
         "original": "Rejected",
+        "singular": "已拒绝",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "declined": {
+        "original": "Declined",
         "singular": "已拒绝",
         "plural": "",
         "setupEdit": true,

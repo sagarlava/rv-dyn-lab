@@ -10717,13 +10717,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "declined": {
-        "original": "Declined",
-        "singular": "Declined",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "reject": {
         "original": "Reject",
         "singular": "Reject",
@@ -11836,6 +11829,13 @@
       "rejected": {
         "original": "Rejected",
         "singular": "Rejected",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "declined": {
+        "original": "Declined",
+        "singular": "Declined",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

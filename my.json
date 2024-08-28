@@ -10717,13 +10717,6 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "declined": {
-        "original": "Declined",
-        "singular": "Ditolak",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": false
-      },
       "reject": {
         "original": "Reject",
         "singular": "Tolak",
@@ -11835,6 +11828,13 @@
       },
       "rejected": {
         "original": "Rejected",
+        "singular": "Ditolak",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "declined": {
+        "original": "Declined",
         "singular": "Ditolak",
         "plural": "",
         "setupEdit": true,

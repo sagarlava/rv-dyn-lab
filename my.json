@@ -14537,6 +14537,171 @@
         }
       }
     },
+    "serviceZone": {
+      "setupVisible": true,
+      "label": {
+        "original": "Service Zone",
+        "singular": "Zon Servis",
+        "plural": "Zon Servis",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": false,
+        "sec0": {
+          "original": "Service Zone Details",
+          "singular": "Butiran Zon Servis",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupVisible": false,
+        "code": {
+          "original": "Code",
+          "singular": "Kod",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "default": {
+          "original": "Default",
+          "singular": "Lalai",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "description": {
+          "original": "Description",
+          "singular": "Penerangan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "fieldLabel": {
+          "original": "Field Label",
+          "singular": "Label Medan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "label": {
+          "original": "Label",
+          "singular": "Label",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "order": {
+          "original": "Order",
+          "singular": "Susunan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Status",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "picklist": {
+          "original": "Picklist",
+          "singular": "Senarai Pilihan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "validationFE": {},
+      "validationBE": {
+        "requiredField": "Medan Diperlukan",
+        "invalidPhoneNumber": "Nombor Telefon Tidak Sah",
+        "invalidEmailFormat": "Format E-mel Tidak Sah"
+      },
+      "tooltips": {
+        "setupVisible": false,
+        "serviceZone": {
+          "original": "Your service zones",
+          "singular": "Zon Servis Anda",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      }
+    },
+    "geofence": {
+      "setupVisible": true,
+      "label": {
+        "original": "Geofence",
+        "singular": "Pagar Geofence",
+        "plural": "Pagar Geofence",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": false,
+        "sec0": {
+          "original": "Geofence Details",
+          "singular": "Butiran Geofence",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "File Details",
+          "singular": "Butiran Fail",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupVisible": false,
+        "name": {
+          "original": "Name",
+          "singular": "Nama",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "country": {
+          "original": "Country",
+          "singular": "Negara",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "area": {
+          "original": "Area",
+          "singular": "Kawasan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "areaCode": {
+          "original": "Area Code",
+          "singular": "Kod Kawasan",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "uploadGeofence": {
+          "original": "Upload Geofence",
+          "singular": "Muat Naik Geofence",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "validationFE": {},
+      "messages": {
+        "createYourOwn": "Anda boleh mencipta",
+        "seeDetailsHere": "lihat butiran di sini"
+      }
+    },
     "modules": {
       "setupVisible": true,
       "label":{
@@ -15818,76 +15983,6 @@
           "commonResolutionsEncountered": "Penyelesaian yang paling biasa untuk kesalahan yang ditemui"
         }
       },
-      "geofence": {
-        "setupVisible": true,
-        "label": {
-          "original": "Geofence",
-          "singular": "Pagar Geofence",
-          "plural": "Pagar Geofence",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sections": {
-          "setupVisible": false,
-          "sec0": {
-            "original": "Geofence Details",
-            "singular": "Butiran Geofence",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec1": {
-            "original": "File Details",
-            "singular": "Butiran Fail",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          }
-        },
-        "fields": {
-          "setupVisible": false,
-          "name": {
-            "original": "Name",
-            "singular": "Nama",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "country": {
-            "original": "Country",
-            "singular": "Negara",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "area": {
-            "original": "Area",
-            "singular": "Kawasan",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "areaCode": {
-            "original": "Area Code",
-            "singular": "Kod Kawasan",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "uploadGeofence": {
-            "original": "Upload Geofence",
-            "singular": "Muat Naik Geofence",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          }
-        },
-        "validationFE": {},
-        "messages": {
-          "createYourOwn": "Anda boleh mencipta",
-          "seeDetailsHere": "lihat butiran di sini"
-        }
-      },
       "inventory": {
         "setupVisible": false,
         "label": {
@@ -16890,101 +16985,6 @@
         "validationFE": {},
         "messages": {
           "partUpdatedSuccessfully": "Bahagian berjaya dikemas kini"
-        }
-      },
-      "serviceZone": {
-        "setupVisible": true,
-        "label": {
-          "original": "Service Zone",
-          "singular": "Zon Servis",
-          "plural": "Zon Servis",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sections": {
-          "setupVisible": false,
-          "sec0": {
-            "original": "Service Zone Details",
-            "singular": "Butiran Zon Servis",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          }
-        },
-        "fields": {
-          "setupVisible": false,
-          "code": {
-            "original": "Code",
-            "singular": "Kod",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "default": {
-            "original": "Default",
-            "singular": "Lalai",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "description": {
-            "original": "Description",
-            "singular": "Penerangan",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "fieldLabel": {
-            "original": "Field Label",
-            "singular": "Label Medan",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "label": {
-            "original": "Label",
-            "singular": "Label",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "order": {
-            "original": "Order",
-            "singular": "Susunan",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "status": {
-            "original": "Status",
-            "singular": "Status",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "picklist": {
-            "original": "Picklist",
-            "singular": "Senarai Pilihan",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          }
-        },
-        "validationFE": {},
-        "validationBE": {
-          "requiredField": "Medan Diperlukan",
-          "invalidPhoneNumber": "Nombor Telefon Tidak Sah",
-          "invalidEmailFormat": "Format E-mel Tidak Sah"
-        },
-        "tooltips": {
-          "setupVisible": false,
-          "serviceZone": {
-            "original": "Your service zones",
-            "singular": "Zon Servis Anda",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          }
         }
       }
     },

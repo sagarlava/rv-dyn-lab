@@ -14537,6 +14537,171 @@
         }
       }
     },
+    "serviceZone": {
+      "setupVisible": true,
+      "label": {
+        "original": "Service Zone",
+        "singular": "服务区域",
+        "plural": "服务区域",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": false,
+        "sec0": {
+          "original": "Service Zone Details",
+          "singular": "服务区域详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupVisible": false,
+        "code": {
+          "original": "Code",
+          "singular": "代码",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "default": {
+          "original": "Default",
+          "singular": "默认",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "description": {
+          "original": "Description",
+          "singular": "描述",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "fieldLabel": {
+          "original": "Field Label",
+          "singular": "字段标签",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "label": {
+          "original": "Label",
+          "singular": "标签",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "order": {
+          "original": "Order",
+          "singular": "顺序",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "状态",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "picklist": {
+          "original": "Picklist",
+          "singular": "选项列表",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "validationFE": {},
+      "validationBE": {
+        "requiredField": "必填字段",
+        "invalidPhoneNumber": "无效的电话号码",
+        "invalidEmailFormat": "无效的电子邮件格式"
+      },
+      "tooltips": {
+        "setupVisible": false,
+        "serviceZone": {
+          "original": "Your service zones",
+          "singular": "您的服务区域",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      }
+    },
+    "geofence": {
+      "setupVisible": true,
+      "label": {
+        "original": "Geofence",
+        "singular": "地理围栏",
+        "plural": "地理围栏",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sections": {
+        "setupVisible": false,
+        "sec0": {
+          "original": "Geofence Details",
+          "singular": "地理围栏详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "File Details",
+          "singular": "文件详情",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupVisible": false,
+        "name": {
+          "original": "Name",
+          "singular": "名称",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "country": {
+          "original": "Country",
+          "singular": "国家",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "area": {
+          "original": "Area",
+          "singular": "地区",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "areaCode": {
+          "original": "Area Code",
+          "singular": "地区代码",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "uploadGeofence": {
+          "original": "Upload Geofence",
+          "singular": "上传地理围栏",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "validationFE": {},
+      "messages": {
+        "createYourOwn": "您可以创建",
+        "seeDetailsHere": "查看详细信息"
+      }
+    },
     "modules": {
       "setupVisible": true,
       "label": {
@@ -15818,76 +15983,6 @@
           "commonResolutionsEncountered": "最常见的故障解决方案"
         }
       },
-      "geofence": {
-        "setupVisible": true,
-        "label": {
-          "original": "Geofence",
-          "singular": "地理围栏",
-          "plural": "地理围栏",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sections": {
-          "setupVisible": false,
-          "sec0": {
-            "original": "Geofence Details",
-            "singular": "地理围栏详情",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec1": {
-            "original": "File Details",
-            "singular": "文件详情",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          }
-        },
-        "fields": {
-          "setupVisible": false,
-          "name": {
-            "original": "Name",
-            "singular": "名称",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "country": {
-            "original": "Country",
-            "singular": "国家",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "area": {
-            "original": "Area",
-            "singular": "地区",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "areaCode": {
-            "original": "Area Code",
-            "singular": "地区代码",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "uploadGeofence": {
-            "original": "Upload Geofence",
-            "singular": "上传地理围栏",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          }
-        },
-        "validationFE": {},
-        "messages": {
-          "createYourOwn": "您可以创建",
-          "seeDetailsHere": "查看详细信息"
-        }
-      },
       "inventory": {
         "setupVisible": false,
         "label": {
@@ -16890,101 +16985,6 @@
         "validationFE": {},
         "messages": {
           "partUpdatedSuccessfully": "部件更新成功"
-        }
-      },
-      "serviceZone": {
-        "setupVisible": true,
-        "label": {
-          "original": "Service Zone",
-          "singular": "服务区域",
-          "plural": "服务区域",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sections": {
-          "setupVisible": false,
-          "sec0": {
-            "original": "Service Zone Details",
-            "singular": "服务区域详情",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          }
-        },
-        "fields": {
-          "setupVisible": false,
-          "code": {
-            "original": "Code",
-            "singular": "代码",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "default": {
-            "original": "Default",
-            "singular": "默认",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "description": {
-            "original": "Description",
-            "singular": "描述",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "fieldLabel": {
-            "original": "Field Label",
-            "singular": "字段标签",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "label": {
-            "original": "Label",
-            "singular": "标签",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "order": {
-            "original": "Order",
-            "singular": "顺序",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "status": {
-            "original": "Status",
-            "singular": "状态",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "picklist": {
-            "original": "Picklist",
-            "singular": "选项列表",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          }
-        },
-        "validationFE": {},
-        "validationBE": {
-          "requiredField": "必填字段",
-          "invalidPhoneNumber": "无效的电话号码",
-          "invalidEmailFormat": "无效的电子邮件格式"
-        },
-        "tooltips": {
-          "setupVisible": false,
-          "serviceZone": {
-            "original": "Your service zones",
-            "singular": "您的服务区域",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          }
         }
       }
     },

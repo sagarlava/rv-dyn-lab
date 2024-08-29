@@ -7991,22 +7991,22 @@
       },
       "joNumber": {
         "original": "Job Order No.",
-        "singular": "No. Pesanan Kerja",
+        "singular": "Job Order No.",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "type": {
         "original": "Type",
-        "singular": "Jenis",
-        "plural": "Jenis-jenis",
+        "singular": "Type",
+        "plural": "Types",
         "setupEdit": true,
         "setupVisible": true
       },
       "orderOwner": {
         "original": "Order Owner",
-        "singular": "Pemilik Pesanan",
-        "plural": "Pemilik-pemilik Pesanan",
+        "singular": "Order Owner",
+        "plural": "Order Owners",
         "setupEdit": true,
         "setupVisible": true
       },

@@ -10204,6 +10204,8 @@
     "messages": {
       "invalidFileSize": "Invalid file size",
       "allowedFileSize": "File size should be less than 25MB",
+      "allowedFileSizeKb": "File size should be less than 100KB",
+      "allowedFileSizeOnly": "File size should be less than",
       "cannotFindFile":"Cannot find filename and filetype",
       "pdfNotAvailable": "Sorry! PDF is not available",
       "invalidFileType":"Invalid file type. Only image files (.jpg, .png, .svg, etc.) can be uploaded.",

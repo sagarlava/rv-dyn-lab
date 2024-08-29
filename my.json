@@ -1912,6 +1912,7 @@
   },
   "contracts": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Contract",
       "singular": "Kontrak",
@@ -1921,6 +1922,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "General Details",
         "singular": "Butiran Am",
@@ -1994,6 +1996,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "status": {
         "original": "Status",
         "singular": "Status",
@@ -2177,6 +2180,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "contractLookup": {
         "original": "Contracts Lookup",
         "singular": "Carian Kontrak",

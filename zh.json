@@ -403,6 +403,7 @@
   },
   "asset": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Asset",
       "singular": "资产",
@@ -412,6 +413,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "General Details",
         "singular": "基本详情",
@@ -534,6 +536,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "type": {
         "original": "Type",
         "singular": "类型",
@@ -962,6 +965,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "assetLookup": {
         "original": "Asset Lookup",
         "singular": "资产查询",

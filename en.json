@@ -4705,6 +4705,7 @@
   },
   "salesOrder": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Sales Order",
       "singular": "Sales Order",
@@ -4714,6 +4715,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "General Details",
         "singular": "General Details",
@@ -4752,6 +4754,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "name": {
         "original": "Name",
         "singular": "Name",
@@ -4914,6 +4917,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "salesOrderLookup": {
         "original": "Sales Order Lookup",
         "singular": "Sales Order Lookup",

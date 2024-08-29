@@ -2714,6 +2714,7 @@
   },
   "product": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Spare Parts",
       "singular": "Spare Part",
@@ -2723,6 +2724,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "General Details",
         "singular": "General Details",
@@ -2789,6 +2791,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "name": {
         "original": "Name",
         "singular": "Name",
@@ -3019,6 +3022,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "productLookup": {
         "original": "Spare Part Lookup",
         "singular": "Spare Part Lookup",

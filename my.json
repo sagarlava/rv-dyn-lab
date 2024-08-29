@@ -1334,6 +1334,7 @@
   },
   "accessories": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Accessories",
       "singular": "Aksesori",
@@ -1343,6 +1344,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "Accessory Details",
         "singular": "Butiran Aksesori",
@@ -1367,6 +1369,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "assetName": {
         "original": "Asset Name",
         "singular": "Nama Aset",
@@ -1440,6 +1443,7 @@
     },
     "tooltip": {
       "setupVisible": true,
+      "setupEdit": true,
       "accessoryLookup": {
         "original": "Accessory Lookup",
         "singular": "Carian Aksesori",

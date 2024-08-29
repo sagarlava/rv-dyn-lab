@@ -1334,6 +1334,7 @@
   },
   "accessories": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Accessories",
       "singular": "配件",
@@ -1343,6 +1344,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "Accessory Details",
         "singular": "配件详情",
@@ -1367,6 +1369,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "assetName": {
         "original": "Asset Name",
         "singular": "资产名称",
@@ -1440,6 +1443,7 @@
     },
     "tooltip": {
       "setupVisible": true,
+      "setupEdit": true,
       "accessoryLookup": {
         "original": "Accessory Lookup",
         "singular": "配件查询",

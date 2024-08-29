@@ -1,6 +1,7 @@
 {
   "customer": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Customers",
       "singular": "Pelanggan",
@@ -9,7 +10,8 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
+    "setupVisible": true,
+    "setupEdit": true,
       "sec0": {
         "original": "General Details",
         "singular": "Butiran Am",
@@ -62,6 +64,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "type": {
         "original": "Type",
         "singular": "Jenis",
@@ -367,6 +370,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "geofenceIconMessage": {
         "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
         "singular": "Menandakan kotak ini akan mencari dan mengaitkan Geofence yang relevan dengan Pelanggan ini berdasarkan Latitud dan Longitud yang disediakan dalam alamat di bawah",

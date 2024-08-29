@@ -2989,7 +2989,7 @@
     "tooltips": {
       "setupVisible": true,
       "productLookup": {
-        "original": "Product Lookup",
+        "original": "Spare Part Lookup",
         "singular": "Carian Alat Ganti",
         "plural": "",
         "setupEdit": false,
@@ -5740,7 +5740,7 @@
         "setupVisible": true
       },
       "sec22": {
-        "original": "Product Details",
+        "original": "Spare Part Details",
         "singular": "Butiran Alat Ganti",
         "plural": "Butiran Alat Ganti",
         "setupEdit": false,
@@ -8272,7 +8272,7 @@
         "setupVisible": true
       },
       "sec2": {
-        "original": "Product available in other locations",
+        "original": "Spare Part available in other locations",
         "singular": "Alat Ganti tersedia di lokasi lain",
         "plural": "",
         "setupEdit": true,
@@ -8597,28 +8597,28 @@
         "setupVisible": true
       },
       "productType": {
-        "original": "Product Type",
+        "original": "Spare Part Type",
         "singular": "Jenis Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productFamily": {
-        "original": "Product Family",
+        "original": "Spare Part Family",
         "singular": "Keluarga Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
+        "original": "Spare Part Name",
         "singular": "Nama Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "productSku": {
-        "original": "Product SKU",
+        "original": "Spare Part SKU",
         "singular": "SKU Alat Ganti",
         "plural": "",
         "setupEdit": true,
@@ -8812,14 +8812,14 @@
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
+        "original": "Spare Part Name",
         "singular": "Nama Alat Ganti",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "productSku": {
-        "original": "Product SKU",
+        "original": "Spare Part SKU",
         "singular": "SKU Alat Ganti",
         "plural": "",
         "setupEdit": true,
@@ -8984,7 +8984,7 @@
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
+        "original": "Spare Part Name",
         "singular": "Nama Alat Ganti",
         "plural": "",
         "setupEdit": true,
@@ -9460,7 +9460,7 @@
         "setupVisible": true
       },
       "productPartNoLookup": {
-        "original": "Product Part No. Lookup",
+        "original": "Spare Part Part No. Lookup",
         "singular": "Carian No Bahagian Alat Ganti",
         "plural": "",
         "setupEdit": true,
@@ -9793,7 +9793,7 @@
         "setupVisible": true
       },
       "productPartNoLookup": {
-        "original": "Product Part No. Lookup",
+        "original": "Spare Part Part No. Lookup",
         "singular": "Carian No Bahagian Alat Ganti",
         "plural": "",
         "setupEdit": true,
@@ -12544,7 +12544,7 @@
           "setupVisible": false
         },
         "sec9": {
-          "original": "Select a Product from the list",
+          "original": "Select a Spare Part from the list",
           "singular": "Pilih Alat Ganti dari senarai",
           "plural": "",
           "setupEdit": true,
@@ -16954,7 +16954,7 @@
         "sections": {
           "setupVisible": false,
           "sec0": {
-            "original": "Product Details",
+            "original": "Spare Part Details",
             "singular": "Butiran Alat Ganti",
             "plural": "",
             "setupEdit": true,
@@ -19605,7 +19605,7 @@
       "setupTaskConfigIdNotFound": "ID tidak ditemui",
       "setupTaskSegmentIdExists": "Segmen Tugas baru tidak boleh sudah mempunyai ID",
       "setupTemplateIdExists": "Templat baru tidak boleh sudah mempunyai ID",
-      "setupTmplChecklistAnsProductIdExists": "TmplChecklistAnsProduct baru tidak boleh sudah mempunyai ID",
+      "setupTmplChecklistAnsProductIdExists": "TmplChecklistAnsSparePart baru tidak boleh sudah mempunyai ID",
       "setupTmplChecklistAnsIdExists": "TmplChecklistAns baru tidak boleh sudah mempunyai ID",
       "setupTmplChecklistAnsTaskIdExists": "TmplChecklistAnsTask baru tidak boleh sudah mempunyai ID",
       "setupTmplChecklistAnsTaskTmplTasksNotFound": "TmplTasks tidak ditemui",
@@ -19619,7 +19619,7 @@
       "setupTmplChecklistHasFollowupCheckList": "Data Senarai Semak Susulan wujud dalam sistem untuk Senarai Semak",
       "setupTmplChecklistHasQuestions": "Data Soalan wujud dalam sistem untuk Senarai Semak",
       "setupTmplChecklistModelTypeNotFound": "Model atau Jenis diperlukan",
-      "setupTmplJobOrderProductIdExists": "TmplJobOrderProduct baru tidak boleh sudah mempunyai ID",
+      "setupTmplJobOrderProductIdExists": "TmplJobOrderSparePart baru tidak boleh sudah mempunyai ID",
       "setupTmplJobOrderIdExists": "TmplJobOrder baru tidak boleh sudah mempunyai ID",
       "setupTmplJobOrderIdNotFound": "ID tidak ditemui",
       "setupTmplJobOrderNotFound": "TmplJobOrder tidak ditemui",
@@ -20685,7 +20685,7 @@
           "setupVisible": false
         },
         "productUsage": {
-          "original": "Product Usage",
+          "original": "Spare Part Usage",
           "singular": "Penggunaan Alat Ganti",
           "plural": "",
           "setupEdit": true,
@@ -21414,7 +21414,7 @@
           "setupVisible": false
         },
         "productUsage": {
-          "original": "Product Usage",
+          "original": "Spare Part Usage",
           "singular": "Penggunaan Alat Ganti",
           "plural": "Penggunaan Alat Ganti",
           "setupEdit": true,

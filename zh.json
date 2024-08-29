@@ -2787,7 +2787,7 @@
         "setupVisible": true
       },
       "productFamily": {
-        "original": "Product Family",
+        "original": "Spare Part Family",
         "singular": "备件系列",
         "plural": "备件系列",
         "setupEdit": true,
@@ -2885,21 +2885,21 @@
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
+        "original": "Spare Part Name",
         "singular": "备件名称",
         "plural": "备件名称",
         "setupEdit": false,
         "setupVisible": true
       },
       "productType": {
-        "original": "Product Type",
+        "original": "Spare Part Type",
         "singular": "备件类型",
         "plural": "备件类型",
         "setupEdit": false,
         "setupVisible": true
       },
       "productNo": {
-        "original": "Product No.",
+        "original": "Spare Part No.",
         "singular": "备件编号",
         "plural": "备件编号",
         "setupEdit": false,
@@ -2989,7 +2989,7 @@
     "tooltips": {
       "setupVisible": true,
       "productLookup": {
-        "original": "Product Lookup",
+        "original": "Spare Part Lookup",
         "singular": "备件查找",
         "plural": "",
         "setupEdit": false,
@@ -5740,7 +5740,7 @@
         "setupVisible": true
       },
       "sec22": {
-        "original": "Product Details",
+        "original": "Spare Part Details",
         "singular": "备件详情",
         "plural": "备件详情",
         "setupEdit": false,
@@ -8272,7 +8272,7 @@
         "setupVisible": true
       },
       "sec2": {
-        "original": "Product available in other locations",
+        "original": "Spare Part available in other locations",
         "singular": "其他位置的可用备件",
         "plural": "",
         "setupEdit": true,
@@ -8597,28 +8597,28 @@
         "setupVisible": true
       },
       "productType": {
-        "original": "Product Type",
+        "original": "Spare Part Type",
         "singular": "备件类型",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productFamily": {
-        "original": "Product Family",
+        "original": "Spare Part Family",
         "singular": "备件系列",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
+        "original": "Spare Part Name",
         "singular": "备件名称",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "productSku": {
-        "original": "Product SKU",
+        "original": "Spare Part SKU",
         "singular": "备件SKU",
         "plural": "",
         "setupEdit": true,
@@ -8812,14 +8812,14 @@
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
+        "original": "Spare Part Name",
         "singular": "备件名称",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
       "productSku": {
-        "original": "Product SKU",
+        "original": "Spare Part SKU",
         "singular": "备件SKU",
         "plural": "",
         "setupEdit": true,
@@ -8984,7 +8984,7 @@
         "setupVisible": true
       },
       "productName": {
-        "original": "Product Name",
+        "original": "Spare Part Name",
         "singular": "备件名称",
         "plural": "",
         "setupEdit": true,
@@ -9460,7 +9460,7 @@
         "setupVisible": true
       },
       "productPartNoLookup": {
-        "original": "Product Part No. Lookup",
+        "original": "Spare Part Part No. Lookup",
         "singular": "备件零件号查询",
         "plural": "",
         "setupEdit": true,
@@ -9793,7 +9793,7 @@
         "setupVisible": true
       },
       "productPartNoLookup": {
-        "original": "Product Part No. Lookup",
+        "original": "Spare Part Part No. Lookup",
         "singular": "备件零件号查询",
         "plural": "",
         "setupEdit": true,
@@ -12544,7 +12544,7 @@
           "setupVisible": false
         },
         "sec9": {
-          "original": "Select a Product from the list",
+          "original": "Select a Spare Part from the list",
           "singular": "从列表中选择备件",
           "plural": "",
           "setupEdit": true,
@@ -16954,7 +16954,7 @@
         "sections": {
           "setupVisible": false,
           "sec0": {
-            "original": "Product Details",
+            "original": "Spare Part Details",
             "singular": "备件详情",
             "plural": "",
             "setupEdit": true,
@@ -20685,7 +20685,7 @@
           "setupVisible": false
         },
         "productUsage": {
-          "original": "Product Usage",
+          "original": "Spare Part Usage",
           "singular": "备件使用",
           "plural": "",
           "setupEdit": true,
@@ -21414,7 +21414,7 @@
           "setupVisible": false
         },
         "productUsage": {
-          "original": "Product Usage",
+          "original": "Spare Part Usage",
           "singular": "备件使用情况",
           "plural": "备件使用情况",
           "setupEdit": true,

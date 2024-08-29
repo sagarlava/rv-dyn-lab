@@ -3043,6 +3043,7 @@
   },
   "task": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Task",
       "singular": "Tugas",
@@ -3052,6 +3053,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "General Details",
         "singular": "Butiran Am",
@@ -3251,6 +3253,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "acceptDeclineTask": {
         "original": "Require team members to accept/decline tasks?",
         "singular": "Perlu ahli pasukan untuk menerima/menolak tugas?",
@@ -4284,6 +4287,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "timeAddedBeforeOr": {
         "original": "Time added before or after a task when using the Optimizer e.g. time needed for parking.",
         "singular": "Masa ditambah sebelum atau selepas tugas semasa menggunakan Pengoptimum contohnya masa yang diperlukan untuk parkir.",

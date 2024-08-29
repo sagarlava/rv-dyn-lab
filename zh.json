@@ -3043,6 +3043,7 @@
   },
   "task": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Task",
       "singular": "任务",
@@ -3052,6 +3053,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "General Details",
         "singular": "基本信息 ",
@@ -3251,6 +3253,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "acceptDeclineTask": {
         "original": "Require team members to accept/decline tasks?",
         "singular": "要求团队成员接受/拒绝任务？",
@@ -4284,6 +4287,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "timeAddedBeforeOr": {
         "original": "Time added before or after a task when using the Optimizer e.g. time needed for parking.",
         "singular": "在使用优化器时，任务前后增加的时间，例如停车所需的时间。",

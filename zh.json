@@ -1462,6 +1462,7 @@
   },
   "maintenance": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Maintenance Schedule",
       "singular": "维护计划",
@@ -1471,6 +1472,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "Maintenance Details",
         "singular": "维护详情",
@@ -1502,6 +1504,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "status": {
         "original": "Status",
         "singular": "状态",
@@ -1708,6 +1711,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "preventiveMaintenance": {
         "original": "This is the timeframe in which the maintenance will be active",
         "singular": "这是维护活动的时间范围",

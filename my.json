@@ -1462,6 +1462,7 @@
   },
   "maintenance": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Maintenance Schedule",
       "singular": "Jadual Penyelenggaraan",
@@ -1471,6 +1472,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "Maintenance Details",
         "singular": "Butiran Penyelenggaraan",
@@ -1502,6 +1504,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "status": {
         "original": "Status",
         "singular": "Status",
@@ -1708,6 +1711,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "preventiveMaintenance": {
         "original": "This is the timeframe in which the maintenance will be active",
         "singular": "Ini adalah tempoh di mana penyelenggaraan akan aktif",

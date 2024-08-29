@@ -14593,6 +14593,7 @@
     },
     "serviceZone": {
       "setupVisible": true,
+      "setupEdit": true,
       "label": {
         "original": "Service Zone",
         "singular": "服务区域",
@@ -14602,6 +14603,7 @@
       },
       "sections": {
         "setupVisible": false,
+        "setupEdit": true,
         "sec0": {
           "original": "Service Zone Details",
           "singular": "服务区域详情",
@@ -14612,6 +14614,7 @@
       },
       "fields": {
         "setupVisible": false,
+        "setupEdit": true,
         "code": {
           "original": "Code",
           "singular": "代码",
@@ -14677,6 +14680,7 @@
       },
       "tooltips": {
         "setupVisible": false,
+        "setupEdit": true,
         "serviceZone": {
           "original": "Your service zones",
           "singular": "您的服务区域",

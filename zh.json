@@ -12621,7 +12621,7 @@
       "original": "Setup",
       "singular": "设置",
       "plural": "设置",
-      "setupEdit": true,
+      "setupEdit": false,
       "setupVisible": false
     },
     "general": {
@@ -17571,7 +17571,7 @@
       }
     },
     "sla": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label":{
         "original": "SLA",
         "singular": "SLA",

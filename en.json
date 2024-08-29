@@ -2407,6 +2407,7 @@
   },
   "checklist": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Checklist",
       "singular": "Checklist",
@@ -2416,6 +2417,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "General Details",
         "singular": "General Details",
@@ -2510,6 +2512,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "dateRange": {
         "original": "Date Range",
         "singular": "Date Range",
@@ -2630,6 +2633,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "checklistLookup": {
         "original": "Checklist Lookup",
         "singular": "Checklist Lookup",

@@ -5623,6 +5623,7 @@
   },
   "jobOrder": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Job Order",
       "singular": "Job Order",
@@ -5632,6 +5633,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "General Details",
         "singular": "General Details",
@@ -5964,6 +5966,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "orderDateTime": {
         "original": "Order Date & Time",
         "singular": "Order Date & Time",
@@ -8239,6 +8242,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "jobOrderLookup": {
         "original": "Job Order Lookup",
         "singular": "Job Order Lookup",

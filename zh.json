@@ -14692,6 +14692,7 @@
     },
     "geofence": {
       "setupVisible": true,
+      "setupEdit": true,
       "label": {
         "original": "Geofence",
         "singular": "地理围栏",
@@ -14701,6 +14702,7 @@
       },
       "sections": {
         "setupVisible": false,
+        "setupEdit": true,
         "sec0": {
           "original": "Geofence Details",
           "singular": "地理围栏详情",
@@ -14718,6 +14720,7 @@
       },
       "fields": {
         "setupVisible": false,
+        "setupEdit": true,
         "name": {
           "original": "Name",
           "singular": "名称",

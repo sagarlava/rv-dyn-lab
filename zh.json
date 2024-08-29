@@ -2092,7 +2092,7 @@
       },
       "active": {
         "original": "Active",
-        "singular": "活跃",
+        "singular": "活跃度",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -4873,7 +4873,7 @@
       "setupVisible": true,
       "salesOrderLookup": {
         "original": "Sales Order Lookup",
-        "singular": "销售订单查找",
+        "singular": "查找销售订单",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true
@@ -8493,14 +8493,14 @@
       },
       "fromBin": {
         "original": "From Bin",
-        "singular": "从仓位",
+        "singular": "源仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "toBin": {
         "original": "To Bin",
-        "singular": "到仓位",
+        "singular": "目标仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -8708,15 +8708,15 @@
       "setupVisible": true,
       "addProductsToBin": {
         "original": "Add Products to Bin",
-        "singular": "添加备件到仓位",
+        "singular": "添加备件目标仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "addAssetsToBin": {
         "original": "Add Assets to Bin",
-        "singular": "添加资产到仓位",
-        "plural": "添加资产到仓位",
+        "singular": "添加资产目标仓位",
+        "plural": "添加资产目标仓位",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -8957,14 +8957,14 @@
       },
       "fromBin": {
         "original": "From Bin",
-        "singular": "从仓位",
+        "singular": "源仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "toBin": {
         "original": "To Bin",
-        "singular": "到仓位",
+        "singular": "目标仓位",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -11569,7 +11569,7 @@
       "setupVisible": true,
       "active": {
         "original": "Active",
-        "singular": "活跃",
+        "singular": "活跃度",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -14703,7 +14703,7 @@
       }
     },
     "modules": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Modules",
         "singular": "模块",
@@ -16520,7 +16520,7 @@
           "setupVisible": false,
           "templateName": {
             "original": "Template Name",
-            "singular": "模板名称",
+            "singular": "模版名称",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -17533,7 +17533,7 @@
         },
         "active": {
           "original": "Active",
-          "singular": "活跃",
+          "singular": "活跃度",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -19170,7 +19170,7 @@
           },
           "sec1": {
             "original": "Template Name",
-            "singular": "模板名称",
+            "singular": "模版名称",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -19241,7 +19241,7 @@
             "setupVisible": false,
             "templateName": {
               "original": "Template Name",
-              "singular": "模板名称",
+              "singular": "模版名称",
               "plural": "",
               "setupEdit": true,
               "setupVisible": false
@@ -21485,7 +21485,7 @@
       },
       "active": {
         "original": "Active",
-        "singular": "活跃",
+        "singular": "活跃度",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true

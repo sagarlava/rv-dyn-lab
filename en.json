@@ -1742,6 +1742,7 @@
   },
   "preventiveMaintenance": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Preventive Maintenance",
       "singular": "Preventive Maintenance",
@@ -1751,6 +1752,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "Preventive Maintenance Details",
         "singular": "Preventive Maintenance Details",
@@ -1789,6 +1791,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "actualCompletionDate": {
         "original": "Actual Completion Date",
         "singular": "Actual Completion Date",
@@ -1896,6 +1899,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "preventiveMaintenanceLookup": {
         "original": "Preventive Maintenance Lookup",
         "singular": "Preventive Maintenance Lookup",

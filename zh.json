@@ -4470,6 +4470,7 @@
   },
   "site": {
     "setupVisible": true,
+    "setupEdit": true,
     "label": {
       "original": "Site",
       "singular": "站点 ",
@@ -4479,6 +4480,7 @@
     },
     "sections": {
       "setupVisible": true,
+      "setupEdit": true,
       "sec0": {
         "original": "General Details",
         "singular": "基本信息 ",
@@ -4524,6 +4526,7 @@
     },
     "fields": {
       "setupVisible": true,
+      "setupEdit": true,
       "name": {
         "original": "Name",
         "singular": "名称",
@@ -4686,6 +4689,7 @@
     },
     "tooltips": {
       "setupVisible": true,
+      "setupEdit": true,
       "siteLookup": {
         "original": "Site Lookup",
         "singular": "站点查找 ",

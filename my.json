@@ -11584,8 +11584,8 @@
       },
       "createNewNotification": {
         "original": "Create a New Notification",
-        "singular": "Cipta Pemberitahuan Baharu",
-        "plural": "Cipta Pemberitahuan Baharu",
+        "singular": "Cipta Notifikasi Baharu",
+        "plural": "Cipta Notifikasi Baharu",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -12370,7 +12370,7 @@
       "slaLineItemNotFound": "Item SlaLine tidak dijumpai",
       "slaLineItemHasSLAPackage": "Data Pakej SLA wujud dalam sistem untuk Item SlaLine",
       "slaLineItemWithSlaLineItemIdNotFound": "ID slaLineItem tidak sah",
-      "slaNotificationIdExists": "Pemberitahuan SLA baru tidak boleh sudah mempunyai ID",
+      "slaNotificationIdExists": "Notifikasi SLA baru tidak boleh sudah mempunyai ID",
       "slaPackageCustomerIdExists": "Pelanggan Pakej SLA baru tidak boleh sudah mempunyai ID",
       "slaPackageIdExists": "Pakej SLA baru tidak boleh sudah mempunyai ID",
       "slaPackageIdNotFound": "ID tidak dijumpai",
@@ -13526,7 +13526,7 @@
           },
           "emailNotificationSentToManager": {
             "original": "An email notification will be sent to the manager to inform them that a user has manually switched from online to offline within their specified working hours",
-            "singular": "Pemberitahuan emel akan dihantar kepada pengurus untuk memaklumkan bahawa pengguna telah secara manual menukar dari dalam talian ke luar talian dalam waktu kerja yang ditentukan",
+            "singular": "Notifikasi emel akan dihantar kepada pengurus untuk memaklumkan bahawa pengguna telah secara manual menukar dari dalam talian ke luar talian dalam waktu kerja yang ditentukan",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14300,8 +14300,8 @@
           "setupVisible": false,
           "aNotificationWillBe": {
             "original": "A notification will be sent to remind you of your upcoming task. Use the dropdown to select how long before the task you would like to be notified.",
-            "singular": "Pemberitahuan akan dihantar untuk mengingatkan anda tentang tugas yang akan datang. Gunakan dropdown untuk memilih berapa lama sebelum tugas anda ingin diberitahu.",
-            "plural": "Pemberitahuan akan dihantar untuk mengingatkan anda tentang tugas yang akan datang. Gunakan dropdown untuk memilih berapa lama sebelum tugas anda ingin diberitahu.",
+            "singular": "Notifikasi akan dihantar untuk mengingatkan anda tentang tugas yang akan datang. Gunakan dropdown untuk memilih berapa lama sebelum tugas anda ingin diberitahu.",
+            "plural": "Notifikasi akan dihantar untuk mengingatkan anda tentang tugas yang akan datang. Gunakan dropdown untuk memilih berapa lama sebelum tugas anda ingin diberitahu.",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -14536,8 +14536,8 @@
         "setupVisible": false,
         "label": {
           "original": "Notifcations",
-          "singular": "Pemberitahuan",
-          "plural": "Pemberitahuan",
+          "singular": "Notifikasi",
+          "plural": "Notifikasi",
           "setupEdit": true,
           "setupVisible": false
         },
@@ -14545,7 +14545,7 @@
           "setupVisible": false,
           "sec0": {
             "original": "Notification Details",
-            "singular": "Butiran Pemberitahuan",
+            "singular": "Butiran Notifikasi",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14559,14 +14559,14 @@
           },
           "sec2": {
             "original": "Send as App Notification",
-            "singular": "Hantar sebagai Pemberitahuan Aplikasi",
+            "singular": "Hantar sebagai Notifikasi Aplikasi",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Send as Email Notification",
-            "singular": "Hantar sebagai Pemberitahuan E-mel",
+            "singular": "Hantar sebagai Notifikasi E-mel",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -14667,7 +14667,7 @@
           }
         },
         "messages": {
-          "notificationsAllowNotify": "Pemberitahuan membolehkan anda memberitahu pengguna tentang aktiviti tertentu di FieldEx, seperti kemas kini dan tugasan, baik dalam aplikasi mahupun sebagai pemberitahuan e-mel. Buat aliran kerja untuk mencetuskan pemberitahuan anda dan konfigurasikannya agar sesuai dengan proses perniagaan anda.",
+          "notificationsAllowNotify": "Notifikasi membolehkan anda memberitahu pengguna tentang aktiviti tertentu di FieldEx, seperti kemas kini dan tugasan, baik dalam aplikasi mahupun sebagai pemberitahuan e-mel. Buat aliran kerja untuk mencetuskan pemberitahuan anda dan konfigurasikannya agar sesuai dengan proses perniagaan anda.",
           "fillNotificationDetails": "Isi butiran pemberitahuan anda dengan nama dan deskripsi. Ini akan kelihatan kepada semua pengguna dalam keutamaan pemberitahuan mereka.",
           "typeOutMessage": "Taipkan mesej anda, pilih medan yang anda mahu sertakan, dan salin teks yang dipaparkan ke dalam badan mesej di sebelah kiri.",
           "selectWhereLikeNotificationNavigate": "Pilih di mana anda mahu pemberitahuan itu dinavigasi dan sama ada anda mahu maklumat penting dicetak tebal.",
@@ -17620,8 +17620,8 @@
       "setupVisible": false,
       "label": {
         "original": "Notifications",
-        "singular": "Pemberitahuan",
-        "plural": "Pemberitahuan",
+        "singular": "Notifikasi",
+        "plural": "Notifikasi",
         "setupEdit": true,
         "setupVisible": false
       },
@@ -17629,21 +17629,21 @@
         "setupVisible": false,
         "sec0": {
           "original": "Notification Settings",
-          "singular": "Tetapan Pemberitahuan",
+          "singular": "Tetapan Notifikasi",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec1": {
           "original": "Inventory Notifications",
-          "singular": "Pemberitahuan Inventori",
+          "singular": "Notifikasi Inventori",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec2": {
           "original": "Standard Notifications",
-          "singular": "Pemberitahuan Standard",
+          "singular": "Notifikasi Standard",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -17657,14 +17657,14 @@
         },
         "sec4": {
           "original": "Confirm Notification Update",
-          "singular": "Sahkan Kemaskini Pemberitahuan",
+          "singular": "Sahkan Kemaskini Notifikasi",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
         },
         "sec5": {
           "original": "Notification Preferences",
-          "singular": "Keutamaan Pemberitahuan",
+          "singular": "Keutamaan Notifikasi",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -17716,10 +17716,10 @@
         }
       },
       "messages": {
-        "notificationsDisabled": "Pemberitahuan dinyahaktifkan. Aktifkan dalam tetapan atau hubungi Pentadbir anda untuk bantuan.",
+        "notificationsDisabled": "Notifikasi dinyahaktifkan. Aktifkan dalam tetapan atau hubungi Pentadbir anda untuk bantuan.",
         "configNotificationOrganiation": "Konfigurasikan pemberitahuan yang anda ingin organisasi anda lihat.",
-        "notificationAllow": "Pemberitahuan membolehkan anda memberitahu pengguna mengenai aktiviti tertentu dalam FieldEx, seperti kemas kini dan permintaan, baik dalam aplikasi maupun sebagai pemberitahuan emel. Pilih modul di bawah untuk mengkonfigurasi pemberitahuan sesuai dengan proses anda.",
-        "notificationsAreAlerts": "Pemberitahuan adalah amaran yang akan mengemas kini anda tentang aktiviti tertentu dalam FieldEx. Anda boleh mengkonfigurasi ini untuk dihantar kepada anda melalui medium pilihan anda dengan mengklik 'Edit' dan memilih atau tidak memilih kotak pilihan di bawah.",
+        "notificationAllow": "Notifikasi membolehkan anda memberitahu pengguna mengenai aktiviti tertentu dalam FieldEx, seperti kemas kini dan permintaan, baik dalam aplikasi maupun sebagai pemberitahuan emel. Pilih modul di bawah untuk mengkonfigurasi pemberitahuan sesuai dengan proses anda.",
+        "notificationsAreAlerts": "Notifikasi adalah amaran yang akan mengemas kini anda tentang aktiviti tertentu dalam FieldEx. Anda boleh mengkonfigurasi ini untuk dihantar kepada anda melalui medium pilihan anda dengan mengklik 'Edit' dan memilih atau tidak memilih kotak pilihan di bawah.",
         "markAsRead": "Tandakan sebagai Baca",
         "noMessageToDisplay": "Tiada mesej untuk dipaparkan",
         "changesUpdatedAllModified": "Perubahan akan dikemas kini untuk semua notifikasi yang telah diubah"
@@ -18244,8 +18244,8 @@
         "setupVisible": false,
         "label": {
           "original": "Notifications",
-          "singular": "Pemberitahuan",
-          "plural": "Pemberitahuan",
+          "singular": "Notifikasi",
+          "plural": "Notifikasi",
           "setupEdit": true,
           "setupVisible": false
         },
@@ -18253,7 +18253,7 @@
           "setupVisible": false,
           "sec0": {
             "original": "Notification Details",
-            "singular": "Butiran Pemberitahuan",
+            "singular": "Butiran Notifikasi",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -18313,7 +18313,7 @@
         },
         "validationFE": {},
         "messages": {
-          "selectNotificationType": "Pilih Jenis Pemberitahuan",
+          "selectNotificationType": "Pilih Jenis Notifikasi",
           "selectUser": "Pilih Pengguna",
           "commaSeparatedInputRequired": "Sila masukkan koma (,) untuk memisahkan"
         }
@@ -19215,6 +19215,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec7": {
+          "original": "Add Notification",
+          "singular": "Tambah Notifikasi",
+          "plural": "Tambah Notifikasi",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -19293,7 +19300,7 @@
         "selectAttribute": "Pilih Atribut",
         "selectOperator": "Pilih Operator",
         "noConditionsAvailable": "Tiada syarat tersedia. Klik 'Tambah/Edit Syarat' untuk mencipta satu.",
-        "noWorkflowActionsAvailable": "Tiada tindakan aliran kerja tersedia. Klik 'Tambah Pemberitahuan' untuk mencipta satu.",
+        "noWorkflowActionsAvailable": "Tiada tindakan aliran kerja tersedia. Klik 'Tambah Notifikasi' untuk mencipta satu.",
         "addExistingNotification": "Tambah Notifikasi Sedia Ada"
       }
     },
@@ -19709,7 +19716,7 @@
       "setupJobTypeSkillsIdNotFound": "ID tidak ditemui",
       "setupLeaveOutTurnCodeIdExists": "Kod Keluar Cuti baru tidak boleh sudah mempunyai ID",
       "setupOutTurnCodeIdExists": "Kod Keluar baru tidak boleh sudah mempunyai ID",
-      "setupPreventiveMaintenanceNotificationSetupIdExists": "Tetapan Pemberitahuan Penyelenggaraan Pencegahan baru tidak boleh sudah mempunyai ID",
+      "setupPreventiveMaintenanceNotificationSetupIdExists": "Tetapan Notifikasi Penyelenggaraan Pencegahan baru tidak boleh sudah mempunyai ID",
       "setupProductConfigIdExists": "Konfigurasi Alat Ganti baru tidak boleh sudah mempunyai ID",
       "setupProductConfigIdNotFound": "ID tidak ditemui",
       "setupProductFamilyIdExists": "Keluarga Alat Ganti baru tidak boleh sudah mempunyai ID",

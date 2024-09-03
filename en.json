@@ -12007,7 +12007,8 @@
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",
         "updateStatusTo":"Update status to",
         "updateStatus":"Update Status",
-        "confirmMarkTaskComplete": "Would you like to mark this task as complete?"
+        "confirmMarkTaskComplete": "Would you like to mark this task as complete?",
+        "changeStatus": "Change status"
       }
     },
     "messages": {
@@ -12158,8 +12159,7 @@
       "emailSentSuuccesfully":"Emai sent sucessfully",
       "acknowledgedSuccessfully": "Acknowledged successfully",
       "rejectedSuccessfully": "Rejected successfully",
-      "verification": "Verification",
-      "changeStatus": "Change status"
+      "verification": "Verification"
     },
     "location": {
       "endDateExceeds": "End date should not exceed start date",

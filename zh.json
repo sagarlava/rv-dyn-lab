@@ -12007,7 +12007,8 @@
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",
         "updateStatusTo": "更新状态为",
         "updateStatus": "更新状态",
-        "confirmMarkTaskComplete": "您是否要将此任务标记为完成？"
+        "confirmMarkTaskComplete": "您是否要将此任务标记为完成？",
+        "changeStatus": "更改状态"
       }
     },
     "messages": {
@@ -12158,8 +12159,7 @@
       "emailSentSuuccesfully": "电子邮件发送成功",
       "acknowledgedSuccessfully": "确认成功",
       "rejectedSuccessfully": "拒绝成功",
-      "verification": "验证",
-      "changeStatus": "更改状态"
+      "verification": "验证"
     },
     "location": {
       "endDateExceeds": "结束日期不应超过开始日期",

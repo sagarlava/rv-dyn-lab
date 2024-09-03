@@ -11914,6 +11914,69 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "pendingApproval": {
+        "original": "Pending Approval",
+        "singular": "待批准",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "pendingAcknowledge": {
+        "original": "Pending Acknowledge",
+        "singular": "待确认",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "acknowledged": {
+        "original": "Acknowledged",
+        "singular": "已确认",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "pendingVerification": {
+        "original": "Pending Verification",
+        "singular": "待验证",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "verified": {
+        "original": "Verified",
+        "singular": "已验证",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "rejectedByVerifier": {
+        "original": "Rejected by Verifier",
+        "singular": "被验证者拒绝",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "rejectedByHOD": {
+        "original": "Rejected by HOD",
+        "singular": "被部门主管拒绝",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "pendingHODApproval": {
+        "original": "Pending HOD Approval",
+        "singular": "待部门主管批准",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "hodApproved": {
+        "original": "HOD Approved",
+        "singular": "部门主管已批准",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",

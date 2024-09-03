@@ -11914,6 +11914,69 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "pendingApproval": {
+        "original": "Pending Approval",
+        "singular": "Pending Approval",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "pendingAcknowledge": {
+        "original": "Pending Acknowledge",
+        "singular": "Pending Acknowledge",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "acknowledged": {
+        "original": "Acknowledged",
+        "singular": "Acknowledged",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "pendingVerification": {
+        "original": "Pending Verification",
+        "singular": "Pending Verification",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "verified": {
+        "original": "Verified",
+        "singular": "Verified",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "rejectedByVerifier": {
+        "original": "Rejected by Verifier",
+        "singular": "Rejected by Verifier",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "rejectedByHOD": {
+        "original": "Rejected by HOD",
+        "singular": "Rejected by HOD",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "pendingHODApproval": {
+        "original": "Pending HOD Approval",
+        "singular": "Pending HOD Approval",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "hodApproved": {
+        "original": "HOD Approved",
+        "singular": "HOD Approved",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",

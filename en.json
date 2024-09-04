@@ -3284,6 +3284,13 @@
         "plural": "Task Clone",
         "setupEdit": false,
         "setupVisible": true
+      },
+      "sec31": {
+        "original": "Add User for your task",
+        "singular": "Add User for your task",
+        "plural": "Add User for your task",
+        "setupEdit": false,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -4481,7 +4488,7 @@
       "declineTask":"Decline Task",
       "thisTask":"This Task",
       "thisTaskAndFollowingtasks":"This Task and Following task(s)",
-      "assistanceRequestSentSuccessfully": "Assistance rRequest send Successfully.",
+      "assistanceRequestSentSuccessfully": "Assistance Request send Successfully.",
       "noTasks": "No Tasks Assigned",
       "setOfficeAddr": "Please set your Office Address in your profile",
       "invalidOfficeAddr": "Invalid office address. Please use the search to find the address",

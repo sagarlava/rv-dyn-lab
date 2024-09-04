@@ -12097,6 +12097,8 @@
       "searchAddress": "Search Address",
       "confirmAction": "Are you sure?",
       "confirmDelete": "Are you sure you want to delete",
+      "doYouWishToProceed": "Do you wish to proceed?",
+      "irreversibleAction": "This action is irreversible.",
       "step1": "Step 1",
       "step2": "Step 2",
       "step3": "Step 3",
@@ -14838,15 +14840,18 @@
           "defineRecipients":"Define recipients for this notification by specifying individual users or groups of users.",
           "makeKeyDataBold":"Make key data bold",
           "createEmailTemplate":"Create an Email Template",
-          "aSampleEmailWillBeSent":"A sample email will be sent to your email: admin.Albert@gmail.com. Do you wish to proceed?",
           "selectModule":"Select Module",
           "selectGroup":"Select Group",
           "selectUserInField":"Select User in Field",
           "testEmailSentSuccessfully":"Test email sent successfully",
           "selectAtLeastOneAppNotificationRecipient": "Please select at least one recipient for app notifications.",
           "selectAtLeastOneRecipient": "Please select at least one recipient.",
-          "confirmRemoveAction": "Are you sure you want to remove the following action",
-          "confirmActionRemoval": "Confirm Action Removal"
+          "clearMessageAndNavigationSettings": "Your message and navigation settings will be cleared for this app notification. Do you wish to proceed?",
+          "sendSampleEmail": "A sample email will be sent to your email:",
+          "doYouWishToProceed": "Do you wish to proceed?",
+          "irreversibleAction": "This action is irreversible.",
+          "confirmModuleChange": "Are you sure you want to change module? Your current changes will be cleared.",
+          "confirmRemoveAction": "Are you sure you want to remove the following action:"
         }
       }
     },
@@ -19428,6 +19433,55 @@
           "singular": "Add Notification",
           "plural": "Add Notifications",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec8": {
+          "original": "Send Test Email",
+          "singular": "Send Test Email",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec9": {
+          "original": "Confirm Notification Deletion",
+          "singular": "Confirm Notification Deletion",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec10": {
+          "original": "Confirm Removal of App Notification",
+          "singular": "Confirm Removal of App Notification",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec11": {
+          "original": "Confirm Email Template Deletion",
+          "singular": "Confirm Email Template Deletion",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec12": {
+          "original": "Confirm Workflow Deletion",
+          "singular": "Confirm Workflow Deletion",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec13": {
+          "original": "Confirm Module Change",
+          "singular": "Confirm Module Change",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec14": {
+          "original": "Confirm Action Removal",
+          "singular": "Confirm Action Removal",
+          "plural": "",
+          "setupEdit": false,
           "setupVisible": false
         }
       },

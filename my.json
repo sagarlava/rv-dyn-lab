@@ -12097,6 +12097,8 @@
       "searchAddress": "Cari Alamat",
       "confirmAction": "Adakah anda pasti?",
       "confirmDelete": "Adakah anda pasti mahu memadam",
+      "doYouWishToProceed": "Adakah anda ingin meneruskan?",
+      "irreversibleAction": "Tindakan ini tidak boleh dibatalkan.",
       "step1": "Langkah 1",
       "step2": "Langkah 2",
       "step3": "Langkah 3",
@@ -14838,15 +14840,18 @@
           "defineRecipients": "Tentukan penerima untuk pemberitahuan ini dengan menentukan pengguna individu atau kumpulan pengguna.",
           "makeKeyDataBold": "Jadikan data penting tebal.",
           "createEmailTemplate": "Buat Templat E-mel.",
-          "aSampleEmailWillBeSent": "Satu e-mel contoh akan dihantar ke e-mel anda: admin.Albert@gmail.com. Adakah anda ingin meneruskan?",
           "selectModule": "Pilih Modul",
           "selectGroup": "Pilih Kumpulan",
           "selectUserInField": "Pilih Pengguna di Lapangan",
           "testEmailSentSuccessfully": "E-mel ujian berjaya dihantar",
           "selectAtLeastOneAppNotificationRecipient": "Sila pilih sekurang-kurangnya satu penerima untuk notifikasi aplikasi.",
           "selectAtLeastOneRecipient": "Sila pilih sekurang-kurangnya satu penerima.",
-          "confirmRemoveAction": "Adakah anda pasti mahu membuang tindakan berikut",
-          "confirmActionRemoval": "Sahkan Pembuangan Tindakan"
+          "clearMessageAndNavigationSettings": "Tetapan mesej dan navigasi anda akan dikosongkan untuk notifikasi aplikasi ini. Adakah anda ingin meneruskan?",
+          "sendSampleEmail": "Satu e-mel contoh akan dihantar ke e-mel anda:",
+          "doYouWishToProceed": "Adakah anda ingin meneruskan?",
+          "irreversibleAction": "Tindakan ini tidak boleh dibatalkan.",
+          "confirmModuleChange": "Adakah anda pasti mahu menukar modul? Perubahan semasa anda akan dikosongkan.",
+          "confirmRemoveAction": "Adakah anda pasti mahu membuang tindakan berikut："
         }
       }
     },
@@ -19428,6 +19433,55 @@
           "singular": "Tambah Notifikasi",
           "plural": "Tambah Notifikasi",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec8": {
+          "original": "Send Test Email",
+          "singular": "Hantar E-mel Ujian",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec9": {
+          "original": "Confirm Notification Deletion",
+          "singular": "Sahkan Penghapusan Notifikasi",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec10": {
+          "original": "Confirm Removal of App Notification",
+          "singular": "Sahkan Pembuangan Notifikasi Aplikasi",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec11": {
+          "original": "Confirm Email Template Deletion",
+          "singular": "Sahkan Penghapusan Templat E-mel",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec12": {
+          "original": "Confirm Workflow Deletion",
+          "singular": "Sahkan Penghapusan Aliran Kerja",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec13": {
+          "original": "Confirm Module Change",
+          "singular": "Sahkan Pertukaran Modul",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec14": {
+          "original": "Confirm Action Removal",
+          "singular": "Sahkan Pembuangan Tindakan",
+          "plural": "",
+          "setupEdit": false,
           "setupVisible": false
         }
       },

@@ -14853,6 +14853,522 @@
           "confirmModuleChange": "Adakah anda pasti mahu menukar modul? Perubahan semasa anda akan dikosongkan.",
           "confirmRemoveAction": "Adakah anda pasti mahu membuang tindakan berikut："
         }
+      },
+      "customForm": {
+        "setupVisible": false,
+        "setupEdit": false,
+        "label": {
+          "original": "Custom Forms",
+          "singular": "Borang Tersuai",
+          "plural": "Borang Tersuai",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sections":{
+          "sec0": {
+            "original": "Subforms",
+            "singular": "Borang Sub",
+            "plural": "Borang Sub",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec1": {
+            "original": "Custom Form Details",
+            "singular": "Butiran Borang Tersuai",
+            "plural": "Butiran Borang Tersuai",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Form Details",
+            "singular": "Butiran Borang",
+            "plural": "Butiran Borang",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Form Setup",
+            "singular": "Tetapan Borang",
+            "plural": "Tetapan Borang",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec4": {
+            "original": "Subform Record Type Selection",
+            "singular": "Pemilihan Jenis Rekod Borang Sub",
+            "plural": "Pemilihan Jenis Rekod Borang Sub",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "New Subform - Record Type Selection",
+            "singular": "Borang Sub Baharu - Pemilihan Jenis Rekod",
+            "plural": "Borang Sub Baharu - Pemilihan Jenis Rekod",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Subform Setup",
+            "singular": "Tetapan Borang Sub",
+            "plural": "Tetapan Borang Sub",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec7": {
+            "original": "Fields List",
+            "singular": "Senarai Medan",
+            "plural": "Senarai Medan",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec8": {
+            "original": "Component Type Selection",
+            "singular": "Pemilihan Jenis Komponen",
+            "plural": "Pemilihan Jenis Komponen",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec9": {
+            "original": "Field Details - Component Type Selection",
+            "singular": "Butiran Medan - Pemilihan Jenis Komponen",
+            "plural": "Butiran Medan - Pemilihan Jenis Komponen",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec10": {
+            "original": "Picklist Mapping",
+            "singular": "Pemetaan Senarai Pilihan",
+            "plural": "Pemetaan Senarai Pilihan",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec11": {
+            "original": "Parent Options",
+            "singular": "Pilihan Induk",
+            "plural": "Pilihan Induk",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec12": {
+            "original": "Child Options",
+            "singular": "Pilihan Anak",
+            "plural": "Pilihan Anak",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec13": {
+            "original": "Form Arrangement",
+            "singular": "Susunan Borang",
+            "plural": "Susunan Borang",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec14": {
+            "original": "Available Fields",
+            "singular": "Medan Tersedia",
+            "plural": "Medan Tersedia",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec15": {
+            "original": "Section",
+            "singular": "Bahagian",
+            "plural": "Bahagian",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec16": {
+            "original": "Running No. Format",
+            "singular": "Format No. Berjalan",
+            "plural": "Format No. Berjalan",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec17": {
+            "original": "Field Details",
+            "singular": "Butiran Medan",
+            "plural": "Butiran Medan",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "sec18": {
+            "original": "Preview",
+            "singular": "Pratonton",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
+        "fields": {
+          "label": {
+            "original": "Label",
+            "singular": "Label",
+            "plural": "Label",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "name": {
+            "original": "Name",
+            "singular": "Nama",
+            "plural": "Nama",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "runningNo": {
+            "original": "Running Number",
+            "singular": "Nombor Berjalan",
+            "plural": "Nombor Berjalan",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "runningNoPrefix": {
+            "original": "Running No. Prefix",
+            "singular": "Awalan Nombor Berjalan",
+            "plural": "Awalan Nombor Berjalan",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "status": {
+            "original": "Status",
+            "singular": "Status",
+            "plural": "Status",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderType": {
+            "original": "Job Order Type",
+            "singular": "Jenis Pesanan Kerja",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "isFormMandatory": {
+            "original": "Is form mandatory?",
+            "singular": "Adakah borang wajib?",
+            "plural": "Adakah borang wajib?",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "isSubformMandatory": {
+            "original": "Is subform mandatory?",
+            "singular": "Adakah borang sub wajib?",
+            "plural": "Adakah borang sub wajib?",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "recordType": {
+            "original": "Record Type",
+            "singular": "Jenis Rekod",
+            "plural": "Jenis Rekod",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "description": {
+            "original": "Description",
+            "singular": "Penerangan",
+            "plural": "Penerangan",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "listRecord": {
+            "original": "List Record",
+            "singular": "Senarai Rekod",
+            "plural": "Senarai Rekod",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "singleRecord": {
+            "original": "Single Record",
+            "singular": "Rekod Tunggal",
+            "plural": "Rekod Tunggal",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "form": {
+            "original": "Form",
+            "singular": "Borang",
+            "plural": "Borang",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "subform": {
+            "original": "Subform",
+            "singular": "Borang Sub",
+            "plural": "Borang Sub",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "subformType": {
+            "original": "Subform Type",
+            "singular": "Jenis Borang Sub",
+            "plural": "Jenis Borang Sub",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "helpText": {
+            "original": "Help Text",
+            "singular": "Teks Bantuan",
+            "plural": "Teks Bantuan",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "readOnly": {
+            "original": "Read Only",
+            "singular": "Baca Sahaja",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "requiredField": {
+            "original": "Required Field",
+            "singular": "Medan Wajib",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "defaultValue": {
+            "original": "Default Value",
+            "singular": "Nilai Lalai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "placeholder": {
+            "original": "Placeholder",
+            "singular": "Teks Ruang Simpan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "decimalPlaces": {
+            "original": "Decimal Places",
+            "singular": "Tempat Perpuluhan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "formatNumber": {
+            "original": "Decimal Places",
+            "singular": "Tempat Perpuluhan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "multiSelect": {
+            "original": "Multiselect",
+            "singular": "Pilihan Pelbagai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "field": {
+            "original": "Fields",
+            "singular": "Medan",
+            "plural": "Medan",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "parent": {
+            "original": "Parent",
+            "singular": "Induk",
+            "plural": "Induk",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "parentPicklist": {
+            "original": "Parent Picklist",
+            "singular": "Senarai Pilihan Induk",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "lookupTo": {
+            "original": "Lookup To",
+            "singular": "Carian Ke",
+            "plural": "Carian Ke",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "lookupField": {
+            "original": "Lookup Field",
+            "singular": "Medan Carian",
+            "plural": "Medan Carian",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "section": {
+            "original": "Section",
+            "singular": "Bahagian",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "componentType": {
+            "original": "Component Type",
+            "singular": "Jenis Komponen",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "text": {
+            "original": "Text",
+            "singular": "Teks",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "number": {
+            "original": "Number",
+            "singular": "Nombor",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "email": {
+            "original": "Email",
+            "singular": "E-mel",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "phone": {
+            "original": "Phone",
+            "singular": "Telefon",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "timePicker": {
+            "original": "Time Picker",
+            "singular": "Pemilih Masa",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "textArea": {
+            "original": "Text Area",
+            "singular": "Kawasan Teks",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "dateTimePicker": {
+            "original": "Date Time Picker",
+            "singular": "Pemilih Tarikh Waktu",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "checkbox": {
+            "original": "Checkbox",
+            "singular": "Kotak Pilihan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "fileUpload": {
+            "original": "File Upload",
+            "singular": "Muat Naik Fail",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "signature": {
+            "original": "Signature",
+            "singular": "Tandatangan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "picklistButton": {
+            "original": "Picklist Button",
+            "singular": "Butang Senarai Pilihan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "lookup": {
+            "original": "Lookup",
+            "singular": "Carian",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "picklist": {
+            "original": "Picklist",
+            "singular": "Senarai Pilihan",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "multipicklist": {
+            "original": "Multipicklist",
+            "singular": "Senarai Pilihan Pelbagai",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+          },
+          "mappedField": {
+            "original": "Mapped Fields",
+            "singular": "Medan Dipetakan",
+            "plural": "Medan Dipetakan",
+            "setupEdit": true,
+            "setupVisible": true
+          }
+        },
+        "messages":{
+          "createManageCustomForms": "Cipta dan urus borang tersuai yang paling sesuai dengan kes penggunaan anda. Borang Tersuai membolehkan anda mendapatkan butiran mengenai sesuatu senario apabila diperlukan.",
+          "createManageCustomSubForms": "Cipta dan urus borang sub yang paling sesuai dengan kes penggunaan anda. Borang Sub berfungsi sebagai borang dalam borang anda yang membolehkan anda mendapatkan butiran tambahan berkaitan sesuatu senario apabila diperlukan. Ia boleh disediakan untuk merekodkan satu atau beberapa entri.",
+          "setupForm": "Cipta medan yang paling sesuai dengan keperluan perniagaan anda, susun borang mengikut kehendak anda, dan masukkan borang sub jika diperlukan. Anda dikehendaki mencipta medan untuk borang ini sebelum anda boleh menyusunnya. Setelah anda mencipta medan dan menyusunnya, anda boleh menetapkan status borang kepada aktif.",
+          "setupSubform": "Cipta medan yang paling sesuai dengan keperluan perniagaan anda, susun borang sub mengikut kehendak anda, dan masukkan paparan senarai ke dalam borang sub anda jika diperlukan. Anda dikehendaki mencipta medan untuk borang sub ini sebelum anda boleh menyusunnya. Setelah anda mencipta medan untuk borang ini dan menyusunnya, anda boleh menetapkan status borang kepada aktif.",
+          "manageFormFields": "Urus Medan yang akan tersedia untuk borang ini",
+          "manageSubformFieldArrangement": "Urus susunan medan dalam borang sub anda",
+          "manageSubforms": "Urus borang sub untuk borang anda",
+          "manageSubformListViews": "Urus paparan senarai untuk borang sub anda",
+          "selectSubformRecordType": "Pilih jenis rekod borang sub anda.",
+          "singleSubformRecord": "Hanya akan merekodkan satu borang sub",
+          "multipleSubformRecords": "Boleh merekodkan lebih daripada satu borang sub",
+          "pageArranged": "Halaman telah disusun",
+          "pageNotArranged": "Halaman tidak disusun",
+          "lastArrangedOn": "Terakhir Disusun pada",
+          "lastModifiedOn": "Terakhir Diubah pada",
+          "createFieldsForForm": "Cipta medan yang paling sesuai dengan keperluan perniagaan anda untuk borang anda. Medan yang anda cipta di sini akan tersedia untuk diatur bagi borang ini.",
+          "removeFieldFromArrangement": "Alihkan medan ini dari halaman susunan untuk memadamkan medan ini.",
+          "selectComponentTypeForField": "Pilih jenis komponen yang paling sesuai untuk medan yang ingin anda cipta.",
+          "allowTextEntryLimited": "Membenarkan pengguna memasukkan teks (dihadkan kepada 255 aksara)",
+          "allowNumberEntry": "Membenarkan pengguna memasukkan sebarang nombor",
+          "allowEmailEntry": "Membenarkan pengguna memasukkan alamat e-mel",
+          "allowPhoneNumberEntry": "Membenarkan pengguna memasukkan nombor telefon",
+          "allowTimeSelection": "Membenarkan pengguna memilih masa",
+          "allowTextEntryExtended": "Membenarkan pengguna memasukkan teks (pengguna dibenarkan memasukkan sehingga 32000 aksara)",
+          "allowDateTimeSelection": "Membenarkan pengguna memilih tarikh dengan masa tertentu.",
+          "allowTrueFalseSelection": "Membenarkan pengguna memilih nilai benar (Ditandai) atau palsu (Tidak Ditandai)",
+          "allowFileUpload": "Membenarkan pengguna memuat naik satu atau lebih fail",
+          "allowSignatureEntry": "Membenarkan pengguna memasukkan tandatangan mereka",
+          "allowMultipleSelectionWithDependency": "Membenarkan pengguna membuat satu atau lebih pilihan dari senarai pilihan (Mempunyai Pergantungan Ibu Bapa-Anak)",
+          "allowMultipleSelectionListOptions": "Membenarkan pengguna membuat satu atau lebih pilihan dari senarai pilihan",
+          "allowLookupSelection": "Membenarkan pengguna membuat pilihan dengan mencari maklumat sedia ada dalam sistem",
+          "allowSingleSelectionWithDependency": "Membenarkan pengguna membuat pilihan tunggal dari senarai pilihan (Mempunyai Pergantungan Ibu Bapa-Anak)",
+          "allowSingleSelectionListOptions": "Membenarkan pengguna membuat pilihan tunggal dari senarai pilihan",
+          "allowMultipleSelection": "Membenarkan pengguna membuat pelbagai pilihan dari senarai pilihan",
+          "addPicklistFields": "Tambah medan yang harus muncul dalam senarai pilihan ini. Medan-medan ini akan tersedia untuk dipilih oleh pengguna ketika berinteraksi dengan senarai pilihan.",
+          "chooseFieldForLookup": "Pilih medan yang anda ingin cari dari modul yang dipilih. Ini membolehkan anda mengambil dan menghubungkan data yang relevan dari medan tersebut.",
+          "selectLookupModule": "Pilih modul carian untuk menghubungkan medan ini dengan data dari modul lain. Ini membolehkan anda menarik maklumat berkaitan dan mewujudkan hubungan antara modul yang berbeza.",
+          "chooseParentPicklistForDependency": "Pilih senarai pilihan induk untuk menentukan pergantungan. Pilihan ini akan menghubungkan senarai pilihan ini kepada senarai pilihan induk, membolehkan anda memetakan medan senarai pilihan induk ke medan dalam senarai pilihan ini di halaman pemetaan. Selepas pemetaan, pilihan yang dibuat dalam senarai pilihan induk akan mempengaruhi pilihan yang tersedia dalam senarai pilihan ini.",
+          "selectParentAndChildOptions": "Pilih Pilihan Induk dan pilih Pilihan Anak. Jika anda perlu menukar Pilihan Induk, batalkan pilihan semasa terlebih dahulu dan kemudian pilih Pilihan Induk baru. Untuk menghapus sebarang medan yang dipetakan, navigasi ke tab Pratonton dan kosongkan pilihan di sana.",
+          "arrangeFormFields": "Susun borang mengikut keinginan anda dengan mengklik medan yang dikehendaki dari kotak medan yang tersedia, kemudian seret dan lepaskan ke kanvas. Anda boleh menamakan semula bahagian dengan mengklik ikon suntingan di sebelahnya. Untuk membuang medan atau bahagian, klik pada butang 'x' di sebelahnya.",
+          "removeSectionAndFieldsWarning": "Bahagian ini dan medan yang berkaitan akan dikeluarkan dari pembina Borang. Ini tidak boleh dibatalkan.",
+          "cannotPerformActionChildPicklistPresent": "Tindakan ini tidak dapat dilakukan kerana terdapat senarai pilihan anak",
+          "childPicklistIsPresent": "Senarai pilihan anak hadir dalam borang. Sila keluarkan",
+          "removeParentPicklist": "untuk menghapuskan senarai pilihan induk ini.",
+          "cannotPerformActionParentPicklistMissing": "Tindakan ini tidak dapat dilakukan kerana senarai pilihan induk",
+          "parentPicklistIsMissing": "tidak hadir dalam borang. Sila tambah",
+          "addChildPicklist": "untuk menambah senarai pilihan anak ini.",
+          "whatIsRunningNoFormat": "Apakah Format Nombor Berjalan?",
+          "runningNoDesc": "Format Nombor Berjalan membolehkan anda menyesuaikan Medan Nombor Auto untuk borang anda. Ini termasuk pembolehubah penggantian dan sebarang aksara yang anda ingin awalkan atau lampirkan.",
+          "mapPicklistFields": "Peta medan senarai pilihan dengan memilih Medan Induk, kemudian memilih Medan Senarai Pilihan yang diperlukan. Anda boleh melihat Medan yang Dipetakan di bawah.",
+          "addDescriptionHere": "Tambah penerangan di sini..."
+        }
       }
     },
     "serviceZone": {

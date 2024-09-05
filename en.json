@@ -14853,7 +14853,523 @@
           "confirmModuleChange": "Are you sure you want to change module? Your current changes will be cleared.",
           "confirmRemoveAction": "Are you sure you want to remove the following action:"
         }
-      }
+      },
+      "customForm":{        
+        "setupEdit": false,
+        "setupVisible": false,
+        "label":{
+            "original": "Custom Forms",
+            "singular": "Custom Form",
+            "plural": "Custom Forms",
+            "setupEdit": true,
+            "setupVisible": false
+        },
+        "sections":{
+            "sec0":{
+                "original": "Subforms",
+                "singular": "Subform",
+                "plural": "Subforms",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec1":{
+                "original": "Custom Form Details",
+                "singular": "Custom Form Details",
+                "plural": "Custom Form Details",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec2":{
+                "original": "Form Details",
+                "singular": "Form Details",
+                "plural": "Form Details",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec3":{
+                "original": "Form Setup",
+                "singular": "Form Setup",
+                "plural": "Form Setup",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec4":{
+                "original": "Subform Record Type Selection",
+                "singular": "Subform Record Type Selection",
+                "plural": "Subform Record Type Selection",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec5":{
+                "original": "New Subform - Record Type Selection",
+                "singular": "New Subform - Record Type Selection",
+                "plural": "New Subform - Record Type Selection",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec6":{
+                "original": "Subform Setup",
+                "singular": "Subform Setup",
+                "plural": "Subform Setup",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec7":{
+                "original": "Fields List",
+                "singular": "Fields List",
+                "plural": "Fields List",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec8":{
+                "original": "Component Type Selection",
+                "singular": "Component Type Selection",
+                "plural": "Component Type Selection",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec9":{
+                "original": "Field Details - Component Type Selection",
+                "singular": "Field Details - Component Type Selection",
+                "plural": "Field Details - Component Type Selection",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec10":{
+                "original": "Picklist Mapping",
+                "singular": "Picklist Mapping",
+                "plural": "Picklist Mapping",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec11":{
+                "original": "Parent Options",
+                "singular": "Parent Options",
+                "plural": "Parent Options",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec12":{
+                "original": "Child Options",
+                "singular": "Child Options",
+                "plural": "Child Options",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec13":{
+                "original": "Form Arrangement",
+                "singular": "Form Arrangement",
+                "plural": "Form Arrangement",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec14":{
+                "original": "Available Fields",
+                "singular": "Available Fields",
+                "plural": "Available Fields",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec15":{
+                "original": "Section",
+                "singular": "Section",
+                "plural": "Sections",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec16":{
+                "original": "Running No. Format",
+                "singular": "Running No. Format",
+                "plural": "Running No. Format",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec17":{
+                "original": "Field Details",
+                "singular": "Field Details",
+                "plural": "Field Details",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "sec18":{
+                "original": "Preview",
+                "singular": "Preview",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            }
+        },
+        "fields":{
+            "label":{
+                "original": "Label",
+                "singular": "Label",
+                "plural": "Labels",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "name":{
+                "original": "Name",
+                "singular": "Name",
+                "plural": "Name",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "runningNo":{
+                "original": "Running Number",
+                "singular": "Running Number",
+                "plural": "Running Number",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "runningNoPrefix":{
+                "original": "Running No. Prefix",
+                "singular": "Running No. Prefix",
+                "plural": "Running No. Prefix",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "status":{
+                "original": "Status",
+                "singular": "Status",
+                "plural": "Status",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "jobOrderType":{
+                "original": "Job Order Type",
+                "singular": "Job Order Type",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "isFormMandatory":{
+                "original": "Is form mandatory?",
+                "singular": "Is form mandatory?",
+                "plural": "Is form mandatory?",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "isSubformMandatory":{
+                "original": "Is subform mandatory?",
+                "singular": "Is subform mandatory?",
+                "plural": "Is subform mandatory?",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "recordType":{
+                "original": "Record Type",
+                "singular": "Record Type",
+                "plural": "Record Type",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "description":{
+                "original": "Description",
+                "singular": "Description",
+                "plural": "Description",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "listRecord":{
+                "original": "List Record",
+                "singular": "List Record",
+                "plural": "List Record",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "singleRecord":{
+                "original": "Single Record",
+                "singular": "Single Record",
+                "plural": "Single Record",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "form":{
+                "original": "Form",
+                "singular": "Form",
+                "plural": "Forms",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "subform":{
+                "original": "Subform",
+                "singular": "Subform",
+                "plural": "Subforms",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "subformType":{
+                "original": "Subform Type",
+                "singular": "Subform Type",
+                "plural": "Subforms Type",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "helpText":{
+                "original": "Help Text",
+                "singular": "Help Text",
+                "plural": "Help Text",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "readOnly":{
+                "original": "Read Only",
+                "singular": "Read Only",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "requiredField":{
+                "original": "Required Field",
+                "singular": "Required Field",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "defaultValue":{
+                "original": "Default Value",
+                "singular": "Default Value",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "placeholder":{
+                "original": "Placeholder",
+                "singular": "Placeholder",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "decimalPlaces":{
+                "original": "Decimal Places",
+                "singular": "Decimal Places",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "formatNumber":{
+                "original": "Decimal Places",
+                "singular": "Decimal Places",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "multiSelect":{
+                "original": "Multiselect",
+                "singular": "Multiselect",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "field":{
+                "original": "Fields",
+                "singular": "Field",
+                "plural": "Fields",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "parent":{
+                "original": "Parent",
+                "singular": "Parent",
+                "plural": "Parents",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "parentPicklist":{
+                "original": "Parent Picklist",
+                "singular": "Parent Picklist",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "lookupTo":{
+                "original": "Lookup To",
+                "singular": "Lookup To",
+                "plural": "Lookup To",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "lookupField":{
+                "original": "Lookup Field",
+                "singular": "Lookup Field",
+                "plural": "Lookup Field",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "section":{
+                "original": "Section",
+                "singular": "Section",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "componentType":{
+                "original": "Component Type",
+                "singular": "Component Type",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": false
+            },
+            "text": {
+                "original": "Text",
+                "singular": "Text",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "number": {
+                "original": "Number",
+                "singular": "Number",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "email": {
+                "original": "Email",
+                "singular": "Email",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "phone": {
+                "original": "Phone",
+                "singular": "Phone",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "timePicker": {
+                "original": "Time Picker",
+                "singular": "Time Picker",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "textArea": {
+                "original": "Text Area",
+                "singular": "Text Area",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "dateTimePicker": {
+                "original": "Date Time Picker",
+                "singular": "Date Time Picker",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "checkbox": {
+                "original": "Checkbox",
+                "singular": "Checkbox",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "fileUpload": {
+                "original": "File Upload",
+                "singular": "File Upload",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "signature": {
+                "original": "Signature",
+                "singular": "Signature",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "picklistButton": {
+                "original": "Picklist Button",
+                "singular": "Picklist Button",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "lookup": {
+                "original": "Lookup",
+                "singular": "Lookup",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "picklist": {
+                "original": "Picklist",
+                "singular": "Picklist",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "multipicklist": {
+                "original": "Multipicklist",
+                "singular": "Multipicklist",
+                "plural": "",
+                "setupEdit": true,
+                "setupVisible": true
+              },
+              "mappedField": {
+                "original": "Mapped Fields",
+                "singular": "Mapped Field",
+                "plural": "Mapped Fields",
+                "setupEdit": true,
+                "setupVisible": true
+              }
+        },
+        "messages":{
+            "createManageCustomForms":"Create and manage custom forms which best fit your use case. Custom Forms allow you to get details regarding a certain scenario when needed",
+            "createManageCustomSubForms":"Create and manage subforms which best fit your use case. Subforms act as forms within your forms allowing you to get additional details related to a certain scenario when needed. They can be set up to record single or multiple entries.",
+            "setupForm":"Create fields that best fit your business requirements, arrange the form to your liking, and include subforms if required. You are required to create fields for this form before you can arrange them. Once you have created the fields for this form and arranged it, you can then set the form status to active.",
+            "setupSubform":"Create fields that best fit your business requirements, arrange the subform to your liking, and include list views to your subform if required. You are required to create fields for this subform before you can arrange them. Once you have created the fields for this form and arranged it, you can then set the form status to active.",
+            "manageFormFields": "Manage Fields which will be available for this form",
+            "manageSubformFieldArrangement": "Manage the arrangement of fields within your subform",
+            "manageSubforms": "Manage subforms for your form",
+            "manageSubformListViews": "Manage list views for your subform",
+            "selectSubformRecordType": "Select the record type of your subform.",
+            "singleSubformRecord": "Will record only a single subform",
+            "multipleSubformRecords": "Can record more than one subform",
+            "pageArranged": "Page has been arranged",
+            "pageNotArranged": "Page not arranged",
+            "lastArrangedOn": "Last Arranged on",
+            "lastModifiedOn": "Last Modified on",
+            "createFieldsForForm": "Create fields which best fit your business requirements for your form. The fields that you create here will be available to be arranged for this form.",
+            "removeFieldFromArrangement": "Remove this field from the arrangement page to delete this field.",
+            "selectComponentTypeForField": "Select a component type that makes most sense for the field which you want to create.",
+            "allowTextEntryLimited": "Allows users to enter text (limited to 255 characters)",
+            "allowNumberEntry": "Allows users to enter any number",
+            "allowEmailEntry": "Allows users to enter an email address",
+            "allowPhoneNumberEntry": "Allows users to enter a phone number",
+            "allowTimeSelection": "Allows users to select a time",
+            "allowTextEntryExtended": "Allows users to enter text (user allowed to enter up to 32000 characters)",
+            "allowDateTimeSelection": "Allows users to select a date with a specific time.",
+            "allowTrueFalseSelection": "Allows users to select a true(Checked) or false(Unchecked) value",
+            "allowFileUpload": "Allows users to upload one or more files",
+            "allowSignatureEntry": "Allows users to enter their signature",
+            "allowMultipleSelectionWithDependency": "Allows users to make one or more selections from a list of options (Has Parent-Child Dependency)",
+            "allowMultipleSelectionListOptions": "Allows users to make one or more selections from a list of options",
+            "allowLookupSelection": "Allows users to make a selection by looking up existing information within the system",
+            "allowSingleSelectionWithDependency": "Allows users to make a single selection from a list of options (Has Parent-Child Dependency)",
+            "allowSingleSelectionListOptions": "Allows users to make a single selection from a list of options",
+            "allowMultipleSelection": "Allows users to make multiple selections from a list of options",
+            "addPicklistFields": "Add the fields that should appear in this picklist. These fields will be available for users to choose from when interacting with the picklist.",
+            "chooseFieldForLookup": "Choose the field you want to look up from the selected module. This will allow you to retrieve and link relevant data from that field.",
+            "selectLookupModule": "Select the lookup module to link this field with data from another module. This allows you to pull in related information and establish connections between different modules.",
+            "chooseParentPicklistForDependency": "Choose a parent picklist to define a dependency. This selection will link this picklist to a parent picklist, allowing you to map the parent picklist fields to the fields in this picklist within the mapping page. After mapping, selections made on a parent picklist within the form will then affect the options available for this picklist.",
+            "selectParentAndChildOptions": "Select a Parent Option and choose its Child Options. If you need to change the Parent Option, first deselect the current one and then select a new Parent Option. To remove any mapped fields, navigate to the Preview tab and clear the selections there.",
+            "arrangeFormFields": "Arrange the form to your liking by clicking on your desired field from the available fields box, then dragging and dropping it onto the canvas. You can rename the sections by clicking on the edit icons beside them. To remove a field or section, click on the 'x' button beside it.",
+            "removeSectionAndFieldsWarning": "This section and the fields tied to it will be removed from the Form builder. This cannot be undone.",
+            "cannotPerformActionChildPicklistPresent": "This action cannot be performed since the child picklist",
+            "childPicklistIsPresent": "is present in form. Remove",
+            "removeParentPicklist": "to remove this parent picklist.",
+            "cannotPerformActionParentPicklistMissing": "This action cannot be performed since the parent picklist",                     
+            "parentPicklistIsMissing": "is not present in form. Add",                     
+            "addChildPicklist": "to add this child picklist.",
+            "whatIsRunningNoFormat":"What is Running Number Format?",
+            "runningNoDesc":"Running Number Format Allows you to customize the Auto Number Field for your forms. This includes substitution variables and any characters you wish to prefix or append",
+            "mapPicklistFields":"Map picklist fields by selecting a Parent Field and then selecting the necessary Picklist Fields for it. You can view the Mapped Fields below.",
+            "addDescriptionHere":"Add description here..."
+            }
+    }
     },
     "serviceZone": {
       "setupVisible": true,

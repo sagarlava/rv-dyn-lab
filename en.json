@@ -10349,6 +10349,7 @@
     },
     "messages": {
       "invalidFileSize": "Invalid file size",
+      "invalidFileTypeExclamation": "Invalid file type!",
       "allowedFileSize": "File size should be less than 25MB",
       "allowedFileSizeKb": "File size should be less than 100KB",
       "allowedFileSizeOnly": "File size should be less than",
@@ -10356,7 +10357,8 @@
       "pdfNotAvailable": "Sorry! PDF is not available",
       "invalidFileType":"Invalid file type. Only image files (.jpg, .png, .svg, etc.) can be uploaded.",
       "onlyAllowVisualFiles":"Only allow images up to 100kb and the following file formats: PNG and JPG/JPEG",
-      "maxUploadFileSize": "Maximum upload file size is 25MB"
+      "maxUploadFileSize": "Maximum upload file size is 25MB",
+      "fileExtension":"Only files with extensions *.pdf, *.docx, *.jpg are allowed"
     }
   },
   "history": {

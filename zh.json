@@ -10349,6 +10349,7 @@
     },
     "messages": {
       "invalidFileSize": "文件大小无效",
+        "invalidFileTypeExclamation": "无效的文件类型！",
       "allowedFileSize": "文件大小应小于25MB",
       "allowedFileSizeKb": "文件大小应小于100KB",
       "allowedFileSizeOnly": "文件大小应小于",
@@ -10356,7 +10357,8 @@
       "pdfNotAvailable": "抱歉！PDF不可用",
       "invalidFileType": "无效的文件类型。 只能上传图像文件（.jpg、.png、.svg 等）。",
       "onlyAllowVisualFiles": "仅允许大小不超过100kb的图像文件，支持的格式：PNG和JPG/JPEG",
-      "maxUploadFileSize": "最大上传文件大小为 25MB"
+      "maxUploadFileSize": "最大上传文件大小为 25MB",
+      "fileExtension": "仅允许扩展名为 *.pdf, *.docx, *.jpg 的文件"
     }
   },
   "history": {

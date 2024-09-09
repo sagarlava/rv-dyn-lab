@@ -10349,6 +10349,7 @@
     },
     "messages": {
       "invalidFileSize": "Saiz fail tidak sah",
+      "invalidFileTypeExclamation": "Jenis fail tidak sah!",
       "allowedFileSize": "Saiz fail harus kurang daripada 25MB",
       "allowedFileSizeKb": "Saiz fail hendaklah kurang daripada 100KB",
       "allowedFileSizeOnly": "Saiz fail hendaklah kurang daripada",
@@ -10356,7 +10357,8 @@
       "pdfNotAvailable": "Maaf! PDF tidak tersedia",
       "invalidFileType": "Jenis fail tidak sah. Hanya fail gambar (.jpg, .png, .svg, dll.) boleh dimuat naik.",
       "onlyAllowVisualFiles": "Hanya benarkan imej sehingga 100kb dan format fail berikut: PNG dan JPG/JPEG",
-      "maxUploadFileSize": "Saiz fail muat naik maksimum ialah 25MB"
+      "maxUploadFileSize": "Saiz fail muat naik maksimum ialah 25MB",
+      "fileExtension": "Hanya fail dengan sambungan *.pdf, *.docx, *.jpg dibenarkan"
     }
   },
   "history": {

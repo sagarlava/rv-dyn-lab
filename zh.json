@@ -4261,6 +4261,48 @@
         "plural": "设为所有者",
         "setupEdit": false,
         "setupVisible": true
+      },
+      "taskLookup": {
+        "original": "Task Lookup",
+        "singular": "任务查询",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "allUsers": {
+        "original": "All Users",
+        "singular": "所有用户",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "onlineUsers": {
+        "original": "Online Users",
+        "singular": "在线用户",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "offlineUsers": {
+        "original": "Offline Users",
+        "singular": "离线用户",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "directReports": {
+        "original": "Direct Reports",
+        "singular": "直接报告",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "allStaff": {
+        "original": "All Staff",
+        "singular": "所有员工",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},
@@ -4438,13 +4480,6 @@
       "requestAssistance": {
         "original": "Request Assistance",
         "singular": "请求帮助",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "taskLookup": {
-        "original": "Task Lookup",
-        "singular": "任务查询",
         "plural": "",
         "setupEdit": false,
         "setupVisible": true

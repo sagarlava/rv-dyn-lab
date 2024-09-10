@@ -4261,6 +4261,41 @@
         "plural": "Jadikan Pemilik",
         "setupEdit": false,
         "setupVisible": true
+      },
+      "allUsers": {
+        "original": "All Users",
+        "singular": "Semua Pengguna",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "onlineUsers": {
+        "original": "Online Users",
+        "singular": "Pengguna Dalam Talian",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "offlineUsers": {
+        "original": "Offline Users",
+        "singular": "Pengguna Luar Talian",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "directReports": {
+        "original": "Direct Reports",
+        "singular": "Laporan Terus",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "allStaff": {
+        "original": "All Staff",
+        "singular": "Semua Kakitangan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},

@@ -4261,6 +4261,41 @@
         "plural": "Make Owner",
         "setupEdit": false,
         "setupVisible": true
+      },
+      "allUsers": {
+        "original": "All Users",
+        "singular": "All Users",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "onlineUsers": {
+        "original": "Online Users",
+        "singular": "Online Users",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "offlineUsers": {
+        "original": "Offline Users",
+        "singular": "Offline Users",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "directReports": {
+        "original": "Direct Reports",
+        "singular": "Direct Reports",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "allStaff": {
+        "original": "All Staff",
+        "singular": "All Staff",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "validationFE": {},

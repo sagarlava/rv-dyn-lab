@@ -4798,45 +4798,45 @@
       "setupEdit": true,
       "setupVisible": true
     },
-    "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
-      "sec0": {
-        "original": "General Details",
-        "singular": "General Details",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec1": {
-        "original": "Sales Order Details",
-        "singular": "Sales Order Details",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Details",
-        "singular": "Details",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "Filter By",
-        "singular": "Filter By",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec4": {
-        "original": "Customer Details",
-        "singular": "Customer Details",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      }
+   "sections": {
+    "setupVisible": false,
+     "setupEdit": false,
+    "sec0": {
+      "original": "General Details",
+      "singular": "General Details",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
     },
+    "sec1": {
+      "original": "Sales Order Details",
+      "singular": "Sales Order Details",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec2": {
+      "original": "Details",
+      "singular": "Details",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec3": {
+      "original": "Filter By",
+      "singular": "Filter By",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec4": {
+      "original": "Customer Details",
+      "singular": "Customer Details",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    }
+  },
     "fields": {
       "setupVisible": true,
       "setupEdit": true,

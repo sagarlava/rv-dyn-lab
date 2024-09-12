@@ -1189,95 +1189,95 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "Log Details",
         "singular": "Log Details",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec1": {
         "original": "New Entry",
         "singular": "New Entry",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec2": {
         "original": "Filter By",
         "singular": "Filter By",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "currentReading": {
         "original": "Current Reading",
         "singular": "Current Reading",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "logDate": {
         "original": "Log Date",
         "singular": "Log Date",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "logDateTime": {
         "original": "Log Date & Time",
         "singular": "Log Date & Time",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "modifiedBy": {
         "original": "Modified By",
         "singular": "Modified By",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "modifiedDateTime": {
         "original": "Modified Date & Time",
         "singular": "Modified Date & Time",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "newValue": {
         "original": "New Value",
         "singular": "New Value",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "oldValue": {
         "original": "Old Value",
         "singular": "Old Value",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "newMeterReading": {
         "original": "New Meter Reading",
         "singular": "New Meter Reading",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "resetMeter": {
         "original": "Reset Meter",
         "singular": "Reset Meter",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationBE": {

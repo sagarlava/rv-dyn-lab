@@ -1189,95 +1189,95 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
-      "sec0": {
-        "original": "Log Details",
-        "singular": "日志详情",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec1": {
-        "original": "New Entry",
-        "singular": "新条目",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Filter By",
-        "singular": "筛选条件",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      }
+    "setupVisible": false,
+     "setupEdit": false,
+    "sec0": {
+      "original": "Log Details",
+      "singular": "日志详情",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec1": {
+      "original": "New Entry",
+      "singular": "新条目",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec2": {
+      "original": "Filter By",
+      "singular": "筛选条件",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    }
     },
     "fields": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "currentReading": {
         "original": "Current Reading",
         "singular": "当前读数",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "logDate": {
         "original": "Log Date",
         "singular": "日志日期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "logDateTime": {
         "original": "Log Date & Time",
         "singular": "日志日期和时间",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "modifiedBy": {
         "original": "Modified By",
         "singular": "修改者",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "modifiedDateTime": {
         "original": "Modified Date & Time",
         "singular": "修改日期和时间",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "newValue": {
         "original": "New Value",
         "singular": "新值",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "oldValue": {
         "original": "Old Value",
         "singular": "旧值",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "newMeterReading": {
         "original": "New Meter Reading",
         "singular": "新仪表读数",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "resetMeter": {
         "original": "Reset Meter",
         "singular": "重置计量器",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationBE": {

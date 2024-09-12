@@ -1189,95 +1189,95 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "Log Details",
         "singular": "Butiran Log",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec1": {
         "original": "New Entry",
         "singular": "Entri Baru",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec2": {
         "original": "Filter By",
         "singular": "Tapis Mengikut",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "currentReading": {
         "original": "Current Reading",
         "singular": "Bacaan Semasa",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "logDate": {
         "original": "Log Date",
         "singular": "Tarikh Log",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "logDateTime": {
         "original": "Log Date & Time",
         "singular": "Tarikh & Masa Log",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "modifiedBy": {
         "original": "Modified By",
         "singular": "Diubah Oleh",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "modifiedDateTime": {
         "original": "Modified Date & Time",
         "singular": "Tarikh & Masa Diubah",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "newValue": {
         "original": "New Value",
         "singular": "Nilai Baru",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "oldValue": {
         "original": "Old Value",
         "singular": "Nilai Lama",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "newMeterReading": {
         "original": "New Meter Reading",
         "singular": "Bacaan Meter Baru",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "resetMeter": {
         "original": "Reset Meter",
         "singular": "Tetapkan Semula Meter",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationBE": {

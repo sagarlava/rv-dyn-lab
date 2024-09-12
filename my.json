@@ -4609,7 +4609,7 @@
           "setupVisible": false
         }
       },
-    "fields": {
+   "fields": {
       "setupVisible": true,
       "setupEdit": true,
       "name": {
@@ -4617,19 +4617,19 @@
         "singular": "Nama",
         "plural": "Nama",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "Status",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "Jenis",
-        "plural": "Jenis",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -4650,7 +4650,7 @@
       "category": {
         "original": "Category",
         "singular": "Kategori",
-        "plural": "Kategori",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -4659,7 +4659,7 @@
         "singular": "Penerangan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "subCategory": {
         "original": "Sub Category",
@@ -4673,63 +4673,63 @@
         "singular": "ID Luaran",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "email": {
         "original": "Email",
         "singular": "Emel",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "designation": {
         "original": "Designation",
         "singular": "Jawatan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "phone1": {
         "original": "Phone 1",
         "singular": "Telefon 1",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "phone2": {
         "original": "Phone 2",
         "singular": "Telefon 2",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "siteName": {
         "original": "Site Name",
         "singular": "Nama Tapak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "siteNumber": {
         "original": "Site Number",
         "singular": "Nombor Tapak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "userGroup": {
         "original": "User Group",
         "singular": "Kumpulan Pengguna",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "userType": {
         "original": "User Type",
         "singular": "Jenis Pengguna",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -4773,14 +4773,14 @@
       "siteTypeIdExists": "Jenis Tapak baru tidak boleh mempunyai ID sedia ada"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "siteLookup": {
         "original": "Site Lookup",
         "singular": "Carian Tapak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

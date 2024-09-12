@@ -4617,19 +4617,19 @@
         "singular": "Name",
         "plural": "Names",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "Statuses",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "Type",
-        "plural": "Types",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -4650,7 +4650,7 @@
       "category": {
         "original": "Category",
         "singular": "Category",
-        "plural": "Categories",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -4659,7 +4659,7 @@
         "singular": "Description",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "subCategory": {
         "original": "Sub Category",
@@ -4673,63 +4673,63 @@
         "singular": "External ID",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "email": {
         "original": "Email",
         "singular": "Email",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "designation": {
         "original": "Designation",
         "singular": "Designation",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "phone1": {
         "original": "Phone 1",
         "singular": "Phone 1",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "phone2": {
         "original": "Phone 2",
         "singular": "Phone 2",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "siteName": {
         "original": "Site Name",
         "singular": "Site Name",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "siteNumber": {
         "original": "Site Number",
         "singular": "Site Number",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "userGroup": {
         "original": "User Group",
         "singular": "User Group",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "userType": {
         "original": "User Type",
         "singular": "User Type",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -4773,14 +4773,14 @@
       "siteTypeIdExists": "A new Site Type cannot already have an ID"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "siteLookup": {
         "original": "Site Lookup",
         "singular": "Site Lookup",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

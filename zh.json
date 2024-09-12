@@ -4617,19 +4617,19 @@
         "singular": "名称",
         "plural": "名称",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
         "singular": "状态",
         "plural": "状态",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "类型",
-        "plural": "类型",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -4650,7 +4650,7 @@
       "category": {
         "original": "Category",
         "singular": "类别",
-        "plural": "类别",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -4659,7 +4659,7 @@
         "singular": "描述",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "subCategory": {
         "original": "Sub Category",
@@ -4673,63 +4673,63 @@
         "singular": "外部ID",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "email": {
         "original": "Email",
         "singular": "电子邮件",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "designation": {
         "original": "Designation",
         "singular": "职位",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "phone1": {
         "original": "Phone 1",
         "singular": "电话 1",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "phone2": {
         "original": "Phone 2",
         "singular": "电话 2",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "siteName": {
         "original": "Site Name",
         "singular": "站点名称",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "siteNumber": {
         "original": "Site Number",
         "singular": "站点编号",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "userGroup": {
         "original": "User Group",
         "singular": "用户组",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "userType": {
         "original": "User Type",
         "singular": "用户类型",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -4773,14 +4773,14 @@
       "siteTypeIdExists": "新的站点类型不能已有ID"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "siteLookup": {
         "original": "Site Lookup",
         "singular": "站点查找 ",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

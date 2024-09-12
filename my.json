@@ -547,21 +547,21 @@
       "type": {
         "original": "Type",
         "singular": "Jenis",
-        "plural": "Jenis-jenis",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "equipmentNumber": {
         "original": "Equipment Number",
         "singular": "Nombor Peralatan",
-        "plural": "Nombor-nombor Peralatan",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "code": {
         "original": "Code",
         "singular": "Kod",
-        "plural": "Kod-kod",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -591,42 +591,42 @@
         "singular": "Nama Aset",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "name": {
         "original": "Name",
         "singular": "Nama",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serialNo": {
         "original": "Serial No",
         "singular": "Nombor Siri",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serialNumber": {
         "original": "Serial Number",
         "singular": "Nombor Siri",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetCode": {
         "original": "Asset Code",
         "singular": "Kod Aset",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "description": {
         "original": "Description",
@@ -640,7 +640,7 @@
         "singular": "Foto",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "custodian": {
         "original": "Custodian",
@@ -654,14 +654,14 @@
         "singular": "Tarikh Mula Waranti",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "warrantyEndDate": {
         "original": "Warranty End Date",
         "singular": "Tarikh Tamat Waranti",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "acquisitionDate": {
         "original": "Acquisition Date",
@@ -724,147 +724,147 @@
         "singular": "Nota",
         "plural": "Nota-nota",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "upcoming": {
         "original": "Upcoming",
         "singular": "Akan Datang",
         "plural": "Akan Datang",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "lastCompleted": {
         "original": "Last Completed",
         "singular": "Terakhir Diselesaikan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "next": {
         "original": "Next",
         "singular": "Seterusnya",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "finish": {
         "original": "Finish",
         "singular": "Selesai",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "next30Days": {
         "original": "Next 30 Days",
         "singular": "30 Hari Seterusnya",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "overdue": {
         "original": "Overdue",
         "singular": "Terlambat",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "dueOn": {
         "original": "Due on",
         "singular": "Tarikh Akhir",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "expiresIn": {
         "original": "Expires in",
         "singular": "Tamat Tempoh Dalam",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "latestActiveContract": {
         "original": "Latest Active Contract",
         "singular": "Kontrak Aktif Terbaru",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "updatedBy": {
         "original": "Updated by",
         "singular": "Dikemaskini oleh",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "transferredBy": {
         "original": "Transferred By",
         "singular": "Dipindahkan oleh",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetId": {
         "original": "Asset ID",
         "singular": "ID Aset",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "nextMaintenanceDate": {
         "original": "Next Maintenance Date",
         "singular": "Tarikh Penyelenggaraan Seterusnya",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceStatus": {
         "original": "Maintenance Status",
         "singular": "Status Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "nextMaintenanceType": {
         "original": "Next Maintenance Type",
         "singular": "Jenis Penyelenggaraan Seterusnya",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "minorMajorServiceFrequency": {
         "original": "Minor/Major Service Frequency(Months)",
         "singular": "Kekerapan Servis Kecil/Besar (Bulan)",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "majorServiceFrequency": {
         "original": "Major Service Frequency(Months)",
         "singular": "Kekerapan Servis Besar (Bulan)",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "minorServiceFrequency": {
         "original": "Minor Service Frequency(Months)",
         "singular": "Kekerapan Servis Kecil (Bulan)",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "accessory": {
         "original": "Accessory",
         "singular": "Aksesori",
         "plural": "Aksesori",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "accessoryNo": {
         "original": "Accessory No.",
         "singular": "Nombor Aksesori",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "currentReading": {
         "original": "Current Reading",
@@ -878,63 +878,63 @@
         "singular": "Tarikh & Waktu Log",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "modifiedDateTime": {
         "original": "Modified Date & Time",
         "singular": "Tarikh & Waktu Diubah",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "newValue": {
         "original": "New Value",
         "singular": "Nilai Baru",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "oldValue": {
         "original": "Old Value",
         "singular": "Nilai Lama",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "newMeterReading": {
         "original": "New Meter Reading",
         "singular": "Bacaan Meter Baru",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "allAsset": {
         "original": "All Assets",
         "singular": "Semua Aset",
         "plural": "Semua Aset",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetsByCustomer": {
         "original": "Assets by Customer",
         "singular": "Aset oleh Pelanggan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "day": {
         "original": "day",
         "singular": "hari",
         "plural": "hari",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetNo": {
         "original": "Asset No.",
         "singular": "Nombor Aset",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -971,196 +971,196 @@
       "assetSiteNotFound": "Tapak Aset tidak dijumpai"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "assetLookup": {
         "original": "Asset Lookup",
         "singular": "Carian Aset",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "binLookup": {
         "original": "Bin Lookup",
         "singular": "Carian Bin",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serialNo": {
         "original": "This is a unique number that can be used to identify your Asset across the system",
         "singular": "Ini adalah nombor unik yang boleh digunakan untuk mengenal pasti Aset anda di seluruh sistem",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "custodian": {
         "original": "The custodian is the person within your organization that's responsible for this Asset",
         "singular": "Pemegang amanah adalah orang dalam organisasi anda yang bertanggungjawab untuk Aset ini",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetSummary": {
         "original": "Asset Summary",
         "singular": "Ringkasan Aset",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetStatusName": {
         "original": "Asset Status Name",
         "singular": "Nama Status Aset",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "statusChange": {
         "original": "Status Change",
         "singular": "Perubahan Status",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "custodianName": {
         "original": "Custodian Name",
         "singular": "Nama Pemegang Amanah",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "changeOfCustodian": {
         "original": "Change of Custodian",
         "singular": "Perubahan Pemegang Amanah",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "externalIdRemoved": {
         "original": "External ID Removed",
         "singular": "ID Luar Dikeluarkan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "warrantyRemoved": {
         "original": "Warranty Removed",
         "singular": "Jaminan Dikeluarkan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serviceZoneRemoved": {
         "original": "Service Zone Removed",
         "singular": "Zon Perkhidmatan Dikeluarkan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "custodianRemoved": {
         "original": "Custodian Removed",
         "singular": "Pemegang Amanah Dikeluarkan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "siteRemoved": {
         "original": "Site Removed",
         "singular": "Tapak Dikeluarkan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerRemoved": {
         "original": "Customer Removed",
         "singular": "Pelanggan Dikeluarkan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "streetRemoved": {
         "original": "Street Removed",
         "singular": "Jalan Dikeluarkan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "cityRemoved": {
         "original": "City Removed",
         "singular": "Bandar Dikeluarkan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "stateRemoved": {
         "original": "State Removed",
         "singular": "Negeri Dikeluarkan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "countryRemoved": {
         "original": "Country Removed",
         "singular": "Negara Dikeluarkan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "externalIdUpdate": {
         "original": "External ID Update",
         "singular": "Kemas Kini ID Luar",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "changeOfAddress": {
         "original": "Change of Address",
         "singular": "Perubahan Alamat",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "nameUpdate": {
         "original": "Name Update",
         "singular": "Kemas Kini Nama",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "siteUpdate": {
         "original": "Site Update",
         "singular": "Kemas Kini Tapak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerUpdate": {
         "original": "Customer Update",
         "singular": "Kemas Kini Pelanggan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serviceZoneChange": {
         "original": "Service Zone Change",
         "singular": "Perubahan Zon Perkhidmatan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serviceZoneName": {
         "original": "Service Zone Name",
         "singular": "Nama Zon Perkhidmatan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "siteName": {
         "original": "Site Name",
         "singular": "Nama Tapak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

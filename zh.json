@@ -542,8 +542,8 @@
         }
       },
     "fields": {
-      "setupVisible": true,
-      "setupEdit": true,
+    "setupEdit": true,
+    "setupVisible": true,
       "type": {
         "original": "Type",
         "singular": "类型",
@@ -554,14 +554,14 @@
       "equipmentNumber": {
         "original": "Equipment Number",
         "singular": "设备编号",
-        "plural": "设备编号",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "code": {
         "original": "Code",
         "singular": "代码",
-        "plural": "代码",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -591,42 +591,42 @@
         "singular": "资产名称",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "name": {
         "original": "Name",
         "singular": "名称",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
         "singular": "状态",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serialNo": {
         "original": "Serial No",
         "singular": "序列号",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serialNumber": {
         "original": "Serial Number",
         "singular": "序列号",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetCode": {
         "original": "Asset Code",
         "singular": "资产代码",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "description": {
         "original": "Description",
@@ -640,7 +640,7 @@
         "singular": "照片",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "custodian": {
         "original": "Custodian",
@@ -654,14 +654,14 @@
         "singular": "保修开始日期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "warrantyEndDate": {
         "original": "Warranty End Date",
         "singular": "保修结束日期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "acquisitionDate": {
         "original": "Acquisition Date",
@@ -724,147 +724,147 @@
         "singular": "备注",
         "plural": "备注",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "upcoming": {
         "original": "Upcoming",
         "singular": "即将到来",
         "plural": "即将到来",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "lastCompleted": {
         "original": "Last Completed",
         "singular": "最后完成",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "next": {
         "original": "Next",
         "singular": "下一个",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "finish": {
         "original": "Finish",
         "singular": "完成",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "next30Days": {
         "original": "Next 30 Days",
         "singular": "接下来的30天",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "overdue": {
         "original": "Overdue",
         "singular": "过期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "dueOn": {
         "original": "Due on",
         "singular": "到期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "expiresIn": {
         "original": "Expires in",
         "singular": "到期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "latestActiveContract": {
         "original": "Latest Active Contract",
         "singular": "最新的有效合同",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "updatedBy": {
         "original": "Updated by",
         "singular": "更新者",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "transferredBy": {
         "original": "Transferred By",
         "singular": "转移者",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetId": {
         "original": "Asset ID",
         "singular": "资产ID",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "nextMaintenanceDate": {
         "original": "Next Maintenance Date",
         "singular": "下次维护日期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceStatus": {
         "original": "Maintenance Status",
         "singular": "维护状态",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "nextMaintenanceType": {
         "original": "Next Maintenance Type",
         "singular": "下次维护类型",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "minorMajorServiceFrequency": {
         "original": "Minor/Major Service Frequency(Months)",
         "singular": "小/大维护频率(个月)",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "majorServiceFrequency": {
         "original": "Major Service Frequency(Months)",
         "singular": "大维护频率(个月)",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "minorServiceFrequency": {
         "original": "Minor Service Frequency(Months)",
         "singular": "小维护频率(个月)",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "accessory": {
         "original": "Accessory",
         "singular": "附件",
         "plural": "附件",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "accessoryNo": {
         "original": "Accessory No.",
         "singular": "附件编号",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "currentReading": {
         "original": "Current Reading",
@@ -878,63 +878,63 @@
         "singular": "日志日期和时间",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "modifiedDateTime": {
         "original": "Modified Date & Time",
         "singular": "修改日期和时间",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "newValue": {
         "original": "New Value",
         "singular": "新值",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "oldValue": {
         "original": "Old Value",
         "singular": "旧值",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "newMeterReading": {
         "original": "New Meter Reading",
         "singular": "新表读数",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "allAsset": {
         "original": "All Assets",
         "singular": "所有资产",
         "plural": "所有资产",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetsByCustomer": {
         "original": "Assets by Customer",
         "singular": "客户资产",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "day": {
         "original": "day",
         "singular": "天",
         "plural": "天",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetNo": {
         "original": "Asset No.",
         "singular": "资产编号",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -971,196 +971,196 @@
       "assetSiteNotFound": "未找到资产地点"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "assetLookup": {
         "original": "Asset Lookup",
         "singular": "资产查询",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "binLookup": {
         "original": "Bin Lookup",
         "singular": "箱查询",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serialNo": {
         "original": "This is a unique number that can be used to identify your Asset across the system",
         "singular": "这是一个独特的编号，可以用于在系统中识别您的资产",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "custodian": {
         "original": "The custodian is the person within your organization that's responsible for this Asset",
         "singular": "保管人是您组织内负责该资产的人员",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetSummary": {
         "original": "Asset Summary",
         "singular": "资产摘要",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetStatusName": {
         "original": "Asset Status Name",
         "singular": "资产状态名称",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "statusChange": {
         "original": "Status Change",
         "singular": "状态变更",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "custodianName": {
         "original": "Custodian Name",
         "singular": "保管人姓名",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "changeOfCustodian": {
         "original": "Change of Custodian",
         "singular": "保管人变更",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "externalIdRemoved": {
         "original": "External ID Removed",
         "singular": "外部ID已移除",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "warrantyRemoved": {
         "original": "Warranty Removed",
         "singular": "保修已移除",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serviceZoneRemoved": {
         "original": "Service Zone Removed",
         "singular": "服务区域已移除",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "custodianRemoved": {
         "original": "Custodian Removed",
         "singular": "保管人已移除",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "siteRemoved": {
         "original": "Site Removed",
         "singular": "地点已移除",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerRemoved": {
         "original": "Customer Removed",
         "singular": "客户已移除",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "streetRemoved": {
         "original": "Street Removed",
         "singular": "街道已移除",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "cityRemoved": {
         "original": "City Removed",
         "singular": "城市已移除",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "stateRemoved": {
         "original": "State Removed",
         "singular": "州/省已移除",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "countryRemoved": {
         "original": "Country Removed",
         "singular": "国家已移除",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "externalIdUpdate": {
         "original": "External ID Update",
         "singular": "外部ID更新",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "changeOfAddress": {
         "original": "Change of Address",
         "singular": "地址变更",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "nameUpdate": {
         "original": "Name Update",
         "singular": "名称更新",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "siteUpdate": {
         "original": "Site Update",
         "singular": "地点更新",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerUpdate": {
         "original": "Customer Update",
         "singular": "客户更新",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serviceZoneChange": {
         "original": "Service Zone Change",
         "singular": "服务区域变更",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serviceZoneName": {
         "original": "Service Zone Name",
         "singular": "服务区域名称",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "siteName": {
         "original": "Site Name",
         "singular": "地点名称",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

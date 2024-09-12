@@ -5717,345 +5717,345 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
-      "sec0": {
-        "original": "General Details",
-        "singular": "基本详情",
-        "plural": "基本详情",
+        "setupVisible": true,
         "setupEdit": true,
-        "setupVisible": true
+        "sec0": {
+          "original": "General Details",
+          "singular": "基本详情",
+          "plural": "基本详情",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Asset Details",
+          "singular": "资产详情",
+          "plural": "资产详情",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec2": {
+          "original": "Customer Details",
+          "singular": "客户详情",
+          "plural": "客户详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Bin Details",
+          "singular": "Bin详情",
+          "plural": "Bin详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Bin Transfer Details",
+          "singular": "Bin转移详情",
+          "plural": "Bin转移详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec5": {
+          "original": "Calendly Details",
+          "singular": "Calendly详情",
+          "plural": "Calendly详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec6": {
+          "original": "Case Details",
+          "singular": "案例详情",
+          "plural": "案例详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec7": {
+          "original": "Client Details",
+          "singular": "客户详情",
+          "plural": "客户详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec8": {
+          "original": "Completion Details",
+          "singular": "完成详情",
+          "plural": "完成详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec9": {
+          "original": "Contact Person Details",
+          "singular": "联系人详情",
+          "plural": "联系人详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec10": {
+          "original": "Customer Survey Details",
+          "singular": "客户调查详情",
+          "plural": "客户调查详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec11": {
+          "original": "Details",
+          "singular": "详情",
+          "plural": "详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec12": {
+          "original": "Fault Details",
+          "singular": "故障详情",
+          "plural": "故障详情",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec13": {
+          "original": "Fault Module",
+          "singular": "故障模块",
+          "plural": "故障模块",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec14": {
+          "original": "Financial Details",
+          "singular": "财务详情",
+          "plural": "财务详情",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec15": {
+          "original": "Further Details",
+          "singular": "进一步详情",
+          "plural": "进一步详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "Hospital Details",
+          "singular": "医院详情",
+          "plural": "医院详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec17": {
+          "original": "Hospital Record Infomation",
+          "singular": "医院记录信息",
+          "plural": "医院记录信息",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec18": {
+          "original": "Item Details",
+          "singular": "项目详情",
+          "plural": "项目详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec19": {
+          "original": "Job Details",
+          "singular": "工作详情",
+          "plural": "工作详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec20": {
+          "original": "Part Order Details",
+          "singular": "零件订单详情",
+          "plural": "零件订单详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec21": {
+          "original": "Payment Details",
+          "singular": "支付详情",
+          "plural": "支付详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec22": {
+          "original": "Spare Part Details",
+          "singular": "备件详情",
+          "plural": "备件详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec23": {
+          "original": "Products and Service Charges",
+          "singular": "备件和服务费用",
+          "plural": "备件和服务费用",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec24": {
+          "original": "Resolution Details",
+          "singular": "解决详情",
+          "plural": "解决详情",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec25": {
+          "original": "Service Checklist",
+          "singular": "服务清单",
+          "plural": "服务清单",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec26": {
+          "original": "Survey Details",
+          "singular": "调查详情",
+          "plural": "调查详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec27": {
+          "original": "System Information",
+          "singular": "系统信息",
+          "plural": "系统信息",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec28": {
+          "original": "System Summary",
+          "singular": "系统概述",
+          "plural": "系统概述",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec29": {
+          "original": "Handover Details",
+          "singular": "交接详情",
+          "plural": "交接详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec30": {
+          "original": "Filter By",
+          "singular": "筛选条件",
+          "plural": "筛选条件",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec31": {
+          "original": "Select the survey you would like to send and click 'Generate' to create it.",
+          "singular": "选择您要发送的调查并点击'生成'以创建它。",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec32": {
+          "original": "Specify the email address of who you want this survey to be sent to",
+          "singular": "指定您希望发送此调查的电子邮件地址",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec33": {
+          "original": "SLA",
+          "singular": "SLA",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec34": {
+          "original": "Forms",
+          "singular": "表单",
+          "plural": "表单",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec35": {
+          "original": "Fault and Resolution",
+          "singular": "故障与解决",
+          "plural": "故障与解决",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec36": {
+          "original": "SLA",
+          "singular": "SLA",
+          "plural": "SLA",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec37": {
+          "original": "Service Form Auto Fill",
+          "singular": "服务表单自动填写",
+          "plural": "服务表单自动填写",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec38": {
+          "original": "Additional Details",
+          "singular": "附加详情",
+          "plural": "附加详情",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec39": {
+          "original": "Required Forms",
+          "singular": "所需表单",
+          "plural": "所需表单",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec40": {
+          "original": "Job Order Details",
+          "singular": "工作订单详情",
+          "plural": "工作订单详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec41": {
+          "original": "Part Order",
+          "singular": "零件订单",
+          "plural": "零件订单",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec42": {
+          "original": "Replaced Module",
+          "singular": "更换模块",
+          "plural": "更换模块",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec43": {
+          "original": "WO Details",
+          "singular": "工单详情",
+          "plural": "工单详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec44": {
+          "original": "Edit Hp Form",
+          "singular": "编辑HP表单",
+          "plural": "编辑HP表单",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec45": {
+          "original": "View Survey Results",
+          "singular": "查看调查结果",
+          "plural": "查看调查结果",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec46": {
+          "original": "Fault Call Unit",
+          "singular": "故障呼叫单元",
+          "plural": "故障呼叫单元",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec47": {
+          "original": "View Survey Form",
+          "singular": "查看调查表",
+          "plural": "查看调查表",
+          "setupEdit": false,
+          "setupVisible": false
+        }
       },
-      "sec1": {
-        "original": "Asset Details",
-        "singular": "资产详情",
-        "plural": "资产详情",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Customer Details",
-        "singular": "客户详情",
-        "plural": "客户详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "Bin Details",
-        "singular": "Bin详情",
-        "plural": "Bin详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec4": {
-        "original": "Bin Transfer Details",
-        "singular": "Bin转移详情",
-        "plural": "Bin转移详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec5": {
-        "original": "Calendly Details",
-        "singular": "Calendly详情",
-        "plural": "Calendly详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec6": {
-        "original": "Case Details",
-        "singular": "案例详情",
-        "plural": "案例详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec7": {
-        "original": "Client Details",
-        "singular": "客户详情",
-        "plural": "客户详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec8": {
-        "original": "Completion Details",
-        "singular": "完成详情",
-        "plural": "完成详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec9": {
-        "original": "Contact Person Details",
-        "singular": "联系人详情",
-        "plural": "联系人详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec10": {
-        "original": "Customer Survey Details",
-        "singular": "客户调查详情",
-        "plural": "客户调查详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec11": {
-        "original": "Details",
-        "singular": "详情",
-        "plural": "详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec12": {
-        "original": "Fault Details",
-        "singular": "故障详情",
-        "plural": "故障详情",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec13": {
-        "original": "Fault Module",
-        "singular": "故障模块",
-        "plural": "故障模块",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec14": {
-        "original": "Financial Details",
-        "singular": "财务详情",
-        "plural": "财务详情",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec15": {
-        "original": "Further Details",
-        "singular": "进一步详情",
-        "plural": "进一步详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec16": {
-        "original": "Hospital Details",
-        "singular": "医院详情",
-        "plural": "医院详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec17": {
-        "original": "Hospital Record Infomation",
-        "singular": "医院记录信息",
-        "plural": "医院记录信息",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec18": {
-        "original": "Item Details",
-        "singular": "项目详情",
-        "plural": "项目详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec19": {
-        "original": "Job Details",
-        "singular": "工作详情",
-        "plural": "工作详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec20": {
-        "original": "Part Order Details",
-        "singular": "零件订单详情",
-        "plural": "零件订单详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec21": {
-        "original": "Payment Details",
-        "singular": "支付详情",
-        "plural": "支付详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec22": {
-        "original": "Spare Part Details",
-        "singular": "备件详情",
-        "plural": "备件详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec23": {
-        "original": "Products and Service Charges",
-        "singular": "备件和服务费用",
-        "plural": "备件和服务费用",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec24": {
-        "original": "Resolution Details",
-        "singular": "解决详情",
-        "plural": "解决详情",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec25": {
-        "original": "Service Checklist",
-        "singular": "服务清单",
-        "plural": "服务清单",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec26": {
-        "original": "Survey Details",
-        "singular": "调查详情",
-        "plural": "调查详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec27": {
-        "original": "System Information",
-        "singular": "系统信息",
-        "plural": "系统信息",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec28": {
-        "original": "System Summary",
-        "singular": "系统概述",
-        "plural": "系统概述",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec29": {
-        "original": "Handover Details",
-        "singular": "交接详情",
-        "plural": "交接详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec30": {
-        "original": "Filter By",
-        "singular": "筛选条件",
-        "plural": "筛选条件",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec31": {
-        "original": "Select the survey you would like to send and click 'Generate' to create it.",
-        "singular": "选择您要发送的调查并点击'生成'以创建它。",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec32": {
-        "original": "Specify the email address of who you want this survey to be sent to",
-        "singular": "指定您希望发送此调查的电子邮件地址",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec33": {
-        "original": "SLA",
-        "singular": "SLA",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec34": {
-        "original": "Forms",
-        "singular": "表单",
-        "plural": "表单",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec35": {
-        "original": "Fault and Resolution",
-        "singular": "故障与解决",
-        "plural": "故障与解决",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec36": {
-        "original": "SLA",
-        "singular": "SLA",
-        "plural": "SLA",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec37": {
-        "original": "Service Form Auto Fill",
-        "singular": "服务表单自动填写",
-        "plural": "服务表单自动填写",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec38": {
-        "original": "Additional Details",
-        "singular": "附加详情",
-        "plural": "附加详情",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec39": {
-        "original": "Required Forms",
-        "singular": "所需表单",
-        "plural": "所需表单",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec40": {
-        "original": "Job Order Details",
-        "singular": "工作订单详情",
-        "plural": "工作订单详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec41": {
-        "original": "Part Order",
-        "singular": "零件订单",
-        "plural": "零件订单",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec42": {
-        "original": "Replaced Module",
-        "singular": "更换模块",
-        "plural": "更换模块",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec43": {
-        "original": "WO Details",
-        "singular": "工单详情",
-        "plural": "工单详情",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec44": {
-        "original": "Edit Hp Form",
-        "singular": "编辑HP表单",
-        "plural": "编辑HP表单",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec45": {
-        "original": "View Survey Results",
-        "singular": "查看调查结果",
-        "plural": "查看调查结果",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec46": {
-        "original": "Fault Call Unit",
-        "singular": "故障呼叫单元",
-        "plural": "故障呼叫单元",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec47": {
-        "original": "View Survey Form",
-        "singular": "查看调查表",
-        "plural": "查看调查表",
-        "setupEdit": false,
-        "setupVisible": false
-      }
-    },
     "fields": {
       "setupVisible": true,
       "setupEdit": true,

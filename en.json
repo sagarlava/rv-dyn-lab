@@ -5716,346 +5716,346 @@
       "setupEdit": true,
       "setupVisible": true
     },
-    "sections": {
-      "setupVisible": true,
+   "sections": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "sec0": {
+      "original": "General Details",
+      "singular": "General Details",
+      "plural": "General Details",
       "setupEdit": true,
-      "sec0": {
-        "original": "General Details",
-        "singular": "General Details",
-        "plural": "General Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec1": {
-        "original": "Asset Details",
-        "singular": "Asset Details",
-        "plural": "Asset Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Customer Details",
-        "singular": "Customer Details",
-        "plural": "Customer Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "Bin Details",
-        "singular": "Bin Details",
-        "plural": "Bin Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec4": {
-        "original": "Bin Transfer Details",
-        "singular": "Bin Transfer Details",
-        "plural": "Bin Transfer Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec5": {
-        "original": "Calendly Details",
-        "singular": "Calendly Details",
-        "plural": "Calendly Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec6": {
-        "original": "Case Details",
-        "singular": "Case Details",
-        "plural": "Case Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec7": {
-        "original": "Client Details",
-        "singular": "Client Details",
-        "plural": "Client Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec8": {
-        "original": "Completion Details",
-        "singular": "Completion Details",
-        "plural": "Completion Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec9": {
-        "original": "Contact Person Details",
-        "singular": "Contact Person Details",
-        "plural": "Contact Person Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec10": {
-        "original": "Customer Survey Details",
-        "singular": "Customer Survey Details",
-        "plural": "Customer Survey Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec11": {
-        "original": "Details",
-        "singular": "Details",
-        "plural": "Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec12": {
-        "original": "Fault Details",
-        "singular": "Fault Details",
-        "plural": "Fault Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec13": {
-        "original": "Fault Module",
-        "singular": "Fault Module",
-        "plural": "Fault Module",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec14": {
-        "original": "Financial Details",
-        "singular": "Financial Details",
-        "plural": "Financial Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec15": {
-        "original": "Further Details",
-        "singular": "Further Details",
-        "plural": "Further Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec16": {
-        "original": "Hospital Details",
-        "singular": "Hospital Details",
-        "plural": "Hospital Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec17": {
-        "original": "Hospital Record Information",
-        "singular": "Hospital Record Information",
-        "plural": "Hospital Record Information",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec18": {
-        "original": "Item Details",
-        "singular": "Item Details",
-        "plural": "Item Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec19": {
-        "original": "Job Details",
-        "singular": "Job Details",
-        "plural": "Job Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec20": {
-        "original": "Part Order Details",
-        "singular": "Part Order Details",
-        "plural": "Part Order Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec21": {
-        "original": "Payment Details",
-        "singular": "Payment Details",
-        "plural": "Payment Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec22": {
-        "original": "Spare Part Details",
-        "singular": "Spare Part Details",
-        "plural": "Spare Part Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec23": {
-        "original": "Spare Parts and Service Charges",
-        "singular": "Spare Parts and Service Charges",
-        "plural": "Spare Parts and Service Charges",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec24": {
-        "original": "Resolution Details",
-        "singular": "Resolution Details",
-        "plural": "Resolution Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec25": {
-        "original": "Service Checklist",
-        "singular": "Service Checklist",
-        "plural": "Service Checklist",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec26": {
-        "original": "Survey Details",
-        "singular": "Survey Details",
-        "plural": "Survey Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec27": {
-        "original": "System Information",
-        "singular": "System Information",
-        "plural": "System Information",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec28": {
-        "original": "System Summary",
-        "singular": "System Summary",
-        "plural": "System Summary",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec29": {
-        "original": "Handover Details",
-        "singular": "Handover Details",
-        "plural": "Handover Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec30": {
-        "original": "Filter By",
-        "singular": "Filter By",
-        "plural": "Filter By",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec31": {
-        "original": "Select the survey you would like to send and click 'Generate' to create it.",
-        "singular": "Select the survey you would like to send and click 'Generate' to create it.",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec32": {
-        "original": "Specify the email address of who you want this survey to be sent to",
-        "singular": "Specify the email address of who you want this survey to be sent to",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec33": {
-        "original": "SLA",
-        "singular": "SLA",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec34": {
-        "original": "Forms",
-        "singular": "Form",
-        "plural": "Forms",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec35": {
-        "original": "Fault and Resolution",
-        "singular": "Fault and Resolution",
-        "plural": "Fault and Resolution",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec36": {
-        "original": "SLA",
-        "singular": "SLA",
-        "plural": "SLA",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec37": {
-        "original": "Service Form Auto Fill",
-        "singular": "Service Form Auto Fill",
-        "plural": "Service Form Auto Fill",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec38": {
-        "original": "Additional Details",
-        "singular": "Additional Details",
-        "plural": "Additional Details",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec39": {
-        "original": "Required Forms",
-        "singular": "Required Forms",
-        "plural": "Required Forms",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec40": {
-        "original": "Job Order Details",
-        "singular": "Job Order Details",
-        "plural": "Job Order Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec41": {
-        "original": "Part Order",
-        "singular": "Part Order",
-        "plural": "Part Orders",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec42": {
-        "original": "Replaced Module",
-        "singular": "Replaced Module",
-        "plural": "Replaced Module",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec43": {
-        "original": "WO Details",
-        "singular": "WO Details",
-        "plural": "WO Details",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec44": {
-        "original": "Edit Hp Form",
-        "singular": "Edit Hp Form",
-        "plural": "Edit Hp Form",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec45": {
-        "original": "View Survey Results",
-        "singular": "View Survey Results",
-        "plural": "View Survey Results",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec46": {
-        "original": "Fault Call Unit",
-        "singular": "Fault Call Unit",
-        "plural": "Fault Call Unit",
-        "setupEdit": false,
-        "setupVisible": false
-      },
-      "sec47": {
-        "original": "View Survey Form",
-        "singular": "View Survey Form",
-        "plural": "View Survey Form",
-        "setupEdit": false,
-        "setupVisible": false
-      }
+      "setupVisible": true
     },
+    "sec1": {
+      "original": "Asset Details",
+      "singular": "Asset Details",
+      "plural": "Asset Details",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sec2": {
+      "original": "Customer Details",
+      "singular": "Customer Details",
+      "plural": "Customer Details",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sec3": {
+      "original": "Bin Details",
+      "singular": "Bin Details",
+      "plural": "Bin Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec4": {
+      "original": "Bin Transfer Details",
+      "singular": "Bin Transfer Details",
+      "plural": "Bin Transfer Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec5": {
+      "original": "Calendly Details",
+      "singular": "Calendly Details",
+      "plural": "Calendly Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec6": {
+      "original": "Case Details",
+      "singular": "Case Details",
+      "plural": "Case Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec7": {
+      "original": "Client Details",
+      "singular": "Client Details",
+      "plural": "Client Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec8": {
+      "original": "Completion Details",
+      "singular": "Completion Details",
+      "plural": "Completion Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec9": {
+      "original": "Contact Person Details",
+      "singular": "Contact Person Details",
+      "plural": "Contact Person Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec10": {
+      "original": "Customer Survey Details",
+      "singular": "Customer Survey Details",
+      "plural": "Customer Survey Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec11": {
+      "original": "Details",
+      "singular": "Details",
+      "plural": "Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec12": {
+      "original": "Fault Details",
+      "singular": "Fault Details",
+      "plural": "Fault Details",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sec13": {
+      "original": "Fault Module",
+      "singular": "Fault Module",
+      "plural": "Fault Module",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec14": {
+      "original": "Financial Details",
+      "singular": "Financial Details",
+      "plural": "Financial Details",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sec15": {
+      "original": "Further Details",
+      "singular": "Further Details",
+      "plural": "Further Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec16": {
+      "original": "Hospital Details",
+      "singular": "Hospital Details",
+      "plural": "Hospital Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec17": {
+      "original": "Hospital Record Information",
+      "singular": "Hospital Record Information",
+      "plural": "Hospital Record Information",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec18": {
+      "original": "Item Details",
+      "singular": "Item Details",
+      "plural": "Item Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec19": {
+      "original": "Job Details",
+      "singular": "Job Details",
+      "plural": "Job Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec20": {
+      "original": "Part Order Details",
+      "singular": "Part Order Details",
+      "plural": "Part Order Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec21": {
+      "original": "Payment Details",
+      "singular": "Payment Details",
+      "plural": "Payment Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec22": {
+      "original": "Spare Part Details",
+      "singular": "Spare Part Details",
+      "plural": "Spare Part Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec23": {
+      "original": "Spare Parts and Service Charges",
+      "singular": "Spare Parts and Service Charges",
+      "plural": "Spare Parts and Service Charges",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec24": {
+      "original": "Resolution Details",
+      "singular": "Resolution Details",
+      "plural": "Resolution Details",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sec25": {
+      "original": "Service Checklist",
+      "singular": "Service Checklist",
+      "plural": "Service Checklist",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec26": {
+      "original": "Survey Details",
+      "singular": "Survey Details",
+      "plural": "Survey Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec27": {
+      "original": "System Information",
+      "singular": "System Information",
+      "plural": "System Information",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec28": {
+      "original": "System Summary",
+      "singular": "System Summary",
+      "plural": "System Summary",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec29": {
+      "original": "Handover Details",
+      "singular": "Handover Details",
+      "plural": "Handover Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec30": {
+      "original": "Filter By",
+      "singular": "Filter By",
+      "plural": "Filter By",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec31": {
+      "original": "Select the survey you would like to send and click 'Generate' to create it.",
+      "singular": "Select the survey you would like to send and click 'Generate' to create it.",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec32": {
+      "original": "Specify the email address of who you want this survey to be sent to",
+      "singular": "Specify the email address of who you want this survey to be sent to",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec33": {
+      "original": "SLA",
+      "singular": "SLA",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec34": {
+      "original": "Forms",
+      "singular": "Form",
+      "plural": "Forms",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec35": {
+      "original": "Fault and Resolution",
+      "singular": "Fault and Resolution",
+      "plural": "Fault and Resolution",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec36": {
+      "original": "SLA",
+      "singular": "SLA",
+      "plural": "SLA",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec37": {
+      "original": "Service Form Auto Fill",
+      "singular": "Service Form Auto Fill",
+      "plural": "Service Form Auto Fill",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec38": {
+      "original": "Additional Details",
+      "singular": "Additional Details",
+      "plural": "Additional Details",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sec39": {
+      "original": "Required Forms",
+      "singular": "Required Forms",
+      "plural": "Required Forms",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec40": {
+      "original": "Job Order Details",
+      "singular": "Job Order Details",
+      "plural": "Job Order Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec41": {
+      "original": "Part Order",
+      "singular": "Part Order",
+      "plural": "Part Orders",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec42": {
+      "original": "Replaced Module",
+      "singular": "Replaced Module",
+      "plural": "Replaced Module",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec43": {
+      "original": "WO Details",
+      "singular": "WO Details",
+      "plural": "WO Details",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec44": {
+      "original": "Edit Hp Form",
+      "singular": "Edit Hp Form",
+      "plural": "Edit Hp Form",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec45": {
+      "original": "View Survey Results",
+      "singular": "View Survey Results",
+      "plural": "View Survey Results",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec46": {
+      "original": "Fault Call Unit",
+      "singular": "Fault Call Unit",
+      "plural": "Fault Call Unit",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec47": {
+      "original": "View Survey Form",
+      "singular": "View Survey Form",
+      "plural": "View Survey Form",
+      "setupEdit": false,
+      "setupVisible": false
+    }
+  },
     "fields": {
       "setupVisible": true,
       "setupEdit": true,

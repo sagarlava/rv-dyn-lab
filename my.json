@@ -4845,21 +4845,21 @@
         "singular": "Nama",
         "plural": "Nama",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "Statuses",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "owner": {
         "original": "Owner",
         "singular": "Pemilik",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
@@ -4873,7 +4873,7 @@
         "singular": "Pemilik Pesanan",
         "plural": "Pemilik Pesanan",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "channel": {
         "original": "Channel",
@@ -4887,84 +4887,84 @@
         "singular": "Nama",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "startDate": {
         "original": "Start Date",
         "singular": "Tarikh Mula",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "endDate": {
         "original": "End Date",
         "singular": "Tarikh Tamat",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "billToContact": {
         "original": "Bill To Contact",
         "singular": "Hubungi untuk Bil",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "shipToContact": {
         "original": "Ship To Contact",
         "singular": "Hubungi untuk Penghantaran",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "billingAddress": {
         "original": "Billing Address",
         "singular": "Alamat Penagihan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "totalAmount": {
         "original": "Total Amount",
         "singular": "Jumlah Keseluruhan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "orderName": {
         "original": "Order Name",
         "singular": "Nama Pesanan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "orderDate": {
         "original": "Order Date",
         "singular": "Tarikh Pesanan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "salesOrderNo": {
         "original": "Sales Order No",
         "singular": "No Pesanan Jualan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerName": {
         "original": "Customer Name",
         "singular": "Nama Pelanggan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "email": {
         "original": "Email",
         "singular": "E-mel",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "extId": {
         "original": "External ID",
@@ -5001,14 +5001,14 @@
       "salesOrderActivityIdExists": "Aktiviti Pesanan Jualan baru tidak boleh sudah mempunyai ID"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "salesOrderLookup": {
         "original": "Sales Order Lookup",
         "singular": "Carian Pesanan Jualan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

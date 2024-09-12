@@ -4845,21 +4845,21 @@
         "singular": "Name",
         "plural": "Names",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "Statuses",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "owner": {
         "original": "Owner",
         "singular": "Owner",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
@@ -4873,7 +4873,7 @@
         "singular": "Order Owner",
         "plural": "Order Owner",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "channel": {
         "original": "Channel",
@@ -4887,84 +4887,84 @@
         "singular": "Description",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "startDate": {
         "original": "Start Date",
         "singular": "Start Date",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "endDate": {
         "original": "End Date",
         "singular": "End Date",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "billToContact": {
         "original": "Bill To Contact",
         "singular": "Bill To Contact",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "shipToContact": {
         "original": "Ship To Contact",
         "singular": "Ship To Contact",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "billingAddress": {
         "original": "Billing Address",
         "singular": "Billing Address",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "totalAmount": {
         "original": "Total Amount",
         "singular": "Total Amount",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "orderName": {
         "original": "Order Name",
         "singular": "Order Name",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "orderDate": {
         "original": "Order Date",
         "singular": "Order Date",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "salesOrderNo": {
         "original": "Sales Order No",
         "singular": "Sales Order No",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerName": {
         "original": "Customer Name",
         "singular": "Customer Name",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "email": {
         "original": "Email",
         "singular": "Email",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "extId": {
         "original": "External ID",
@@ -5001,14 +5001,14 @@
       "salesOrderActivityIdExists": "A new Sales Order Activity cannot already have an ID"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "salesOrderLookup": {
         "original": "Sales Order Lookup",
         "singular": "Sales Order Lookup",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

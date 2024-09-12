@@ -4564,50 +4564,50 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
-      "sec0": {
-        "original": "General Details",
-        "singular": "基本信息 ",
-        "plural": "基本信息 ",
+        "setupVisible": false,
         "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec1": {
-        "original": "Contact Details",
-        "singular": "联系详情",
-        "plural": "联系详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Site Details",
-        "singular": "站点详情",
-        "plural": "站点详情",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "Details",
-        "singular": "细节",
-        "plural": "细节",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec4": {
-        "original": "Filter By",
-        "singular": "筛选",
-        "plural": "筛选",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec5": {
-        "original": "Forms",
-        "singular": "表单",
-        "plural": "表单",
-        "setupEdit": false,
-        "setupVisible": true
-      }
+        "sec0": {
+          "original": "General Details",
+          "singular": "基本信息 ",
+          "plural": "基本信息 ",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Contact Details",
+          "singular": "联系详情",
+          "plural": "联系详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Site Details",
+          "singular": "站点详情",
+          "plural": "站点详情",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Details",
+          "singular": "细节",
+          "plural": "细节",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Filter By",
+          "singular": "筛选",
+          "plural": "筛选",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec5": {
+          "original": "Forms",
+          "singular": "表单",
+          "plural": "表单",
+          "setupEdit": false,
+          "setupVisible": false
+        }
     },
     "fields": {
       "setupVisible": true,

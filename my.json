@@ -4564,51 +4564,51 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
-      "sec0": {
-        "original": "General Details",
-        "singular": "Butiran Am",
-        "plural": "Butiran Am",
+        "setupVisible": false,
         "setupEdit": false,
-        "setupVisible": true
+        "sec0": {
+          "original": "General Details",
+          "singular": "Butiran Am",
+          "plural": "Butiran Am",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec1": {
+          "original": "Contact Details",
+          "singular": "Butiran Hubungan",
+          "plural": "Butiran Hubungan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Site Details",
+          "singular": "Butiran Tapak",
+          "plural": "Butiran Tapak",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Details",
+          "singular": "Butiran",
+          "plural": "Butiran",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Filter By",
+          "singular": "Tapis Mengikut",
+          "plural": "Tapis Mengikut",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec5": {
+          "original": "Forms",
+          "singular": "Borang",
+          "plural": "Borang",
+          "setupEdit": false,
+          "setupVisible": false
+        }
       },
-      "sec1": {
-        "original": "Contact Details",
-        "singular": "Butiran Hubungan",
-        "plural": "Butiran Hubungan",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Site Details",
-        "singular": "Butiran Tapak",
-        "plural": "Butiran Tapak",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "Details",
-        "singular": "Butiran",
-        "plural": "Butiran",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec4": {
-        "original": "Filter By",
-        "singular": "Tapis Mengikut",
-        "plural": "Tapis Mengikut",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec5": {
-        "original": "Forms",
-        "singular": "Borang",
-        "plural": "Borang",
-        "setupEdit": false,
-        "setupVisible": true
-      }
-    },
     "fields": {
       "setupVisible": true,
       "setupEdit": true,

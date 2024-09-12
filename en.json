@@ -10,58 +10,58 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
-      "sec0": {
-        "original": "General Details",
-        "singular": "General Details",
-        "plural": "",
+        "setupVisible": true,
         "setupEdit": true,
-        "setupVisible": true
+        "sec0": {
+          "original": "General Details",
+          "singular": "General Details",
+          "plural": "",
+          "setupVisible": true,
+          "setupEdit": true
+        },
+        "sec1": {
+          "original": "Main Contact Details",
+          "singular": "Main Contact Details",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Integration Details",
+          "singular": "Integration Details",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Additional Details",
+          "singular": "Additional Details",
+          "plural": "",
+          "setupVisible": true,
+          "setupEdit": true
+        },
+        "sec4": {
+          "original": "Details",
+          "singular": "Details",
+          "plural": "Details",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec5": {
+          "original": "Customer Details",
+          "singular": "Customer Details",
+          "plural": "Customer Details",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec6": {
+          "original": "Overview",
+          "singular": "Overview",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        }
       },
-      "sec1": {
-        "original": "Main Contact Details",
-        "singular": "Main Contact Details",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Integration Details",
-        "singular": "Integration Details",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "Additional Details",
-        "singular": "Additional Details",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec4": {
-        "original": "Details",
-        "singular": "Details",
-        "plural": "Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec5": {
-        "original": "Customer Details",
-        "singular": "Customer Details",
-        "plural": "Customer Details",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec6": {
-        "original": "Overview",
-        "singular": "Overview",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      }
-    },
     "fields": {
       "setupVisible": true,
       "setupEdit": true,

@@ -10,58 +10,58 @@
       "setupVisible": true
     },
     "sections": {
-    "setupVisible": true,
-    "setupEdit": true,
-      "sec0": {
-        "original": "General Details",
-        "singular": "Butiran Am",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec1": {
-        "original": "Main Contact Details",
-        "singular": "Butiran Hubungan Utama",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Integration Details",
-        "singular": "Butiran Integrasi",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "Additional Details",
-        "singular": "Butiran Tambahan",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec4": {
-        "original": "Details",
-        "singular": "Butiran",
-        "plural": "Butiran",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec5": {
-        "original": "Customer Details",
-        "singular": "Butiran Pelanggan",
-        "plural": "Butiran Pelanggan",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec6": {
-        "original": "Overview",
-        "singular": "Gambaran Keseluruhan",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      }
-    },
+      "setupVisible": true,
+      "setupEdit": true,
+          "sec0": {
+            "original": "General Details",
+            "singular": "Butiran Am",
+            "plural": "",
+            "setupVisible": true,
+            "setupEdit": true
+          },
+          "sec1": {
+            "original": "Main Contact Details",
+            "singular": "Butiran Hubungan Utama",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec2": {
+            "original": "Integration Details",
+            "singular": "Butiran Integrasi",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec3": {
+            "original": "Additional Details",
+            "singular": "Butiran Tambahan",
+            "plural": "",
+            "setupVisible": true,
+            "setupEdit": true
+          },
+          "sec4": {
+            "original": "Details",
+            "singular": "Butiran",
+            "plural": "Butiran",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec5": {
+            "original": "Customer Details",
+            "singular": "Butiran Pelanggan",
+            "plural": "Butiran Pelanggan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec6": {
+            "original": "Overview",
+            "singular": "Gambaran Keseluruhan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          }
+        },
     "fields": {
       "setupVisible": true,
       "setupEdit": true,

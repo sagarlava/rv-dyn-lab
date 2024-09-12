@@ -10,58 +10,58 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
-      "sec0": {
-        "original": "General Details",
-        "singular": "基本信息",
-        "plural": "",
+        "setupVisible": true,
         "setupEdit": true,
-        "setupVisible": true
+        "sec0": {
+          "original": "General Details",
+          "singular": "基本信息",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec1": {
+          "original": "Main Contact Details",
+          "singular": "主要联系人信息",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec2": {
+          "original": "Integration Details",
+          "singular": "集成信息",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec3": {
+          "original": "Additional Details",
+          "singular": "附加信息",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+        },
+        "sec4": {
+          "original": "Details",
+          "singular": "详细信息",
+          "plural": "详细信息",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec5": {
+          "original": "Customer Details",
+          "singular": "客户信息",
+          "plural": "客户信息",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec6": {
+          "original": "Overview",
+          "singular": "概述",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        }
       },
-      "sec1": {
-        "original": "Main Contact Details",
-        "singular": "主要联系人信息",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Integration Details",
-        "singular": "集成信息",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "Additional Details",
-        "singular": "附加信息",
-        "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
-      },
-      "sec4": {
-        "original": "Details",
-        "singular": "详细信息",
-        "plural": "详细信息",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec5": {
-        "original": "Customer Details",
-        "singular": "客户信息",
-        "plural": "客户信息",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec6": {
-        "original": "Overview",
-        "singular": "概述",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      }
-    },
     "fields": {
       "setupVisible": true,
       "setupEdit": true,

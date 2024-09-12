@@ -77,7 +77,7 @@
         "singular": "Category Type",
         "plural": "Category Types",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sector": {
         "original": "Sector",
@@ -119,35 +119,35 @@
         "singular": "System Used",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "patientRental": {
         "original": "Patient Rental TV",
         "singular": "Patient Rental TV",
         "plural": "Patient Rental TVs",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "fixedRental": {
         "original": "Fixed Rental TV",
         "singular": "Fixed Rental TV",
         "plural": "Fixed Rental TVs",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "industry": {
         "original": "Industry",
         "singular": "Industry",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "numberOfEmployees": {
         "original": "Number of Employees",
         "singular": "Number of Employees",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "area": {
         "original": "Area",
@@ -161,7 +161,7 @@
         "singular": "Payment Term",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "description": {
         "original": "Description",
@@ -175,42 +175,42 @@
         "singular": "Account Name",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "referenceNo": {
         "original": "Reference No.",
         "singular": "Reference No.",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "name": {
         "original": "Name",
         "singular": "Name",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "noOfTerminals": {
         "original": "No. Of Terminal",
         "singular": "No. Of Terminal",
         "plural": "No. Of Terminals",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "autoTieGeofence": {
         "original": "Auto-tie Geofence",
         "singular": "Auto-tie Geofence",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerNo": {
         "original": "Customer No.",
         "singular": "Customer No.",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerReferenceId": {
         "original": "Customer Reference Id",
@@ -224,105 +224,105 @@
         "singular": "Case Contact Phone",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assignedTo": {
         "original": "Assigned To",
         "singular": "Assigned To",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "team": {
         "original": "Team",
         "singular": "Team",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "location": {
         "original": "Location",
         "singular": "Location",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "fieldExID": {
         "original": "FieldEx ID",
         "singular": "FieldEx ID",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "hospitalName": {
         "original": "Hospital Name",
         "singular": "Hospital Name",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "hospitalCode": {
         "original": "Hospital Code",
         "singular": "Hospital Code",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "next": {
         "original": "Next",
         "singular": "Next",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "currentContract": {
         "original": "Current Contract",
         "singular": "Current Contract",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "expiresIn": {
         "original": "Expires in",
         "singular": "Expires in",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "latestActiveContract": {
         "original": "Latest Active Contract",
         "singular": "Latest Active Contract",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "stat": {
         "original": "Stats",
         "singular": "Stat",
         "plural": "Stats",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "day": {
         "original": "day",
         "singular": "day",
         "plural": "days",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerChannel": {
         "original": "Customer Channel",
         "singular": "Customer Channel",
         "plural": "Customer Channel",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "state": {
         "original": "State",
         "singular": "State",
         "plural": "State",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -369,29 +369,29 @@
       "customerSubSectorHasCustomerSector": "Customer Sector Data exists in the system for the Customer Sub Sector"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
-      "geofenceIconMessage": {
-        "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
-        "singular": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
-        "plural": "",
+        "setupVisible": false,
         "setupEdit": false,
-        "setupVisible": true
-      },
-      "customerSummary": {
-        "original": "Customer Summary",
-        "singular": "Customer Summary",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "customerLookup": {
-        "original": "Customer Lookup",
-        "singular": "Customer Lookup",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      }
+        "geofenceIconMessage": {
+          "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
+          "singular": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "customerSummary": {
+          "original": "Customer Summary",
+          "singular": "Customer Summary",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "customerLookup": {
+          "original": "Customer Lookup",
+          "singular": "Customer Lookup",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        }
     },
     "messages": {
       "technicianOnRoute": "Currently a user is en route to this task.",

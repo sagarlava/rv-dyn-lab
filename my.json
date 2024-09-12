@@ -68,7 +68,7 @@
       "type": {
         "original": "Type",
         "singular": "Jenis",
-        "plural": "Jenis",
+        "plural": "Jenis", 
         "setupEdit": true,
         "setupVisible": true
       },
@@ -77,40 +77,40 @@
         "singular": "Jenis Kategori",
         "plural": "Jenis Kategori",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sector": {
         "original": "Sector",
         "singular": "Sektor",
-        "plural": "Sektor",
+        "plural": "Sektor", 
         "setupEdit": true,
         "setupVisible": true
       },
       "subSector": {
         "original": "Sub-sector",
         "singular": "Sub-sektor",
-        "plural": "Sub-sektor",
+        "plural": "Sub-sektor", 
         "setupEdit": true,
         "setupVisible": true
       },
       "category": {
         "original": "Category",
         "singular": "Kategori",
-        "plural": "Kategori",
+        "plural": "Kategori", 
         "setupEdit": true,
         "setupVisible": true
       },
       "extId": {
         "original": "External ID",
         "singular": "ID Luaran",
-        "plural": "",
+        "plural": "", 
         "setupEdit": true,
         "setupVisible": true
       },
       "secExtId": {
         "original": "Second External ID",
         "singular": "ID Luaran Kedua",
-        "plural": "",
+        "plural": "", 
         "setupEdit": true,
         "setupVisible": true
       },
@@ -119,40 +119,40 @@
         "singular": "Sistem Digunakan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "patientRental": {
         "original": "Patient Rental TV",
         "singular": "TV Sewa Pesakit",
         "plural": "TV Sewa Pesakit",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "fixedRental": {
         "original": "Fixed Rental TV",
         "singular": "TV Sewa Tetap",
         "plural": "TV Sewa Tetap",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "industry": {
         "original": "Industry",
         "singular": "Industri",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "numberOfEmployees": {
         "original": "Number of Employees",
         "singular": "Bilangan Pekerja",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "area": {
         "original": "Area",
         "singular": "Kawasan",
-        "plural": "",
+        "plural": "", 
         "setupEdit": true,
         "setupVisible": true
       },
@@ -161,12 +161,12 @@
         "singular": "Terma Pembayaran",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "description": {
         "original": "Description",
         "singular": "Penerangan",
-        "plural": "",
+        "plural": "", 
         "setupEdit": true,
         "setupVisible": true
       },
@@ -175,47 +175,47 @@
         "singular": "Nama Akaun",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "referenceNo": {
         "original": "Reference No.",
         "singular": "No. Rujukan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "name": {
         "original": "Name",
         "singular": "Nama",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "noOfTerminals": {
         "original": "No. Of Terminal",
         "singular": "Bilangan Terminal",
         "plural": "Bilangan Terminal",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "autoTieGeofence": {
         "original": "Auto-tie Geofence",
         "singular": "Geofence Automatik",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerNo": {
         "original": "Customer No.",
         "singular": "No. Pelanggan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerReferenceId": {
         "original": "Customer Reference Id",
         "singular": "ID Rujukan Pelanggan",
-        "plural": "",
+        "plural": "", 
         "setupEdit": true,
         "setupVisible": true
       },
@@ -224,105 +224,105 @@
         "singular": "Telefon Hubungan Kes",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assignedTo": {
         "original": "Assigned To",
         "singular": "Diperuntukkan Kepada",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "team": {
         "original": "Team",
         "singular": "Pasukan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "location": {
         "original": "Location",
         "singular": "Lokasi",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "fieldExID": {
         "original": "FieldEx ID",
         "singular": "FieldEx ID",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "hospitalName": {
         "original": "Hospital Name",
         "singular": "Nama Hospital",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "hospitalCode": {
         "original": "Hospital Code",
         "singular": "Kod Hospital",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "next": {
         "original": "Next",
         "singular": "Seterusnya",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "currentContract": {
         "original": "Current Contract",
         "singular": "Kontrak Semasa",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "expiresIn": {
         "original": "Expires in",
         "singular": "Tamat dalam",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "latestActiveContract": {
         "original": "Latest Active Contract",
         "singular": "Kontrak Aktif Terbaru",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "stat": {
         "original": "Stats",
         "singular": "Statistik",
         "plural": "Statistik",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "day": {
         "original": "day",
         "singular": "hari",
         "plural": "hari",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerChannel": {
         "original": "Customer Channel",
         "singular": "Saluran Pelanggan",
         "plural": "Saluran Pelanggan",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "state": {
         "original": "State",
         "singular": "Negeri",
         "plural": "Negeri",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -369,28 +369,28 @@
       "customerSubSectorHasCustomerSector": "Data Sektor Pelanggan wujud dalam sistem untuk Sub Sektor Pelanggan"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "geofenceIconMessage": {
         "original": "Checking this box will find and tie the relevant Geofence to this Customer based on the Latitude and Longitude provided in the address(es) below",
         "singular": "Menandakan kotak ini akan mencari dan mengaitkan Geofence yang relevan dengan Pelanggan ini berdasarkan Latitud dan Longitud yang disediakan dalam alamat di bawah",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerSummary": {
         "original": "Customer Summary",
         "singular": "Ringkasan Pelanggan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "customerLookup": {
         "original": "Customer Lookup",
         "singular": "Carian Pelanggan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

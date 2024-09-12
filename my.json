@@ -1928,80 +1928,80 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "General Details",
         "singular": "Butiran Am",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec1": {
         "original": "Contract Details",
         "singular": "Butiran Kontrak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec4": {
         "original": "Select an asset to be added to the contract",
         "singular": "Pilih aset untuk ditambah ke dalam kontrak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec5": {
         "original": "Select an accessory to be added to the contract",
         "singular": "Pilih aksesori untuk ditambah ke dalam kontrak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec6": {
         "original": "Select Bin to transfer from",
         "singular": "Pilih Bin untuk dipindahkan dari",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec7": {
         "original": "Details",
         "singular": "Butiran",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec8": {
         "original": "Filter By",
         "singular": "Tapis Mengikut",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec9": {
         "original": "Contract Validity",
         "singular": "Kesahan Kontrak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec10": {
         "original": "Cancel Contract",
         "singular": "Batal Kontrak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec11": {
         "original": "Contract Item Details",
         "singular": "Butiran Item Kontrak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
-    "fields": {
+   "fields": {
       "setupVisible": true,
       "setupEdit": true,
       "status": {
@@ -2009,7 +2009,7 @@
         "singular": "Status",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "custodian": {
         "original": "Custodian",
@@ -2023,14 +2023,14 @@
         "singular": "Tarikh Mula",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "endDate": {
         "original": "End Date",
         "singular": "Tarikh Tamat",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "refNo": {
         "original": "Ref No",
@@ -2044,133 +2044,133 @@
         "singular": "Nama Aset",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetCode": {
         "original": "Asset Code",
         "singular": "Kod Aset",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "accessoryName": {
         "original": "Accessory Name",
         "singular": "Nama Aksesori",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "accessoryCode": {
         "original": "Accessory Code",
         "singular": "Kod Aksesori",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serialNo": {
         "original": "Serial No",
         "singular": "Nombor Siri",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serialNumber": {
         "original": "Serial Number",
         "singular": "Nombor Siri",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "bin": {
         "original": "Bin",
         "singular": "Bin",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "available": {
         "original": "Available",
         "singular": "Tersedia",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "qty": {
         "original": "Qty",
         "singular": "Kuantiti",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "quantity": {
         "original": "Quantity",
         "singular": "Kuantiti",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "returnQty": {
         "original": "Return Quantity",
         "singular": "Kuantiti Pulangan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "updateInventory": {
         "original": "Update Inventory",
         "singular": "Kemaskini Inventori",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "active": {
         "original": "Active",
         "singular": "Aktif",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "contractItemNo": {
         "original": "Contract Item No.",
         "singular": "No Item Kontrak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "transferredFromBin": {
         "original": "Transfered from Bin",
         "singular": "Dipindahkan dari Tong",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "Jenis",
         "plural": "Jenis",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "contractItemId": {
         "original": "Contract Item ID",
         "singular": "ID Item Kontrak",
         "plural": "ID Item Kontrak",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "contractItem": {
         "original": "Contract Item",
         "singular": "Item Kontrak",
         "plural": "Item Kontrak",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "contractNo": {
         "original": "Contract No.",
         "singular": "No. Kontrak",
         "plural": "No. Kontrak",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -2186,14 +2186,14 @@
       "contractIdExists": "Kontrak baru tidak boleh mempunyai ID sedia ada"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "contractLookup": {
         "original": "Contracts Lookup",
         "singular": "Carian Kontrak",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

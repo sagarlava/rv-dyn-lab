@@ -1928,77 +1928,77 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "General Details",
         "singular": "General Details",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec1": {
         "original": "Contract Details",
         "singular": "Contract Details",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec4": {
         "original": "Select an asset to be added to the contract",
         "singular": "Select an asset to be added to the contract",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec5": {
         "original": "Select an accessory to be added to the contract",
         "singular": "Select an accessory to be added to the contract",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec6": {
         "original": "Select Bin to transfer from",
         "singular": "Select Bin to transfer from",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec7": {
         "original": "Details",
         "singular": "Details",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec8": {
         "original": "Filter By",
         "singular": "Filter By",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec9": {
         "original": "Contract Validity",
         "singular": "Contract Validity",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec10": {
         "original": "Cancel Contract",
         "singular": "Cancel Contract",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec11": {
         "original": "Contract Item Details",
         "singular": "Contract Item Details",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "fields": {
@@ -2009,7 +2009,7 @@
         "singular": "Status",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "custodian": {
         "original": "Custodian",
@@ -2023,14 +2023,14 @@
         "singular": "Start Date",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "endDate": {
         "original": "End Date",
         "singular": "End Date",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "refNo": {
         "original": "Ref No",
@@ -2044,133 +2044,133 @@
         "singular": "Asset Name",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetCode": {
         "original": "Asset Code",
         "singular": "Asset Code",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "accessoryName": {
         "original": "Accessory Name",
         "singular": "Accessory Name",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "accessoryCode": {
         "original": "Accessory Code",
         "singular": "Accessory Code",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serialNo": {
         "original": "Serial No",
         "singular": "Serial No",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serialNumber": {
         "original": "Serial Number",
         "singular": "Serial Number",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "bin": {
         "original": "Bin",
         "singular": "Bin",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "available": {
         "original": "Available",
         "singular": "Available",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "qty": {
         "original": "Qty",
         "singular": "Qty",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "quantity": {
         "original": "Quantity",
         "singular": "Quantity",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "returnQty": {
         "original": "Return Quantity",
         "singular": "Return Quantity",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "updateInventory": {
         "original": "Update Inventory",
         "singular": "Update Inventory",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "active": {
         "original": "Active",
         "singular": "Active",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "contractItemNo": {
         "original": "Contract Item No.",
         "singular": "Contract Item No.",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "transferredFromBin": {
         "original": "Transfered from Bin",
         "singular": "Transfered from Bin",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "Type",
         "plural": "Types",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "contractItemId": {
         "original": "Contract Item ID",
         "singular": "Contract Item ID",
         "plural": "Contract Items ID",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "contractItem": {
         "original": "Contract Item",
         "singular": "Contract Item",
         "plural": "Contract Items",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "contractNo": {
         "original": "Contract No.",
         "singular": "Contract No.",
         "plural": "Contract No.",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -2186,14 +2186,14 @@
       "contractIdExists": "A new contract cannot already have an ID"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "contractLookup": {
         "original": "Contracts Lookup",
         "singular": "Contracts Lookup",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

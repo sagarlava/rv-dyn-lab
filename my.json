@@ -1758,130 +1758,130 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "Preventive Maintenance Details",
         "singular": "Butiran Penyelenggaraan Pencegahan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec1": {
         "original": "Maintenance Template",
         "singular": "Templat Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec2": {
         "original": "Maintenance Details",
         "singular": "Butiran Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec3": {
         "original": "Filter By",
         "singular": "Tapis Mengikut",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec4": {
         "original": "Details",
         "singular": "Butiran",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+        "setupEdit": false,
       "actualCompletionDate": {
         "original": "Actual Completion Date",
         "singular": "Tarikh Penyiapan Sebenar",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenance": {
         "original": "Maintenance",
         "singular": "Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "generateJobOrder": {
         "original": "Generate Job Order",
         "singular": "Hasilkan Pesanan Kerja",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "skillsAndTools": {
         "original": "Skills & Tools",
         "singular": "Kemahiran & Alat",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceFrequency": {
         "original": "Maintenance Frequency",
         "singular": "Kekerapan Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceTemplate": {
         "original": "Maintenance Template",
         "singular": "Templat Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceDate": {
         "original": "Maintenance Date",
         "singular": "Tarikh Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assignedUser": {
         "original": "Assigned User",
         "singular": "Pengguna yang Ditugaskan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "types": {
         "original": "Type",
         "singular": "Jenis",
         "plural": "Jenis",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceDateRange": {
         "original": "Maintenance Date Range",
         "singular": "Julat Tarikh Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "preventativeMaintenanceNo": {
         "original": "Preventative Maintenance No",
         "singular": "No. Penyelenggaraan Pencegahan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "frequencyName": {
         "original": "Frequency Name",
         "singular": "Nama Kekerapan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -1905,14 +1905,14 @@
       "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Data Frekuensi Penyelenggaraan Pencegahan wujud dalam sistem untuk Templat Penyelenggaraan Pencegahan"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "preventiveMaintenanceLookup": {
         "original": "Preventive Maintenance Lookup",
         "singular": "Carian Penyelenggaraan Pencegahan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {}

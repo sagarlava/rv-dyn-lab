@@ -1717,21 +1717,21 @@
       "maintenanceItemTableSetupNotFound": "未找到维护项目表格设置，请联系支持"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "preventiveMaintenance": {
         "original": "This is the timeframe in which the maintenance will be active",
         "singular": "这是维护活动的时间范围",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceLookup": {
         "original": "Maintenance Lookup",
         "singular": "查找维护",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

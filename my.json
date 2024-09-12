@@ -1478,228 +1478,228 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
-      "sec0": {
-        "original": "Maintenance Details",
-        "singular": "Butiran Penyelenggaraan",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec1": {
-        "original": "Maintenance Template",
-        "singular": "Templat Penyelenggaraan",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec2": {
-        "original": "Preventative Maintenance",
-        "singular": "Penyelenggaraan Pencegahan",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      },
-      "sec3": {
-        "original": "Details",
-        "singular": "Butiran",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": true
-      }
+    "setupVisible": false,
+     "setupEdit": false,
+    "sec0": {
+      "original": "Maintenance Details",
+      "singular": "Butiran Penyelenggaraan",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec1": {
+      "original": "Maintenance Template",
+      "singular": "Templat Penyelenggaraan",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec2": {
+      "original": "Preventative Maintenance",
+      "singular": "Penyelenggaraan Pencegahan",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec3": {
+      "original": "Details",
+      "singular": "Butiran",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    }
     },
     "fields": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "startDate": {
         "original": "Start Date",
         "singular": "Tarikh Mula",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "endDate": {
         "original": "End Date",
         "singular": "Tarikh Tamat",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "endTime": {
         "original": "End Time",
         "singular": "Waktu Tamat",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetStatus": {
         "original": "Asset Status",
         "singular": "Status Aset",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceTemplate": {
         "original": "Maintenance Template",
         "singular": "Templat Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sendInitialReminder": {
         "original": "Send Initial Reminder (Days Before)",
         "singular": "Hantar Peringatan Awal (Hari Sebelum)",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "followUpReminder": {
         "original": "Follow Up Reminder (Days Before)",
         "singular": "Hantar Peringatan Susulan (Hari Sebelum)",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sendOverdueReminder": {
         "original": "Send Overdue Reminder (Days After)",
         "singular": "Hantar Peringatan Lewat (Hari Selepas)",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "generateNextMaintenance": {
         "original": "Generate Next Maintenance",
         "singular": "Jana Penyelenggaraan Seterusnya",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "generateAllMaintenanceNow": {
         "original": "Generate All Maintenance Now",
         "singular": "Jana Semua Penyelenggaraan Sekarang",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "onlyUponPreviousCompletion": {
         "original": "Only Upon Previous Completion",
         "singular": "Hanya Setelah Selesai Sebelumnya",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "autoCreateJobOrder": {
         "original": "Automatically Generate Job Order",
         "singular": "Jana Pesanan Kerja Secara Automatik",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "initialReminder": {
         "original": "Initial Reminder (Days Before)",
         "singular": "Peringatan Awal (Hari Sebelum)",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "overdueReminder": {
         "original": "Overdue Reminder (Days After)",
         "singular": "Peringatan Lewat (Hari Selepas)",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "nextServiceDate": {
         "original": "Next Service Date",
         "singular": "Tarikh Servis Seterusnya",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "nextServiceType": {
         "original": "Next Service Type",
         "singular": "Jenis Servis Seterusnya",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceId": {
         "original": "Maintenance ID",
         "singular": "ID Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "scheduleNumber": {
         "original": "Scheduled No",
         "singular": "No Jadual",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "scheduledDateTime": {
         "original": "Scheduled Date",
         "singular": "Tarikh Jadual",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serviceType": {
         "original": "Service Type",
         "singular": "Jenis Servis",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "Jenis",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "other": {
         "original": "Other",
         "singular": "Lain-lain",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "actualCompletionDateTime": {
         "original": "Actual Completion Date",
         "singular": "Tarikh Selesai Sebenar",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetName": {
         "original": "Asset Name",
         "singular": "Nama Aset",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceDate": {
         "original": "Maintenance Date",
         "singular": "Tarikh Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "generateJobOrder": {
         "original": "Generate Job Order",
         "singular": "Jana Pesanan Kerja",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -1717,21 +1717,21 @@
       "maintenanceItemTableSetupNotFound": "Tetapan Jadual Item Penyelenggaraan tidak dijumpai, sila hubungi sokongan"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupEdit": false,
+      "setupVisible": false,
       "preventiveMaintenance": {
         "original": "This is the timeframe in which the maintenance will be active",
         "singular": "Ini adalah tempoh di mana penyelenggaraan akan aktif",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceLookup": {
         "original": "Maintenance Lookup",
         "singular": "Carian Penyelenggaraan",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

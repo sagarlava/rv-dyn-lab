@@ -2737,70 +2737,70 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "General Details",
         "singular": "基本信息 ",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec1": {
         "original": "Manufacturer Details",
         "singular": "制造商详情",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec2": {
         "original": "Price Details",
         "singular": "价格详情",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec3": {
         "original": "Additional Details",
         "singular": "附加信息 ",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec4": {
         "original": "Spare Part Details",
         "singular": "备件详情",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec5": {
         "original": "Adjust Inventory",
         "singular": "调整库存",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec6": {
         "original": "Check availability",
         "singular": "检查可用性",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec7": {
         "original": "Details",
         "singular": "细节",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec8": {
         "original": "Add a spare part and quantity to be created under Job Orders generated from this template",
         "singular": "添加备件和数量，以在从此模板生成的工作订单下创建",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "fields": {
@@ -2811,33 +2811,33 @@
         "singular": "名称",
         "plural": "名称",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
         "singular": "状态",
         "plural": "状态",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sku": {
         "original": "SKU",
         "singular": "库存单位 (SKU)",
         "plural": "库存单位 (SKU)",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "类型",
-        "plural": "类型",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "productFamily": {
         "original": "Spare Part Family",
         "singular": "备件系列",
-        "plural": "备件系列",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -2846,175 +2846,175 @@
         "singular": "保修期",
         "plural": "保修期",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "expiryDate": {
         "original": "Expiry Date",
         "singular": "到期日期",
         "plural": "到期日期",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serialNo": {
         "original": "Serial Number",
         "singular": "序列号",
         "plural": "序列号",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "unitMeasurement": {
         "original": "Unit of Measurement",
         "singular": "计量单位",
         "plural": "计量单位",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "photo": {
         "original": "Photo",
         "singular": "照片",
         "plural": "照片",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "makeModel": {
         "original": "Make/Model",
         "singular": "品牌/型号",
         "plural": "品牌/型号",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "manufacturer": {
         "original": "Manufacturer",
         "singular": "制造商",
         "plural": "制造商",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "manufacturerYear": {
         "original": "Manufacture Year",
         "singular": "制造年份",
         "plural": "制造年份",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "unitPrice": {
         "original": "Unit Price",
         "singular": "单价",
         "plural": "单价",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "taxIncluded": {
         "original": "Tax Included",
         "singular": "含税",
         "plural": "含税",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "notForSale": {
         "original": "Not For Sale",
         "singular": "非卖品",
         "plural": "非卖品",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remark",
         "singular": "备注",
         "plural": "备注",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "monthS": {
         "original": "Month(s)",
         "singular": "月",
         "plural": "月",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "productName": {
         "original": "Spare Part Name",
         "singular": "备件名称",
         "plural": "备件名称",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "productType": {
         "original": "Spare Part Type",
         "singular": "备件类型",
         "plural": "备件类型",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "productNo": {
         "original": "Spare Part No.",
         "singular": "备件编号",
         "plural": "备件编号",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "qty": {
         "original": "Qty",
         "singular": "数量",
         "plural": "数量",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "quantity": {
         "original": "quantity",
         "singular": "数量",
         "plural": "数量",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "totalPrice": {
         "original": "Total Price",
         "singular": "总价",
         "plural": "总价",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "warranty": {
         "original": "Warranty",
         "singular": "保修期",
         "plural": "保修期",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "user": {
         "original": "User",
         "singular": "用户",
         "plural": "用户",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "description": {
         "original": "Description",
         "singular": "描述",
         "plural": "描述",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "total": {
         "original": "Total",
         "singular": "总计",
         "plural": "总计",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "totalAmount": {
         "original": "Total Amount",
         "singular": "总金额",
         "plural": "总金额",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "subTotal": {
         "original": "Sub-total",
         "singular": "小计",
         "plural": "小计",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -3035,14 +3035,14 @@
       "productIdExtIdNotFound": "未找到ID/外部ID"
     },
     "tooltips": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "productLookup": {
         "original": "Spare Part Lookup",
         "singular": "备件查找",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "messages": {

@@ -9094,7 +9094,24 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec8": {
+        "original": "交易详情",
+        "singular": "交易详情",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec9": {
+        "original": "产品/资产转移",
+        "singular": "产品/资产转移",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
+
+
+
     },
     "fields": {
       "setupVisible": true,
@@ -9302,7 +9319,9 @@
       "transferQtyIsGreaterThanAvailableQuantityFor": "转移数量大于可用数量的一个或多个转移。",
       "binTransferSavedSuccessfully": "仓位转移保存成功",
       "assetsTransferred": "资产已转移",
-      "productsTransferred": "备件已转移"
+      "productsTransferred": "备件已转移",
+      "assetsAreNotAllowedToTransfer": "资产不允许转移到工作订单"
+
     }
   },
   "checkAvailibility": {

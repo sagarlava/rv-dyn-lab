@@ -9094,7 +9094,23 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec8": {
+        "original": "Butiran Transaksi",
+        "singular": "Butiran Transaksi",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec9": {
+        "original": "Pemindahan Produk/Aset",
+        "singular": "Pemindahan Produk/Aset",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
+
+
     },
     "fields": {
       "setupVisible": true,
@@ -9302,7 +9318,9 @@
       "transferQtyIsGreaterThanAvailableQuantityFor": "Kuantiti pemindahan lebih besar daripada kuantiti yang tersedia untuk satu atau lebih pemindahan.",
       "binTransferSavedSuccessfully": "Pemindahan Bin disimpan dengan berjaya",
       "assetsTransferred": "Aset dipindahkan",
-      "productsTransferred": "Alat Ganti dipindahkan"
+      "productsTransferred": "Alat Ganti dipindahkan",
+      "assetsAreNotAllowedToTransfer": "Aset tidak dibenarkan untuk dipindahkan kepada Pesanan Kerja"
+
     }
   },
   "checkAvailibility": {

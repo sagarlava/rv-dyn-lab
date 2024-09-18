@@ -9094,6 +9094,20 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec8": {
+        "original": "Transaction Details",
+        "singular": "Transaction Details",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec9": {
+        "original": "Product/Assets Transfer",
+        "singular": "Product/Assets Transfer",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -9262,6 +9276,7 @@
         "setupVisible": true
       }
     },
+  
     "validationBE": {
       "binTransferIdExists": "A new Bin Transfer cannot already have an ID",
       "binTransferCannotBeEdited": "This record is not allowed to edit as it has being accepted",
@@ -9272,6 +9287,7 @@
       "binTransferInvalidStatus": "Only allowed statuses: ACCEPTED/DECLINED/CANCEL",
       "binTransferNotFound": "Bin Transfer not found",
       "binTransferItemIdExists": "A new Bin Transfer Item cannot already have an ID"
+      
     },
     "messages": {
       "selectApprovalStatus": "Select Approval Status",
@@ -9302,7 +9318,8 @@
       "transferQtyIsGreaterThanAvailableQuantityFor":"Transfer quantity is greater than available quantity for one or more transfer.",
       "binTransferSavedSuccessfully":"Bin Transfer saved successfully",
       "assetsTransferred":"Asset(s) transferred",
-      "productsTransferred":"Spare Part(s) transferred"
+      "productsTransferred":"Spare Part(s) transferred",
+      "assetsAreNotAllowedToTransfer": "Assets are not allowed to transfer to Job order"
     }
   },
   "checkAvailibility": {

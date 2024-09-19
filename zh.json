@@ -8277,7 +8277,15 @@
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "purchase": {
+          "original": "购买",
+          "singular": "购买",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
+
       },
     "validationFE": {
       "endDateThanStartDate": "结束日期必须在开始日期之后",

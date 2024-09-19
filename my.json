@@ -8270,7 +8270,15 @@
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
+    },
+    "billable": {
+      "original": "Boleh Dicaj",
+      "singular": "Boleh Dicaj",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
     }
+
   },
     "validationFE": {
       "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula",

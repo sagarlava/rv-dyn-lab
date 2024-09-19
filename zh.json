@@ -7000,7 +7000,7 @@
         "pesticides": {
           "original": "Pesticides",
           "singular": "农药",
-          "plural": "",
+          "plural": "农药",
           "setupEdit": false,
           "setupVisible": false
         },
@@ -9109,9 +9109,6 @@
         "setupEdit": true,
         "setupVisible": true
       }
-
-
-
     },
     "fields": {
       "setupVisible": true,
@@ -9276,7 +9273,6 @@
         "setupEdit": true,
         "setupVisible": true
       }
-
     },
     "tooltips": {
       "binLookup": {
@@ -21142,7 +21138,8 @@
       "userLeaveUserManagerNotFound": "未找到经理，请联系您的管理员",
       "leaveAuditEventHistoryIdExists": "新的请假审核事件历史不能已有ID",
       "userLeaveOnlyAppliedCanBeEdited": "只有已申请的用户休假可以编辑",
-      "userLeaveOverlappingWithHolidays": "您的休假与节假日重叠，请更改您的休假日期并重试"
+      "userLeaveOverlappingWithHolidays": "您的休假与节假日重叠，请更改您的休假日期并重试",
+      "userLeaveUserWithIdNotFound": "无效的用户ID"
     },
     "messages": {
       "selectOutturnCode": "选择结果代码",

@@ -21139,7 +21139,8 @@
       "userLeaveUserManagerNotFound": "Manager not found, please contact your admin",
       "leaveAuditEventHistoryIdExists": "A new Leave Audit Event History cannot already have an ID",
       "userLeaveOnlyAppliedCanBeEdited": "Only Applied user leave can be edited",
-      "userLeaveOverlappingWithHolidays": "You have overlapping holidays, please change your leave dates and try again"
+      "userLeaveOverlappingWithHolidays": "You have overlapping holidays, please change your leave dates and try again",
+      "userLeaveUserWithIdNotFound": "Invalid User Id"
     },
     "messages": {
       "selectOutturnCode": "Select Outturn Code",

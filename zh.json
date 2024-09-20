@@ -2706,7 +2706,9 @@
       "totalDistanceTravelled": "总行驶距离",
       "totalTimeSpent": "总花费时间",
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "任务无法删除，因为旅程正在运行",
-      "journeyAlreadyRunningForAnotherTask": "另一个任务的旅程已经在运行"
+      "journeyAlreadyRunningForAnotherTask": "另一个任务的旅程已经在运行",
+      "endJourney": "Tamat Perjalanan",
+      "resolvingLocation": "Menyelesaikan Lokasi"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "未找到RouteId或TaskId",
@@ -12087,6 +12089,13 @@
       "declined": {
         "original": "Declined",
         "singular": "已拒绝",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "unassigned": {
+        "original": "Unassigned",
+        "singular": "未分配",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

@@ -2705,7 +2705,9 @@
       "totalDistanceTravelled":"Total distance travelled",
       "totalTimeSpent":"Total time spent",
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning":"'This task cant be deleted because journeey is running'",
-      "journeyAlreadyRunningForAnotherTask":"Journey already running for another task"
+      "journeyAlreadyRunningForAnotherTask":"Journey already running for another task",
+      "endJourney":"End Journey",
+      "resolvingLocation":"Resolving Location"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId or TaskId not found",
@@ -12085,6 +12087,13 @@
       "declined": {
         "original": "Declined",
         "singular": "Declined",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "unassigned": {
+        "original": "Unassigned",
+        "singular": "Tidak Ditetapkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

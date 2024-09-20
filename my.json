@@ -2705,7 +2705,9 @@
       "totalDistanceTravelled": "Jarak keseluruhan yang ditempuh",
       "totalTimeSpent": "Jumlah masa yang dihabiskan",
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "Tugas ini tidak boleh dihapus kerana perjalanan sedang berjalan",
-      "journeyAlreadyRunningForAnotherTask": "Perjalanan sudah berjalan untuk tugas lain"
+      "journeyAlreadyRunningForAnotherTask": "Perjalanan sudah berjalan untuk tugas lain",
+      "endJourney": "Tamat Perjalanan",
+      "resolvingLocation": "Menyelesaikan Lokasi"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "RouteId atau TaskId tidak dijumpai",
@@ -12086,6 +12088,13 @@
       "declined": {
         "original": "Declined",
         "singular": "Ditolak",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "unassigned": {
+        "original": "Unassigned",
+        "singular": "Tidak Ditetapkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

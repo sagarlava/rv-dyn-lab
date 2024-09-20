@@ -1177,7 +1177,8 @@
       "noUpcomingJobs": "Tiada Kerja Akan Datang",
       "previously": "Sebelumnya",
       "from": "Dari",
-      "warrantyStartDate": "Tarikh mula jaminan tidak boleh melebihi tarikh tamat jaminan"
+      "warrantyStartDate": "Tarikh mula jaminan tidak boleh melebihi tarikh tamat jaminan",
+      "errorFetchingAllAssets": "Ralat mendapatkan semua aset"
     }
   },
   "assetLog": {
@@ -4295,6 +4296,13 @@
       "allStaff": {
         "original": "All Staff",
         "singular": "Semua Kakitangan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startLocation": {
+        "original": "Lokasi Mula",
+        "singular": "Lokasi Mula",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

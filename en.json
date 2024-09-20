@@ -1177,7 +1177,8 @@
       "noUpcomingJobs":"No Upcoming Jobs",
       "previously":"Previously",
       "from":"From",
-      "warrantyStartDate":"Warranty start date should not be greater than warranty end date"
+      "warrantyStartDate":"Warranty start date should not be greater than warranty end date",
+      "errorFetchingAllAssets": "Error fetching all assets"
     }
   },
   "assetLog": {
@@ -4295,6 +4296,13 @@
       "allStaff": {
         "original": "All Staff",
         "singular": "All Staff",
+        "plural": "",
+         "setupEdit": false,
+        "setupVisible": false
+      },
+      "startLocation": {
+        "original": "Start Location",
+        "singular": "Start Location",
         "plural": "",
          "setupEdit": false,
         "setupVisible": false

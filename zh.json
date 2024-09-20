@@ -1177,7 +1177,9 @@
       "noUpcomingJobs": "没有即将进行的任务",
       "previously": "以前",
       "from": "从",
-      "warrantyStartDate": "保修开始日期不应晚于保修结束日期"
+      "warrantyStartDate": "保修开始日期不应晚于保修结束日期",
+      "errorFetchingAllAssets": "获取所有资产时出错"
+      
     }
   },
   "assetLog": {
@@ -4305,7 +4307,15 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "startLocation": {
+        "original": "起始位置",
+        "singular": "起始位置",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
+      
     },
     "validationFE": {},
     "validationBE": {

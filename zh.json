@@ -12170,6 +12170,55 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "waitingForParts": {
+        "original": "Waiting for Parts",
+        "singular": "等待零件",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "backOrdered": {
+        "original": "Back Ordered",
+        "singular": "积压订单",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ordered": {
+        "original": "Ordered",
+        "singular": "已订购",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "shipped": {
+        "original": "Shipped",
+        "singular": "已发货",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "received": {
+        "original": "Received",
+        "singular": "已收到",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredToCE": {
+        "original": "Transferred to CE",
+        "singular": "转移到 CE",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "issued": {
+        "original": "Issued",
+        "singular": "已发放",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",

@@ -20788,6 +20788,23 @@
       "setupUserShiftEndTimeNotFound": "Masa tamat tidak dijumpai untuk syif",
       "setupUserShiftNotFound": "Syif Pengguna tidak dijumpai",
       "setupZoneHasInventoryNotAllowedChangeLocation": "Tidak boleh menukar lokasi zon apabila mempunyai inventori"
+    },
+    "labelBE": {
+        "profileTableColumnSetup": {
+            "module": {
+                "moduleAsset": "Aset",
+                "moduleContract": "Kontrak",
+                "moduleCustomer": "Pelanggan",
+                "moduleJobOrder": "Pesanan Kerja",
+                "modulePreventiveMaintenance": "Penyelenggaraan Pencegahan",
+                "moduleProduct": "Produk",
+                "moduleProject": "Projek",
+                "moduleSalesOrder": "Pesanan Jualan",
+                "moduleSite": "Tapak",
+                "moduleTask": "Tugas",
+                "moduleTicket": "Tiket"
+            }
+        }
     }
   },
   "disclosure": {

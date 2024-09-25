@@ -20787,7 +20787,24 @@
       "setupUserShiftEndTimeNotFound": "End time not found for the shift",
       "setupUserShiftNotFound": "User Shift not found",
       "setupZoneHasInventoryNotAllowedChangeLocation": "Cannot change the zone location when having an inventory"
-    }
+    },
+    "labelBE": {
+          "profileTableColumnSetup": {
+              "module": {
+                  "moduleAsset": "Asset",
+                  "moduleContract": "Contract",
+                  "moduleCustomer": "Customer",
+                  "moduleJobOrder": "Job Order",
+                  "modulePreventiveMaintenance": "Preventive Maintenance",
+                  "moduleProduct": "Product",
+                  "moduleProject": "Project",
+                  "moduleSalesOrder": "Sales Order",
+                  "moduleSite": "Site",
+                  "moduleTask": "Task",
+                  "moduleTicket": "Ticket"
+              }
+          }
+      }
   },
   "disclosure":{
     "setupVisible": false,

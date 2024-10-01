@@ -20804,6 +20804,37 @@
               "task": "Tugas",
               "ticket": "Tiket"
             }
+        },
+        "profileModulePermission": {
+            "moduleAccessFeatures": {
+                "feature": {
+                    "name": {
+                        "customers": "Pelanggan",
+                        "sales_order": "Pesanan Jualan",
+                        "job_order": "Pesanan Kerja",
+                        "products": "Produk",
+                        "teams": "Pasukan",
+                        "tasks": "Tugas",
+                        "customer_payment": "Bayaran Pelanggan",
+                        "customer_purchase_history": "Sejarah Pembelian Pelanggan",
+                        "assets_tracking": "Penjejakan Aset",
+                        "planning_hub": "Pusat Perancangan",
+                        "delivery_orders": "Pesanan Penghantaran",
+                        "shifts": "Syif",
+                        "drivers": "Pemandu",
+                        "packages": "Pakej",
+                        "vehicles": "Kenderaan",
+                        "assets": "Aset",
+                        "assets_contracts": "Kontrak Aset",
+                        "scheduled_maintenance": "Penyelenggaraan Berjadual",
+                        "inventory": "Inventori",
+                        "tickets": "Tiket",
+                        "project": "Projek",
+                        "site": "Tapak",
+                        "checklists": "Senarai Semak"
+                    }
+                }
+            }
         }
     }
   },

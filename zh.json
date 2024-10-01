@@ -20805,6 +20805,37 @@
                 "task": "任务",
                 "ticket": "票据"
               }
+          },
+          "profileModulePermission": {
+              "moduleAccessFeatures": {
+                  "feature": {
+                      "name": {
+                          "customers": "客户",
+                          "sales_order": "销售订单",
+                          "job_order": "工作订单",
+                          "products": "产品",
+                          "teams": "团队",
+                          "tasks": "任务",
+                          "customer_payment": "客户付款",
+                          "customer_purchase_history": "客户购买历史",
+                          "assets_tracking": "资产追踪",
+                          "planning_hub": "计划中心",
+                          "delivery_orders": "送货单",
+                          "shifts": "轮班",
+                          "drivers": "司机",
+                          "packages": "包裹",
+                          "vehicles": "车辆",
+                          "assets": "资产",
+                          "assets_contracts": "资产合同",
+                          "scheduled_maintenance": "计划维护",
+                          "inventory": "库存",
+                          "tickets": "票务",
+                          "project": "项目",
+                          "site": "现场",
+                          "checklists": "清单"
+                      }
+                  }
+              }
           }
       }
   },

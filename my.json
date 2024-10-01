@@ -20835,6 +20835,80 @@
                     }
                 }
             }
+        },
+        "standardNotification": {
+            "inventory": {
+                "description": {
+                    "bin_under_stock": "Dihantar kepada pengurus kedai apabila salah satu bin mereka mencapai atau melebihi titik stok rendahnya",
+                    "bin_re_order_point": "Dihantar kepada pengurus kedai apabila salah satu bin mereka mencapai atau melebihi titik pesanan semula",
+                    "bin_transfer_request": "Dihantar kepada pihak yang meluluskan apabila permintaan pemindahan bin telah dibuat"
+                },
+                "name": {
+                    "bin_under_stock": "Titik Stok Rendah Bin Dicapai",
+                    "bin_re_order_point": "Titik Pesanan Semula Bin Dicapai",
+                    "bin_transfer_request": "Permintaan Pemindahan Bin"
+                }
+            },
+            "job_order": {
+                "description": {
+                    "job_order_assigned": "Dihantar kepada pengguna apabila mereka telah dilantik sebagai pemilik pesanan untuk Pesanan Kerja",
+                    "job_order_completed": "Dihantar kepada pengurus pemilik pesanan apabila status Pesanan Kerja telah berubah kepada 'Selesai' (atau setara)"
+                },
+                "name": {
+                    "job_order_assigned": "Penugasan Pesanan Kerja",
+                    "job_order_completed": "Penyelesaian Pesanan Kerja"
+                }
+            },
+            "maintenance": {
+                "description": {
+                    "maintenance_completed": "Dihantar kepada penjaga Aset apabila penyelenggaraan telah diselesaikan"
+                },
+                "name": {
+                    "maintenance_completed": "Penyelenggaraan Lengkap"
+                }
+            },
+            "task": {
+                "description": {
+                    "task_assigned": "Dihantar kepada pengguna apabila mereka telah ditugaskan kepada Tugas",
+                    "task_location_updated": "Dihantar kepada pengguna apabila lokasi Tugas yang mereka ditugaskan telah dikemas kini",
+                    "task_accepted": "Dihantar kepada pengguna apabila seseorang telah menerima Tugas yang mereka tugaskan",
+                    "task_rejected": "Dihantar kepada pencipta Tugas apabila pengguna biasa (bukan pemilik) yang ditugaskan kepada Tugas menolak",
+                    "task_rejected_by_owner": "Dihantar kepada pemberi Tugas apabila pemilik Tugas menolak",
+                    "owner_task_completed": "Dihantar kepada pemberi tugas apabila status keseluruhan tugas telah ditandakan sebagai lengkap",
+                    "user_task_completed": "Dihantar kepada pencipta tugas apabila individu yang ditugaskan telah menandakan Tugas mereka sebagai lengkap",
+                    "task_deleted": "Dihantar kepada penerima Tugas apabila Tugas tersebut dihapuskan",
+                    "task_note_added": "Dihantar kepada pemberi Tugas apabila nota baru ditambahkan",
+                    "task_note_added_for_task_members": "Dihantar kepada anggota tugas apabila nota baru ditambahkan"
+                },
+                "name": {
+                    "task_assigned": "Penugasan Tugas",
+                    "task_location_updated": "Lokasi Tugas Telah Dikemas Kini",
+                    "task_accepted": "Pengguna Telah Menerima Tugas",
+                    "task_rejected": "Pengguna Biasa Telah Menolak Tugas",
+                    "task_rejected_by_owner": "Tugas Telah Ditolak Oleh Pemilik",
+                    "owner_task_completed": "Tugas Utama Telah Lengkap",
+                    "user_task_completed": "Tugas Individu Telah Lengkap",
+                    "task_deleted": "Pemberi Tugas Telah Menghapus Tugas",
+                    "task_note_added": "Pengguna Telah Menambah Nota kepada Tugas",
+                    "task_note_added_for_task_members": "Pengguna Telah Menambah Nota kepada Tugas"
+                }
+            },
+            "user": {
+                "description": {
+                    "user_working_hour_changed": "Dihantar kepada pengurus pengguna apabila mereka mengubah waktu kerja mereka",
+                    "user_added_to_team": "Dihantar kepada pengguna apabila mereka telah ditambahkan ke dalam pasukan",
+                    "user_leave_application": "Dihantar kepada penyelia pengguna apabila mereka memohon cuti",
+                    "user_leave_accepted": "Dihantar kepada pengguna apabila permohonan cuti mereka telah diterima",
+                    "user_leave_reject": "Dihantar kepada pengguna apabila permohonan cuti mereka telah ditolak"
+                },
+                "name": {
+                    "user_working_hour_changed": "Pengguna telah Mengubah Waktu Kerja mereka",
+                    "user_added_to_team": "Anda telah Ditambahkan ke dalam Pasukan",
+                    "user_leave_application": "Pengguna telah Memohon Cuti",
+                    "user_leave_accepted": "Cuti anda telah Diterima",
+                    "user_leave_reject": "Cuti anda telah Ditolak"
+                }
+            }
         }
     }
   },

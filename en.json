@@ -20789,19 +20789,19 @@
       "setupZoneHasInventoryNotAllowedChangeLocation": "Cannot change the zone location when having an inventory"
     },
     "labelBE": {
-          "profileTableColumnSetup": {
+        "profileTableColumnSetup": {
               "module": {
-                  "moduleAsset": "Asset",
-                  "moduleContract": "Contract",
-                  "moduleCustomer": "Customer",
-                  "moduleJobOrder": "Job Order",
-                  "modulePreventiveMaintenance": "Preventive Maintenance",
-                  "moduleProduct": "Product",
-                  "moduleProject": "Project",
-                  "moduleSalesOrder": "Sales Order",
-                  "moduleSite": "Site",
-                  "moduleTask": "Task",
-                  "moduleTicket": "Ticket"
+                  "assets": "资产",
+                  "contract": "合同",
+                  "customer": "客户",
+                  "job_order": "工单",
+                  "maintenance_item": "预防性维护",
+                  "product": "产品",
+                  "project": "项目",
+                  "sales_order": "销售订单",
+                  "site": "现场",
+                  "task": "任务",
+                  "ticket": "票据"
               }
           }
       }

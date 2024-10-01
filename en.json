@@ -20834,6 +20834,80 @@
                       }
                   }
               }
+          },
+          "standardNotification": {
+              "inventory": {
+                  "description": {
+                      "bin_under_stock": "Sent to the store manager when one of their bins reaches or exceeds its under stock point",
+                      "bin_re_order_point": "Sent to the store manager when one of their bins reaches or exceeds its reorder point",
+                      "bin_transfer_request": "Sent to the approver when a bin transfer has been requested"
+                  },
+                  "name": {
+                      "bin_under_stock": "Bin Under Stock Point Reached",
+                      "bin_re_order_point": "Bin Reorder Point Reached",
+                      "bin_transfer_request": "Bin Transfer Request"
+                  }
+              },
+              "job_order": {
+                  "description": {
+                      "job_order_assigned": "Sent to a user when they have been assigned as order owner for a Job Order",
+                      "job_order_completed": "Sent to an order owner's manager when a Job Order status has changed to 'Completed' (or equivalent)"
+                  },
+                  "name": {
+                      "job_order_assigned": "Job Order Assignment",
+                      "job_order_completed": "Job Order Completion"
+                  }
+              },
+              "maintenance": {
+                  "description": {
+                      "maintenance_completed": "Sent to the Asset custodian when a Maintenance has been completed"
+                  },
+                  "name": {
+                      "maintenance_completed": "Maintenance Complete"
+                  }
+              },
+              "task": {
+                  "description": {
+                      "task_assigned": "Sent to a user when they have been assigned to a Task",
+                      "task_location_updated": "Sent to a user when the location of a Task they are assigned to has been updated",
+                      "task_accepted": "Sent to a user when someone has accepted a Task they assigned",
+                      "task_rejected": "Sent to the Task creator when a normal user (not owner) assigned to the Task rejects it",
+                      "task_rejected_by_owner": "Sent to the Task assignor when the Task owner rejects it",
+                      "owner_task_completed": "Sent to the assignor when a task's overall status has been marked as completed",
+                      "user_task_completed": "Sent to the task creator when an assigned individual has marked their Task as complete",
+                      "task_deleted": "Sent to the assignee of a Task when it is deleted",
+                      "task_note_added": "Sent to the Task assignor when a new note is added",
+                      "task_note_added_for_task_members": "Sent to task members when a new note is added"
+                  },
+                  "name": {
+                      "task_assigned": "Task Assignment",
+                      "task_location_updated": "Task Location Updated",
+                      "task_accepted": "User Accepted a Task",
+                      "task_rejected": "Normal User Rejected a Task",
+                      "task_rejected_by_owner": "Task has been Rejected by Owner",
+                      "owner_task_completed": "Main Task has been Completed",
+                      "user_task_completed": "Individual Task has been Completed",
+                      "task_deleted": "Assignor has Deleted a Task",
+                      "task_note_added": "User has Added a Note to a Task",
+                      "task_note_added_for_task_members": "User has Added a Note to a Task"
+                  }
+              },
+              "user": {
+                  "description": {
+                      "user_working_hour_changed": "Sent to a user's manager when they change their working hours",
+                      "user_added_to_team": "Sent to a user when they have been added to a team",
+                      "user_leave_application": "Sent to a user's supervisor when they apply for leave",
+                      "user_leave_accepted": "Sent to a user when their leave request has been accepted",
+                      "user_leave_reject": "Sent to a user when their leave request has been rejected"
+                  },
+                  "name": {
+                      "user_working_hour_changed": "User has Changed their Working Hours",
+                      "user_added_to_team": "You have been Added to a Team",
+                      "user_leave_application": "User has Applied for Leave",
+                      "user_leave_accepted": "Your Leave has been Accepted",
+                      "user_leave_reject": "Your Leave has been Rejected"
+                  }
+              }
           }
       }
   },

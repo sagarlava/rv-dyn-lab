@@ -20836,7 +20836,81 @@
                       }
                   }
               }
-          }
+          },
+          "standardNotification": {
+            "inventory": {
+                "description": {
+                    "bin_under_stock": "当某个箱子的库存达到或超过其低库存点时，发送给店经理",
+                    "bin_re_order_point": "当某个箱子的库存达到或超过其补货点时，发送给店经理",
+                    "bin_transfer_request": "当请求箱子转移时，发送给审批人"
+                },
+                "name": {
+                    "bin_under_stock": "箱子低库存点已达到",
+                    "bin_re_order_point": "箱子补货点已达到",
+                    "bin_transfer_request": "箱子转移请求"
+                }
+            },
+            "job_order": {
+                "description": {
+                    "job_order_assigned": "当用户被分配为工作订单的订单所有者时发送",
+                    "job_order_completed": "当工作订单状态变为 '已完成'（或相应状态）时发送给订单所有者的经理"
+                },
+                "name": {
+                    "job_order_assigned": "工作订单分配",
+                    "job_order_completed": "工作订单完成"
+                }
+            },
+            "maintenance": {
+                "description": {
+                    "maintenance_completed": "当维护完成时，发送给资产保管人"
+                },
+                "name": {
+                    "maintenance_completed": "维护完成"
+                }
+            },
+            "task": {
+                "description": {
+                    "task_assigned": "当用户被分配到任务时发送",
+                    "task_location_updated": "当用户分配的任务位置已更新时发送",
+                    "task_accepted": "当有人接受他们分配的任务时发送给用户",
+                    "task_rejected": "当普通用户（非所有者）拒绝被分配的任务时发送给任务创建者",
+                    "task_rejected_by_owner": "当任务所有者拒绝任务时发送给任务分配人",
+                    "owner_task_completed": "当任务的整体状态标记为完成时发送给分配人",
+                    "user_task_completed": "当被分配的个人将他们的任务标记为完成时发送给任务创建者",
+                    "task_deleted": "当任务被删除时发送给任务的受让人",
+                    "task_note_added": "当新笔记添加时发送给任务分配人",
+                    "task_note_added_for_task_members": "当新笔记添加时发送给任务成员"
+                },
+                "name": {
+                    "task_assigned": "任务分配",
+                    "task_location_updated": "任务位置已更新",
+                    "task_accepted": "用户已接受任务",
+                    "task_rejected": "普通用户已拒绝任务",
+                    "task_rejected_by_owner": "任务已被所有者拒绝",
+                    "owner_task_completed": "主要任务已完成",
+                    "user_task_completed": "个人任务已完成",
+                    "task_deleted": "分配人已删除任务",
+                    "task_note_added": "用户已向任务添加笔记",
+                    "task_note_added_for_task_members": "用户已向任务添加笔记"
+                }
+            },
+            "user": {
+                "description": {
+                    "user_working_hour_changed": "当用户更改工作时间时，发送给用户的经理",
+                    "user_added_to_team": "当用户被添加到团队时发送",
+                    "user_leave_application": "当用户申请休假时，发送给用户的主管",
+                    "user_leave_accepted": "当用户的休假申请被接受时发送给用户",
+                    "user_leave_reject": "当用户的休假申请被拒绝时发送给用户"
+                },
+                "name": {
+                    "user_working_hour_changed": "用户已更改其工作时间",
+                    "user_added_to_team": "您已被添加到团队",
+                    "user_leave_application": "用户已申请休假",
+                    "user_leave_accepted": "您的休假已被接受",
+                    "user_leave_reject": "您的休假已被拒绝"
+                }
+            }
+        }
       }
   },
   "disclosure": {

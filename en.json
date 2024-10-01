@@ -20803,6 +20803,37 @@
                   "task": "Task",
                   "ticket": "Ticket"
               }
+          },
+        "profileModulePermission": {
+              "moduleAccessFeatures": {
+                  "feature": {
+                      "name": {
+                          "customers": "Customers",
+                          "sales_order": "Sales Order",
+                          "job_order": "Job Order",
+                          "products": "Products",
+                          "teams": "Teams",
+                          "tasks": "Tasks",
+                          "customer_payment": "Customer Payment",
+                          "customer_purchase_history": "Customer Purchase History",
+                          "assets_tracking": "Assets Tracking",
+                          "planning_hub": "Planning Hub",
+                          "delivery_orders": "Delivery Orders",
+                          "shifts": "Shifts",
+                          "drivers": "Drivers",
+                          "packages": "Packages",
+                          "vehicles": "Vehicles",
+                          "assets": "Assets",
+                          "assets_contracts": "Asset Contracts",
+                          "scheduled_maintenance": "Scheduled Maintenance",
+                          "inventory": "Inventory",
+                          "tickets": "Tickets",
+                          "project": "Project",
+                          "site": "Site",
+                          "checklists": "Checklists"
+                      }
+                  }
+              }
           }
       }
   },

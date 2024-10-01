@@ -20793,17 +20793,17 @@
     "labelBE": {
           "profileTableColumnSetup": {
               "module": {
-                  "moduleAsset": "资产",
-                  "moduleContract": "合同",
-                  "moduleCustomer": "客户",
-                  "moduleJobOrder": "工单",
-                  "modulePreventiveMaintenance": "预防性维护",
-                  "moduleProduct": "产品",
-                  "moduleProject": "项目",
-                  "moduleSalesOrder": "销售订单",
-                  "moduleSite": "现场",
-                  "moduleTask": "任务",
-                  "moduleTicket": "票据"
+                "assets": "资产",
+                "contract": "合同",
+                "customer": "客户",
+                "job_order": "工单",
+                "maintenance_item": "预防性维护",
+                "product": "产品",
+                "project": "项目",
+                "sales_order": "销售订单",
+                "site": "现场",
+                "task": "任务",
+                "ticket": "票据"
               }
           }
       }

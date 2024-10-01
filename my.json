@@ -20792,17 +20792,17 @@
     "labelBE": {
         "profileTableColumnSetup": {
             "module": {
-                "moduleAsset": "Aset",
-                "moduleContract": "Kontrak",
-                "moduleCustomer": "Pelanggan",
-                "moduleJobOrder": "Pesanan Kerja",
-                "modulePreventiveMaintenance": "Penyelenggaraan Pencegahan",
-                "moduleProduct": "Produk",
-                "moduleProject": "Projek",
-                "moduleSalesOrder": "Pesanan Jualan",
-                "moduleSite": "Tapak",
-                "moduleTask": "Tugas",
-                "moduleTicket": "Tiket"
+              "assets": "Aset",
+              "contract": "Kontrak",
+              "customer": "Pelanggan",
+              "job_order": "Pesanan Kerja",
+              "maintenance_item": "Penyelenggaraan Pencegahan",
+              "product": "Produk",
+              "project": "Projek",
+              "sales_order": "Pesanan Jualan",
+              "site": "Tapak",
+              "task": "Tugas",
+              "ticket": "Tiket"
             }
         }
     }

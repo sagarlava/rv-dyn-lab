@@ -5240,7 +5240,9 @@
       "projectCustomerNotFound": "Project Customer not found",
       "projectTypeNotFound": "Project Type not found",
       "projectIdExists": "A new project cannot already have an ID",
-      "projectExtidNotFound": "Project ExternalId not found"
+      "projectExtidNotFound": "Project ExternalId not found",
+      "projectCannotDeleteBySites": "Unable to delete, Project is used in one or more Sites",
+      "projectCannotDeleteByJobOrders": "Unable to delete, Project is used in one or more Job Order"
     },
     "tooltips": {
       "setupVisible": true,

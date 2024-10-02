@@ -5242,7 +5242,9 @@
       "projectCustomerNotFound": "未找到项目客户",
       "projectTypeNotFound": "未找到项目类型",
       "projectIdExists": "新项目不能已有ID",
-      "projectExtidNotFound": "未找到项目外部ID"
+      "projectExtidNotFound": "未找到项目外部ID",
+      "projectCannotDeleteBySites": "无法删除, 项目被用于一个或多个站点",
+      "projectCannotDeleteByJobOrders": "无法删除, 项目被用于一个或多个工作订单"
     },
     "tooltips": {
       "setupVisible": true,

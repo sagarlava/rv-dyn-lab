@@ -8307,6 +8307,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
+        },
+        "date": {
+          "original": "Date",
+          "singular": "日期",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
     "validationFE": {

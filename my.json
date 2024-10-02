@@ -333,7 +333,7 @@
       "customerIdNotFound": "ID tidak dijumpai",
       "customerNotFound": "Pelanggan tidak dijumpai",
       "customerDeleted": "Pelanggan telah dipadam",
-      "customerCannotDeleteByProjects": "Tidak dapat dipadamkan: pelanggan adalah sebahagian daripada satu atau lebih projek",
+      "customerCannotDeleteByProjects": "Tidak dapat dipadamkan, pelanggan adalah sebahagian daripada satu atau lebih projek",
       "customerLocationNotFound": "Lokasi pengguna tidak sah",
       "customerGeoFenceNotFound": "Geografi pelanggan tidak dijumpai",
       "customerServiceZoneNotFound": "Zon Perkhidmatan Pelanggan tidak dijumpai",
@@ -2646,7 +2646,8 @@
       "checklistQuestionChecklistRecordNotFound": "Rekod Senarai Semak tidak dijumpai",
       "checklistQuestionIdExists": "Soalan Senarai Semak baru tidak boleh mempunyai ID sedia ada",
       "checklistQuestionAssetNotFound": "Aset Soalan Senarai Semak tidak dijumpai",
-      "checklistAnsIdExists": "Jawapan Senarai Semak baru tidak boleh mempunyai ID sedia ada"
+      "checklistAnsIdExists": "Jawapan Senarai Semak baru tidak boleh mempunyai ID sedia ada",
+      "checklistCannotDeleteByRecords": "Tidak dapat dihapuskan, rekod ini dikaitkan dengan satu atau lebih rekod"
     },
     "tooltips": {
       "setupVisible": false,
@@ -20758,6 +20759,7 @@
       "setupTmplChecklistQuestionIdExists": "TmplChecklistQuestion baru tidak boleh sudah mempunyai ID",
       "setupTmplChecklistQuestionSystemGenerated": "TmplChecklistQuestion yang dijana oleh sistem tidak dibenarkan untuk dipadam",
       "setupTmplChecklistQuestionsCheckListFilterVMAssetTypeNotFound": "Model atau Jenis diperlukan",
+      "setupTmplChecklistQuestionsCannotDeleteByRecords": "Tidak dapat dihapuskan, rekod ini dikaitkan dengan satu atau lebih rekod",
       "setupTmplChecklistIdExists": "TmplChecklist baru tidak boleh sudah mempunyai ID",
       "setupTmplChecklistNotFound": "Senarai Semak tidak ditemui",
       "setupTmplChecklistMakeModelTypeExists": "Buat Model/ Jenis sudah wujud",

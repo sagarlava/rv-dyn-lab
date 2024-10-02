@@ -8300,8 +8300,14 @@
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "acknowledgedDate": {
+          "original": "Acknowledge Date",
+          "singular": "确认日期",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
         }
-
       },
     "validationFE": {
       "endDateThanStartDate": "结束日期必须在开始日期之后",

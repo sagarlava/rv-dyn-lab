@@ -8298,9 +8298,14 @@
       "plural": "",
       "setupEdit": false,
       "setupVisible": false
+    },
+    "acknowledgedDate": {
+      "original": "Acknowledge Date",
+      "singular": "Tarikh Diakui",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
     }
-
-
   },
     "validationFE": {
       "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula",

@@ -333,7 +333,7 @@
       "customerIdNotFound": "未找到ID",
       "customerNotFound": "未找到客户",
       "customerDeleted": "客户已删除",
-      "customerCannotDeleteByProjects": "无法删除：客户是一个或多个项目的一部分",
+      "customerCannotDeleteByProjects": "无法删除, 客户是一个或多个项目的一部分",
       "customerLocationNotFound": "用户位置无效",
       "customerGeoFenceNotFound": "未找到客户地理围栏",
       "customerServiceZoneNotFound": "未找到客户服务区域",
@@ -2647,7 +2647,8 @@
       "checklistQuestionChecklistRecordNotFound": "未找到检查表记录",
       "checklistQuestionIdExists": "新的检查表问题不能已有ID",
       "checklistQuestionAssetNotFound": "未找到检查表问题资产",
-      "checklistAnsIdExists": "新的检查表答案不能已有ID"
+      "checklistAnsIdExists": "新的检查表答案不能已有ID".
+      "checklistCannotDeleteByRecords": "无法删除，此记录关联到一个或多个记录"
     },
     "tooltips": {
       "setupVisible": false,
@@ -20759,6 +20760,7 @@
       "setupTmplChecklistQuestionIdExists": "新TmplChecklistQuestion不能已有ID",
       "setupTmplChecklistQuestionSystemGenerated": "系统生成的TmplChecklistQuestion不允许删除",
       "setupTmplChecklistQuestionsCheckListFilterVMAssetTypeNotFound": "需要型号或类型",
+      "setupTmplChecklistQuestionsCannotDeleteByRecords": "无法删除，此记录关联到一个或多个记录",
       "setupTmplChecklistIdExists": "新TmplChecklist不能已有ID",
       "setupTmplChecklistNotFound": "未找到检查表",
       "setupTmplChecklistMakeModelTypeExists": "型号/类型已存在",

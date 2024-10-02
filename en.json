@@ -333,7 +333,7 @@
       "customerIdNotFound": "Id not found",
       "customerNotFound": "Customer not found",
       "customerDeleted": "Customer is Deleted",
-      "customerCannotDeleteByProjects": "Unable to Delete: customer is part of one or more projects",
+      "customerCannotDeleteByProjects": "Unable to Delete, customer is part of one or more projects",
       "customerLocationNotFound": "Invalid user location",
       "customerGeoFenceNotFound": "Customer Geo Fence not found",
       "customerServiceZoneNotFound": "Customer Service Zone not found",
@@ -2646,7 +2646,8 @@
       "checklistQuestionChecklistRecordNotFound": "Checklist Record not found",
       "checklistQuestionIdExists": "A new Checklist Question cannot already have an ID",
       "checklistQuestionAssetNotFound": "Checklist Question Asset not found",
-      "checklistAnsIdExists": "A new Checklist Answer cannot already have an ID"
+      "checklistAnsIdExists": "A new Checklist Answer cannot already have an ID",
+      "checklistCannotDeleteByRecords": "Unable to Delete, this record is associated with one or more records"
     },
     "tooltips": {
       "setupVisible": false,
@@ -20757,6 +20758,7 @@
       "setupTmplChecklistQuestionIdExists": "A new TmplChecklistQuestion cannot already have an ID",
       "setupTmplChecklistQuestionSystemGenerated": "System generated TmplChecklistQuestion are not allowed to be deleted",
       "setupTmplChecklistQuestionsCheckListFilterVMAssetTypeNotFound": "Model or Type is required",
+      "setupTmplChecklistQuestionsCannotDeleteByRecords": "Unable to Delete, this record is associated with one or more records",
       "setupTmplChecklistIdExists": "A new TmplChecklist cannot already have an ID",
       "setupTmplChecklistNotFound": "Checklist not found",
       "setupTmplChecklistMakeModelTypeExists": "Make Model/ Type already exists",

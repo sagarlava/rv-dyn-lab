@@ -5240,7 +5240,9 @@
       "projectCustomerNotFound": "Pelanggan Projek tidak dijumpai",
       "projectTypeNotFound": "Jenis Projek tidak dijumpai",
       "projectIdExists": "Projek baru tidak boleh mempunyai ID sedia ada",
-      "projectExtidNotFound": "ID Luar Projek tidak dijumpai"
+      "projectExtidNotFound": "ID Luar Projek tidak dijumpai",
+      "projectCannotDeleteBySites": "Tidak dapat dihapuskan, Projek digunakan dalam satu atau lebih Tapak",
+      "projectCannotDeleteByJobOrders": "Tidak dapat dihapuskan, Projek digunakan dalam satu atau lebih Pesanan Kerja"
     },
     "tooltips": {
       "setupVisible": true,

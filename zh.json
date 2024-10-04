@@ -2647,7 +2647,7 @@
       "checklistQuestionChecklistRecordNotFound": "未找到检查表记录",
       "checklistQuestionIdExists": "新的检查表问题不能已有ID",
       "checklistQuestionAssetNotFound": "未找到检查表问题资产",
-      "checklistAnsIdExists": "新的检查表答案不能已有ID".
+      "checklistAnsIdExists": "新的检查表答案不能已有ID",
       "checklistCannotDeleteByRecords": "无法删除，此记录关联到一个或多个记录"
     },
     "tooltips": {
@@ -13938,6 +13938,20 @@
             "original": "Reports to",
             "singular": "汇报给",
             "plural": "汇报给",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "unassignedUser": {
+            "original": "Unassigned Users",
+            "singular": "未分配用户",
+            "plural": "未分配用户",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "allUser": {
+            "original": "All Users",
+            "singular": "所有用户",
+            "plural": "所有用户",
             "setupEdit": true,
             "setupVisible": false
           }

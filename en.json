@@ -13939,6 +13939,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "unassignedUser": {
+            "original": "Unassigned Users",
+            "singular": "Unassigned User",
+            "plural": "Unassigned Users",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "allUser": {
+            "original": "All Users",
+            "singular": "All User",
+            "plural": "All Users",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "validationFE": {},

@@ -13938,6 +13938,20 @@
             "plural": "Lapor Kepada",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "unassignedUser": {
+            "original": "Unassigned Users",
+            "singular": "Pengguna Belum Ditugaskan",
+            "plural": "Pengguna Belum Ditugaskan",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "allUser": {
+            "original": "All Users",
+            "singular": "Semua Pengguna",
+            "plural": "Semua Pengguna",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "validationFE": {},

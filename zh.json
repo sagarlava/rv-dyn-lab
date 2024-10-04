@@ -22932,7 +22932,14 @@
         "plural": "备注",
         "setupEdit": true,
         "setupVisible": true
-      }
+      },
+      "attendanceDateRange": {
+        "original": "Attendance Date Range",
+        "singular": "出勤日期范围",
+        "plural": "出勤日期范围",
+        "setupEdit": true,
+        "setupVisible": true
+      }    
     },
     "tooltips": {
       "setupVisible": true,

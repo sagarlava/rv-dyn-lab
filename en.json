@@ -20865,6 +20865,26 @@
                           "checklists": "Checklists"
                       }
                   }
+              },
+              "adminSettingsFeatures": {
+                  "feature": {
+                      "name": {
+                          "manage_org_detail": "Manage ORG Detail",
+                          "manage_users": "Manage Users",
+                          "manage_hierarchy": "Manage Hierarchy",
+                          "manage_access": "Manage Access",
+                          "fleet_setup": "Fleet Setup",
+                          "manage_tickets": "Manage Tickets",
+                          "manage_inventory": "Manage Inventory",
+                          "manage_import_export": "Manage Import & Export",
+                          "manage_geo_fence": "Manage Geo Fence",
+                          "manage_notification": "Manage Notification",
+                          "manage_modules": "Manage Module",
+                          "manage_workflow": "Manage Workflow",
+                          "manage_customer_surveys": "Manage Customer Surveys",
+                          "manage_integrations": "Manage Integrations"
+                      }
+                  }
               }
           },
           "standardNotification": {

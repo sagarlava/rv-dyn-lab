@@ -20864,6 +20864,26 @@
                         "checklists": "Senarai Semak"
                     }
                 }
+            },
+            "adminSettingsFeatures": {
+                "feature": {
+                    "name": {
+                        "manage_org_detail": "Urus Butiran Organisasi",
+                        "manage_users": "Urus Pengguna",
+                        "manage_hierarchy": "Urus Hierarki",
+                        "manage_access": "Urus Akses",
+                        "fleet_setup": "Tetapan Armada",
+                        "manage_tickets": "Urus Tiket",
+                        "manage_inventory": "Urus Inventori",
+                        "manage_import_export": "Urus Import & Eksport",
+                        "manage_geo_fence": "Urus Geo Fence",
+                        "manage_notification": "Urus Notifikasi",
+                        "manage_modules": "Urus Modul",
+                        "manage_workflow": "Urus Aliran Kerja",
+                        "manage_customer_surveys": "Urus Tinjauan Pelanggan",
+                        "manage_integrations": "Urus Integrasi"
+                    }
+                }
             }
         },
         "standardNotification": {

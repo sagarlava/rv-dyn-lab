@@ -20866,6 +20866,26 @@
                           "checklists": "清单"
                       }
                   }
+              },
+              "adminSettingsFeatures": {
+                  "feature": {
+                      "name": {
+                          "manage_org_detail": "管理组织详情",
+                          "manage_users": "管理用户",
+                          "manage_hierarchy": "管理层级",
+                          "manage_access": "管理访问权限",
+                          "fleet_setup": "车队设置",
+                          "manage_tickets": "管理工单",
+                          "manage_inventory": "管理库存",
+                          "manage_import_export": "管理进出口",
+                          "manage_geo_fence": "管理地理围栏",
+                          "manage_notification": "管理通知",
+                          "manage_modules": "管理模块",
+                          "manage_workflow": "管理工作流程",
+                          "manage_customer_surveys": "管理客户调查",
+                          "manage_integrations": "管理集成"
+                      }
+                  }
               }
           },
           "standardNotification": {

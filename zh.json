@@ -1666,14 +1666,14 @@
       "type": {
         "original": "Type",
         "singular": "类型",
-        "plural": "",
+        "plural": "类型",
         "setupEdit": false,
         "setupVisible": true
       },
       "other": {
         "original": "Other",
         "singular": "其他",
-        "plural": "",
+        "plural": "其他",
         "setupEdit": false,
         "setupVisible": true
       },
@@ -11859,6 +11859,13 @@
       },
       "breakDown": {
         "original": "Break Down",
+        "singular": "故障",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "breakdown": {
+        "original": "Breakdown",
         "singular": "故障",
         "plural": "",
         "setupEdit": true,

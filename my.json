@@ -1665,14 +1665,14 @@
       "type": {
         "original": "Type",
         "singular": "Jenis",
-        "plural": "",
+        "plural": "Jenis",
         "setupEdit": false,
         "setupVisible": false
       },
       "other": {
         "original": "Other",
         "singular": "Lain-lain",
-        "plural": "",
+        "plural": "Lain-lain",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -11857,6 +11857,13 @@
       },
       "breakDown": {
         "original": "Break Down",
+        "singular": "Rosak",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "breakdown": {
+        "original": "Breakdown",
         "singular": "Rosak",
         "plural": "",
         "setupEdit": true,

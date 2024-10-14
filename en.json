@@ -1665,14 +1665,14 @@
       "type": {
         "original": "Type",
         "singular": "Type",
-        "plural": "",
+        "plural": "Types",
         "setupEdit": false,
         "setupVisible": false
       },
       "other": {
         "original": "Other",
         "singular": "Other",
-        "plural": "",
+        "plural": "Others",
         "setupEdit": false,
         "setupVisible": false
       },
@@ -11863,6 +11863,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "breakdown": {
+        "original": "Breakdown",
+        "singular": "Breakdown",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "expired": {
         "original": "Expired",
         "singular": "Expired",
@@ -12117,7 +12124,7 @@
       },
       "unassigned": {
         "original": "Unassigned",
-        "singular": "Tidak Ditetapkan",
+        "singular": "Unassigned",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false

@@ -22325,6 +22325,20 @@
           "setupEdit": true,
           "setupVisible": false
         },
+        "incompleteTask": {
+          "original": "Incomplete Task",
+          "singular": "Incomplete Task",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "completedTask": {
+          "original": "Completed Task",
+          "singular": "Completed Task",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
         "noJobStatusTeam": {
           "original": "No Job Status by this team yet",
           "singular": "No Job Status by this team yet",

@@ -22324,6 +22324,20 @@
           "setupEdit": true,
           "setupVisible": false
         },
+        "incompleteTask": {
+          "original": "Incomplete Task",
+          "singular": "Tugasan Tidak Lengkap",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "completedTask": {
+          "original": "Completed Task",
+          "singular": "Tugasan Selesai",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
         "noJobStatusTeam": {
           "original": "No Job Status by this team yet",
           "singular": "Belum Ada Status Kerja oleh pasukan ini",

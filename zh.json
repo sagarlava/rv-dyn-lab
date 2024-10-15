@@ -22327,6 +22327,20 @@
           "setupEdit": true,
           "setupVisible": false
         },
+        "incompleteTask": {
+          "original": "Incomplete Task",
+          "singular": "未完成任务",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "completedTask": {
+          "original": "Completed Task",
+          "singular": "已完成任务",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
         "noJobStatusTeam": {
           "original": "No Job Status by this team yet",
           "singular": "该团队尚无工作状态",

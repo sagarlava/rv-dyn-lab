@@ -22743,6 +22743,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "jobOrderId": {
+          "original": "Job Order ID",
+          "singular": "ID Pesanan Kerja",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "orderName": {
+          "original": "Order Name",
+          "singular": "Nama Pesanan",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "orderTimeDate": {
+          "original": "Order Time & Date",
+          "singular": "Waktu & Tarikh Pesanan",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "messages": {

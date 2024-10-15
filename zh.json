@@ -22746,6 +22746,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "jobOrderId": {
+          "original": "Job Order ID",
+          "singular": "工作订单ID",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "orderName": {
+          "original": "Order Name",
+          "singular": "订单名称",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "orderTimeDate": {
+          "original": "Order Time & Date",
+          "singular": "订单时间和日期",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "messages": {

@@ -22744,6 +22744,27 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "jobOrderId": {
+          "original": "Job Order ID",
+          "singular": "Job Order ID",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "orderName": {
+          "original": "Order Name",
+          "singular": "Order Name",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "orderTimeDate": {
+          "original": "Order Time & Date",
+          "singular": "Order Time & Date",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "messages": {

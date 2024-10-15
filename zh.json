@@ -12277,6 +12277,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "submitted": {
+        "original": "Submitted",
+        "singular": "已提交",
+        "plural": "已提交",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",

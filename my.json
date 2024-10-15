@@ -12274,7 +12274,14 @@
         "plural": "Tinggi",
         "setupEdit": false,
         "setupVisible": false
-      },    
+      }, 
+      "submitted": {
+        "original": "Submitted",
+        "singular": "Telah Dihantar",
+        "plural": "Telah Dihantar",
+        "setupEdit": false,
+        "setupVisible": false
+      },   
       "messages": {
         "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
         "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",

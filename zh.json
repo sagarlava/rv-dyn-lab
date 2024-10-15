@@ -10,321 +10,321 @@
       "setupVisible": true
     },
     "sections": {
-        "setupVisible": true,
+      "setupVisible": true,
+      "setupEdit": true,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息",
+        "plural": "",
         "setupEdit": true,
-        "sec0": {
-          "original": "General Details",
-          "singular": "基本信息",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec1": {
-          "original": "Main Contact Details",
-          "singular": "主要联系人信息",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec2": {
-          "original": "Integration Details",
-          "singular": "集成信息",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec3": {
-          "original": "Additional Details",
-          "singular": "附加信息",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec4": {
-          "original": "Details",
-          "singular": "详细信息",
-          "plural": "详细信息",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec5": {
-          "original": "Customer Details",
-          "singular": "客户信息",
-          "plural": "客户信息",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec6": {
-          "original": "Overview",
-          "singular": "概述",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        }
+        "setupVisible": true
       },
+      "sec1": {
+        "original": "Main Contact Details",
+        "singular": "主要联系人信息",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Integration Details",
+        "singular": "集成信息",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Additional Details",
+        "singular": "附加信息",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec4": {
+        "original": "Details",
+        "singular": "详细信息",
+        "plural": "详细信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Customer Details",
+        "singular": "客户信息",
+        "plural": "客户信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Overview",
+        "singular": "概述",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "fields": {
-        "setupVisible": true,
+      "setupVisible": true,
+      "setupEdit": true,
+      "type": {
+        "original": "Type",
+        "singular": "类型",
+        "plural": "类型",
         "setupEdit": true,
-        "type": {
-          "original": "Type",
-          "singular": "类型",
-          "plural": "类型", 
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "categoryType": {
-          "original": "Category Type",
-          "singular": "类别类型",
-          "plural": "类别类型",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sector": {
-          "original": "Sector",
-          "singular": "部门",
-          "plural": "部门", 
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "subSector": {
-          "original": "Sub-sector",
-          "singular": "子部门",
-          "plural": "子部门", 
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "category": {
-          "original": "Category",
-          "singular": "类别",
-          "plural": "类别", 
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "extId": {
-          "original": "External ID",
-          "singular": "外部ID",
-          "plural": "", 
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "secExtId": {
-          "original": "Second External ID",
-          "singular": "第二外部ID",
-          "plural": "", 
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "systemUsed": {
-          "original": "System Used",
-          "singular": "使用系统",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "patientRental": {
-          "original": "Patient Rental TV",
-          "singular": "患者租赁电视",
-          "plural": "患者租赁电视",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "fixedRental": {
-          "original": "Fixed Rental TV",
-          "singular": "固定租赁电视",
-          "plural": "固定租赁电视",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "industry": {
-          "original": "Industry",
-          "singular": "行业",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "numberOfEmployees": {
-          "original": "Number of Employees",
-          "singular": "员工数量",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "area": {
-          "original": "Area",
-          "singular": "区域",
-          "plural": "", 
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "paymentTerm": {
-          "original": "Payment Term",
-          "singular": "付款条款",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "description": {
-          "original": "Description",
-          "singular": "描述",
-          "plural": "", 
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "accountName": {
-          "original": "Account Name",
-          "singular": "账户名称",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "referenceNo": {
-          "original": "Reference No.",
-          "singular": "参考编号",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "name": {
-          "original": "Name",
-          "singular": "名称",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "noOfTerminals": {
-          "original": "No. Of Terminal",
-          "singular": "终端数量",
-          "plural": "终端数量",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "autoTieGeofence": {
-          "original": "Auto-tie Geofence",
-          "singular": "自动绑定地理围栏",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "customerNo": {
-          "original": "Customer No.",
-          "singular": "客户编号",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "customerReferenceId": {
-          "original": "Customer Reference Id",
-          "singular": "客户参考ID",
-          "plural": "", 
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "caseContactPhone": {
-          "original": "Case Contact Phone",
-          "singular": "案件联系电话",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assignedTo": {
-          "original": "Assigned To",
-          "singular": "分配给",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "team": {
-          "original": "Team",
-          "singular": "团队",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "location": {
-          "original": "Location",
-          "singular": "位置",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "fieldExID": {
-          "original": "FieldEx ID",
-          "singular": "FieldEx ID",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "hospitalName": {
-          "original": "Hospital Name",
-          "singular": "医院名称",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "hospitalCode": {
-          "original": "Hospital Code",
-          "singular": "医院代码",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "next": {
-          "original": "Next",
-          "singular": "下一步",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "currentContract": {
-          "original": "Current Contract",
-          "singular": "当前合同",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "expiresIn": {
-          "original": "Expires in",
-          "singular": "到期于",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "latestActiveContract": {
-          "original": "Latest Active Contract",
-          "singular": "最新有效合同",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "stat": {
-          "original": "Stats",
-          "singular": "统计",
-          "plural": "统计",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "day": {
-          "original": "day",
-          "singular": "天",
-          "plural": "天",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "customerChannel": {
-          "original": "Customer Channel",
-          "singular": "客户渠道",
-          "plural": "客户渠道",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "state": {
-          "original": "State",
-          "singular": "州",
-          "plural": "州",
-          "setupEdit": false,
-          "setupVisible": false
-        }
+        "setupVisible": true
       },
+      "categoryType": {
+        "original": "Category Type",
+        "singular": "类别类型",
+        "plural": "类别类型",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sector": {
+        "original": "Sector",
+        "singular": "部门",
+        "plural": "部门",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subSector": {
+        "original": "Sub-sector",
+        "singular": "子部门",
+        "plural": "子部门",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "category": {
+        "original": "Category",
+        "singular": "类别",
+        "plural": "类别",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "extId": {
+        "original": "External ID",
+        "singular": "外部ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "secExtId": {
+        "original": "Second External ID",
+        "singular": "第二外部ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "systemUsed": {
+        "original": "System Used",
+        "singular": "使用系统",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "patientRental": {
+        "original": "Patient Rental TV",
+        "singular": "患者租赁电视",
+        "plural": "患者租赁电视",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRental": {
+        "original": "Fixed Rental TV",
+        "singular": "固定租赁电视",
+        "plural": "固定租赁电视",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "industry": {
+        "original": "Industry",
+        "singular": "行业",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "numberOfEmployees": {
+        "original": "Number of Employees",
+        "singular": "员工数量",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "area": {
+        "original": "Area",
+        "singular": "区域",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "paymentTerm": {
+        "original": "Payment Term",
+        "singular": "付款条款",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "描述",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "accountName": {
+        "original": "Account Name",
+        "singular": "账户名称",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "referenceNo": {
+        "original": "Reference No.",
+        "singular": "参考编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "名称",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "noOfTerminals": {
+        "original": "No. Of Terminal",
+        "singular": "终端数量",
+        "plural": "终端数量",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "autoTieGeofence": {
+        "original": "Auto-tie Geofence",
+        "singular": "自动绑定地理围栏",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerNo": {
+        "original": "Customer No.",
+        "singular": "客户编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerReferenceId": {
+        "original": "Customer Reference Id",
+        "singular": "客户参考ID",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "caseContactPhone": {
+        "original": "Case Contact Phone",
+        "singular": "案件联系电话",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assignedTo": {
+        "original": "Assigned To",
+        "singular": "分配给",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "team": {
+        "original": "Team",
+        "singular": "团队",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "位置",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fieldExID": {
+        "original": "FieldEx ID",
+        "singular": "FieldEx ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hospitalName": {
+        "original": "Hospital Name",
+        "singular": "医院名称",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hospitalCode": {
+        "original": "Hospital Code",
+        "singular": "医院代码",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "next": {
+        "original": "Next",
+        "singular": "下一步",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentContract": {
+        "original": "Current Contract",
+        "singular": "当前合同",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expiresIn": {
+        "original": "Expires in",
+        "singular": "到期于",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latestActiveContract": {
+        "original": "Latest Active Contract",
+        "singular": "最新有效合同",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "stat": {
+        "original": "Stats",
+        "singular": "统计",
+        "plural": "统计",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "day",
+        "singular": "天",
+        "plural": "天",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerChannel": {
+        "original": "Customer Channel",
+        "singular": "客户渠道",
+        "plural": "客户渠道",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "state": {
+        "original": "State",
+        "singular": "州",
+        "plural": "州",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "customerIdExidNotFound": "未找到 ID/客户外部ID",
@@ -368,7 +368,7 @@
       "customerSubSectorSystemGenerated": "不允许删除系统生成的客户子行业",
       "customerSubSectorHasCustomerSector": "系统中存在客户子行业的客户行业数据"
     },
-  "tooltips": {
+    "tooltips": {
       "setupVisible": false,
       "setupEdit": false,
       "geofenceIconMessage": {
@@ -414,138 +414,138 @@
       "setupVisible": true
     },
     "sections": {
-        "setupVisible": true,
+      "setupVisible": true,
+      "setupEdit": true,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本详情",
+        "plural": "",
         "setupEdit": true,
-        "sec0": {
-          "original": "General Details",
-          "singular": "基本详情",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec1": {
-          "original": "Ownership & Location",
-          "singular": "所有权与位置",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec2": {
-          "original": "Coverage Period & Acquisition",
-          "singular": "覆盖期与获取",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec3": {
-          "original": "Equipment Details",
-          "singular": "设备详情",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec4": {
-          "original": "Additional Details",
-          "singular": "附加详情",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec5": {
-          "original": "Overview",
-          "singular": "概况",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec6": {
-          "original": "Timeline",
-          "singular": "时间线",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec7": {
-          "original": "Current Meter Reading",
-          "singular": "当前设备度数",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec8": {
-          "original": "Current Contract",
-          "singular": "当前合同",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec9": {
-          "original": "QR/Barcode",
-          "singular": "二维码/条形码",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec10": {
-          "original": "Filter By",
-          "singular": "筛选依据",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec11": {
-          "original": "Details",
-          "singular": "详情",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec12": {
-          "original": "Accessory Details",
-          "singular": "配件详情",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec13": {
-          "original": "Asset Log",
-          "singular": "资产日志",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec14": {
-          "original": "Log Details",
-          "singular": "日志详情",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec15": {
-          "original": "New Entry",
-          "singular": "新条目",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec16": {
-          "original": "Asset Details",
-          "singular": "资产详情",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec17": {
-          "original": "Change Status",
-          "singular": "更改状态",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        }
+        "setupVisible": true
       },
+      "sec1": {
+        "original": "Ownership & Location",
+        "singular": "所有权与位置",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Coverage Period & Acquisition",
+        "singular": "覆盖期与获取",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec3": {
+        "original": "Equipment Details",
+        "singular": "设备详情",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec4": {
+        "original": "Additional Details",
+        "singular": "附加详情",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec5": {
+        "original": "Overview",
+        "singular": "概况",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Timeline",
+        "singular": "时间线",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Current Meter Reading",
+        "singular": "当前设备度数",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Current Contract",
+        "singular": "当前合同",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "QR/Barcode",
+        "singular": "二维码/条形码",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Filter By",
+        "singular": "筛选依据",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec11": {
+        "original": "Details",
+        "singular": "详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec12": {
+        "original": "Accessory Details",
+        "singular": "配件详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec13": {
+        "original": "Asset Log",
+        "singular": "资产日志",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec14": {
+        "original": "Log Details",
+        "singular": "日志详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "New Entry",
+        "singular": "新条目",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec16": {
+        "original": "Asset Details",
+        "singular": "资产详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec17": {
+        "original": "Change Status",
+        "singular": "更改状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "fields": {
-    "setupEdit": true,
-    "setupVisible": true,
+      "setupEdit": true,
+      "setupVisible": true,
       "type": {
         "original": "Type",
         "singular": "类型",
@@ -1179,7 +1179,6 @@
       "from": "从",
       "warrantyStartDate": "保修开始日期不应晚于保修结束日期",
       "errorFetchingAllAssets": "获取所有资产时出错"
-      
     }
   },
   "assetLog": {
@@ -1193,29 +1192,29 @@
       "setupVisible": true
     },
     "sections": {
-    "setupVisible": false,
-     "setupEdit": false,
-    "sec0": {
-      "original": "Log Details",
-      "singular": "日志详情",
-      "plural": "",
+      "setupVisible": false,
       "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec1": {
-      "original": "New Entry",
-      "singular": "新条目",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec2": {
-      "original": "Filter By",
-      "singular": "筛选条件",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    }
+      "sec0": {
+        "original": "Log Details",
+        "singular": "日志详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "New Entry",
+        "singular": "新条目",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Filter By",
+        "singular": "筛选条件",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "fields": {
       "setupVisible": false,
@@ -1761,9 +1760,9 @@
       "setupEdit": true,
       "setupVisible": true
     },
-   "sections": {
+    "sections": {
       "setupVisible": false,
-       "setupEdit": false,
+      "setupEdit": false,
       "sec0": {
         "original": "Preventive Maintenance Details",
         "singular": "预防性维护详情",
@@ -1802,7 +1801,7 @@
     },
     "fields": {
       "setupVisible": false,
-       "setupEdit": false,
+      "setupEdit": false,
       "actualCompletionDate": {
         "original": "Actual Completion Date",
         "singular": "实际完成日期",
@@ -1933,7 +1932,7 @@
     },
     "sections": {
       "setupVisible": false,
-       "setupEdit": false,
+      "setupEdit": false,
       "sec0": {
         "original": "General Details",
         "singular": "基本详情",
@@ -2427,106 +2426,106 @@
       "setupVisible": true
     },
     "sections": {
-    "setupVisible": false,
-     "setupEdit": false,
-    "sec0": {
-      "original": "General Details",
-      "singular": "常规详情",
-      "plural": "",
+      "setupVisible": false,
       "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec1": {
-      "original": "Checklist Details",
-      "singular": "清单详情",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec2": {
-      "original": "Select the checklist you'd like to generate for this Asset",
-      "singular": "选择要为此资产生成的清单",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec3": {
-      "original": "Updating the Asset within Checklist",
-      "singular": "在清单中更新资产",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec4": {
-      "original": "Update the status of",
-      "singular": "更新状态",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec5": {
-      "original": "Asset Summary",
-      "singular": "资产概述",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec6": {
-      "original": "Details",
-      "singular": "详情",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec7": {
-      "original": "Filter By",
-      "singular": "筛选条件",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec8": {
-      "original": "Asset Details",
-      "singular": "资产详情",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec9": {
-      "original": "Questions",
-      "singular": "问题",
-      "plural": "问题",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec10": {
-      "original": "Asset Updates",
-      "singular": "资产更新",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec11": {
-      "original": "Follow-Up Checklist",
-      "singular": "后续清单",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec12": {
-      "original": "Change Status",
-      "singular": "更改状态",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sec13": {
-      "original": "Add Products",
-      "singular": "添加产品",
-      "plural": "添加产品",
-      "setupEdit": false,
-      "setupVisible": false
-    }    
+      "sec0": {
+        "original": "General Details",
+        "singular": "常规详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Checklist Details",
+        "singular": "清单详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Select the checklist you'd like to generate for this Asset",
+        "singular": "选择要为此资产生成的清单",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Updating the Asset within Checklist",
+        "singular": "在清单中更新资产",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Update the status of",
+        "singular": "更新状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Asset Summary",
+        "singular": "资产概述",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Details",
+        "singular": "详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Filter By",
+        "singular": "筛选条件",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Asset Details",
+        "singular": "资产详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Questions",
+        "singular": "问题",
+        "plural": "问题",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Asset Updates",
+        "singular": "资产更新",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec11": {
+        "original": "Follow-Up Checklist",
+        "singular": "后续清单",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec12": {
+        "original": "Change Status",
+        "singular": "更改状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec13": {
+        "original": "Add Products",
+        "singular": "添加产品",
+        "plural": "添加产品",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "fields": {
       "setupVisible": false,
@@ -4318,7 +4317,6 @@
         "setupEdit": false,
         "setupVisible": false
       }
-      
     },
     "validationFE": {},
     "validationBE": {
@@ -4579,50 +4577,50 @@
       "setupVisible": true
     },
     "sections": {
-        "setupVisible": false,
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息 ",
+        "plural": "基本信息 ",
         "setupEdit": false,
-        "sec0": {
-          "original": "General Details",
-          "singular": "基本信息 ",
-          "plural": "基本信息 ",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec1": {
-          "original": "Contact Details",
-          "singular": "联系详情",
-          "plural": "联系详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec2": {
-          "original": "Site Details",
-          "singular": "站点详情",
-          "plural": "站点详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec3": {
-          "original": "Details",
-          "singular": "细节",
-          "plural": "细节",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec4": {
-          "original": "Filter By",
-          "singular": "筛选",
-          "plural": "筛选",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec5": {
-          "original": "Forms",
-          "singular": "表单",
-          "plural": "表单",
-          "setupEdit": false,
-          "setupVisible": false
-        }
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Contact Details",
+        "singular": "联系详情",
+        "plural": "联系详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec2": {
+        "original": "Site Details",
+        "singular": "站点详情",
+        "plural": "站点详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Details",
+        "singular": "细节",
+        "plural": "细节",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Filter By",
+        "singular": "筛选",
+        "plural": "筛选",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Forms",
+        "singular": "表单",
+        "plural": "表单",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "fields": {
       "setupVisible": true,
@@ -5734,1171 +5732,1171 @@
       "setupVisible": true
     },
     "sections": {
-        "setupVisible": true,
-        "setupEdit": true,
-        "sec0": {
-          "original": "General Details",
-          "singular": "基本详情",
-          "plural": "基本详情",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec1": {
-          "original": "Asset Details",
-          "singular": "资产详情",
-          "plural": "资产详情",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec2": {
-          "original": "Customer Details",
-          "singular": "客户详情",
-          "plural": "客户详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec3": {
-          "original": "Bin Details",
-          "singular": "Bin详情",
-          "plural": "Bin详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec4": {
-          "original": "Bin Transfer Details",
-          "singular": "Bin转移详情",
-          "plural": "Bin转移详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec5": {
-          "original": "Calendly Details",
-          "singular": "Calendly详情",
-          "plural": "Calendly详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec6": {
-          "original": "Case Details",
-          "singular": "案例详情",
-          "plural": "案例详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec7": {
-          "original": "Client Details",
-          "singular": "客户详情",
-          "plural": "客户详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec8": {
-          "original": "Completion Details",
-          "singular": "完成详情",
-          "plural": "完成详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec9": {
-          "original": "Contact Person Details",
-          "singular": "联系人详情",
-          "plural": "联系人详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec10": {
-          "original": "Customer Survey Details",
-          "singular": "客户调查详情",
-          "plural": "客户调查详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec11": {
-          "original": "Details",
-          "singular": "详情",
-          "plural": "详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec12": {
-          "original": "Fault Details",
-          "singular": "故障详情",
-          "plural": "故障详情",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec13": {
-          "original": "Fault Module",
-          "singular": "故障模块",
-          "plural": "故障模块",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec14": {
-          "original": "Financial Details",
-          "singular": "财务详情",
-          "plural": "财务详情",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec15": {
-          "original": "Further Details",
-          "singular": "进一步详情",
-          "plural": "进一步详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec16": {
-          "original": "Hospital Details",
-          "singular": "医院详情",
-          "plural": "医院详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec17": {
-          "original": "Hospital Record Infomation",
-          "singular": "医院记录信息",
-          "plural": "医院记录信息",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec18": {
-          "original": "Item Details",
-          "singular": "项目详情",
-          "plural": "项目详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec19": {
-          "original": "Job Details",
-          "singular": "工作详情",
-          "plural": "工作详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec20": {
-          "original": "Part Order Details",
-          "singular": "零件订单详情",
-          "plural": "零件订单详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec21": {
-          "original": "Payment Details",
-          "singular": "支付详情",
-          "plural": "支付详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec22": {
-          "original": "Spare Part Details",
-          "singular": "备件详情",
-          "plural": "备件详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec23": {
-          "original": "Products and Service Charges",
-          "singular": "备件和服务费用",
-          "plural": "备件和服务费用",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec24": {
-          "original": "Resolution Details",
-          "singular": "解决详情",
-          "plural": "解决详情",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec25": {
-          "original": "Service Checklist",
-          "singular": "服务清单",
-          "plural": "服务清单",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec26": {
-          "original": "Survey Details",
-          "singular": "调查详情",
-          "plural": "调查详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec27": {
-          "original": "System Information",
-          "singular": "系统信息",
-          "plural": "系统信息",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec28": {
-          "original": "System Summary",
-          "singular": "系统概述",
-          "plural": "系统概述",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec29": {
-          "original": "Handover Details",
-          "singular": "交接详情",
-          "plural": "交接详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec30": {
-          "original": "Filter By",
-          "singular": "筛选条件",
-          "plural": "筛选条件",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec31": {
-          "original": "Select the survey you would like to send and click 'Generate' to create it.",
-          "singular": "选择您要发送的调查并点击'生成'以创建它。",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec32": {
-          "original": "Specify the email address of who you want this survey to be sent to",
-          "singular": "指定您希望发送此调查的电子邮件地址",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec33": {
-          "original": "SLA",
-          "singular": "SLA",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec34": {
-          "original": "Forms",
-          "singular": "表单",
-          "plural": "表单",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec35": {
-          "original": "Fault and Resolution",
-          "singular": "故障与解决",
-          "plural": "故障与解决",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec36": {
-          "original": "SLA",
-          "singular": "SLA",
-          "plural": "SLA",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec37": {
-          "original": "Service Form Auto Fill",
-          "singular": "服务表单自动填写",
-          "plural": "服务表单自动填写",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec38": {
-          "original": "Additional Details",
-          "singular": "附加详情",
-          "plural": "附加详情",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec39": {
-          "original": "Required Forms",
-          "singular": "所需表单",
-          "plural": "所需表单",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec40": {
-          "original": "Job Order Details",
-          "singular": "工作订单详情",
-          "plural": "工作订单详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec41": {
-          "original": "Part Order",
-          "singular": "零件订单",
-          "plural": "零件订单",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec42": {
-          "original": "Replaced Module",
-          "singular": "更换模块",
-          "plural": "更换模块",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec43": {
-          "original": "WO Details",
-          "singular": "工单详情",
-          "plural": "工单详情",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec44": {
-          "original": "Edit Hp Form",
-          "singular": "编辑HP表单",
-          "plural": "编辑HP表单",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec45": {
-          "original": "View Survey Results",
-          "singular": "查看调查结果",
-          "plural": "查看调查结果",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec46": {
-          "original": "Fault Call Unit",
-          "singular": "故障呼叫单元",
-          "plural": "故障呼叫单元",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec47": {
-          "original": "View Survey Form",
-          "singular": "查看调查表",
-          "plural": "查看调查表",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec48": {
-          "original": "Location Details",
-          "singular": "位置详情",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        }
-      },
-    "fields": {
-        "setupVisible": true,
+      "setupVisible": true,
       "setupEdit": true,
-        "sla": {
-          "original": "SLA",
-          "singular": "SLA",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "history": {
-          "original": "History",
-          "singular": "历史",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "acknowledgedBy": {
-          "original": "Acknowledged by",
-          "singular": "确认者",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "action": {
-          "original": "Action",
-          "singular": "行动",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "adapter": {
-          "original": "Adapter",
-          "singular": "适配器",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "addEquipment": {
-          "original": "Add Equipment",
-          "singular": "添加设备",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "additionalParts": {
-          "original": "Additional Parts",
-          "singular": "附加部件",
-          "plural": "附加部件",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "alarmSystem": {
-          "original": "Alarm System",
-          "singular": "警报系统",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "alarms": {
-          "original": "Alarm",
-          "singular": "警报",
-          "plural": "警报",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "arrivalTime": {
-          "original": "Arrival Time",
-          "singular": "到达时间",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "bed": {
-          "original": "Bed",
-          "singular": "床",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "bedStatus": {
-          "original": "Bed Status",
-          "singular": "床状态",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "branchAcknowledge": {
-          "original": "Branch Acknowledge",
-          "singular": "分支确认",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetUnderWarranty": {
-          "original": "Asset Under Warranty",
-          "singular": "保修资产",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "notifyCustomer": {
-          "original": "Notify Customer",
-          "singular": "通知客户",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "cableCondition": {
-          "original": "Cable Condition",
-          "singular": "电缆状况",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "calendlyLinkSentTo": {
-          "original": "Calendly link sent to",
-          "singular": "Calendly链接发送至",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "calendlyStepOne": {
-          "original": "Confirm whose calendar to share for booking, and the email(s) to send to",
-          "singular": "确认共享给谁的日历以便预订，并发送至的电子邮件",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "calendlyStepTwo": {
-          "original": "Define what happens when a slot is booked",
-          "singular": "定义预订时发生的情况",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "caller": {
-          "original": "Caller",
-          "singular": "呼叫者",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "cardAccess": {
-          "original": "Card Access",
-          "singular": "卡片访问",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "caseDetails": {
-          "original": "Case Details",
-          "singular": "案件详情",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "caseId": {
-          "original": "Case ID",
-          "singular": "案件ID",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "cash": {
-          "original": "Cash",
-          "singular": "现金",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "cctv": {
-          "original": "CCTV",
-          "singular": "闭路电视",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "cctvSystem": {
-          "original": "CCTV System",
-          "singular": "闭路电视系统",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "checkInDuration": {
-          "original": "Check-in Duration",
-          "singular": "签到时长",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "cheque": {
-          "original": "Cheque",
-          "singular": "支票",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "chequeNumber": {
-          "original": "Cheque No",
-          "singular": "支票号",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "clientAcknowledge": {
-          "original": "Client Acknowledge",
-          "singular": "客户确认",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "clientName": {
-          "original": "Client Name",
-          "singular": "客户名称",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "closureCode": {
-          "original": "Closure Code",
-          "singular": "关闭代码",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "cmaNo": {
-          "original": "CMA No",
-          "singular": "CMA号",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "cms": {
-          "original": "CMS",
-          "singular": "CMS",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "cmsExecutive": {
-          "original": "CMS Executive",
-          "singular": "CMS执行官",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "cmsOperatorName": {
-          "original": "CMS Operator Name",
-          "singular": "CMS操作员姓名",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "cmsSystemGoodCondition": {
-          "original": "System tested with CMS in good working condition",
-          "singular": "系统测试与CMS良好工作状态",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "complaint": {
-          "original": "Complaint",
-          "singular": "投诉",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "complaintFault": {
-          "original": "Complaint and Fault",
-          "singular": "投诉和故障",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "completionDate": {
-          "original": "Completion Date",
-          "singular": "完成日期",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "completionDateTime": {
-          "original": "Completion Date & Time",
-          "singular": "完成日期和时间",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "completionForm": {
-          "original": "Completion Form",
-          "singular": "完成表单",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "createTaskThisJo": {
-          "original": "Create a Task for this Job Order",
-          "singular": "为此工作订单创建任务",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "createdBy": {
-          "original": "Created By",
-          "singular": "创建者",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "csReport": {
-          "original": "Customer Service Report",
-          "singular": "客户服务报告",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "csrNo": {
-          "original": "CSR No",
-          "singular": "CSR号",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "custContact": {
-          "original": "Customer Contact",
-          "singular": "客户联系方式",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "custom": {
-          "original": "Custom",
-          "singular": "定制",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "customerServiceReport": {
-          "original": "Customer Service Report",
-          "singular": "客户服务报告",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "dateOfComissioning": {
-          "original": "Date of Commisioning",
-          "singular": "调试日期",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "dayWaiting": {
-          "original": "Open Days",
-          "singular": "开放日",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "delayCodes": {
-          "original": "Delay Codes",
-          "singular": "延迟代码",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "department": {
-          "original": "Department",
-          "singular": "部门",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "departureTime": {
-          "original": "Departure Time",
-          "singular": "出发时间",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "descDamage": {
-          "original": "Description of Damage",
-          "singular": "损坏描述",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "descFaultOthers": {
-          "original": "Description of Fault Others",
-          "singular": "其他故障描述",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "displayPrice": {
-          "original": "Display Price",
-          "singular": "显示价格",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "doorAccessSystem": {
-          "original": "Door Access System",
-          "singular": "门禁系统",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "downloadCost": {
-          "original": "Download with cost",
-          "singular": "下载有费用",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "downloadWithoutCost": {
-          "original": "Download without cost",
-          "singular": "下载无费用",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "dvr": {
-          "original": "DVR",
-          "singular": "DVR",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "dvrModel": {
-          "original": "DVR Model",
-          "singular": "DVR型号",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "email": {
-          "original": "Email",
-          "singular": "电子邮件",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "equipment": {
-          "original": "Equipment",
-          "singular": "设备",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "equipmentPosition": {
-          "original": "Equipment Position",
-          "singular": "设备位置",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "escalatedTo": {
-          "original": "Escalated To",
-          "singular": "升级至",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "expiryDate": {
-          "original": "Expiry Date",
-          "singular": "到期日期",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "extender": {
-          "original": "Extender",
-          "singular": "扩展器",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "files": {
-          "original": "File",
-          "singular": "文件",
-          "plural": "文件",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "findings": {
-          "original": "Finding",
-          "singular": "发现",
-          "plural": "发现",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "firstHour": {
-          "original": "1st Hour",
-          "singular": "第一小时",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "fixByRep": {
-          "original": "Able to be fixed by Rep",
-          "singular": "可由代表修复",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "followUp": {
-          "original": "Follow Up",
-          "singular": "跟进",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "form": {
-          "original": "Form",
-          "singular": "表格",
-          "plural": "表格",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "fromBin": {
-          "original": "From Bin",
-          "singular": "从料箱",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "fromMyDownline": {
-          "original": "From my Downline",
-          "singular": "从我的下线",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "faultDetails": {
-          "original": "Fault Details",
-          "singular": "故障详情",
-          "plural": "",
-          "setupVisible": true,
-          "setupEdit": true
-        },
-        "openDays": {
-          "original": "Open Days",
-          "singular": "开放日",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "grandTotal": {
-          "original": "Grand Total (RM)",
-          "singular": "总计（RM）",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "gsmModuleAlarmPanel": {
-          "original": "GSM Module/ Alarm Panel",
-          "singular": "GSM模块/警报面板",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "handoverCertificate": {
-          "original": "Handover Certificate",
-          "singular": "交接证书",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "handoverCompletionCert": {
-          "original": "Handover Completion Certificate",
-          "singular": "交接完成证书",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "hospitalCode": {
-          "original": "Hospital code",
-          "singular": "医院代码",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "hospitalName": {
-          "original": "Hospital Name",
-          "singular": "医院名称",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "hpForm": {
-          "original": "HP Form",
-          "singular": "HP表格",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "hpCustomer": {
-          "original": "HP Customer",
-          "singular": "HP客户",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "hpStatus": {
-          "original": "HP Status",
-          "singular": "HP状态",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "icPassport": {
-          "original": "IC/Passport",
-          "singular": "身份证/护照",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "inverterModelBrand": {
-          "original": "Inverter Model/Brand",
-          "singular": "逆变器型号/品牌",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "inverterNo": {
-          "original": "Inverter No",
-          "singular": "逆变器编号",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "inverterSerialNumber": {
-          "original": "Inverter Serial Number",
-          "singular": "逆变器序列号",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "inviteSentFrom": {
-          "original": "Invite Sent From",
-          "singular": "邀请发送自",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "inviteSentTo": {
-          "original": "Invite Sent To",
-          "singular": "邀请发送至",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "invoiceNumber": {
-          "original": "Invoice No",
-          "singular": "发票编号",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "ipAddress": {
-          "original": "IP Address",
-          "singular": "IP地址",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "itemDesc": {
-          "original": "Item Description",
-          "singular": "项目描述",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "joContact": {
-          "original": "Job Order Contact",
-          "singular": "工作订单联系人",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "joOwner": {
-          "original": "Job Order Owner",
-          "singular": "工作订单负责人",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "jobNumber": {
-          "original": "Job No.",
-          "singular": "工作编号",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "jobOrderCompletionForm": {
-          "original": "Job Order Completion Form",
-          "singular": "工作订单完成表",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "jobOrderId": {
-          "original": "Job Order ID",
-          "singular": "工作订单ID",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "jobOrderNo": {
-          "original": "Job Order No",
-          "singular": "工作订单编号",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "jobStatus": {
-          "original": "Job Status",
-          "singular": "工作状态",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "jobStatusRemark": {
-          "original": "Job Status Remark",
-          "singular": "工作状态备注",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "jobSummary": {
-          "original": "Job Summary",
-          "singular": "工作总结",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "joType": {
-          "original": "JO Type",
-          "singular": "工作订单类型",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "kvm": {
-          "original": "KVM",
-          "singular": "KVM",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "lastModifiedBy": {
-          "original": "Last Modified By",
-          "singular": "最后修改者",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "latestInviteLink": {
-          "original": "Latest invite link",
-          "singular": "最新邀请链接",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "machineId": {
-          "original": "Machine ID",
-          "singular": "机器ID",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "mandatory": {
-          "original": "Mandatory",
-          "singular": "必需的",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "medicalRecordNo": {
-          "original": "Medical Record Number",
-          "singular": "医疗记录编号",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "mileage": {
-          "original": "Mileage(KM)",
-          "singular": "里程(KM)",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "module": {
-          "original": "Module",
-          "singular": "模块",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "name": {
-          "original": "Name",
-          "singular": "名字",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "nameAndIcPassport": {
-          "original": "Name and IC/Passport",
-          "singular": "姓名及身份证/护照",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "note": {
-          "original": "Note",
-          "singular": "注释",
-          "plural": "",
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本详情",
+        "plural": "基本详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec1": {
+        "original": "Asset Details",
+        "singular": "资产详情",
+        "plural": "资产详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec2": {
+        "original": "Customer Details",
+        "singular": "客户详情",
+        "plural": "客户详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec3": {
+        "original": "Bin Details",
+        "singular": "Bin详情",
+        "plural": "Bin详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Bin Transfer Details",
+        "singular": "Bin转移详情",
+        "plural": "Bin转移详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Calendly Details",
+        "singular": "Calendly详情",
+        "plural": "Calendly详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Case Details",
+        "singular": "案例详情",
+        "plural": "案例详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Client Details",
+        "singular": "客户详情",
+        "plural": "客户详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Completion Details",
+        "singular": "完成详情",
+        "plural": "完成详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Contact Person Details",
+        "singular": "联系人详情",
+        "plural": "联系人详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Customer Survey Details",
+        "singular": "客户调查详情",
+        "plural": "客户调查详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec11": {
+        "original": "Details",
+        "singular": "详情",
+        "plural": "详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec12": {
+        "original": "Fault Details",
+        "singular": "故障详情",
+        "plural": "故障详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Fault Module",
+        "singular": "故障模块",
+        "plural": "故障模块",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec14": {
+        "original": "Financial Details",
+        "singular": "财务详情",
+        "plural": "财务详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec15": {
+        "original": "Further Details",
+        "singular": "进一步详情",
+        "plural": "进一步详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec16": {
+        "original": "Hospital Details",
+        "singular": "医院详情",
+        "plural": "医院详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec17": {
+        "original": "Hospital Record Infomation",
+        "singular": "医院记录信息",
+        "plural": "医院记录信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec18": {
+        "original": "Item Details",
+        "singular": "项目详情",
+        "plural": "项目详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec19": {
+        "original": "Job Details",
+        "singular": "工作详情",
+        "plural": "工作详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec20": {
+        "original": "Part Order Details",
+        "singular": "零件订单详情",
+        "plural": "零件订单详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec21": {
+        "original": "Payment Details",
+        "singular": "支付详情",
+        "plural": "支付详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec22": {
+        "original": "Spare Part Details",
+        "singular": "备件详情",
+        "plural": "备件详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec23": {
+        "original": "Products and Service Charges",
+        "singular": "备件和服务费用",
+        "plural": "备件和服务费用",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec24": {
+        "original": "Resolution Details",
+        "singular": "解决详情",
+        "plural": "解决详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec25": {
+        "original": "Service Checklist",
+        "singular": "服务清单",
+        "plural": "服务清单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec26": {
+        "original": "Survey Details",
+        "singular": "调查详情",
+        "plural": "调查详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec27": {
+        "original": "System Information",
+        "singular": "系统信息",
+        "plural": "系统信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec28": {
+        "original": "System Summary",
+        "singular": "系统概述",
+        "plural": "系统概述",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec29": {
+        "original": "Handover Details",
+        "singular": "交接详情",
+        "plural": "交接详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec30": {
+        "original": "Filter By",
+        "singular": "筛选条件",
+        "plural": "筛选条件",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec31": {
+        "original": "Select the survey you would like to send and click 'Generate' to create it.",
+        "singular": "选择您要发送的调查并点击'生成'以创建它。",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec32": {
+        "original": "Specify the email address of who you want this survey to be sent to",
+        "singular": "指定您希望发送此调查的电子邮件地址",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec33": {
+        "original": "SLA",
+        "singular": "SLA",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec34": {
+        "original": "Forms",
+        "singular": "表单",
+        "plural": "表单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec35": {
+        "original": "Fault and Resolution",
+        "singular": "故障与解决",
+        "plural": "故障与解决",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec36": {
+        "original": "SLA",
+        "singular": "SLA",
+        "plural": "SLA",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec37": {
+        "original": "Service Form Auto Fill",
+        "singular": "服务表单自动填写",
+        "plural": "服务表单自动填写",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec38": {
+        "original": "Additional Details",
+        "singular": "附加详情",
+        "plural": "附加详情",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec39": {
+        "original": "Required Forms",
+        "singular": "所需表单",
+        "plural": "所需表单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec40": {
+        "original": "Job Order Details",
+        "singular": "工作订单详情",
+        "plural": "工作订单详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec41": {
+        "original": "Part Order",
+        "singular": "零件订单",
+        "plural": "零件订单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec42": {
+        "original": "Replaced Module",
+        "singular": "更换模块",
+        "plural": "更换模块",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec43": {
+        "original": "WO Details",
+        "singular": "工单详情",
+        "plural": "工单详情",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec44": {
+        "original": "Edit Hp Form",
+        "singular": "编辑HP表单",
+        "plural": "编辑HP表单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec45": {
+        "original": "View Survey Results",
+        "singular": "查看调查结果",
+        "plural": "查看调查结果",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec46": {
+        "original": "Fault Call Unit",
+        "singular": "故障呼叫单元",
+        "plural": "故障呼叫单元",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec47": {
+        "original": "View Survey Form",
+        "singular": "查看调查表",
+        "plural": "查看调查表",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec48": {
+        "original": "Location Details",
+        "singular": "位置详情",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
+    },
+    "fields": {
+      "setupVisible": true,
+      "setupEdit": true,
+      "sla": {
+        "original": "SLA",
+        "singular": "SLA",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "history": {
+        "original": "History",
+        "singular": "历史",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "acknowledgedBy": {
+        "original": "Acknowledged by",
+        "singular": "确认者",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "action": {
+        "original": "Action",
+        "singular": "行动",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "adapter": {
+        "original": "Adapter",
+        "singular": "适配器",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addEquipment": {
+        "original": "Add Equipment",
+        "singular": "添加设备",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "additionalParts": {
+        "original": "Additional Parts",
+        "singular": "附加部件",
+        "plural": "附加部件",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "alarmSystem": {
+        "original": "Alarm System",
+        "singular": "警报系统",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "alarms": {
+        "original": "Alarm",
+        "singular": "警报",
+        "plural": "警报",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "arrivalTime": {
+        "original": "Arrival Time",
+        "singular": "到达时间",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bed": {
+        "original": "Bed",
+        "singular": "床",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bedStatus": {
+        "original": "Bed Status",
+        "singular": "床状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "branchAcknowledge": {
+        "original": "Branch Acknowledge",
+        "singular": "分支确认",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetUnderWarranty": {
+        "original": "Asset Under Warranty",
+        "singular": "保修资产",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notifyCustomer": {
+        "original": "Notify Customer",
+        "singular": "通知客户",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cableCondition": {
+        "original": "Cable Condition",
+        "singular": "电缆状况",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "calendlyLinkSentTo": {
+        "original": "Calendly link sent to",
+        "singular": "Calendly链接发送至",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "calendlyStepOne": {
+        "original": "Confirm whose calendar to share for booking, and the email(s) to send to",
+        "singular": "确认共享给谁的日历以便预订，并发送至的电子邮件",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "calendlyStepTwo": {
+        "original": "Define what happens when a slot is booked",
+        "singular": "定义预订时发生的情况",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "caller": {
+        "original": "Caller",
+        "singular": "呼叫者",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cardAccess": {
+        "original": "Card Access",
+        "singular": "卡片访问",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "caseDetails": {
+        "original": "Case Details",
+        "singular": "案件详情",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "caseId": {
+        "original": "Case ID",
+        "singular": "案件ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cash": {
+        "original": "Cash",
+        "singular": "现金",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cctv": {
+        "original": "CCTV",
+        "singular": "闭路电视",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cctvSystem": {
+        "original": "CCTV System",
+        "singular": "闭路电视系统",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "checkInDuration": {
+        "original": "Check-in Duration",
+        "singular": "签到时长",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cheque": {
+        "original": "Cheque",
+        "singular": "支票",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chequeNumber": {
+        "original": "Cheque No",
+        "singular": "支票号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "clientAcknowledge": {
+        "original": "Client Acknowledge",
+        "singular": "客户确认",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "clientName": {
+        "original": "Client Name",
+        "singular": "客户名称",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "closureCode": {
+        "original": "Closure Code",
+        "singular": "关闭代码",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmaNo": {
+        "original": "CMA No",
+        "singular": "CMA号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cms": {
+        "original": "CMS",
+        "singular": "CMS",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmsExecutive": {
+        "original": "CMS Executive",
+        "singular": "CMS执行官",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmsOperatorName": {
+        "original": "CMS Operator Name",
+        "singular": "CMS操作员姓名",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmsSystemGoodCondition": {
+        "original": "System tested with CMS in good working condition",
+        "singular": "系统测试与CMS良好工作状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "complaint": {
+        "original": "Complaint",
+        "singular": "投诉",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "complaintFault": {
+        "original": "Complaint and Fault",
+        "singular": "投诉和故障",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate": {
+        "original": "Completion Date",
+        "singular": "完成日期",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDateTime": {
+        "original": "Completion Date & Time",
+        "singular": "完成日期和时间",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionForm": {
+        "original": "Completion Form",
+        "singular": "完成表单",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createTaskThisJo": {
+        "original": "Create a Task for this Job Order",
+        "singular": "为此工作订单创建任务",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "创建者",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csReport": {
+        "original": "Customer Service Report",
+        "singular": "客户服务报告",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csrNo": {
+        "original": "CSR No",
+        "singular": "CSR号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custContact": {
+        "original": "Customer Contact",
+        "singular": "客户联系方式",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custom": {
+        "original": "Custom",
+        "singular": "定制",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerServiceReport": {
+        "original": "Customer Service Report",
+        "singular": "客户服务报告",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dateOfComissioning": {
+        "original": "Date of Commisioning",
+        "singular": "调试日期",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayWaiting": {
+        "original": "Open Days",
+        "singular": "开放日",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "delayCodes": {
+        "original": "Delay Codes",
+        "singular": "延迟代码",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "department": {
+        "original": "Department",
+        "singular": "部门",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "departureTime": {
+        "original": "Departure Time",
+        "singular": "出发时间",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "descDamage": {
+        "original": "Description of Damage",
+        "singular": "损坏描述",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "descFaultOthers": {
+        "original": "Description of Fault Others",
+        "singular": "其他故障描述",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "displayPrice": {
+        "original": "Display Price",
+        "singular": "显示价格",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "doorAccessSystem": {
+        "original": "Door Access System",
+        "singular": "门禁系统",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadCost": {
+        "original": "Download with cost",
+        "singular": "下载有费用",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadWithoutCost": {
+        "original": "Download without cost",
+        "singular": "下载无费用",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dvr": {
+        "original": "DVR",
+        "singular": "DVR",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dvrModel": {
+        "original": "DVR Model",
+        "singular": "DVR型号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "电子邮件",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipment": {
+        "original": "Equipment",
+        "singular": "设备",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentPosition": {
+        "original": "Equipment Position",
+        "singular": "设备位置",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "escalatedTo": {
+        "original": "Escalated To",
+        "singular": "升级至",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expiryDate": {
+        "original": "Expiry Date",
+        "singular": "到期日期",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "extender": {
+        "original": "Extender",
+        "singular": "扩展器",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "files": {
+        "original": "File",
+        "singular": "文件",
+        "plural": "文件",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "findings": {
+        "original": "Finding",
+        "singular": "发现",
+        "plural": "发现",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "firstHour": {
+        "original": "1st Hour",
+        "singular": "第一小时",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixByRep": {
+        "original": "Able to be fixed by Rep",
+        "singular": "可由代表修复",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "followUp": {
+        "original": "Follow Up",
+        "singular": "跟进",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "form": {
+        "original": "Form",
+        "singular": "表格",
+        "plural": "表格",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "从料箱",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fromMyDownline": {
+        "original": "From my Downline",
+        "singular": "从我的下线",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "faultDetails": {
+        "original": "Fault Details",
+        "singular": "故障详情",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "openDays": {
+        "original": "Open Days",
+        "singular": "开放日",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "grandTotal": {
+        "original": "Grand Total (RM)",
+        "singular": "总计（RM）",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "gsmModuleAlarmPanel": {
+        "original": "GSM Module/ Alarm Panel",
+        "singular": "GSM模块/警报面板",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "handoverCertificate": {
+        "original": "Handover Certificate",
+        "singular": "交接证书",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "handoverCompletionCert": {
+        "original": "Handover Completion Certificate",
+        "singular": "交接完成证书",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hospitalCode": {
+        "original": "Hospital code",
+        "singular": "医院代码",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hospitalName": {
+        "original": "Hospital Name",
+        "singular": "医院名称",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hpForm": {
+        "original": "HP Form",
+        "singular": "HP表格",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hpCustomer": {
+        "original": "HP Customer",
+        "singular": "HP客户",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hpStatus": {
+        "original": "HP Status",
+        "singular": "HP状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "icPassport": {
+        "original": "IC/Passport",
+        "singular": "身份证/护照",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inverterModelBrand": {
+        "original": "Inverter Model/Brand",
+        "singular": "逆变器型号/品牌",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inverterNo": {
+        "original": "Inverter No",
+        "singular": "逆变器编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inverterSerialNumber": {
+        "original": "Inverter Serial Number",
+        "singular": "逆变器序列号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteSentFrom": {
+        "original": "Invite Sent From",
+        "singular": "邀请发送自",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteSentTo": {
+        "original": "Invite Sent To",
+        "singular": "邀请发送至",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "invoiceNumber": {
+        "original": "Invoice No",
+        "singular": "发票编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ipAddress": {
+        "original": "IP Address",
+        "singular": "IP地址",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "itemDesc": {
+        "original": "Item Description",
+        "singular": "项目描述",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "joContact": {
+        "original": "Job Order Contact",
+        "singular": "工作订单联系人",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "joOwner": {
+        "original": "Job Order Owner",
+        "singular": "工作订单负责人",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobNumber": {
+        "original": "Job No.",
+        "singular": "工作编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderCompletionForm": {
+        "original": "Job Order Completion Form",
+        "singular": "工作订单完成表",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderId": {
+        "original": "Job Order ID",
+        "singular": "工作订单ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderNo": {
+        "original": "Job Order No",
+        "singular": "工作订单编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobStatus": {
+        "original": "Job Status",
+        "singular": "工作状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobStatusRemark": {
+        "original": "Job Status Remark",
+        "singular": "工作状态备注",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobSummary": {
+        "original": "Job Summary",
+        "singular": "工作总结",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "joType": {
+        "original": "JO Type",
+        "singular": "工作订单类型",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "kvm": {
+        "original": "KVM",
+        "singular": "KVM",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "最后修改者",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latestInviteLink": {
+        "original": "Latest invite link",
+        "singular": "最新邀请链接",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "machineId": {
+        "original": "Machine ID",
+        "singular": "机器ID",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mandatory": {
+        "original": "Mandatory",
+        "singular": "必需的",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "medicalRecordNo": {
+        "original": "Medical Record Number",
+        "singular": "医疗记录编号",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mileage": {
+        "original": "Mileage(KM)",
+        "singular": "里程(KM)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "module": {
+        "original": "Module",
+        "singular": "模块",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "名字",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameAndIcPassport": {
+        "original": "Name and IC/Passport",
+        "singular": "姓名及身份证/护照",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "note": {
+        "original": "Note",
+        "singular": "注释",
+        "plural": "",
         "setupVisible": true,
         "setupEdit": true
         },
@@ -8384,38 +8382,38 @@
       "jobOrderProductStatusIdNotFound": "未找到ID",
       "slaJobOrderIdExists": "新的SLA作业订单不能已有ID"
     },
-   "tooltips": {
-    "setupVisible": false,
-     "setupEdit": false,
-    "jobOrderLookup": {
-      "original": "Job Order Lookup",
-      "singular": "工单查询",
-      "plural": "",
+    "tooltips": {
+      "setupVisible": false,
       "setupEdit": false,
-      "setupVisible": false
+      "jobOrderLookup": {
+        "original": "Job Order Lookup",
+        "singular": "工单查询",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pinSaveLocation": {
+        "original": "Pin & Save Your Location",
+        "singular": "固定并保存您的位置",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "refJobOrderLookup": {
+        "original": "Reference Job Order Lookup",
+        "singular": "参考工单查询",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "copyLink": {
+        "original": "Copy Link",
+        "singular": "复制链接",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
-    "pinSaveLocation": {
-      "original": "Pin & Save Your Location",
-      "singular": "固定并保存您的位置",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "refJobOrderLookup": {
-      "original": "Reference Job Order Lookup",
-      "singular": "参考工单查询",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "copyLink": {
-      "original": "Copy Link",
-      "singular": "复制链接",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    }
-  },
     "messages": {
       "systemTestPassed": "系统测试通过，CMS工作正常",
       "newTaskForSelectedDateTime": "将为选定的日期和时间在此工单下创建一个新任务",
@@ -9153,6 +9151,27 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec10": {
+        "original": "转移",
+        "singular": "转移",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec11": {
+        "original": "定位",
+        "singular": "定位",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec12": {
+        "original": "移动历史",
+        "singular": "移动历史",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -9370,7 +9389,6 @@
       "assetsTransferred": "资产已转移",
       "productsTransferred": "备件已转移",
       "assetsAreNotAllowedToTransfer": "资产不允许转移到工作订单"
-
     }
   },
   "checkAvailibility": {
@@ -10460,7 +10478,7 @@
     },
     "messages": {
       "invalidFileSize": "文件大小无效",
-        "invalidFileTypeExclamation": "无效的文件类型！",
+      "invalidFileTypeExclamation": "无效的文件类型！",
       "allowedFileSize": "文件大小应小于25MB",
       "allowedFileSizeKb": "文件大小应小于100KB",
       "allowedFileSizeOnly": "文件大小应小于",
@@ -11784,7 +11802,7 @@
         "setupEdit": true,
         "setupVisible": true
       },
-      "workflowAction":{
+      "workflowAction": {
         "original": "Workflow Actions",
         "singular": "工作流程操作",
         "plural": "工作流程操作",
@@ -12300,7 +12318,7 @@
       "contactAdminForAccess": "请联系管理员获取访问权限",
       "noPermission": "没有设置/授予权限...",
       "pageNotFound": "页面未找到 404",
-      "pageDoesNotExist":" 该页面不存在...",
+      "pageDoesNotExist": " 该页面不存在...",
       "recordNotFound": "记录未找到",
       "noRecordsFound": "未找到记录",
       "none": "无",
@@ -12454,42 +12472,42 @@
       "mins": "分钟",
       "noBuffer": "无缓冲"
     },
-    "currency":{
-        "australianDollar": "AUD",
-        "azerbaijaniManat": "AZN",
-        "bruneiDollar": "BND",
-        "canadianDollar": "CAD",
-        "swissFranc": "CHF",
-        "chineseYuan": "CNY",
-        "danishKrone": "DKK",
-        "euro": "EUR",
-        "britishPound": "GBP",
-        "ghanaianCedi": "GHS",
-        "hongKongDollar": "HKD",
-        "indonesianRupiah": "IDR",
-        "indianRupee": "INR",
-        "japaneseYen": "JPY",
-        "kenyanShilling": "KES",
-        "cambodianRiel": "KHR",
-        "southKoreanWon": "KRW",
-        "laoKip": "LAK",
-        "mauritianRupee": "MUR",
-        "malaysianRinggit": "MYR",
-        "nigerianNaira": "NGN",
-        "newZealandDollar": "NZD",
-        "philippinePeso": "PHP",
-        "qatariRiyal": "QAR",
-        "saudiRiyal": "SAR",
-        "swedishKrona": "SEK",
-        "singaporeDollar": "SGD",
-        "thaiBaht": "THB",
-        "taiwanDollar": "TWD",
-        "ugandanShilling": "UGX",
-        "usDollar": "USD",
-        "vietnameseDong": "VND",
-        "southAfricanRand": "ZAR",
-        "zambianKwacha": "ZMW",
-        "zimbabweDollar": "ZWD"
+    "currency": {
+      "australianDollar": "AUD",
+      "azerbaijaniManat": "AZN",
+      "bruneiDollar": "BND",
+      "canadianDollar": "CAD",
+      "swissFranc": "CHF",
+      "chineseYuan": "CNY",
+      "danishKrone": "DKK",
+      "euro": "EUR",
+      "britishPound": "GBP",
+      "ghanaianCedi": "GHS",
+      "hongKongDollar": "HKD",
+      "indonesianRupiah": "IDR",
+      "indianRupee": "INR",
+      "japaneseYen": "JPY",
+      "kenyanShilling": "KES",
+      "cambodianRiel": "KHR",
+      "southKoreanWon": "KRW",
+      "laoKip": "LAK",
+      "mauritianRupee": "MUR",
+      "malaysianRinggit": "MYR",
+      "nigerianNaira": "NGN",
+      "newZealandDollar": "NZD",
+      "philippinePeso": "PHP",
+      "qatariRiyal": "QAR",
+      "saudiRiyal": "SAR",
+      "swedishKrona": "SEK",
+      "singaporeDollar": "SGD",
+      "thaiBaht": "THB",
+      "taiwanDollar": "TWD",
+      "ugandanShilling": "UGX",
+      "usDollar": "USD",
+      "vietnameseDong": "VND",
+      "southAfricanRand": "ZAR",
+      "zambianKwacha": "ZMW",
+      "zimbabweDollar": "ZWD"
     },
     "location": {
       "endDateExceeds": "结束日期不应超过开始日期",
@@ -14322,7 +14340,7 @@
         "messages": {
           "selectMember": "选择成员",
           "selectRole": "选择角色",
-          "viewOnlyAccess":"仅查看权限"
+          "viewOnlyAccess": "仅查看权限"
         }
       },
       "users": {
@@ -14957,10 +14975,10 @@
         "messages": {
           "customizeModuleFieldsAndLabels": "用您喜欢的术语自定义模块字段和标签，您的组织中的所有人都可以看到。您可以为所有可用语言进行此操作。",
           "lastUpdated": "最后更新",
-          "youHaveUnsavedChanges":"您有未保存的更改，将会丢失。您想如何继续?"
+          "youHaveUnsavedChanges": "您有未保存的更改，将会丢失。您想如何继续?"
         }
       },
-      "notifications":{
+      "notifications": {
         "setupVisible": false,
         "label": {
           "original": "Notifications",
@@ -15169,7 +15187,7 @@
           "setupEdit": true,
           "setupVisible": false
         },
-        "sections":{
+        "sections": {
           "sec0": {
             "original": "Subforms",
             "singular": "子表单",
@@ -15621,7 +15639,7 @@
             "setupVisible": true
           }
         },
-        "messages":{
+        "messages": {
           "createManageCustomForms": "创建和管理最适合您用例的自定义表单。自定义表单允许您在需要时获取有关某个场景的详细信息。",
           "createManageCustomSubForms": "创建和管理最适合您用例的子表单。子表单作为表单中的表单，允许您在需要时获取与某个场景相关的额外详细信息。它们可以设置为记录单个或多个条目。",
           "setupForm": "创建最符合您业务需求的字段，按照您的喜好排列表单，并在需要时包含子表单。您需要先为此表单创建字段，然后才能进行排列。创建并排列好字段后，您可以将表单状态设置为激活。",
@@ -16231,8 +16249,8 @@
           "createCustom": "创建自定义",
           "listViewInstructions": "列表视图：选择您想要查看的字段，并按对您最有意义的顺序排列。然后，您可以从创建的视图中为不同的用户和访问配置文件设置默认视图。",
           "in": "在",
-          "viewNotUsedAccess":"未被任何访问配置文件使用",
-          "viewNotUsedUsers":"未被任何用户使用"
+          "viewNotUsedAccess": "未被任何访问配置文件使用",
+          "viewNotUsedUsers": "未被任何用户使用"
         }
       },
       "picklist": {
@@ -18725,7 +18743,7 @@
     },
     "sla": {
       "setupVisible": false,
-      "label":{
+      "label": {
         "original": "SLA",
         "singular": "SLA",
         "plural": "SLA",
@@ -19389,7 +19407,7 @@
         },
         "validationFE": {},
         "messages": {
-          "businessHourCreated":"营业时间创建成功"
+          "businessHourCreated": "营业时间创建成功"
         }
       }
     },
@@ -19944,8 +19962,8 @@
         "importSimpleStepsVerify": "验证和编辑：审核您的数据，进行必要的更改，并在需要时删除行。系统将突出显示必填字段中缺失的信息，以防止导入错误。",
         "importSimpleStepsImport": "导入您的数据：一切就绪后，点击导入将数据带入FieldEx。",
         "importDataIn": "将您的数据导入FieldEx",
-        "importDataCsvFormat":"将数据导入到 FieldEx，请确保上传的文件包含列标题，并且是 .csv 格式。",
-        "exportDataAsCsvFormat":"要从 FieldEx 导出数据，请点击“导出”并按照步骤操作。您的数据将作为 .csv 文件下载，并可以作为电子表格查看。",
+        "importDataCsvFormat": "将数据导入到 FieldEx，请确保上传的文件包含列标题，并且是 .csv 格式。",
+        "exportDataAsCsvFormat": "要从 FieldEx 导出数据，请点击“导出”并按照步骤操作。您的数据将作为 .csv 文件下载，并可以作为电子表格查看。",
         "pleaseSelectModule": "请选择一个模块",
         "pleaseSelectModuleToImport": "请选择要导入的模块"
       }
@@ -20363,8 +20381,8 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        } ,
-        "workflowAction":{
+        },
+        "workflowAction": {
           "original": "Workflow Actions",
           "singular": "工作流程操作",
           "plural": "工作流程操作",
@@ -20386,7 +20404,7 @@
         "addExistingNotification": "添加现有通知"
       }
     },
-    "templates":{
+    "templates": {
       "setupVisible": false,
       "label": {
         "original": "Templates",
@@ -20395,7 +20413,7 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "email":{
+      "email": {
         "label": {
           "original": "Emails",
           "singular": "电子邮件",
@@ -20457,7 +20475,7 @@
           "addHeaderImage": "添加标题图像",
           "addFooterImage": "添加页脚图像"
         },
-        "settings":{
+        "settings": {
           "label": {
             "original": "Settings",
             "singular": "设置",
@@ -20540,7 +20558,7 @@
             "subjectGoesHere": "主题在此"
           }
         },
-        "builder":{
+        "builder": {
           "label": {
             "original": "Builder",
             "singular": "构建器",
@@ -20895,147 +20913,147 @@
       "setupZoneHasInventoryNotAllowedChangeLocation": "有库存时无法更改区域位置"
     },
     "labelBE": {
-          "profileTableColumnSetup": {
-              "module": {
-                "assets": "资产",
-                "contract": "合同",
-                "customer": "客户",
-                "job_order": "工单",
-                "maintenance_item": "预防性维护",
-                "product": "产品",
-                "project": "项目",
-                "sales_order": "销售订单",
-                "site": "现场",
-                "task": "任务",
-                "ticket": "票据"
-              }
-          },
-          "profileModulePermission": {
-              "moduleAccessFeatures": {
-                  "feature": {
-                      "name": {
-                          "customers": "客户",
-                          "sales_order": "销售订单",
-                          "job_order": "工作订单",
-                          "products": "产品",
-                          "teams": "团队",
-                          "tasks": "任务",
-                          "customer_payment": "客户付款",
-                          "customer_purchase_history": "客户购买历史",
-                          "assets_tracking": "资产追踪",
-                          "planning_hub": "计划中心",
-                          "delivery_orders": "送货单",
-                          "shifts": "轮班",
-                          "drivers": "司机",
-                          "packages": "包裹",
-                          "vehicles": "车辆",
-                          "assets": "资产",
-                          "assets_contracts": "资产合同",
-                          "scheduled_maintenance": "计划维护",
-                          "inventory": "库存",
-                          "tickets": "票务",
-                          "project": "项目",
-                          "site": "现场",
-                          "checklists": "清单"
-                      }
-                  }
-              },
-              "adminSettingsFeatures": {
-                  "feature": {
-                      "name": {
-                          "manage_org_detail": "管理组织详情",
-                          "manage_users": "管理用户",
-                          "manage_hierarchy": "管理层级",
-                          "manage_access": "管理访问权限",
-                          "fleet_setup": "车队设置",
-                          "manage_tickets": "管理工单",
-                          "manage_inventory": "管理库存",
-                          "manage_import_export": "管理进出口",
-                          "manage_geo_fence": "管理地理围栏",
-                          "manage_notification": "管理通知",
-                          "manage_modules": "管理模块",
-                          "manage_workflow": "管理工作流程",
-                          "manage_customer_surveys": "管理客户调查",
-                          "manage_integrations": "管理集成"
-                      }
-                  }
-              }
-          },
-          "standardNotification": {
-            "inventory": {
-                "description": {
-                    "bin_under_stock": "当某个箱子的库存达到或超过其低库存点时，发送给店经理",
-                    "bin_re_order_point": "当某个箱子的库存达到或超过其补货点时，发送给店经理",
-                    "bin_transfer_request": "当请求箱子转移时，发送给审批人"
-                },
-                "name": {
-                    "bin_under_stock": "箱子低库存点已达到",
-                    "bin_re_order_point": "箱子补货点已达到",
-                    "bin_transfer_request": "箱子转移请求"
-                }
-            },
-            "job_order": {
-                "description": {
-                    "job_order_assigned": "当用户被分配为工作订单的订单所有者时发送",
-                    "job_order_completed": "当工作订单状态变为 '已完成'（或相应状态）时发送给订单所有者的经理"
-                },
-                "name": {
-                    "job_order_assigned": "工作订单分配",
-                    "job_order_completed": "工作订单完成"
-                }
-            },
-            "maintenance": {
-                "description": {
-                    "maintenance_completed": "当维护完成时，发送给资产保管人"
-                },
-                "name": {
-                    "maintenance_completed": "维护完成"
-                }
-            },
-            "task": {
-                "description": {
-                    "task_assigned": "当用户被分配到任务时发送",
-                    "task_location_updated": "当用户分配的任务位置已更新时发送",
-                    "task_accepted": "当有人接受他们分配的任务时发送给用户",
-                    "task_rejected": "当普通用户（非所有者）拒绝被分配的任务时发送给任务创建者",
-                    "task_rejected_by_owner": "当任务所有者拒绝任务时发送给任务分配人",
-                    "owner_task_completed": "当任务的整体状态标记为完成时发送给分配人",
-                    "user_task_completed": "当被分配的个人将他们的任务标记为完成时发送给任务创建者",
-                    "task_deleted": "当任务被删除时发送给任务的受让人",
-                    "task_note_added": "当新笔记添加时发送给任务分配人",
-                    "task_note_added_for_task_members": "当新笔记添加时发送给任务成员"
-                },
-                "name": {
-                    "task_assigned": "任务分配",
-                    "task_location_updated": "任务位置已更新",
-                    "task_accepted": "用户已接受任务",
-                    "task_rejected": "普通用户已拒绝任务",
-                    "task_rejected_by_owner": "任务已被所有者拒绝",
-                    "owner_task_completed": "主要任务已完成",
-                    "user_task_completed": "个人任务已完成",
-                    "task_deleted": "分配人已删除任务",
-                    "task_note_added": "用户已向任务添加笔记",
-                    "task_note_added_for_task_members": "用户已向任务添加笔记"
-                }
-            },
-            "user": {
-                "description": {
-                    "user_working_hour_changed": "当用户更改工作时间时，发送给用户的经理",
-                    "user_added_to_team": "当用户被添加到团队时发送",
-                    "user_leave_application": "当用户申请休假时，发送给用户的主管",
-                    "user_leave_accepted": "当用户的休假申请被接受时发送给用户",
-                    "user_leave_reject": "当用户的休假申请被拒绝时发送给用户"
-                },
-                "name": {
-                    "user_working_hour_changed": "用户已更改其工作时间",
-                    "user_added_to_team": "您已被添加到团队",
-                    "user_leave_application": "用户已申请休假",
-                    "user_leave_accepted": "您的休假已被接受",
-                    "user_leave_reject": "您的休假已被拒绝"
-                }
+      "profileTableColumnSetup": {
+        "module": {
+          "assets": "资产",
+          "contract": "合同",
+          "customer": "客户",
+          "job_order": "工单",
+          "maintenance_item": "预防性维护",
+          "product": "产品",
+          "project": "项目",
+          "sales_order": "销售订单",
+          "site": "现场",
+          "task": "任务",
+          "ticket": "票据"
+        }
+      },
+      "profileModulePermission": {
+        "moduleAccessFeatures": {
+          "feature": {
+            "name": {
+              "customers": "客户",
+              "sales_order": "销售订单",
+              "job_order": "工作订单",
+              "products": "产品",
+              "teams": "团队",
+              "tasks": "任务",
+              "customer_payment": "客户付款",
+              "customer_purchase_history": "客户购买历史",
+              "assets_tracking": "资产追踪",
+              "planning_hub": "计划中心",
+              "delivery_orders": "送货单",
+              "shifts": "轮班",
+              "drivers": "司机",
+              "packages": "包裹",
+              "vehicles": "车辆",
+              "assets": "资产",
+              "assets_contracts": "资产合同",
+              "scheduled_maintenance": "计划维护",
+              "inventory": "库存",
+              "tickets": "票务",
+              "project": "项目",
+              "site": "现场",
+              "checklists": "清单"
             }
+          }
+        },
+        "adminSettingsFeatures": {
+          "feature": {
+            "name": {
+              "manage_org_detail": "管理组织详情",
+              "manage_users": "管理用户",
+              "manage_hierarchy": "管理层级",
+              "manage_access": "管理访问权限",
+              "fleet_setup": "车队设置",
+              "manage_tickets": "管理工单",
+              "manage_inventory": "管理库存",
+              "manage_import_export": "管理进出口",
+              "manage_geo_fence": "管理地理围栏",
+              "manage_notification": "管理通知",
+              "manage_modules": "管理模块",
+              "manage_workflow": "管理工作流程",
+              "manage_customer_surveys": "管理客户调查",
+              "manage_integrations": "管理集成"
+            }
+          }
+        }
+      },
+      "standardNotification": {
+        "inventory": {
+          "description": {
+            "bin_under_stock": "当某个箱子的库存达到或超过其低库存点时，发送给店经理",
+            "bin_re_order_point": "当某个箱子的库存达到或超过其补货点时，发送给店经理",
+            "bin_transfer_request": "当请求箱子转移时，发送给审批人"
+          },
+          "name": {
+            "bin_under_stock": "箱子低库存点已达到",
+            "bin_re_order_point": "箱子补货点已达到",
+            "bin_transfer_request": "箱子转移请求"
+          }
+        },
+        "job_order": {
+          "description": {
+            "job_order_assigned": "当用户被分配为工作订单的订单所有者时发送",
+            "job_order_completed": "当工作订单状态变为 '已完成'（或相应状态）时发送给订单所有者的经理"
+          },
+          "name": {
+            "job_order_assigned": "工作订单分配",
+            "job_order_completed": "工作订单完成"
+          }
+        },
+        "maintenance": {
+          "description": {
+            "maintenance_completed": "当维护完成时，发送给资产保管人"
+          },
+          "name": {
+            "maintenance_completed": "维护完成"
+          }
+        },
+        "task": {
+          "description": {
+            "task_assigned": "当用户被分配到任务时发送",
+            "task_location_updated": "当用户分配的任务位置已更新时发送",
+            "task_accepted": "当有人接受他们分配的任务时发送给用户",
+            "task_rejected": "当普通用户（非所有者）拒绝被分配的任务时发送给任务创建者",
+            "task_rejected_by_owner": "当任务所有者拒绝任务时发送给任务分配人",
+            "owner_task_completed": "当任务的整体状态标记为完成时发送给分配人",
+            "user_task_completed": "当被分配的个人将他们的任务标记为完成时发送给任务创建者",
+            "task_deleted": "当任务被删除时发送给任务的受让人",
+            "task_note_added": "当新笔记添加时发送给任务分配人",
+            "task_note_added_for_task_members": "当新笔记添加时发送给任务成员"
+          },
+          "name": {
+            "task_assigned": "任务分配",
+            "task_location_updated": "任务位置已更新",
+            "task_accepted": "用户已接受任务",
+            "task_rejected": "普通用户已拒绝任务",
+            "task_rejected_by_owner": "任务已被所有者拒绝",
+            "owner_task_completed": "主要任务已完成",
+            "user_task_completed": "个人任务已完成",
+            "task_deleted": "分配人已删除任务",
+            "task_note_added": "用户已向任务添加笔记",
+            "task_note_added_for_task_members": "用户已向任务添加笔记"
+          }
+        },
+        "user": {
+          "description": {
+            "user_working_hour_changed": "当用户更改工作时间时，发送给用户的经理",
+            "user_added_to_team": "当用户被添加到团队时发送",
+            "user_leave_application": "当用户申请休假时，发送给用户的主管",
+            "user_leave_accepted": "当用户的休假申请被接受时发送给用户",
+            "user_leave_reject": "当用户的休假申请被拒绝时发送给用户"
+          },
+          "name": {
+            "user_working_hour_changed": "用户已更改其工作时间",
+            "user_added_to_team": "您已被添加到团队",
+            "user_leave_application": "用户已申请休假",
+            "user_leave_accepted": "您的休假已被接受",
+            "user_leave_reject": "您的休假已被拒绝"
+          }
         }
       }
+    }
   },
   "disclosure": {
     "setupVisible": false,
@@ -22783,9 +22801,9 @@
         "setupVisible": true
       }
     },
-    "hillsCustomer":{
+    "hillsCustomer": {
       "setupVisible": false,
-      "label":{
+      "label": {
         "original": "Hills",
         "singular": "Hills",
         "plural": "Hills",
@@ -23093,7 +23111,7 @@
         "plural": "出勤日期范围",
         "setupEdit": true,
         "setupVisible": true
-      }    
+      }
     },
     "tooltips": {
       "setupVisible": true,

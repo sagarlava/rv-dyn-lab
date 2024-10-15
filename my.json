@@ -12254,6 +12254,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "low": {
+        "original": "Low",
+        "singular": "Rendah",
+        "plural": "Rendah",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "medium": {
+        "original": "Medium",
+        "singular": "Sederhana",
+        "plural": "Sederhana",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "high": {
+        "original": "High",
+        "singular": "Tinggi",
+        "plural": "Tinggi",
+        "setupEdit": false,
+        "setupVisible": false
+      },    
       "messages": {
         "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
         "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",

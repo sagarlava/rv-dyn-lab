@@ -12256,6 +12256,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "low": {
+        "original": "Low",
+        "singular": "低",
+        "plural": "低",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "medium": {
+        "original": "Medium",
+        "singular": "中",
+        "plural": "中",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "high": {
+        "original": "High",
+        "singular": "高",
+        "plural": "高",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages": {
         "forIncompleteChecklists": "未来将更新未完成的清单。不会使用此状态触发任何工作或任务",
         "thisStatusWillTriggerAnyJobOrders": "此状态将触发与该清单答案相关的任何工作订单和任务",

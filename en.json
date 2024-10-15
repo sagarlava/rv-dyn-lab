@@ -12255,6 +12255,27 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "low": {
+        "original": "Low",
+        "singular": "Low",
+        "plural": "Low",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "medium": {
+        "original": "Medium",
+        "singular": "Medium",
+        "plural": "Medium",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "high": {
+        "original": "High",
+        "singular": "High",
+        "plural": "High",
+        "setupEdit": false,
+        "setupVisible": false
+      },
       "messages":{
         "forIncompleteChecklists": "For incomplete checklists to be updated in the future. No Jobs or Tasks will be triggered using this status",
         "thisStatusWillTriggerAnyJobOrders": "This status will trigger any Job Orders and Tasks related to this checklist's answers",

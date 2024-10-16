@@ -20404,7 +20404,8 @@
         "selectOperator": "Select Operator",
         "noConditionsAvailable":"No conditions available. Click 'Add/Edit Conditions' to create one.",
         "noWorkflowActionsAvailable":"No workflow actions available. Click 'Add Notification' to create one.",
-        "addExistingNotification":"Add Existing Notification"
+        "addExistingNotification":"Add Existing Notification",
+        "pleaseSelectOneTriggerEvent":"Please select atleast one trigger event"
       }
     },
     "templates":{
@@ -20476,7 +20477,9 @@
           "emailTemplatesAllowStandard":"Email templates allow you to create standard blueprints for the emails your organization uses to be easily accessed when setting up things like notifications and workflows in FieldEx",
           "addTheTextToInclude":"Add the text you want to include in your email below. You can also add a button, a table, and any fields from FieldEx to personalize your message.",
           "addHeaderImage":"Add Header Image",
-          "addFooterImage":"Add Footer Image"
+          "addFooterImage":"Add Footer Image",
+          "sendSampleEmail": "A sample email will be sent to your email:",
+          "doYouWishToProceed": "Do you wish to proceed?"
         },
         "settings":{
           "label": {

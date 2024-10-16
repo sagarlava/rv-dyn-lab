@@ -20403,7 +20403,8 @@
         "selectOperator": "选择运算符",
         "noConditionsAvailable": "没有可用条件。点击“添加/编辑条件”来创建一个。",
         "noWorkflowActionsAvailable": "没有可用的工作流操作。点击“添加通知”来创建一个。",
-        "addExistingNotification": "添加现有通知"
+        "addExistingNotification": "添加现有通知",
+        "pleaseSelectOneTriggerEvent": "请至少选择一个触发事件"
       }
     },
     "templates": {
@@ -20475,7 +20476,9 @@
           "emailTemplatesAllowStandard": "电子邮件模板允许您创建组织使用的标准蓝图，以便在设置通知和工作流程时轻松访问。",
           "addTheTextToInclude": "在下面添加您希望包含在电子邮件中的文本。您还可以添加按钮、表格和来自FieldEx的任何字段以个性化您的消息。",
           "addHeaderImage": "添加标题图像",
-          "addFooterImage": "添加页脚图像"
+          "addFooterImage": "添加页脚图像",
+          "sendSampleEmail": "将发送一封示例电子邮件到您的邮箱：",
+          "doYouWishToProceed": "您是否希望继续？"
         },
         "settings": {
           "label": {

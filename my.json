@@ -20402,7 +20402,8 @@
         "selectOperator": "Pilih Operator",
         "noConditionsAvailable": "Tiada syarat tersedia. Klik 'Tambah/Edit Syarat' untuk mencipta satu.",
         "noWorkflowActionsAvailable": "Tiada tindakan aliran kerja tersedia. Klik 'Tambah Notifikasi' untuk mencipta satu.",
-        "addExistingNotification": "Tambah Notifikasi Sedia Ada"
+        "addExistingNotification": "Tambah Notifikasi Sedia Ada",
+        "pleaseSelectOneTriggerEvent": "Sila pilih sekurang-kurangnya satu acara pencetus"
       }
     },
     "templates": {
@@ -20474,7 +20475,9 @@
           "emailTemplatesAllowStandard": "Templat emel membolehkan anda mencipta pelan piawai untuk emel yang digunakan oleh organisasi anda supaya mudah diakses apabila menyediakan perkara seperti pemberitahuan dan aliran kerja dalam FieldEx.",
           "addTheTextToInclude": "Tambah teks yang anda ingin sertakan dalam emel anda di bawah. Anda juga boleh menambah butang, jadual dan sebarang medan daripada FieldEx untuk mempersonalisasikan mesej anda.",
           "addHeaderImage": "Tambah Imej Tajuk",
-          "addFooterImage": "Tambah Imej Kaki"
+          "addFooterImage": "Tambah Imej Kaki",
+          "sendSampleEmail": "Satu e-mel contoh akan dihantar ke e-mel anda:",
+          "doYouWishToProceed": "Adakah anda ingin meneruskan?"
         },
         "settings": {
           "label": {

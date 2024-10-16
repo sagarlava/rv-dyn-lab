@@ -14990,15 +14990,15 @@
         "sections": {
           "setupVisible": false,
           "sec0": {
-            "original": "Notification Details",
-            "singular": "通知详情",
+            "original": "1. Notification Details",
+            "singular": "1. 通知详情",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec1": {
-            "original": "1. What the notification will contain",
-            "singular": "1. 通知内容",
+            "original": "2. What the notification will include",
+            "singular": "2. 通知内容",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15018,8 +15018,8 @@
             "setupVisible": false
           },
           "sec4": {
-            "original": "2. Who will receive the notification",
-            "singular": "2. 谁将收到通知",
+            "original": "3. Who will receive the notification",
+            "singular": "3. 谁将收到通知",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false

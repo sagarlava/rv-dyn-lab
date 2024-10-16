@@ -20396,7 +20396,7 @@
       "messages":{
         "helpAutomateInternal":"Workflows help you automate tasks by setting up rules. When something specific happens (like a field update or status change), the system will automatically do an action for you, like sending a notification or updating information.",
         "useThisPageToCreateNewWorkflows": "Use this page to create new workflows or manage the ones you've already set up.",
-        "triggerWhenNewRecordCreated":"This option will trigger the workflow whenever a new record is created.",
+        "triggerWhenNewRecordCreated":"Triggers the workflow when a new record is added.",
         "triggerWhenUpdatedFirstTime":"This option will trigger the workflow when a record is updated for the first time.",
         "triggerWhenRecordUpdatedEverytime":"This option will trigger the workflow whenever a record is updated.",
         "triggerWhenRecordDeleted":"This option will trigger the workflow whenever a record is deleted.",

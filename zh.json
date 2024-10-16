@@ -20393,7 +20393,7 @@
         }
       },
       "messages": {
-        "helpAutomateInternal": "工作流帮助您通过创建条件触发器来自动化内部流程，例如发送通知、更新字段和应用验证。",
+        "helpAutomateInternal": "工作流通过设置规则帮助您自动化任务。当发生特定事件（如字段更新或状态更改）时，系统会自动为您执行操作，例如发送通知或更新信息。",
         "triggerWhenNewRecordCreated": "此选项将在创建新记录时触发工作流。",
         "triggerWhenUpdatedFirstTime": "此选项将在记录首次更新时触发工作流。",
         "triggerWhenRecordUpdatedEverytime": "此选项将在每次记录更新时触发工作流。",

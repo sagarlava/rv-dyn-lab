@@ -20394,7 +20394,7 @@
         }
       },
       "messages":{
-        "helpAutomateInternal":"Workflows help you automate internal processes by enabling the creation of conditional triggers for actions like sending notifications, updating fields, and applying validations.",
+        "helpAutomateInternal":"Workflows help you automate tasks by setting up rules. When something specific happens (like a field update or status change), the system will automatically do an action for you, like sending a notification or updating information.",
         "triggerWhenNewRecordCreated":"This option will trigger the workflow whenever a new record is created.",
         "triggerWhenUpdatedFirstTime":"This option will trigger the workflow when a record is updated for the first time.",
         "triggerWhenRecordUpdatedEverytime":"This option will trigger the workflow whenever a record is updated.",

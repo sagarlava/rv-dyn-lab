@@ -20257,8 +20257,8 @@
           "setupVisible": false
         },
         "sec5": {
-          "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
-          "singular": "Specify the conditions and combinations of conditions that should trigger this workflow",
+          "original": "Set the rules and combine conditions that will trigger this workflow (e.g., 'Status equal to Completed' AND 'Type equal to Installation'). Use AND/OR to create the right combination of conditions.",
+          "singular": "Set the rules and combine conditions that will trigger this workflow (e.g., 'Status equal to Completed' AND 'Type equal to Installation'). Use AND/OR to create the right combination of conditions.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

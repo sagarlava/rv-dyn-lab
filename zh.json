@@ -20256,8 +20256,8 @@
           "setupVisible": false
         },
         "sec5": {
-          "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
-          "singular": "指定应触发此工作流程的条件和条件组合",
+          "original": "Set the rules and combine conditions that will trigger this workflow (e.g., 'Status equal to Completed' AND 'Type equal to Installation'). Use AND/OR to create the right combination of conditions.",
+          "singular": "设置规则并组合触发此工作流的条件（例如，'状态等于已完成' 和 '类型等于安装'）。使用 AND/OR 创建正确的条件组合。",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

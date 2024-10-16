@@ -20255,8 +20255,8 @@
           "setupVisible": false
         },
         "sec5": {
-          "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
-          "singular": "Nyatakan syarat dan kombinasi syarat yang perlu mencetuskan aliran kerja ini",
+          "original": "Set the rules and combine conditions that will trigger this workflow (e.g., 'Status equal to Completed' AND 'Type equal to Installation'). Use AND/OR to create the right combination of conditions.",
+          "singular": "Tetapkan peraturan dan gabungkan syarat yang akan mencetuskan aliran kerja ini (contohnya, 'Status sama dengan Selesai' DAN 'Jenis sama dengan Pemasangan'). Gunakan AND/OR untuk membuat kombinasi syarat yang betul.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

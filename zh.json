@@ -20394,6 +20394,7 @@
       },
       "messages": {
         "helpAutomateInternal": "工作流通过设置规则帮助您自动化任务。当发生特定事件（如字段更新或状态更改）时，系统会自动为您执行操作，例如发送通知或更新信息。",
+        "useThisPageToCreateNewWorkflows": "使用此页面创建新工作流或管理您已设置的工作流。",
         "triggerWhenNewRecordCreated": "此选项将在创建新记录时触发工作流。",
         "triggerWhenUpdatedFirstTime": "此选项将在记录首次更新时触发工作流。",
         "triggerWhenRecordUpdatedEverytime": "此选项将在每次记录更新时触发工作流。",

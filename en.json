@@ -15155,6 +15155,17 @@
             "setupVisible": false
           }
         },
+        "tooltips": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "navigateTo": {
+            "original": "When the user clicks the notification, where should it take them?",
+            "singular": "When the user clicks the notification, where should it take them?",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
         "messages":{
           "notificationsAllowNotify":"Notifications let you alert users about important actions in FieldEx, like updates or assignments. You can send these alerts in the app or by email. Use workflows to set up and control when notifications are sent.",
           "fillNotificationDetails":"Fill in your notification details with a name and description. This will be visible to all users in their notification preferences.",

@@ -15154,6 +15154,17 @@
             "setupVisible": false
           }
         },
+        "tooltips": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "navigateTo": {
+            "original": "When the user clicks the notification, where should it take them?",
+            "singular": "当用户点击通知时，它应该带他们去哪里？",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
         "messages": {
           "notificationsAllowNotify": "通知可让您提醒用户有关 FieldEx 中的重要操作，如更新或分配。您可以在应用程序中或通过电子邮件发送这些警报。使用工作流设置和控制何时发送通知。",
           "fillNotificationDetails": "填写您的通知详情，包括名称和描述。这将对所有用户在其通知偏好中可见。",

@@ -15153,6 +15153,17 @@
             "setupVisible": false
           }
         },
+        "tooltips": {
+          "setupEdit": false,
+          "setupVisible": false,
+          "navigateTo": {
+            "original": "When the user clicks the notification, where should it take them?",
+            "singular": "Apabila pengguna klik pemberitahuan, ke mana ia sepatutnya membawa mereka?",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
+          }
+        },
         "messages": {
           "notificationsAllowNotify": "Pemberitahuan membolehkan anda memberi amaran kepada pengguna tentang tindakan penting dalam FieldEx, seperti kemas kini atau tugasan. Anda boleh menghantar amaran ini dalam aplikasi atau melalui e-mel. Gunakan aliran kerja untuk menetapkan dan mengawal bila pemberitahuan dihantar.",
           "fillNotificationDetails": "Isi butiran pemberitahuan anda dengan nama dan deskripsi. Ini akan kelihatan kepada semua pengguna dalam keutamaan pemberitahuan mereka.",

@@ -14997,7 +14997,7 @@
           },
           "sec1": {
             "original": "2. What the notification will include",
-            "singular": "2. Kandungan pemberitahuan",
+            "singular": "2. Kandungan notifikasi",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15018,7 +15018,7 @@
           },
           "sec4": {
             "original": "3. Who will receive the notification",
-            "singular": "3. Siapa yang akan menerima pemberitahuan",
+            "singular": "3. Siapa yang akan menerima notifikasi",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -15158,19 +15158,19 @@
           "setupVisible": false,
           "navigateTo": {
             "original": "When the user clicks the notification, where should it take them?",
-            "singular": "Apabila pengguna klik pemberitahuan, ke mana ia sepatutnya membawa mereka?",
+            "singular": "Apabila pengguna klik notifikasi, ke mana ia sepatutnya membawa mereka?",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           }
         },
         "messages": {
-          "notificationsAllowNotify": "Pemberitahuan membolehkan anda memberi amaran kepada pengguna tentang tindakan penting dalam FieldEx, seperti kemas kini atau tugasan. Anda boleh menghantar amaran ini dalam aplikasi atau melalui e-mel. Gunakan aliran kerja untuk menetapkan dan mengawal bila pemberitahuan dihantar.",
-          "fillNotificationDetails": "Isi butiran pemberitahuan anda dengan nama dan deskripsi. Ini akan kelihatan kepada semua pengguna dalam keutamaan pemberitahuan mereka.",
+          "notificationsAllowNotify": "Notifikasi membolehkan anda memberi amaran kepada pengguna tentang tindakan penting dalam FieldEx, seperti kemas kini atau tugasan. Anda boleh menghantar amaran ini dalam aplikasi atau melalui e-mel. Gunakan aliran kerja untuk menetapkan dan mengawal bila notifikasi dihantar.",
+          "fillNotificationDetails": "Isi butiran notifikasi anda dengan nama dan deskripsi. Ini akan kelihatan kepada semua pengguna dalam keutamaan notifikasi mereka.",
           "typeOutMessage": "Tulis mesej anda, pilih medan yang hendak dimasukkan, dan salin teks yang ditunjukkan ke dalam kotak mesej di sebelah kiri.",
-          "selectWhereLikeNotificationNavigate": "Pilih tempat pemberitahuan harus dipautkan.",
-          "selectEmailTemplate": "Pilih templat e-mel yang anda ingin gunakan untuk pemberitahuan ini.",
-          "defineRecipients": "Pilih siapa yang akan menerima pemberitahuan ini dengan memilih pengguna individu, kumpulan, alamat e-mel tertentu, atau kenalan daripada medan (contohnya, e-mel kenalan pesanan kerja).",
+          "selectWhereLikeNotificationNavigate": "Pilih tempat notifikasi harus dipautkan.",
+          "selectEmailTemplate": "Pilih templat e-mel yang anda ingin gunakan untuk notifikasi ini.",
+          "defineRecipients": "Pilih siapa yang akan menerima notifikasi ini dengan memilih pengguna individu, kumpulan, alamat e-mel tertentu, atau kenalan daripada medan (contohnya, e-mel kenalan pesanan kerja).",
           "makeKeyDataBold": "Jadikan data penting tebal.",
           "createEmailTemplate": "Buat Templat E-mel.",
           "selectModule": "Pilih Modul",
@@ -18678,7 +18678,7 @@
         },
         "sec3": {
           "original": "Activate all notifications you would like your organization to see and specify where you'd like see them.",
-          "singular": "Aktifkan semua pemberitahuan yang anda ingin organisasi anda lihat dan tentukan di mana anda ingin melihatnya.",
+          "singular": "Aktifkan semua notifikasi yang anda ingin organisasi anda lihat dan tentukan di mana anda ingin melihatnya.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -18745,8 +18745,8 @@
       },
       "messages": {
         "notificationsDisabled": "Notifikasi dinyahaktifkan. Aktifkan dalam tetapan atau hubungi Pentadbir anda untuk bantuan.",
-        "configNotificationOrganiation": "Konfigurasikan pemberitahuan yang anda ingin organisasi anda lihat.",
-        "notificationAllow": "Notifikasi membolehkan anda memberitahu pengguna mengenai aktiviti tertentu dalam FieldEx, seperti kemas kini dan permintaan, baik dalam aplikasi maupun sebagai pemberitahuan emel. Pilih modul di bawah untuk mengkonfigurasi pemberitahuan sesuai dengan proses anda.",
+        "configNotificationOrganiation": "Konfigurasikan notifikasi yang anda ingin organisasi anda lihat.",
+        "notificationAllow": "Notifikasi membolehkan anda memberitahu pengguna mengenai aktiviti tertentu dalam FieldEx, seperti kemas kini dan permintaan, baik dalam aplikasi maupun sebagai notifikasi emel. Pilih modul di bawah untuk mengkonfigurasi notifikasi sesuai dengan proses anda.",
         "notificationsAreAlerts": "Notifikasi adalah amaran yang akan mengemas kini anda tentang aktiviti tertentu dalam FieldEx. Anda boleh mengkonfigurasi ini untuk dihantar kepada anda melalui medium pilihan anda dengan mengklik 'Edit' dan memilih atau tidak memilih kotak pilihan di bawah.",
         "markAsRead": "Tandakan sebagai Baca",
         "noMessageToDisplay": "Tiada mesej untuk dipaparkan",
@@ -20403,7 +20403,7 @@
         }
       },
       "messages": {
-        "helpAutomateInternal": "Aliran kerja membantu anda mengautomatikkan tugas dengan menetapkan peraturan. Apabila sesuatu yang spesifik berlaku (seperti kemas kini medan atau perubahan status), sistem secara automatik akan melakukan tindakan untuk anda, seperti menghantar pemberitahuan atau mengemas kini maklumat.",
+        "helpAutomateInternal": "Aliran kerja membantu anda mengautomatikkan tugas dengan menetapkan peraturan. Apabila sesuatu yang spesifik berlaku (seperti kemas kini medan atau perubahan status), sistem secara automatik akan melakukan tindakan untuk anda, seperti menghantar notifikasi atau mengemas kini maklumat.",
         "useThisPageToCreateNewWorkflows": "Gunakan halaman ini untuk membuat aliran kerja baharu atau mengurus aliran kerja yang telah anda sediakan.",
         "triggerWhenNewRecordCreated": "Mencetuskan aliran kerja apabila rekod baharu ditambahkan.",
         "triggerWhenUpdatedFirstTime": "Mencetuskan aliran kerja pada kali pertama rekod diubah.",
@@ -20413,12 +20413,12 @@
         "selectAttribute": "Pilih Atribut",
         "selectOperator": "Pilih Operator",
         "noConditionsAvailable": "Klik butang 'Tambah/Edit Syarat' untuk menetapkan peraturan bagi memulakan aliran kerja ini.",
-        "noWorkflowActionsAvailable": "Tiada tindakan ditambah lagi. Klik 'Tambah Pemberitahuan' untuk membuat satu.",
-        "addExistingNotification": "Tambah Notifikasi Sedia Ada",
+        "noWorkflowActionsAvailable": "Tiada tindakan ditambah lagi. Klik 'Tambah Notifikasi' untuk membuat satu.",
+        "addExistingNotification": "Pilih Notifikasi",
         "pleaseSelectOneTriggerEvent": "Sila pilih sekurang-kurangnya satu acara pencetus",
         "ascending": "Menaik",
         "descending": "Menurun",
-        "haveNotCreateNotification": "Belum mencipta pemberitahuan lagi? Klik butang di bawah."
+        "haveNotCreateNotification": "Belum mencipta notifikasi lagi? Klik butang di bawah."
       }
     },
     "templates": {
@@ -20487,7 +20487,7 @@
           }
         },
         "messages": {
-          "emailTemplatesAllowStandard": "Templat e-mel membolehkan anda mencipta format e-mel standard yang boleh digunakan dengan cepat semasa menyediakan pemberitahuan dan aliran kerja dalam FieldEx.",
+          "emailTemplatesAllowStandard": "Templat e-mel membolehkan anda mencipta format e-mel standard yang boleh digunakan dengan cepat semasa menyediakan notifikasi dan aliran kerja dalam FieldEx.",
           "addTheTextToInclude": "Tulis teks untuk e-mel anda di bawah. Anda juga boleh menambah butang, jadual, atau medan daripada FieldEx untuk memperibadikan mesej anda.",
           "addHeaderImage": "Tambah Imej Tajuk",
           "addFooterImage": "Tambah Imej Kaki",

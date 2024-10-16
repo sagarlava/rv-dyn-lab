@@ -20678,8 +20678,8 @@
               "setupVisible": false
             },
             "selectFieldsToInclude": {
-              "original": "Select the fields you want to include in your email and copy the displayed text into the message body on the right. Note: The text within the curly braces ({{}}) will be replaced by the actual field values in the emails sent out.",
-              "singular": "Select the fields you want to include in your email and copy the displayed text into the message body on the right. Note: The text within the curly braces ({{}}) will be replaced by the actual field values in the emails sent out.",
+              "original": "Choose the fields you want to add to your email, then copy the displayed text into the message box on the right. Note: Text inside the curly braces ({{}}) will automatically fill in with real data from FieldEx when the email is sent.",
+              "singular": "Choose the fields you want to add to your email, then copy the displayed text into the message box on the right. Note: Text inside the curly braces ({{}}) will automatically fill in with real data from FieldEx when the email is sent.",
               "plural": "",
               "setupEdit": true,
               "setupVisible": false

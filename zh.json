@@ -20677,8 +20677,8 @@
               "setupVisible": false
             },
             "selectFieldsToInclude": {
-              "original": "Select the fields you want to include in your email and copy the displayed text into the message body on the right. Note: The text within the curly braces ({{}}) will be replaced by the actual field values in the emails sent out.",
-              "singular": "选择要包含在电子邮件中的字段，并将显示的文本复制到右侧的消息正文中。注意：花括号（{{}}）中的文本将在发送的电子邮件中替换为实际字段值。",
+              "original": "Choose the fields you want to add to your email, then copy the displayed text into the message box on the right. Note: Text inside the curly braces ({{}}) will automatically fill in with real data from FieldEx when the email is sent.",
+              "singular": "选择您想添加到电子邮件中的字段，然后将显示的文本复制到右侧的消息框中。注意：大括号（{{}}）中的文本在发送电子邮件时会自动填充来自 FieldEx 的真实数据。",
               "plural": "",
               "setupEdit": true,
               "setupVisible": false

@@ -21012,11 +21012,15 @@
               "job_order": {
                   "description": {
                       "job_order_assigned": "Sent to a user when they have been assigned as order owner for a Job Order",
-                      "job_order_completed": "Sent to an order owner's manager when a Job Order status has changed to 'Completed' (or equivalent)"
+                      "job_order_completed": "Sent to an order owner's manager when a Job Order status has changed to 'Completed' (or equivalent)",
+                      "job_order_appointment_updated": "Sent to the Job Order owner when its time and date has been updated through Calendly",
+                      "survey_responded": "Sent to the owner when a Job Order receives a Survey response from a Customer"
                   },
                   "name": {
                       "job_order_assigned": "Job Order Assignment",
-                      "job_order_completed": "Job Order Completion"
+                      "job_order_completed": "Job Order Completion",
+                      "job_order_appointment_updated": "Appointment Updated through Calendly",
+                      "survey_responded": "Survey Response Received"
                   }
               },
               "maintenance": {

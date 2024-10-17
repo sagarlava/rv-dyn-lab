@@ -6078,2243 +6078,2243 @@
         "setupVisible": true
       }
     },
-  "fields": {
-   "setupVisible": true,
-    "setupEdit": true,
-    "orderDateTime": {
-      "original": "Order Date & Time",
-      "singular": "Tarikh & Waktu Pesanan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "orderDate": {
-      "original": "Order Date",
-      "singular": "Tarikh Pesanan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "orderTime": {
-      "original": "Order Time",
-      "singular": "Waktu Pesanan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "status": {
-      "original": "Status",
-      "singular": "Status",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sla": {
-      "original": "SLA",
-      "singular": "SLA",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "history": {
-      "original": "History",
-      "singular": "Sejarah",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "acknowledgedBy": {
-      "original": "Acknowledged by",
-      "singular": "Diakui oleh",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "action": {
-      "original": "Action",
-      "singular": "Tindakan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "adapter": {
-      "original": "Adapter",
-      "singular": "Penyesuai",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "addEquipment": {
-      "original": "Add Equipment",
-      "singular": "Tambah Peralatan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "additionalParts": {
-      "original": "Additional Parts",
-      "singular": "Bahagian Tambahan",
-      "plural": "Bahagian-bahagian Tambahan",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "alarmSystem": {
-      "original": "Alarm System",
-      "singular": "Sistem Penggera",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "alarms": {
-      "original": "Alarm",
-      "singular": "Penggera",
-      "plural": "Penggera-penggera",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "arrivalTime": {
-      "original": "Arrival Time",
-      "singular": "Waktu Ketibaan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "bed": {
-      "original": "Bed",
-      "singular": "Katil",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "bedStatus": {
-      "original": "Bed Status",
-      "singular": "Status Katil",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "branchAcknowledge": {
-      "original": "Branch Acknowledge",
-      "singular": "Cawangan Mengakui",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "assetUnderWarranty": {
-      "original": "Asset Under Warranty",
-      "singular": "Aset di Bawah Jaminan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "notifyCustomer": {
-      "original": "Notify Customer",
-      "singular": "Maklumkan Pelanggan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "cableCondition": {
-      "original": "Cable Condition",
-      "singular": "Keadaan Kabel",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "calendlyLinkSentTo": {
-      "original": "Calendly link sent to",
-      "singular": "Pautan Calendly dihantar ke",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "calendlyStepOne": {
-      "original": "Confirm whose calendar to share for booking, and the email(s) to send to",
-      "singular": "Sahkan kalendar siapa untuk dikongsi untuk tempahan, dan emel untuk dihantar",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "calendlyStepTwo": {
-      "original": "Define what happens when a slot is booked",
-      "singular": "Tentukan apa yang berlaku apabila slot ditempah",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "caller": {
-      "original": "Caller",
-      "singular": "Pemanggil",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "cardAccess": {
-      "original": "Card Access",
-      "singular": "Akses Kad",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "caseDetails": {
-      "original": "Case Details",
-      "singular": "Butiran Kes",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "caseId": {
-      "original": "Case ID",
-      "singular": "ID Kes",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "cash": {
-      "original": "Cash",
-      "singular": "Tunai",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "cctv": {
-      "original": "CCTV",
-      "singular": "CCTV",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "cctvSystem": {
-      "original": "CCTV System",
-      "singular": "Sistem CCTV",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "checkInDuration": {
-      "original": "Check-in Duration",
-      "singular": "Tempoh Daftar Masuk",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "cheque": {
-      "original": "Cheque",
-      "singular": "Cek",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "chequeNumber": {
-      "original": "Cheque No",
-      "singular": "No. Cek",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "clientAcknowledge": {
-      "original": "Client Acknowledge",
-      "singular": "Pengakuan Klien",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "clientName": {
-      "original": "Client Name",
-      "singular": "Nama Klien",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "closureCode": {
-      "original": "Closure Code",
-      "singular": "Kod Penutupan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "cmaNo": {
-      "original": "CMA No",
-      "singular": "No. CMA",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "cms": {
-      "original": "CMS",
-      "singular": "CMS",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "cmsExecutive": {
-      "original": "CMS Executive",
-      "singular": "Eksekutif CMS",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "cmsOperatorName": {
-      "original": "CMS Operator Name",
-      "singular": "Nama Operator CMS",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "cmsSystemGoodCondition": {
-      "original": "System tested with CMS in good working condition",
-      "singular": "Sistem diuji dengan CMS dalam keadaan kerja yang baik",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "complaint": {
-      "original": "Complaint",
-      "singular": "Aduan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "complaintFault": {
-      "original": "Complaint and Fault",
-      "singular": "Aduan dan Kerosakan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "completionDate": {
-      "original": "Completion Date",
-      "singular": "Tarikh Siap",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "completionDateTime": {
-      "original": "Completion Date & Time",
-      "singular": "Tarikh & Waktu Siap",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "completionForm": {
-      "original": "Completion Form",
-      "singular": "Borang Siap",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "createTaskThisJo": {
-      "original": "Create a Task for this Job Order",
-      "singular": "Buat Tugas untuk Pesanan Kerja ini",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "createdBy": {
-      "original": "Created By",
-      "singular": "Dicipta Oleh",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "csReport": {
-      "original": "Customer Service Report",
-      "singular": "Laporan Perkhidmatan Pelanggan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "csrNo": {
-      "original": "CSR No",
-      "singular": "No. CSR",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "custContact": {
-      "original": "Customer Contact",
-      "singular": "Hubungan Pelanggan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "custom": {
-      "original": "Custom",
-      "singular": "Kustom",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "customerServiceReport": {
-      "original": "Customer Service Report",
-      "singular": "Laporan Perkhidmatan Pelanggan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "dateOfComissioning": {
-      "original": "Date of Commisioning",
-      "singular": "Tarikh Komisioning",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "dayWaiting": {
-      "original": "Open Days",
-      "singular": "Hari Buka",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "delayCodes": {
-      "original": "Delay Codes",
-      "singular": "Kod Kelewatan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "department": {
-      "original": "Department",
-      "singular": "Jabatan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "departureTime": {
-      "original": "Departure Time",
-      "singular": "Waktu Berlepas",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "descDamage": {
-      "original": "Description of Damage",
-      "singular": "Deskripsi Kerosakan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "descFaultOthers": {
-      "original": "Description of Fault Others",
-      "singular": "Deskripsi Kerosakan Lain",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "displayPrice": {
-      "original": "Display Price",
-      "singular": "Harga Paparan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "doorAccessSystem": {
-      "original": "Door Access System",
-      "singular": "Sistem Akses Pintu",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "downloadCost": {
-      "original": "Download with cost",
-      "singular": "Muat Turun dengan Kos",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "downloadWithoutCost": {
-      "original": "Download without cost",
-      "singular": "Muat Turun tanpa Kos",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "dvr": {
-      "original": "DVR",
-      "singular": "DVR",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "dvrModel": {
-      "original": "DVR Model",
-      "singular": "Model DVR",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "email": {
-      "original": "Email",
-      "singular": "Emel",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "equipment": {
-      "original": "Equipment",
-      "singular": "Peralatan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "equipmentPosition": {
-      "original": "Equipment Position",
-      "singular": "Posisi Peralatan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "escalatedTo": {
-      "original": "Escalated To",
-      "singular": "Diarahkan Kepada",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "expiryDate": {
-      "original": "Expiry Date",
-      "singular": "Tarikh Luput",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "extender": {
-      "original": "Extender",
-      "singular": "Panjang",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "files": {
-      "original": "File",
-      "singular": "Fail",
-      "plural": "Fail-fail",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "findings": {
-      "original": "Finding",
-      "singular": "Penemuan",
-      "plural": "Penemuan-penemuan",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "firstHour": {
-      "original": "1st Hour",
-      "singular": "Jam Pertama",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "fixByRep": {
-      "original": "Able to be fixed by Rep",
-      "singular": "Boleh dibaiki oleh Wakil",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "followUp": {
-      "original": "Follow Up",
-      "singular": "Susulan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "form": {
-      "original": "Form",
-      "singular": "Borang",
-      "plural": "Borang-borang",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "fromBin": {
-      "original": "From Bin",
-      "singular": "Dari Bin",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "fromMyDownline": {
-      "original": "From my Downline",
-      "singular": "Dari Jalur Bawah Saya",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "openDays": {
-      "original": "Open Days",
-      "singular": "Hari Buka",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "grandTotal": {
-      "original": "Grand Total (RM)",
-      "singular": "Jumlah Keseluruhan (RM)",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "gsmModuleAlarmPanel": {
-      "original": "GSM Module/ Alarm Panel",
-      "singular": "Modul GSM/ Panel Penggera",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "handoverCertificate": {
-      "original": "Handover Certificate",
-      "singular": "Sijil Penyerahan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "handoverCompletionCert": {
-      "original": "Handover Completion Certificate",
-      "singular": "Sijil Penyerahan Siap",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "hospitalCode": {
-      "original": "Hospital code",
-      "singular": "Kod Hospital",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "hospitalName": {
-      "original": "Hospital Name",
-      "singular": "Nama Hospital",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "hpForm": {
-      "original": "HP Form",
-      "singular": "Borang HP",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "hpCustomer": {
-      "original": "HP Customer",
-      "singular": "Pelanggan HP",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "hpStatus": {
-      "original": "HP Status",
-      "singular": "Status HP",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "icPassport": {
-      "original": "IC/Passport",
-      "singular": "IC/Passport",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "inverterModelBrand": {
-      "original": "Inverter Model/Brand",
-      "singular": "Model/ Jenama Inverter",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "inverterNo": {
-      "original": "Inverter No",
-      "singular": "No Inverter",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "inverterSerialNumber": {
-      "original": "Inverter Serial Number",
-      "singular": "Nombor Siri Inverter",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "inviteSentFrom": {
-      "original": "Invite Sent From",
-      "singular": "Jemputan Dihantar Dari",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "inviteSentTo": {
-      "original": "Invite Sent To",
-      "singular": "Jemputan Dihantar Kepada",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "invoiceNumber": {
-      "original": "Invoice No",
-      "singular": "No Invois",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "ipAddress": {
-      "original": "IP Address",
-      "singular": "Alamat IP",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "itemDesc": {
-      "original": "Item Description",
-      "singular": "Deskripsi Item",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "joContact": {
-      "original": "Job Order Contact",
-      "singular": "Kontak Pesanan Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "joOwner": {
-      "original": "Job Order Owner",
-      "singular": "Pemilik Pesanan Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "jobNumber": {
-      "original": "Job No.",
-      "singular": "No Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "jobOrderCompletionForm": {
-      "original": "Job Order Completion Form",
-      "singular": "Borang Penyelesaian Pesanan Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "jobOrderId": {
-      "original": "Job Order ID",
-      "singular": "ID Pesanan Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "jobOrderNo": {
-      "original": "Job Order No",
-      "singular": "No Pesanan Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "jobStatus": {
-      "original": "Job Status",
-      "singular": "Status Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "jobStatusRemark": {
-      "original": "Job Status Remark",
-      "singular": "Catatan Status Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "jobSummary": {
-      "original": "Job Summary",
-      "singular": "Ringkasan Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "joType": {
-      "original": "JO Type",
-      "singular": "Jenis JO",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "kvm": {
-      "original": "KVM",
-      "singular": "KVM",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "lastModifiedBy": {
-      "original": "Last Modified By",
-      "singular": "Diubah Suai Terakhir Oleh",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "latestInviteLink": {
-      "original": "Latest invite link",
-      "singular": "Pautan Jemputan Terkini",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "machineId": {
-      "original": "Machine ID",
-      "singular": "ID Mesin",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "mandatory": {
-      "original": "Mandatory",
-      "singular": "Wajib",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "medicalRecordNo": {
-      "original": "Medical Record Number",
-      "singular": "Nombor Rekod Perubatan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "mileage": {
-      "original": "Mileage(KM)",
-      "singular": "Jarak Tempuh(KM)",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "module": {
-      "original": "Module",
-      "singular": "Modul",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "name": {
-      "original": "Name",
-      "singular": "Nama",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "nameAndIcPassport": {
-      "original": "Name and IC/Passport",
-      "singular": "Nama dan IC/Passport",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "offCode": {
-      "original": "Off Code",
-      "singular": "Kod Tutup",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "offCodeMessage": {
-      "original": "Off Code Message",
-      "singular": "Mesej Kod Tutup",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "onCode": {
-      "original": "On Code",
-      "singular": "Kod Buka",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "onCodeMessage": {
-      "original": "On Code Message",
-      "singular": "Mesej Kod Buka",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "openCircuitVoltage": {
-      "original": "Open Circuit Voltage (VOC)",
-      "singular": "Voltan Litar Terbuka (VOC)",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "openCircuitVoltageTest": {
-      "original": "Open Circuit Voltage (VOC) Test",
-      "singular": "Ujian Voltan Litar Terbuka (VOC)",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "orderName": {
-      "original": "Order Name",
-      "singular": "Nama Pesanan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "orderStatus": {
-      "original": "Order Status",
-      "singular": "Status Pesanan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "orderTimeDate": {
-      "original": "Order Time & Date",
-      "singular": "Waktu & Tarikh Pesanan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "orderType": {
-      "original": "Order Type",
-      "singular": "Jenis Pesanan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "origExtn": {
-      "original": "Orig. Extn",
-      "singular": "Extn Asal",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "otherReason": {
-      "original": "Other(reason)",
-      "singular": "Lainnya (alasan)",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "owner": {
-      "original": "Owner",
-      "singular": "Pemilik",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "partOrderNo": {
-      "original": "Part Order No.",
-      "singular": "No Pesanan Bahagian",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "patientName": {
-      "original": "Patient Name",
-      "singular": "Nama Pesakit",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "pendingResponse": {
-      "original": "Pending Response",
-      "singular": "Tanggapan Tertunda",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "pesticides": {
-      "original": "Pesticides",
-      "singular": "Pestisida",
-      "plural": "Pestisida",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "phone": {
-      "original": "Phone",
-      "singular": "Telefon",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "photo": {
-      "original": "Photo",
-      "singular": "Foto",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "pmChecklist": {
-      "original": "Preventative Maintenance Checklist",
-      "singular": "Senarai Semak Penyelenggaraan Pencegahan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "qty": {
-      "original": "Qty",
-      "singular": "Kuantiti",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "quantity": {
-      "original": "Quantity",
-      "singular": "Kuantiti",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "reason": {
-      "original": "Reason",
-      "singular": "Alasan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "receivedDate": {
-      "original": "Received Date",
-      "singular": "Tarikh Diterima",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "receivedTime": {
-      "original": "Received Time",
-      "singular": "Waktu Diterima",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "recommendation": {
-      "original": "Recommendation",
-      "singular": "Saranan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "recordingDays": {
-      "original": "Recording Days",
-      "singular": "Hari Rakaman",
-      "plural": "Hari Rakaman",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "redFlag": {
-      "original": "Red Flag",
-      "singular": "Bendera Merah",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "referenceChecklist": {
-      "original": "Reference Checklist",
-      "singular": "Senarai Semak Rujukan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "referenceJobOrder": {
-      "original": "Reference Job Order",
-      "singular": "Rujukan Pesanan Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "remarks": {
-      "original": "Remark",
-      "singular": "Catatan",
-      "plural": "Catatan",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "requiredForms": {
-      "original": "Required Form",
-      "singular": "Borang Diperlukan",
-      "plural": "Borang Diperlukan",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "rescheduleDateTo": {
-      "original": "Reschedule Date to",
-      "singular": "Jadual Semula Tarikh Kepada",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "resource": {
-      "original": "Resource",
-      "singular": "Sumber",
-      "plural": "Sumber",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "responseCollected": {
-      "original": "Response Collected",
-      "singular": "Respons Diperoleh",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "rms": {
-      "original": "RMS",
-      "singular": "RMS",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "scNo": {
-      "original": "SC No",
-      "singular": "No SC",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "searchAddress": {
-      "original": "Search Address",
-      "singular": "Cari Alamat",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "selectBinToTransfer": {
-      "original": "Select Bin to transfer from",
-      "singular": "Pilih Bin untuk dipindahkan dari",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "selectCountry": {
-      "original": "Select Country",
-      "singular": "Pilih Negara",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "selectCustomerIdToViewSalesOrder": {
-      "original": "Select Customer to view Sales Order",
-      "singular": "Pilih Pelanggan untuk melihat Pesanan Jualan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "selectFault": {
-      "original": "Select Fault",
-      "singular": "Pilih Kesalahan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "selectForm": {
-      "original": "Select Form",
-      "singular": "Pilih Borang",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "selectOrderType": {
-      "original": "Select Order Type",
-      "singular": "Pilih Jenis Pesanan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "selectReason": {
-      "original": "Select Reason",
-      "singular": "Pilih Alasan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "selectResolution": {
-      "original": "Select Resolution",
-      "singular": "Pilih Penyelesaian",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "selectServiceZone": {
-      "original": "Select Service Zone",
-      "singular": "Pilih Zon Perkhidmatan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "selectSystem": {
-      "original": "Select System",
-      "singular": "Pilih Sistem",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "selectToSendCalendlyLink": {
-      "original": "Send a link to your customer to book their slot for this Job Order",
-      "singular": "Hantar pautan kepada pelanggan anda untuk menempah slot mereka untuk Pesanan Kerja ini",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "selectUserBinToTransfer": {
-      "original": "Select User Bin to transfer from",
-      "singular": "Pilih Bin Pengguna untuk dipindahkan dari",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sendCalendlyLink": {
-      "original": "Send Calendly Link",
-      "singular": "Hantar Pautan Calendly",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sendSurveyLink": {
-      "original": "Send Survey Link",
-      "singular": "Hantar Pautan Tinjauan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sendSurveyTo": {
-      "original": "Send survey link to",
-      "singular": "Hantar pautan tinjauan kepada",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sendSurveyToCustJo": {
-      "original": "Send a survey link to your customer for this Job Order",
-      "singular": "Hantar pautan tinjauan kepada pelanggan anda untuk Pesanan Kerja ini",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sentAt": {
-      "original": "Sent at",
-      "singular": "Dihantar pada",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "serialNo": {
-      "original": "Serial No",
-      "singular": "No Siri",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "serialNumber": {
-      "original": "Serial Number",
-      "singular": "Nombor Siri",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "servicingChecklist": {
-      "original": "Servicing Checklist",
-      "singular": "Senarai Semak Servis",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "signBy": {
-      "original": "Signed By",
-      "singular": "Ditandatangani Oleh",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "signature": {
-      "original": "Signature",
-      "singular": "Tandatangan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "siteName": {
-      "original": "Site Name",
-      "singular": "Nama Tapak",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "sku": {
-      "original": "SKU",
-      "singular": "SKU",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "staffId": {
-      "original": "Staff ID",
-      "singular": "ID Kakitangan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "started": {
-      "original": "Started",
-      "singular": "Bermula",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "stringNo": {
-      "original": "String No",
-      "singular": "No Rentetan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "subsHour": {
-      "original": "Subsequent Hours",
-      "singular": "Jam Seterusnya",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "subscriber": {
-      "original": "Subscriber",
-      "singular": "Pelanggan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "surveyName": {
-      "original": "Name of Survey",
-      "singular": "Nama Tinjauan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "surveyLink": {
-      "original": "Survey Link",
-      "singular": "Pautan Tinjauan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "surveyResponseReceiveAt": {
-      "original": "Survey Response Received At",
-      "singular": "Respons Tinjauan Diterima Pada",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "surveyResults": {
-      "original": "Survey Results",
-      "singular": "Keputusan Tinjauan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "surveySentAt": {
-      "original": "Survey Sent At",
-      "singular": "Tinjauan Dihantar Pada",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "surveySentFrom": {
-      "original": "Survey Sent From",
-      "singular": "Tinjauan Dihantar Dari",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "surveySentTo": {
-      "original": "Survey Sent To",
-      "singular": "Tinjauan Dihantar Kepada",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "surveySent": {
-      "original": "Survey Sent",
-      "singular": "Tinjauan Dihantar",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "surveyToSend": {
-      "original": "Survey to Send",
-      "singular": "Tinjauan untuk Dihantar",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "createTaskForThisJo": {
-      "original": "Create task for this Job Order",
-      "singular": "Buat tugas untuk Pesanan Kerja ini",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "switchPoe": {
-      "original": "Switch POE",
-      "singular": "Tukar POE",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "switcher": {
-      "original": "Switcher",
-      "singular": "Penukar",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "synchronized": {
-      "original": "Synchronized",
-      "singular": "Diselaraskan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "telephoneNumber": {
-      "original": "Telephone No",
-      "singular": "No Telefon",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "tested": {
-      "original": "Tested",
-      "singular": "Diuji",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "ticketNo": {
-      "original": "Ticket Number",
-      "singular": "Nombor Tiket",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "ticketingNumber": {
-      "original": "Ticketing No",
-      "singular": "No Tiket",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "time": {
-      "original": "Time",
-      "singular": "Masa",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "timeReceived": {
-      "original": "Time Received",
-      "singular": "Masa Diterima",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "totalPrice": {
-      "original": "Total Price",
-      "singular": "Jumlah Harga",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "totalRinggit": {
-      "original": "Total (RM)",
-      "singular": "Jumlah (RM)",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "totalTime": {
-      "original": "Total Time",
-      "singular": "Jumlah Masa",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "totalZone": {
-      "original": "Total Zone",
-      "singular": "Jumlah Zon",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "transferFromBin": {
-      "original": "Transfer from Bin",
-      "singular": "Pindah dari Bin",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "true": {
-      "original": "True",
-      "singular": "Benar",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "tvcmNo": {
-      "original": "TVCM No",
-      "singular": "No TVCM",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "typeOfControl": {
-      "original": "Type of Control",
-      "singular": "Jenis Kawalan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "typeOfControllerAndCommunication": {
-      "original": "Type of Controller and Communication",
-      "singular": "Jenis Pengawal dan Komunikasi",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "typeOfSystem": {
-      "original": "Type of System",
-      "singular": "Jenis Sistem",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "typeOfSystemOthers": {
-      "original": "Type of System Others",
-      "singular": "Jenis Sistem Lain",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "typeYourNoteHere": {
-      "original": "Type your note here",
-      "singular": "Taip catatan anda di sini",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "unitPrice": {
-      "original": "Unit Price",
-      "singular": "Harga Unit",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "updateJoTimeDate": {
-      "original": "Update this Job Orders's Time & Date",
-      "singular": "Kemas kini Masa & Tarikh Pesanan Kerja ini",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "updatedAt": {
-      "original": "Updated at",
-      "singular": "Dikemas kini pada",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "ups": {
-      "original": "UPS",
-      "singular": "UPS",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "user": {
-      "original": "User",
-      "singular": "Pengguna",
-      "plural": "Pengguna",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "viewSurveyResults": {
-      "original": "View Survey Results",
-      "singular": "Lihat Keputusan Tinjauan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "violation": {
-      "original": "Violation",
-      "singular": "Pelanggaran",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "ward": {
-      "original": "Ward",
-      "singular": "Wad",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "whatHappenCustBooking": {
-      "original": "What should happen when the customer makes an appointment for this Job Order?",
-      "singular": "Apa yang harus berlaku apabila pelanggan membuat janji temu untuk Pesanan Kerja ini?",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "whoCalendlySentTo": {
-      "original": "Who should the Calendly link be sent to?",
-      "singular": "Kepada siapa pautan Calendly harus dihantar?",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "whoseCalendarSent": {
-      "original": "Whose calendar should be sent for booking?",
-      "singular": "Kalendar siapa yang harus dihantar untuk tempahan?",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "willUpdateSlotCustomer": {
-      "original": "Will be updated to the slot selected by the customer",
-      "singular": "Akan dikemas kini kepada slot yang dipilih oleh pelanggan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "woDetails": {
-      "original": "WO Details",
-      "singular": "Butiran WO",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "WONo": {
-      "original": "WO No.",
-      "singular": "No WO.",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "workDone": {
-      "original": "Work Done",
-      "singular": "Kerja Selesai",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "workNotDone": {
-      "original": "Work Not Done",
-      "singular": "Kerja Tidak Selesai",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "workNotDoneReason": {
-      "original": "Work Not Done Reason",
-      "singular": "Sebab Kerja Tidak Selesai",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "physicalDamage": {
-      "original": "Physical Damage to hills installed application?",
-      "singular": "Kerosakan Fizikal pada aplikasi yang dipasang di bukit?",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "yes": {
-      "original": "Yes",
-      "singular": "Ya",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "duration": {
-      "original": "Duration",
-      "singular": "Tempoh",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "slaStatus": {
-      "original": "SLA Status",
-      "singular": "Status SLA",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "violationStatus": {
-      "original": "Violation Status",
-      "singular": "Status Pelanggaran",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "address": {
-      "original": "Address",
-      "singular": "Alamat",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "agencyAsset": {
-      "original": "Agency Asset",
-      "singular": "Aset Agensi",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "agencyFaultCode": {
-      "original": "Agency Fault Code",
-      "singular": "Kod Kerosakan Agensi",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "agencyPosition": {
-      "original": "Agency Position",
-      "singular": "Jawatan Agensi",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "alarmModel": {
-      "original": "Alarm Model",
-      "singular": "Model Penggera",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "channel": {
-      "original": "Channel",
-      "singular": "Saluran",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "clientCode": {
-      "original": "Client Code",
-      "singular": "Kod Pelanggan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "cmsOperator": {
-      "original": "CMS Operator",
-      "singular": "Operator CMS",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "ddsNumber": {
-      "original": "DDS No",
-      "singular": "No DDS",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "display": {
-      "original": "Display",
-      "singular": "Paparan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "endWorkDateTime": {
-      "original": "End Work Date & Time",
-      "singular": "Tarikh & Masa Tamat Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "furtherDetails": {
-      "original": "Further Details",
-      "singular": "Butiran Lanjut",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "hccNumber": {
-      "original": "HCC No",
-      "singular": "No HCC",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "installedSerialNo": {
-      "original": "Installed Serial No",
-      "singular": "No Siri Dipasang",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "installedUnit": {
-      "original": "Installed Unit",
-      "singular": "Unit Dipasang",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "keyboard": {
-      "original": "Keyboard",
-      "singular": "Papan Kekunci",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "location": {
-      "original": "Location",
-      "singular": "Lokasi",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "nameProject": {
-      "original": "Name/Project",
-      "singular": "Nama/Projek",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "normalWorkingEndHour": {
-      "original": "Normal Working End Hour",
-      "singular": "Waktu Tamat Kerja Biasa",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "normalWorkingStartHour": {
-      "original": "Normal Working Start Hour",
-      "singular": "Waktu Mula Kerja Biasa",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "overtimeHours": {
-      "original": "Overtime Hours",
-      "singular": "Waktu Lebih Masa",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "partNo": {
-      "original": "Part No",
-      "singular": "Nombor Bahagian",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "poNumber": {
-      "original": "PO Number",
-      "singular": "Nombor PO",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "printer": {
-      "original": "Printer",
-      "singular": "Pencetak",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "resourceId": {
-      "original": "Resource ID",
-      "singular": "ID Sumber",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "resourceName": {
-      "original": "Resource Name",
-      "singular": "Nama Sumber",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "retrievedSerialNo": {
-      "original": "Retrieved Serial No",
-      "singular": "Nombor Siri Diperoleh",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "retrievedUnit": {
-      "original": "Retrieved Unit",
-      "singular": "Unit Diperoleh",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "startWorkDateTime": {
-      "original": "Start Work Date & Time",
-      "singular": "Tarikh & Masa Mula Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "telNoConnectedAlarmSystem": {
-      "original": "Telephone No connected to Alarm System",
-      "singular": "Nombor Telefon disambungkan ke Sistem Penggera",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "terminal": {
-      "original": "Terminal",
-      "singular": "Terminal",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "unitId": {
-      "original": "Unit ID",
-      "singular": "ID Unit",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "uploadAttachment": {
-      "original": "Upload",
-      "singular": "Muat Naik",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "warrantyExpired": {
-      "original": "Warranty Expired",
-      "singular": "Jaminan Tamat",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "workshopAsset": {
-      "original": "Workshop Asset",
-      "singular": "Aset Bengkel",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "workshopFaultCode": {
-      "original": "Workshop Fault Code",
-      "singular": "Kod Kerosakan Bengkel",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "workshopPosition": {
-      "original": "Workshop Position",
-      "singular": "Jawatan Bengkel",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "nameAndICPassport": {
-      "original": "Name and IC/Passport",
-      "singular": "Nama dan IC/Pasport",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "icPassportNo": {
-      "original": "IC/Passport No",
-      "singular": "No IC/Pasport",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "available": {
-      "original": "Available",
-      "singular": "Tersedia",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "serviceType": {
-      "original": "Service Type",
-      "singular": "Jenis Perkhidmatan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "serviceChecklist": {
-      "original": "Service Checklist",
-      "singular": "Senarai Semak Perkhidmatan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "fromUser": {
-      "original": "From User",
-      "singular": "Daripada Pengguna",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "calendyAccHolder": {
-      "original": "Calendly Account Holder",
-      "singular": "Pemegang Akaun Calendly",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "partOrder": {
-      "original": "Part Order",
-      "singular": "Pesanan Bahagian",
-      "plural": "Pesanan Bahagian",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "itemId": {
-      "original": "Item ID",
-      "singular": "ID Item",
-      "plural": "ID Item",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "rmaNumber": {
-      "original": "RMA Number",
-      "singular": "Nombor RMA",
-      "plural": "Nombor RMA",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "importExpiryDate": {
-      "original": "Import Expiry Date",
-      "singular": "Tarikh Tamat Import",
-      "plural": "Tarikh Tamat Import",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "pesticidesId": {
-      "original": "Pesticides ID",
-      "singular": "ID Racun Perosak",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "chemicalTradeName": {
-      "original": "Chemical/Trade Name",
-      "singular": "Nama Kimia/Perdagangan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "activeIngredientAi": {
-      "original": "Active Ingredient (a.i)",
-      "singular": "Bahan Aktif (a.i)",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "class": {
-      "original": "Class",
-      "singular": "Kelas",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "methodOfApplication": {
-      "original": "Method of Application",
-      "singular": "Kaedah Permohonan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "chemicalRatePer4LiterMl": {
-      "original": "Chemical Rate/4 Liter (ml)",
-      "singular": "Kadar Kimia/4 Liter (ml)",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "chemicalUsageMl": {
-      "original": "Chemical Usage (ml)",
-      "singular": "Penggunaan Kimia (ml)",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "areaTreated": {
-      "original": "Area treated",
-      "singular": "Kawasan dirawat",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "mainCustContact": {
-      "original": "Main Customer Contact",
-      "singular": "Hubungan Pelanggan Utama",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "joNumber": {
-      "original": "Job Order No.",
-      "singular": "No. Pesanan Kerja",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "type": {
-      "original": "Type",
-      "singular": "Jenis",
-      "plural": "Jenis-jenis",
+    "fields": {
       "setupVisible": true,
-      "setupEdit": true
-    },
-    "orderOwner": {
-      "original": "Order Owner",
-      "singular": "Pemilik Pesanan",
-      "plural": "Pemilik-pemilik Pesanan",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "note": {
-      "original": "Note",
-      "singular": "Nota",
-      "plural": "",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "system": {
-      "original": "System",
-      "singular": "Sistem",
-      "plural": "Sistem-sistem",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "fault": {
-      "original": "Fault",
-      "singular": "Kerosakan",
-      "plural": "Kerosakan-kerosakan",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "faultDetails": {
-      "original": "Fault Details",
-      "singular": "Butiran Kerosakan",
-      "plural": "",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "additionFault": {
-      "original": "Additional Faults",
-      "singular": "Kerosakan Tambahan",
-      "plural": "",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "resolution": {
-      "original": "Resolution",
-      "singular": "Penyelesaian",
-      "plural": "Penyelesaian-penyelesaian",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "resolutionComment": {
-      "original": "Resolution Comments",
-      "singular": "Komen Penyelesaian",
-      "plural": "",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "additionalResolutions": {
-      "original": "Additional Resolutions",
-      "singular": "Penyelesaian Tambahan",
-      "plural": "",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "additionalComments": {
-      "original": "Additional Comments",
-      "singular": "Komen-komen Tambahan",
-      "plural": "",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "isThisBillable": {
-      "original": "Is this order billable?",
-      "singular": "Adakah pesanan ini boleh dibilkan?",
-      "plural": "",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "invoiceNo": {
-      "original": "Invoice No.",
-      "singular": "No. Invois",
-      "plural": "",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "extId": {
-      "original": "External ID",
-      "singular": "ID Luar",
-      "plural": "",
-      "setupVisible": true,
-      "setupEdit": true
-    },
-    "violated": {
-      "original": "Violated",
-      "singular": "Dilanggar",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "completed": {
-      "original": "Completed",
-      "singular": "Selesai",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "timeLapsedSoFar": {
-      "original": "Time lapsed so far",
-      "singular": "Masa yang berlalu setakat ini",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "pausedAt": {
-      "original": "Paused at",
-      "singular": "Dijeda pada",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "billable": {
-      "original": "Boleh Dicaj",
-      "singular": "Boleh Dicaj",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "purchase": {
-      "original": "Pembelian",
-      "singular": "Pembelian",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    },
-    "acknowledgedDate": {
-      "original": "Acknowledge Date",
-      "singular": "Tarikh Diakui",
-      "plural": "",
       "setupEdit": true,
-      "setupVisible": true
+      "orderDateTime": {
+        "original": "Order Date & Time",
+        "singular": "Tarikh & Waktu Pesanan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderDate": {
+        "original": "Order Date",
+        "singular": "Tarikh Pesanan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderTime": {
+        "original": "Order Time",
+        "singular": "Waktu Pesanan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sla": {
+        "original": "SLA",
+        "singular": "SLA",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "history": {
+        "original": "History",
+        "singular": "Sejarah",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "acknowledgedBy": {
+        "original": "Acknowledged by",
+        "singular": "Diakui oleh",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "action": {
+        "original": "Action",
+        "singular": "Tindakan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "adapter": {
+        "original": "Adapter",
+        "singular": "Penyesuai",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "addEquipment": {
+        "original": "Add Equipment",
+        "singular": "Tambah Peralatan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "additionalParts": {
+        "original": "Additional Parts",
+        "singular": "Bahagian Tambahan",
+        "plural": "Bahagian-bahagian Tambahan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "alarmSystem": {
+        "original": "Alarm System",
+        "singular": "Sistem Penggera",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "alarms": {
+        "original": "Alarm",
+        "singular": "Penggera",
+        "plural": "Penggera-penggera",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "arrivalTime": {
+        "original": "Arrival Time",
+        "singular": "Waktu Ketibaan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bed": {
+        "original": "Bed",
+        "singular": "Katil",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bedStatus": {
+        "original": "Bed Status",
+        "singular": "Status Katil",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "branchAcknowledge": {
+        "original": "Branch Acknowledge",
+        "singular": "Cawangan Mengakui",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetUnderWarranty": {
+        "original": "Asset Under Warranty",
+        "singular": "Aset di Bawah Jaminan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "notifyCustomer": {
+        "original": "Notify Customer",
+        "singular": "Maklumkan Pelanggan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cableCondition": {
+        "original": "Cable Condition",
+        "singular": "Keadaan Kabel",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "calendlyLinkSentTo": {
+        "original": "Calendly link sent to",
+        "singular": "Pautan Calendly dihantar ke",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "calendlyStepOne": {
+        "original": "Confirm whose calendar to share for booking, and the email(s) to send to",
+        "singular": "Sahkan kalendar siapa untuk dikongsi untuk tempahan, dan emel untuk dihantar",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "calendlyStepTwo": {
+        "original": "Define what happens when a slot is booked",
+        "singular": "Tentukan apa yang berlaku apabila slot ditempah",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "caller": {
+        "original": "Caller",
+        "singular": "Pemanggil",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cardAccess": {
+        "original": "Card Access",
+        "singular": "Akses Kad",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "caseDetails": {
+        "original": "Case Details",
+        "singular": "Butiran Kes",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "caseId": {
+        "original": "Case ID",
+        "singular": "ID Kes",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cash": {
+        "original": "Cash",
+        "singular": "Tunai",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cctv": {
+        "original": "CCTV",
+        "singular": "CCTV",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cctvSystem": {
+        "original": "CCTV System",
+        "singular": "Sistem CCTV",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "checkInDuration": {
+        "original": "Check-in Duration",
+        "singular": "Tempoh Daftar Masuk",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cheque": {
+        "original": "Cheque",
+        "singular": "Cek",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chequeNumber": {
+        "original": "Cheque No",
+        "singular": "No. Cek",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "clientAcknowledge": {
+        "original": "Client Acknowledge",
+        "singular": "Pengakuan Klien",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "clientName": {
+        "original": "Client Name",
+        "singular": "Nama Klien",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "closureCode": {
+        "original": "Closure Code",
+        "singular": "Kod Penutupan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmaNo": {
+        "original": "CMA No",
+        "singular": "No. CMA",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cms": {
+        "original": "CMS",
+        "singular": "CMS",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmsExecutive": {
+        "original": "CMS Executive",
+        "singular": "Eksekutif CMS",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmsOperatorName": {
+        "original": "CMS Operator Name",
+        "singular": "Nama Operator CMS",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmsSystemGoodCondition": {
+        "original": "System tested with CMS in good working condition",
+        "singular": "Sistem diuji dengan CMS dalam keadaan kerja yang baik",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "complaint": {
+        "original": "Complaint",
+        "singular": "Aduan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "complaintFault": {
+        "original": "Complaint and Fault",
+        "singular": "Aduan dan Kerosakan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDate": {
+        "original": "Completion Date",
+        "singular": "Tarikh Siap",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionDateTime": {
+        "original": "Completion Date & Time",
+        "singular": "Tarikh & Waktu Siap",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completionForm": {
+        "original": "Completion Form",
+        "singular": "Borang Siap",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createTaskThisJo": {
+        "original": "Create a Task for this Job Order",
+        "singular": "Buat Tugas untuk Pesanan Kerja ini",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createdBy": {
+        "original": "Created By",
+        "singular": "Dicipta Oleh",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csReport": {
+        "original": "Customer Service Report",
+        "singular": "Laporan Perkhidmatan Pelanggan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "csrNo": {
+        "original": "CSR No",
+        "singular": "No. CSR",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custContact": {
+        "original": "Customer Contact",
+        "singular": "Hubungan Pelanggan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custom": {
+        "original": "Custom",
+        "singular": "Kustom",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerServiceReport": {
+        "original": "Customer Service Report",
+        "singular": "Laporan Perkhidmatan Pelanggan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dateOfComissioning": {
+        "original": "Date of Commisioning",
+        "singular": "Tarikh Komisioning",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dayWaiting": {
+        "original": "Open Days",
+        "singular": "Hari Buka",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "delayCodes": {
+        "original": "Delay Codes",
+        "singular": "Kod Kelewatan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "department": {
+        "original": "Department",
+        "singular": "Jabatan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "departureTime": {
+        "original": "Departure Time",
+        "singular": "Waktu Berlepas",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "descDamage": {
+        "original": "Description of Damage",
+        "singular": "Deskripsi Kerosakan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "descFaultOthers": {
+        "original": "Description of Fault Others",
+        "singular": "Deskripsi Kerosakan Lain",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "displayPrice": {
+        "original": "Display Price",
+        "singular": "Harga Paparan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "doorAccessSystem": {
+        "original": "Door Access System",
+        "singular": "Sistem Akses Pintu",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadCost": {
+        "original": "Download with cost",
+        "singular": "Muat Turun dengan Kos",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "downloadWithoutCost": {
+        "original": "Download without cost",
+        "singular": "Muat Turun tanpa Kos",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dvr": {
+        "original": "DVR",
+        "singular": "DVR",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dvrModel": {
+        "original": "DVR Model",
+        "singular": "Model DVR",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "email": {
+        "original": "Email",
+        "singular": "Emel",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipment": {
+        "original": "Equipment",
+        "singular": "Peralatan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentPosition": {
+        "original": "Equipment Position",
+        "singular": "Posisi Peralatan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "escalatedTo": {
+        "original": "Escalated To",
+        "singular": "Diarahkan Kepada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expiryDate": {
+        "original": "Expiry Date",
+        "singular": "Tarikh Luput",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "extender": {
+        "original": "Extender",
+        "singular": "Panjang",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "files": {
+        "original": "File",
+        "singular": "Fail",
+        "plural": "Fail-fail",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "findings": {
+        "original": "Finding",
+        "singular": "Penemuan",
+        "plural": "Penemuan-penemuan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "firstHour": {
+        "original": "1st Hour",
+        "singular": "Jam Pertama",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixByRep": {
+        "original": "Able to be fixed by Rep",
+        "singular": "Boleh dibaiki oleh Wakil",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "followUp": {
+        "original": "Follow Up",
+        "singular": "Susulan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "form": {
+        "original": "Form",
+        "singular": "Borang",
+        "plural": "Borang-borang",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fromBin": {
+        "original": "From Bin",
+        "singular": "Dari Bin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fromMyDownline": {
+        "original": "From my Downline",
+        "singular": "Dari Jalur Bawah Saya",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openDays": {
+        "original": "Open Days",
+        "singular": "Hari Buka",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "grandTotal": {
+        "original": "Grand Total (RM)",
+        "singular": "Jumlah Keseluruhan (RM)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "gsmModuleAlarmPanel": {
+        "original": "GSM Module/ Alarm Panel",
+        "singular": "Modul GSM/ Panel Penggera",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "handoverCertificate": {
+        "original": "Handover Certificate",
+        "singular": "Sijil Penyerahan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "handoverCompletionCert": {
+        "original": "Handover Completion Certificate",
+        "singular": "Sijil Penyerahan Siap",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hospitalCode": {
+        "original": "Hospital code",
+        "singular": "Kod Hospital",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hospitalName": {
+        "original": "Hospital Name",
+        "singular": "Nama Hospital",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hpForm": {
+        "original": "HP Form",
+        "singular": "Borang HP",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hpCustomer": {
+        "original": "HP Customer",
+        "singular": "Pelanggan HP",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hpStatus": {
+        "original": "HP Status",
+        "singular": "Status HP",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "icPassport": {
+        "original": "IC/Passport",
+        "singular": "IC/Passport",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inverterModelBrand": {
+        "original": "Inverter Model/Brand",
+        "singular": "Model/ Jenama Inverter",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inverterNo": {
+        "original": "Inverter No",
+        "singular": "No Inverter",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inverterSerialNumber": {
+        "original": "Inverter Serial Number",
+        "singular": "Nombor Siri Inverter",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteSentFrom": {
+        "original": "Invite Sent From",
+        "singular": "Jemputan Dihantar Dari",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "inviteSentTo": {
+        "original": "Invite Sent To",
+        "singular": "Jemputan Dihantar Kepada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "invoiceNumber": {
+        "original": "Invoice No",
+        "singular": "No Invois",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ipAddress": {
+        "original": "IP Address",
+        "singular": "Alamat IP",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "itemDesc": {
+        "original": "Item Description",
+        "singular": "Deskripsi Item",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "joContact": {
+        "original": "Job Order Contact",
+        "singular": "Kontak Pesanan Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "joOwner": {
+        "original": "Job Order Owner",
+        "singular": "Pemilik Pesanan Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobNumber": {
+        "original": "Job No.",
+        "singular": "No Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderCompletionForm": {
+        "original": "Job Order Completion Form",
+        "singular": "Borang Penyelesaian Pesanan Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderId": {
+        "original": "Job Order ID",
+        "singular": "ID Pesanan Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderNo": {
+        "original": "Job Order No",
+        "singular": "No Pesanan Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobStatus": {
+        "original": "Job Status",
+        "singular": "Status Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobStatusRemark": {
+        "original": "Job Status Remark",
+        "singular": "Catatan Status Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobSummary": {
+        "original": "Job Summary",
+        "singular": "Ringkasan Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "joType": {
+        "original": "JO Type",
+        "singular": "Jenis JO",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "kvm": {
+        "original": "KVM",
+        "singular": "KVM",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastModifiedBy": {
+        "original": "Last Modified By",
+        "singular": "Diubah Suai Terakhir Oleh",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latestInviteLink": {
+        "original": "Latest invite link",
+        "singular": "Pautan Jemputan Terkini",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "machineId": {
+        "original": "Machine ID",
+        "singular": "ID Mesin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mandatory": {
+        "original": "Mandatory",
+        "singular": "Wajib",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "medicalRecordNo": {
+        "original": "Medical Record Number",
+        "singular": "Nombor Rekod Perubatan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mileage": {
+        "original": "Mileage(KM)",
+        "singular": "Jarak Tempuh(KM)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "module": {
+        "original": "Module",
+        "singular": "Modul",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Nama",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameAndIcPassport": {
+        "original": "Name and IC/Passport",
+        "singular": "Nama dan IC/Passport",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "offCode": {
+        "original": "Off Code",
+        "singular": "Kod Tutup",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "offCodeMessage": {
+        "original": "Off Code Message",
+        "singular": "Mesej Kod Tutup",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "onCode": {
+        "original": "On Code",
+        "singular": "Kod Buka",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "onCodeMessage": {
+        "original": "On Code Message",
+        "singular": "Mesej Kod Buka",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openCircuitVoltage": {
+        "original": "Open Circuit Voltage (VOC)",
+        "singular": "Voltan Litar Terbuka (VOC)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "openCircuitVoltageTest": {
+        "original": "Open Circuit Voltage (VOC) Test",
+        "singular": "Ujian Voltan Litar Terbuka (VOC)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderName": {
+        "original": "Order Name",
+        "singular": "Nama Pesanan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderStatus": {
+        "original": "Order Status",
+        "singular": "Status Pesanan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderTimeDate": {
+        "original": "Order Time & Date",
+        "singular": "Waktu & Tarikh Pesanan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderType": {
+        "original": "Order Type",
+        "singular": "Jenis Pesanan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "origExtn": {
+        "original": "Orig. Extn",
+        "singular": "Extn Asal",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "otherReason": {
+        "original": "Other(reason)",
+        "singular": "Lainnya (alasan)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "owner": {
+        "original": "Owner",
+        "singular": "Pemilik",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "partOrderNo": {
+        "original": "Part Order No.",
+        "singular": "No Pesanan Bahagian",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "patientName": {
+        "original": "Patient Name",
+        "singular": "Nama Pesakit",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pendingResponse": {
+        "original": "Pending Response",
+        "singular": "Tanggapan Tertunda",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pesticides": {
+        "original": "Pesticides",
+        "singular": "Pestisida",
+        "plural": "Pestisida",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "phone": {
+        "original": "Phone",
+        "singular": "Telefon",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "photo": {
+        "original": "Photo",
+        "singular": "Foto",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pmChecklist": {
+        "original": "Preventative Maintenance Checklist",
+        "singular": "Senarai Semak Penyelenggaraan Pencegahan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qty": {
+        "original": "Qty",
+        "singular": "Kuantiti",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Kuantiti",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "reason": {
+        "original": "Reason",
+        "singular": "Alasan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "receivedDate": {
+        "original": "Received Date",
+        "singular": "Tarikh Diterima",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "receivedTime": {
+        "original": "Received Time",
+        "singular": "Waktu Diterima",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recommendation": {
+        "original": "Recommendation",
+        "singular": "Saranan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "recordingDays": {
+        "original": "Recording Days",
+        "singular": "Hari Rakaman",
+        "plural": "Hari Rakaman",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "redFlag": {
+        "original": "Red Flag",
+        "singular": "Bendera Merah",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "referenceChecklist": {
+        "original": "Reference Checklist",
+        "singular": "Senarai Semak Rujukan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "referenceJobOrder": {
+        "original": "Reference Job Order",
+        "singular": "Rujukan Pesanan Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "remarks": {
+        "original": "Remark",
+        "singular": "Catatan",
+        "plural": "Catatan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "requiredForms": {
+        "original": "Required Form",
+        "singular": "Borang Diperlukan",
+        "plural": "Borang Diperlukan",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rescheduleDateTo": {
+        "original": "Reschedule Date to",
+        "singular": "Jadual Semula Tarikh Kepada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "resource": {
+        "original": "Resource",
+        "singular": "Sumber",
+        "plural": "Sumber",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "responseCollected": {
+        "original": "Response Collected",
+        "singular": "Respons Diperoleh",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rms": {
+        "original": "RMS",
+        "singular": "RMS",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "scNo": {
+        "original": "SC No",
+        "singular": "No SC",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "searchAddress": {
+        "original": "Search Address",
+        "singular": "Cari Alamat",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectBinToTransfer": {
+        "original": "Select Bin to transfer from",
+        "singular": "Pilih Bin untuk dipindahkan dari",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectCountry": {
+        "original": "Select Country",
+        "singular": "Pilih Negara",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectCustomerIdToViewSalesOrder": {
+        "original": "Select Customer to view Sales Order",
+        "singular": "Pilih Pelanggan untuk melihat Pesanan Jualan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectFault": {
+        "original": "Select Fault",
+        "singular": "Pilih Kesalahan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectForm": {
+        "original": "Select Form",
+        "singular": "Pilih Borang",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectOrderType": {
+        "original": "Select Order Type",
+        "singular": "Pilih Jenis Pesanan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectReason": {
+        "original": "Select Reason",
+        "singular": "Pilih Alasan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectResolution": {
+        "original": "Select Resolution",
+        "singular": "Pilih Penyelesaian",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectServiceZone": {
+        "original": "Select Service Zone",
+        "singular": "Pilih Zon Perkhidmatan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectSystem": {
+        "original": "Select System",
+        "singular": "Pilih Sistem",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectToSendCalendlyLink": {
+        "original": "Send a link to your customer to book their slot for this Job Order",
+        "singular": "Hantar pautan kepada pelanggan anda untuk menempah slot mereka untuk Pesanan Kerja ini",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "selectUserBinToTransfer": {
+        "original": "Select User Bin to transfer from",
+        "singular": "Pilih Bin Pengguna untuk dipindahkan dari",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sendCalendlyLink": {
+        "original": "Send Calendly Link",
+        "singular": "Hantar Pautan Calendly",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sendSurveyLink": {
+        "original": "Send Survey Link",
+        "singular": "Hantar Pautan Tinjauan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sendSurveyTo": {
+        "original": "Send survey link to",
+        "singular": "Hantar pautan tinjauan kepada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sendSurveyToCustJo": {
+        "original": "Send a survey link to your customer for this Job Order",
+        "singular": "Hantar pautan tinjauan kepada pelanggan anda untuk Pesanan Kerja ini",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sentAt": {
+        "original": "Sent at",
+        "singular": "Dihantar pada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No",
+        "singular": "No Siri",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNumber": {
+        "original": "Serial Number",
+        "singular": "Nombor Siri",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "servicingChecklist": {
+        "original": "Servicing Checklist",
+        "singular": "Senarai Semak Servis",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "signBy": {
+        "original": "Signed By",
+        "singular": "Ditandatangani Oleh",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "signature": {
+        "original": "Signature",
+        "singular": "Tandatangan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "siteName": {
+        "original": "Site Name",
+        "singular": "Nama Tapak",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sku": {
+        "original": "SKU",
+        "singular": "SKU",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "staffId": {
+        "original": "Staff ID",
+        "singular": "ID Kakitangan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "started": {
+        "original": "Started",
+        "singular": "Bermula",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "stringNo": {
+        "original": "String No",
+        "singular": "No Rentetan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsHour": {
+        "original": "Subsequent Hours",
+        "singular": "Jam Seterusnya",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subscriber": {
+        "original": "Subscriber",
+        "singular": "Pelanggan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyName": {
+        "original": "Name of Survey",
+        "singular": "Nama Tinjauan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyLink": {
+        "original": "Survey Link",
+        "singular": "Pautan Tinjauan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyResponseReceiveAt": {
+        "original": "Survey Response Received At",
+        "singular": "Respons Tinjauan Diterima Pada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyResults": {
+        "original": "Survey Results",
+        "singular": "Keputusan Tinjauan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveySentAt": {
+        "original": "Survey Sent At",
+        "singular": "Tinjauan Dihantar Pada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveySentFrom": {
+        "original": "Survey Sent From",
+        "singular": "Tinjauan Dihantar Dari",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveySentTo": {
+        "original": "Survey Sent To",
+        "singular": "Tinjauan Dihantar Kepada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveySent": {
+        "original": "Survey Sent",
+        "singular": "Tinjauan Dihantar",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "surveyToSend": {
+        "original": "Survey to Send",
+        "singular": "Tinjauan untuk Dihantar",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "createTaskForThisJo": {
+        "original": "Create task for this Job Order",
+        "singular": "Buat tugas untuk Pesanan Kerja ini",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "switchPoe": {
+        "original": "Switch POE",
+        "singular": "Tukar POE",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "switcher": {
+        "original": "Switcher",
+        "singular": "Penukar",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "synchronized": {
+        "original": "Synchronized",
+        "singular": "Diselaraskan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "telephoneNumber": {
+        "original": "Telephone No",
+        "singular": "No Telefon",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "tested": {
+        "original": "Tested",
+        "singular": "Diuji",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ticketNo": {
+        "original": "Ticket Number",
+        "singular": "Nombor Tiket",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ticketingNumber": {
+        "original": "Ticketing No",
+        "singular": "No Tiket",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "time": {
+        "original": "Time",
+        "singular": "Masa",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "timeReceived": {
+        "original": "Time Received",
+        "singular": "Masa Diterima",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalPrice": {
+        "original": "Total Price",
+        "singular": "Jumlah Harga",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalRinggit": {
+        "original": "Total (RM)",
+        "singular": "Jumlah (RM)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalTime": {
+        "original": "Total Time",
+        "singular": "Jumlah Masa",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "totalZone": {
+        "original": "Total Zone",
+        "singular": "Jumlah Zon",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferFromBin": {
+        "original": "Transfer from Bin",
+        "singular": "Pindah dari Bin",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "true": {
+        "original": "True",
+        "singular": "Benar",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "tvcmNo": {
+        "original": "TVCM No",
+        "singular": "No TVCM",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "typeOfControl": {
+        "original": "Type of Control",
+        "singular": "Jenis Kawalan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "typeOfControllerAndCommunication": {
+        "original": "Type of Controller and Communication",
+        "singular": "Jenis Pengawal dan Komunikasi",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "typeOfSystem": {
+        "original": "Type of System",
+        "singular": "Jenis Sistem",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "typeOfSystemOthers": {
+        "original": "Type of System Others",
+        "singular": "Jenis Sistem Lain",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "typeYourNoteHere": {
+        "original": "Type your note here",
+        "singular": "Taip catatan anda di sini",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "unitPrice": {
+        "original": "Unit Price",
+        "singular": "Harga Unit",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "updateJoTimeDate": {
+        "original": "Update this Job Orders's Time & Date",
+        "singular": "Kemas kini Masa & Tarikh Pesanan Kerja ini",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "updatedAt": {
+        "original": "Updated at",
+        "singular": "Dikemas kini pada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ups": {
+        "original": "UPS",
+        "singular": "UPS",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "user": {
+        "original": "User",
+        "singular": "Pengguna",
+        "plural": "Pengguna",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "viewSurveyResults": {
+        "original": "View Survey Results",
+        "singular": "Lihat Keputusan Tinjauan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "violation": {
+        "original": "Violation",
+        "singular": "Pelanggaran",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ward": {
+        "original": "Ward",
+        "singular": "Wad",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "whatHappenCustBooking": {
+        "original": "What should happen when the customer makes an appointment for this Job Order?",
+        "singular": "Apa yang harus berlaku apabila pelanggan membuat janji temu untuk Pesanan Kerja ini?",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "whoCalendlySentTo": {
+        "original": "Who should the Calendly link be sent to?",
+        "singular": "Kepada siapa pautan Calendly harus dihantar?",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "whoseCalendarSent": {
+        "original": "Whose calendar should be sent for booking?",
+        "singular": "Kalendar siapa yang harus dihantar untuk tempahan?",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "willUpdateSlotCustomer": {
+        "original": "Will be updated to the slot selected by the customer",
+        "singular": "Akan dikemas kini kepada slot yang dipilih oleh pelanggan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "woDetails": {
+        "original": "WO Details",
+        "singular": "Butiran WO",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "WONo": {
+        "original": "WO No.",
+        "singular": "No WO.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "workDone": {
+        "original": "Work Done",
+        "singular": "Kerja Selesai",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "workNotDone": {
+        "original": "Work Not Done",
+        "singular": "Kerja Tidak Selesai",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "workNotDoneReason": {
+        "original": "Work Not Done Reason",
+        "singular": "Sebab Kerja Tidak Selesai",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "physicalDamage": {
+        "original": "Physical Damage to hills installed application?",
+        "singular": "Kerosakan Fizikal pada aplikasi yang dipasang di bukit?",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "yes": {
+        "original": "Yes",
+        "singular": "Ya",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "duration": {
+        "original": "Duration",
+        "singular": "Tempoh",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "slaStatus": {
+        "original": "SLA Status",
+        "singular": "Status SLA",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "violationStatus": {
+        "original": "Violation Status",
+        "singular": "Status Pelanggaran",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "address": {
+        "original": "Address",
+        "singular": "Alamat",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "agencyAsset": {
+        "original": "Agency Asset",
+        "singular": "Aset Agensi",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "agencyFaultCode": {
+        "original": "Agency Fault Code",
+        "singular": "Kod Kerosakan Agensi",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "agencyPosition": {
+        "original": "Agency Position",
+        "singular": "Jawatan Agensi",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "alarmModel": {
+        "original": "Alarm Model",
+        "singular": "Model Penggera",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "channel": {
+        "original": "Channel",
+        "singular": "Saluran",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "clientCode": {
+        "original": "Client Code",
+        "singular": "Kod Pelanggan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cmsOperator": {
+        "original": "CMS Operator",
+        "singular": "Operator CMS",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "ddsNumber": {
+        "original": "DDS No",
+        "singular": "No DDS",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "display": {
+        "original": "Display",
+        "singular": "Paparan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "endWorkDateTime": {
+        "original": "End Work Date & Time",
+        "singular": "Tarikh & Masa Tamat Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "furtherDetails": {
+        "original": "Further Details",
+        "singular": "Butiran Lanjut",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "hccNumber": {
+        "original": "HCC No",
+        "singular": "No HCC",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "installedSerialNo": {
+        "original": "Installed Serial No",
+        "singular": "No Siri Dipasang",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "installedUnit": {
+        "original": "Installed Unit",
+        "singular": "Unit Dipasang",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "keyboard": {
+        "original": "Keyboard",
+        "singular": "Papan Kekunci",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "location": {
+        "original": "Location",
+        "singular": "Lokasi",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameProject": {
+        "original": "Name/Project",
+        "singular": "Nama/Projek",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "normalWorkingEndHour": {
+        "original": "Normal Working End Hour",
+        "singular": "Waktu Tamat Kerja Biasa",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "normalWorkingStartHour": {
+        "original": "Normal Working Start Hour",
+        "singular": "Waktu Mula Kerja Biasa",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overtimeHours": {
+        "original": "Overtime Hours",
+        "singular": "Waktu Lebih Masa",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "partNo": {
+        "original": "Part No",
+        "singular": "Nombor Bahagian",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "poNumber": {
+        "original": "PO Number",
+        "singular": "Nombor PO",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "printer": {
+        "original": "Printer",
+        "singular": "Pencetak",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "resourceId": {
+        "original": "Resource ID",
+        "singular": "ID Sumber",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "resourceName": {
+        "original": "Resource Name",
+        "singular": "Nama Sumber",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "retrievedSerialNo": {
+        "original": "Retrieved Serial No",
+        "singular": "Nombor Siri Diperoleh",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "retrievedUnit": {
+        "original": "Retrieved Unit",
+        "singular": "Unit Diperoleh",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "startWorkDateTime": {
+        "original": "Start Work Date & Time",
+        "singular": "Tarikh & Masa Mula Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "telNoConnectedAlarmSystem": {
+        "original": "Telephone No connected to Alarm System",
+        "singular": "Nombor Telefon disambungkan ke Sistem Penggera",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "terminal": {
+        "original": "Terminal",
+        "singular": "Terminal",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "unitId": {
+        "original": "Unit ID",
+        "singular": "ID Unit",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "uploadAttachment": {
+        "original": "Upload",
+        "singular": "Muat Naik",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "warrantyExpired": {
+        "original": "Warranty Expired",
+        "singular": "Jaminan Tamat",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "workshopAsset": {
+        "original": "Workshop Asset",
+        "singular": "Aset Bengkel",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "workshopFaultCode": {
+        "original": "Workshop Fault Code",
+        "singular": "Kod Kerosakan Bengkel",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "workshopPosition": {
+        "original": "Workshop Position",
+        "singular": "Jawatan Bengkel",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameAndICPassport": {
+        "original": "Name and IC/Passport",
+        "singular": "Nama dan IC/Pasport",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "icPassportNo": {
+        "original": "IC/Passport No",
+        "singular": "No IC/Pasport",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "available": {
+        "original": "Available",
+        "singular": "Tersedia",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serviceType": {
+        "original": "Service Type",
+        "singular": "Jenis Perkhidmatan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serviceChecklist": {
+        "original": "Service Checklist",
+        "singular": "Senarai Semak Perkhidmatan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fromUser": {
+        "original": "From User",
+        "singular": "Daripada Pengguna",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "calendyAccHolder": {
+        "original": "Calendly Account Holder",
+        "singular": "Pemegang Akaun Calendly",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "partOrder": {
+        "original": "Part Order",
+        "singular": "Pesanan Bahagian",
+        "plural": "Pesanan Bahagian",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "itemId": {
+        "original": "Item ID",
+        "singular": "ID Item",
+        "plural": "ID Item",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rmaNumber": {
+        "original": "RMA Number",
+        "singular": "Nombor RMA",
+        "plural": "Nombor RMA",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "importExpiryDate": {
+        "original": "Import Expiry Date",
+        "singular": "Tarikh Tamat Import",
+        "plural": "Tarikh Tamat Import",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pesticidesId": {
+        "original": "Pesticides ID",
+        "singular": "ID Racun Perosak",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chemicalTradeName": {
+        "original": "Chemical/Trade Name",
+        "singular": "Nama Kimia/Perdagangan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "activeIngredientAi": {
+        "original": "Active Ingredient (a.i)",
+        "singular": "Bahan Aktif (a.i)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "class": {
+        "original": "Class",
+        "singular": "Kelas",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "methodOfApplication": {
+        "original": "Method of Application",
+        "singular": "Kaedah Permohonan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chemicalRatePer4LiterMl": {
+        "original": "Chemical Rate/4 Liter (ml)",
+        "singular": "Kadar Kimia/4 Liter (ml)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "chemicalUsageMl": {
+        "original": "Chemical Usage (ml)",
+        "singular": "Penggunaan Kimia (ml)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "areaTreated": {
+        "original": "Area treated",
+        "singular": "Kawasan dirawat",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "mainCustContact": {
+        "original": "Main Customer Contact",
+        "singular": "Hubungan Pelanggan Utama",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "joNumber": {
+        "original": "Job Order No.",
+        "singular": "No. Pesanan Kerja",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Jenis",
+        "plural": "Jenis-jenis",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "orderOwner": {
+        "original": "Order Owner",
+        "singular": "Pemilik Pesanan",
+        "plural": "Pemilik-pemilik Pesanan",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Nota",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "system": {
+        "original": "System",
+        "singular": "Sistem",
+        "plural": "Sistem-sistem",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "fault": {
+        "original": "Fault",
+        "singular": "Kerosakan",
+        "plural": "Kerosakan-kerosakan",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "faultDetails": {
+        "original": "Fault Details",
+        "singular": "Butiran Kerosakan",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "additionFault": {
+        "original": "Additional Faults",
+        "singular": "Kerosakan Tambahan",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "resolution": {
+        "original": "Resolution",
+        "singular": "Penyelesaian",
+        "plural": "Penyelesaian-penyelesaian",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "resolutionComment": {
+        "original": "Resolution Comments",
+        "singular": "Komen Penyelesaian",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "additionalResolutions": {
+        "original": "Additional Resolutions",
+        "singular": "Penyelesaian Tambahan",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "additionalComments": {
+        "original": "Additional Comments",
+        "singular": "Komen-komen Tambahan",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "isThisBillable": {
+        "original": "Is this order billable?",
+        "singular": "Adakah pesanan ini boleh dibilkan?",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "invoiceNo": {
+        "original": "Invoice No.",
+        "singular": "No. Invois",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "extId": {
+        "original": "External ID",
+        "singular": "ID Luar",
+        "plural": "",
+        "setupVisible": true,
+        "setupEdit": true
+      },
+      "violated": {
+        "original": "Violated",
+        "singular": "Dilanggar",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "completed": {
+        "original": "Completed",
+        "singular": "Selesai",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "timeLapsedSoFar": {
+        "original": "Time lapsed so far",
+        "singular": "Masa yang berlalu setakat ini",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "pausedAt": {
+        "original": "Paused at",
+        "singular": "Dijeda pada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "billable": {
+        "original": "Boleh Dicaj",
+        "singular": "Boleh Dicaj",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "purchase": {
+        "original": "Pembelian",
+        "singular": "Pembelian",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "acknowledgedDate": {
+        "original": "Acknowledge Date",
+        "singular": "Tarikh Diakui",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "date": {
+        "original": "Date",
+        "singular": "Tarikh",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
-    "date": {
-      "original": "Date",
-      "singular": "Tarikh",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
-    }
-  },
     "validationFE": {
       "endDateThanStartDate": "Tarikh tamat mesti selepas tarikh mula",
       "notAvailable": "N/A",
@@ -9169,6 +9169,20 @@
       "sec12": {
         "original": "Movement History",
         "singular": "Sejarah Pergerakan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Aset untuk Dipindahkan",
+        "singular": "Aset untuk Dipindahkan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec14": {
+        "original": "Bahagian untuk Dipindahkan",
+        "singular": "Bahagian untuk Dipindahkan",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -12294,14 +12308,14 @@
         "plural": "Tinggi",
         "setupEdit": false,
         "setupVisible": false
-      }, 
+      },
       "submitted": {
         "original": "Submitted",
         "singular": "Telah Dihantar",
         "plural": "Telah Dihantar",
         "setupEdit": false,
         "setupVisible": false
-      },   
+      },
       "messages": {
         "forIncompleteChecklists": "Untuk senarai semak yang tidak lengkap akan dikemas kini pada masa hadapan. Tiada Pekerjaan atau Tugas akan dicetuskan menggunakan status ini",
         "thisStatusWillTriggerAnyJobOrders": "Status ini akan mencetuskan sebarang Pesanan Kerja dan Tugas yang berkaitan dengan jawapan senarai semak ini",

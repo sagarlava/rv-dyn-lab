@@ -6123,6 +6123,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "editEquipment": {
+        "original": "Edit Equipment",
+        "singular": "编辑设备",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "additionalParts": {
         "original": "Additional Parts",
         "singular": "附加部件",
@@ -11072,6 +11079,13 @@
         "singular": "编辑",
         "plural": "",
         "setupEdit": true,
+        "setupVisible": false
+      },
+      "addEquipment": {
+        "original": "Add Equipment",
+        "singular": "添加设备",
+        "plural": "",
+        "setupEdit": false,
         "setupVisible": false
       },
       "editEquipment": {

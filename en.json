@@ -6151,6 +6151,13 @@
       "setupEdit": false,
       "setupVisible": false
     },
+    "editEquipment": {
+      "original": "Edit Equipment",
+      "singular": "Edit Equipment",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": false
+    },
     "additionalParts": {
       "original": "Additional Parts",
       "singular": "Additional Parts",
@@ -11074,6 +11081,13 @@
         "singular": "Edit",
         "plural": "",
         "setupEdit": true,
+        "setupVisible": false
+      },
+      "addEquipment": {
+        "original": "Add Equipment",
+        "singular": "Add Equipment",
+        "plural": "",
+        "setupEdit": false,
         "setupVisible": false
       },
       "editEquipment": {

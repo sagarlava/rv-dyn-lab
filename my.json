@@ -6151,6 +6151,13 @@
         "setupEdit": false,
         "setupVisible": false
       },
+      "editEquipment": {
+        "original": "Edit Equipment",
+        "singular": "Edit Peralatan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "additionalParts": {
         "original": "Additional Parts",
         "singular": "Bahagian Tambahan",
@@ -11072,6 +11079,13 @@
         "singular": "Edit",
         "plural": "",
         "setupEdit": true,
+        "setupVisible": false
+      },
+      "addEquipment": {
+        "original": "Add Equipment",
+        "singular": "Tambah Peralatan",
+        "plural": "",
+        "setupEdit": false,
         "setupVisible": false
       },
       "editEquipment": {

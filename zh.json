@@ -21011,11 +21011,15 @@
         "job_order": {
           "description": {
             "job_order_assigned": "当用户被分配为工作订单的订单所有者时发送",
-            "job_order_completed": "当工作订单状态变为 '已完成'（或相应状态）时发送给订单所有者的经理"
+            "job_order_completed": "当工作订单状态变为 '已完成'（或相应状态）时发送给订单所有者的经理",
+            "job_order_appointment_updated": "当工作订单的时间和日期通过Calendly更新时，发送给工作订单的所有者",
+            "survey_responded": "当工作订单收到客户的调查回复时，发送给所有者"
           },
           "name": {
             "job_order_assigned": "工作订单分配",
-            "job_order_completed": "工作订单完成"
+            "job_order_completed": "工作订单完成",
+            "job_order_appointment_updated": "通过Calendly更新的预约",
+            "survey_responded": "收到调查回复"
           }
         },
         "maintenance": {

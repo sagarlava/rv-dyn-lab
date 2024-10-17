@@ -21010,11 +21010,15 @@
         "job_order": {
           "description": {
             "job_order_assigned": "Dihantar kepada pengguna apabila mereka telah dilantik sebagai pemilik pesanan untuk Pesanan Kerja",
-            "job_order_completed": "Dihantar kepada pengurus pemilik pesanan apabila status Pesanan Kerja telah berubah kepada 'Selesai' (atau setara)"
+            "job_order_completed": "Dihantar kepada pengurus pemilik pesanan apabila status Pesanan Kerja telah berubah kepada 'Selesai' (atau setara)",
+            "job_order_appointment_updated": "Dihantar kepada pemilik Pesanan Kerja apabila masa dan tarikhnya telah dikemas kini melalui Calendly",
+            "survey_responded": "Dihantar kepada pemilik apabila Pesanan Kerja menerima maklum balas Tinjauan daripada Pelanggan"
           },
           "name": {
             "job_order_assigned": "Penugasan Pesanan Kerja",
-            "job_order_completed": "Penyelesaian Pesanan Kerja"
+            "job_order_completed": "Penyelesaian Pesanan Kerja",
+            "job_order_appointment_updated": "Janji Temu Dikemas Kini melalui Calendly",
+            "survey_responded": "Maklum Balas Tinjauan Diterima"
           }
         },
         "maintenance": {

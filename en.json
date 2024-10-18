@@ -5036,7 +5036,8 @@
     }
   },
   "project": {
-    "setupVisible": false,
+    "setupEdit": true,
+    "setupVisible": true,
     "label": {
       "original": "Project",
       "singular": "Project",
@@ -5045,51 +5046,53 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
+        "setupEdit": false,
+      "setupVisible": false,
       "sec0": {
         "original": "General Details",
         "singular": "General Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Contact Details",
         "singular": "Contact Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Additional Details",
         "singular": "Additional Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Project Details",
         "singular": "Project Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Details",
         "singular": "Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec5": {
         "original": "Filter By",
         "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
+        "setupEdit": true,
       "setupVisible": true,
       "category": {
         "original": "Category",
@@ -5109,8 +5112,8 @@
         "original": "End Date",
         "singular": "End Date",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "extId": {
         "original": "External ID",
@@ -5123,57 +5126,57 @@
         "original": "Second External ID",
         "singular": "Second External ID",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "projectNo": {
         "original": "Project No.",
         "singular": "Project No.",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "projectName": {
         "original": "Project Name",
         "singular": "Project Name",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "name": {
         "original": "Name",
         "singular": "Name",
         "plural": "Names",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "email": {
         "original": "Email",
         "singular": "Email",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "phone1": {
         "original": "Phone 1",
         "singular": "Phone 1",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "phone2": {
         "original": "Phone 2",
         "singular": "Phone 2",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remark",
         "singular": "Remark",
         "plural": "Remarks",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNo": {
         "original": "Reference No.",
@@ -5186,8 +5189,8 @@
         "original": "Status",
         "singular": "Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "source": {
         "original": "Source",
@@ -5207,8 +5210,8 @@
         "original": "Start Date",
         "singular": "Start Date",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "paymentTerm": {
         "original": "Payment Term",
@@ -5221,8 +5224,8 @@
         "original": "Category Type",
         "singular": "Category Type",
         "plural": "Category Types",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -5246,13 +5249,14 @@
       "projectCannotDeleteByJobOrders": "Unable to delete, Project is used in one or more Job Order"
     },
     "tooltips": {
-      "setupVisible": true,
+        "setupEdit": false,
+        "setupVisible": false,
       "projectLookup": {
         "original": "Project Lookup",
         "singular": "Project Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {

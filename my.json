@@ -5035,8 +5035,9 @@
       "soRequiresMinimumOneProduct": "Pesanan jualan memerlukan sekurang-kurangnya satu Alat Ganti"
     }
   },
-  "project": {
-    "setupVisible": false,
+  "project": {  
+    "setupEdit": true,
+    "setupVisible": true,
     "label": {
       "original": "Project",
       "singular": "Projek",
@@ -5045,51 +5046,53 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
+      "setupEdit": false,
+      "setupVisible": false,
       "sec0": {
         "original": "General Details",
         "singular": "Butiran Am",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Contact Details",
         "singular": "Butiran Hubungan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Additional Details",
         "singular": "Butiran Tambahan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+      "setupVisible": false
       },
       "sec3": {
         "original": "Project Details",
         "singular": "Butiran Projek",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+      "setupVisible": false
       },
       "sec4": {
         "original": "Details",
         "singular": "Butiran",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+      "setupVisible": false
       },
       "sec5": {
         "original": "Filter By",
         "singular": "Tapis Mengikut",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
+      "setupEdit": true,
       "setupVisible": true,
       "category": {
         "original": "Category",
@@ -5109,8 +5112,8 @@
         "original": "End Date",
         "singular": "Tarikh Tamat",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "extId": {
         "original": "External ID",
@@ -5123,57 +5126,57 @@
         "original": "Second External ID",
         "singular": "ID Luaran Kedua",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+      "setupVisible": false
       },
       "projectNo": {
         "original": "Project No.",
         "singular": "No. Projek",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "projectName": {
         "original": "Project Name",
         "singular": "Nama Projek",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "name": {
         "original": "Name",
         "singular": "Nama",
         "plural": "Nama",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "email": {
         "original": "Email",
         "singular": "Emel",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "phone1": {
         "original": "Phone 1",
         "singular": "Telefon 1",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+      "setupVisible": false
       },
       "phone2": {
         "original": "Phone 2",
         "singular": "Telefon 2",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remark",
         "singular": "Catatan",
         "plural": "Catatan",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNo": {
         "original": "Reference No.",
@@ -5186,8 +5189,8 @@
         "original": "Status",
         "singular": "Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "source": {
         "original": "Source",
@@ -5207,8 +5210,8 @@
         "original": "Start Date",
         "singular": "Tarikh Mula",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "paymentTerm": {
         "original": "Payment Term",
@@ -5221,8 +5224,8 @@
         "original": "Category Type",
         "singular": "Jenis Kategori",
         "plural": "Jenis Kategori",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -5246,13 +5249,14 @@
       "projectCannotDeleteByJobOrders": "Tidak dapat dihapuskan, Projek digunakan dalam satu atau lebih Pesanan Kerja"
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupEdit": false,
+      "setupVisible": false,
       "projectLookup": {
         "original": "Project Lookup",
         "singular": "Carian Projek",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+      "setupVisible": false
       }
     },
     "messages": {

@@ -13200,13 +13200,14 @@
     }
   },
   "setup": {
+    "setupEdit": true,
     "setupVisible": true,
     "label": {
       "original": "Setup",
       "singular": "设置",
       "plural": "设置",
-      "setupEdit": false,
-      "setupVisible": false
+      "setupEdit": true,
+      "setupVisible": true
     },
     "general": {
       "setupVisible": false,

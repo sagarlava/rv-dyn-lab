@@ -2409,7 +2409,8 @@
       "contractMaintenanceContractNotFound": "Contract required",
       "contractItemNotFound": "Contract Item required",
       "contractItemIdExists": "A new contract item cannot already have an ID",
-      "contractMaintenanceIdExists": "A new contract maintenance cannot already have an ID"
+      "contractMaintenanceIdExists": "A new contract maintenance cannot already have an ID",
+      "contractMaintenanceIdNotFound": "Id not found"
     },
     "messages": {
       "maintenanceAppliesToAllContractAssets": "This Maintenance will be applied to all Assets within this Contract"

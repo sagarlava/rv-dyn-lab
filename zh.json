@@ -2413,7 +2413,8 @@
       "contractMaintenanceContractNotFound": "需要合同",
       "contractItemNotFound": "需要合同项目",
       "contractItemIdExists": "新合同项目不能已有ID",
-      "contractMaintenanceIdExists": "新合同维护不能已有ID"
+      "contractMaintenanceIdExists": "新合同维护不能已有ID",
+      "contractMaintenanceIdNotFound": "未找到ID"
     },
     "messages": {
       "maintenanceAppliesToAllContractAssets": "此维护将应用于此合同中的所有资产"
@@ -21766,7 +21767,7 @@
       "userLeaveNotFound": "未找到用户请假记录",
       "userLeaveUserManagerNotFound": "未找到经理，请联系您的管理员",
       "leaveAuditEventHistoryIdExists": "新的请假审核事件历史不能已有ID",
-      "userLeaveOnlyAppliedCanBeEdited": "只有已申请的用户休假可以编辑",
+      "userLeaveApprovedOrRejected": "用户的请假已被批准/拒绝",
       "userLeaveOverlappingWithHolidays": "您的休假与节假日重叠，请更改您的休假日期并重试",
       "userLeaveUserWithIdNotFound": "无效的用户ID"
     },

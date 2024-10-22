@@ -2409,7 +2409,8 @@
       "contractMaintenanceContractNotFound": "Kontrak diperlukan",
       "contractItemNotFound": "Item Kontrak diperlukan",
       "contractItemIdExists": "Item kontrak baru tidak boleh mempunyai ID sedia ada",
-      "contractMaintenanceIdExists": "Penyelenggaraan kontrak baru tidak boleh mempunyai ID sedia ada"
+      "contractMaintenanceIdExists": "Penyelenggaraan kontrak baru tidak boleh mempunyai ID sedia ada",
+      "contractMaintenanceIdNotFound": "ID tidak dijumpai"
     },
     "messages": {
       "maintenanceAppliesToAllContractAssets": "Penyelenggaraan ini akan digunakan pada semua Aset dalam Kontrak ini"

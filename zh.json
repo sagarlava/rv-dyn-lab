@@ -366,7 +366,10 @@
       "customerSubSectorIdExists": "新的客户子行业不能已有ID",
       "customerSubSectorNameExists": "客户子行业名称已存在",
       "customerSubSectorSystemGenerated": "不允许删除系统生成的客户子行业",
-      "customerSubSectorHasCustomerSector": "系统中存在客户子行业的客户行业数据"
+      "customerSubSectorHasCustomerSector": "系统中存在客户子行业的客户行业数据",
+      "customerPriceBookNotFound": "未找到客户价格手册",
+      "customerPriceBookIdNotFound": "未找到客户价格手册ID",
+      "customerPriceBookUpdateFailed": "更新客户价格手册失败"
     },
     "tooltips": {
       "setupVisible": false,
@@ -2186,7 +2189,10 @@
       "contractTableSetupNotFound": "未找到合同表格设置，请联系支持",
       "contractContactNotFound": "未找到合同联系人",
       "contractIdNotFound": "未找到ID",
-      "contractIdExists": "新合同不能已有ID"
+      "contractIdExists": "新合同不能已有ID",
+      "contractPriceBookNotFound": "未找到合同价格手册",
+      "contractPriceBookIdNotFound": "未找到合同价格手册ID",
+      "contractPriceBookUpdateFailed": "更新合同价格手册失败"
     },
     "tooltips": {
       "setupVisible": false,
@@ -8399,7 +8405,8 @@
       "jobOrderProductNotFound": "未找到作业订单备件",
       "jobOrderProductStatusIdExists": "新的作业订单备件状态不能已有ID",
       "jobOrderProductStatusIdNotFound": "未找到ID",
-      "slaJobOrderIdExists": "新的SLA作业订单不能已有ID"
+      "slaJobOrderIdExists": "新的SLA作业订单不能已有ID",
+      "jobOrderPriceBookNotFound": "未找到价格手册"
     },
     "tooltips": {
       "setupVisible": false,

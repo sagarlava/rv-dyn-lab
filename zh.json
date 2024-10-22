@@ -6979,8 +6979,8 @@
         "original": "Order Type",
         "singular": "订单类型",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "origExtn": {
         "original": "Orig. Extn",
@@ -8190,8 +8190,8 @@
         "original": "Type",
         "singular": "类型",
         "plural": "类型",
-        "setupVisible": true,
-        "setupEdit": true
+        "setupVisible": false,
+        "setupEdit": false
       },
       "orderOwner": {
         "original": "Order Owner",

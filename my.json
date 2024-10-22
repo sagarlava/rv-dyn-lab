@@ -6993,8 +6993,8 @@
         "original": "Order Type",
         "singular": "Jenis Pesanan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "origExtn": {
         "original": "Orig. Extn",
@@ -8176,8 +8176,8 @@
         "original": "Type",
         "singular": "Jenis",
         "plural": "Jenis-jenis",
-        "setupVisible": true,
-        "setupEdit": true
+        "setupVisible": false,
+        "setupEdit": false
       },
       "orderOwner": {
         "original": "Order Owner",

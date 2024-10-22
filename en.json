@@ -1178,7 +1178,8 @@
       "previously":"Previously",
       "from":"From",
       "warrantyStartDate":"Warranty start date should not be greater than warranty end date",
-      "errorFetchingAllAssets": "Error fetching all assets"
+      "errorFetchingAllAssets": "Error fetching all assets",
+      "errorOccuredWhileFetchingAccessories": "Error occured while fetching accessories"
     }
   },
   "assetLog": {
@@ -12531,7 +12532,13 @@
       "days":"day(s)",
       "hours":"hour(s)",
       "mins":"min(s)",
-      "noBuffer":"No Buffer"
+      "noBuffer":"No Buffer",
+      "anErrorOccuredDuringLogout":"An error occured during logout",
+      "errorOccuredWhileSigning":"An error occured while signing",
+      "noDocumentIsGenerated":"No document is generated since partial data is filled.",
+      "pullToRefreshToSeeTheCompletion":"Pull to refresh to see the completion",
+      "phoneNumberNotAvailable":"Phone number not available"
+      
     },
     "currency":{
       "australianDollar": "AUD",
@@ -13187,7 +13194,7 @@
       "messages":{
         "to": "to",
         "willBeChangedFrom": "will be changed from",
-        "doYouWishToContinue": "Do you wish to continue?",
+        "doYouWishToContinue": "Do you wiqsh to continue?",
         "module": "module",
         "willNowBe": "will now be",
         "confirm": "Confirm",
@@ -14401,7 +14408,9 @@
         "messages": {
           "selectMember": "Select Member",
           "selectRole": "Select Role",
-          "viewOnlyAccess":"View Only Access"
+          "viewOnlyAccess":"View Only Access",
+          "removeTeamMember":"Remove Team Member",
+          "areYouSureWantToTemove":"Are you sure you want to remove rge team member?"
         }
       },
       "users": {

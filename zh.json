@@ -1178,7 +1178,9 @@
       "previously": "以前",
       "from": "从",
       "warrantyStartDate": "保修开始日期不应晚于保修结束日期",
-      "errorFetchingAllAssets": "获取所有资产时出错"
+      "errorFetchingAllAssets": "获取所有资产时出错",
+      "errorOccuredWhileFetchingAccessories": "获取配件时发生错误",
+      
     }
   },
   "assetLog": {
@@ -1291,7 +1293,9 @@
       "resetMeterForLowerReading": "如果您的新仪表读数小于当前读数，请选择“重置仪表”",
       "futureDateTimeEntryNotAllowed": "不能输入未来的日期和时间",
       "entryCannotBeNegativeValue": "不能输入负值",
-      "areYouSureDeleteReading": "您确定要删除这个读数吗？"
+      "areYouSureDeleteReading": "您确定要删除这个读数吗？",
+      "errorOccuredWhileSigning": "签名时发生错误",
+      
     }
   },
   "vanLog": {
@@ -2707,8 +2711,8 @@
       "totalTimeSpent": "总花费时间",
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "任务无法删除，因为旅程正在运行",
       "journeyAlreadyRunningForAnotherTask": "另一个任务的旅程已经在运行",
-      "endJourney": "Tamat Perjalanan",
-      "resolvingLocation": "Menyelesaikan Lokasi"
+      "endJourney": "结束旅程", 
+      "resolvingLocation": "解析位置" 
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "未找到RouteId或TaskId",
@@ -12531,7 +12535,12 @@
       "days": "天",
       "hours": "小时",
       "mins": "分钟",
-      "noBuffer": "无缓冲"
+      "noBuffer": "无缓冲",
+      "anErrorOccuredDuringLogout":"退出期间发生错误",
+      "errorOccuredWhileSigning":"签名时发生错误",
+      "noDocumentIsGenerated":"未生成文档",
+      "pullToRefreshToSeeTheCompletion":"下拉刷新以查看完成情况",
+      "phoneNumberNotAvailable":"电话号码不可用"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -14401,7 +14410,9 @@
         "messages": {
           "selectMember": "选择成员",
           "selectRole": "选择角色",
-          "viewOnlyAccess": "仅查看权限"
+          "viewOnlyAccess": "仅查看权限",
+          "removeTeamMember": "删除团队成员",
+          "areYouSureWantToTemove": "您确定要删除此团队成员吗？"
         }
       },
       "users": {

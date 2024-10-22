@@ -1178,7 +1178,8 @@
       "previously": "Sebelumnya",
       "from": "Dari",
       "warrantyStartDate": "Tarikh mula jaminan tidak boleh melebihi tarikh tamat jaminan",
-      "errorFetchingAllAssets": "Ralat mendapatkan semua aset"
+      "errorFetchingAllAssets": "Ralat mendapatkan semua aset",
+      "errorOccuredWhileFetchingAccessories": "Ralat semasa mengambil aksesori"
     }
   },
   "assetLog": {
@@ -12529,7 +12530,13 @@
       "days": "hari",
       "hours": "jam",
       "mins": "minit",
-      "noBuffer": "Tiada Penampan"
+      "noBuffer": "Tiada Penampan",
+      "anErrorOccuredDuringLogout":"Ralat berlaku semasa log keluar",
+      "errorOccuredWhileSigning":"Ralat berlaku semasa menandatangani",
+      "noDocumentIsGenerated":"Tiada dokumen dijana",
+      "pullToRefreshToSeeTheCompletion":"Tarik ke bawah untuk melihat penyelesaian",
+      "phoneNumberNotAvailable":"Nombor telefon tidak tersedia"
+      
     },
     "currency": {
       "australianDollar": "AUD",
@@ -14399,7 +14406,10 @@
         "messages": {
           "selectMember": "Pilih Ahli",
           "selectRole": "Pilih Peranan",
-          "viewOnlyAccess": "Akses Paparan Sahaja"
+          "viewOnlyAccess": "Akses Paparan Sahaja",
+           "removeTeamMember": "Padam Ahli Pasukan",
+          "areYouSureWantToTemove": "Adakah anda pasti ingin membuang ahli pasukan ini?",
+          "errorOccuredWhileSigning": "Ralat berlaku semasa menandatangani",
         }
       },
       "users": {

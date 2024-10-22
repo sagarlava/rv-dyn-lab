@@ -1482,7 +1482,7 @@
     },
     "sections": {
       "setupVisible": false,
-      "setupEdit": true,
+      "setupEdit": false,
       "sec0": {
         "original": "Maintenance Details",
         "singular": "维护详情",
@@ -1514,7 +1514,7 @@
     },
     "fields": {
       "setupVisible": false,
-      "setupEdit": true,
+      "setupEdit": false,
       "status": {
         "original": "Status",
         "singular": "状态",

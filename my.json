@@ -366,7 +366,10 @@
       "customerSubSectorIdExists": "Sub Sektor Pelanggan baru tidak boleh sudah mempunyai ID",
       "customerSubSectorNameExists": "Nama Sub Sektor Pelanggan sudah wujud",
       "customerSubSectorSystemGenerated": "Sub Sektor Pelanggan yang dijana oleh sistem tidak dibenarkan untuk dipadam",
-      "customerSubSectorHasCustomerSector": "Data Sektor Pelanggan wujud dalam sistem untuk Sub Sektor Pelanggan"
+      "customerSubSectorHasCustomerSector": "Data Sektor Pelanggan wujud dalam sistem untuk Sub Sektor Pelanggan",
+      "customerPriceBookNotFound": "Buku Harga Pelanggan tidak dijumpai",
+      "customerPriceBookIdNotFound": "ID Buku Harga Pelanggan tidak dijumpai",
+      "customerPriceBookUpdateFailed": "Gagal mengemas kini buku harga pelanggan"
     },
     "tooltips": {
       "setupVisible": false,
@@ -2186,7 +2189,10 @@
       "contractTableSetupNotFound": "Tetapan Jadual Kontrak tidak dijumpai, sila hubungi sokongan",
       "contractContactNotFound": "Kenalan Kontrak tidak dijumpai",
       "contractIdNotFound": "ID tidak dijumpai",
-      "contractIdExists": "Kontrak baru tidak boleh mempunyai ID sedia ada"
+      "contractIdExists": "Kontrak baru tidak boleh mempunyai ID sedia ada",
+      "contractPriceBookNotFound": "Buku Harga Kontrak tidak dijumpai",
+      "contractPriceBookIdNotFound": "ID Buku Harga Kontrak tidak dijumpai",
+      "contractPriceBookUpdateFailed": "Gagal mengemas kini buku harga kontrak"
     },
     "tooltips": {
       "setupVisible": false,
@@ -8399,7 +8405,8 @@
       "jobOrderProductNotFound": "Alat Ganti Pesanan Kerja tidak dijumpai",
       "jobOrderProductStatusIdExists": "Status Alat Ganti Pesanan Kerja baru tidak boleh sudah mempunyai ID",
       "jobOrderProductStatusIdNotFound": "ID tidak dijumpai",
-      "slaJobOrderIdExists": "Pesanan Kerja SLA baru tidak boleh sudah mempunyai ID"
+      "slaJobOrderIdExists": "Pesanan Kerja SLA baru tidak boleh sudah mempunyai ID",
+      "jobOrderPriceBookNotFound": "Buku Harga tidak dijumpai"
     },
     "tooltips": {
       "setupVisible": false,

@@ -366,7 +366,10 @@
       "customerSubSectorIdExists": "A new Customer Sub Sector cannot already have an ID",
       "customerSubSectorNameExists": "Customer Sub Sector Name already exists",
       "customerSubSectorSystemGenerated": "System generated Customer Sub Sectors are not allowed to be deleted",
-      "customerSubSectorHasCustomerSector": "Customer Sector Data exists in the system for the Customer Sub Sector"
+      "customerSubSectorHasCustomerSector": "Customer Sector Data exists in the system for the Customer Sub Sector",
+      "customerPriceBookNotFound": "Customer Price Book not found",
+      "customerPriceBookIdNotFound": "Customer Price Book Id not found",
+      "customerPriceBookUpdateFailed": "Failed to update price book of customer"
     },
     "tooltips": {
         "setupVisible": false,
@@ -2186,7 +2189,10 @@
       "contractTableSetupNotFound": "Contract Table Setup not found, please contact support",
       "contractContactNotFound": "Contract Contact not found",
       "contractIdNotFound": "Id not found",
-      "contractIdExists": "A new contract cannot already have an ID"
+      "contractIdExists": "A new contract cannot already have an ID",
+      "contractPriceBookNotFound": "Contract Price Book not found",
+      "contractPriceBookIdNotFound": "Contract Price Book Id not found",
+      "contractPriceBookUpdateFailed": "Failed to update price book of contract"
     },
     "tooltips": {
       "setupVisible": false,
@@ -8399,7 +8405,8 @@
       "jobOrderProductNotFound": "Job Order Spare Part not found",
       "jobOrderProductStatusIdExists": "A new Job Order Spare Part Status cannot already have an ID",
       "jobOrderProductStatusIdNotFound": "Id not found",
-      "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID"
+      "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID",
+      "jobOrderPriceBookNotFound": "Price Book not found"
     },
    "tooltips": {
     "setupVisible": false,

@@ -5907,9 +5907,9 @@
       "setupVisible": false
     },
     "sec23": {
-      "original": "Spare Parts and Service Charges",
-      "singular": "Spare Parts and Service Charges",
-      "plural": "Spare Parts and Service Charges",
+      "original": "Products and Service Charges",
+      "singular": "Products and Service Charges",
+      "plural": "Products and Service Charges",
       "setupEdit": false,
       "setupVisible": false
     },
@@ -6112,6 +6112,13 @@
     "sec52": {
       "original": "Fault Call Unit",
       "singular": "Fault Call Unit",
+      "plural": "",
+      "setupEdit": false,
+      "setupVisible": false
+    },
+    "sec53": {
+      "original": "Order Details",
+      "singular": "Order Details",
       "plural": "",
       "setupEdit": false,
       "setupVisible": false

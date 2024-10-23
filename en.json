@@ -366,7 +366,10 @@
       "customerSubSectorIdExists": "A new Customer Sub Sector cannot already have an ID",
       "customerSubSectorNameExists": "Customer Sub Sector Name already exists",
       "customerSubSectorSystemGenerated": "System generated Customer Sub Sectors are not allowed to be deleted",
-      "customerSubSectorHasCustomerSector": "Customer Sector Data exists in the system for the Customer Sub Sector"
+      "customerSubSectorHasCustomerSector": "Customer Sector Data exists in the system for the Customer Sub Sector",
+      "customerPriceBookNotFound": "Customer Price Book not found",
+      "customerPriceBookIdNotFound": "Customer Price Book Id not found",
+      "customerPriceBookUpdateFailed": "Failed to update price book of customer"
     },
     "tooltips": {
         "setupVisible": false,
@@ -869,8 +872,8 @@
           "setupVisible": false
         },
         "currentReading": {
-          "original": "Current Reading",
-          "singular": "Current Reading",
+          "original": "Current Meter Reading",
+          "singular": "Current Meter Reading",
           "plural": "",
           "setupEdit": true,
           "setupVisible": true
@@ -2187,7 +2190,10 @@
       "contractTableSetupNotFound": "Contract Table Setup not found, please contact support",
       "contractContactNotFound": "Contract Contact not found",
       "contractIdNotFound": "Id not found",
-      "contractIdExists": "A new contract cannot already have an ID"
+      "contractIdExists": "A new contract cannot already have an ID",
+      "contractPriceBookNotFound": "Contract Price Book not found",
+      "contractPriceBookIdNotFound": "Contract Price Book Id not found",
+      "contractPriceBookUpdateFailed": "Failed to update price book of contract"
     },
     "tooltips": {
       "setupVisible": false,
@@ -6081,6 +6087,34 @@
       "plural": "",
       "setupEdit": true,
       "setupVisible": true
+    },
+    "sec49": {
+      "original": "Equipment",
+      "singular": "Equipment",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sec50": {
+      "original": "Fault Module",
+      "singular": "Fault Module",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sec51": {
+      "original": "Questions",
+      "singular": "Questions",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sec52": {
+      "original": "Fault Call Unit",
+      "singular": "Fault Call Unit",
+      "plural": "",
+      "setupEdit": true,
+      "setupVisible": true
     }
   },
     "fields": {
@@ -6993,8 +7027,8 @@
       "original": "Order Type",
       "singular": "Order Type",
       "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
+      "setupEdit": true,
+      "setupVisible": true
     },
     "origExtn": {
       "original": "Orig. Extn",
@@ -8176,8 +8210,8 @@
       "original": "Type",
       "singular": "Type",
       "plural": "Types",
-      "setupVisible": true,
-      "setupEdit": true
+      "setupVisible": false,
+      "setupEdit": false
     },
     "orderOwner": {
       "original": "Order Owner",
@@ -8316,8 +8350,8 @@
       "original": "Acknowledge Date",
       "singular": "Acknowledge Date",
       "plural": "",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "date": {
       "original": "Date",
@@ -8399,7 +8433,8 @@
       "jobOrderProductNotFound": "Job Order Spare Part not found",
       "jobOrderProductStatusIdExists": "A new Job Order Spare Part Status cannot already have an ID",
       "jobOrderProductStatusIdNotFound": "Id not found",
-      "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID"
+      "slaJobOrderIdExists": "A new Sla Job Order cannot already have an ID",
+      "jobOrderPriceBookNotFound": "Price Book not found"
     },
    "tooltips": {
     "setupVisible": false,
@@ -9093,9 +9128,9 @@
   "binTransfer": {
     "setupVisible": false,
     "label": {
-      "original": "Bin Transfer",
-      "singular": "Bin Transfer",
-      "plural": "Bin Transfers",
+      "original": "Transfer",
+      "singular": "Transfer",
+      "plural": "Transfers",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -13223,13 +13258,14 @@
     }
   },
   "setup": {
+    "setupEdit": true,
     "setupVisible": true,
     "label": {
       "original": "Setup",
       "singular": "Setup",
       "plural": "Setups",
       "setupEdit": true,
-      "setupVisible": false
+      "setupVisible": true
     },
     "general": {
       "setupVisible": false,
@@ -15022,9 +15058,9 @@
             "setupVisible": false
           },
           "sec1":{
-            "original": "Modules Label",
-            "singular": "Modules Label",
-            "plural": "Modules Label",
+            "original": "Module Labels",
+            "singular": "Module Labels",
+            "plural": "Module Labels",
             "setupEdit": true,
             "setupVisible": false
           }
@@ -15060,7 +15096,7 @@
           }
         },
         "messages":{
-          "customizeModuleFieldsAndLabels":"Customize module fields and labels with your preferred terms, to be seen by everyone in your organization. You may do this for all available languages.",
+          "customizeModuleFieldsAndLabels":"Customize labels with your preferred terms, to be seen by everyone in your organization. You may do this for all available languages.",
           "lastUpdated":"Last updated",
           "youHaveUnsavedChanges":"You have unsaved changes that will be lost. How do you want to proceed?"
         }

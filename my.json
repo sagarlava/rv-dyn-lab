@@ -366,7 +366,10 @@
       "customerSubSectorIdExists": "Sub Sektor Pelanggan baru tidak boleh sudah mempunyai ID",
       "customerSubSectorNameExists": "Nama Sub Sektor Pelanggan sudah wujud",
       "customerSubSectorSystemGenerated": "Sub Sektor Pelanggan yang dijana oleh sistem tidak dibenarkan untuk dipadam",
-      "customerSubSectorHasCustomerSector": "Data Sektor Pelanggan wujud dalam sistem untuk Sub Sektor Pelanggan"
+      "customerSubSectorHasCustomerSector": "Data Sektor Pelanggan wujud dalam sistem untuk Sub Sektor Pelanggan",
+      "customerPriceBookNotFound": "Buku Harga Pelanggan tidak dijumpai",
+      "customerPriceBookIdNotFound": "ID Buku Harga Pelanggan tidak dijumpai",
+      "customerPriceBookUpdateFailed": "Gagal mengemas kini buku harga pelanggan"
     },
     "tooltips": {
       "setupVisible": false,
@@ -869,8 +872,8 @@
         "setupVisible": false
       },
       "currentReading": {
-        "original": "Current Reading",
-        "singular": "Bacaan Semasa",
+        "original": "Current Meter Reading",
+        "singular": "Bacaan Meter Semasa",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -2187,7 +2190,10 @@
       "contractTableSetupNotFound": "Tetapan Jadual Kontrak tidak dijumpai, sila hubungi sokongan",
       "contractContactNotFound": "Kenalan Kontrak tidak dijumpai",
       "contractIdNotFound": "ID tidak dijumpai",
-      "contractIdExists": "Kontrak baru tidak boleh mempunyai ID sedia ada"
+      "contractIdExists": "Kontrak baru tidak boleh mempunyai ID sedia ada",
+      "contractPriceBookNotFound": "Buku Harga Kontrak tidak dijumpai",
+      "contractPriceBookIdNotFound": "ID Buku Harga Kontrak tidak dijumpai",
+      "contractPriceBookUpdateFailed": "Gagal mengemas kini buku harga kontrak"
     },
     "tooltips": {
       "setupVisible": false,
@@ -4899,7 +4905,7 @@
       },
       "description": {
         "original": "Description",
-        "singular": "Nama",
+        "singular": "Deskripsi",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -6082,6 +6088,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec49": {
+        "original": "Equipment",
+        "singular": "Peralatan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec50": {
+        "original": "Fault Module",
+        "singular": "Modul Kerosakan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec51": {
+        "original": "Questions",
+        "singular": "Soalan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec52": {
+        "original": "Fault Call Unit",
+        "singular": "Unit Panggilan Kerosakan",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -6994,8 +7028,8 @@
         "original": "Order Type",
         "singular": "Jenis Pesanan",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "origExtn": {
         "original": "Orig. Extn",
@@ -8177,8 +8211,8 @@
         "original": "Type",
         "singular": "Jenis",
         "plural": "Jenis-jenis",
-        "setupVisible": true,
-        "setupEdit": true
+        "setupVisible": false,
+        "setupEdit": false
       },
       "orderOwner": {
         "original": "Order Owner",
@@ -8317,8 +8351,8 @@
         "original": "Acknowledge Date",
         "singular": "Tarikh Diakui",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "date": {
         "original": "Date",
@@ -8400,7 +8434,8 @@
       "jobOrderProductNotFound": "Alat Ganti Pesanan Kerja tidak dijumpai",
       "jobOrderProductStatusIdExists": "Status Alat Ganti Pesanan Kerja baru tidak boleh sudah mempunyai ID",
       "jobOrderProductStatusIdNotFound": "ID tidak dijumpai",
-      "slaJobOrderIdExists": "Pesanan Kerja SLA baru tidak boleh sudah mempunyai ID"
+      "slaJobOrderIdExists": "Pesanan Kerja SLA baru tidak boleh sudah mempunyai ID",
+      "jobOrderPriceBookNotFound": "Buku Harga tidak dijumpai"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9095,8 +9130,8 @@
     "setupVisible": false,
     "label": {
       "original": "Bin Transfer",
-      "singular": "Pemindahan Bin",
-      "plural": "Pemindahan Bin",
+      "singular": "Pemindahan",
+      "plural": "Pemindahan",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -13218,13 +13253,14 @@
     }
   },
   "setup": {
+    "setupEdit": true,
     "setupVisible": true,
     "label": {
       "original": "Setup",
       "singular": "Tetapan",
-      "plural": "",
-      "setupEdit": false,
-      "setupVisible": false
+      "plural": "Tetapan",
+      "setupEdit": true,
+      "setupVisible": true
     },
     "general": {
       "setupVisible": false,
@@ -15056,7 +15092,7 @@
           }
         },
         "messages": {
-          "customizeModuleFieldsAndLabels": "Sesuaikan medan dan label modul dengan istilah pilihan anda, untuk dilihat oleh semua orang dalam organisasi anda. Anda boleh melakukan ini untuk semua bahasa yang tersedia.",
+          "customizeModuleFieldsAndLabels": "Sesuaikan label dengan istilah pilihan anda, yang akan dilihat oleh semua orang dalam organisasi anda. Anda boleh melakukannya untuk semua bahasa yang tersedia.",
           "lastUpdated": "Terakhir dikemaskini",
           "youHaveUnsavedChanges": "Anda mempunyai perubahan yang belum disimpan yang akan hilang. Bagaimana anda ingin meneruskan?"
         }

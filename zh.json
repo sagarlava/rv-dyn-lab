@@ -366,7 +366,10 @@
       "customerSubSectorIdExists": "新的客户子行业不能已有ID",
       "customerSubSectorNameExists": "客户子行业名称已存在",
       "customerSubSectorSystemGenerated": "不允许删除系统生成的客户子行业",
-      "customerSubSectorHasCustomerSector": "系统中存在客户子行业的客户行业数据"
+      "customerSubSectorHasCustomerSector": "系统中存在客户子行业的客户行业数据",
+      "customerPriceBookNotFound": "未找到客户价格手册",
+      "customerPriceBookIdNotFound": "未找到客户价格手册ID",
+      "customerPriceBookUpdateFailed": "更新客户价格手册失败"
     },
     "tooltips": {
       "setupVisible": false,
@@ -869,8 +872,8 @@
         "setupVisible": false
       },
       "currentReading": {
-        "original": "Current Reading",
-        "singular": "当前读数",
+        "original": "Current Meter Reading",
+        "singular": "当前设备度数",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -1483,228 +1486,228 @@
       "setupVisible": true
     },
     "sections": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "sec0": {
         "original": "Maintenance Details",
         "singular": "维护详情",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec1": {
         "original": "Maintenance Template",
         "singular": "维护模板",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec2": {
         "original": "Preventative Maintenance",
         "singular": "预防性维护",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sec3": {
         "original": "Details",
         "singular": "细节",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
-      "setupEdit": true,
+      "setupVisible": false,
+      "setupEdit": false,
       "status": {
         "original": "Status",
         "singular": "状态",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "startDate": {
         "original": "Start Date",
         "singular": "开始日期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "endDate": {
         "original": "End Date",
         "singular": "结束日期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "endTime": {
         "original": "End Time",
         "singular": "结束时间",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetStatus": {
         "original": "Asset Status",
         "singular": "资产状态",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceTemplate": {
         "original": "Maintenance Template",
         "singular": "维护模板",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sendInitialReminder": {
         "original": "Send Initial Reminder (Days Before)",
         "singular": "发送初始提醒（提前几天）",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "followUpReminder": {
         "original": "Follow Up Reminder (Days Before)",
         "singular": "发送后续提醒（提前几天）",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "sendOverdueReminder": {
         "original": "Send Overdue Reminder (Days After)",
         "singular": "发送逾期提醒（逾期几天）",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "generateNextMaintenance": {
         "original": "Generate Next Maintenance",
         "singular": "生成下一次维护",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "generateAllMaintenanceNow": {
         "original": "Generate All Maintenance Now",
         "singular": "立即生成所有维护",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "onlyUponPreviousCompletion": {
         "original": "Only Upon Previous Completion",
         "singular": "仅在上次完成后",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "autoCreateJobOrder": {
         "original": "Automatically Generate Job Order",
         "singular": "自动生成工作订单",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "initialReminder": {
         "original": "Initial Reminder (Days Before)",
         "singular": "初始提醒（提前几天）",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "overdueReminder": {
         "original": "Overdue Reminder (Days After)",
         "singular": "逾期提醒（逾期几天）",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "nextServiceDate": {
         "original": "Next Service Date",
         "singular": "下次服务日期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "nextServiceType": {
         "original": "Next Service Type",
         "singular": "下次服务类型",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceId": {
         "original": "Maintenance ID",
         "singular": "维护ID",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "scheduleNumber": {
         "original": "Scheduled No",
         "singular": "计划编号",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "scheduledDateTime": {
         "original": "Scheduled Date",
         "singular": "计划日期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "serviceType": {
         "original": "Service Type",
         "singular": "服务类型",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "类型",
         "plural": "类型",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "other": {
         "original": "Other",
         "singular": "其他",
         "plural": "其他",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "actualCompletionDateTime": {
         "original": "Actual Completion Date",
         "singular": "实际完成日期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "assetName": {
         "original": "Asset Name",
         "singular": "资产名称",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "maintenanceDate": {
         "original": "Maintenance Date",
         "singular": "维护日期",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       },
       "generateJobOrder": {
         "original": "Generate Job Order",
         "singular": "生成工作订单",
         "plural": "",
         "setupEdit": false,
-        "setupVisible": true
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -2188,7 +2191,10 @@
       "contractTableSetupNotFound": "未找到合同表格设置，请联系支持",
       "contractContactNotFound": "未找到合同联系人",
       "contractIdNotFound": "未找到ID",
-      "contractIdExists": "新合同不能已有ID"
+      "contractIdExists": "新合同不能已有ID",
+      "contractPriceBookNotFound": "未找到合同价格手册",
+      "contractPriceBookIdNotFound": "未找到合同价格手册ID",
+      "contractPriceBookUpdateFailed": "更新合同价格手册失败"
     },
     "tooltips": {
       "setupVisible": false,
@@ -4900,7 +4906,7 @@
       },
       "description": {
         "original": "Description",
-        "singular": "姓名",
+        "singular": "描述",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -6083,6 +6089,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
+      },
+      "sec49": {
+        "original": "Equipment",
+        "singular": "设备",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec50": {
+        "original": "Fault Module",
+        "singular": "故障模块",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec51": {
+        "original": "Questions",
+        "singular": "问题",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec52": {
+        "original": "Fault Call Unit",
+        "singular": "故障呼叫单元",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       }
     },
     "fields": {
@@ -6981,8 +7015,8 @@
         "original": "Order Type",
         "singular": "订单类型",
         "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
+        "setupEdit": true,
+        "setupVisible": true
       },
       "origExtn": {
         "original": "Orig. Extn",
@@ -8192,8 +8226,8 @@
         "original": "Type",
         "singular": "类型",
         "plural": "类型",
-        "setupVisible": true,
-        "setupEdit": true
+        "setupVisible": false,
+        "setupEdit": false
       },
       "orderOwner": {
         "original": "Order Owner",
@@ -8318,8 +8352,8 @@
         "original": "Acknowledge Date",
         "singular": "确认日期",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "date": {
         "original": "Date",
@@ -8401,7 +8435,8 @@
       "jobOrderProductNotFound": "未找到作业订单备件",
       "jobOrderProductStatusIdExists": "新的作业订单备件状态不能已有ID",
       "jobOrderProductStatusIdNotFound": "未找到ID",
-      "slaJobOrderIdExists": "新的SLA作业订单不能已有ID"
+      "slaJobOrderIdExists": "新的SLA作业订单不能已有ID",
+      "jobOrderPriceBookNotFound": "未找到价格手册"
     },
     "tooltips": {
       "setupVisible": false,
@@ -9096,8 +9131,8 @@
     "setupVisible": false,
     "label": {
       "original": "Bin Transfer",
-      "singular": "仓位转移",
-      "plural": "仓位转移",
+      "singular": "转移",
+      "plural": "转移",
       "setupEdit": true,
       "setupVisible": true
     },
@@ -13220,13 +13255,14 @@
     }
   },
   "setup": {
+    "setupEdit": true,
     "setupVisible": true,
     "label": {
       "original": "Setup",
       "singular": "设置",
       "plural": "设置",
-      "setupEdit": false,
-      "setupVisible": false
+      "setupEdit": true,
+      "setupVisible": true
     },
     "general": {
       "setupVisible": false,
@@ -15057,7 +15093,7 @@
           }
         },
         "messages": {
-          "customizeModuleFieldsAndLabels": "用您喜欢的术语自定义模块字段和标签，您的组织中的所有人都可以看到。您可以为所有可用语言进行此操作。",
+          "customizeModuleFieldsAndLabels": "使用您喜欢的术语自定义标签，整个组织中的每个人都可以看到。您可以为所有可用语言执行此操作。",
           "lastUpdated": "最后更新",
           "youHaveUnsavedChanges": "您有未保存的更改，将会丢失。您想如何继续?"
         }

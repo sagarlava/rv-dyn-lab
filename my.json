@@ -6093,29 +6093,29 @@
         "original": "Equipment",
         "singular": "Peralatan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec50": {
         "original": "Fault Module",
         "singular": "Modul Kerosakan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec51": {
         "original": "Questions",
         "singular": "Soalan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec52": {
         "original": "Fault Call Unit",
         "singular": "Unit Panggilan Kerosakan",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -14459,7 +14459,7 @@
           "viewOnlyAccess": "Akses Paparan Sahaja",
           "removeTeamMember": "Padam Ahli Pasukan",
           "areYouSureWantToTemove": "Adakah anda pasti ingin membuang ahli pasukan ini?",
-          "errorOccuredWhileSigning": "Ralat berlaku semasa menandatangani",
+          "errorOccuredWhileSigning": "Ralat berlaku semasa menandatangani"
         }
       },
       "users": {

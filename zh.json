@@ -1182,7 +1182,7 @@
       "from": "从",
       "warrantyStartDate": "保修开始日期不应晚于保修结束日期",
       "errorFetchingAllAssets": "获取所有资产时出错",
-      "errorOccuredWhileFetchingAccessories": "获取配件时发生错误",
+      "errorOccuredWhileFetchingAccessories": "获取配件时发生错误"
     }
   },
   "assetLog": {
@@ -1296,7 +1296,7 @@
       "futureDateTimeEntryNotAllowed": "不能输入未来的日期和时间",
       "entryCannotBeNegativeValue": "不能输入负值",
       "areYouSureDeleteReading": "您确定要删除这个读数吗？",
-      "errorOccuredWhileSigning": "签名时发生错误",
+      "errorOccuredWhileSigning": "签名时发生错误"
     }
   },
   "vanLog": {
@@ -6094,29 +6094,29 @@
         "original": "Equipment",
         "singular": "设备",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec50": {
         "original": "Fault Module",
         "singular": "故障模块",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec51": {
         "original": "Questions",
         "singular": "问题",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec52": {
         "original": "Fault Call Unit",
         "singular": "故障呼叫单元",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {

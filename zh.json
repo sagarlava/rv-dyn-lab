@@ -571,15 +571,15 @@
         "setupVisible": true
       },
       "engineNumberOne": {
-        "original": "Engine 1",
-        "singular": "发动机1",
+        "original": "Engine Number 1",
+        "singular": "发动机编号 1",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "engineNumberTwo": {
-        "original": "Engine 2",
-        "singular": "发动机2",
+        "original": "Engine Number 2",
+        "singular": "发动机编号 2",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -714,8 +714,8 @@
         "original": "Engine Number",
         "singular": "发动机编号",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "manufacturerYear": {
         "original": "Manufacture Year",

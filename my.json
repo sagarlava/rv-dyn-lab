@@ -571,15 +571,15 @@
         "setupVisible": true
       },
       "engineNumberOne": {
-        "original": "Engine 1",
-        "singular": "Enjin 1",
+        "original": "Engine Number 1",
+        "singular": "Nombor Enjin 1",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
       "engineNumberTwo": {
-        "original": "Engine 2",
-        "singular": "Enjin 2",
+        "original": "Engine Number 2",
+        "singular": "Nombor Enjin 2",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -714,8 +714,8 @@
         "original": "Engine Number",
         "singular": "Nombor Enjin",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "manufacturerYear": {
         "original": "Manufacture Year",

@@ -1180,7 +1180,6 @@
       "warrantyStartDate": "保修开始日期不应晚于保修结束日期",
       "errorFetchingAllAssets": "获取所有资产时出错",
       "errorOccuredWhileFetchingAccessories": "获取配件时发生错误",
-      
     }
   },
   "assetLog": {
@@ -1295,7 +1294,6 @@
       "entryCannotBeNegativeValue": "不能输入负值",
       "areYouSureDeleteReading": "您确定要删除这个读数吗？",
       "errorOccuredWhileSigning": "签名时发生错误",
-      
     }
   },
   "vanLog": {
@@ -2712,8 +2710,8 @@
       "totalTimeSpent": "总花费时间",
       "thisTaskCanNotBeDeletedBecauseJourneyIsRunning": "任务无法删除，因为旅程正在运行",
       "journeyAlreadyRunningForAnotherTask": "另一个任务的旅程已经在运行",
-      "endJourney": "结束旅程", 
-      "resolvingLocation": "解析位置" 
+      "endJourney": "结束旅程",
+      "resolvingLocation": "解析位置"
     },
     "validationBE": {
       "routeIdTaskIdNotFound": "未找到RouteId或TaskId",
@@ -9466,7 +9464,6 @@
         "setupEdit": true,
         "setupVisible": true
       }
-
     },
     "fields": {
       "choose": {
@@ -10800,6 +10797,20 @@
       "showDirection": {
         "original": "Show Direction",
         "singular": "显示方向",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "showMore": {
+        "original": "显示更多",
+        "singular": "显示更多",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "showLess": {
+        "original": "显示更少",
+        "singular": "显示更少",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
@@ -12537,11 +12548,11 @@
       "hours": "小时",
       "mins": "分钟",
       "noBuffer": "无缓冲",
-      "anErrorOccuredDuringLogout":"退出期间发生错误",
-      "errorOccuredWhileSigning":"签名时发生错误",
-      "noDocumentIsGenerated":"未生成文档",
-      "pullToRefreshToSeeTheCompletion":"下拉刷新以查看完成情况",
-      "phoneNumberNotAvailable":"电话号码不可用"
+      "anErrorOccuredDuringLogout": "退出期间发生错误",
+      "errorOccuredWhileSigning": "签名时发生错误",
+      "noDocumentIsGenerated": "未生成文档",
+      "pullToRefreshToSeeTheCompletion": "下拉刷新以查看完成情况",
+      "phoneNumberNotAvailable": "电话号码不可用"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -20334,7 +20345,7 @@
         },
         "sec4": {
           "original": "3. What needs to happen to start the workflow?",
-          "singular": "3. 需要发生什么才能启动工作流？",      
+          "singular": "3. 需要发生什么才能启动工作流？",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20664,7 +20675,7 @@
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec8":{
+          "sec8": {
             "original": "Under 'Builder' you can",
             "singular": "在'构建器'下您可以",
             "plural": "在'构建器'下您可以",

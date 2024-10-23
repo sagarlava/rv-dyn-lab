@@ -5037,7 +5037,7 @@
       "soRequiresMinimumOneProduct": "Pesanan jualan memerlukan sekurang-kurangnya satu Alat Ganti"
     }
   },
-  "project": {  
+  "project": {
     "setupEdit": true,
     "setupVisible": true,
     "label": {
@@ -5069,21 +5069,21 @@
         "singular": "Butiran Tambahan",
         "plural": "",
         "setupEdit": false,
-      "setupVisible": false
+        "setupVisible": false
       },
       "sec3": {
         "original": "Project Details",
         "singular": "Butiran Projek",
         "plural": "",
         "setupEdit": false,
-      "setupVisible": false
+        "setupVisible": false
       },
       "sec4": {
         "original": "Details",
         "singular": "Butiran",
         "plural": "",
         "setupEdit": false,
-      "setupVisible": false
+        "setupVisible": false
       },
       "sec5": {
         "original": "Filter By",
@@ -5129,7 +5129,7 @@
         "singular": "ID Luaran Kedua",
         "plural": "",
         "setupEdit": false,
-      "setupVisible": false
+        "setupVisible": false
       },
       "projectNo": {
         "original": "Project No.",
@@ -5164,7 +5164,7 @@
         "singular": "Telefon 1",
         "plural": "",
         "setupEdit": false,
-      "setupVisible": false
+        "setupVisible": false
       },
       "phone2": {
         "original": "Phone 2",
@@ -5258,7 +5258,7 @@
         "singular": "Carian Projek",
         "plural": "",
         "setupEdit": false,
-      "setupVisible": false
+        "setupVisible": false
       }
     },
     "messages": {
@@ -10800,6 +10800,20 @@
         "setupEdit": true,
         "setupVisible": true
       },
+      "showMore": {
+        "original": "Tunjukkan Lagi",
+        "singular": "Tunjukkan Lagi",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "showLess": {
+        "original": "Tunjukkan Kurang",
+        "singular": "Tunjukkan Kurang",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "select": {
         "original": "SELECT",
         "singular": "Pilih",
@@ -12532,12 +12546,11 @@
       "hours": "jam",
       "mins": "minit",
       "noBuffer": "Tiada Penampan",
-      "anErrorOccuredDuringLogout":"Ralat berlaku semasa log keluar",
-      "errorOccuredWhileSigning":"Ralat berlaku semasa menandatangani",
-      "noDocumentIsGenerated":"Tiada dokumen dijana",
-      "pullToRefreshToSeeTheCompletion":"Tarik ke bawah untuk melihat penyelesaian",
-      "phoneNumberNotAvailable":"Nombor telefon tidak tersedia"
-      
+      "anErrorOccuredDuringLogout": "Ralat berlaku semasa log keluar",
+      "errorOccuredWhileSigning": "Ralat berlaku semasa menandatangani",
+      "noDocumentIsGenerated": "Tiada dokumen dijana",
+      "pullToRefreshToSeeTheCompletion": "Tarik ke bawah untuk melihat penyelesaian",
+      "phoneNumberNotAvailable": "Nombor telefon tidak tersedia"
     },
     "currency": {
       "australianDollar": "AUD",
@@ -14408,7 +14421,7 @@
           "selectMember": "Pilih Ahli",
           "selectRole": "Pilih Peranan",
           "viewOnlyAccess": "Akses Paparan Sahaja",
-           "removeTeamMember": "Padam Ahli Pasukan",
+          "removeTeamMember": "Padam Ahli Pasukan",
           "areYouSureWantToTemove": "Adakah anda pasti ingin membuang ahli pasukan ini?",
           "errorOccuredWhileSigning": "Ralat berlaku semasa menandatangani",
         }
@@ -20541,7 +20554,7 @@
         "useThisPageToCreateNewWorkflows": "Gunakan halaman ini untuk membuat aliran kerja baharu atau mengurus aliran kerja yang telah anda sediakan.",
         "triggerWhenNewRecordCreated": "Mencetuskan aliran kerja apabila rekod baharu ditambahkan.",
         "triggerWhenUpdatedFirstTime": "Mencetuskan aliran kerja pada kali pertama rekod diubah.",
-       "triggerWhenRecordUpdatedEverytime": "Mencetuskan aliran kerja setiap kali rekod diubah.",
+        "triggerWhenRecordUpdatedEverytime": "Mencetuskan aliran kerja setiap kali rekod diubah.",
         "triggerWhenRecordDeleted": "Pilihan ini akan mencetuskan aliran kerja setiap kali rekod dipadamkan.",
         "selectStatus": "Pilih Status",
         "selectAttribute": "Pilih Atribut",
@@ -20661,7 +20674,7 @@
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec8":{
+          "sec8": {
             "original": "Under 'Builder' you can",
             "singular": "Di bawah 'Pembina' anda boleh",
             "plural": "Di bawah 'Pembina' anda boleh",

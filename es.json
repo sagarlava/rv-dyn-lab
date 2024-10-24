@@ -330,6 +330,13 @@
         "plural": "Estado",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "orderName": {
+          "original": "Order Name",
+          "singular": "Nombre del pedido",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
       }
     },
     "validationFE": {},

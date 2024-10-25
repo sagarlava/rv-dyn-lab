@@ -23230,114 +23230,128 @@
       "original": "Machine Specialist",
       "singular": "Machine Specialist",
       "plural": "Machine Specialists",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Machine Specialist Details",
         "singular": "Machine Specialist Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Default Settings",
         "singular": "Default Setting",
         "plural": "Default Settings",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Details",
         "singular": "Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Filter By",
         "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "machineSpecialist": {
         "original": "Machine Specialist",
         "singular": "Machine Specialist",
         "plural": "Machine Specialists",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "userType": {
         "original": "User Type",
         "singular": "User Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "active": {
         "original": "Active",
         "singular": "Active",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "defaultEstate": {
         "original": "Default Estate",
         "singular": "Default Estate",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "defaultMachine": {
         "original": "Default Machine",
         "singular": "Default Machine",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "normalUser": {
+        "original": "Normal User",
+        "singular": "Normal User",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "teamLead": {
+        "original": "Team Lead",
+        "singular": "Team Lead",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "estateLookup": {
         "original": "Estate Lookup",
         "singular": "Estate Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "machineLookup": {
         "original": "Machine Lookup",
         "singular": "Machine Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
         "singular": "Machine Specialist Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
         "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
@@ -23357,107 +23371,107 @@
       "original": "Attendance",
       "singular": "Attendance",
       "plural": "Attendances",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Attendance Details",
         "singular": "Attendance Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Today Pending Attendance",
         "singular": "Today Pending Attendance",
         "plural": "Today Pending Attendances",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Pending Attendance",
         "singular": "Pending Attendance",
         "plural": "Pending Attendances",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "All Attendance",
         "singular": "All Attendance",
         "plural": "All Attendances",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Filter By",
         "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "attendanceDateTime": {
         "original": "Attendance Date and Time",
         "singular": "Attendance Date and Time",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "attendanceStatus": {
         "original": "Attendance Status",
         "singular": "Attendance Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "attendanceOutturnCode": {
         "original": "Attendance Outturn Code",
         "singular": "Attendance Outturn Code",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "rejectReason": {
         "original": "Reject Reason",
         "singular": "Reject Reason",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
         "singular": "Remark",
         "plural": "Remarks",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "attendanceDateRange": {
         "original": "Attendance Date Range",
         "singular": "Attendance Date Range",
         "plural": "Attendance Date Range",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "visitEstateLookup": {
         "original": "Visit Estate Lookup",
         "singular": "Visit Estate Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
         "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
@@ -23476,107 +23490,107 @@
       "original": "Overtime",
       "singular": "Overtime",
       "plural": "Overtimes",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Overtime Details",
         "singular": "Overtime Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Today Pending Overtime",
         "singular": "Today Pending Overtime",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Pending Overtime",
         "singular": "Pending Overtime",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "All Overtime",
         "singular": "All Overtime",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Filter By",
         "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "overtimeDate": {
         "original": "Overtime Date",
         "singular": "Overtime Date",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "overtimeStatus": {
         "original": "Overtime Status",
         "singular": "Overtime Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "overtimeHours": {
         "original": "Overtime Hours",
         "singular": "Overtime Hours",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "notes": {
         "original": "Notes",
         "singular": "Note",
         "plural": "Notes",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "rejectReason": {
         "original": "Reject Reason",
         "singular": "Reject Reason",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
         "singular": "Remark",
         "plural": "Remarks",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
         "singular": "Machine Specialist Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
         "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
@@ -23594,114 +23608,114 @@
       "original": "Productivity",
       "singular": "Productivity",
       "plural": "Productivity",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Productivity Details",
         "singular": "Productivity Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Today Pending Productivity",
         "singular": "Today Pending Productivity",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Pending Productivity",
         "singular": "Pending Productivity",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "All Productivity",
         "singular": "All Productivity",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Filter By",
         "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "productivityDateTime": {
         "original": "Productivity Date and Time",
         "singular": "Productivity Date and Time",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "productivityStatus": {
         "original": "Productivity Status",
         "singular": "Productivity Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "division": {
         "original": "Division",
         "singular": "Division",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "notes": {
         "original": "Notes",
         "singular": "Note",
         "plural": "Notes",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "rejectReason": {
         "original": "Reject Reason",
         "singular": "Reject Reason",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
         "singular": "Remark",
         "plural": "Remarks",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "estateLookup": {
         "original": "Estate Lookup",
         "singular": "Estate Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
         "singular": "Machine Specialist Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
         "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
@@ -23716,147 +23730,147 @@
       "selectTime": "Select Time"
     },
     "primary": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Primary",
         "singular": "Primary",
         "plural": "Primary",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sections": {
-        "setupVisible": true,
+        "setupVisible": false,
         "sec0": {
           "original": "General Details",
           "singular": "General Details",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec1": {
           "original": "Field 1",
           "singular": "Field 1",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec2": {
           "original": "Field 2",
           "singular": "Field 2",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec3": {
           "original": "Field 3",
           "singular": "Field 3",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec4": {
           "original": "Issues",
           "singular": "Issues",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec5": {
           "original": "Filter By",
           "singular": "Filter By",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
-        "setupVisible": true,
+        "setupVisible": false,
         "workAccountCode": {
           "original": "Work Account Code",
           "singular": "Work Account Code",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectares": {
           "original": "Total Hectares",
           "singular": "Total Hectare",
           "plural": "Total Hectares",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectaresMorning": {
           "original": "Total Hectares (Morning)",
           "singular": "Total Hectare (Morning)",
           "plural": "Total Hectares (Morning)",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectaresAfternoon": {
           "original": "Total Hectares (Afternoon)",
-          "singular": "Total Hectares (Afternoon)",
+          "singular": "Total Hectare (Afternoon)",
           "plural": "Total Hectares (Afternoon)",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "rejectReason": {
           "original": "Reject Reason",
           "singular": "Reject Reason",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldOne": {
           "original": "Field 1",
           "singular": "Field 1",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldTwo": {
           "original": "Field 2",
           "singular": "Field 2",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldThree": {
           "original": "Field 3",
           "singular": "Field 3",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "issues": {
           "original": "Issues",
           "singular": "Issue",
           "plural": "Issues",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "remarks": {
           "original": "Remarks",
           "singular": "Remark",
           "plural": "Remarks",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "tooltips": {
-        "setupVisible": true,
+        "setupVisible": false,
         "machineLookup": {
           "original": "Machines Lookup",
           "singular": "Machine Lookup",
           "plural": "Machines Lookup",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "pleaseKeyInReason": {
           "original": "Please key in reason for the change",
           "singular": "Please key in reason for the change",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "message": {
@@ -23864,130 +23878,130 @@
       }
     },
     "secondary": {
-      "setupVisible": true,
+      "setupVisible": false,
       "label": {
         "original": "Secondary",
         "singular": "Secondary",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sections": {
-        "setupVisible": true,
+        "setupVisible": false,
         "sec0": {
           "original": "General Details",
           "singular": "General Details",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec1": {
           "original": "Field 1",
           "singular": "Field 1",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec2": {
           "original": "Field 2",
           "singular": "Field 2",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec3": {
           "original": "Field 3",
           "singular": "Field 3",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "sec4": {
           "original": "Filter By",
           "singular": "Filter By",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {
-        "setupVisible": true,
+        "setupVisible": false,
         "typeSecondaryWork": {
           "original": "Type of Secondary Work",
           "singular": "Type of Secondary Work",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "nameOfWork": {
           "original": "Name of Work",
           "singular": "Name of Work",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "machineUsed": {
           "original": "Machine Used",
           "singular": "Machine Used",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "evitNo": {
           "original": "EVIT No.",
           "singular": "EVIT No.",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "workAccountCode": {
           "original": "Work Account Code",
           "singular": "Work Account Code",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectares": {
           "original": "Total Hectares",
           "singular": "Total Hectare",
           "plural": "Total Hectares",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectaresMorning": {
           "original": "Total Hectares (Morning)",
           "singular": "Total Hectare (Morning)",
           "plural": "Total Hectares (Morning)",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "totalHectaresAfternoon": {
           "original": "Total Hectares (Afternoon)",
-          "singular": "Total Hectares (Afternoon)",
+          "singular": "Total Hectare (Afternoon)",
           "plural": "Total Hectares (Afternoon)",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldOne": {
           "original": "Field 1",
           "singular": "Field 1",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldTwo": {
           "original": "Field 2",
           "singular": "Field 2",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         },
         "fieldThree": {
           "original": "Field 3",
           "singular": "Field 3",
           "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "messages": {
@@ -24001,128 +24015,128 @@
       "original": "Visits",
       "singular": "Visit",
       "plural": "Visits",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "Visit Details",
         "singular": "Visit Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Today Pending Visits",
         "singular": "Today Pending Visits",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Pending Visits",
         "singular": "Pending Visits",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "All Visits",
         "singular": "All Visits",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Filter By",
         "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "visitDateTime": {
         "original": "Visit Date and Time",
         "singular": "Visit Date and Time",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "approvalStatus": {
         "original": "Approval Status",
         "singular": "Approval Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "visitStatus": {
         "original": "Visit Status",
         "singular": "Visit Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "visitType": {
         "original": "Visit Type",
         "singular": "Visit Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "visitDateRange": {
         "original": "Visit Date Range",
         "singular": "Visit Date Range",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "userGroup": {
         "original": "User Group",
         "singular": "User Group",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "rejectReason": {
         "original": "Reject Reason",
         "singular": "Reject Reason",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
         "singular": "Remark",
         "plural": "Remarks",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "estateLookup": {
         "original": "Estate Lookup",
         "singular": "Estate Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "machineSpecialistLookup": {
         "original": "Machine Specialist Lookup",
         "singular": "Machine Specialist Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "pleaseKeyInReason": {
         "original": "Please key in reason for the change",
         "singular": "Please key in reason for the change",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationBE": {
@@ -24142,167 +24156,167 @@
       "original": "PMV",
       "singular": "PMV",
       "plural": "PMV",
-      "setupEdit": true,
-      "setupVisible": true
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
-      "setupVisible": true,
+      "setupVisible": false,
       "sec0": {
         "original": "General Details",
         "singular": "General Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "PMV Details",
         "singular": "PMV Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Select the checklist you'd like to generate for this Machine",
         "singular": "Select the checklist you'd like to generate for this Machine",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Updating the Machine within PMV",
         "singular": "Updating the Machine within PMV",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Update the status of",
         "singular": "Update the status of",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec5": {
         "original": "Machine Summary",
         "singular": "Machine Summary",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec6": {
         "original": "Details",
         "singular": "Details",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec7": {
         "original": "Filter By",
         "singular": "Filter By",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec8": {
         "original": "Questions",
         "singular": "Question",
         "plural": "Questions",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-      "setupVisible": true,
+      "setupVisible": false,
       "dateRange": {
         "original": "Date Range",
         "singular": "Date Range",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assetType": {
         "original": "Machine Type",
         "singular": "Machine Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assetStatus": {
         "original": "Machine Status",
         "singular": "Machine Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "checklistNo": {
         "original": "PMV No",
         "singular": "PMV No",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "checklistName": {
         "original": "PMV Name",
         "singular": "PMV Name",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "equipmentType": {
         "original": "Equipment Type",
         "singular": "Equipment Type",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "equipmentMeterReading": {
         "original": "Equipment Meter Reading",
         "singular": "Equipment Meter Reading",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "initiateFollowUpChecklist": {
         "original": "Follow-Up PMV",
         "singular": "Follow-Up PMV",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "questions": {
         "original": "Question",
         "singular": "Question",
         "plural": "Questions",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "selectAsset": {
         "original": "Select Machine",
         "singular": "Select Machine",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "selectChecklistToGenerate": {
         "original": "Select the checklist you'd like to generate for this Machine",
         "singular": "Select the checklist you'd like to generate for this Machine",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "selectOne": {
         "original": "Select one",
         "singular": "Select one",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       },
       "status": {
         "original": "Status",
         "singular": "Status",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -24312,13 +24326,13 @@
       "pmvAtlasNotEnabled": "Atlas is not enabled"
     },
     "tooltips": {
-      "setupVisible": true,
+      "setupVisible": false,
       "checklistLookup": {
         "original": "PMV Lookup",
         "singular": "PMV Lookup",
         "plural": "",
-        "setupEdit": true,
-        "setupVisible": true
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "messages": {}

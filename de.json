@@ -8995,8 +8995,8 @@
       },
       "addAssetsToBin": {
         "original": "Add Assets to Bin",
-        "singular": "Add Assets to Bin",
-        "plural": "Add Assets to Bin",
+        "singular": "Anlagen zum Behälter hinzufügen",
+        "plural": "Anlagen zum Behälter hinzufügen",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -9107,7 +9107,7 @@
       },
       "assetName": {
         "original": "Asset Name",
-        "singular": "Asset Name",
+        "singular": "Anlagenname",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
@@ -15871,8 +15871,8 @@
       "setupEdit": true,
       "label": {
         "original": "Service Zone",
-        "singular": "Service Zone",
-        "plural": "Service Zonen",
+        "singular": "Servicezone",
+        "plural": "Servicezonen",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -15881,7 +15881,7 @@
         "setupEdit": true,
         "sec0": {
           "original": "Service Zone Details",
-          "singular": "Service Zone Details",
+          "singular": "Servicezonen-Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -15896,21 +15896,21 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
+          },
         "default": {
           "original": "Default",
-          "singular": "Default",
+          "singular": "Standard",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
+          },
         "description": {
           "original": "Description",
-          "singular": "Description",
+          "singular": "Beschreibung",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
+          },
         "fieldLabel": {
           "original": "Field Label",
           "singular": "Feldbezeichnung",

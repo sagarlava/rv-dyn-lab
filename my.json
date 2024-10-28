@@ -24342,5 +24342,52 @@
       }
     },
     "messages": {}
+  },
+  "priceBook": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {},
+    "sections": {},
+    "fields": {},
+    "validationFE": {},
+    "validationBE": {
+      "priceBookDefaultNotChangeable": "Tidak boleh mengubah buku harga lalai; tetapkan yang lain sebagai lalai terlebih dahulu",
+      "priceBookNameExists": "Nama Buku Harga sudah wujud",
+      "priceBookCodeExists": "Kod Buku Harga sudah wujud",
+      "priceBookCannotDeleteDueToProducts": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih produk",
+      "priceBookCannotDeleteDueToCustomers": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih pelanggan",
+      "priceBookCannotDeleteDueToContracts": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih kontrak",
+      "priceBookCannotDeleteDueToJobOrders": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih pesanan kerja",
+      "priceBookCannotDeleteDueToRateCards": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih kad kadar",
+      "priceBookCannotDeleteDueToDefault": "Buku harga ini tidak boleh dipadam kerana ia adalah buku harga lalai",
+      "priceBookIdExists": "Buku harga baru tidak boleh sudah mempunyai ID",
+      "priceBookConfigIdExists": "Konfigurasi buku harga baru tidak boleh sudah mempunyai ID",
+      "priceBookNotFound": "Buku Harga tidak dijumpai",
+      "priceBookProductNotFound": "Buku Harga Produk tidak dijumpai",
+      "priceBookProductIdModificationsNotAllowed": "ID Buku Harga atau ID Produk tidak boleh diubah",
+      "priceBookProductIdMismatch": "Id buku harga produk tidak sepadan",
+      "priceBookProductNotFoundProduct": "Produk tidak dijumpai",
+      "priceBookProductAlreadyExists": "Buku Harga Produk sudah wujud",
+      "priceBookProductIdExists": "Produk buku harga baru tidak boleh sudah mempunyai ID"
+    },
+    "tooltips": {},
+    "messages": {}
+  },
+  "rateCard": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {},
+    "sections": {},
+    "fields": {},
+    "validationFE": {},
+    "validationBE": {
+      "rateCardNotFound": "Kad Kadar tidak dijumpai",
+      "rateCardPriceBookEmpty": "Kad Kadar harus mempunyai buku harga",
+      "rateCardIdMismatch": "ID Kad Kadar tidak sepadan",
+      "rateCardPriceBookNotFound": "Buku Harga Kad Kadar tidak dijumpai",
+      "rateCardIdExists": "Kad Kadar baru tidak boleh sudah mempunyai ID"
+    },
+    "tooltips": {},
+    "messages": {}
   }
 }

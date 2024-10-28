@@ -24336,5 +24336,52 @@
       }
     },
     "messages": {}
+  },
+  "priceBook": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {},
+    "sections": {},
+    "fields": {},
+    "validationFE": {},
+    "validationBE": {
+      "priceBookDefaultNotChangeable": "Cannot change the default price book; set another as default first",
+      "priceBookNameExists": "Price Book Name already exists",
+      "priceBookCodeExists": "Price Book Code already exists",
+      "priceBookCannotDeleteDueToProducts": "This price book cannot be deleted as it is linked to one or more products",
+      "priceBookCannotDeleteDueToCustomers": "This price book cannot be deleted as it is linked to one or more SOU",
+      "priceBookCannotDeleteDueToContracts": "This price book cannot be deleted as it is linked to one or more contracts",
+      "priceBookCannotDeleteDueToJobOrders": "This price book cannot be deleted as it is linked to one or more job orders",
+      "priceBookCannotDeleteDueToRateCards": "This price book cannot be deleted as it is linked to one or more rate cards",
+      "priceBookCannotDeleteDueToDefault": "This price book cannot be deleted as it is the default",
+      "priceBookIdExists": "A new price book cannot already have an ID",
+      "priceBookConfigIdExists": "A new price book config cannot already have an ID",
+      "priceBookNotFound": "Price Book not found",
+      "priceBookProductNotFound": "Price Book Product not found",
+      "priceBookProductIdModificationsNotAllowed": "Price Book Id or Product Id cannot be modified",
+      "priceBookProductIdMismatch": "Price Book Product Id does not match",
+      "priceBookProductNotFoundProduct": "Product not found",
+      "priceBookProductAlreadyExists": "Price Book Product already exists",
+      "priceBookProductIdExists": "A new price book product cannot already have an ID"
+    },
+    "tooltips": {},
+    "messages": {}
+  },
+  "rateCard": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {},
+    "sections": {},
+    "fields": {},
+    "validationFE": {},
+    "validationBE": {
+      "rateCardNotFound": "Rate Card not found",
+      "rateCardPriceBookEmpty": "Rate Card should have a price book",
+      "rateCardIdMismatch": "Rate Card Id does not match",
+      "rateCardPriceBookNotFound": "Rate Card Price Book not found",
+      "rateCardIdExists": "A new rate card cannot already have an ID"
+    },
+    "tooltips": {},
+    "messages": {}
   }
 }

@@ -425,8 +425,8 @@
       "setupEdit": true,
       "label": {
         "original": "Asset",
-        "singular": "Vermögenswert",
-        "plural": "Vermögenswerte",
+        "singular": "Activo",
+        "plural": "Activos",
         "setupEdit": true,
         "setupVisible": true
       },
@@ -8615,7 +8615,7 @@
       },
       "sec11": {
         "original": "Adjust an Asset",
-        "singular": "Ajustar un Vermögenswert",
+        "singular": "Ajustar un Activo",
         "plural": "",
           "setupEdit": false,
           "setupVisible": false
@@ -8871,7 +8871,7 @@
       },
       "assetType": {
         "original": "Asset Type",
-        "singular": "Tipo de Vermögenswert",
+        "singular": "Tipo de Activo",
         "plural": "",
           "setupEdit": false,
           "setupVisible": false
@@ -8906,14 +8906,14 @@
       },
       "assetName": {
         "original": "Asset Name",
-        "singular": "Nombre del Vermögenswert",
+        "singular": "Nombre del Activo",
         "plural": "",
           "setupEdit": false,
         "setupVisible": false
       }
     },
     "validationFE": {
-      "pleaseSelectOne": "Por favor seleccione un Repuesto o un vermögenswert"
+      "pleaseSelectOne": "Por favor, seleccione un repuesto o un activo"
     },
     "validationBE": {
       "inventoryIdExists": "Un nuevo Inventario no puede tener ya un ID",
@@ -8921,11 +8921,11 @@
       "inventoryBinNotFound": "Contenedor no encontrado",
       "inventoryZoneNotFound": "Zona no encontrada",
       "inventoryLocationNotFound": "Ubicación no encontrada",
-      "inventoryAssetsNotFound": "Vermögenswerte no encontrados",
+      "inventoryAssetsNotFound": "Activos no encontrados",
       "inventoryProductNotFound": "Repuesto no encontrado",
       "inventoryNotFound": "Inventario no encontrado",
       "inventoryFilterRequired": "Por favor seleccione al menos un filtro",
-      "inventoryStockInsufficient": "Inventario de Repuestos/Vermögenswerte insuficiente",
+      "inventoryStockInsufficient": "Inventario de Repuestos/Activos insuficiente",
       "inventoryTableSetupNotFound": "Configuración de Tabla de Inventario no encontrada, por favor contacte al soporte"
     },
     "messages": {
@@ -8934,14 +8934,14 @@
       "selectBin": "Seleccionar Contenedor",
       "selectUserBin": "Seleccionar Contenedor de Usuario",
       "searchProduct": "Buscar Repuesto",
-      "searchAsset": "Buscar Vermögenswert",
+      "searchAsset": "Buscar activo",
       "selectType": "Seleccionar Tipo",
       "selectFamily": "Seleccionar Familia",
       "pleaseSelectOneFilter": "Por favor seleccione al menos un filtro",
       "availableOtherLocations": "disponible en otras ubicaciones",
       "sameProductBinTransferNotAllowed": "No está permitido seleccionar el mismo Repuesto en una transferencia de contenedor",
       "sameProductBinNotAllowed": "No está permitido seleccionar el mismo Repuesto en un contenedor",
-      "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo vermögenswert en un contenedor"
+      "sameAssetBinNotAllowed": "No está permitido seleccionar el mismo Activo en un contenedor"
     }
   },
   "bin": {
@@ -17407,7 +17407,7 @@
             }
           },
           "validationFE": {
-            "pleaseSelectOne": "Por favor selecciona una Pieza de Repuesto o un Activo"
+            "pleaseSelectOne": "Por favor, seleccione un repuesto o un activo"
           }
         },
         "zones": {

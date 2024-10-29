@@ -24351,7 +24351,7 @@
     "fields": {},
     "validationFE": {},
     "validationBE": {
-      "priceBookDefaultNotChangeable": "无法更改默认价格手册；请先将其他价格手册设置为默认",
+      "priceBookStandardNotChangeable": "标准价格书无法更改；请先将其他价格书设为标准",
       "priceBookNameExists": "价格手册名称已经存在",
       "priceBookCodeExists": "价格手册代码已经存在",
       "priceBookCannotDeleteDueToProducts": "此价格手册无法删除，因为它与一个或多个产品相关联",
@@ -24359,7 +24359,7 @@
       "priceBookCannotDeleteDueToContracts": "此价格手册无法删除，因为它与一个或多个合同相关联",
       "priceBookCannotDeleteDueToJobOrders": "此价格手册无法删除，因为它与一个或多个工作订单相关联",
       "priceBookCannotDeleteDueToRateCards": "此价格手册无法删除，因为它与一个或多个费率卡相关联",
-      "priceBookCannotDeleteDueToDefault": "此价格手册无法删除，因为它是默认价格手册",
+      "priceBookCannotDeleteDueToStandard": "该价格书无法删除，因为它是标准的",
       "priceBookIdExists": "新的价格手册不能已经有ID",
       "priceBookConfigIdExists": "新的价格手册配置不能已经有ID",
       "priceBookNotFound": "未找到价格手册",

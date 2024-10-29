@@ -24351,7 +24351,7 @@
     "fields": {},
     "validationFE": {},
     "validationBE": {
-      "priceBookDefaultNotChangeable": "Tidak boleh mengubah buku harga lalai; tetapkan yang lain sebagai lalai terlebih dahulu",
+      "priceBookStandardNotChangeable": "Tidak boleh mengubah buku harga standard; tetapkan yang lain sebagai standard terlebih dahulu",
       "priceBookNameExists": "Nama Buku Harga sudah wujud",
       "priceBookCodeExists": "Kod Buku Harga sudah wujud",
       "priceBookCannotDeleteDueToProducts": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih produk",
@@ -24359,7 +24359,7 @@
       "priceBookCannotDeleteDueToContracts": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih kontrak",
       "priceBookCannotDeleteDueToJobOrders": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih pesanan kerja",
       "priceBookCannotDeleteDueToRateCards": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih kad kadar",
-      "priceBookCannotDeleteDueToDefault": "Buku harga ini tidak boleh dipadam kerana ia adalah buku harga lalai",
+      "priceBookCannotDeleteDueToStandard": "Buku harga ini tidak boleh dipadam kerana ia adalah standard",
       "priceBookIdExists": "Buku harga baru tidak boleh sudah mempunyai ID",
       "priceBookConfigIdExists": "Konfigurasi buku harga baru tidak boleh sudah mempunyai ID",
       "priceBookNotFound": "Buku Harga tidak dijumpai",

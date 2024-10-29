@@ -24351,7 +24351,7 @@
     "fields": {},
     "validationFE": {},
     "validationBE": {
-      "priceBookDefaultNotChangeable": "Das Standard-Preisbuch kann nicht geändert werden; legen Sie zuerst ein anderes als Standard fest",
+      "priceBookStandardNotChangeable": "Das Standard-Preisbuch kann nicht geändert werden; legen Sie zuerst ein anderes als Standard fest",
       "priceBookNameExists": "Der Preisbuchname existiert bereits",
       "priceBookCodeExists": "Der Preisbuchcode existiert bereits",
       "priceBookCannotDeleteDueToProducts": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Produkten verknüpft ist",
@@ -24359,7 +24359,7 @@
       "priceBookCannotDeleteDueToContracts": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Verträgen verknüpft ist",
       "priceBookCannotDeleteDueToJobOrders": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Arbeitsaufträgen verknüpft ist",
       "priceBookCannotDeleteDueToRateCards": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einer oder mehreren Ratekarten verknüpft ist",
-      "priceBookCannotDeleteDueToDefault": "Dieses Preisbuch kann nicht gelöscht werden, da es das Standard-Preisbuch ist",
+      "priceBookCannotDeleteDueToStandard": "Dieses Preisbuch kann nicht gelöscht werden, da es das Standard-Preisbuch ist",
       "priceBookIdExists": "Ein neues Preisbuch kann nicht bereits eine ID haben",
       "priceBookConfigIdExists": "Eine neue Preisbuchkonfiguration kann nicht bereits eine ID haben",
       "priceBookNotFound": "Preisbuch nicht gefunden",

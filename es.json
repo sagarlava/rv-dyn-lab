@@ -24351,7 +24351,7 @@
     "fields": {},
     "validationFE": {},
     "validationBE": {
-      "priceBookDefaultNotChangeable": "No se puede cambiar el libro de precios predeterminado; configure otro como predeterminado primero",
+      "priceBookStandardNotChangeable": "No se puede cambiar el libro de precios estándar; configure otro como estándar primero",
       "priceBookNameExists": "El nombre del libro de precios ya existe",
       "priceBookCodeExists": "El código del libro de precios ya existe",
       "priceBookCannotDeleteDueToProducts": "Este libro de precios no se puede eliminar porque está vinculado a uno o más productos",
@@ -24359,7 +24359,7 @@
       "priceBookCannotDeleteDueToContracts": "Este libro de precios no se puede eliminar porque está vinculado a uno o más contratos",
       "priceBookCannotDeleteDueToJobOrders": "Este libro de precios no se puede eliminar porque está vinculado a uno o más órdenes de trabajo",
       "priceBookCannotDeleteDueToRateCards": "Este libro de precios no se puede eliminar porque está vinculado a una o más tarjetas de tarifas",
-      "priceBookCannotDeleteDueToDefault": "Este libro de precios no se puede eliminar porque es el predeterminado",
+      "priceBookCannotDeleteDueToStandard": "Este libro de precios no se puede eliminar porque es el estándar",
       "priceBookIdExists": "Un nuevo libro de precios no puede tener ya un ID",
       "priceBookConfigIdExists": "Una nueva configuración de libro de precios no puede tener ya un ID",
       "priceBookNotFound": "Libro de precios no encontrado",

@@ -24351,7 +24351,7 @@
     "fields": {},
     "validationFE": {},
     "validationBE": {
-      "priceBookDefaultNotChangeable": "Cannot change the default price book; set another as default first",
+      "priceBookStandardNotChangeable": "Cannot change the standard price book; set another as standard first",
       "priceBookNameExists": "Price Book Name already exists",
       "priceBookCodeExists": "Price Book Code already exists",
       "priceBookCannotDeleteDueToProducts": "This price book cannot be deleted as it is linked to one or more products",
@@ -24359,7 +24359,7 @@
       "priceBookCannotDeleteDueToContracts": "This price book cannot be deleted as it is linked to one or more contracts",
       "priceBookCannotDeleteDueToJobOrders": "This price book cannot be deleted as it is linked to one or more job orders",
       "priceBookCannotDeleteDueToRateCards": "This price book cannot be deleted as it is linked to one or more rate cards",
-      "priceBookCannotDeleteDueToDefault": "This price book cannot be deleted as it is the default",
+      "priceBookCannotDeleteDueToStandard": "This price book cannot be deleted as it is the standard",
       "priceBookIdExists": "A new price book cannot already have an ID",
       "priceBookConfigIdExists": "A new price book config cannot already have an ID",
       "priceBookNotFound": "Price Book not found",

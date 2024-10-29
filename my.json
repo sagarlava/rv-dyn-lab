@@ -20559,6 +20559,13 @@
           "plural": "Syarat-syarat",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec24": {
+            "original": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+            "singular": "Sekarang, tentukan tindakan yang harus diambil oleh aliran kerja apabila dicetuskan. Anda boleh memilih untuk menghantar notifikasi melalui e-mel, memaparkan mesej dalam aplikasi, atau melakukan tindakan lain berdasarkan syarat yang telah ditetapkan. Langkah ini memastikan tindakan yang betul dilakukan secara automatik apabila aliran kerja dijalankan.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
         }
       },
       "fields": {

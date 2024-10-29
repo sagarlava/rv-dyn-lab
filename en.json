@@ -20559,6 +20559,13 @@
           "plural": "Conditions",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "sec24": {
+          "original": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+          "singular": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+          "plural": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+          "setupEdit": false,
+          "setupVisible": false
         }
       },
       "fields": {

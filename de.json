@@ -20559,6 +20559,13 @@
           "plural": "Bedingungen",
           "setupEdit": false,
           "setupVisible": false
+      },
+      "sec24": {
+          "original": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+          "singular": "Definieren Sie nun, welche Aktionen der Workflow bei Auslösung ausführen soll. Sie können wählen, ob Benachrichtigungen per E-Mail gesendet, In-App-Nachrichten angezeigt oder andere Aktionen basierend auf den festgelegten Bedingungen ausgeführt werden sollen. Dieser Schritt stellt sicher, dass die richtigen Aktionen automatisch ausgeführt werden, wenn der Workflow läuft.",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
       }
       },
       "fields": {

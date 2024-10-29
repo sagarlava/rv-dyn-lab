@@ -20503,63 +20503,70 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
-            },
-            "sec16": {
-                "original": "When setting up a condition, you just need to follow three easy steps:",
-                "singular": "Al configurar una condición, solo necesitas seguir tres sencillos pasos:",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec17": {
-                "original": "Attribute",
-                "singular": "Atributo",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec18": {
-                "original": "Operator",
-                "singular": "Operador",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec19": {
-                "original": "Value",
-                "singular": "Valor",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec20": {
-                "original": "For more complex conditions...",
-                "singular": "Para condiciones más complejas...",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec21": {
-                "original": "How AND/OR Conditions Work:",
-                "singular": "Cómo funcionan las condiciones Y/O:",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec22": {
-                "original": "Using Groups of Conditions:",
-                "singular": "Uso de grupos de condiciones:",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "sec23": {
-                "original": "Conditions",
-                "singular": "Condición",
-                "plural": "Condiciones",
-                "setupEdit": false,
-                "setupVisible": false
-            }
+          },
+          "sec16": {
+              "original": "When setting up a condition, you just need to follow three easy steps:",
+              "singular": "Al configurar una condición, solo necesitas seguir tres sencillos pasos:",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec17": {
+              "original": "Attribute",
+              "singular": "Atributo",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec18": {
+              "original": "Operator",
+              "singular": "Operador",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec19": {
+              "original": "Value",
+              "singular": "Valor",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec20": {
+              "original": "For more complex conditions...",
+              "singular": "Para condiciones más complejas...",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec21": {
+              "original": "How AND/OR Conditions Work:",
+              "singular": "Cómo funcionan las condiciones Y/O:",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec22": {
+              "original": "Using Groups of Conditions:",
+              "singular": "Uso de grupos de condiciones:",
+              "plural": "",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec23": {
+              "original": "Conditions",
+              "singular": "Condición",
+              "plural": "Condiciones",
+              "setupEdit": false,
+              "setupVisible": false
+          },
+          "sec24": {
+            "original": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+            "singular": "Ahora, define qué acciones debe realizar el flujo de trabajo cuando se active. Puedes optar por enviar notificaciones por correo electrónico, mostrar mensajes en la aplicación o realizar otras acciones según las condiciones establecidas. Este paso asegura que se tomen las acciones correctas automáticamente cuando el flujo de trabajo se ejecute.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          }
         },
         "fields": {
           "setupVisible": false,

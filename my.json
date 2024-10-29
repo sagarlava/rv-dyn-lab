@@ -20380,6 +20380,7 @@
       }
     },
     "workflows": {
+      "setupEdit": false,
       "setupVisible": false,
       "label": {
         "original": "Workflows",
@@ -20389,31 +20390,32 @@
         "setupVisible": false
       },
       "sections": {
+        "setupEdit": false,
         "setupVisible": false,
         "sec0": {
-          "original": "1. Workflow Details",
-          "singular": "1. Butiran Aliran Kerja",
+          "original": "Name Your Workflow and Select a Module",
+          "singular": "Namakan Aliran Kerja Anda dan Pilih Modul",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec1": {
-          "original": "Give your workflow a name, select the module it is tied to, and add a description.",
-          "singular": "Beri aliran kerja anda nama, pilih modul yang berkaitan, dan tambahkan penerangan.",
+          "original": "In this step, enter a name for your workflow and choose the module where this workflow will be triggered",
+          "singular": "Dalam langkah ini, masukkan nama untuk aliran kerja anda dan pilih modul di mana aliran kerja ini akan dicetuskan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec2": {
-          "original": "2. When should the workflow start?",
-          "singular": "2. Bila aliran kerja patut dimulakan?",
+          "original": "Set When the Workflow Trigger",
+          "singular": "Tetapkan Bila Aliran Kerja Dicetuskan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec3": {
-          "original": "Choose what should happen to start the workflow",
-          "singular": "Pilih apa yang perlu berlaku untuk memulakan aliran kerja",
+          "original": "Choose when the workflow should run: when a record is created, changed for the first time, or updated every time. This helps you control when notifications are sent based on record changes.",
+          "singular": "Pilih bila aliran kerja harus dijalankan: apabila rekod dicipta, diubah untuk kali pertama, atau dikemas kini setiap kali. Ini membantu anda mengawal bila notifikasi dihantar berdasarkan perubahan rekod.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20433,11 +20435,11 @@
           "setupVisible": false
         },
         "sec6": {
-          "original": "4. What happens when the workflow runs",
-          "singular": "4. Apa yang berlaku apabila aliran kerja dijalankan",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
+            "original": "Set Workflow Actions",
+            "singular": "Tetapkan Tindakan Aliran Kerja",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": false
         },
         "sec7": {
           "original": "Add Notification",
@@ -20628,9 +20630,9 @@
       "messages": {
         "helpAutomateInternal": "Aliran kerja membantu anda mengautomatikkan tugas dengan menetapkan peraturan. Apabila sesuatu yang spesifik berlaku (seperti kemas kini medan atau perubahan status), sistem secara automatik akan melakukan tindakan untuk anda, seperti menghantar notifikasi atau mengemas kini maklumat.",
         "useThisPageToCreateNewWorkflows": "Gunakan halaman ini untuk membuat aliran kerja baharu atau mengurus aliran kerja yang telah anda sediakan.",
-        "triggerWhenNewRecordCreated": "Mencetuskan aliran kerja apabila rekod baharu ditambahkan.",
-        "triggerWhenUpdatedFirstTime": "Mencetuskan aliran kerja pada kali pertama rekod diubah.",
-        "triggerWhenRecordUpdatedEverytime": "Mencetuskan aliran kerja setiap kali rekod diubah.",
+        "triggerWhenNewRecordCreated": "Apabila rekod dicipta: Aliran kerja akan dicetuskan apabila rekod baru ditambah dan syarat yang ditetapkan dipenuhi.",
+        "triggerWhenUpdatedFirstTime": "Apabila rekod diubah untuk kali pertama: Aliran kerja dicetuskan kali pertama perubahan dibuat pada rekod dan memenuhi syarat yang ditentukan.",
+        "triggerWhenRecordUpdatedEverytime": "Setiap kali rekod dikemas kini: Aliran kerja dicetuskan setiap kali perubahan dibuat pada rekod dan memenuhi syarat yang ditentukan.",
         "triggerWhenRecordDeleted": "Pilihan ini akan mencetuskan aliran kerja setiap kali rekod dipadamkan.",
         "selectStatus": "Pilih Status",
         "selectAttribute": "Pilih Atribut",

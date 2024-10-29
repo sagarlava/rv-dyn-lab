@@ -20380,6 +20380,7 @@
       }
     },
     "workflows": {
+      "setupEdit": false,
       "setupVisible": false,
       "label": {
         "original": "Workflows",
@@ -20389,31 +20390,32 @@
         "setupVisible": false
       },
       "sections": {
+        "setupEdit": false,
         "setupVisible": false,
         "sec0": {
-          "original": "Workflow Details",
-          "singular": "Workflow-Details",
+          "original": "Name Your Workflow and Select a Module",
+          "singular": "Benennen Sie Ihren Workflow und wählen Sie ein Modul aus",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
+          },
         "sec1": {
-          "original": "Give your workflow a name, select the module it is tied to, and add a description to capture additional details.",
-          "singular": "Geben Sie Ihrem Workflow einen Namen, wählen Sie das Modul aus, mit dem er verbunden ist, und fügen Sie eine Beschreibung hinzu, um zusätzliche Details festzuhalten.",
+          "original": "In this step, enter a name for your workflow and choose the module where this workflow will be triggered",
+          "singular": "Geben Sie in diesem Schritt einen Namen für Ihren Workflow ein und wählen Sie das Modul, in dem dieser Workflow ausgelöst wird",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
+          },
         "sec2": {
-          "original": "When to trigger the workflow",
-          "singular": "Wann der Workflow ausgelöst werden soll",
+          "original": "Set When the Workflow Trigger",
+          "singular": "Festlegen, wann der Workflow ausgelöst wird",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
+          },
         "sec3": {
-          "original": "Specify the event(s) and timing that will activate this workflow",
-          "singular": "Geben Sie die Ereignisse und Zeitpunkte an, die diesen Workflow aktivieren werden.",
+          "original": "Choose when the workflow should run: when a record is created, changed for the first time, or updated every time. This helps you control when notifications are sent based on record changes.",
+          "singular": "Wählen Sie, wann der Workflow ausgeführt werden soll: wenn ein Datensatz erstellt, zum ersten Mal geändert oder jedes Mal aktualisiert wird. Dies hilft Ihnen, zu steuern, wann Benachrichtigungen basierend auf Änderungen am Datensatz gesendet werden.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20433,8 +20435,8 @@
           "setupVisible": false
         },
         "sec6": {
-          "original": "Workflow Actions",
-          "singular": "Workflow-Aktionen",
+          "original": "Set Workflow Actions",
+          "singular": "Workflow-Aktionen festlegen",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20628,9 +20630,9 @@
       "messages": {
         "helpAutomateInternal": "Workflows helfen Ihnen, interne Prozesse zu automatisieren, indem sie die Erstellung von bedingten Auslösern für Aktionen wie das Senden von Benachrichtigungen, das Aktualisieren von Feldern und das Anwenden von Validierungen ermöglichen.",
         "useThisPageToCreateNewWorkflows": "Verwenden Sie diese Seite, um neue Workflows zu erstellen oder die bereits eingerichteten zu verwalten.", 
-        "triggerWhenNewRecordCreated": "Diese Option löst den Workflow aus, wenn ein neuer Datensatz erstellt wird.",
-        "triggerWhenUpdatedFirstTime": "Diese Option löst den Workflow aus, wenn ein Datensatz erstmals aktualisiert wird.",
-        "triggerWhenRecordUpdatedEverytime": "Diese Option löst den Workflow aus, wenn ein Datensatz aktualisiert wird.",
+        "triggerWhenNewRecordCreated": "Wenn ein Datensatz erstellt wird: Der Workflow wird ausgelöst, wenn ein neuer Datensatz hinzugefügt wird und die festgelegten Bedingungen erfüllt sind.",
+        "triggerWhenUpdatedFirstTime": "Wenn ein Datensatz zum ersten Mal geändert wird: Der Workflow wird beim ersten Mal ausgelöst, wenn Änderungen am Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",
+        "triggerWhenRecordUpdatedEverytime": "Jedes Mal, wenn ein Datensatz aktualisiert wird: Der Workflow wird jedes Mal ausgelöst, wenn Änderungen am Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",
         "triggerWhenRecordDeleted": "Diese Option löst den Workflow aus, wenn ein Datensatz gelöscht wird.",
         "selectStatus": "Status auswählen",
         "selectAttribute": "Attribut auswählen",

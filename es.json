@@ -20380,6 +20380,7 @@
       }
     },
     "workflows": {
+        "setupEdit": false,
         "setupVisible": false,
         "label": {
           "original": "Workflows",
@@ -20389,31 +20390,32 @@
           "setupVisible": false
         },
         "sections": {
+          "setupEdit": false,
           "setupVisible": false,
           "sec0": {
-            "original": "Workflow Details",
-            "singular": "Detalles del Flujo de Trabajo",
+            "original": "Name Your Workflow and Select a Module",
+            "singular": "Nombra tu flujo de trabajo y selecciona un módulo",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec1": {
-            "original": "Give your workflow a name, select the module it is tied to, and add a description to capture additional details.",
-            "singular": "Dale un nombre a tu flujo de trabajo, selecciona el módulo al que está vinculado y añade una descripción para capturar detalles adicionales.",
+        "sec1": {
+            "original": "In this step, enter a name for your workflow and choose the module where this workflow will be triggered",
+            "singular": "En este paso, introduce un nombre para tu flujo de trabajo y elige el módulo donde se activará este flujo de trabajo",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec2": {
-            "original": "When to trigger the workflow",
-            "singular": "Cuándo activar el flujo de trabajo",
+        "sec2": {
+            "original": "Set When the Workflow Trigger",
+            "singular": "Configura cuándo se activará el flujo de trabajo",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
-          "sec3": {
-            "original": "Specify the event(s) and timing that will activate this workflow",
-            "singular": "Especifica el(los) evento(s) y el momento que activará este flujo de trabajo",
+        "sec3": {
+            "original": "Choose when the workflow should run: when a record is created, changed for the first time, or updated every time. This helps you control when notifications are sent based on record changes.",
+            "singular": "Elige cuándo debería ejecutarse el flujo de trabajo: cuando se crea un registro, cuando se modifica por primera vez o cada vez que se actualiza. Esto te ayuda a controlar cuándo se envían las notificaciones en función de los cambios en los registros.",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -20433,8 +20435,8 @@
             "setupVisible": false
           },
           "sec6": {
-            "original": "Workflow Actions",
-            "singular": "Acciones del Flujo de Trabajo",
+            "original": "Set Workflow Actions",
+            "singular": "Configurar acciones del flujo de trabajo",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -20628,9 +20630,9 @@
         "messages": {
           "helpAutomateInternal": "Los flujos de trabajo te ayudan a automatizar procesos internos al permitir la creación de desencadenadores condicionales para acciones como el envío de notificaciones, la actualización de campos y la aplicación de validaciones.",
           "useThisPageToCreateNewWorkflows": "Utiliza esta página para crear nuevos flujos de trabajo o gestionar los que ya has configurado.",
-          "triggerWhenNewRecordCreated": "Esta opción activará el flujo de trabajo cuando se cree un nuevo registro.",
-          "triggerWhenUpdatedFirstTime": "Esta opción activará el flujo de trabajo cuando un registro se actualice por primera vez.",
-          "triggerWhenRecordUpdatedEverytime": "Esta opción activará el flujo de trabajo cada vez que se actualice un registro.",
+          "triggerWhenNewRecordCreated": "Cuando se crea un registro: El flujo de trabajo se activará cuando se añada un nuevo registro y se cumplan las condiciones establecidas.",
+          "triggerWhenUpdatedFirstTime": "Cuando un registro cambia por primera vez: El flujo de trabajo se activa la primera vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
+          "triggerWhenRecordUpdatedEverytime": "Cada vez que se actualiza un registro: El flujo de trabajo se activa cada vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
           "triggerWhenRecordDeleted": "Esta opción activará el flujo de trabajo cada vez que se elimine un registro.",
           "selectStatus": "Seleccionar estado",
           "selectAttribute": "Seleccionar atributo",

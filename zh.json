@@ -20380,6 +20380,7 @@
       }
     },
     "workflows": {
+      "setupEdit": false,
       "setupVisible": false,
       "label": {
         "original": "Workflows",
@@ -20389,31 +20390,32 @@
         "setupVisible": false
       },
       "sections": {
+        "setupEdit": false,
         "setupVisible": false,
         "sec0": {
-          "original": "1. Workflow Details",
-          "singular": "1. 工作流程详情",
+          "original": "Name Your Workflow and Select a Module",
+          "singular": "命名您的工作流程并选择模块",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec1": {
-          "original": "Give your workflow a name, select the module it is tied to, and add a description.",
-          "singular": "为您的工作流命名，选择它关联的模块，并添加描述。",
+          "original": "In this step, enter a name for your workflow and choose the module where this workflow will be triggered",
+          "singular": "在此步骤中，为您的工作流程命名并选择将触发该工作流程的模块",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec2": {
-          "original": "2. When should the workflow start?",
-          "singular": "2. 工作流应该何时开始？",
+          "original": "Set When the Workflow Trigger",
+          "singular": "设置工作流程触发时间",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec3": {
-          "original": "Choose what should happen to start the workflow",
-          "singular": "选择启动工作流时应该发生的事情",
+          "original": "Choose when the workflow should run: when a record is created, changed for the first time, or updated every time. This helps you control when notifications are sent based on record changes.",
+          "singular": "选择工作流程的运行时间：在记录创建时、首次更改时或每次更新时。这帮助您根据记录的更改控制通知的发送时间。",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20433,8 +20435,8 @@
           "setupVisible": false
         },
         "sec6": {
-          "original": "4. What happens when the workflow runs",
-          "singular": "4. 工作流运行时会发生什么",
+          "original": "Set Workflow Actions",
+          "singular": "设置工作流程操作",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20628,9 +20630,9 @@
       "messages": {
         "helpAutomateInternal": "工作流通过设置规则帮助您自动化任务。当发生特定事件（如字段更新或状态更改）时，系统会自动为您执行操作，例如发送通知或更新信息。",
         "useThisPageToCreateNewWorkflows": "使用此页面创建新工作流或管理您已设置的工作流。",
-        "triggerWhenNewRecordCreated": "当新记录添加时触发工作流。",
-        "triggerWhenUpdatedFirstTime": "当记录首次更改时触发工作流。",
-        "triggerWhenRecordUpdatedEverytime": "每当记录更改时触发工作流。",
+        "triggerWhenNewRecordCreated": "当创建记录时：当添加新记录且满足设定条件时，工作流程将被触发。",
+        "triggerWhenUpdatedFirstTime": "当记录第一次更改时：工作流程将在第一次更改记录且满足指定条件时触发。",
+        "triggerWhenRecordUpdatedEverytime": "每次更新记录时：每次更改记录且满足指定条件时，工作流程都会被触发。",
         "triggerWhenRecordDeleted": "此选项将在记录删除时触发工作流。",
         "selectStatus": "选择状态",
         "selectAttribute": "选择属性",

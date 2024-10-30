@@ -24369,7 +24369,10 @@
       "priceBookProductNotFoundProduct": "Product not found",
       "priceBookProductAlreadyExists": "Price Book Product already exists",
       "priceBookProductIdExists": "A new price book product cannot already have an ID",
-      "priceBookNameMandatory": "Price Book Name is mandatory"
+      "priceBookNameMandatory": "Price Book Name is mandatory",
+      "priceBookProductEmptyList": "Price Book Product list cannot be empty",
+      "priceBookProductDifferentPriceBooks": "Cannot bulk add products for different price books at a time",
+      "priceBookContractMandatory": "Contract is mandatory when creating a price book"
     },
     "tooltips": {},
     "messages": {}

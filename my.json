@@ -24404,7 +24404,10 @@
       "priceBookProductNotFoundProduct": "Produk tidak dijumpai",
       "priceBookProductAlreadyExists": "Buku Harga Produk sudah wujud",
       "priceBookProductIdExists": "Produk buku harga baru tidak boleh sudah mempunyai ID",
-      "priceBookNameMandatory": "Nama Buku Harga adalah wajib"
+      "priceBookNameMandatory": "Nama Buku Harga adalah wajib",
+      "priceBookProductEmptyList": "Senarai Produk Buku Harga tidak boleh kosong",
+      "priceBookProductDifferentPriceBooks": "Tidak boleh menambah produk secara pukal untuk buku harga yang berbeza pada satu masa",
+      "priceBookContractMandatory": "Kontrak adalah wajib apabila membuat buku harga"
     },
     "tooltips": {},
     "messages": {}

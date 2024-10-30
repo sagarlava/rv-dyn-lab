@@ -24404,7 +24404,10 @@
       "priceBookProductNotFoundProduct": "Producto no encontrado",
       "priceBookProductAlreadyExists": "El producto del libro de precios ya existe",
       "priceBookProductIdExists": "Un nuevo producto del libro de precios no puede tener ya un ID",
-      "priceBookNameMandatory": "El nombre del libro de precios es obligatorio"
+      "priceBookNameMandatory": "El nombre del libro de precios es obligatorio",
+      "priceBookProductEmptyList": "La lista de productos del libro de precios no puede estar vacía",
+      "priceBookProductDifferentPriceBooks": "No se pueden agregar productos en masa para diferentes libros de precios a la vez",
+      "priceBookContractMandatory": "El contrato es obligatorio al crear un libro de precios"
     },
     "tooltips": {},
     "messages": {}

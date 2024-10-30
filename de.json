@@ -24404,7 +24404,10 @@
       "priceBookProductNotFoundProduct": "Produkt nicht gefunden",
       "priceBookProductAlreadyExists": "Preisbuch-Produkt existiert bereits",
       "priceBookProductIdExists": "Ein neues Preisbuch-Produkt kann nicht bereits eine ID haben",
-      "priceBookNameMandatory": "Der Name des Preisbuchs ist erforderlich"
+      "priceBookNameMandatory": "Der Name des Preisbuchs ist erforderlich",
+      "priceBookProductEmptyList": "Die Liste der Preisbuchprodukte darf nicht leer sein",
+      "priceBookProductDifferentPriceBooks": "Produkte können nicht gleichzeitig für verschiedene Preisbücher in großen Mengen hinzugefügt werden",
+      "priceBookContractMandatory": "Ein Vertrag ist erforderlich, wenn ein Preisbuch erstellt wird"
     },
     "tooltips": {},
     "messages": {}

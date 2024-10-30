@@ -20393,36 +20393,36 @@
         "setupEdit": false,
         "setupVisible": false,
         "sec0": {
-          "original": "Name Your Workflow and Select a Module",
-          "singular": "命名您的工作流程并选择模块",
+          "original": "1. Workflow Details",
+          "singular": "1. 工作流程详情",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec1": {
-          "original": "In this step, enter a name for your workflow and choose the module where this workflow will be triggered",
-          "singular": "在此步骤中，为您的工作流程命名并选择将触发该工作流程的模块",
+          "original": "Give your workflow a name and choose the module where this workflow will be triggered",
+          "singular": "为您的工作流程命名并选择将触发该工作流程的模块",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec2": {
-          "original": "Set When the Workflow Trigger",
-          "singular": "设置工作流程触发时间",
+          "original": "2. When should the workflow start?",
+          "singular": "2. 何时应启动工作流程？",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec3": {
-          "original": "Choose when the workflow should run: when a record is created, changed for the first time, or updated every time. This helps you control when notifications are sent based on record changes.",
-          "singular": "选择工作流程的运行时间：在记录创建时、首次更改时或每次更新时。这帮助您根据记录的更改控制通知的发送时间。",
+          "original": "Choose when the workflow should run",
+          "singular": "选择工作流程的运行时间",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec4": {
-          "original": "3. What needs to happen to start the workflow?",
-          "singular": "3. 需要发生什么才能启动工作流？",
+          "original": "3. Specify the conditions to be met",
+          "singular": "3. 指定要满足的条件",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20435,8 +20435,8 @@
           "setupVisible": false
         },
         "sec6": {
-          "original": "Set Workflow Actions",
-          "singular": "设置工作流程操作",
+          "original": "4. Set Workflow Actions",
+          "singular": "4. 设置工作流程操作",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20635,7 +20635,12 @@
         }
       },
       "messages": {
-        "helpAutomateInternal": "工作流通过设置规则帮助您自动化任务。当发生特定事件（如字段更新或状态更改）时，系统会自动为您执行操作，例如发送通知或更新信息。",
+        "helpAutomateInternal": "工作流程使您可以根据特定条件在您选择的任何模块中设置自动通知。您可以自定义通知，以在应用内发送警报或电子邮件：",
+        "inAppNotifications": "应用内通知：",
+        "inAppNotificationsDesc": "编写自定义消息，当条件满足时直接在网页或移动应用程序中通知FieldEx用户。",
+        "emailNotifications": "电子邮件通知：",
+        "emailNotificationsDesc": "设计包含字段值的自定义电子邮件模板，以通知FieldEx用户或外部联系人。",
+        "whetherRemindersCustomer": "无论是提醒、客户更新还是团队警报，工作流程使保持联系变得简单而有效。",
         "useThisPageToCreateNewWorkflows": "使用此页面创建新工作流或管理您已设置的工作流。",
         "triggerWhenNewRecordCreated": "当创建记录时：当添加新记录且满足设定条件时，工作流程将被触发。",
         "triggerWhenUpdatedFirstTime": "当记录第一次更改时：工作流程将在第一次更改记录且满足指定条件时触发。",

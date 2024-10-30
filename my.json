@@ -20393,36 +20393,36 @@
         "setupEdit": false,
         "setupVisible": false,
         "sec0": {
-          "original": "Name Your Workflow and Select a Module",
-          "singular": "Namakan Aliran Kerja Anda dan Pilih Modul",
+          "original": "1. Workflow Details",
+          "singular": "1. Butiran Aliran Kerja",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec1": {
-          "original": "In this step, enter a name for your workflow and choose the module where this workflow will be triggered",
-          "singular": "Dalam langkah ini, masukkan nama untuk aliran kerja anda dan pilih modul di mana aliran kerja ini akan dicetuskan",
+          "original": "Give your workflow a name and choose the module where this workflow will be triggered",
+          "singular": "Namakan aliran kerja anda dan pilih modul di mana aliran kerja ini akan dicetuskan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec2": {
-          "original": "Set When the Workflow Trigger",
-          "singular": "Tetapkan Bila Aliran Kerja Dicetuskan",
+          "original": "2. When should the workflow start?",
+          "singular": "2. Bila aliran kerja harus bermula?",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec3": {
-          "original": "Choose when the workflow should run: when a record is created, changed for the first time, or updated every time. This helps you control when notifications are sent based on record changes.",
-          "singular": "Pilih bila aliran kerja harus dijalankan: apabila rekod dicipta, diubah untuk kali pertama, atau dikemas kini setiap kali. Ini membantu anda mengawal bila notifikasi dihantar berdasarkan perubahan rekod.",
+          "original": "Choose when the workflow should run",
+          "singular": "Pilih bila aliran kerja harus dijalankan",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec4": {
-          "original": "3. What needs to happen to start the workflow?",
-          "singular": "3. Apa yang perlu berlaku untuk memulakan aliran kerja?",
+          "original": "3. Specify the conditions to be met",
+          "singular": "3. Tentukan syarat yang perlu dipenuhi",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20435,11 +20435,11 @@
           "setupVisible": false
         },
         "sec6": {
-            "original": "Set Workflow Actions",
-            "singular": "Tetapkan Tindakan Aliran Kerja",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
+          "original": "4. Set Workflow Actions",
+          "singular": "4. Tetapkan Tindakan Aliran Kerja",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         },
         "sec7": {
           "original": "Add Notification",
@@ -20635,7 +20635,12 @@
         }
       },
       "messages": {
-        "helpAutomateInternal": "Aliran kerja membantu anda mengautomatikkan tugas dengan menetapkan peraturan. Apabila sesuatu yang spesifik berlaku (seperti kemas kini medan atau perubahan status), sistem secara automatik akan melakukan tindakan untuk anda, seperti menghantar notifikasi atau mengemas kini maklumat.",
+        "helpAutomateInternal": "Aliran kerja membolehkan anda menyediakan notifikasi automatik berdasarkan syarat khusus dalam mana-mana modul yang anda pilih. Anda boleh menyesuaikan notifikasi untuk dihantar sebagai amaran dalam aplikasi atau e-mel:",
+        "inAppNotifications": "Notifikasi Dalam Aplikasi:",
+        "inAppNotificationsDesc": "Tulis mesej tersuai untuk memberitahu pengguna FieldEx terus dalam aplikasi web atau mudah alih apabila syarat dipenuhi.",
+        "emailNotifications": "Notifikasi E-mel:",
+        "emailNotificationsDesc": "Reka templat e-mel tersuai dengan nilai medan untuk memberitahu pengguna FieldEx atau kenalan luar.",
+        "whetherRemindersCustomer": "Sama ada peringatan, kemas kini pelanggan, atau amaran pasukan, aliran kerja memudahkan untuk terus berhubung dengan cara yang mudah dan berkesan.",
         "useThisPageToCreateNewWorkflows": "Gunakan halaman ini untuk membuat aliran kerja baharu atau mengurus aliran kerja yang telah anda sediakan.",
         "triggerWhenNewRecordCreated": "Apabila rekod dicipta: Aliran kerja akan dicetuskan apabila rekod baru ditambah dan syarat yang ditetapkan dipenuhi.",
         "triggerWhenUpdatedFirstTime": "Apabila rekod diubah untuk kali pertama: Aliran kerja dicetuskan kali pertama perubahan dibuat pada rekod dan memenuhi syarat yang ditentukan.",

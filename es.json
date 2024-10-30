@@ -20393,50 +20393,50 @@
           "setupEdit": false,
           "setupVisible": false,
           "sec0": {
-            "original": "Name Your Workflow and Select a Module",
-            "singular": "Nombra tu flujo de trabajo y selecciona un módulo",
+            "original": "1. Workflow Details",
+            "singular": "1. Detalles del flujo de trabajo",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
         "sec1": {
-            "original": "In this step, enter a name for your workflow and choose the module where this workflow will be triggered",
-            "singular": "En este paso, introduce un nombre para tu flujo de trabajo y elige el módulo donde se activará este flujo de trabajo",
+            "original": "Give your workflow a name and choose the module where this workflow will be triggered",
+            "singular": "Nombra tu flujo de trabajo y selecciona el módulo donde se activará este flujo de trabajo",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
         "sec2": {
-            "original": "Set When the Workflow Trigger",
-            "singular": "Configura cuándo se activará el flujo de trabajo",
+            "original": "2. When should the workflow start?",
+            "singular": "2. ¿Cuándo debería comenzar el flujo de trabajo?",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
         "sec3": {
-            "original": "Choose when the workflow should run: when a record is created, changed for the first time, or updated every time. This helps you control when notifications are sent based on record changes.",
-            "singular": "Elige cuándo debería ejecutarse el flujo de trabajo: cuando se crea un registro, cuando se modifica por primera vez o cada vez que se actualiza. Esto te ayuda a controlar cuándo se envían las notificaciones en función de los cambios en los registros.",
+            "original": "Choose when the workflow should run",
+            "singular": "Elige cuándo debería ejecutarse el flujo de trabajo",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec4": {
-            "original": "What conditions should be met",
-            "singular": "Qué condiciones deben cumplirse",
+            "original": "3. Specify the conditions to be met",
+            "singular": "3. Especifica las condiciones a cumplir",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec5": {
-            "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
-            "singular": "Especifica las condiciones y combinaciones de condiciones que deben activar este flujo de trabajo",
+            "original": "Set the rules and combine conditions that will trigger this workflow (e.g., 'Status equal to Completed' AND 'Type equal to Installation'). Use AND/OR to create the right combination of conditions.",
+            "singular": "Establece las reglas y combina condiciones que activarán este flujo de trabajo (por ejemplo, 'Estado igual a Completado' Y 'Tipo igual a Instalación'). Usa Y/O para crear la combinación correcta de condiciones.",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec6": {
-            "original": "Set Workflow Actions",
-            "singular": "Configurar acciones del flujo de trabajo",
+            "original": "4. Set Workflow Actions",
+            "singular": "4. Configurar acciones del flujo de trabajo",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -20635,7 +20635,12 @@
           }
         },
         "messages": {
-          "helpAutomateInternal": "Los flujos de trabajo te ayudan a automatizar procesos internos al permitir la creación de desencadenadores condicionales para acciones como el envío de notificaciones, la actualización de campos y la aplicación de validaciones.",
+          "helpAutomateInternal": "Los flujos de trabajo le permiten configurar notificaciones automáticas basadas en condiciones específicas en cualquier módulo que elija. Puede personalizar las notificaciones para que se envíen como alertas en la aplicación o correos electrónicos:",
+          "inAppNotifications": "Notificaciones en la aplicación:",
+          "inAppNotificationsDesc": "Escriba mensajes personalizados para notificar a los usuarios de FieldEx directamente en la aplicación web o móvil cuando se cumplan las condiciones.",
+          "emailNotifications": "Notificaciones por correo electrónico:",
+          "emailNotificationsDesc": "Diseñe plantillas de correo electrónico personalizadas con valores de campo para notificar a los usuarios de FieldEx o contactos externos.",
+          "whetherRemindersCustomer": "Ya sean recordatorios, actualizaciones para clientes o alertas para el equipo, los flujos de trabajo facilitan mantenerse conectado de manera simple y efectiva.",
           "useThisPageToCreateNewWorkflows": "Utiliza esta página para crear nuevos flujos de trabajo o gestionar los que ya has configurado.",
           "triggerWhenNewRecordCreated": "Cuando se crea un registro: El flujo de trabajo se activará cuando se añada un nuevo registro y se cumplan las condiciones establecidas.",
           "triggerWhenUpdatedFirstTime": "Cuando un registro cambia por primera vez: El flujo de trabajo se activa la primera vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",

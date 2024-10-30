@@ -20393,36 +20393,36 @@
         "setupEdit": false,
         "setupVisible": false,
         "sec0": {
-          "original": "Name Your Workflow and Select a Module",
-          "singular": "Name Your Workflow and Select a Module",
+          "original": "1. Workflow Details",
+          "singular": "1. Workflow Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec1": {
-          "original": "In this step, enter a name for your workflow and choose the module where this workflow will be triggered",
-          "singular": "In this step, enter a name for your workflow and choose the module where this workflow will be triggered",
+          "original": "Give your workflow a name and choose the module where this workflow will be triggered",
+          "singular": "Give your workflow a name and choose the module where this workflow will be triggered",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec2": {
-          "original": "Set When the Workflow Trigger",
-          "singular": "Set When the Workflow Trigger",
+          "original": "2. When should the workflow start?",
+          "singular": "2. When should the workflow start?",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec3": {
-          "original": "Choose when the workflow should run: when a record is created, changed for the first time, or updated every time. This helps you control when notifications are sent based on record changes.",
-          "singular": "Choose when the workflow should run: when a record is created, changed for the first time, or updated every time. This helps you control when notifications are sent based on record changes.",
+          "original": "Choose when the workflow should run",
+          "singular": "Choose when the workflow should run",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec4": {
-          "original": "Specify the conditions to be met",
-          "singular": "Specify the conditions to be met",
+          "original": "3. Specify the conditions to be met",
+          "singular": "3. Specify the conditions to be met",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20435,8 +20435,8 @@
           "setupVisible": false
         },
         "sec6": {
-          "original": "Set Workflow Actions",
-          "singular": "Set Workflow Actions",
+          "original": "4. Set Workflow Actions",
+          "singular": "4. Set Workflow Actions",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20635,7 +20635,12 @@
         }
       },
       "messages":{
-        "helpAutomateInternal":"Workflows help you automate tasks by setting up rules. When something specific happens (like a field update or status change), the system will automatically do an action for you, like sending a notification or updating information.",
+        "helpAutomateInternal":"Workflows let you set up automatic notifications based on specific conditions in any module you choose. You can customize notifications to be sent as in-app alerts or emails:",
+        "inAppNotifications":"In-App Notifications:",
+        "inAppNotificationsDesc":"Write custom messsages to notify FieldEx users directly in the web or mobile app when conditions are met.",
+        "emailNotifications":"Email Notifications:",
+        "emailNotificationsDesc":"Desgin custom email templates with field values to notify FieldEx users or external contacts.",
+        "whetherRemindersCustomer":"Whether it's reminders, customer updates, or team alerts, workflows make staying connected simple and effective.",
         "useThisPageToCreateNewWorkflows": "Use this page to create new workflows or manage the ones you've already set up.",
         "triggerWhenNewRecordCreated":"When a record is created: The workflow will trigger when a new record is added and the set conditions are met.",
         "triggerWhenUpdatedFirstTime":"When a record is changed for the first time: The workflow triggers the first time changes are made to the record and meet the specified conditions.",

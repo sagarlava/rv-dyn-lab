@@ -20393,50 +20393,50 @@
         "setupEdit": false,
         "setupVisible": false,
         "sec0": {
-          "original": "Name Your Workflow and Select a Module",
-          "singular": "Benennen Sie Ihren Workflow und wählen Sie ein Modul aus",
+          "original": "1. Workflow Details",
+          "singular": "1. Workflow-Details",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
           },
         "sec1": {
-          "original": "In this step, enter a name for your workflow and choose the module where this workflow will be triggered",
-          "singular": "Geben Sie in diesem Schritt einen Namen für Ihren Workflow ein und wählen Sie das Modul, in dem dieser Workflow ausgelöst wird",
+          "original": "Give your workflow a name and choose the module where this workflow will be triggered",
+          "singular": "Benennen Sie Ihren Workflow und wählen Sie das Modul, in dem dieser Workflow ausgelöst wird",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
           },
         "sec2": {
-          "original": "Set When the Workflow Trigger",
-          "singular": "Festlegen, wann der Workflow ausgelöst wird",
+          "original": "2. When should the workflow start?",
+          "singular": "2. Wann soll der Workflow starten?",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
           },
         "sec3": {
-          "original": "Choose when the workflow should run: when a record is created, changed for the first time, or updated every time. This helps you control when notifications are sent based on record changes.",
-          "singular": "Wählen Sie, wann der Workflow ausgeführt werden soll: wenn ein Datensatz erstellt, zum ersten Mal geändert oder jedes Mal aktualisiert wird. Dies hilft Ihnen, zu steuern, wann Benachrichtigungen basierend auf Änderungen am Datensatz gesendet werden.",
+          "original": "Choose when the workflow should run",
+          "singular": "Wählen Sie, wann der Workflow ausgeführt werden soll",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec4": {
-          "original": "What conditions should be met",
-          "singular": "Welche Bedingungen erfüllt sein müssen",
+          "original": "3. Specify the conditions to be met",
+          "singular": "3. Geben Sie die zu erfüllenden Bedingungen an",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec5": {
-          "original": "Specify the conditions and combinations of conditions that should trigger this workflow",
-          "singular": "Geben Sie die Bedingungen und Kombinationen von Bedingungen an, die diesen Workflow auslösen sollen.",
+          "original": "Set the rules and combine conditions that will trigger this workflow (e.g., 'Status equal to Completed' AND 'Type equal to Installation'). Use AND/OR to create the right combination of conditions.",
+          "singular": "Legen Sie die Regeln fest und kombinieren Sie Bedingungen, die diesen Workflow auslösen (z.B. 'Status gleich Abgeschlossen' UND 'Typ gleich Installation'). Verwenden Sie UND/ODER, um die richtige Kombination von Bedingungen zu erstellen.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
         "sec6": {
-          "original": "Set Workflow Actions",
-          "singular": "Workflow-Aktionen festlegen",
+          "original": "4. Set Workflow Actions",
+          "singular": "4. Workflow-Aktionen festlegen",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
@@ -20635,7 +20635,12 @@
         }
       },
       "messages": {
-        "helpAutomateInternal": "Workflows helfen Ihnen, interne Prozesse zu automatisieren, indem sie die Erstellung von bedingten Auslösern für Aktionen wie das Senden von Benachrichtigungen, das Aktualisieren von Feldern und das Anwenden von Validierungen ermöglichen.",
+        "helpAutomateInternal": "Workflows ermöglichen es Ihnen, automatische Benachrichtigungen basierend auf spezifischen Bedingungen in jedem gewünschten Modul einzurichten. Sie können Benachrichtigungen anpassen, um sie als In-App-Warnungen oder E-Mails zu senden:",
+        "inAppNotifications": "In-App-Benachrichtigungen:",
+        "inAppNotificationsDesc": "Schreiben Sie benutzerdefinierte Nachrichten, um FieldEx-Benutzer direkt in der Web- oder mobilen App zu benachrichtigen, wenn Bedingungen erfüllt sind.",
+        "emailNotifications": "E-Mail-Benachrichtigungen:",
+        "emailNotificationsDesc": "Erstellen Sie benutzerdefinierte E-Mail-Vorlagen mit Feldwerten, um FieldEx-Benutzer oder externe Kontakte zu benachrichtigen.",
+        "whetherRemindersCustomer": "Egal ob Erinnerungen, Kunden-Updates oder Team-Benachrichtigungen – Workflows machen die Verbindung einfach und effektiv.",
         "useThisPageToCreateNewWorkflows": "Verwenden Sie diese Seite, um neue Workflows zu erstellen oder die bereits eingerichteten zu verwalten.", 
         "triggerWhenNewRecordCreated": "Wenn ein Datensatz erstellt wird: Der Workflow wird ausgelöst, wenn ein neuer Datensatz hinzugefügt wird und die festgelegten Bedingungen erfüllt sind.",
         "triggerWhenUpdatedFirstTime": "Wenn ein Datensatz zum ersten Mal geändert wird: Der Workflow wird beim ersten Mal ausgelöst, wenn Änderungen am Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",

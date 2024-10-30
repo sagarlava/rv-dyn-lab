@@ -20632,7 +20632,21 @@
           "plural": "Tindakan Aliran Kerja",
           "setupEdit": true,
           "setupVisible": false
-        }
+        },
+        "workflowStart": {
+            "original": "Workflow Start",
+            "singular": "Permulaan Aliran Kerja",
+            "plural": "Permulaan Aliran Kerja",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+        "workflowDetails": {
+            "original": "Workflow Details",
+            "singular": "Butiran Aliran Kerja",
+            "plural": "Butiran Aliran Kerja",
+            "setupEdit": true,
+            "setupVisible": false
+          }
       },
       "messages": {
         "helpAutomateInternal": "Aliran kerja membolehkan anda menyediakan notifikasi automatik berdasarkan syarat khusus dalam mana-mana modul yang anda pilih. Anda boleh menyesuaikan notifikasi untuk dihantar sebagai amaran dalam aplikasi atau e-mel:",

@@ -20632,6 +20632,20 @@
             "plural": "Acciones del Flujo de Trabajo",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "workflowStart": {
+            "original": "Workflow Start",
+            "singular": "Inicio del flujo de trabajo",
+            "plural": "Inicio del flujo de trabajo",
+            "setupEdit": true,
+            "setupVisible": false
+          },
+          "workflowDetails": {
+            "original": "Workflow Details",
+            "singular": "1. Detalles del flujo de trabajo",
+            "plural": "Detalles del flujo de trabajo",
+            "setupEdit": true,
+            "setupVisible": false
           }
         },
         "messages": {

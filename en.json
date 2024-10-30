@@ -20632,6 +20632,20 @@
           "plural": "Workflow Actions",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "workflowStart":{
+          "original": "Workflow Start",
+          "singular": "Workflow Start",
+          "plural": "Workflow Start",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "workflowDetails":{
+          "original": "Workflow Details",
+          "singular": "Workflow Details",
+          "plural": "Workflow Details",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "messages":{

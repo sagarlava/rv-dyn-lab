@@ -10377,7 +10377,8 @@
       "contactNameNotFound": "Name can not be empty",
       "contactEmailNotFound": "Email can not be empty",
       "contactUserNameNotFound": "Username can not be empty",
-      "contactExtIdNotFound": "ExternalId not found"
+      "contactExtIdNotFound": "ExternalId not found",
+      "contactHasSalesOrder": "Sales Order Data exists in the system for the Contact"
     },
     "messages":{
       "searchContact": "Search Contact",

@@ -11267,6 +11267,13 @@
         "setupEdit": true,
         "setupVisible": false
       },
+      "item": {
+        "original": "Item",
+        "singular": "Item",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
+      },
       "moreOptions": {
         "original": "More Options",
         "singular": "Lebih Banyak Pilihan",
@@ -13117,7 +13124,7 @@
         },
         "geoFence": {
           "original": "Geofence",
-          "singular": "Geofence",
+          "singular": "Pagar Geofence",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

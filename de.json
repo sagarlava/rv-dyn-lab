@@ -8405,9 +8405,7 @@
     "selectAProduct": "Wählen Sie ein Ersatzteil",
     "userCalendlyNoIntegrate": "Dieser Benutzer hat Calendly nicht in sein Konto integriert",
     "noContactFoundForThisJobOrder": "Kein Kontakt für diesen Arbeitsauftrag gefunden",
-    "noContactFoundForTheJobOrdersCustomer": "Kein Kontakt für den Kunden des Arbeitsauftrags gefunden",
-    "userLeaveNotPermittedToEdit": "Sie dürfen diesen Urlaub nicht bearbeiten",
-    "userLeaveApprovedOrRejected": "Urlaub des Benutzers wurde genehmigt/abgelehnt"
+    "noContactFoundForTheJobOrdersCustomer": "Kein Kontakt für den Kunden des Arbeitsauftrags gefunden"
   },
   "validationBE": {
     "jobOrderStatusNotFound": "Status nicht gefunden",
@@ -21905,7 +21903,9 @@
       "leaveAuditEventHistoryIdExists": "Eine neue Abwesenheitsprüfungsereignis-Historie kann nicht bereits eine ID haben",
       "userLeaveOnlyAppliedCanBeEdited": "Nur beantragte Benutzerabwesenheiten können bearbeitet werden",
       "userLeaveOverlappingWithHolidays": "Sie haben sich überschneidende Feiertage, bitte ändern Sie Ihre Abwesenheitsdaten und versuchen Sie es erneut",
-      "userLeaveUserWithIdNotFound": "Ungültige Benutzer-ID"
+      "userLeaveUserWithIdNotFound": "Ungültige Benutzer-ID",
+      "userLeaveNotPermittedToEdit": "Sie dürfen diesen Urlaub nicht bearbeiten",
+      "userLeaveApprovedOrRejected": "Urlaub des Benutzers wurde genehmigt/abgelehnt"
     },
     "messages": {
       "selectOutturnCode": "Wählen Sie den Ausgabecode",

@@ -21904,7 +21904,9 @@
       "leaveAuditEventHistoryIdExists": "Un nuevo Historial de Eventos de Auditoría de Permisos no puede tener ya un ID",
       "userLeaveOnlyAppliedCanBeEdited": "Solo se puede editar el permiso de usuario aplicado",
       "userLeaveOverlappingWithHolidays": "Tiene vacaciones superpuestas, por favor cambie las fechas de su permiso y vuelva a intentarlo",
-      "userLeaveUserWithIdNotFound": "ID de Usuario no válido"
+      "userLeaveUserWithIdNotFound": "ID de Usuario no válido",
+      "userLeaveNotPermittedToEdit": "No está permitido editar este permiso",
+      "userLeaveApprovedOrRejected": "El permiso del usuario ha sido Aprobado/Rechazado"
     },
     "messages": {
       "selectOutturnCode": "Seleccionar Código de Resultado",

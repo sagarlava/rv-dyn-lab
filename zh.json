@@ -21904,7 +21904,8 @@
       "leaveAuditEventHistoryIdExists": "新的请假审核事件历史不能已有ID",
       "userLeaveApprovedOrRejected": "用户的请假已被批准/拒绝",
       "userLeaveOverlappingWithHolidays": "您的休假与节假日重叠，请更改您的休假日期并重试",
-      "userLeaveUserWithIdNotFound": "无效的用户ID"
+      "userLeaveUserWithIdNotFound": "无效的用户ID",
+      "userLeaveNotPermittedToEdit": "您无权编辑此请假"
     },
     "messages": {
       "selectOutturnCode": "选择结果代码",

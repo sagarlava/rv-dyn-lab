@@ -24451,9 +24451,9 @@
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "未找到费率卡",
-      "rateCardPriceBookEmpty": "费率卡必须有一个价格手册",
+      "rateCardContractEmpty": "费率卡必须有一个合同",
       "rateCardIdMismatch": "费率卡ID不匹配",
-      "rateCardPriceBookNotFound": "未找到费率卡价格手册",
+      "rateCardContractNotFound": "未找到合同",
       "rateCardIdExists": "新的费率卡不能已经有ID"
     },
     "tooltips": {},

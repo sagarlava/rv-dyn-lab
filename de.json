@@ -24451,9 +24451,9 @@
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "Ratekarte  nicht gefunden",
-      "rateCardPriceBookEmpty": "Ratekarte  sollte ein Preisbuch haben",
+      "rateCardContractEmpty": "Ratekarte sollte einen Vertrag haben",
       "rateCardIdMismatch": "Ratekarte-ID stimmt nicht überein",
-      "rateCardPriceBookNotFound": "Ratekarten-Preisbuch nicht gefunden",
+      "rateCardContractNotFound": "Vertrag nicht gefunden",
       "rateCardIdExists": "Eine neue Ratekarte kann nicht bereits eine ID haben"
     },
     "tooltips": {},

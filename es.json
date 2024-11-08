@@ -24452,9 +24452,9 @@
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "Tarjeta de tarifas no encontrada",
-      "rateCardPriceBookEmpty": "La tarjeta de tarifas debe tener un libro de precios",
+      "rateCardContractEmpty": "La tarjeta de tarifas debe tener un contrato",
       "rateCardIdMismatch": "La ID de la tarjeta de tarifas no coincide",
-      "rateCardPriceBookNotFound": "Libro de precios de la tarjeta de tarifas no encontrado",
+      "rateCardContractNotFound": "Contrato no encontrado",
       "rateCardIdExists": "Una nueva tarjeta de tarifas no puede tener ya una ID"
     },
     "tooltips": {},

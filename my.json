@@ -24451,9 +24451,9 @@
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "Kad Kadar tidak dijumpai",
-      "rateCardPriceBookEmpty": "Kad Kadar harus mempunyai buku harga",
+      "rateCardContractEmpty": "Kad Kadar harus mempunyai kontrak",
       "rateCardIdMismatch": "ID Kad Kadar tidak sepadan",
-      "rateCardPriceBookNotFound": "Buku Harga Kad Kadar tidak dijumpai",
+      "rateCardContractNotFound": "Kontrak tidak dijumpai",
       "rateCardIdExists": "Kad Kadar baru tidak boleh sudah mempunyai ID"
     },
     "tooltips": {},

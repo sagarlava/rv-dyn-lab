@@ -24409,9 +24409,9 @@
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "Rate Card not found",
-      "rateCardPriceBookEmpty": "Rate Card should have a price book",
+      "rateCardContractEmpty": "Rate Card should have a contract",
       "rateCardIdMismatch": "Rate Card Id does not match",
-      "rateCardPriceBookNotFound": "Rate Card Price Book not found",
+      "rateCardContractNotFound": "Contract not found",
       "rateCardIdExists": "A new rate card cannot already have an ID"
     },
     "tooltips": {},

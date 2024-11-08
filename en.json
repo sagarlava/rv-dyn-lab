@@ -21918,7 +21918,8 @@
       "userLeaveOverlappingWithHolidays": "You have overlapping holidays, please change your leave dates and try again",
       "userLeaveUserWithIdNotFound": "Invalid User Id",
       "userLeaveNotPermittedToEdit": "You are not permitted to edit this leave",
-      "userLeaveApprovedOrRejected": "User's leave has been Approved/Rejected"
+      "userLeaveApprovedOrRejected": "User's leave has been Approved/Rejected",
+      "userLeaveCannotBeApprovedOrRejected": "You are not the manager, hence not able to Approve/Reject",
     },
     "messages": {
       "selectOutturnCode": "Select Outturn Code",

@@ -21918,7 +21918,8 @@
       "userLeaveOverlappingWithHolidays": "Tiene vacaciones superpuestas, por favor cambie las fechas de su permiso y vuelva a intentarlo",
       "userLeaveUserWithIdNotFound": "ID de Usuario no válido",
       "userLeaveNotPermittedToEdit": "No está permitido editar este permiso",
-      "userLeaveApprovedOrRejected": "El permiso del usuario ha sido Aprobado/Rechazado"
+      "userLeaveApprovedOrRejected": "El permiso del usuario ha sido Aprobado/Rechazado",
+      "userLeaveCannotBeApprovedOrRejected": "No se permite aprobar/rechazar porque no es el gerente"
     },
     "messages": {
       "selectOutturnCode": "Seleccionar Código de Resultado",

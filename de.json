@@ -15369,7 +15369,8 @@
         },
         "messages": {
           "notificationsAllowNotify": "Benachrichtigungen ermöglichen es Ihnen, Benutzer über spezifische Aktivitäten in FieldEx zu informieren, wie z. B. Updates und Zuweisungen, sowohl innerhalb der App als auch als E-Mail-Benachrichtigungen. Erstellen Sie Workflows, um Ihre Benachrichtigungen auszulösen und konfigurieren Sie diese, um Ihren Geschäftsprozessen gerecht zu werden.",
-          "fillNotificationDetails": "Füllen Sie die Details Ihrer Benachrichtigung mit einem Namen und einer Beschreibung aus. Dies wird für alle Benutzer in ihren Benachrichtigungseinstellungen sichtbar sein.",
+          "fillEmailNotificationDetails":"Füllen Sie die Details Ihrer E-Mail-Benachrichtigung mit einem Namen und einer Beschreibung aus.",
+          "fillAppNotificationDetails":"Füllen Sie die Details Ihrer App-Benachrichtigung mit einem Namen und einer Beschreibung aus.",
           "typeOutMessage": "Geben Sie Ihre Nachricht ein, wählen Sie die Felder aus, die Sie einfügen möchten, und kopieren Sie den angezeigten Text in den Nachrichteninhalt links.",
           "selectWhereLikeNotificationNavigate": "Wählen Sie, wohin die Benachrichtigung navigieren soll und ob Sie wichtige Informationen fett gedruckt haben möchten.",
           "selectEmailTemplate": "Wählen Sie die E-Mail-Vorlage aus, die für diese Benachrichtigung versendet werden soll.",

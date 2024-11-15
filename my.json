@@ -15369,7 +15369,8 @@
         },
         "messages": {
           "notificationsAllowNotify": "Notifikasi membolehkan anda memberi amaran kepada pengguna tentang tindakan penting dalam FieldEx, seperti kemas kini atau tugasan. Anda boleh menghantar amaran ini dalam aplikasi atau melalui e-mel. Gunakan aliran kerja untuk menetapkan dan mengawal bila notifikasi dihantar.",
-          "fillNotificationDetails": "Isi butiran notifikasi anda dengan nama dan deskripsi. Ini akan kelihatan kepada semua pengguna dalam keutamaan notifikasi mereka.",
+          "fillEmailNotificationDetails":"Isi butiran pemberitahuan e-mel anda dengan nama dan deskripsi.",
+          "fillAppNotificationDetails":"Isi butiran pemberitahuan aplikasi anda dengan nama dan deskripsi.",
           "typeOutMessage": "Tulis mesej anda, pilih medan yang hendak dimasukkan, dan salin teks yang ditunjukkan ke dalam kotak mesej di sebelah kiri.",
           "selectWhereLikeNotificationNavigate": "Pilih tempat notifikasi harus dipautkan.",
           "selectEmailTemplate": "Pilih templat e-mel yang anda ingin gunakan untuk notifikasi ini.",

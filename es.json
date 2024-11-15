@@ -15369,7 +15369,8 @@
         },
         "messages": {
           "notificationsAllowNotify": "Las notificaciones te permiten informar a los usuarios sobre actividades específicas en FieldEx, como actualizaciones y asignaciones, tanto dentro de la aplicación como en notificaciones por correo electrónico. Crea flujos de trabajo para activar tus notificaciones y configúralas para que se ajusten a tu proceso empresarial.",
-          "fillNotificationDetails": "Completa los detalles de tu notificación con un nombre y una descripción. Esto será visible para todos los usuarios en sus preferencias de notificación.",
+          "fillEmailNotificationDetails":"Complete los detalles de su notificación por correo electrónico con un nombre y una descripción.",
+          "fillAppNotificationDetails":"Complete los detalles de su notificación en la aplicación con un nombre y una descripción.",
           "typeOutMessage": "Escribe tu mensaje, selecciona los campos que deseas incluir y copia el texto mostrado en el cuerpo del mensaje a la izquierda.",
           "selectWhereLikeNotificationNavigate": "Selecciona a dónde te gustaría que la notificación navegara y si deseas que la información clave esté en negrita.",
           "selectEmailTemplate": "Selecciona la plantilla de correo electrónico que te gustaría enviar para esta notificación.",

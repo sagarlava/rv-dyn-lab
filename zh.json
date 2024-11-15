@@ -15369,7 +15369,8 @@
         },
         "messages": {
           "notificationsAllowNotify": "通知可让您提醒用户有关 FieldEx 中的重要操作，如更新或分配。您可以在应用程序中或通过电子邮件发送这些警报。使用工作流设置和控制何时发送通知。",
-          "fillNotificationDetails": "填写您的通知详情，包括名称和描述。这将对所有用户在其通知偏好中可见。",
+          "fillEmailNotificationDetails":"填写您的电子邮件通知详细信息，包括名称和描述。",
+          "fillAppNotificationDetails":"填写您的应用内通知详细信息，包括名称和描述。",
           "typeOutMessage": "写下您的消息，选择要包含的字段，并将显示的文本复制到左侧的消息框中。",
           "selectWhereLikeNotificationNavigate": "选择通知应链接到的位置。",
           "selectEmailTemplate": "选择您想要用于此通知的电子邮件模板。",

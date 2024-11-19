@@ -988,7 +988,16 @@
       "assetFloorNotFound": "Machines floor not found",
       "assetRoomNotFound": "Machines room not found",
       "assetCustodianNotFound": "Machines custodian not found",
-      "assetSiteNotFound": "Machines estate not found"
+      "assetSiteNotFound": "Machines estate not found",
+      "assetCategoryNotFound": "Machines category not found",
+      "assetSubCategoryNotFound": "Machines sub category not found",
+      "assetCategoryExists": "Machine Category already exists",
+      "assetCategorySystemGenerated": "System generated Machine Category are not allowed to be deleted",
+      "assetCategoryCannotDeleteByAssetSubCategory": "Unable to delete: Machine Category is used in one or more Machine Sub Category",
+      "assetSubCategoryExists": "Machine Sub Category already exists",
+      "assetSubCategorySystemGenerated": "System generated Machine Sub Category are not allowed to be deleted",
+      "assetCategoryIdExists":"A new Machine Category cannot already have an ID",
+      "assetSubCategoryIdExists":"A new Machine Sub Category cannot already have an ID"
     },
     "tooltips": {
       "setupVisible": false,

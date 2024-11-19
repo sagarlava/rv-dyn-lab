@@ -988,7 +988,16 @@
       "assetFloorNotFound": "未找到资产楼层",
       "assetRoomNotFound": "未找到资产房间",
       "assetCustodianNotFound": "未找到资产保管人",
-      "assetSiteNotFound": "未找到资产地点"
+      "assetSiteNotFound": "未找到资产地点",
+      "assetCategoryNotFound": "找不到资产类别",
+      "assetSubCategoryNotFound": "找不到资产子类别",
+      "assetCategoryExists": "资产类别已存在",
+      "assetCategorySystemGenerated": "系统生成的资产类别不允许删除",
+      "assetCategoryCannotDeleteByAssetSubCategory": "无法删除：资产类别在一个或多个资产子类别中使用",
+      "assetSubCategoryExists": "资产子类别已存在",
+      "assetSubCategorySystemGenerated": "系统生成的资产子类别不允许删除",
+      "assetCategoryIdExists": "新资产类别不能已经有ID",
+      "assetSubCategoryIdExists": "新资产子类别不能已经有ID"
     },
     "tooltips": {
       "setupVisible": false,

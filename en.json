@@ -988,7 +988,16 @@
       "assetFloorNotFound": "Assets floor not found",
       "assetRoomNotFound": "Assets room not found",
       "assetCustodianNotFound": "Assets custodian not found",
-      "assetSiteNotFound": "Assets site not found"
+      "assetSiteNotFound": "Assets site not found",
+      "assetCategoryNotFound": "Assets category not found",
+      "assetSubCategoryNotFound": "Assets sub category not found",
+      "assetCategoryExists": "Asset Category already exists",
+      "assetCategorySystemGenerated": "System generated Asset Category are not allowed to be deleted",
+      "assetCategoryCannotDeleteByAssetSubCategory": "Unable to delete: Asset Category is used in one or more Asset Sub Category",
+      "assetSubCategoryExists": "Asset Sub Category already exists",
+      "assetSubCategorySystemGenerated": "System generated Asset Sub Category are not allowed to be deleted",
+      "assetCategoryIdExists":"A new Asset Category cannot already have an ID",
+      "assetSubCategoryIdExists":"A new Asset Sub Category cannot already have an ID"
     },
     "tooltips": {
       "setupVisible": false,

@@ -988,7 +988,16 @@
       "assetFloorNotFound": "Tingkat Aset tidak dijumpai",
       "assetRoomNotFound": "Bilik Aset tidak dijumpai",
       "assetCustodianNotFound": "Penjaga Aset tidak dijumpai",
-      "assetSiteNotFound": "Tapak Aset tidak dijumpai"
+      "assetSiteNotFound": "Tapak Aset tidak dijumpai",
+      "assetCategoryNotFound": "Kategori aset tidak dijumpai",
+      "assetSubCategoryNotFound": "Subkategori aset tidak dijumpai",
+      "assetCategoryExists": "Kategori aset sudah wujud",
+      "assetCategorySystemGenerated": "Kategori Aset yang dihasilkan oleh sistem tidak dibenarkan untuk dipadamkan",
+      "assetCategoryCannotDeleteByAssetSubCategory": "Tidak dapat memadam: Kategori aset digunakan dalam satu atau lebih Subkategori aset",
+      "assetSubCategoryExists": "Subkategori Aset sudah wujud",
+      "assetSubCategorySystemGenerated": "Subkategori Aset yang dihasilkan oleh sistem tidak dibenarkan untuk dipadamkan",
+      "assetCategoryIdExists": "Kategori Aset baharu tidak boleh sudah mempunyai ID",
+      "assetSubCategoryIdExists": "Subkategori Aset baharu tidak boleh sudah mempunyai ID"
     },
     "tooltips": {
       "setupVisible": false,

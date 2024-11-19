@@ -988,7 +988,16 @@
         "assetFloorNotFound": "Piso de activos no encontrado",
         "assetRoomNotFound": "Sala de activos no encontrada",
         "assetCustodianNotFound": "Custodio de activos no encontrado",
-        "assetSiteNotFound": "Sitio de activos no encontrado"
+        "assetSiteNotFound": "Sitio de activos no encontrado",
+        "assetCategoryNotFound": "Categoría de activos no encontrada",
+        "assetSubCategoryNotFound": "Subcategoría de activos no encontrada",
+        "assetCategoryExists": "La categoría de activos ya existe",
+        "assetCategorySystemGenerated": "Las categorías de activos generadas por el sistema no se pueden eliminar",
+        "assetCategoryCannotDeleteByAssetSubCategory": "No se puede eliminar: La categoría de activos se utiliza en una o más subcategorías de activos",
+        "assetSubCategoryExists": "La subcategoría de activos ya existe",
+        "assetSubCategorySystemGenerated": "Las subcategorías de activos generadas por el sistema no se pueden eliminar",
+        "assetCategoryIdExists": "Una nueva categoría de activos no puede tener ya un ID",
+        "assetSubCategoryIdExists": "Una nueva subcategoría de activos no puede tener ya un ID"
       },
       "tooltips": {
         "setupVisible": false,

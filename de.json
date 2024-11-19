@@ -988,7 +988,16 @@
         "assetFloorNotFound": "Anlagenebene nicht gefunden",
         "assetRoomNotFound": "Anlagenraum nicht gefunden",
         "assetCustodianNotFound": "Anlagenverwalter nicht gefunden",
-        "assetSiteNotFound": "Anlagenstandort nicht gefunden"
+        "assetSiteNotFound": "Anlagenstandort nicht gefunden",
+        "assetCategoryNotFound": "Asset-Kategorie nicht gefunden",
+        "assetSubCategoryNotFound": "Asset-Unterkategorie nicht gefunden",
+        "assetCategoryExists": "Asset-Kategorie existiert bereits",
+        "assetCategorySystemGenerated": "Systemgenerierte Asset-Kategorien dürfen nicht gelöscht werden",
+        "assetCategoryCannotDeleteByAssetSubCategory": "Löschen nicht möglich: Asset-Kategorie wird in einer oder mehreren Asset-Unterkategorien verwendet",
+        "assetSubCategoryExists": "Asset-Unterkategorie existiert bereits",
+        "assetSubCategorySystemGenerated": "Systemgenerierte Asset-Unterkategorien dürfen nicht gelöscht werden",
+        "assetCategoryIdExists": "Eine neue Asset-Kategorie darf keine ID haben",
+        "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben"        
       },
       "tooltips": {
         "setupVisible": false,

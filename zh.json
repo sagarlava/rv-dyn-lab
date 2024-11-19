@@ -4293,13 +4293,6 @@
         "setupEdit": false,
         "setupVisible": false
       },
-      "taskLookup": {
-        "original": "Task Lookup",
-        "singular": "任务查询",
-        "plural": "",
-        "setupEdit": false,
-        "setupVisible": false
-      },
       "allUsers": {
         "original": "All Users",
         "singular": "所有用户",
@@ -4519,6 +4512,13 @@
       "requestAssistance": {
         "original": "Request Assistance",
         "singular": "请求帮助",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "taskLookup": {
+        "original": "Task Lookup",
+        "singular": "任务查询",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false

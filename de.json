@@ -1925,6 +1925,7 @@
       "preventativeFrequencyIdExists": "Eine neue präventive Frequenz kann nicht bereits eine ID haben",
       "preventativeMaintenanceFrequencyIdExists": "Eine neue präventive Wartungshäufigkeit kann nicht bereits eine ID haben",
       "preventativeMaintenanceTemplateIdExists": "Eine neue präventive Wartungsvorlage kann nicht bereits eine ID haben",
+      "preventativeMaintenanceTemplateHasPreventiveMaintenanceFrequency": "Daten zur präventiven Wartungshäufigkeit sind im System für die präventive Wartungsvorlage vorhanden",
       "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Daten zur präventiven Wartungshäufigkeit sind im System für die präventive Wartungsvorlage vorhanden"
     },
     "tooltips": {
@@ -2194,45 +2195,45 @@
         "plural": "Vertragsnummern",
         "setupEdit": false,
         "setupVisible": false
-      },
-      "validationFE": {},
-      "validationBE": {
-        "contractNotFound": "Vertrag nicht gefunden",
-        "contractHasMaintenance": "Wartungsdaten existieren im System für den Vertrag",
-        "contractCustomerNotFound": "Vertragskunde nicht gefunden",
-        "contractStatusNotFound": "Ungültiger Vertragsstatus",
-        "contractAssetsNotFound": "Vertragsvermögen nicht gefunden",
-        "contractTableSetupNotFound": "Vertragstabelle nicht gefunden, bitte wenden Sie sich an den Support",
-        "contractContactNotFound": "Vertragskontakt nicht gefunden",
-        "contractIdNotFound": "ID nicht gefunden",
-        "contractIdExists": "Ein neuer Vertrag kann bereits keine ID haben",
-        "contractPriceBookNotFound": "Vertragspreisbuch nicht gefunden",
-        "contractPriceBookIdNotFound": "Vertragspreisbuch-ID nicht gefunden",
-        "contractPriceBookUpdateFailed": "Fehler beim Aktualisieren des Vertragspreisbuchs"
-      },
-      "tooltips": {
-        "setupVisible": false,
-        "setupEdit": false,
-        "contractLookup": {
-          "original": "Contracts Lookup",
-          "singular": "Vertragsübersicht",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        }
-      },
-      "messages": {
-        "pleaseSelectAccessoryName": "Bitte wählen Sie einen Zubehörnamen aus",
-        "selectCustomerFirst": "Wählen Sie zuerst einen Kunden aus",
-        "contractItems": "Vertragsartikel",
-        "contractItem": "Vertragsartikel",
-        "errorFetchingAllContractItems": "Fehler beim Abrufen aller Vertragsartikel.",
-        "errorFetchingContractData": "Fehler beim Abrufen der Vertragsdaten",
-        "selectedQtyGreater": "Die ausgewählte 'Menge' ist größer als die 'verfügbare Menge'",
-        "removeItems": "Entfernen Sie die Artikel, die zurückgegeben werden müssen",
-        "pleaseSelectAssetName": "Bitte wählen Sie einen Assetnamen aus",
-        "qtyGreaterThanZero": "Die Menge sollte größer als 0 sein"
       }
+    },
+    "validationFE": {},
+    "validationBE": {
+      "contractNotFound": "Vertrag nicht gefunden",
+      "contractHasMaintenance": "Wartungsdaten existieren im System für den Vertrag",
+      "contractCustomerNotFound": "Vertragskunde nicht gefunden",
+      "contractStatusNotFound": "Ungültiger Vertragsstatus",
+      "contractAssetsNotFound": "Vertragsvermögen nicht gefunden",
+      "contractTableSetupNotFound": "Vertragstabelle nicht gefunden, bitte wenden Sie sich an den Support",
+      "contractContactNotFound": "Vertragskontakt nicht gefunden",
+      "contractIdNotFound": "ID nicht gefunden",
+      "contractIdExists": "Ein neuer Vertrag kann bereits keine ID haben",
+      "contractPriceBookNotFound": "Vertragspreisbuch nicht gefunden",
+      "contractPriceBookIdNotFound": "Vertragspreisbuch-ID nicht gefunden",
+      "contractPriceBookUpdateFailed": "Fehler beim Aktualisieren des Vertragspreisbuchs"
+    },
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "contractLookup": {
+        "original": "Contracts Lookup",
+        "singular": "Vertragsübersicht",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "pleaseSelectAccessoryName": "Bitte wählen Sie einen Zubehörnamen aus",
+      "selectCustomerFirst": "Wählen Sie zuerst einen Kunden aus",
+      "contractItems": "Vertragsartikel",
+      "contractItem": "Vertragsartikel",
+      "errorFetchingAllContractItems": "Fehler beim Abrufen aller Vertragsartikel.",
+      "errorFetchingContractData": "Fehler beim Abrufen der Vertragsdaten",
+      "selectedQtyGreater": "Die ausgewählte 'Menge' ist größer als die 'verfügbare Menge'",
+      "removeItems": "Entfernen Sie die Artikel, die zurückgegeben werden müssen",
+      "pleaseSelectAssetName": "Bitte wählen Sie einen Assetnamen aus",
+      "qtyGreaterThanZero": "Die Menge sollte größer als 0 sein"
     }
   },
   "contractMaintenance": {

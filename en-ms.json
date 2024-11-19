@@ -1925,6 +1925,7 @@
       "preventativeFrequencyIdExists": "A new Preventative Frequency cannot already have an ID",
       "preventativeMaintenanceFrequencyIdExists": "A new Preventative Maintenance Frequency cannot already have an ID",
       "preventativeMaintenanceTemplateIdExists": "A new Preventative Maintenance Template cannot already have an ID",
+      "preventativeMaintenanceTemplateHasPreventiveMaintenanceFrequency": "Preventative Maintenance Frequency Data exists in the system for the Preventative Maintenance Template",
       "preventativeMaintenanceTemplateHasPreventativeMaintenanceFrequency": "Preventative Maintenance Frequency Data exists in the system for the Preventative Maintenance Template"
     },
     "tooltips": {

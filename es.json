@@ -21366,7 +21366,10 @@
       "setupUserShiftStartTimeNotFound": "Hora de inicio no encontrada para el turno",
       "setupUserShiftEndTimeNotFound": "Hora de finalización no encontrada para el turno",
       "setupUserShiftNotFound": "Turno de usuario no encontrado",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "No se puede cambiar la ubicación de la zona cuando hay un inventario"
+      "setupZoneHasInventoryNotAllowedChangeLocation": "No se puede cambiar la ubicación de la zona cuando hay un inventario",
+      "setupWorkflowDeleteAlertInUse":"La notificación se utiliza en uno o más flujos de trabajo",
+       "setupWorkflowIdValuesRequired":"Se requiere el valor del ID del flujo de trabajo",
+       "setupWorkflowLinkedToNotifications":"El flujo de trabajo tiene notificaciones asignadas. Por favor, elimínelas primero"
     },
     "labelBE": {
       "profileTableColumnSetup": {

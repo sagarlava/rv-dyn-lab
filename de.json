@@ -21366,7 +21366,10 @@
       "setupUserShiftStartTimeNotFound": "Startzeit für den Schichtwechsel nicht gefunden.",
       "setupUserShiftEndTimeNotFound": "Endzeit für den Schichtwechsel nicht gefunden.",
       "setupUserShiftNotFound": "Benutzerschicht nicht gefunden.",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "Standort der Zone kann bei bestehendem Inventar nicht geändert werden."
+      "setupZoneHasInventoryNotAllowedChangeLocation": "Standort der Zone kann bei bestehendem Inventar nicht geändert werden.",
+      "setupWorkflowDeleteAlertInUse":"Benachrichtigung wird in einem oder mehreren Workflows verwendet",
+       "setupWorkflowIdValuesRequired":"Workflow-ID-Wert ist erforderlich",
+       "setupWorkflowLinkedToNotifications":"Dem Workflow sind Benachrichtigungen zugewiesen. Bitte entfernen Sie diese zuerst"
     },
     "labelBE": {
       "profileTableColumnSetup": {

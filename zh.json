@@ -21366,7 +21366,10 @@
       "setupUserShiftStartTimeNotFound": "未找到班次开始时间",
       "setupUserShiftEndTimeNotFound": "未找到班次结束时间",
       "setupUserShiftNotFound": "未找到用户班次",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "有库存时无法更改区域位置"
+      "setupZoneHasInventoryNotAllowedChangeLocation": "有库存时无法更改区域位置",
+      "setupWorkflowDeleteAlertInUse":"通知已在一个或多个工作流中使用",
+       "setupWorkflowIdValuesRequired":"工作流ID值是必需的",
+       "setupWorkflowLinkedToNotifications":"工作流已分配通知。请先删除它们"
     },
     "labelBE": {
       "profileTableColumnSetup": {

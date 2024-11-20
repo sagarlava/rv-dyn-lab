@@ -21366,7 +21366,10 @@
       "setupUserShiftStartTimeNotFound": "Masa mula tidak dijumpai untuk syif",
       "setupUserShiftEndTimeNotFound": "Masa tamat tidak dijumpai untuk syif",
       "setupUserShiftNotFound": "Syif Pengguna tidak dijumpai",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "Tidak boleh menukar lokasi zon apabila mempunyai inventori"
+      "setupZoneHasInventoryNotAllowedChangeLocation": "Tidak boleh menukar lokasi zon apabila mempunyai inventori",
+      "setupWorkflowDeleteAlertInUse":"Notifikasi digunakan dalam satu atau lebih Aliran Kerja",
+       "setupWorkflowIdValuesRequired":"Nilai ID Aliran Kerja diperlukan",
+       "setupWorkflowLinkedToNotifications":"Aliran Kerja mempunyai Notifikasi yang ditetapkan. Sila padamkannya terlebih dahulu"
     },
     "labelBE": {
       "profileTableColumnSetup": {

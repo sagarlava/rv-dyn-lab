@@ -994,6 +994,8 @@
         "assetCategoryExists": "Asset-Kategorie existiert bereits",
         "assetCategorySystemGenerated": "Systemgenerierte Asset-Kategorien dürfen nicht gelöscht werden",
         "assetCategoryCannotDeleteByAssetSubCategory": "Löschen nicht möglich: Asset-Kategorie wird in einer oder mehreren Asset-Unterkategorien verwendet",
+        "assetCategoryCannotDeleteByAssets": "Löschen nicht möglich: Asset-Kategorie wird in einem oder mehreren Assets verwendet",
+        "assetSubCategoryCannotDeleteByAssets": "Löschen nicht möglich: Asset-Unterkategorie wird in einem oder mehreren Assets verwendet",
         "assetSubCategoryExists": "Asset-Unterkategorie existiert bereits",
         "assetSubCategorySystemGenerated": "Systemgenerierte Asset-Unterkategorien dürfen nicht gelöscht werden",
         "assetCategoryIdExists": "Eine neue Asset-Kategorie darf keine ID haben",

@@ -994,6 +994,8 @@
         "assetCategoryExists": "La categoría de activos ya existe",
         "assetCategorySystemGenerated": "Las categorías de activos generadas por el sistema no se pueden eliminar",
         "assetCategoryCannotDeleteByAssetSubCategory": "No se puede eliminar: La categoría de activos se utiliza en una o más subcategorías de activos",
+        "assetCategoryCannotDeleteByAssets": "No se puede eliminar: La categoría de activos se utiliza en uno o más activos",
+        "assetSubCategoryCannotDeleteByAssets": "No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos",
         "assetSubCategoryExists": "La subcategoría de activos ya existe",
         "assetSubCategorySystemGenerated": "Las subcategorías de activos generadas por el sistema no se pueden eliminar",
         "assetCategoryIdExists": "Una nueva categoría de activos no puede tener ya un ID",

@@ -994,6 +994,8 @@
       "assetCategoryExists": "Asset Category already exists",
       "assetCategorySystemGenerated": "System generated Asset Category are not allowed to be deleted",
       "assetCategoryCannotDeleteByAssetSubCategory": "Unable to delete: Asset Category is used in one or more Asset Sub Category",
+      "assetCategoryCannotDeleteByAssets": "Unable to delete: Asset Category is used in one or more Assets",
+      "assetSubCategoryCannotDeleteByAssets": "Unable to delete: Asset Sub Category is used in one or more Assets",
       "assetSubCategoryExists": "Asset Sub Category already exists",
       "assetSubCategorySystemGenerated": "System generated Asset Sub Category are not allowed to be deleted",
       "assetCategoryIdExists":"A new Asset Category cannot already have an ID",

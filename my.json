@@ -994,6 +994,8 @@
       "assetCategoryExists": "Kategori aset sudah wujud",
       "assetCategorySystemGenerated": "Kategori Aset yang dihasilkan oleh sistem tidak dibenarkan untuk dipadamkan",
       "assetCategoryCannotDeleteByAssetSubCategory": "Tidak dapat memadam: Kategori aset digunakan dalam satu atau lebih Subkategori aset",
+      "assetCategoryCannotDeleteByAssets": "Tidak dapat memadam: Kategori aset digunakan dalam satu atau lebih Aset",
+      "assetSubCategoryCannotDeleteByAssets": "Tidak dapat memadam: Subkategori aset digunakan dalam satu atau lebih Aset",
       "assetSubCategoryExists": "Subkategori Aset sudah wujud",
       "assetSubCategorySystemGenerated": "Subkategori Aset yang dihasilkan oleh sistem tidak dibenarkan untuk dipadamkan",
       "assetCategoryIdExists": "Kategori Aset baharu tidak boleh sudah mempunyai ID",
@@ -20755,7 +20757,7 @@
         "selectAttribute": "Pilih Atribut",
         "selectOperator": "Pilih Operator",
         "noConditionsAvailable": "Klik butang 'Tambah/Edit Syarat' untuk menetapkan peraturan bagi memulakan aliran kerja ini.",
-        "noWorkflowActionsAvailable": "Tiada tindakan ditambah lagi. Klik 'Tambah Notifikasi' untuk membuat satu.",
+        "noWorkflowActionsAvailable": "Tiada tindakan ditambah lagi. Klik 'Tambah Notifikasi E-mel' atau 'Tambah Notifikasi Aplikasi' untuk mencipta satu.",
         "addExistingNotification": "Pilih Notifikasi",
         "pleaseSelectOneTriggerEvent": "Sila pilih sekurang-kurangnya satu acara pencetus",
         "ascending": "Menaik",
@@ -21366,7 +21368,10 @@
       "setupUserShiftStartTimeNotFound": "Masa mula tidak dijumpai untuk syif",
       "setupUserShiftEndTimeNotFound": "Masa tamat tidak dijumpai untuk syif",
       "setupUserShiftNotFound": "Syif Pengguna tidak dijumpai",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "Tidak boleh menukar lokasi zon apabila mempunyai inventori"
+      "setupZoneHasInventoryNotAllowedChangeLocation": "Tidak boleh menukar lokasi zon apabila mempunyai inventori",
+      "setupWorkflowDeleteAlertInUse":"Notifikasi digunakan dalam satu atau lebih Aliran Kerja",
+       "setupWorkflowIdValuesRequired":"Nilai ID Aliran Kerja diperlukan",
+       "setupWorkflowLinkedToNotifications":"Aliran Kerja mempunyai Notifikasi yang ditetapkan. Sila padamkannya terlebih dahulu"
     },
     "labelBE": {
       "profileTableColumnSetup": {

@@ -994,6 +994,8 @@
       "assetCategoryExists": "资产类别已存在",
       "assetCategorySystemGenerated": "系统生成的资产类别不允许删除",
       "assetCategoryCannotDeleteByAssetSubCategory": "无法删除：资产类别在一个或多个资产子类别中使用",
+      "assetCategoryCannotDeleteByAssets": "无法删除：资产类别在一个或多个资产中使用",
+      "assetSubCategoryCannotDeleteByAssets": "无法删除：资产子类别在一个或多个资产中使用",
       "assetSubCategoryExists": "资产子类别已存在",
       "assetSubCategorySystemGenerated": "系统生成的资产子类别不允许删除",
       "assetCategoryIdExists": "新资产类别不能已经有ID",
@@ -20755,7 +20757,7 @@
         "selectAttribute": "选择属性",
         "selectOperator": "选择运算符",
         "noConditionsAvailable": "点击 '添加/编辑条件' 按钮以设置启动此工作流的规则。",
-        "noWorkflowActionsAvailable": "尚未添加任何操作。点击 '添加通知' 来创建一个。",
+        "noWorkflowActionsAvailable": "尚未添加任何操作。单击“添加电子邮件通知”或“添加应用程序通知”以创建一个。",
         "addExistingNotification": "选择通知",
         "pleaseSelectOneTriggerEvent": "请至少选择一个触发事件",
         "ascending": "升序",
@@ -21366,7 +21368,10 @@
       "setupUserShiftStartTimeNotFound": "未找到班次开始时间",
       "setupUserShiftEndTimeNotFound": "未找到班次结束时间",
       "setupUserShiftNotFound": "未找到用户班次",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "有库存时无法更改区域位置"
+      "setupZoneHasInventoryNotAllowedChangeLocation": "有库存时无法更改区域位置",
+      "setupWorkflowDeleteAlertInUse":"通知已在一个或多个工作流中使用",
+       "setupWorkflowIdValuesRequired":"工作流ID值是必需的",
+       "setupWorkflowLinkedToNotifications":"工作流已分配通知。请先删除它们"
     },
     "labelBE": {
       "profileTableColumnSetup": {

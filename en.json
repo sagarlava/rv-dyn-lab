@@ -994,6 +994,8 @@
       "assetCategoryExists": "Asset Category already exists",
       "assetCategorySystemGenerated": "System generated Asset Category are not allowed to be deleted",
       "assetCategoryCannotDeleteByAssetSubCategory": "Unable to delete: Asset Category is used in one or more Asset Sub Category",
+      "assetCategoryCannotDeleteByAssets": "Unable to delete: Asset Category is used in one or more Assets",
+      "assetSubCategoryCannotDeleteByAssets": "Unable to delete: Asset Sub Category is used in one or more Assets",
       "assetSubCategoryExists": "Asset Sub Category already exists",
       "assetSubCategorySystemGenerated": "System generated Asset Sub Category are not allowed to be deleted",
       "assetCategoryIdExists":"A new Asset Category cannot already have an ID",
@@ -20755,7 +20757,7 @@
         "selectAttribute": "Select Attribute",
         "selectOperator": "Select Operator",
         "noConditionsAvailable":"Click the 'Add/Edit Condition' button to set the rules for starting this workflow.",
-        "noWorkflowActionsAvailable":"No actions added yet. Click 'Add Notification' to create one.",
+        "noWorkflowActionsAvailable":"No actions added yet. Click 'Add Email Notification' or 'Add App Notification' to create one.",
         "addExistingNotification":"Select Notification",
         "pleaseSelectOneTriggerEvent":"Please select at least one trigger event",
         "ascending":"Ascending",
@@ -21366,7 +21368,10 @@
       "setupUserShiftStartTimeNotFound": "Start time not found for the shift",
       "setupUserShiftEndTimeNotFound": "End time not found for the shift",
       "setupUserShiftNotFound": "User Shift not found",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "Cannot change the zone location when having an inventory"
+      "setupZoneHasInventoryNotAllowedChangeLocation": "Cannot change the zone location when having an inventory",
+      "setupWorkflowDeleteAlertInUse":"Notification is used in one or more Workflows",
+      "setupWorkflowIdValuesRequired":"Workflow id value required",
+      "setupWorkflowLinkedToNotifications":"Workflow has Notifications assigned to it. Please remove them first"
     },
     "labelBE": {
         "profileTableColumnSetup": {

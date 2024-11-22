@@ -5740,7 +5740,8 @@
       "ticketHasTicketType": "Data Jenis Tiket wujud dalam sistem untuk Tiket tersebut",
       "ticketTypeSystemGenerated": "Jenis Tiket yang dijana oleh sistem tidak dibenarkan untuk dipadam",
       "ticketTypeIdExists": "Jenis Tiket baru tidak boleh mempunyai ID sedia ada",
-      "slaTicketIdExists": "Tiket SLA baru tidak boleh sudah mempunyai ID"
+      "slaTicketIdExists": "Tiket SLA baru tidak boleh sudah mempunyai ID",
+      "ticketDuplciateTicketCannotBeSameAsTicket": "Tiket duplikasi tidak boleh sama seperti tiket asal"
     },
     "tooltips": {
       "setupVisible": true,

@@ -955,6 +955,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "category": {
+          "original": "Category",
+          "singular": "类别",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      },
+      "subCategory": {
+          "original": "Sub Category",
+          "singular": "子类别",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
       }
     },
     "validationFE": {},

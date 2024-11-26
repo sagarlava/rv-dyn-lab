@@ -21386,7 +21386,8 @@
       "setupZoneHasInventoryNotAllowedChangeLocation": "No se puede cambiar la ubicación de la zona cuando hay un inventario",
       "setupWorkflowDeleteAlertInUse":"La notificación se utiliza en uno o más flujos de trabajo",
        "setupWorkflowIdValuesRequired":"Se requiere el valor del ID del flujo de trabajo",
-       "setupWorkflowLinkedToNotifications":"El flujo de trabajo tiene notificaciones asignadas. Por favor, elimínelas primero"
+       "setupWorkflowLinkedToNotifications":"El flujo de trabajo tiene notificaciones asignadas. Por favor, elimínelas primero",
+       "setupWorkflowMaxAllowedCount": "Se ha alcanzado el máximo de flujos de trabajo activos"
     },
     "labelBE": {
       "profileTableColumnSetup": {

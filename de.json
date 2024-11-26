@@ -21370,7 +21370,8 @@
       "setupZoneHasInventoryNotAllowedChangeLocation": "Standort der Zone kann bei bestehendem Inventar nicht geändert werden.",
       "setupWorkflowDeleteAlertInUse":"Benachrichtigung wird in einem oder mehreren Workflows verwendet",
        "setupWorkflowIdValuesRequired":"Workflow-ID-Wert ist erforderlich",
-       "setupWorkflowLinkedToNotifications":"Dem Workflow sind Benachrichtigungen zugewiesen. Bitte entfernen Sie diese zuerst"
+       "setupWorkflowLinkedToNotifications":"Dem Workflow sind Benachrichtigungen zugewiesen. Bitte entfernen Sie diese zuerst",
+       "setupWorkflowMaxAllowedCount": "Die maximale Anzahl aktiver Workflows wurde erreicht"
     },
     "labelBE": {
       "profileTableColumnSetup": {

@@ -955,6 +955,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "category": {
+          "original": "Category",
+          "singular": "Kategori",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      },
+      "subCategory": {
+          "original": "Sub Category",
+          "singular": "Sub Kategori",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
       }
     },
     "validationFE": {},

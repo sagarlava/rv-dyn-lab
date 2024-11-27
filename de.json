@@ -955,6 +955,20 @@
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "category": {
+            "original": "Category",
+            "singular": "Kategorie",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "subCategory": {
+            "original": "Sub Category",
+            "singular": "Unterkategorie",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
         }
       },
       "validationFE": {},
@@ -5740,7 +5754,8 @@
       "ticketHasTicketType": "Tickettypdaten existieren im System für das Ticket",
       "ticketTypeSystemGenerated": "Systemgenerierte Tickettypen dürfen nicht gelöscht werden",
       "ticketTypeIdExists": "Ein neuer Tickettyp kann bereits keine ID haben",
-      "slaTicketIdExists": "Ein neues SLA-Ticket kann bereits keine ID haben"
+      "slaTicketIdExists": "Ein neues SLA-Ticket kann bereits keine ID haben",
+      "ticketDuplicateTicketCannotBeSameAsTicket": "Das doppelte Ticket kann nicht mit dem Originalticket identisch sein"
     },
     "tooltips": {
       "setupVisible": true,
@@ -20749,9 +20764,9 @@
         "emailNotificationsDesc": "Erstellen Sie benutzerdefinierte E-Mail-Vorlagen mit Feldwerten, um FieldEx-Benutzer oder externe Kontakte zu benachrichtigen.",
         "whetherRemindersCustomer": "Egal ob Erinnerungen, Kunden-Updates oder Team-Benachrichtigungen – Workflows machen die Verbindung einfach und effektiv.",
         "useThisPageToCreateNewWorkflows": "Verwenden Sie diese Seite, um neue Workflows zu erstellen oder die bereits eingerichteten zu verwalten.", 
-        "triggerWhenNewRecordCreated": "Wenn ein Datensatz erstellt wird: Der Workflow wird ausgelöst, wenn ein neuer Datensatz hinzugefügt wird und die festgelegten Bedingungen erfüllt sind.",
-        "triggerWhenUpdatedFirstTime": "Wenn ein Datensatz zum ersten Mal geändert wird: Der Workflow wird beim ersten Mal ausgelöst, wenn Änderungen am Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",
-        "triggerWhenRecordUpdatedEverytime": "Jedes Mal, wenn ein Datensatz aktualisiert wird: Der Workflow wird jedes Mal ausgelöst, wenn Änderungen am Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",
+        "triggerWhenNewRecordCreated": "Der Workflow wird ausgelöst, wenn ein neuer Datensatz hinzugefügt wird und die festgelegten Bedingungen erfüllt sind.",
+        "triggerWhenUpdatedFirstTime": "Der Workflow wird das erste Mal ausgelöst, wenn Änderungen an dem Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",
+        "triggerWhenRecordUpdatedEverytime": "Der Workflow wird jedes Mal ausgelöst, wenn Änderungen an dem Datensatz vorgenommen werden und die angegebenen Bedingungen erfüllt sind.",
         "triggerWhenRecordDeleted": "Diese Option löst den Workflow aus, wenn ein Datensatz gelöscht wird.",
         "selectStatus": "Status auswählen",
         "selectAttribute": "Attribut auswählen",
@@ -21371,7 +21386,8 @@
       "setupZoneHasInventoryNotAllowedChangeLocation": "Standort der Zone kann bei bestehendem Inventar nicht geändert werden.",
       "setupWorkflowDeleteAlertInUse":"Benachrichtigung wird in einem oder mehreren Workflows verwendet",
        "setupWorkflowIdValuesRequired":"Workflow-ID-Wert ist erforderlich",
-       "setupWorkflowLinkedToNotifications":"Dem Workflow sind Benachrichtigungen zugewiesen. Bitte entfernen Sie diese zuerst"
+       "setupWorkflowLinkedToNotifications":"Dem Workflow sind Benachrichtigungen zugewiesen. Bitte entfernen Sie diese zuerst",
+       "setupWorkflowMaxAllowedCount": "Die maximale Anzahl aktiver Workflows wurde erreicht"
     },
     "labelBE": {
       "profileTableColumnSetup": {

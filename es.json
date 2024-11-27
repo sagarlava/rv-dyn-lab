@@ -955,6 +955,20 @@
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "category": {
+            "original": "Category",
+            "singular": "Categoría",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "subCategory": {
+            "original": "Sub Category",
+            "singular": "Subcategoría",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
         }
       },
       "validationFE": {},
@@ -5740,7 +5754,8 @@
       "ticketHasTicketType": "Los datos de Tipo de Ticket existen en el sistema para el Ticket",
       "ticketTypeSystemGenerated": "Los Tipos de Ticket generados por el sistema no pueden ser eliminados",
       "ticketTypeIdExists": "Un nuevo Tipo de Ticket no puede ya tener un ID",
-      "slaTicketIdExists": "Un nuevo SlaTicket no puede ya tener un ID"
+      "slaTicketIdExists": "Un nuevo SlaTicket no puede ya tener un ID",
+      "ticketDuplicateTicketCannotBeSameAsTicket": "El ticket duplicado no puede ser el mismo que el ticket original"
     },
     "tooltips": {
       "setupVisible": true,
@@ -20749,9 +20764,9 @@
           "emailNotificationsDesc": "Diseñe plantillas de correo electrónico personalizadas con valores de campo para notificar a los usuarios de FieldEx o contactos externos.",
           "whetherRemindersCustomer": "Ya sean recordatorios, actualizaciones para clientes o alertas para el equipo, los flujos de trabajo facilitan mantenerse conectado de manera simple y efectiva.",
           "useThisPageToCreateNewWorkflows": "Utiliza esta página para crear nuevos flujos de trabajo o gestionar los que ya has configurado.",
-          "triggerWhenNewRecordCreated": "Cuando se crea un registro: El flujo de trabajo se activará cuando se añada un nuevo registro y se cumplan las condiciones establecidas.",
-          "triggerWhenUpdatedFirstTime": "Cuando un registro cambia por primera vez: El flujo de trabajo se activa la primera vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
-          "triggerWhenRecordUpdatedEverytime": "Cada vez que se actualiza un registro: El flujo de trabajo se activa cada vez que se realizan cambios en el registro y se cumplen las condiciones especificadas.",
+          "triggerWhenNewRecordCreated": "El flujo de trabajo se activará cuando se agregue un nuevo registro y se cumplan las condiciones establecidas.",
+          "triggerWhenUpdatedFirstTime": "El flujo de trabajo se activará la primera vez que se realicen cambios en el registro y se cumplan las condiciones especificadas.",
+          "triggerWhenRecordUpdatedEverytime": "El flujo de trabajo se activará cada vez que se realicen cambios en el registro y se cumplan las condiciones especificadas.",
           "triggerWhenRecordDeleted": "Esta opción activará el flujo de trabajo cada vez que se elimine un registro.",
           "selectStatus": "Seleccionar estado",
           "selectAttribute": "Seleccionar atributo",
@@ -21371,7 +21386,8 @@
       "setupZoneHasInventoryNotAllowedChangeLocation": "No se puede cambiar la ubicación de la zona cuando hay un inventario",
       "setupWorkflowDeleteAlertInUse":"La notificación se utiliza en uno o más flujos de trabajo",
        "setupWorkflowIdValuesRequired":"Se requiere el valor del ID del flujo de trabajo",
-       "setupWorkflowLinkedToNotifications":"El flujo de trabajo tiene notificaciones asignadas. Por favor, elimínelas primero"
+       "setupWorkflowLinkedToNotifications":"El flujo de trabajo tiene notificaciones asignadas. Por favor, elimínelas primero",
+       "setupWorkflowMaxAllowedCount": "Se ha alcanzado el máximo de flujos de trabajo activos"
     },
     "labelBE": {
       "profileTableColumnSetup": {

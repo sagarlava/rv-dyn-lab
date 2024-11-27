@@ -955,6 +955,20 @@
           "plural": "",
           "setupEdit": false,
           "setupVisible": false
+        },
+        "category": {
+            "original": "Category",
+            "singular": "Category",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
+        },
+        "subCategory": {
+            "original": "Sub Category",
+            "singular": "Sub Category",
+            "plural": "",
+            "setupEdit": true,
+            "setupVisible": true
         }
       },
     "validationFE": {},
@@ -5740,7 +5754,8 @@
       "ticketHasTicketType": "Ticket Type Data exists in the system for the Ticket",
       "ticketTypeSystemGenerated": "System generated Ticket Types are not allowed to be deleted",
       "ticketTypeIdExists": "A new Ticket Type cannot already have an ID",
-      "slaTicketIdExists": "A new SlaTicket cannot already have an ID"
+      "slaTicketIdExists": "A new SlaTicket cannot already have an ID",
+      "ticketDuplicateTicketCannotBeSameAsTicket": "Duplicate ticket can not be same as original ticket"
     },
     "tooltips": {
       "setupVisible": true,
@@ -20746,12 +20761,12 @@
         "inAppNotifications":"In-App Notifications:",
         "inAppNotificationsDesc":"Write custom messsages to notify FieldEx users directly in the web or mobile app when conditions are met.",
         "emailNotifications":"Email Notifications:",
-        "emailNotificationsDesc":"Desgin custom email templates with field values to notify FieldEx users or external contacts.",
+        "emailNotificationsDesc":"Design custom email templates with field values to notify FieldEx users or external contacts.",
         "whetherRemindersCustomer":"Whether it's reminders, customer updates, or team alerts, workflows make staying connected simple and effective.",
         "useThisPageToCreateNewWorkflows": "Use this page to create new workflows or manage the ones you've already set up.",
-        "triggerWhenNewRecordCreated":"When a record is created: The workflow will trigger when a new record is added and the set conditions are met.",
-        "triggerWhenUpdatedFirstTime":"When a record is changed for the first time: The workflow triggers the first time changes are made to the record and meet the specified conditions.",
-        "triggerWhenRecordUpdatedEverytime":"Every time a record is updated: The workflow triggers every time changes are made to the record and meet the specified conditions.",
+        "triggerWhenNewRecordCreated":"The workflow will be triggered when a new record is added and the set conditions are met.",
+        "triggerWhenUpdatedFirstTime":"The workflow will be triggered the first time changes are made to the record and meet the specified conditions.",
+        "triggerWhenRecordUpdatedEverytime":"The workflow will be triggered every time changes are made to the record and meet the specified conditions.",
         "triggerWhenRecordDeleted":"This option will trigger the workflow whenever a record is deleted.",
         "selectStatus":"Select Status",
         "selectAttribute": "Select Attribute",
@@ -21371,7 +21386,8 @@
       "setupZoneHasInventoryNotAllowedChangeLocation": "Cannot change the zone location when having an inventory",
       "setupWorkflowDeleteAlertInUse":"Notification is used in one or more Workflows",
       "setupWorkflowIdValuesRequired":"Workflow id value required",
-      "setupWorkflowLinkedToNotifications":"Workflow has Notifications assigned to it. Please remove them first"
+      "setupWorkflowLinkedToNotifications":"Workflow has Notifications assigned to it. Please remove them first",
+      "setupWorkflowMaxAllowedCount": "Maximum active workflows reached"
     },
     "labelBE": {
         "profileTableColumnSetup": {

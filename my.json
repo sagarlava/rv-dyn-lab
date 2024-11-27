@@ -955,6 +955,20 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "category": {
+          "original": "Category",
+          "singular": "Kategori",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
+      },
+      "subCategory": {
+          "original": "Sub Category",
+          "singular": "Sub Kategori",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": true
       }
     },
     "validationFE": {},
@@ -5740,7 +5754,8 @@
       "ticketHasTicketType": "Data Jenis Tiket wujud dalam sistem untuk Tiket tersebut",
       "ticketTypeSystemGenerated": "Jenis Tiket yang dijana oleh sistem tidak dibenarkan untuk dipadam",
       "ticketTypeIdExists": "Jenis Tiket baru tidak boleh mempunyai ID sedia ada",
-      "slaTicketIdExists": "Tiket SLA baru tidak boleh sudah mempunyai ID"
+      "slaTicketIdExists": "Tiket SLA baru tidak boleh sudah mempunyai ID",
+      "ticketDuplicateTicketCannotBeSameAsTicket": "Tiket duplikasi tidak boleh sama seperti tiket asal"
     },
     "tooltips": {
       "setupVisible": true,
@@ -20749,9 +20764,9 @@
         "emailNotificationsDesc": "Reka templat e-mel tersuai dengan nilai medan untuk memberitahu pengguna FieldEx atau kenalan luar.",
         "whetherRemindersCustomer": "Sama ada peringatan, kemas kini pelanggan, atau amaran pasukan, aliran kerja memudahkan untuk terus berhubung dengan cara yang mudah dan berkesan.",
         "useThisPageToCreateNewWorkflows": "Gunakan halaman ini untuk membuat aliran kerja baharu atau mengurus aliran kerja yang telah anda sediakan.",
-        "triggerWhenNewRecordCreated": "Apabila rekod dicipta: Aliran kerja akan dicetuskan apabila rekod baru ditambah dan syarat yang ditetapkan dipenuhi.",
-        "triggerWhenUpdatedFirstTime": "Apabila rekod diubah untuk kali pertama: Aliran kerja dicetuskan kali pertama perubahan dibuat pada rekod dan memenuhi syarat yang ditentukan.",
-        "triggerWhenRecordUpdatedEverytime": "Setiap kali rekod dikemas kini: Aliran kerja dicetuskan setiap kali perubahan dibuat pada rekod dan memenuhi syarat yang ditentukan.",
+        "triggerWhenNewRecordCreated": "Aliran kerja akan dicetuskan apabila rekod baru ditambah dan syarat yang ditetapkan dipenuhi.",
+        "triggerWhenUpdatedFirstTime": "Aliran kerja akan dicetuskan kali pertama perubahan dibuat pada rekod dan memenuhi syarat yang ditetapkan.",
+        "triggerWhenRecordUpdatedEverytime": "Aliran kerja akan dicetuskan setiap kali perubahan dibuat pada rekod dan memenuhi syarat yang ditetapkan.",
         "triggerWhenRecordDeleted": "Pilihan ini akan mencetuskan aliran kerja setiap kali rekod dipadamkan.",
         "selectStatus": "Pilih Status",
         "selectAttribute": "Pilih Atribut",
@@ -21371,7 +21386,8 @@
       "setupZoneHasInventoryNotAllowedChangeLocation": "Tidak boleh menukar lokasi zon apabila mempunyai inventori",
       "setupWorkflowDeleteAlertInUse":"Notifikasi digunakan dalam satu atau lebih Aliran Kerja",
        "setupWorkflowIdValuesRequired":"Nilai ID Aliran Kerja diperlukan",
-       "setupWorkflowLinkedToNotifications":"Aliran Kerja mempunyai Notifikasi yang ditetapkan. Sila padamkannya terlebih dahulu"
+       "setupWorkflowLinkedToNotifications":"Aliran Kerja mempunyai Notifikasi yang ditetapkan. Sila padamkannya terlebih dahulu",
+       "setupWorkflowMaxAllowedCount":"Jumlah maksimum Aliran Kerja aktif telah dicapai"
     },
     "labelBE": {
       "profileTableColumnSetup": {

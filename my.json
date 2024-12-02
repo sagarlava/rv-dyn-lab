@@ -2677,6 +2677,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "jobOrderType": {
+        "original": "Job Order Type",
+        "singular": "Jenis Pesanan Kerja",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "validationFE": {},

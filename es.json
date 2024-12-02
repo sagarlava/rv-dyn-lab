@@ -18735,20 +18735,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "chooseTextOrNumber": {
-          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
-          "singular": "Esta opción establece el formato de los campos de respuesta en la sección de Respuestas. Elija 'Texto' para respuestas en palabras o 'Número' para respuestas de rango numérico.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "enterRangeOfNumbers": {
-          "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
-          "singular": "Ingrese el rango de números que actúan como umbral en los campos De y A. Si los valores están dentro de este rango, se activará la plantilla de orden de trabajo seleccionada. Tenga en cuenta que el valor 'A' debe ser igual o mayor que el valor 'De'.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
         }
       },
       "validationFE": {
@@ -18961,6 +18947,20 @@
         "aJobOrderGeneratedSelectedTemplate": {
           "original": "A Job Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
           "singular": "Se generará una Orden de Trabajo y sus Tareas y Repuestos asociados a partir de la plantilla seleccionada si se envía la respuesta",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "chooseTextOrNumber": {
+          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
+          "singular": "Esta opción establece el formato de los campos de respuesta en la sección de Respuestas. Elija 'Texto' para respuestas en palabras o 'Número' para respuestas de rango numérico.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "enterRangeOfNumbers": {
+          "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
+          "singular": "Ingrese el rango de números que actúan como umbral en los campos De y A. Si los valores están dentro de este rango, se activará la plantilla de orden de trabajo seleccionada. Tenga en cuenta que el valor 'A' debe ser igual o mayor que el valor 'De'.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

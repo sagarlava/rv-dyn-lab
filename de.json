@@ -18735,20 +18735,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "chooseTextOrNumber": {
-          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
-          "singular": "Diese Auswahl legt das Format für die Antwortfelder im Abschnitt Antworten fest. Wählen Sie 'Text' für Wortantworten oder 'Nummer' für Zahlenbereich-Antworten.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "enterRangeOfNumbers": {
-          "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
-          "singular": "Geben Sie den Zahlenbereich ein, der als Schwellenwert in den Feldern Von und Bis dient. Liegen die Werte innerhalb dieses Bereichs, wird die ausgewählte Arbeitsauftrag-Vorlage ausgelöst. Beachten Sie, dass der 'Bis'-Wert gleich oder größer als der 'Von'-Wert sein muss.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
         }
       },
       "validationFE": {
@@ -18961,6 +18947,20 @@
         "aJobOrderGeneratedSelectedTemplate": {
           "original": "A Job Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
           "singular": "Ein Arbeitsauftrag sowie die zugehörigen Aufgaben und Ersatzteile werden aus der ausgewählten Vorlage generiert, wenn die Antwort eingereicht wird",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "chooseTextOrNumber": {
+          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
+          "singular": "Diese Auswahl legt das Format für die Antwortfelder im Abschnitt Antworten fest. Wählen Sie 'Text' für Wortantworten oder 'Nummer' für Zahlenbereich-Antworten.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "enterRangeOfNumbers": {
+          "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
+          "singular": "Geben Sie den Zahlenbereich ein, der als Schwellenwert in den Feldern Von und Bis dient. Liegen die Werte innerhalb dieses Bereichs, wird die ausgewählte Arbeitsauftrag-Vorlage ausgelöst. Beachten Sie, dass der 'Bis'-Wert gleich oder größer als der 'Von'-Wert sein muss.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

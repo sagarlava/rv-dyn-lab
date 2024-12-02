@@ -18735,20 +18735,6 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
-        },
-        "chooseTextOrNumber": {
-          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
-          "singular": "Pilihan ini menetapkan format untuk medan Jawapan dalam bahagian Jawapan. Pilih 'Teks' untuk jawapan perkataan atau 'Nombor' untuk jawapan julat nombor.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
-        },
-        "enterRangeOfNumbers": {
-          "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
-          "singular": "Masukkan julat nombor yang bertindak sebagai ambang dalam medan Dari dan Ke. Jika nilai berada dalam julat ini, Templat Pesanan Kerja yang dipilih akan dicetuskan. Harap maklum bahawa nilai 'Ke' mesti sama dengan atau lebih besar daripada nilai 'Dari'.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": false
         }
       },
       "validationFE": {
@@ -18961,6 +18947,20 @@
         "aJobOrderGeneratedSelectedTemplate": {
           "original": "A Job Order and it's associated Tasks and Products will be generated from the selected template if the answer is submitted",
           "singular": "Pesanan Kerja dan Tugas serta Alat Ganti yang berkaitan akan dijana daripada templat yang dipilih jika jawapan dihantar",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "chooseTextOrNumber": {
+          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
+          "singular": "Pilihan ini menetapkan format untuk medan Jawapan dalam bahagian Jawapan. Pilih 'Teks' untuk jawapan perkataan atau 'Nombor' untuk jawapan julat nombor.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "enterRangeOfNumbers": {
+          "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
+          "singular": "Masukkan julat nombor yang bertindak sebagai ambang dalam medan Dari dan Ke. Jika nilai berada dalam julat ini, Templat Pesanan Kerja yang dipilih akan dicetuskan. Harap maklum bahawa nilai 'Ke' mesti sama dengan atau lebih besar daripada nilai 'Dari'.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

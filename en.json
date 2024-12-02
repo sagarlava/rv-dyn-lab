@@ -18554,6 +18554,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec15": {
+          "original": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.",
+          "singular": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {

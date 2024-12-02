@@ -18721,6 +18721,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "chooseTextOrNumber": {
+          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
+          "singular": "此选项设置答案部分中答案字段的格式。选择“文本”以输入文字答案，或选择“数字”以输入数字范围答案。",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "validationFE": {

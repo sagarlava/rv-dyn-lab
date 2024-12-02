@@ -18721,6 +18721,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "chooseTextOrNumber": {
+          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
+          "singular": "Esta opción establece el formato de los campos de respuesta en la sección de Respuestas. Elija 'Texto' para respuestas en palabras o 'Número' para respuestas de rango numérico.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "validationFE": {

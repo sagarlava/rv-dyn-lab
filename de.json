@@ -18695,7 +18695,9 @@
           "setupVisible": false
         }
       },
-      "validationFE": {},
+      "validationFE": {
+        "fileTypeUnsupported":"Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie eine andere Datei."
+      },
       "messages": {
         "selectAssetTypes": "Vermögenswerttypen auswählen",
         "selectServiceZone": "Servicezone auswählen",

@@ -18695,7 +18695,9 @@
           "setupVisible": false
         }
       },
-      "validationFE": {},
+      "validationFE": {
+         "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。"
+      },
       "messages": {
         "selectAssetTypes": "选择资产类型",
         "selectServiceZone": "选择服务区域域",

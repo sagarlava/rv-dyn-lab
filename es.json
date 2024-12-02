@@ -18695,7 +18695,9 @@
           "setupVisible": false
         }
       },
-      "validationFE": {},
+      "validationFE": {
+        "fileTypeUnsupported":"Este tipo de archivo no es compatible. Por favor, elija un archivo diferente."
+      },
       "messages": {
         "selectAssetTypes": "Seleccionar Tipos de Activo",
         "selectServiceZone": "Seleccionar Zona de Servicio",

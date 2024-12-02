@@ -18695,7 +18695,9 @@
           "setupVisible": false
         }
       },
-      "validationFE": {},
+      "validationFE": {
+        "fileTypeUnsupported":"This file type is Unsupported. Please choose a different file."
+      },
       "messages": {
         "selectAssetTypes": "Select Asset Types",
         "selectServiceZone": "Select Service Zone",

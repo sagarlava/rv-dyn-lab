@@ -18696,7 +18696,8 @@
         }
       },
       "validationFE": {
-        "fileTypeUnsupported":"This file type is Unsupported. Please choose a different file."
+        "fileTypeUnsupported":"This file type is Unsupported. Please choose a different file.",
+        "exceedFileSizeSmall":"File size exceeds 2MB limit. Please upload a smaller file."
       },
       "messages": {
         "selectAssetTypes": "Select Asset Types",

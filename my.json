@@ -18696,7 +18696,8 @@
         }
       },
       "validationFE": {
-        "fileTypeUnsupported":"Jenis fail ini tidak disokong. Sila pilih fail yang lain."
+        "fileTypeUnsupported":"Jenis fail ini tidak disokong. Sila pilih fail yang lain.",
+        "exceedFileSizeSmall":"Saiz fail melebihi had 2MB. Sila muat naik fail yang lebih kecil."
       },
       "messages": {
         "selectAssetTypes": "Pilih Jenis Aset",

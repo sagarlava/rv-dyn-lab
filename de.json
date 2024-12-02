@@ -18696,7 +18696,8 @@
         }
       },
       "validationFE": {
-        "fileTypeUnsupported":"Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie eine andere Datei."
+        "fileTypeUnsupported":"Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie eine andere Datei.",
+        "exceedFileSizeSmall":"Die Dateigröße überschreitet das Limit von 2 MB. Bitte laden Sie eine kleinere Datei hoch."
       },
       "messages": {
         "selectAssetTypes": "Vermögenswerttypen auswählen",

@@ -24590,7 +24590,13 @@
   "priceBook": {
     "setupVisible": true,
     "setupEdit": true,
-    "label": {},
+    "label": {
+      "original": "Price Book",
+      "singular": "价格表", 
+      "plural": "价格表",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "sections": {},
     "fields": {},
     "validationFE": {},
@@ -24600,10 +24606,10 @@
       "priceBookCodeExists": "价格手册代码已经存在",
       "priceBookCannotDeleteDueToProducts": "此价格手册无法删除，因为它与一个或多个产品相关联",
       "priceBookCannotDeleteDueToCustomers": "此价格手册无法删除，因为它与一个或多个客户相关联",
-      "priceBookCannotDeleteDueToContracts": "此价格手册无法删除，因为它与一个或多个合同相关联",
-      "priceBookCannotDeleteDueToJobOrders": "此价格手册无法删除，因为它与一个或多个工作订单相关联",
       "priceBookCannotDeleteDueToRateCards": "此价格手册无法删除，因为它与一个或多个费率卡相关联",
-      "priceBookCannotDeleteDueToStandard": "该价格书无法删除，因为它是标准的",
+      "priceBookCannotDeleteDueToStandard": "无法删除：这是标准价格表", 
+      "priceBookCannotDeleteDueToContracts": "无法删除：该价格表当前链接到有效合同。请先取消与所有相关合同的链接，然后再删除", 
+      "priceBookCannotDeleteDueToJobOrders": "无法删除：该价格表当前链接到工作订单。请先取消与所有相关工作订单的链接，然后再删除",
       "priceBookIdExists": "新的价格手册不能已经有ID",
       "priceBookConfigIdExists": "新的价格手册配置不能已经有ID",
       "priceBookNotFound": "未找到价格手册",
@@ -24616,7 +24622,12 @@
       "priceBookNameMandatory": "价格书名称是必填的",
       "priceBookProductEmptyList": "价格书产品列表不能为空",
       "priceBookProductDifferentPriceBooks": "无法一次性批量添加不同价格书的产品",
-      "priceBookContractMandatory": "创建价格书时合同是必填项"
+      "priceBookContractMandatory": "创建价格书时合同是必填项",
+      "PriceBookModificationsNotAllowedForStandard": "标准价格表无法修改", 
+      "priceBookProductAlreadyAdded": "产品已添加", 
+      "priceBookStatusMandatory": "价格表状态为必填项", 
+      "PriceBookProductsModificationsNotAllowedForStandard": "标准价格表产品无法修改", 
+      "PriceBookProductsDeletionNotAllowedForStandard": "标准价格表产品无法删除"
     },
     "tooltips": {},
     "messages": {}
@@ -24633,7 +24644,11 @@
       "rateCardContractEmpty": "费率卡必须有一个合同",
       "rateCardIdMismatch": "费率卡ID不匹配",
       "rateCardContractNotFound": "未找到合同",
-      "rateCardIdExists": "新的费率卡不能已经有ID"
+      "rateCardIdExists": "新的费率卡不能已经有ID",
+      "rateCardNameEmpty": "费率卡名称为必填项",
+      "rateCardFixedRateValueEmpty": "固定费率卡需要固定值",
+      "rateCardVariableRatesEmpty": "可变费率卡需要第一小时费率和后续小时费率",
+      "rateCardRateRoundingOffMinutesNotValid": "可变费率卡需要有效的舍入分钟"
     },
     "tooltips": {},
     "messages": {}

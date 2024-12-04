@@ -24509,7 +24509,13 @@
   "priceBook": {
     "setupVisible": true,
     "setupEdit": true,
-    "label": {},
+    "label": {
+      "original": "Price Book",
+      "singular": "Buku Harga", 
+      "plural": "Buku Harga",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "sections": {},
     "fields": {},
     "validationFE": {},
@@ -24519,10 +24525,10 @@
       "priceBookCodeExists": "Kod Buku Harga sudah wujud",
       "priceBookCannotDeleteDueToProducts": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih produk",
       "priceBookCannotDeleteDueToCustomers": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih pelanggan",
-      "priceBookCannotDeleteDueToContracts": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih kontrak",
-      "priceBookCannotDeleteDueToJobOrders": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih pesanan kerja",
       "priceBookCannotDeleteDueToRateCards": "Buku harga ini tidak boleh dipadam kerana ia dikaitkan dengan satu atau lebih kad kadar",
-      "priceBookCannotDeleteDueToStandard": "Buku harga ini tidak boleh dipadam kerana ia adalah standard",
+      "priceBookCannotDeleteDueToStandard": "Tidak dapat memadam: Ini adalah Buku Harga Standard", 
+      "priceBookCannotDeleteDueToContracts": "Tidak dapat memadam: Buku harga ini sedang dipautkan kepada kontrak aktif. Sila nyahpautkannya daripada semua kontrak yang berkaitan sebelum meneruskan pemadaman", 
+      "priceBookCannotDeleteDueToJobOrders": "Tidak dapat memadam: Buku harga ini sedang dipautkan kepada pesanan kerja. Sila nyahpautkannya daripada semua pesanan kerja yang berkaitan sebelum meneruskan pemadaman",
       "priceBookIdExists": "Buku harga baru tidak boleh sudah mempunyai ID",
       "priceBookConfigIdExists": "Konfigurasi buku harga baru tidak boleh sudah mempunyai ID",
       "priceBookNotFound": "Buku Harga tidak dijumpai",
@@ -24535,7 +24541,12 @@
       "priceBookNameMandatory": "Nama Buku Harga adalah wajib",
       "priceBookProductEmptyList": "Senarai Produk Buku Harga tidak boleh kosong",
       "priceBookProductDifferentPriceBooks": "Tidak boleh menambah produk secara pukal untuk buku harga yang berbeza pada satu masa",
-      "priceBookContractMandatory": "Kontrak adalah wajib apabila membuat buku harga"
+      "priceBookContractMandatory": "Kontrak adalah wajib apabila membuat buku harga",
+      "PriceBookModificationsNotAllowedForStandard": "Buku Harga Standard tidak boleh diubah", 
+      "priceBookProductAlreadyAdded": "Produk telah ditambah", 
+      "priceBookStatusMandatory": "Status Buku Harga adalah wajib", 
+      "PriceBookProductsModificationsNotAllowedForStandard": "Produk Buku Harga Standard tidak boleh diubah", 
+      "PriceBookProductsDeletionNotAllowedForStandard": "Produk Buku Harga Standard tidak boleh dipadam"
     },
     "tooltips": {},
     "messages": {}
@@ -24552,7 +24563,11 @@
       "rateCardContractEmpty": "Kad Kadar harus mempunyai kontrak",
       "rateCardIdMismatch": "ID Kad Kadar tidak sepadan",
       "rateCardContractNotFound": "Kontrak tidak dijumpai",
-      "rateCardIdExists": "Kad Kadar baru tidak boleh sudah mempunyai ID"
+      "rateCardIdExists": "Kad Kadar baru tidak boleh sudah mempunyai ID",
+      "rateCardNameEmpty": "Nama Kad Kadar adalah wajib",
+      "rateCardFixedRateValueEmpty": "Nilai Kadar Tetap diperlukan untuk Kad Kadar Tetap",
+      "rateCardVariableRatesEmpty": "Kadar Jam Pertama dan Kadar Jam Seterusnya diperlukan untuk Kad Kadar Boleh Ubah",
+      "rateCardRateRoundingOffMinutesNotValid": "Minit Pembulatan Sah diperlukan untuk Kad Kadar Boleh Ubah"
     },
     "tooltips": {},
     "messages": {}

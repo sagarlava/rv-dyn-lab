@@ -24509,7 +24509,13 @@
   "priceBook": {
     "setupVisible": true,
     "setupEdit": true,
-    "label": {},
+    "label": {
+      "original": "Price Book",
+      "singular": "Libro de Precios", 
+      "plural": "Libros de Precios",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "sections": {},
     "fields": {},
     "validationFE": {},
@@ -24519,10 +24525,10 @@
       "priceBookCodeExists": "El código del libro de precios ya existe",
       "priceBookCannotDeleteDueToProducts": "Este libro de precios no se puede eliminar porque está vinculado a uno o más productos",
       "priceBookCannotDeleteDueToCustomers": "Este libro de precios no se puede eliminar porque está vinculado a uno o más clientes",
-      "priceBookCannotDeleteDueToContracts": "Este libro de precios no se puede eliminar porque está vinculado a uno o más contratos",
-      "priceBookCannotDeleteDueToJobOrders": "Este libro de precios no se puede eliminar porque está vinculado a uno o más órdenes de trabajo",
       "priceBookCannotDeleteDueToRateCards": "Este libro de precios no se puede eliminar porque está vinculado a una o más tarjetas de tarifas",
-      "priceBookCannotDeleteDueToStandard": "Este libro de precios no se puede eliminar porque es el estándar",
+      "priceBookCannotDeleteDueToStandard": "No se puede eliminar: Este es el libro de precios estándar", 
+      "priceBookCannotDeleteDueToContracts": "No se puede eliminar: Este libro de precios está vinculado actualmente a contratos activos. Desvincúlelo de todos los contratos asociados antes de proceder con la eliminación", 
+      "priceBookCannotDeleteDueToJobOrders": "No se puede eliminar: Este libro de precios está vinculado actualmente a una orden de trabajo. Desvincúlelo de todas las órdenes de trabajo asociadas antes de proceder con la eliminación",
       "priceBookIdExists": "Un nuevo libro de precios no puede tener ya un ID",
       "priceBookConfigIdExists": "Una nueva configuración de libro de precios no puede tener ya un ID",
       "priceBookNotFound": "Libro de precios no encontrado",
@@ -24535,7 +24541,12 @@
       "priceBookNameMandatory": "El nombre del libro de precios es obligatorio",
       "priceBookProductEmptyList": "La lista de productos del libro de precios no puede estar vacía",
       "priceBookProductDifferentPriceBooks": "No se pueden agregar productos en masa para diferentes libros de precios a la vez",
-      "priceBookContractMandatory": "El contrato es obligatorio al crear un libro de precios"
+      "priceBookContractMandatory": "El contrato es obligatorio al crear un libro de precios",
+      "PriceBookModificationsNotAllowedForStandard": "No se puede modificar el libro de precios estándar", 
+      "priceBookProductAlreadyAdded": "El producto ya está añadido", 
+      "priceBookStatusMandatory": "El estado del libro de precios es obligatorio", 
+      "PriceBookProductsModificationsNotAllowedForStandard": "No se pueden modificar los productos del libro de precios estándar", 
+      "PriceBookProductsDeletionNotAllowedForStandard": "No se pueden eliminar los productos del libro de precios estándar"
     },
     "tooltips": {},
     "messages": {}
@@ -24552,7 +24563,11 @@
       "rateCardContractEmpty": "La tarjeta de tarifas debe tener un contrato",
       "rateCardIdMismatch": "La ID de la tarjeta de tarifas no coincide",
       "rateCardContractNotFound": "Contrato no encontrado",
-      "rateCardIdExists": "Una nueva tarjeta de tarifas no puede tener ya una ID"
+      "rateCardIdExists": "Una nueva tarjeta de tarifas no puede tener ya una ID",
+      "rateCardNameEmpty": "El nombre de la Tarjeta de Tarifas es obligatorio",
+      "rateCardFixedRateValueEmpty": "Se requiere un Valor Fijo para la Tarjeta de Tarifas Fijas",
+      "rateCardVariableRatesEmpty": "Se requieren la Tarifa de la Primera Hora y la Tarifa de las Horas Subsiguientes para la Tarjeta de Tarifas Variables",
+      "rateCardRateRoundingOffMinutesNotValid": "Se requieren Minutos de Redondeo Válidos para la Tarjeta de Tarifas Variables"
     },
     "tooltips": {},
     "messages": {}

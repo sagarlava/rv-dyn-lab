@@ -610,15 +610,15 @@
           "original": "Asset Name",
           "singular": "Anlagenname",
           "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+          "setupEdit": true,
+          "setupVisible": true
         },
         "name": {
           "original": "Name",
           "singular": "Name",
           "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+          "setupEdit": true,
+          "setupVisible": true
         },
         "status": {
           "original": "Status",

@@ -24592,7 +24592,13 @@
   "priceBook": {
     "setupVisible": true,
     "setupEdit": true,
-    "label": {},
+    "label": {
+      "original": "Price Book",
+      "singular": "Preisbuch", 
+      "plural": "Preisbücher",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "sections": {},
     "fields": {},
     "validationFE": {},
@@ -24602,10 +24608,10 @@
       "priceBookCodeExists": "Der Preisbuchcode existiert bereits",
       "priceBookCannotDeleteDueToProducts": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Produkten verknüpft ist",
       "priceBookCannotDeleteDueToCustomers": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Kunden verknüpft ist",
-      "priceBookCannotDeleteDueToContracts": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Verträgen verknüpft ist",
-      "priceBookCannotDeleteDueToJobOrders": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einem oder mehreren Arbeitsaufträgen verknüpft ist",
       "priceBookCannotDeleteDueToRateCards": "Dieses Preisbuch kann nicht gelöscht werden, da es mit einer oder mehreren Ratekarten verknüpft ist",
-      "priceBookCannotDeleteDueToStandard": "Dieses Preisbuch kann nicht gelöscht werden, da es das Standard-Preisbuch ist",
+      "priceBookCannotDeleteDueToStandard": "Löschen nicht möglich: Dies ist das Standard-Preisbuch", 
+      "priceBookCannotDeleteDueToContracts": "Löschen nicht möglich: Dieses Preisbuch ist derzeit mit aktiven Verträgen verknüpft. Bitte trennen Sie es von allen zugehörigen Verträgen, bevor Sie fortfahren", 
+      "priceBookCannotDeleteDueToJobOrders": "Löschen nicht möglich: Dieses Preisbuch ist derzeit mit einem Arbeitsauftrag verknüpft. Bitte trennen Sie es von allen zugehörigen Arbeitsaufträgen, bevor Sie fortfahren",
       "priceBookIdExists": "Ein neues Preisbuch kann nicht bereits eine ID haben",
       "priceBookConfigIdExists": "Eine neue Preisbuchkonfiguration kann nicht bereits eine ID haben",
       "priceBookNotFound": "Preisbuch nicht gefunden",
@@ -24618,7 +24624,12 @@
       "priceBookNameMandatory": "Der Name des Preisbuchs ist erforderlich",
       "priceBookProductEmptyList": "Die Liste der Preisbuchprodukte darf nicht leer sein",
       "priceBookProductDifferentPriceBooks": "Produkte können nicht gleichzeitig für verschiedene Preisbücher in großen Mengen hinzugefügt werden",
-      "priceBookContractMandatory": "Ein Vertrag ist erforderlich, wenn ein Preisbuch erstellt wird"
+      "priceBookContractMandatory": "Ein Vertrag ist erforderlich, wenn ein Preisbuch erstellt wird",
+      "PriceBookModificationsNotAllowedForStandard": "Standard-Preisbuch kann nicht geändert werden", 
+      "priceBookProductAlreadyAdded": "Produkt wurde bereits hinzugefügt", 
+      "priceBookStatusMandatory": "Preisbuchstatus ist obligatorisch", 
+      "PriceBookProductsModificationsNotAllowedForStandard": "Produkte des Standard-Preisbuchs können nicht geändert werden", 
+      "PriceBookProductsDeletionNotAllowedForStandard": "Produkte des Standard-Preisbuchs können nicht gelöscht werden"
     },
     "tooltips": {},
     "messages": {}
@@ -24635,7 +24646,11 @@
       "rateCardContractEmpty": "Ratekarte sollte einen Vertrag haben",
       "rateCardIdMismatch": "Ratekarte-ID stimmt nicht überein",
       "rateCardContractNotFound": "Vertrag nicht gefunden",
-      "rateCardIdExists": "Eine neue Ratekarte kann nicht bereits eine ID haben"
+      "rateCardIdExists": "Eine neue Ratekarte kann nicht bereits eine ID haben",
+      "rateCardNameEmpty": "Der Name der Rate Card ist obligatorisch",
+      "rateCardFixedRateValueEmpty": "Ein fester Wert ist für die feste Rate Card erforderlich",
+      "rateCardVariableRatesEmpty": "Der Erststundensatz und der Folgestundensatz sind für die variable Rate Card erforderlich",
+      "rateCardRateRoundingOffMinutesNotValid": "Gültige Abrundungsminuten sind für die variable Rate Card erforderlich"
     },
     "tooltips": {},
     "messages": {}

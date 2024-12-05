@@ -24592,7 +24592,13 @@
   "priceBook": {
     "setupVisible": true,
     "setupEdit": true,
-    "label": {},
+    "label": {
+      "original": "Price Book",
+      "singular": "Price Book", 
+      "plural": "Price Books",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "sections": {},
     "fields": {},
     "validationFE": {},
@@ -24602,10 +24608,10 @@
       "priceBookCodeExists": "Price Book Code already exists",
       "priceBookCannotDeleteDueToProducts": "This price book cannot be deleted as it is linked to one or more products",
       "priceBookCannotDeleteDueToCustomers": "This price book cannot be deleted as it is linked to one or more customers",
-      "priceBookCannotDeleteDueToContracts": "This price book cannot be deleted as it is linked to one or more contracts",
-      "priceBookCannotDeleteDueToJobOrders": "This price book cannot be deleted as it is linked to one or more job orders",
       "priceBookCannotDeleteDueToRateCards": "This price book cannot be deleted as it is linked to one or more rate cards",
-      "priceBookCannotDeleteDueToStandard": "This price book cannot be deleted as it is the standard",
+      "priceBookCannotDeleteDueToStandard": "Unable to delete : This is the standard price book",
+      "priceBookCannotDeleteDueToContracts": "Unable to delete : This price book is currently linked to active contracts. Please unlink it from all associated contracts before proceeding with deletion",
+      "priceBookCannotDeleteDueToJobOrders": "Unable to delete : This price book is currently linked to a job order. Please unlink it from all associated job orders before proceeding with deletion",
       "priceBookIdExists": "A new price book cannot already have an ID",
       "priceBookConfigIdExists": "A new price book config cannot already have an ID",
       "priceBookNotFound": "Price Book not found",
@@ -24618,7 +24624,12 @@
       "priceBookNameMandatory": "Price Book Name is mandatory",
       "priceBookProductEmptyList": "Price Book Product list cannot be empty",
       "priceBookProductDifferentPriceBooks": "Cannot bulk add products for different price books at a time",
-      "priceBookContractMandatory": "Contract is mandatory when creating a price book"
+      "priceBookContractMandatory": "Contract is mandatory when creating a price book",
+      "PriceBookModificationsNotAllowedForStandard": "Standard Price Book cannot be modified",
+      "priceBookProductAlreadyAdded": "Product is already added",
+      "priceBookStatusMandatory": "Price Book Status is mandatory",
+      "PriceBookProductsModificationsNotAllowedForStandard": "Standard Price Book Products cannot be modified",
+      "PriceBookProductsDeletionNotAllowedForStandard": "Standard Price Book Products cannot be deleted"
     },
     "tooltips": {},
     "messages": {}
@@ -24635,7 +24646,11 @@
       "rateCardContractEmpty": "Rate Card should have a contract",
       "rateCardIdMismatch": "Rate Card Id does not match",
       "rateCardContractNotFound": "Contract not found",
-      "rateCardIdExists": "A new rate card cannot already have an ID"
+      "rateCardIdExists": "A new rate card cannot already have an ID",
+      "rateCardNameEmpty": "Rate Card name is mandatory",
+      "rateCardFixedRateValueEmpty": "Fixed Rate Value is required for Fixed Rate Card",
+      "rateCardVariableRatesEmpty": "First Hour Rate and Subsequent Hour Rate are required for Variable Rate Card",
+      "rateCardRateRoundingOffMinutesNotValid": "Valid Rounding Off Minutes is required for Variable Rate Card"
     },
     "tooltips": {},
     "messages": {}

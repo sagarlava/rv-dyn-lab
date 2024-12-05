@@ -24637,7 +24637,13 @@
   "rateCard": {
     "setupVisible": false,
     "setupEdit": false,
-    "label": {},
+    "label": {
+      "original": "Rate Card",
+      "singular": "Tarjeta de Tarifas", 
+      "plural": "Tarjetas de Tarifas",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "sections": {},
     "fields": {},
     "validationFE": {},

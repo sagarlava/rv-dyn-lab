@@ -24637,7 +24637,13 @@
   "rateCard": {
     "setupVisible": false,
     "setupEdit": false,
-    "label": {},
+    "label": {
+      "original": "Rate Card",
+      "singular": "费率卡", 
+      "plural": "费率卡",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "sections": {},
     "fields": {},
     "validationFE": {},

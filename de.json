@@ -24635,7 +24635,13 @@
   "rateCard": {
     "setupVisible": true,
     "setupEdit": true,
-    "label": {},
+    "label": {
+      "original": "Rate Card",
+      "singular": "Ratekarte", 
+      "plural": "Ratekarten",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "sections": {},
     "fields": {},
     "validationFE": {},

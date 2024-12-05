@@ -24590,8 +24590,8 @@
     "messages": {}
   },
   "priceBook": {
-    "setupVisible": true,
-    "setupEdit": true,
+    "setupVisible": false,
+    "setupEdit": false,
     "label": {
       "original": "Price Book",
       "singular": "价格表", 
@@ -24635,8 +24635,8 @@
     "messages": {}
   },
   "rateCard": {
-    "setupVisible": true,
-    "setupEdit": true,
+    "setupVisible": false,
+    "setupEdit": false,
     "label": {},
     "sections": {},
     "fields": {},

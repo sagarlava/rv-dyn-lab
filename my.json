@@ -24554,7 +24554,13 @@
   "rateCard": {
     "setupVisible": true,
     "setupEdit": true,
-    "label": {},
+    "label": {
+      "original": "Rate Card",
+      "singular": "Kad Kadar", 
+      "plural": "Kad Kadar",
+      "setupEdit": false,
+      "setupVisible": false
+    },
     "sections": {},
     "fields": {},
     "validationFE": {},

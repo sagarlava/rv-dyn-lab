@@ -18679,7 +18679,8 @@
         }
       },
       "validationFE": {
-        "fileTypeUnsupported":"Este tipo de archivo no es compatible. Por favor, elija un archivo diferente."
+        "fileTypeUnsupported":"Este tipo de archivo no es compatible. Por favor, elija un archivo diferente.",
+        "exceedFileSizeSmall":"El tamaño del archivo excede el límite de 4 MB. Por favor, suba un archivo más pequeño."
       },
       "messages": {
         "selectAssetTypes": "Seleccionar Tipos de Activo",

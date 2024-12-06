@@ -18679,7 +18679,8 @@
         }
       },
       "validationFE": {
-        "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。"
+        "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
+        "exceedFileSizeSmall":"文件大小超过2MB限制。请上传较小的文件。"
       },
       "messages": {
         "selectAssetTypes": "选择资产类型",

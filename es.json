@@ -199,11 +199,11 @@
         "setupVisible": false
       },
       "terminalCount": {
-          "original": "Terminal Count",
-          "singular": "Recuento de terminales",
-          "plural": "Recuento de terminales",
-          "setupEdit": false,
-          "setupVisible": false
+        "original": "Terminal Count",
+        "singular": "Recuento de terminales",
+        "plural": "Recuento de terminales",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "autoTieGeofence": {
         "original": "Auto-tie Geofence",
@@ -332,11 +332,11 @@
         "setupVisible": false
       },
       "orderName": {
-          "original": "Order Name",
-          "singular": "Nombre del pedido",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "original": "Order Name",
+        "singular": "Nombre del pedido",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},
@@ -422,792 +422,792 @@
     }
   },
   "asset": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {
+      "original": "Asset",
+      "singular": "Activo",
+      "plural": "Activos",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
       "setupVisible": true,
       "setupEdit": true,
-      "label": {
-        "original": "Asset",
-        "singular": "Activo",
-        "plural": "Activos",
+      "sec0": {
+        "original": "General Details",
+        "singular": "Detalles Generales",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
-      "sections": {
-        "setupVisible": true,
+      "sec1": {
+        "original": "Ownership & Location",
+        "singular": "Propiedad y Ubicación",
+        "plural": "",
         "setupEdit": true,
-        "sec0": {
-          "original": "General Details",
-          "singular": "Detalles Generales",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec1": {
-          "original": "Ownership & Location",
-          "singular": "Propiedad y Ubicación",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec2": {
-          "original": "Coverage Period & Acquisition",
-          "singular": "Período de Cobertura y Adquisición",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec3": {
-          "original": "Equipment Details",
-          "singular": "Detalles del Equipo",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec4": {
-          "original": "Additional Details",
-          "singular": "Detalles Adicionales",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "sec5": {
-          "original": "Overview",
-          "singular": "Descripción General",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec6": {
-          "original": "Timeline",
-          "singular": "Cronología",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec7": {
-          "original": "Current Meter Reading",
-          "singular": "Lectura Actual del Medidor",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec8": {
-          "original": "Current Contract",
-          "singular": "Contrato Actual",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec9": {
-          "original": "QR/Barcode",
-          "singular": "QR/Código de Barras",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec10": {
-          "original": "Filter By",
-          "singular": "Filtrar Por",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec11": {
-          "original": "Details",
-          "singular": "Detalles",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec12": {
-          "original": "Accessory Details",
-          "singular": "Detalles de Accesorios",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec13": {
-          "original": "Asset Log",
-          "singular": "Registro de Activos",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec14": {
-          "original": "Log Details",
-          "singular": "Detalles del Registro",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec15": {
-          "original": "New Entry",
-          "singular": "Nueva Entrada",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec16": {
-          "original": "Asset Details",
-          "singular": "Detalles del Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec17": {
-          "original": "Change Status",
-          "singular": "Cambiar Estado",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        }
+        "setupVisible": true
       },
-      "fields": {
-        "setupVisible": true,
+      "sec2": {
+        "original": "Coverage Period & Acquisition",
+        "singular": "Período de Cobertura y Adquisición",
+        "plural": "",
         "setupEdit": true,
-        "type": {
-          "original": "Type",
-          "singular": "Tipo",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "equipmentNumber": {
-          "original": "Equipment Number",
-          "singular": "Número de Equipo",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "code": {
-          "original": "Code",
-          "singular": "Código",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "engineNumberOne": {
-          "original": "Engine Number 1",
-          "singular": "Motor Número 1",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "engineNumberTwo": {
-          "original": "Engine Number 2",
-          "singular": "Motor Número 2",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "extId": {
-          "original": "External ID",
-          "singular": "ID Externo",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "assetName": {
-          "original": "Asset Name",
-          "singular": "Nombre del Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "name": {
-          "original": "Name",
-          "singular": "Nombre",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "status": {
-          "original": "Status",
-          "singular": "Estado",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "serialNo": {
-          "original": "Serial No",
-          "singular": "Número de Serie",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "serialNumber": {
-          "original": "Serial Number",
-          "singular": "Número de Serie",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetCode": {
-          "original": "Asset Code",
-          "singular": "Código del Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "description": {
-          "original": "Description",
-          "singular": "Descripción",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "photo": {
-          "original": "Photo",
-          "singular": "Foto",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "custodian": {
-          "original": "Custodian",
-          "singular": "Custodio",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "warrantyStartDate": {
-          "original": "Warranty Start Date",
-          "singular": "Fecha de Inicio de Garantía",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "warrantyEndDate": {
-          "original": "Warranty End Date",
-          "singular": "Fecha de Fin de Garantía",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "acquisitionDate": {
-          "original": "Acquisition Date",
-          "singular": "Fecha de Adquisición",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "equipmentType": {
-          "original": "Equipment Type",
-          "singular": "Tipo de Equipo",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "engineMake": {
-          "original": "Engine Make",
-          "singular": "Marca del Motor",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "manufacturer": {
-          "original": "Manufacturer",
-          "singular": "Fabricante",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "engineModel": {
-          "original": "Engine Model",
-          "singular": "Modelo del Motor",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "makeModel": {
-          "original": "Make/Model",
-          "singular": "Marca/Modelo",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "engineNumber": {
-          "original": "Engine Number",
-          "singular": "Número de Motor",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "manufacturerYear": {
-          "original": "Manufacture Year",
-          "singular": "Año de Fabricación",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "note": {
-          "original": "Note",
-          "singular": "Nota",
-          "plural": "Notas",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "upcoming": {
-          "original": "Upcoming",
-          "singular": "Próximo",
-          "plural": "Próximos",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "lastCompleted": {
-          "original": "Last Completed",
-          "singular": "Último Completado",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "next": {
-          "original": "Next",
-          "singular": "Siguiente",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "finish": {
-          "original": "Finish",
-          "singular": "Finalizar",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "next30Days": {
-          "original": "Next 30 Days",
-          "singular": "Próximos 30 Días",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "overdue": {
-          "original": "Overdue",
-          "singular": "Vencido",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "dueOn": {
-          "original": "Due on",
-          "singular": "Vence el",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "expiresIn": {
-          "original": "Expires in",
-          "singular": "Expira en",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "latestActiveContract": {
-          "original": "Latest Active Contract",
-          "singular": "Último Contrato Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "updatedBy": {
-          "original": "Updated by",
-          "singular": "Actualizado por",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "transferredBy": {
-          "original": "Transferred By",
-          "singular": "Transferido Por",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetId": {
-          "original": "Asset ID",
-          "singular": "ID del Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "nextMaintenanceDate": {
-          "original": "Next Maintenance Date",
-          "singular": "Próxima Fecha de Mantenimiento",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "maintenanceStatus": {
-          "original": "Maintenance Status",
-          "singular": "Estado del Mantenimiento",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "nextMaintenanceType": {
-          "original": "Next Maintenance Type",
-          "singular": "Próximo Tipo de Mantenimiento",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "minorMajorServiceFrequency": {
-          "original": "Minor/Major Service Frequency(Months)",
-          "singular": "Frecuencia de Servicio Menor/Mayor (Meses)",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "majorServiceFrequency": {
-          "original": "Major Service Frequency(Months)",
-          "singular": "Frecuencia de Servicio Mayor (Meses)",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "minorServiceFrequency": {
-          "original": "Minor Service Frequency(Months)",
-          "singular": "Frecuencia de Servicio Menor (Meses)",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "accessory": {
-          "original": "Accessory",
-          "singular": "Accesorio",
-          "plural": "Accesorios",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "accessoryNo": {
-          "original": "Accessory No.",
-          "singular": "Núm. de Accesorio",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "currentReading": {
-          "original": "Current Meter Reading",
-          "singular": "Lectura actual del medidor",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "logDateTime": {
-          "original": "Log Date & Time",
-          "singular": "Fecha y Hora del Registro",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "modifiedDateTime": {
-          "original": "Modified Date & Time",
-          "singular": "Fecha y Hora Modificada",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "newValue": {
-          "original": "New Value",
-          "singular": "Nuevo Valor",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "oldValue": {
-          "original": "Old Value",
-          "singular": "Valor Antiguo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "newMeterReading": {
-          "original": "New Meter Reading",
-          "singular": "Nueva Lectura del Medidor",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "allAsset": {
-          "original": "All Assets",
-          "singular": "Todos los Activos",
-          "plural": "Todos los Activos",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetsByCustomer": {
-          "original": "Assets by Customer",
-          "singular": "Activos por Cliente",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "day": {
-          "original": "day",
-          "singular": "día",
-          "plural": "días",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetNo": {
-          "original": "Asset No.",
-          "singular": "Núm. de Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        }
+        "setupVisible": true
       },
-      "validationFE": {},
-      "validationBE": {
-        "assetIdNotFound": "ID no encontrado",
-        "assetIdExidNotFound": "ID/ID Externo del Activo no encontrado",
-        "assetNotFound": "Activos no encontrados",
-        "assetConditionNotFound": "Condición no encontrada",
-        "assetHasStockHistory": "Los datos del historial de stock existen en el sistema para los activos",
-        "assetIdExists": "Un nuevo activo no puede tener ya un ID",
-        "assetSerialIdExists": "El número de serie ya existe en el sistema",
-        "assetExidExists": "El ID externo de los activos ya existe en el sistema",
-        "assetHasContracts": "Los datos del contrato existen en el sistema para los activos",
-        "assetHasMaintenance": "Los datos de mantenimiento existen en el sistema para los activos",
-        "assetHasFaultMapping": "Los datos de mapeo de fallas existen en el sistema para los activos",
-        "assetHasResolutionMapping": "Los datos de mapeo de resoluciones existen en el sistema para los activos",
-        "assetHasTicket": "Los datos de tickets existen en el sistema para los activos",
-        "assetHasInventory": "Los datos de inventario existen en el sistema para los activos",
-        "assetHasConsignment": "Los datos de consignación existen en el sistema para los activos",
-        "assetHasRequisition": "Los datos de requisición existen en el sistema para los activos",
-        "assetHasBinInventory": "Los datos de inventario de bin existen en el sistema para los activos",
-        "assetHasMachineSpecialist": "Los datos de especialista de máquina existen en el sistema para los activos",
-        "assetTableSetupNotFound": "Configuración de la tabla de activos no encontrada, por favor contacte al soporte",
-        "assetCustomerNotFound": "Cliente de activos no encontrado",
-        "assetServiceZoneNotFound": "Zona de servicio de activos no encontrada",
-        "assetProductNotFound": "Repuesto de activos no encontrado",
-        "assetTypeNotFound": "Tipo de activos no encontrado",
-        "assetStatusNotFound": "Estado de activos no encontrado",
-        "assetProjectNotFound": "Proyecto de activos no encontrado",
-        "assetBuildingNotFound": "Edificio de activos no encontrado",
-        "assetFloorNotFound": "Piso de activos no encontrado",
-        "assetRoomNotFound": "Sala de activos no encontrada",
-        "assetCustodianNotFound": "Custodio de activos no encontrado",
-        "assetSiteNotFound": "Sitio de activos no encontrado",
-        "assetCategoryNotFound": "Categoría de activos no encontrada",
-        "assetSubCategoryNotFound": "Subcategoría de activos no encontrada",
-        "assetCategoryExists": "La categoría de activos ya existe",
-        "assetCategorySystemGenerated": "Las categorías de activos generadas por el sistema no se pueden eliminar",
-        "assetCategoryCannotDeleteByAssetSubCategory": "No se puede eliminar: La categoría de activos se utiliza en una o más subcategorías de activos",
-        "assetSubCategoryExists": "La subcategoría de activos ya existe",
-        "assetSubCategorySystemGenerated": "Las subcategorías de activos generadas por el sistema no se pueden eliminar",
-        "assetCategoryIdExists": "Una nueva categoría de activos no puede tener ya un ID",
-        "assetSubCategoryIdExists": "Una nueva subcategoría de activos no puede tener ya un ID"
+      "sec3": {
+        "original": "Equipment Details",
+        "singular": "Detalles del Equipo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       },
-      "tooltips": {
-        "setupVisible": false,
+      "sec4": {
+        "original": "Additional Details",
+        "singular": "Detalles Adicionales",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec5": {
+        "original": "Overview",
+        "singular": "Descripción General",
+        "plural": "",
         "setupEdit": false,
-        "assetLookup": {
-          "original": "Asset Lookup",
-          "singular": "Búsqueda de Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "binLookup": {
-          "original": "Bin Lookup",
-          "singular": "Búsqueda de Contenedor",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "serialNo": {
-          "original": "This is a unique number that can be used to identify your Asset across the system",
-          "singular": "Este es un número único que se puede usar para identificar su Activo en todo el sistema",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "custodian": {
-          "original": "The custodian is the person within your organization that's responsible for this Asset",
-          "singular": "El custodio es la persona dentro de su organización que es responsable de este Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetSummary": {
-          "original": "Asset Summary",
-          "singular": "Resumen del Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetStatusName": {
-          "original": "Asset Status Name",
-          "singular": "Nombre del Estado del Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "statusChange": {
-          "original": "Status Change",
-          "singular": "Cambio de Estado",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "custodianName": {
-          "original": "Custodian Name",
-          "singular": "Nombre del Custodio",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "changeOfCustodian": {
-          "original": "Change of Custodian",
-          "singular": "Cambio de Custodio",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "externalIdRemoved": {
-          "original": "External ID Removed",
-          "singular": "ID Externo Eliminado",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "warrantyRemoved": {
-          "original": "Warranty Removed",
-          "singular": "Garantía Eliminada",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "serviceZoneRemoved": {
-          "original": "Service Zone Removed",
-          "singular": "Zona de Servicio Eliminada",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "custodianRemoved": {
-          "original": "Custodian Removed",
-          "singular": "Custodio Eliminado",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "siteRemoved": {
-          "original": "Site Removed",
-          "singular": "Sitio Eliminado",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "customerRemoved": {
-          "original": "Customer Removed",
-          "singular": "Cliente Eliminado",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "streetRemoved": {
-          "original": "Street Removed",
-          "singular": "Calle Eliminada",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "cityRemoved": {
-          "original": "City Removed",
-          "singular": "Ciudad Eliminada",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "stateRemoved": {
-          "original": "State Removed",
-          "singular": "Estado Eliminado",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "countryRemoved": {
-          "original": "Country Removed",
-          "singular": "País Eliminado",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "externalIdUpdate": {
-          "original": "External ID Update",
-          "singular": "Actualización de ID Externo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "changeOfAddress": {
-          "original": "Change of Address",
-          "singular": "Cambio de Dirección",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "nameUpdate": {
-          "original": "Name Update",
-          "singular": "Actualización de Nombre",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "siteUpdate": {
-          "original": "Site Update",
-          "singular": "Actualización del Sitio",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "customerUpdate": {
-          "original": "Customer Update",
-          "singular": "Actualización del Cliente",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "serviceZoneChange": {
-          "original": "Service Zone Change",
-          "singular": "Cambio de Zona de Servicio",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "serviceZoneName": {
-          "original": "Service Zone Name",
-          "singular": "Nombre de la Zona de Servicio",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "siteName": {
-          "original": "Site Name",
-          "singular": "Nombre del Sitio",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        }
+        "setupVisible": false
       },
-      "messages": {
-        "configureQrBarcodeInAssetSetup": "Para configurar un código QR o de barras, vaya a Configuración de Activos en el Setup",
-        "resetMeterForLowerReading": "Seleccione 'Restablecer Contador' si la nueva lectura del medidor es menor que la lectura actual",
-        "futureDateTimeEntryNotAllowed": "No se puede hacer una entrada para una fecha y hora futura",
-        "maintenanceAppliesToAllContractAssets": "Este Mantenimiento se aplicará a todos los Activos dentro de este Contrato",
-        "errorFetchingAssetDetails": "Error al recuperar los detalles del activo",
-        "noAssetsFound": "No se encontraron Activos",
-        "noScheduledMaintenance": "No hay Mantenimiento Programado",
-        "noPriorMaintenance": "No hay Mantenimientos Previos",
-        "noUpcomingJobs": "No hay Trabajos Próximos",
-        "previously": "Previamente",
-        "from": "Desde",
-        "warrantyStartDate": "La fecha de inicio de la garantía no debe ser mayor que la fecha de finalización de la garantía",
-        "errorFetchingAllAssets": "Error al recuperar todos los activos",
-        "errorOccuredWhileFetchingAccessories": "Error al obtener los accesorios"
+      "sec6": {
+        "original": "Timeline",
+        "singular": "Cronología",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Current Meter Reading",
+        "singular": "Lectura Actual del Medidor",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Current Contract",
+        "singular": "Contrato Actual",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "QR/Barcode",
+        "singular": "QR/Código de Barras",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Filter By",
+        "singular": "Filtrar Por",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec11": {
+        "original": "Details",
+        "singular": "Detalles",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec12": {
+        "original": "Accessory Details",
+        "singular": "Detalles de Accesorios",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec13": {
+        "original": "Asset Log",
+        "singular": "Registro de Activos",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec14": {
+        "original": "Log Details",
+        "singular": "Detalles del Registro",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "New Entry",
+        "singular": "Nueva Entrada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec16": {
+        "original": "Asset Details",
+        "singular": "Detalles del Activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec17": {
+        "original": "Change Status",
+        "singular": "Cambiar Estado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
+    },
+    "fields": {
+      "setupVisible": true,
+      "setupEdit": true,
+      "type": {
+        "original": "Type",
+        "singular": "Tipo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "equipmentNumber": {
+        "original": "Equipment Number",
+        "singular": "Número de Equipo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "code": {
+        "original": "Code",
+        "singular": "Código",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineNumberOne": {
+        "original": "Engine Number 1",
+        "singular": "Motor Número 1",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineNumberTwo": {
+        "original": "Engine Number 2",
+        "singular": "Motor Número 2",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "extId": {
+        "original": "External ID",
+        "singular": "ID Externo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "assetName": {
+        "original": "Asset Name",
+        "singular": "Nombre del Activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "name": {
+        "original": "Name",
+        "singular": "Nombre",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Estado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No",
+        "singular": "Número de Serie",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNumber": {
+        "original": "Serial Number",
+        "singular": "Número de Serie",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetCode": {
+        "original": "Asset Code",
+        "singular": "Código del Activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Descripción",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "photo": {
+        "original": "Photo",
+        "singular": "Foto",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custodian": {
+        "original": "Custodian",
+        "singular": "Custodio",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "warrantyStartDate": {
+        "original": "Warranty Start Date",
+        "singular": "Fecha de Inicio de Garantía",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "warrantyEndDate": {
+        "original": "Warranty End Date",
+        "singular": "Fecha de Fin de Garantía",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "acquisitionDate": {
+        "original": "Acquisition Date",
+        "singular": "Fecha de Adquisición",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "equipmentType": {
+        "original": "Equipment Type",
+        "singular": "Tipo de Equipo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineMake": {
+        "original": "Engine Make",
+        "singular": "Marca del Motor",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "manufacturer": {
+        "original": "Manufacturer",
+        "singular": "Fabricante",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineModel": {
+        "original": "Engine Model",
+        "singular": "Modelo del Motor",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "makeModel": {
+        "original": "Make/Model",
+        "singular": "Marca/Modelo",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "engineNumber": {
+        "original": "Engine Number",
+        "singular": "Número de Motor",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "manufacturerYear": {
+        "original": "Manufacture Year",
+        "singular": "Año de Fabricación",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "note": {
+        "original": "Note",
+        "singular": "Nota",
+        "plural": "Notas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "upcoming": {
+        "original": "Upcoming",
+        "singular": "Próximo",
+        "plural": "Próximos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "lastCompleted": {
+        "original": "Last Completed",
+        "singular": "Último Completado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "next": {
+        "original": "Next",
+        "singular": "Siguiente",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "finish": {
+        "original": "Finish",
+        "singular": "Finalizar",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "next30Days": {
+        "original": "Next 30 Days",
+        "singular": "Próximos 30 Días",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "overdue": {
+        "original": "Overdue",
+        "singular": "Vencido",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "dueOn": {
+        "original": "Due on",
+        "singular": "Vence el",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "expiresIn": {
+        "original": "Expires in",
+        "singular": "Expira en",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "latestActiveContract": {
+        "original": "Latest Active Contract",
+        "singular": "Último Contrato Activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "updatedBy": {
+        "original": "Updated by",
+        "singular": "Actualizado por",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredBy": {
+        "original": "Transferred By",
+        "singular": "Transferido Por",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetId": {
+        "original": "Asset ID",
+        "singular": "ID del Activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceDate": {
+        "original": "Next Maintenance Date",
+        "singular": "Próxima Fecha de Mantenimiento",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "maintenanceStatus": {
+        "original": "Maintenance Status",
+        "singular": "Estado del Mantenimiento",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nextMaintenanceType": {
+        "original": "Next Maintenance Type",
+        "singular": "Próximo Tipo de Mantenimiento",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "minorMajorServiceFrequency": {
+        "original": "Minor/Major Service Frequency(Months)",
+        "singular": "Frecuencia de Servicio Menor/Mayor (Meses)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "majorServiceFrequency": {
+        "original": "Major Service Frequency(Months)",
+        "singular": "Frecuencia de Servicio Mayor (Meses)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "minorServiceFrequency": {
+        "original": "Minor Service Frequency(Months)",
+        "singular": "Frecuencia de Servicio Menor (Meses)",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "accessory": {
+        "original": "Accessory",
+        "singular": "Accesorio",
+        "plural": "Accesorios",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "accessoryNo": {
+        "original": "Accessory No.",
+        "singular": "Núm. de Accesorio",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "currentReading": {
+        "original": "Current Meter Reading",
+        "singular": "Lectura actual del medidor",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "logDateTime": {
+        "original": "Log Date & Time",
+        "singular": "Fecha y Hora del Registro",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "modifiedDateTime": {
+        "original": "Modified Date & Time",
+        "singular": "Fecha y Hora Modificada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newValue": {
+        "original": "New Value",
+        "singular": "Nuevo Valor",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "oldValue": {
+        "original": "Old Value",
+        "singular": "Valor Antiguo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "newMeterReading": {
+        "original": "New Meter Reading",
+        "singular": "Nueva Lectura del Medidor",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "allAsset": {
+        "original": "All Assets",
+        "singular": "Todos los Activos",
+        "plural": "Todos los Activos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetsByCustomer": {
+        "original": "Assets by Customer",
+        "singular": "Activos por Cliente",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "day": {
+        "original": "day",
+        "singular": "día",
+        "plural": "días",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetNo": {
+        "original": "Asset No.",
+        "singular": "Núm. de Activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "validationFE": {},
+    "validationBE": {
+      "assetIdNotFound": "ID no encontrado",
+      "assetIdExidNotFound": "ID/ID Externo del Activo no encontrado",
+      "assetNotFound": "Activos no encontrados",
+      "assetConditionNotFound": "Condición no encontrada",
+      "assetHasStockHistory": "Los datos del historial de stock existen en el sistema para los activos",
+      "assetIdExists": "Un nuevo activo no puede tener ya un ID",
+      "assetSerialIdExists": "El número de serie ya existe en el sistema",
+      "assetExidExists": "El ID externo de los activos ya existe en el sistema",
+      "assetHasContracts": "Los datos del contrato existen en el sistema para los activos",
+      "assetHasMaintenance": "Los datos de mantenimiento existen en el sistema para los activos",
+      "assetHasFaultMapping": "Los datos de mapeo de fallas existen en el sistema para los activos",
+      "assetHasResolutionMapping": "Los datos de mapeo de resoluciones existen en el sistema para los activos",
+      "assetHasTicket": "Los datos de tickets existen en el sistema para los activos",
+      "assetHasInventory": "Los datos de inventario existen en el sistema para los activos",
+      "assetHasConsignment": "Los datos de consignación existen en el sistema para los activos",
+      "assetHasRequisition": "Los datos de requisición existen en el sistema para los activos",
+      "assetHasBinInventory": "Los datos de inventario de bin existen en el sistema para los activos",
+      "assetHasMachineSpecialist": "Los datos de especialista de máquina existen en el sistema para los activos",
+      "assetTableSetupNotFound": "Configuración de la tabla de activos no encontrada, por favor contacte al soporte",
+      "assetCustomerNotFound": "Cliente de activos no encontrado",
+      "assetServiceZoneNotFound": "Zona de servicio de activos no encontrada",
+      "assetProductNotFound": "Repuesto de activos no encontrado",
+      "assetTypeNotFound": "Tipo de activos no encontrado",
+      "assetStatusNotFound": "Estado de activos no encontrado",
+      "assetProjectNotFound": "Proyecto de activos no encontrado",
+      "assetBuildingNotFound": "Edificio de activos no encontrado",
+      "assetFloorNotFound": "Piso de activos no encontrado",
+      "assetRoomNotFound": "Sala de activos no encontrada",
+      "assetCustodianNotFound": "Custodio de activos no encontrado",
+      "assetSiteNotFound": "Sitio de activos no encontrado",
+      "assetCategoryNotFound": "Categoría de activos no encontrada",
+      "assetSubCategoryNotFound": "Subcategoría de activos no encontrada",
+      "assetCategoryExists": "La categoría de activos ya existe",
+      "assetCategorySystemGenerated": "Las categorías de activos generadas por el sistema no se pueden eliminar",
+      "assetCategoryCannotDeleteByAssetSubCategory": "No se puede eliminar: La categoría de activos se utiliza en una o más subcategorías de activos",
+      "assetSubCategoryExists": "La subcategoría de activos ya existe",
+      "assetSubCategorySystemGenerated": "Las subcategorías de activos generadas por el sistema no se pueden eliminar",
+      "assetCategoryIdExists": "Una nueva categoría de activos no puede tener ya un ID",
+      "assetSubCategoryIdExists": "Una nueva subcategoría de activos no puede tener ya un ID"
+    },
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "assetLookup": {
+        "original": "Asset Lookup",
+        "singular": "Búsqueda de Activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "binLookup": {
+        "original": "Bin Lookup",
+        "singular": "Búsqueda de Contenedor",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "This is a unique number that can be used to identify your Asset across the system",
+        "singular": "Este es un número único que se puede usar para identificar su Activo en todo el sistema",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custodian": {
+        "original": "The custodian is the person within your organization that's responsible for this Asset",
+        "singular": "El custodio es la persona dentro de su organización que es responsable de este Activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetSummary": {
+        "original": "Asset Summary",
+        "singular": "Resumen del Activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusName": {
+        "original": "Asset Status Name",
+        "singular": "Nombre del Estado del Activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "statusChange": {
+        "original": "Status Change",
+        "singular": "Cambio de Estado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custodianName": {
+        "original": "Custodian Name",
+        "singular": "Nombre del Custodio",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changeOfCustodian": {
+        "original": "Change of Custodian",
+        "singular": "Cambio de Custodio",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "externalIdRemoved": {
+        "original": "External ID Removed",
+        "singular": "ID Externo Eliminado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "warrantyRemoved": {
+        "original": "Warranty Removed",
+        "singular": "Garantía Eliminada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serviceZoneRemoved": {
+        "original": "Service Zone Removed",
+        "singular": "Zona de Servicio Eliminada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custodianRemoved": {
+        "original": "Custodian Removed",
+        "singular": "Custodio Eliminado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "siteRemoved": {
+        "original": "Site Removed",
+        "singular": "Sitio Eliminado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerRemoved": {
+        "original": "Customer Removed",
+        "singular": "Cliente Eliminado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "streetRemoved": {
+        "original": "Street Removed",
+        "singular": "Calle Eliminada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "cityRemoved": {
+        "original": "City Removed",
+        "singular": "Ciudad Eliminada",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "stateRemoved": {
+        "original": "State Removed",
+        "singular": "Estado Eliminado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "countryRemoved": {
+        "original": "Country Removed",
+        "singular": "País Eliminado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "externalIdUpdate": {
+        "original": "External ID Update",
+        "singular": "Actualización de ID Externo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "changeOfAddress": {
+        "original": "Change of Address",
+        "singular": "Cambio de Dirección",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "nameUpdate": {
+        "original": "Name Update",
+        "singular": "Actualización de Nombre",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "siteUpdate": {
+        "original": "Site Update",
+        "singular": "Actualización del Sitio",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "customerUpdate": {
+        "original": "Customer Update",
+        "singular": "Actualización del Cliente",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serviceZoneChange": {
+        "original": "Service Zone Change",
+        "singular": "Cambio de Zona de Servicio",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serviceZoneName": {
+        "original": "Service Zone Name",
+        "singular": "Nombre de la Zona de Servicio",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "siteName": {
+        "original": "Site Name",
+        "singular": "Nombre del Sitio",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "configureQrBarcodeInAssetSetup": "Para configurar un código QR o de barras, vaya a Configuración de Activos en el Setup",
+      "resetMeterForLowerReading": "Seleccione 'Restablecer Contador' si la nueva lectura del medidor es menor que la lectura actual",
+      "futureDateTimeEntryNotAllowed": "No se puede hacer una entrada para una fecha y hora futura",
+      "maintenanceAppliesToAllContractAssets": "Este Mantenimiento se aplicará a todos los Activos dentro de este Contrato",
+      "errorFetchingAssetDetails": "Error al recuperar los detalles del activo",
+      "noAssetsFound": "No se encontraron Activos",
+      "noScheduledMaintenance": "No hay Mantenimiento Programado",
+      "noPriorMaintenance": "No hay Mantenimientos Previos",
+      "noUpcomingJobs": "No hay Trabajos Próximos",
+      "previously": "Previamente",
+      "from": "Desde",
+      "warrantyStartDate": "La fecha de inicio de la garantía no debe ser mayor que la fecha de finalización de la garantía",
+      "errorFetchingAllAssets": "Error al recuperar todos los activos",
+      "errorOccuredWhileFetchingAccessories": "Error al obtener los accesorios"
+    }
   },
   "assetLog": {
     "setupVisible": true,
@@ -1951,299 +1951,299 @@
     "messages": {}
   },
   "contracts": {
+    "setupVisible": true,
+    "setupEdit": true,
+    "label": {
+      "original": "Contract",
+      "singular": "Contrato",
+      "plural": "Contratos",
+      "setupEdit": true,
+      "setupVisible": true
+    },
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Detalles Generales",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Contract Details",
+        "singular": "Detalles del Contrato",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec4": {
+        "original": "Select an asset to be added to the contract",
+        "singular": "Seleccione un activo para agregar al contrato",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec5": {
+        "original": "Select an accessory to be added to the contract",
+        "singular": "Seleccione un accesorio para agregar al contrato",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec6": {
+        "original": "Select Bin to transfer from",
+        "singular": "Seleccione el contenedor desde el cual transferir",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec7": {
+        "original": "Details",
+        "singular": "Detalles",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec8": {
+        "original": "Filter By",
+        "singular": "Filtrar Por",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec9": {
+        "original": "Contract Validity",
+        "singular": "Validez del Contrato",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec10": {
+        "original": "Cancel Contract",
+        "singular": "Cancelar Contrato",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec11": {
+        "original": "Contract Item Details",
+        "singular": "Detalles del Ítem del Contrato",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
       "setupVisible": true,
       "setupEdit": true,
-      "label": {
-        "original": "Contract",
-        "singular": "Contrato",
-        "plural": "Contratos",
+      "status": {
+        "original": "Status",
+        "singular": "Estado",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "custodian": {
+        "original": "Custodian",
+        "singular": "Custodio",
+        "plural": "",
         "setupEdit": true,
         "setupVisible": true
       },
-      "sections": {
-        "setupVisible": false,
+      "startDate": {
+        "original": "Start Date",
+        "singular": "Fecha de Inicio",
+        "plural": "",
         "setupEdit": false,
-        "sec0": {
-          "original": "General Details",
-          "singular": "Detalles Generales",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec1": {
-          "original": "Contract Details",
-          "singular": "Detalles del Contrato",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec4": {
-          "original": "Select an asset to be added to the contract",
-          "singular": "Seleccione un activo para agregar al contrato",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec5": {
-          "original": "Select an accessory to be added to the contract",
-          "singular": "Seleccione un accesorio para agregar al contrato",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec6": {
-          "original": "Select Bin to transfer from",
-          "singular": "Seleccione el contenedor desde el cual transferir",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec7": {
-          "original": "Details",
-          "singular": "Detalles",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec8": {
-          "original": "Filter By",
-          "singular": "Filtrar Por",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec9": {
-          "original": "Contract Validity",
-          "singular": "Validez del Contrato",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec10": {
-          "original": "Cancel Contract",
-          "singular": "Cancelar Contrato",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "sec11": {
-          "original": "Contract Item Details",
-          "singular": "Detalles del Ítem del Contrato",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        }
+        "setupVisible": false
       },
-      "fields": {
-        "setupVisible": true,
+      "endDate": {
+        "original": "End Date",
+        "singular": "Fecha de Finalización",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "refNo": {
+        "original": "Ref No",
+        "singular": "No de Ref.",
+        "plural": "",
         "setupEdit": true,
-        "status": {
-          "original": "Status",
-          "singular": "Estado",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "custodian": {
-          "original": "Custodian",
-          "singular": "Custodio",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "startDate": {
-          "original": "Start Date",
-          "singular": "Fecha de Inicio",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "endDate": {
-          "original": "End Date",
-          "singular": "Fecha de Finalización",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "refNo": {
-          "original": "Ref No",
-          "singular": "No de Ref.",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
-        },
-        "assetName": {
-          "original": "Asset Name",
-          "singular": "Nombre del Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "assetCode": {
-          "original": "Asset Code",
-          "singular": "Código del Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "accessoryName": {
-          "original": "Accessory Name",
-          "singular": "Nombre del Accesorio",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "accessoryCode": {
-          "original": "Accessory Code",
-          "singular": "Código del Accesorio",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "serialNo": {
-          "original": "Serial No",
-          "singular": "No de Serie",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "serialNumber": {
-          "original": "Serial Number",
-          "singular": "Número de Serie",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "bin": {
-          "original": "Bin",
-          "singular": "Contenedor",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "available": {
-          "original": "Available",
-          "singular": "Disponible",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "qty": {
-          "original": "Qty",
-          "singular": "Cant.",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "quantity": {
-          "original": "Quantity",
-          "singular": "Cantidad",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "returnQty": {
-          "original": "Return Quantity",
-          "singular": "Cantidad a Devolver",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "updateInventory": {
-          "original": "Update Inventory",
-          "singular": "Actualizar Inventario",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "active": {
-          "original": "Active",
-          "singular": "Activo",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "contractItemNo": {
-          "original": "Contract Item No.",
-          "singular": "No. de Artículo del Contrato",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "transferredFromBin": {
-          "original": "Transferred from Bin",
-          "singular": "Transferido desde el Contenedor",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "type": {
-          "original": "Type",
-          "singular": "Tipo",
-          "plural": "Tipos",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "contractItemId": {
-          "original": "Contract Item ID",
-          "singular": "ID de Artículo del Contrato",
-          "plural": "IDs de Artículos del Contrato",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "contractItem": {
-          "original": "Contract Item",
-          "singular": "Artículo del Contrato",
-          "plural": "Artículos del Contrato",
-          "setupEdit": false,
-          "setupVisible": false
-        },
-        "contractNo": {
-          "original": "Contract No.",
-          "singular": "No. del Contrato",
-          "plural": "No. del Contrato",
-          "setupEdit": false,
-          "setupVisible": false
-        }
+        "setupVisible": true
       },
-      "validationFE": {},
-      "validationBE": {
-        "contractNotFound": "Contrato no encontrado",
-        "contractHasMaintenance": "Los datos de mantenimiento existen en el sistema para el contrato",
-        "contractCustomerNotFound": "Cliente del contrato no encontrado",
-        "contractStatusNotFound": "Estado del contrato no válido",
-        "contractAssetsNotFound": "Activos del contrato no encontrados",
-        "contractTableSetupNotFound": "Configuración de la tabla de contratos no encontrada, por favor contacte al soporte",
-        "contractContactNotFound": "Contacto del contrato no encontrado",
-        "contractIdNotFound": "ID no encontrado",
-        "contractIdExists": "Un nuevo contrato no puede tener ya un ID",
-        "contractPriceBookNotFound": "Libro de precios del contrato no encontrado",
-        "contractPriceBookIdNotFound": "ID del libro de precios del contrato no encontrada",
-        "contractPriceBookUpdateFailed": "Error al actualizar el libro de precios del contrato"
-      },
-      "tooltips": {
-        "setupVisible": false,
+      "assetName": {
+        "original": "Asset Name",
+        "singular": "Nombre del Activo",
+        "plural": "",
         "setupEdit": false,
-        "contractLookup": {
-          "original": "Contracts Lookup",
-          "singular": "Búsqueda de Contratos",
-          "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
-        }
+        "setupVisible": false
       },
-      "messages": {
-        "pleaseSelectAccessoryName": "Por favor, seleccione un nombre de accesorio",
-        "selectCustomerFirst": "Seleccione primero un cliente",
-        "contractItems": "Artículos del Contrato",
-        "contractItem": "Artículo del Contrato",
-        "errorFetchingAllContractItems": "Error al obtener todos los artículos del contrato.",
-        "errorFetchingContractData": "Ocurrió un error al obtener los datos del contrato",
-        "selectedQtyGreater": "La 'Cantidad' seleccionada es mayor que la 'Cantidad Disponible'",
-        "removeItems": "Eliminar elementos que deben ser devueltos",
-        "pleaseSelectAssetName": "Por favor, seleccione un nombre de activo",
-        "qtyGreaterThanZero": "La cantidad debe ser mayor que 0"
+      "assetCode": {
+        "original": "Asset Code",
+        "singular": "Código del Activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "accessoryName": {
+        "original": "Accessory Name",
+        "singular": "Nombre del Accesorio",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "accessoryCode": {
+        "original": "Accessory Code",
+        "singular": "Código del Accesorio",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNo": {
+        "original": "Serial No",
+        "singular": "No de Serie",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "serialNumber": {
+        "original": "Serial Number",
+        "singular": "Número de Serie",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "bin": {
+        "original": "Bin",
+        "singular": "Contenedor",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "available": {
+        "original": "Available",
+        "singular": "Disponible",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "qty": {
+        "original": "Qty",
+        "singular": "Cant.",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "quantity": {
+        "original": "Quantity",
+        "singular": "Cantidad",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "returnQty": {
+        "original": "Return Quantity",
+        "singular": "Cantidad a Devolver",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "updateInventory": {
+        "original": "Update Inventory",
+        "singular": "Actualizar Inventario",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "active": {
+        "original": "Active",
+        "singular": "Activo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractItemNo": {
+        "original": "Contract Item No.",
+        "singular": "No. de Artículo del Contrato",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "transferredFromBin": {
+        "original": "Transferred from Bin",
+        "singular": "Transferido desde el Contenedor",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "type": {
+        "original": "Type",
+        "singular": "Tipo",
+        "plural": "Tipos",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractItemId": {
+        "original": "Contract Item ID",
+        "singular": "ID de Artículo del Contrato",
+        "plural": "IDs de Artículos del Contrato",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractItem": {
+        "original": "Contract Item",
+        "singular": "Artículo del Contrato",
+        "plural": "Artículos del Contrato",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractNo": {
+        "original": "Contract No.",
+        "singular": "No. del Contrato",
+        "plural": "No. del Contrato",
+        "setupEdit": false,
+        "setupVisible": false
       }
+    },
+    "validationFE": {},
+    "validationBE": {
+      "contractNotFound": "Contrato no encontrado",
+      "contractHasMaintenance": "Los datos de mantenimiento existen en el sistema para el contrato",
+      "contractCustomerNotFound": "Cliente del contrato no encontrado",
+      "contractStatusNotFound": "Estado del contrato no válido",
+      "contractAssetsNotFound": "Activos del contrato no encontrados",
+      "contractTableSetupNotFound": "Configuración de la tabla de contratos no encontrada, por favor contacte al soporte",
+      "contractContactNotFound": "Contacto del contrato no encontrado",
+      "contractIdNotFound": "ID no encontrado",
+      "contractIdExists": "Un nuevo contrato no puede tener ya un ID",
+      "contractPriceBookNotFound": "Libro de precios del contrato no encontrado",
+      "contractPriceBookIdNotFound": "ID del libro de precios del contrato no encontrada",
+      "contractPriceBookUpdateFailed": "Error al actualizar el libro de precios del contrato"
+    },
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "contractLookup": {
+        "original": "Contracts Lookup",
+        "singular": "Búsqueda de Contratos",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "messages": {
+      "pleaseSelectAccessoryName": "Por favor, seleccione un nombre de accesorio",
+      "selectCustomerFirst": "Seleccione primero un cliente",
+      "contractItems": "Artículos del Contrato",
+      "contractItem": "Artículo del Contrato",
+      "errorFetchingAllContractItems": "Error al obtener todos los artículos del contrato.",
+      "errorFetchingContractData": "Ocurrió un error al obtener los datos del contrato",
+      "selectedQtyGreater": "La 'Cantidad' seleccionada es mayor que la 'Cantidad Disponible'",
+      "removeItems": "Eliminar elementos que deben ser devueltos",
+      "pleaseSelectAssetName": "Por favor, seleccione un nombre de activo",
+      "qtyGreaterThanZero": "La cantidad debe ser mayor que 0"
+    }
   },
   "contractMaintenance": {
     "setupVisible": false,
@@ -5072,7 +5072,7 @@
       "soRequiresMinimumOneProduct": "La orden de venta requiere al menos una pieza de repuesto"
     }
   },
- "project": {
+  "project": {
     "setupEdit": false,
     "setupVisible": false,
     "label": {
@@ -5083,7 +5083,7 @@
       "setupVisible": true
     },
     "sections": {
-    "setupEdit": false,
+      "setupEdit": false,
       "setupVisible": false,
       "sec0": {
         "original": "General Details",
@@ -5157,7 +5157,7 @@
         "singular": "ID Externo",
         "plural": "",
         "setupEdit": true,
-      "setupVisible": true
+        "setupVisible": true
       },
       "secExtId": {
         "original": "Second External ID",
@@ -5220,7 +5220,7 @@
         "singular": "N.º de Referencia",
         "plural": "",
         "setupEdit": true,
-      "setupVisible": true
+        "setupVisible": true
       },
       "status": {
         "original": "Status",
@@ -5288,7 +5288,7 @@
       "projectCannotDeleteByTaskTemplates": "No se puede eliminar, el proyecto se utiliza en una o más plantillas de tareas"
     },
     "tooltips": {
-        "setupEdit": false,
+      "setupEdit": false,
       "setupVisible": false,
       "projectLookup": {
         "original": "Project Lookup",
@@ -5738,8 +5738,7 @@
       "ticketHasTicketType": "Los datos de Tipo de Ticket existen en el sistema para el Ticket",
       "ticketTypeSystemGenerated": "Los Tipos de Ticket generados por el sistema no pueden ser eliminados",
       "ticketTypeIdExists": "Un nuevo Tipo de Ticket no puede ya tener un ID",
-      "slaTicketIdExists": "Un nuevo SlaTicket no puede ya tener un ID",
-      "ticketDuplicateTicketCannotBeSameAsTicket": "El ticket duplicado no puede ser el mismo que el ticket original"
+      "slaTicketIdExists": "Un nuevo SlaTicket no puede ya tener un ID"
     },
     "tooltips": {
       "setupVisible": true,
@@ -5765,7 +5764,7 @@
       "this": "Esto"
     }
   },
-"jobOrder": {
+  "jobOrder": {
     "setupVisible": true,
     "setupEdit": true,
     "label": {
@@ -6122,40 +6121,40 @@
         "setupVisible": true
       },
       "sec49": {
-            "original": "Equipment",
-            "singular": "Equipo",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec50": {
-            "original": "Fault Module",
-            "singular": "Módulo de fallos",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec51": {
-            "original": "Questions",
-            "singular": "Preguntas",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec52": {
-            "original": "Fault Call Unit",
-            "singular": "Unidad de llamada de fallos",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        },
-        "sec53": {
-            "original": "Order Details",
-            "singular": "Detalles del pedido",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-        }
+        "original": "Equipment",
+        "singular": "Equipo",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec50": {
+        "original": "Fault Module",
+        "singular": "Módulo de fallos",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec51": {
+        "original": "Questions",
+        "singular": "Preguntas",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec52": {
+        "original": "Fault Call Unit",
+        "singular": "Unidad de llamada de fallos",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec53": {
+        "original": "Order Details",
+        "singular": "Detalles del pedido",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
     },
     "fields": {
       "setupVisible": true,
@@ -8406,14 +8405,14 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-    },
-    "charges": {
+      },
+      "charges": {
         "original": "Charges",
         "singular": "Cargos",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
-    }
+      }
     },
     "validationFE": {
       "endDateThanStartDate": "La fecha de finalización debe ser posterior a la fecha de inicio",
@@ -8541,391 +8540,391 @@
     }
   },
   "inventory": {
-      "setupEdit": false,
+    "setupEdit": false,
     "setupVisible": false,
     "label": {
       "original": "Inventory",
       "singular": "Lager",
       "plural": "Lager",
-        "setupEdit": false,
-        "setupVisible": false
+      "setupEdit": false,
+      "setupVisible": false
     },
     "sections": {
       "setupEdit": false,
-        "setupVisible": false,
+      "setupVisible": false,
       "sec0": {
         "original": "General Details",
         "singular": "Detalles Generales",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec1": {
         "original": "Inventory Details",
         "singular": "Detalles del Lager",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec2": {
         "original": "Spare Part available in other locations",
         "singular": "Repuesto disponible en otras ubicaciones",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec3": {
         "original": "Select where to check",
         "singular": "Seleccione dónde verificar",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec4": {
         "original": "Select what to check",
         "singular": "Seleccione qué verificar",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec5": {
         "original": "Contact Details",
         "singular": "Detalles de Contacto",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec6": {
         "original": "Bin Details",
         "singular": "Detalles del Contenedor",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec7": {
         "original": "Transfer Details Spare Part",
         "singular": "Detalles de Transferencia de Repuesto",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec8": {
         "original": "Transfer Details",
         "singular": "Detalles de Transferencia",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec9": {
         "original": "Assignee Details",
         "singular": "Detalles del Asignado",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec10": {
         "original": "Transferred Items",
         "singular": "Artículos Transferidos",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec11": {
         "original": "Adjust an Asset",
         "singular": "Ajustar un Activo",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec12": {
         "original": "Adjust a Spare Part",
         "singular": "Ajustar un Repuesto",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec13": {
         "original": "Details",
         "singular": "Detalles",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec14": {
         "original": "Filter By",
         "singular": "Filtrar Por",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec15": {
         "original": "Adjust Inventory",
         "singular": "Ajustar el Lager",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "sec16": {
         "original": "Check availability",
         "singular": "Verificar disponibilidad",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
-        "setupEdit": false,
-        "setupVisible": false,
+      "setupEdit": false,
+      "setupVisible": false,
       "binLocation": {
         "original": "Bin Location",
         "singular": "Ubicación del Contenedor",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "available": {
         "original": "Available",
         "singular": "Disponible",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyIn": {
         "original": "Quantity In",
         "singular": "Cantidad Entrante",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyOut": {
         "original": "Quantity Out",
         "singular": "Cantidad Saliente",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "adjusted": {
         "original": "Adjusted",
         "singular": "Ajustado",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "reorderQty": {
         "original": "Reorder Quantity",
         "singular": "Cantidad de Reorden",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "understock": {
         "original": "Understock",
         "singular": "Bajo Stock",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "note": {
         "original": "Note",
         "singular": "Nota",
         "plural": "Notas",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "inventoryNo": {
         "original": "Inventory No",
         "singular": "No de Lager",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qty": {
         "original": "Qty",
         "singular": "Cant.",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyAvail": {
         "original": "Qty Available",
         "singular": "Cant. Disponible",
         "plural": "",
-          "setupEdit": false,
+        "setupEdit": false,
         "setupVisible": false
       },
       "qtyAvailable": {
         "original": "Quantity Available",
         "singular": "Cantidad Disponible",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "qtyTransfer": {
         "original": "Quantity to Transfer",
         "singular": "Cantidad a Transferir",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "reorderPoint": {
         "original": "Reorder Point",
         "singular": "Punto de Reorden",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "zone": {
         "original": "Zone",
         "singular": "Zona",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "bin": {
         "original": "Bin",
         "singular": "Contenedor",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "fromBin": {
         "original": "From Bin",
         "singular": "Desde el Contenedor",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "toBin": {
         "original": "To Bin",
         "singular": "Al Contenedor",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "displayName": {
         "original": "Display Name",
         "singular": "Nombre a Mostrar",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "userName": {
         "original": "User Name",
         "singular": "Nombre de Usuario",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferNo": {
         "original": "Transfer No.",
         "singular": "No. de Transferencia",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "date": {
         "original": "Date",
         "singular": "Fecha",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "referenceNumber": {
         "original": "Reference Number",
         "singular": "Número de Referencia",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "type": {
         "original": "Type",
         "singular": "Tipo",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferredBy": {
         "original": "Transferred By",
         "singular": "Transferido Por",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assignedStatus": {
         "original": "Assigned Status",
         "singular": "Estado Asignado",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assignedTo": {
         "original": "Assigned To",
         "singular": "Asignado A",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "transferredDateTime": {
         "original": "Transferred Date & Time",
         "singular": "Fecha y Hora de Transferencia",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "acceptRejectBy": {
         "original": "Accepted/Rejected By",
         "singular": "Aceptado/Rechazado Por",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "remarks": {
         "original": "Remarks",
         "singular": "Observación",
         "plural": "Observaciones",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "assetType": {
         "original": "Asset Type",
         "singular": "Tipo de Activo",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "productType": {
         "original": "Spare Part Type",
         "singular": "Tipo de Repuesto",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "productFamily": {
         "original": "Spare Part Family",
         "singular": "Familia de Repuestos",
         "plural": "",
-          "setupEdit": false,
-          "setupVisible": false
+        "setupEdit": false,
+        "setupVisible": false
       },
       "productName": {
         "original": "Spare Part Name",
         "singular": "Nombre del Repuesto",
         "plural": "",
-          "setupEdit": false,
+        "setupEdit": false,
         "setupVisible": false
       },
       "productSku": {
         "original": "Spare Part SKU",
         "singular": "SKU del Repuesto",
         "plural": "",
-          "setupEdit": false,
+        "setupEdit": false,
         "setupVisible": false
       },
       "assetName": {
         "original": "Asset Name",
         "singular": "Nombre del Activo",
         "plural": "",
-          "setupEdit": false,
+        "setupEdit": false,
         "setupVisible": false
       }
     },
@@ -9175,7 +9174,7 @@
       "binHasInventoryNotAllowedChangeZoneOrLocation": "No se puede cambiar la zona/ubicación del contenedor cuando tiene inventario"
     }
   },
-"binTransfer": {
+  "binTransfer": {
     "setupVisible": false,
     "label": {
       "original": "Bin Transfer",
@@ -9262,35 +9261,35 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-        },
-        "sec11": {
-            "original": "Locate",
-            "singular": "Localizar",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-        },
-        "sec12": {
-            "original": "Movement History",
-            "singular": "Historial de movimientos",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-        },
-        "sec13": {
-            "original": "Asset(s) to Transfer",
-            "singular": "Activo(s) a transferir",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-        },
-        "sec14": {
-            "original": "Part(s) to Transfer",
-            "singular": "Parte(s) a transferir",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": true
-        }
+      },
+      "sec11": {
+        "original": "Locate",
+        "singular": "Localizar",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec12": {
+        "original": "Movement History",
+        "singular": "Historial de movimientos",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec13": {
+        "original": "Asset(s) to Transfer",
+        "singular": "Activo(s) a transferir",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "sec14": {
+        "original": "Part(s) to Transfer",
+        "singular": "Parte(s) a transferir",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      }
     },
     "fields": {
       "setupVisible": true,
@@ -9509,7 +9508,7 @@
       "assetsAreNotAllowedToTransfer": "No se permite transferir activos a la orden de trabajo"
     }
   },
-"checkAvailibility": {
+  "checkAvailibility": {
     "setupVisible": false,
     "label": {
       "original": "Check availability",
@@ -9539,14 +9538,14 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-    },
-    "sec3": {
+      },
+      "sec3": {
         "original": "Select Asset(s)",
         "singular": "Seleccionar activo",
         "plural": "",
         "setupEdit": true,
         "setupVisible": true
-    }
+      }
     },
     "fields": {
       "choose": {
@@ -10893,11 +10892,11 @@
         "setupVisible": true
       },
       "showLess": {
-          "original": "Show Less",
-          "singular": "Mostrar menos",
-          "plural": "",
-          "setupEdit": true,
-          "setupVisible": true
+        "original": "Show Less",
+        "singular": "Mostrar menos",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
       },
       "select": {
         "original": "SELECT",
@@ -12485,32 +12484,32 @@
         "setupVisible": false
       },
       "low": {
-          "original": "Low",
-          "singular": "Bajo",
-          "plural": "Bajo",
-          "setupEdit": false,
-          "setupVisible": false
+        "original": "Low",
+        "singular": "Bajo",
+        "plural": "Bajo",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "medium": {
-          "original": "Medium",
-          "singular": "Medio",
-          "plural": "Medio",
-          "setupEdit": false,
-          "setupVisible": false
+        "original": "Medium",
+        "singular": "Medio",
+        "plural": "Medio",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "high": {
-          "original": "High",
-          "singular": "Alto",
-          "plural": "Alto",
-          "setupEdit": false,
-          "setupVisible": false
+        "original": "High",
+        "singular": "Alto",
+        "plural": "Alto",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "submitted": {
-          "original": "Submitted",
-          "singular": "Enviado",
-          "plural": "Enviado",
-          "setupEdit": false,
-          "setupVisible": false
+        "original": "Submitted",
+        "singular": "Enviado",
+        "plural": "Enviado",
+        "setupEdit": false,
+        "setupVisible": false
       },
       "messages": {
         "forIncompleteChecklists": "Para que las listas de verificación incompletas se actualicen en el futuro. No se activarán trabajos ni tareas utilizando este estado.",
@@ -20473,275 +20472,275 @@
       }
     },
     "workflows": {
+      "setupEdit": false,
+      "setupVisible": false,
+      "label": {
+        "original": "Workflows",
+        "singular": "Flujo de Trabajo",
+        "plural": "Flujos de Trabajo",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sections": {
         "setupEdit": false,
         "setupVisible": false,
-        "label": {
-          "original": "Workflows",
-          "singular": "Flujo de Trabajo",
-          "plural": "Flujos de Trabajo",
+        "sec0": {
+          "original": "1. Workflow Details",
+          "singular": "1. Detalles del flujo de trabajo",
+          "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
-        "sections": {
-          "setupEdit": false,
-          "setupVisible": false,
-          "sec0": {
-            "original": "1. Workflow Details",
-            "singular": "1. Detalles del flujo de trabajo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
         "sec1": {
-            "original": "Give your workflow a name and choose the module where this workflow will be triggered",
-            "singular": "Nombra tu flujo de trabajo y selecciona el módulo donde se activará este flujo de trabajo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
+          "original": "Give your workflow a name and choose the module where this workflow will be triggered",
+          "singular": "Nombra tu flujo de trabajo y selecciona el módulo donde se activará este flujo de trabajo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
         "sec2": {
-            "original": "2. When should the workflow start?",
-            "singular": "2. ¿Cuándo debería comenzar el flujo de trabajo?",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
+          "original": "2. When should the workflow start?",
+          "singular": "2. ¿Cuándo debería comenzar el flujo de trabajo?",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
         "sec3": {
-            "original": "Choose when the workflow should run",
-            "singular": "Elige cuándo debería ejecutarse el flujo de trabajo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec4": {
-            "original": "3. Specify the conditions to be met",
-            "singular": "3. Especifica las condiciones a cumplir",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec5": {
-            "original": "Set the rules and combine conditions that will trigger this workflow (e.g., 'Status equal to Completed' AND 'Type equal to Installation'). Use AND/OR to create the right combination of conditions.",
-            "singular": "Establece las reglas y combina condiciones que activarán este flujo de trabajo (por ejemplo, 'Estado igual a Completado' Y 'Tipo igual a Instalación'). Usa Y/O para crear la combinación correcta de condiciones.",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec6": {
-            "original": "4. Set Workflow Actions",
-            "singular": "4. Configurar acciones del flujo de trabajo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec7": {
-            "original": "Add Notification",
-            "singular": "Añadir Notificación",
-            "plural": "Añadir Notificaciones",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec8": {
-            "original": "Send Test Email",
-            "singular": "Enviar Correo Electrónico de Prueba",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec9": {
-            "original": "Confirm Notification Deletion",
-            "singular": "Confirmar Eliminación de Notificación",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec10": {
-            "original": "Confirm Removal of App Notification",
-            "singular": "Confirmar Eliminación de Notificación de la Aplicación",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec11": {
-            "original": "Confirm Email Template Deletion",
-            "singular": "Confirmar Eliminación de la Plantilla de Correo Electrónico",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec12": {
-            "original": "Confirm Workflow Deletion",
-            "singular": "Confirmar Eliminación del Flujo de Trabajo",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec13": {
-            "original": "Confirm Module Change",
-            "singular": "Confirmar Cambio de Módulo",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec14": {
-            "original": "Confirm Action Removal",
-            "singular": "Confirmar Eliminación de la Acción",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec15": {
-            "original": "How conditions work",
-            "singular": "Cómo funcionan las condiciones",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          },
-          "sec16": {
-              "original": "When setting up a condition, you just need to follow three easy steps:",
-              "singular": "Al configurar una condición, solo necesitas seguir tres sencillos pasos:",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
-          },
-          "sec17": {
-              "original": "Attribute",
-              "singular": "Atributo",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
-          },
-          "sec18": {
-              "original": "Operator",
-              "singular": "Operador",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
-          },
-          "sec19": {
-              "original": "Value",
-              "singular": "Valor",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
-          },
-          "sec20": {
-              "original": "For more complex conditions...",
-              "singular": "Para condiciones más complejas...",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
-          },
-          "sec21": {
-              "original": "How AND/OR Conditions Work:",
-              "singular": "Cómo funcionan las condiciones Y/O:",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
-          },
-          "sec22": {
-              "original": "Using Groups of Conditions:",
-              "singular": "Uso de grupos de condiciones:",
-              "plural": "",
-              "setupEdit": false,
-              "setupVisible": false
-          },
-          "sec23": {
-              "original": "Conditions",
-              "singular": "Condición",
-              "plural": "Condiciones",
-              "setupEdit": false,
-              "setupVisible": false
-          },
-          "sec24": {
-            "original": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
-            "singular": "Ahora, define qué acciones debe realizar el flujo de trabajo cuando se active. Puedes optar por enviar notificaciones por correo electrónico, mostrar mensajes en la aplicación o realizar otras acciones según las condiciones establecidas. Este paso asegura que se tomen las acciones correctas automáticamente cuando el flujo de trabajo se ejecute.",
-            "plural": "",
-            "setupEdit": false,
-            "setupVisible": false
-          }
+          "original": "Choose when the workflow should run",
+          "singular": "Elige cuándo debería ejecutarse el flujo de trabajo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         },
-        "fields": {
-          "setupVisible": false,
-          "name": {
-            "original": "Name",
-            "singular": "Nombre",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "module": {
-            "original": "Module",
-            "singular": "Módulo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "description": {
-            "original": "Description",
-            "singular": "Descripción",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "status": {
-            "original": "Status",
-            "singular": "Estado",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "recordCreated": {
-            "original": "Record created",
-            "singular": "Registro creado",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "recordUpdatedFirstTime": {
-            "original": "Record updated for first time",
-            "singular": "Registro actualizado por primera vez",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "recordUpdatedEverytime": {
-            "original": "Everytime record is updated",
-            "singular": "Cada vez que se actualiza el registro",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "recordDeleted": {
-            "original": "Record deleted",
-            "singular": "Registro eliminado",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "workflowAction": {
-            "original": "Workflow Actions",
-            "singular": "Acción del Flujo de Trabajo",
-            "plural": "Acciones del Flujo de Trabajo",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "workflowStart": {
-            "original": "Workflow Start",
-            "singular": "Inicio del flujo de trabajo",
-            "plural": "Inicio del flujo de trabajo",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "workflowDetails": {
-            "original": "Workflow Details",
-            "singular": "1. Detalles del flujo de trabajo",
-            "plural": "Detalles del flujo de trabajo",
-            "setupEdit": true,
-            "setupVisible": false
-          }
+        "sec4": {
+          "original": "3. Specify the conditions to be met",
+          "singular": "3. Especifica las condiciones a cumplir",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         },
-        "messages": {
+        "sec5": {
+          "original": "Set the rules and combine conditions that will trigger this workflow (e.g., 'Status equal to Completed' AND 'Type equal to Installation'). Use AND/OR to create the right combination of conditions.",
+          "singular": "Establece las reglas y combina condiciones que activarán este flujo de trabajo (por ejemplo, 'Estado igual a Completado' Y 'Tipo igual a Instalación'). Usa Y/O para crear la combinación correcta de condiciones.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec6": {
+          "original": "4. Set Workflow Actions",
+          "singular": "4. Configurar acciones del flujo de trabajo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec7": {
+          "original": "Add Notification",
+          "singular": "Añadir Notificación",
+          "plural": "Añadir Notificaciones",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec8": {
+          "original": "Send Test Email",
+          "singular": "Enviar Correo Electrónico de Prueba",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec9": {
+          "original": "Confirm Notification Deletion",
+          "singular": "Confirmar Eliminación de Notificación",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec10": {
+          "original": "Confirm Removal of App Notification",
+          "singular": "Confirmar Eliminación de Notificación de la Aplicación",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec11": {
+          "original": "Confirm Email Template Deletion",
+          "singular": "Confirmar Eliminación de la Plantilla de Correo Electrónico",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec12": {
+          "original": "Confirm Workflow Deletion",
+          "singular": "Confirmar Eliminación del Flujo de Trabajo",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec13": {
+          "original": "Confirm Module Change",
+          "singular": "Confirmar Cambio de Módulo",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec14": {
+          "original": "Confirm Action Removal",
+          "singular": "Confirmar Eliminación de la Acción",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec15": {
+          "original": "How conditions work",
+          "singular": "Cómo funcionan las condiciones",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "When setting up a condition, you just need to follow three easy steps:",
+          "singular": "Al configurar una condición, solo necesitas seguir tres sencillos pasos:",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec17": {
+          "original": "Attribute",
+          "singular": "Atributo",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec18": {
+          "original": "Operator",
+          "singular": "Operador",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec19": {
+          "original": "Value",
+          "singular": "Valor",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec20": {
+          "original": "For more complex conditions...",
+          "singular": "Para condiciones más complejas...",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec21": {
+          "original": "How AND/OR Conditions Work:",
+          "singular": "Cómo funcionan las condiciones Y/O:",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec22": {
+          "original": "Using Groups of Conditions:",
+          "singular": "Uso de grupos de condiciones:",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec23": {
+          "original": "Conditions",
+          "singular": "Condición",
+          "plural": "Condiciones",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec24": {
+          "original": "Now, define what actions the workflow should take when triggered. You can choose to send notifications via email, display in-app messages, or perform other actions based on the conditions you've set. This step ensures that the right actions are taken automatically when the workflow runs.",
+          "singular": "Ahora, define qué acciones debe realizar el flujo de trabajo cuando se active. Puedes optar por enviar notificaciones por correo electrónico, mostrar mensajes en la aplicación o realizar otras acciones según las condiciones establecidas. Este paso asegura que se tomen las acciones correctas automáticamente cuando el flujo de trabajo se ejecute.",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "fields": {
+        "setupVisible": false,
+        "name": {
+          "original": "Name",
+          "singular": "Nombre",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "module": {
+          "original": "Module",
+          "singular": "Módulo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "description": {
+          "original": "Description",
+          "singular": "Descripción",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Estado",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "recordCreated": {
+          "original": "Record created",
+          "singular": "Registro creado",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "recordUpdatedFirstTime": {
+          "original": "Record updated for first time",
+          "singular": "Registro actualizado por primera vez",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "recordUpdatedEverytime": {
+          "original": "Everytime record is updated",
+          "singular": "Cada vez que se actualiza el registro",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "recordDeleted": {
+          "original": "Record deleted",
+          "singular": "Registro eliminado",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "workflowAction": {
+          "original": "Workflow Actions",
+          "singular": "Acción del Flujo de Trabajo",
+          "plural": "Acciones del Flujo de Trabajo",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "workflowStart": {
+          "original": "Workflow Start",
+          "singular": "Inicio del flujo de trabajo",
+          "plural": "Inicio del flujo de trabajo",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "workflowDetails": {
+          "original": "Workflow Details",
+          "singular": "1. Detalles del flujo de trabajo",
+          "plural": "Detalles del flujo de trabajo",
+          "setupEdit": true,
+          "setupVisible": false
+        }
+      },
+      "messages": {
           "helpAutomateInternal": "Los flujos de trabajo le permiten configurar notificaciones automáticas basadas en condiciones específicas en cualquier módulo que elija. Puede personalizar las notificaciones para que se envíen como alertas en la aplicación o correos electrónicos:",
           "inAppNotifications": "Notificaciones en la aplicación:",
           "inAppNotificationsDesc": "Escriba mensajes personalizados para notificar a los usuarios de FieldEx directamente en la aplicación web o móvil cuando se cumplan las condiciones.",
@@ -20760,44 +20759,44 @@
           "noWorkflowActionsAvailable": "No hay acciones de flujo de trabajo disponibles. Haz clic en 'Añadir Notificación' para crear una.",
           "addExistingNotification": "Añadir notificación existente",
           "pleaseSelectOneTriggerEvent": "Por favor, seleccione al menos un evento desencadenante",
-            "ascending": "Ascendente",
-            "descending": "Descendente",
-            "haveNotCreateNotification": "¿Aún no has creado una notificación? Haz clic en el botón de abajo.",
-            "forEmailNotification": "Para notificaciones por correo electrónico, crea una plantilla de correo",
-            "here": "aquí",
-            "first": "primero",
-            "sendNotification": "Enviar notificación",
-            "email": "Correo electrónico",
-            "appNotification": "Notificación de la aplicación",
-            "updateField": "Actualizar campo",
-            "createTask": "Crear tarea",
-            "validateForm": "Validar formulario",
-            "pickWhatYoureChecking": "Elige lo que estás verificando (por ejemplo, 'Fecha')",
-            "chooseHowItCompares": "Elige cómo se compara (por ejemplo, 'es igual a')",
-            "enterTheDetailYouWant": "Ingresa el detalle que deseas (por ejemplo, '1 de marzo')",
-            "whatYoureChecking": "Lo que estás verificando (por ejemplo, 'Fecha' o 'Estado')",
-            "howItCompares": "Cómo se compara (por ejemplo, 'es igual a' o 'es después de')",
-            "theDetailYoureLookingFor": "El detalle que estás buscando (por ejemplo, '1 de marzo' o 'Completado')",
-            "meansAllConditionsMustBeTrue": "significa que todas las condiciones deben ser verdaderas para que se active el flujo de trabajo",
-            "egBothConditionsTrue": "Ejemplo: Si tanto 'El estado es Completado' como 'La fecha es el 1 de marzo' son verdaderos, el flujo de trabajo comenzará.",
-            "egEitherConditionsTrue": "Ejemplo: Si 'El estado es Completado' o 'La prioridad es alta', el flujo de trabajo comenzará.",
-            "youCanGroupConditions": "También puedes agrupar condiciones para crear reglas más complejas, combinando Y y O.",
-            "seeExample": "Ver ejemplo",
-            "example": "Ejemplo",
-            "youCanAlsoGroupConditions": "También puedes agrupar condiciones para crear reglas más complejas, combinando Y y O.",
-            "andOrConditionExample": "'(A O B) Y (C Y D Y E)' significa:",
-            "eitherAOrBMustBeTrue": "O A o B deben ser verdaderos,",
-            "andMustBeTrue": "y",
-            "allCDEMustBeTrue": "Todos C, D y E también deben ser verdaderos al mismo tiempo.",
-            "simpleBreakdown": "Desglose simple:",
-            "orPartGivesFlexibility": "La parte O te da flexibilidad:",
-            "andPartIsStrict": "La parte Y es estricta:",
-            "onlyOneThingNeedsToHappen": "Solo necesita suceder una cosa de ese grupo.",
-            "everythingInGroupMustHappen": "Todo en ese grupo debe suceder.",
-            "workflowHasNotBegun":"No se especificó un disparador de inicio.",
-            "clickHereToAdd":"Haga clic aquí para agregar."
-        }
-      },
+          "ascending": "Ascendente",
+          "descending": "Descendente",
+          "haveNotCreateNotification": "¿Aún no has creado una notificación? Haz clic en el botón de abajo.",
+          "forEmailNotification": "Para notificaciones por correo electrónico, crea una plantilla de correo",
+          "here": "aquí",
+          "first": "primero",
+          "sendNotification": "Enviar notificación",
+          "email": "Correo electrónico",
+          "appNotification": "Notificación de la aplicación",
+          "updateField": "Actualizar campo",
+          "createTask": "Crear tarea",
+          "validateForm": "Validar formulario",
+          "pickWhatYoureChecking": "Elige lo que estás verificando (por ejemplo, 'Fecha')",
+          "chooseHowItCompares": "Elige cómo se compara (por ejemplo, 'es igual a')",
+          "enterTheDetailYouWant": "Ingresa el detalle que deseas (por ejemplo, '1 de marzo')",
+          "whatYoureChecking": "Lo que estás verificando (por ejemplo, 'Fecha' o 'Estado')",
+          "howItCompares": "Cómo se compara (por ejemplo, 'es igual a' o 'es después de')",
+          "theDetailYoureLookingFor": "El detalle que estás buscando (por ejemplo, '1 de marzo' o 'Completado')",
+          "meansAllConditionsMustBeTrue": "significa que todas las condiciones deben ser verdaderas para que se active el flujo de trabajo",
+          "egBothConditionsTrue": "Ejemplo: Si tanto 'El estado es Completado' como 'La fecha es el 1 de marzo' son verdaderos, el flujo de trabajo comenzará.",
+          "egEitherConditionsTrue": "Ejemplo: Si 'El estado es Completado' o 'La prioridad es alta', el flujo de trabajo comenzará.",
+          "youCanGroupConditions": "También puedes agrupar condiciones para crear reglas más complejas, combinando Y y O.",
+          "seeExample": "Ver ejemplo",
+          "example": "Ejemplo",
+          "youCanAlsoGroupConditions": "También puedes agrupar condiciones para crear reglas más complejas, combinando Y y O.",
+          "andOrConditionExample": "'(A O B) Y (C Y D Y E)' significa:",
+          "eitherAOrBMustBeTrue": "O A o B deben ser verdaderos,",
+          "andMustBeTrue": "y",
+          "allCDEMustBeTrue": "Todos C, D y E también deben ser verdaderos al mismo tiempo.",
+          "simpleBreakdown": "Desglose simple:",
+          "orPartGivesFlexibility": "La parte O te da flexibilidad:",
+          "andPartIsStrict": "La parte Y es estricta:",
+          "onlyOneThingNeedsToHappen": "Solo necesita suceder una cosa de ese grupo.",
+          "everythingInGroupMustHappen": "Todo en ese grupo debe suceder.",
+          "workflowHasNotBegun":"No se especificó un disparador de inicio.",
+          "clickHereToAdd":"Haga clic aquí para agregar."
+      }
+    },
     "templates": {
       "setupVisible": false,
       "label": {
@@ -20807,7 +20806,7 @@
         "setupEdit": true,
         "setupVisible": false
       },
-    "email": {
+      "email": {
         "label": {
           "original": "Emails",
           "singular": "Correo Electrónico",
@@ -20844,42 +20843,42 @@
             "plural": "Cómo crear un correo electrónico",
             "setupEdit": true,
             "setupVisible": false
-        },
-        "sec4": {
+          },
+          "sec4": {
             "original": "To make it even better...",
             "singular": "Para hacerlo aún mejor...",
             "plural": "Para hacerlo aún mejor...",
             "setupEdit": true,
             "setupVisible": false
-        },
-        "sec5": {
+          },
+          "sec5": {
             "original": "Under 'Settings'",
             "singular": "Bajo 'Configuración'",
             "plural": "Bajo 'Configuración'",
             "setupEdit": true,
             "setupVisible": false
-        },
-        "sec6": {
+          },
+          "sec6": {
             "original": "In the message body",
             "singular": "En el cuerpo del mensaje",
             "plural": "En el cuerpo del mensaje",
             "setupEdit": true,
             "setupVisible": false
-        },
-        "sec7": {
+          },
+          "sec7": {
             "original": "In the message body you can",
             "singular": "En el cuerpo del mensaje puedes",
             "plural": "En el cuerpo del mensaje puedes",
             "setupEdit": true,
             "setupVisible": false
-        },
-        "sec8": {
+          },
+          "sec8": {
             "original": "Under 'Builder' you can",
             "singular": "Bajo 'Constructor' puedes",
             "plural": "Bajo 'Constructor' puedes",
             "setupEdit": true,
             "setupVisible": false
-        }
+          }
         },
         "fields": {
           "setupVisible": false,
@@ -20911,19 +20910,19 @@
           "addHeaderImage": "Añadir Imagen de Encabezado",
           "addFooterImage": "Añadir Imagen de Pie de Página",
           "sendSampleEmail": "Se enviará un correo electrónico de prueba a tu correo:",
-        "doYouWishToProceed": "¿Deseas continuar?",
-        "fillInYourEmailDetails": "Rellena los detalles de tu correo electrónico",
-        "giveItASubject": "Dale un asunto",
-        "typeOutYourEmailMessage": "Escribe tu mensaje de correo electrónico",
-        "thatsItYoureAllSet": "¡Eso es todo! ¡Estás listo!",
-        "addAHeaderFooterImage": "Agrega una imagen de encabezado/pie de página",
-        "copyFieldsToAutoFillWithFieldExData": "Copia campos para autocompletar con datos de FieldEx",
-        "addAButton": "Agregar un botón",
-        "addATable": "Agregar una tabla",
-        "fileSizeRestriction":"Restricción de Tamaño de Archivo",
-        "acceptedFileFormats":"Formatos de Archivo Aceptados",
-        "maxAllowedIs100Kb":"El tamaño máximo permitido del archivo es de 100kb.",
-        "onlyImgFormat":"Solo se admiten formatos JPEG, JPG y PNG"
+          "doYouWishToProceed": "¿Deseas continuar?",
+          "fillInYourEmailDetails": "Rellena los detalles de tu correo electrónico",
+          "giveItASubject": "Dale un asunto",
+          "typeOutYourEmailMessage": "Escribe tu mensaje de correo electrónico",
+          "thatsItYoureAllSet": "¡Eso es todo! ¡Estás listo!",
+          "addAHeaderFooterImage": "Agrega una imagen de encabezado/pie de página",
+          "copyFieldsToAutoFillWithFieldExData": "Copia campos para autocompletar con datos de FieldEx",
+          "addAButton": "Agregar un botón",
+          "addATable": "Agregar una tabla",
+          "fileSizeRestriction":"Restricción de Tamaño de Archivo",
+          "acceptedFileFormats":"Formatos de Archivo Aceptados",
+          "maxAllowedIs100Kb":"El tamaño máximo permitido del archivo es de 100kb.",
+          "onlyImgFormat":"Solo se admiten formatos JPEG, JPG y PNG"
         },
         "settings": {
           "label": {
@@ -21374,11 +21373,7 @@
       "setupUserShiftStartTimeNotFound": "Hora de inicio no encontrada para el turno",
       "setupUserShiftEndTimeNotFound": "Hora de finalización no encontrada para el turno",
       "setupUserShiftNotFound": "Turno de usuario no encontrado",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "No se puede cambiar la ubicación de la zona cuando hay un inventario",
-      "setupWorkflowDeleteAlertInUse":"La notificación se utiliza en uno o más flujos de trabajo",
-       "setupWorkflowIdValuesRequired":"Se requiere el valor del ID del flujo de trabajo",
-       "setupWorkflowLinkedToNotifications":"El flujo de trabajo tiene notificaciones asignadas. Por favor, elimínelas primero",
-       "setupWorkflowMaxAllowedCount": "Se ha alcanzado el máximo de flujos de trabajo activos"
+      "setupZoneHasInventoryNotAllowedChangeLocation": "No se puede cambiar la ubicación de la zona cuando hay un inventario"
     },
     "labelBE": {
       "profileTableColumnSetup": {
@@ -22669,611 +22664,611 @@
       }
     },
     "chubb": {
-        "label": {
-          "original": "Chubb",
-          "singular": "Chubb",
-          "plural": "Chubb",
+      "label": {
+        "original": "Chubb",
+        "singular": "Chubb",
+        "plural": "Chubb",
+        "setupEdit": true,
+        "setupVisible": false
+      },
+      "sections": {
+        "setupVisible": false,
+        "sec0": {
+          "original": "Total Task By Team",
+          "singular": "Total de tareas por equipo",
+          "plural": "",
           "setupEdit": true,
           "setupVisible": false
         },
-        "sections": {
-          "setupVisible": false,
-          "sec0": {
-            "original": "Total Task By Team",
-            "singular": "Total de tareas por equipo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec1": {
-            "original": "Total Task Status By Team",
-            "singular": "Estado total de tareas por equipo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec2": {
-            "original": "Team",
-            "singular": "Equipo",
-            "plural": "Equipos",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec3": {
-            "original": "Journey Details",
-            "singular": "Detalles del viaje",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec4": {
-            "original": "Driver's Supervisor Submit and Approval",
-            "singular": "Envío y aprobación del supervisor del conductor",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec5": {
-            "original": "Vehicle Details",
-            "singular": "Detalles del vehículo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec6": {
-            "original": "Vehicle Inspection",
-            "singular": "Inspección del vehículo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec7": {
-            "original": "Fluids",
-            "singular": "Fluidos",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec8": {
-            "original": "Vehicle Interior & Equipment",
-            "singular": "Interior y equipo del vehículo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec9": {
-            "original": "Functional Check before Start of Journey",
-            "singular": "Verificación funcional antes del inicio del viaje",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec10": {
-            "original": "Central",
-            "singular": "Central",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec11": {
-            "original": "Northern",
-            "singular": "Norte",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec12": {
-            "original": "Southern",
-            "singular": "Sur",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec13": {
-            "original": "Sabah & Sarawak",
-            "singular": "Sabah y Sarawak",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec14": {
-            "original": "East Coast",
-            "singular": "Costa Este",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec15": {
-            "original": "All Nation",
-            "singular": "Toda la nación",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec16": {
-            "original": "Journey Management Plan",
-            "singular": "Plan de gestión del viaje",
-            "plural": "Plan de gestión del viaje",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "sec17": {
-            "original": "Chubb Dashboard",
-            "singular": "Panel de control de Chubb",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          }
+        "sec1": {
+          "original": "Total Task Status By Team",
+          "singular": "Estado total de tareas por equipo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         },
-        "fields": {
-          "setupVisible": false,
-          "openTask": {
-            "original": "Open Task",
-            "singular": "Tarea Abierta",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "closedTask": {
-            "original": "Closed Task",
-            "singular": "Tarea Cerrada",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "pendingTask": {
-                "original": "Pending Task",
-                "singular": "Tarea pendiente",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-            },
-            "incompleteTask": {
-                "original": "Incomplete Task",
-                "singular": "Tarea incompleta",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-            },
-            "completedTask": {
-                "original": "Completed Task",
-                "singular": "Tarea completada",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-            },
-          "noJobStatusTeam": {
-            "original": "No Job Status by this team yet",
-            "singular": "Aún no hay estado de trabajo para este equipo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "timeframe": {
-            "original": "Timeframe",
-            "singular": "Periodo de Tiempo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "timeFrame": {
-            "original": "Time Frame",
-            "singular": "Intervalo de Tiempo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "technician": {
-            "original": "Technician",
-            "singular": "Técnico",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "status": {
-            "original": "Status",
-            "singular": "Estado",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "descofTrip": {
-            "original": "Description of Trip",
-            "singular": "Descripción del Viaje",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "locationTravel": {
-            "original": "Location of Travel",
-            "singular": "Ubicación del Viaje",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "purposeOfTrip": {
-            "original": "Purpose of Trip",
-            "singular": "Propósito del Viaje",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "departureDate": {
-            "original": "Departure Date",
-            "singular": "Fecha de Salida",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "departureTime": {
-            "original": "Departure Time",
-            "singular": "Hora de Salida",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "returnDate": {
-            "original": "Return Date",
-            "singular": "Fecha de Regreso",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "returnTime": {
-            "original": "Return Time",
-            "singular": "Hora de Regreso",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "estimatedDistance": {
-            "original": "Estimated Distance (Km)",
-            "singular": "Distancia Estimada (Km)",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "submittedBy": {
-            "original": "Submitted By",
-            "singular": "Presentado Por",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "approvedBy": {
-            "original": "Approved By",
-            "singular": "Aprobado Por",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "nameOfDriverPassenger": {
-            "original": "Name of Driver/Passenger/Department",
-            "singular": "Nombre del Conductor/Pasajero/Departamento",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "nameOfCarPassengerTravel": {
-            "original": "Name of Car/Passenger/Travel Partners",
-            "singular": "Nombre del Coche/Pasajero/Compañeros de Viaje",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "nameOfAlternativeDrivers": {
-            "original": "Name of Alternative Drivers/ Mobile No.",
-            "singular": "Nombre de Conductores Alternativos/ Tel. Móvil",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "carRegisterNo": {
-            "original": "Car Reg No",
-            "singular": "Número de Registro del Coche",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "dateOfLastDefensiveDriving": {
-            "original": "Date of Last Defensive Driving",
-            "singular": "Fecha del Último Conducción Defensiva",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "dateOfCarLastMaintenance": {
-            "original": "Date of Car Last Maintenance",
-            "singular": "Fecha del Último Mantenimiento del Coche",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "validLicenseRoadTax": {
-            "original": "Valid License and Road Tax",
-            "singular": "Licencia y Impuesto de Circulación Válidos",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "externalVehicleCondition": {
-            "original": "External Vehicle Condition",
-            "singular": "Condición Externa del Vehículo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "conditionBodyworkWindscreen": {
-            "original": "Condition of bodywork, windscreen, lights",
-            "singular": "Condición de la Carrocería, Parabrisas, Luces",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "comment": {
-            "original": "Comment",
-            "singular": "Comentario",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "conditionsOfWiper": {
-            "original": "Condition of windscreen, wiper, blades",
-            "singular": "Condición del Parabrisas, Limpiaparabrisas, Cuchillas",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "conditionsOfTires": {
-            "original": "Condition of tires, tire pressure, tire wear",
-            "singular": "Condición de los Neumáticos, Presión de Neumáticos, Desgaste de Neumáticos",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "availabilityWheel": {
-            "original": "Availability of spare wheel, jack and tools",
-            "singular": "Disponibilidad de Rueda de Repuesto, Gato y Herramientas",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "underVehicleInspection": {
-            "original": "Under vehicle inspection: leaks, loose parts etc.",
-            "singular": "Inspección del Vehículo: Fugas, Piezas Sueltas, etc.",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "engineOilLevel": {
-            "original": "Engine oil level",
-            "singular": "Nivel de aceite del motor",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "coolantLevel": {
-            "original": "Coolant level",
-            "singular": "Nivel de refrigerante",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "windscreenWashLevel": {
-            "original": "Windscreen wash level",
-            "singular": "Nivel de lavado del parabrisas",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "brakeClutchFluid": {
-            "original": "Brake/clutch fluid",
-            "singular": "Fluido de freno/embrague",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "powerSteeringFluid": {
-            "original": "Power steering fluid",
-            "singular": "Fluido de dirección asistida",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "batteryAcidLevel": {
-            "original": "Battery acid level, connections",
-            "singular": "Nivel de ácido de la batería, conexiones",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "oilWasteLeaks": {
-            "original": "Oil or waste leaks",
-            "singular": "Fugas de aceite o desechos",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "conditionFunctionSeatbelts": {
-            "original": "Condition & function of seat belts",
-            "singular": "Condición y funcionamiento de los cinturones de seguridad",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "mirrorAdjustment": {
-            "original": "Mirror adjustment",
-            "singular": "Ajuste del espejo",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "firstAidKit": {
-            "original": "First Aid Kit",
-            "singular": "Botiquín de primeros auxilios",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "fireExtinguisher": {
-            "original": "Fire Extinguisher",
-            "singular": "Extintor",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "warningTriangle": {
-            "original": "Warning Triangle",
-            "singular": "Triángulo de advertencia",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "warningLightsWorking": {
-            "original": "Warning lights in instruments panel working",
-            "singular": "Luces de advertencia en el panel de instrumentos funcionando",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "headlightTailights": {
-            "original": "Headlight, taillights, brake lights, indicators",
-            "singular": "Faros, luces traseras, luces de freno, intermitentes",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "horn": {
-            "original": "Horn",
-            "singular": "Claxon",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "washerWipers": {
-            "original": "Washer & Wipers",
-            "singular": "Limpiaparabrisas y lavaparabrisas",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "brakes": {
-            "original": "Brakes",
-            "singular": "Frenos",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "knowHazardRoute": {
-            "original": "Know Hazard on Route",
-            "singular": "Conocer el peligro en la ruta",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "departArrivalTime": {
-            "original": "Depart and Arrival Time",
-            "singular": "Hora de salida y llegada",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "restBreakHour": {
-            "original": "Rest Break Hour?",
-            "singular": "¿Hora de descanso?",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "contactRequired": {
-            "original": "Contact Required?",
-            "singular": "¿Contacto requerido?",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "jobsIn": {
-            "original": "Jobs In",
-            "singular": "Trabajos en",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "attendFault": {
-            "original": "Attend Fault",
-            "singular": "Atender falla",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "servicing": {
-            "original": "Servicing",
-            "singular": "Mantenimiento",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "installation": {
-            "original": "Installation",
-            "singular": "Instalación",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "billingPending": {
-            "original": "Billing Pending",
-            "singular": "Facturación pendiente",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "billingCompleted": {
-            "original": "Billing Completed",
-            "singular": "Facturación completada",
-            "plural": "",
-            "setupEdit": true,
-            "setupVisible": false
-          },
-          "date": {
-                "original": "Date",
-                "singular": "Fecha",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-            },
-            "jmpNo": {
-                "original": "JMP No.",
-                "singular": "JMP N.º",
-                "plural": "",
-                "setupEdit": true,
-                "setupVisible": false
-            },
-            "jobOrderId": {
-                "original": "Job Order ID",
-                "singular": "ID de orden de trabajo",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "orderName": {
-                "original": "Order Name",
-                "singular": "Nombre del pedido",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            },
-            "orderTimeDate": {
-                "original": "Order Time & Date",
-                "singular": "Hora y fecha del pedido",
-                "plural": "",
-                "setupEdit": false,
-                "setupVisible": false
-            }
+        "sec2": {
+          "original": "Team",
+          "singular": "Equipo",
+          "plural": "Equipos",
+          "setupEdit": true,
+          "setupVisible": false
         },
-        "messages": {
-          "selectTimeframe": "Seleccionar periodo de tiempo"
+        "sec3": {
+          "original": "Journey Details",
+          "singular": "Detalles del viaje",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec4": {
+          "original": "Driver's Supervisor Submit and Approval",
+          "singular": "Envío y aprobación del supervisor del conductor",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec5": {
+          "original": "Vehicle Details",
+          "singular": "Detalles del vehículo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec6": {
+          "original": "Vehicle Inspection",
+          "singular": "Inspección del vehículo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec7": {
+          "original": "Fluids",
+          "singular": "Fluidos",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec8": {
+          "original": "Vehicle Interior & Equipment",
+          "singular": "Interior y equipo del vehículo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec9": {
+          "original": "Functional Check before Start of Journey",
+          "singular": "Verificación funcional antes del inicio del viaje",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec10": {
+          "original": "Central",
+          "singular": "Central",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec11": {
+          "original": "Northern",
+          "singular": "Norte",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec12": {
+          "original": "Southern",
+          "singular": "Sur",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec13": {
+          "original": "Sabah & Sarawak",
+          "singular": "Sabah y Sarawak",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec14": {
+          "original": "East Coast",
+          "singular": "Costa Este",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec15": {
+          "original": "All Nation",
+          "singular": "Toda la nación",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "Journey Management Plan",
+          "singular": "Plan de gestión del viaje",
+          "plural": "Plan de gestión del viaje",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec17": {
+          "original": "Chubb Dashboard",
+          "singular": "Panel de control de Chubb",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
+      "fields": {
+        "setupVisible": false,
+        "openTask": {
+          "original": "Open Task",
+          "singular": "Tarea Abierta",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "closedTask": {
+          "original": "Closed Task",
+          "singular": "Tarea Cerrada",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "pendingTask": {
+          "original": "Pending Task",
+          "singular": "Tarea pendiente",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "incompleteTask": {
+          "original": "Incomplete Task",
+          "singular": "Tarea incompleta",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "completedTask": {
+          "original": "Completed Task",
+          "singular": "Tarea completada",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "noJobStatusTeam": {
+          "original": "No Job Status by this team yet",
+          "singular": "Aún no hay estado de trabajo para este equipo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "timeframe": {
+          "original": "Timeframe",
+          "singular": "Periodo de Tiempo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "timeFrame": {
+          "original": "Time Frame",
+          "singular": "Intervalo de Tiempo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "technician": {
+          "original": "Technician",
+          "singular": "Técnico",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "status": {
+          "original": "Status",
+          "singular": "Estado",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "descofTrip": {
+          "original": "Description of Trip",
+          "singular": "Descripción del Viaje",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "locationTravel": {
+          "original": "Location of Travel",
+          "singular": "Ubicación del Viaje",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "purposeOfTrip": {
+          "original": "Purpose of Trip",
+          "singular": "Propósito del Viaje",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "departureDate": {
+          "original": "Departure Date",
+          "singular": "Fecha de Salida",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "departureTime": {
+          "original": "Departure Time",
+          "singular": "Hora de Salida",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "returnDate": {
+          "original": "Return Date",
+          "singular": "Fecha de Regreso",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "returnTime": {
+          "original": "Return Time",
+          "singular": "Hora de Regreso",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "estimatedDistance": {
+          "original": "Estimated Distance (Km)",
+          "singular": "Distancia Estimada (Km)",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "submittedBy": {
+          "original": "Submitted By",
+          "singular": "Presentado Por",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "approvedBy": {
+          "original": "Approved By",
+          "singular": "Aprobado Por",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "nameOfDriverPassenger": {
+          "original": "Name of Driver/Passenger/Department",
+          "singular": "Nombre del Conductor/Pasajero/Departamento",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "nameOfCarPassengerTravel": {
+          "original": "Name of Car/Passenger/Travel Partners",
+          "singular": "Nombre del Coche/Pasajero/Compañeros de Viaje",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "nameOfAlternativeDrivers": {
+          "original": "Name of Alternative Drivers/ Mobile No.",
+          "singular": "Nombre de Conductores Alternativos/ Tel. Móvil",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "carRegisterNo": {
+          "original": "Car Reg No",
+          "singular": "Número de Registro del Coche",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "dateOfLastDefensiveDriving": {
+          "original": "Date of Last Defensive Driving",
+          "singular": "Fecha del Último Conducción Defensiva",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "dateOfCarLastMaintenance": {
+          "original": "Date of Car Last Maintenance",
+          "singular": "Fecha del Último Mantenimiento del Coche",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "validLicenseRoadTax": {
+          "original": "Valid License and Road Tax",
+          "singular": "Licencia y Impuesto de Circulación Válidos",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "externalVehicleCondition": {
+          "original": "External Vehicle Condition",
+          "singular": "Condición Externa del Vehículo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "conditionBodyworkWindscreen": {
+          "original": "Condition of bodywork, windscreen, lights",
+          "singular": "Condición de la Carrocería, Parabrisas, Luces",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "comment": {
+          "original": "Comment",
+          "singular": "Comentario",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "conditionsOfWiper": {
+          "original": "Condition of windscreen, wiper, blades",
+          "singular": "Condición del Parabrisas, Limpiaparabrisas, Cuchillas",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "conditionsOfTires": {
+          "original": "Condition of tires, tire pressure, tire wear",
+          "singular": "Condición de los Neumáticos, Presión de Neumáticos, Desgaste de Neumáticos",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "availabilityWheel": {
+          "original": "Availability of spare wheel, jack and tools",
+          "singular": "Disponibilidad de Rueda de Repuesto, Gato y Herramientas",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "underVehicleInspection": {
+          "original": "Under vehicle inspection: leaks, loose parts etc.",
+          "singular": "Inspección del Vehículo: Fugas, Piezas Sueltas, etc.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "engineOilLevel": {
+          "original": "Engine oil level",
+          "singular": "Nivel de aceite del motor",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "coolantLevel": {
+          "original": "Coolant level",
+          "singular": "Nivel de refrigerante",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "windscreenWashLevel": {
+          "original": "Windscreen wash level",
+          "singular": "Nivel de lavado del parabrisas",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "brakeClutchFluid": {
+          "original": "Brake/clutch fluid",
+          "singular": "Fluido de freno/embrague",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "powerSteeringFluid": {
+          "original": "Power steering fluid",
+          "singular": "Fluido de dirección asistida",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "batteryAcidLevel": {
+          "original": "Battery acid level, connections",
+          "singular": "Nivel de ácido de la batería, conexiones",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "oilWasteLeaks": {
+          "original": "Oil or waste leaks",
+          "singular": "Fugas de aceite o desechos",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "conditionFunctionSeatbelts": {
+          "original": "Condition & function of seat belts",
+          "singular": "Condición y funcionamiento de los cinturones de seguridad",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "mirrorAdjustment": {
+          "original": "Mirror adjustment",
+          "singular": "Ajuste del espejo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "firstAidKit": {
+          "original": "First Aid Kit",
+          "singular": "Botiquín de primeros auxilios",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "fireExtinguisher": {
+          "original": "Fire Extinguisher",
+          "singular": "Extintor",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "warningTriangle": {
+          "original": "Warning Triangle",
+          "singular": "Triángulo de advertencia",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "warningLightsWorking": {
+          "original": "Warning lights in instruments panel working",
+          "singular": "Luces de advertencia en el panel de instrumentos funcionando",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "headlightTailights": {
+          "original": "Headlight, taillights, brake lights, indicators",
+          "singular": "Faros, luces traseras, luces de freno, intermitentes",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "horn": {
+          "original": "Horn",
+          "singular": "Claxon",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "washerWipers": {
+          "original": "Washer & Wipers",
+          "singular": "Limpiaparabrisas y lavaparabrisas",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "brakes": {
+          "original": "Brakes",
+          "singular": "Frenos",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "knowHazardRoute": {
+          "original": "Know Hazard on Route",
+          "singular": "Conocer el peligro en la ruta",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "departArrivalTime": {
+          "original": "Depart and Arrival Time",
+          "singular": "Hora de salida y llegada",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "restBreakHour": {
+          "original": "Rest Break Hour?",
+          "singular": "¿Hora de descanso?",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "contactRequired": {
+          "original": "Contact Required?",
+          "singular": "¿Contacto requerido?",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "jobsIn": {
+          "original": "Jobs In",
+          "singular": "Trabajos en",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "attendFault": {
+          "original": "Attend Fault",
+          "singular": "Atender falla",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "servicing": {
+          "original": "Servicing",
+          "singular": "Mantenimiento",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "installation": {
+          "original": "Installation",
+          "singular": "Instalación",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "billingPending": {
+          "original": "Billing Pending",
+          "singular": "Facturación pendiente",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "billingCompleted": {
+          "original": "Billing Completed",
+          "singular": "Facturación completada",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "date": {
+          "original": "Date",
+          "singular": "Fecha",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "jmpNo": {
+          "original": "JMP No.",
+          "singular": "JMP N.º",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "jobOrderId": {
+          "original": "Job Order ID",
+          "singular": "ID de orden de trabajo",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "orderName": {
+          "original": "Order Name",
+          "singular": "Nombre del pedido",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "orderTimeDate": {
+          "original": "Order Time & Date",
+          "singular": "Hora y fecha del pedido",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        }
+      },
+      "messages": {
+        "selectTimeframe": "Seleccionar periodo de tiempo"
+      }
+    },
     "service": {
       "setupVisible": false,
       "label": {
@@ -23377,7 +23372,7 @@
       }
     }
   },
-"machineSpecialist": {
+  "machineSpecialist": {
     "setupVisible": false,
     "label": {
       "original": "Machine Specialist",

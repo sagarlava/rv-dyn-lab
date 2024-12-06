@@ -18905,6 +18905,20 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "chooseTextOrNumber": {
+          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
+          "singular": "此选项设置答案部分中答案字段的格式。选择“文本”以输入文字答案，或选择“数字”以输入数字范围答案。",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "enterRangeOfNumbers": {
+          "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
+          "singular": "输入充当“从”和“到”字段阈值的数字范围。如果值在此范围内，则会触发所选的工单模板。请注意，“到”值必须等于或大于“从”值。",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "messages": {

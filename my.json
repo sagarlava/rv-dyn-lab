@@ -18678,7 +18678,9 @@
           "setupVisible": false
         }
       },
-      "validationFE": {},
+      "validationFE": {
+        "fileTypeUnsupported":"Jenis fail ini tidak disokong. Sila pilih fail yang lain." 
+      },
       "messages": {
         "selectAssetTypes": "Pilih Jenis Aset",
         "selectServiceZone": "Pilih Zon Perkhidmatan",

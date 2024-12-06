@@ -20919,7 +20919,11 @@
           "addAHeaderFooterImage": "Add a header / footer image",
           "copyFieldsToAutoFillWithFieldExData": "Copy fields to auto-fill with FieldEx data",
           "addAButton": "Add a button",
-          "addATable": "Add a table"
+          "addATable": "Add a table",
+          "fileSizeRestriction":"File Size Restriction",
+          "acceptedFileFormats":"Accepted File Formats",
+          "maxAllowedIs100Kb":"The maximum allowed file size is 100kb.",
+          "onlyImgFormat":"Only JPEG, JPG, and PNG formats are supported"
         },
         "settings":{
           "label": {

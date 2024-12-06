@@ -2661,6 +2661,13 @@
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "jobOrderType": {
+        "original": "Job Order Type",
+        "singular": "工作单类型",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": false
       }
     },
     "validationFE": {},

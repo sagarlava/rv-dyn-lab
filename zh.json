@@ -18873,6 +18873,34 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "photo": {
+          "original": "Photo",
+          "singular": "照片",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "answerType": {
+          "original": "Answer Type",
+          "singular": "答案类型",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "from": {
+          "original": "From",
+          "singular": "从",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "to": {
+          "original": "To",
+          "singular": "到",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "validationFE": {},

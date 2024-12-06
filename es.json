@@ -18873,6 +18873,34 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "photo": {
+          "original": "Photo",
+          "singular": "Foto",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "answerType": {
+          "original": "Answer Type",
+          "singular": "Tipo de Respuesta",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "from": {
+          "original": "From",
+          "singular": "De",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "to": {
+          "original": "To",
+          "singular": "A",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "validationFE": {},

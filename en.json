@@ -15425,6 +15425,7 @@
           "makeKeyDataBold":"Make key data bold",
           "createEmailTemplate":"Create an Email Template",
           "selectModule":"Select Module",
+          "selectTemplate":"Select Template",
           "selectGroup":"Select Group",
           "selectUserInField":"Select User in Field",
           "testEmailSentSuccessfully":"Test email sent successfully",
@@ -20791,7 +20792,9 @@
         "orPartGivesFlexibility": "The OR part gives you flexibility:",
         "andPartIsStrict": "The AND part is strict:",
         "onlyOneThingNeedsToHappen": "Only one thing from that group needs to happen.",
-        "everythingInGroupMustHappen": "Everything in that group must happen."
+        "everythingInGroupMustHappen": "Everything in that group must happen.",
+        "workflowHasNotBegun":"No start trigger specified.",
+        "clickHereToAdd":"Click here to add."
       }
     },
     "templates":{
@@ -20915,7 +20918,11 @@
           "addAHeaderFooterImage": "Add a header / footer image",
           "copyFieldsToAutoFillWithFieldExData": "Copy fields to auto-fill with FieldEx data",
           "addAButton": "Add a button",
-          "addATable": "Add a table"
+          "addATable": "Add a table",
+          "fileSizeRestriction":"File Size Restriction",
+          "acceptedFileFormats":"Accepted File Formats",
+          "maxAllowedIs100Kb":"The maximum allowed file size is 100kb.",
+          "onlyImgFormat":"Only JPEG, JPG, and PNG formats are supported"
         },
         "settings":{
           "label": {

@@ -15425,6 +15425,7 @@
           "makeKeyDataBold": "使关键信息加粗。",
           "createEmailTemplate": "创建电子邮件模板。",
           "selectModule": "选择模块",
+          "selectTemplate":"选择模板",
           "selectGroup": "选择组",
           "selectUserInField": "选择现场用户",
           "testEmailSentSuccessfully": "测试电子邮件发送成功",
@@ -20791,7 +20792,9 @@
         "orPartGivesFlexibility": "OR部分给您灵活性：",
         "andPartIsStrict": "AND部分是严格的：",
         "onlyOneThingNeedsToHappen": "该组中的一件事需要发生。",
-        "everythingInGroupMustHappen": "该组中的所有事情都必须发生。"
+        "everythingInGroupMustHappen": "该组中的所有事情都必须发生。",
+        "workflowHasNotBegun":"未指定开始触发器。",
+        "clickHereToAdd":"点击此处添加。"
       }
     },
     "templates": {
@@ -20915,7 +20918,11 @@
           "addAHeaderFooterImage": "添加页眉/页脚图片",
           "copyFieldsToAutoFillWithFieldExData": "复制字段以使用 FieldEx 数据自动填写",
           "addAButton": "添加一个按钮",
-          "addATable": "添加一个表格"
+          "addATable": "添加一个表格",
+          "fileSizeRestriction":"文件大小限制",
+          "acceptedFileFormats":"接受的文件格式",
+          "maxAllowedIs100Kb":"允许的最大文件大小为100kb。",
+          "onlyImgFormat":"仅支持JPEG、JPG和PNG格式"
         },
         "settings": {
           "label": {

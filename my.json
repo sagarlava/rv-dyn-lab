@@ -15425,6 +15425,7 @@
           "makeKeyDataBold": "Jadikan data penting tebal.",
           "createEmailTemplate": "Buat Templat E-mel.",
           "selectModule": "Pilih Modul",
+          "selectTemplate":"Pilih Templat",
           "selectGroup": "Pilih Kumpulan",
           "selectUserInField": "Pilih Pengguna di Lapangan",
           "testEmailSentSuccessfully": "E-mel ujian berjaya dihantar",
@@ -20791,7 +20792,9 @@
         "orPartGivesFlexibility": "Bahagian ATAU memberi anda fleksibiliti:",
         "andPartIsStrict": "Bahagian DAN adalah ketat:",
         "onlyOneThingNeedsToHappen": "Hanya satu perkara daripada kumpulan itu perlu berlaku.",
-        "everythingInGroupMustHappen": "Semua dalam kumpulan itu mesti berlaku."
+        "everythingInGroupMustHappen": "Semua dalam kumpulan itu mesti berlaku.",
+        "workflowHasNotBegun":"Tiada pencetus mula ditentukan.",
+        "clickHereToAdd":"Klik di sini untuk menambah."
       }
     },
     "templates": {
@@ -20915,7 +20918,11 @@
           "addAHeaderFooterImage": "Tambah imej pengepala/pegeg",
           "copyFieldsToAutoFillWithFieldExData": "Salin medan untuk diisi secara automatik dengan data FieldEx",
           "addAButton": "Tambah butang",
-          "addATable": "Tambah jadual"
+          "addATable": "Tambah jadual",
+          "fileSizeRestriction":"Sekatan Saiz Fail",
+          "acceptedFileFormats":"Format Fail yang Diterima",
+          "maxAllowedIs100Kb":"Saiz fail maksimum yang dibenarkan ialah 100kb",
+          "onlyImgFormat":"Hanya format JPEG, JPG, dan PNG disokong"
         },
         "settings": {
           "label": {

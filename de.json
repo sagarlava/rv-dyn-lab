@@ -15425,6 +15425,7 @@
           "makeKeyDataBold": "Wichtige Daten fett formatieren",
           "createEmailTemplate": "E-Mail-Vorlage erstellen",
           "selectModule": "Modul auswählen",
+          "selectTemplate":"Vorlage auswählen",
           "selectGroup": "Gruppe auswählen",
           "selectUserInField": "Benutzer im Feld auswählen",
           "testEmailSentSuccessfully": "Test-E-Mail erfolgreich gesendet",
@@ -20791,7 +20792,9 @@
         "orPartGivesFlexibility": "Der ODER-Teil gibt Ihnen Flexibilität:",
         "andPartIsStrict": "Der UND-Teil ist streng:",
         "onlyOneThingNeedsToHappen": "Nur eine Sache aus dieser Gruppe muss passieren.",
-        "everythingInGroupMustHappen": "Alles in dieser Gruppe muss passieren."
+        "everythingInGroupMustHappen": "Alles in dieser Gruppe muss passieren.",
+        "workflowHasNotBegun":"Kein Startauslöser angegeben",
+        "clickHereToAdd":"Klicken Sie hier, um hinzuzufügen."
       }
     },
     "templates": {
@@ -20915,7 +20918,11 @@
           "addAHeaderFooterImage": "Fügen Sie ein Header-/Footer-Bild hinzu",
           "copyFieldsToAutoFillWithFieldExData": "Kopieren Sie Felder, um sie automatisch mit FieldEx-Daten zu füllen",
           "addAButton": "Fügen Sie einen Button hinzu",
-          "addATable": "Fügen Sie eine Tabelle hinzu"
+          "addATable": "Fügen Sie eine Tabelle hinzu",
+          "fileSizeRestriction":"Dateigrößenbeschränkung",
+          "acceptedFileFormats":"Akzeptierte Dateiformate",
+          "maxAllowedIs100Kb":"Die maximal zulässige Dateigröße beträgt 100kb.",
+          "onlyImgFormat":"Nur JPEG-, JPG- und PNG-Formate werden unterstützt"
         },
         "settings": {
           "label": {

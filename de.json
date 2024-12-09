@@ -2219,7 +2219,8 @@
       "contractIdExists": "Ein neuer Vertrag kann bereits keine ID haben",
       "contractPriceBookNotFound": "Vertragspreisbuch nicht gefunden",
       "contractPriceBookIdNotFound": "Vertragspreisbuch-ID nicht gefunden",
-      "contractPriceBookUpdateFailed": "Fehler beim Aktualisieren des Vertragspreisbuchs"
+      "contractPriceBookUpdateFailed": "Fehler beim Aktualisieren des Vertragspreisbuchs",
+      "contractAssetsSerialNumberExists": "Asset-Seriennummer ist bereits einem sich überschneidenden aktiven Vertrag zugewiesen"
     },
     "tooltips": {
       "setupVisible": false,

@@ -2219,7 +2219,8 @@
       "contractIdExists": "Un nuevo contrato no puede tener ya un ID",
       "contractPriceBookNotFound": "Libro de precios del contrato no encontrado",
       "contractPriceBookIdNotFound": "ID del libro de precios del contrato no encontrada",
-      "contractPriceBookUpdateFailed": "Error al actualizar el libro de precios del contrato"
+      "contractPriceBookUpdateFailed": "Error al actualizar el libro de precios del contrato",
+      "contractAssetsSerialNumberExists": "El número de serie del activo ya está asignado a un contrato activo superpuesto"
     },
     "tooltips": {
       "setupVisible": false,

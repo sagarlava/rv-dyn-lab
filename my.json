@@ -24615,7 +24615,9 @@
       "priceBookContractMandatory": "Kontrak adalah wajib apabila membuat buku harga"
     },
     "tooltips": {},
-    "messages": {}
+    "messages": {
+      "fromThisPriceBook":"daripada buku harga ini?"
+    }
   },
   "rateCard": {
     "setupVisible": true,

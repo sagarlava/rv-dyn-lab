@@ -24615,7 +24615,9 @@
       "priceBookContractMandatory": "创建价格书时合同是必填项"
     },
     "tooltips": {},
-    "messages": {}
+    "messages": {
+      "fromThisPriceBook":"从此价格书中?"
+    }
   },
   "rateCard": {
     "setupVisible": true,

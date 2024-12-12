@@ -24615,7 +24615,9 @@
       "priceBookContractMandatory": "Contract is mandatory when creating a price book"
     },
     "tooltips": {},
-    "messages": {}
+    "messages": {
+      "fromThisPriceBook":"from this price book?"
+    }
   },
   "rateCard": {
     "setupVisible": true,

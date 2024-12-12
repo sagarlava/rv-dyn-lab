@@ -24615,7 +24615,9 @@
       "priceBookContractMandatory": "El contrato es obligatorio al crear un libro de precios"
     },
     "tooltips": {},
-    "messages": {}
+    "messages": {
+      "fromThisPriceBook":"¿de este libro de precios?"
+    }
   },
   "rateCard": {
     "setupVisible": true,

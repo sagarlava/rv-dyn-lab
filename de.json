@@ -24615,7 +24615,9 @@
       "priceBookContractMandatory": "Ein Vertrag ist erforderlich, wenn ein Preisbuch erstellt wird"
     },
     "tooltips": {},
-    "messages": {}
+    "messages": {
+      "fromThisPriceBook":"aus diesem Preisbuch?"
+    }
   },
   "rateCard": {
     "setupVisible": true,

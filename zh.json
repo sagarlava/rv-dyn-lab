@@ -24514,7 +24514,24 @@
         "setupVisible": false
       }
     },
-    "fields": {},
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "priceBookName": {
+        "original": "Price Book Name",
+        "singular": "价格书名称",
+        "plural": "价格书名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "priceBookNo": {
+        "original": "Price Book No.",
+        "singular": "价格书编号",
+        "plural": "价格书编号",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "priceBookStandardNotChangeable": "标准价格书无法更改；请先将其他价格书设为标准",

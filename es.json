@@ -24514,7 +24514,24 @@
         "setupVisible": false
       }
     },
-    "fields": {},
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "priceBookName": {
+        "original": "Price Book Name",
+        "singular": "Nombre del Libro de Precios",
+        "plural": "Nombres de los Libros de Precios",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "priceBookNo": {
+        "original": "Price Book No.",
+        "singular": "Número del Libro de Precios",
+        "plural": "Números de los Libros de Precios",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "priceBookStandardNotChangeable": "No se puede cambiar el libro de precios estándar; configure otro como estándar primero",

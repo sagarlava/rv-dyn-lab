@@ -24514,7 +24514,24 @@
         "setupVisible": false
       }
     },
-    "fields": {},
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "priceBookName": {
+        "original": "Price Book Name",
+        "singular": "Nama Buku Harga",
+        "plural": "Nama Buku Harga",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "priceBookNo": {
+        "original": "Price Book No.",
+        "singular": "No. Buku Harga",
+        "plural": "No. Buku Harga",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "priceBookStandardNotChangeable": "Tidak boleh mengubah buku harga standard; tetapkan yang lain sebagai standard terlebih dahulu",

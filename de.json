@@ -24514,7 +24514,24 @@
         "setupVisible": false
       }
     },
-    "fields": {},
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "priceBookName": {
+        "original": "Price Book Name",
+        "singular": "Preislistenname",
+        "plural": "Preislistennamen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "priceBookNo": {
+        "original": "Price Book No.",
+        "singular": "Preislistennummer",
+        "plural": "Preislistennummern",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "priceBookStandardNotChangeable": "Das Standard-Preisbuch kann nicht geändert werden; legen Sie zuerst ein anderes als Standard fest",

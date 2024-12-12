@@ -24496,7 +24496,24 @@
     "setupVisible": true,
     "setupEdit": true,
     "label": {},
-    "sections": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Butiran Am",
+        "plural": "Butiran Am",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Product Pricing",
+        "singular": "Harga Produk",
+        "plural": "Harga Produk",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "fields": {},
     "validationFE": {},
     "validationBE": {

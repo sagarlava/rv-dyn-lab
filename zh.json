@@ -24496,7 +24496,24 @@
     "setupVisible": true,
     "setupEdit": true,
     "label": {},
-    "sections": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息",
+        "plural": "基本信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Product Pricing",
+        "singular": "产品定价",
+        "plural": "产品定价",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "fields": {},
     "validationFE": {},
     "validationBE": {

@@ -24496,7 +24496,24 @@
     "setupVisible": true,
     "setupEdit": true,
     "label": {},
-    "sections": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "General Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Product Pricing",
+        "singular": "Product Pricing",
+        "plural": "Product Pricing",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "fields": {},
     "validationFE": {},
     "validationBE": {

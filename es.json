@@ -10640,7 +10640,9 @@
       "invalidFileType": "Tipo de archivo inválido. Solo se pueden subir archivos de imagen (.jpg, .png, .svg, etc.)",
       "onlyAllowVisualFiles": "Solo se permiten imágenes de hasta 100kb y los siguientes formatos de archivo: PNG y JPG/JPEG",
       "maxUploadFileSize": "El tamaño máximo de archivo para subir es 25MB",
-      "fileExtension": "Solo se permiten archivos con extensiones *.pdf, *.docx, *.jpg"
+      "fileExtension": "Solo se permiten archivos con extensiones *.pdf, *.docx, *.jpg",
+      "fileTypeUnsupported":"Este tipo de archivo no es compatible. Por favor, elija un archivo diferente.",
+      "allowedFileSize4MB":"El tamaño del archivo excede el límite de 4 MB. Por favor, suba un archivo más pequeño."
     }
   },
   "history": {
@@ -18713,16 +18715,15 @@
           "setupVisible": false
         }
       },
-      "validationFE": {
-        "fileTypeUnsupported":"Este tipo de archivo no es compatible. Por favor, elija un archivo diferente.",
-        "exceedFileSizeSmall":"El tamaño del archivo excede el límite de 4 MB. Por favor, suba un archivo más pequeño."
-      },
+      "validationFE": {},
       "messages": {
         "selectAssetTypes": "Seleccionar Tipos de Activo",
         "selectServiceZone": "Seleccionar Zona de Servicio",
         "selectEquipmentType": "Seleccionar Tipo de Equipo",
         "checklistName": "Nombre de la Lista de Verificación",
-        "previousFileOverwritten":"¿Está seguro de que desea subir un nuevo archivo? El anterior será sobrescrito. Esta acción no se puede deshacer."        
+        "previousFileOverwritten":"¿Está seguro de que desea subir un nuevo archivo? El anterior será sobrescrito. Esta acción no se puede deshacer.",
+        "fileTypeUnsupported":"Este tipo de archivo no es compatible. Por favor, elija un archivo diferente.",
+        "exceedFileSizeSmall":"El tamaño del archivo excede el límite de 4 MB. Por favor, suba un archivo más pequeño." 
       }
     },
     "department": {

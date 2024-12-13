@@ -10640,7 +10640,9 @@
       "invalidFileType": "Jenis fail tidak sah. Hanya fail gambar (.jpg, .png, .svg, dll.) boleh dimuat naik.",
       "onlyAllowVisualFiles": "Hanya benarkan imej sehingga 100kb dan format fail berikut: PNG dan JPG/JPEG",
       "maxUploadFileSize": "Saiz fail muat naik maksimum ialah 25MB",
-      "fileExtension": "Hanya fail dengan sambungan *.pdf, *.docx, *.jpg dibenarkan"
+      "fileExtension": "Hanya fail dengan sambungan *.pdf, *.docx, *.jpg dibenarkan",
+      "fileTypeUnsupported":"Jenis fail ini tidak disokong. Sila pilih fail yang lain.",
+      "allowedFileSize4MB":"Saiz fail melebihi had 4MB. Sila muat naik fail yang lebih kecil."
     }
   },
   "history": {
@@ -18713,16 +18715,15 @@
           "setupVisible": false
         }
       },
-      "validationFE": {
-        "fileTypeUnsupported":"Jenis fail ini tidak disokong. Sila pilih fail yang lain.",
-        "exceedFileSizeSmall":"Saiz fail melebihi had 4MB. Sila muat naik fail yang lebih kecil."
-      },
+      "validationFE": {},
       "messages": {
         "selectAssetTypes": "Pilih Jenis Aset",
         "selectServiceZone": "Pilih Zon Perkhidmatan",
         "selectEquipmentType": "Pilih Jenis Peralatan",
         "checklistName": "Nama Senarai Semak",
-        "previousFileOverwritten":"Adakah anda pasti mahu memuat naik fail baru? Fail sebelumnya akan ditimpa. Tindakan ini tidak boleh diundurkan."        
+        "previousFileOverwritten":"Adakah anda pasti mahu memuat naik fail baru? Fail sebelumnya akan ditimpa. Tindakan ini tidak boleh diundurkan.",
+        "fileTypeUnsupported":"Jenis fail ini tidak disokong. Sila pilih fail yang lain.",
+        "exceedFileSizeSmall":"Saiz fail melebihi had 4MB. Sila muat naik fail yang lebih kecil."
       }
     },
     "department": {

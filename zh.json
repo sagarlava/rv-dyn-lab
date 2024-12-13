@@ -10640,7 +10640,9 @@
       "invalidFileType": "无效的文件类型。 只能上传图像文件（.jpg、.png、.svg 等）。",
       "onlyAllowVisualFiles": "仅允许大小不超过100kb的图像文件，支持的格式：PNG和JPG/JPEG",
       "maxUploadFileSize": "最大上传文件大小为 25MB",
-      "fileExtension": "仅允许扩展名为 *.pdf, *.docx, *.jpg 的文件"
+      "fileExtension": "仅允许扩展名为 *.pdf, *.docx, *.jpg 的文件",
+      "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
+      "allowedFileSize4MB":"文件大小超过4MB限制。请上传较小的文件。"
     }
   },
   "history": {
@@ -18713,16 +18715,15 @@
           "setupVisible": false
         }
       },
-      "validationFE": {
-        "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
-        "exceedFileSizeSmall":"文件大小超过2MB限制。请上传较小的文件。"
-      },
+      "validationFE": {},
       "messages": {
         "selectAssetTypes": "选择资产类型",
         "selectServiceZone": "选择服务区域域",
         "selectEquipmentType": "选择设备类型",
         "checklistName": "清单名称",
-        "previousFileOverwritten":"您确定要上传新文件吗？之前的文件将被覆盖。此操作无法撤销。"
+        "previousFileOverwritten":"您确定要上传新文件吗？之前的文件将被覆盖。此操作无法撤销。",
+        "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
+        "exceedFileSizeSmall":"文件大小超过4MB限制。请上传较小的文件。"
       }
     },
     "department": {

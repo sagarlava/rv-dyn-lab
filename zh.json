@@ -24666,6 +24666,8 @@
       }
     },
     "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
       "rateCardNo": {
         "original": "Rate Card No.",
         "singular": "费率卡编号",
@@ -24717,7 +24719,17 @@
       "rateCardContractNotFound": "未找到合同",
       "rateCardIdExists": "新的费率卡不能已经有ID"
     },
-    "tooltips": {},
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "minutesAdded": {
+        "original": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "singular": "添加的分钟将用于小时的计算。例如，如果您输入 15 分钟，如果工作的持续时间少于 15 分钟，则不会计算为一小时。如果工作的持续时间超过 15 分钟，则将其视为一小时。",
+        "plural": "添加的分钟将用于小时的计算。例如，如果您输入 15 分钟，如果工作的持续时间少于 15 分钟，则不会计算为一小时。如果工作的持续时间超过 15 分钟，则将其视为一小时。",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "messages": {}
   }
 }

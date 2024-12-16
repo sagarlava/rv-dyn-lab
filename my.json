@@ -24666,6 +24666,8 @@
       }
     },
     "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
       "rateCardNo": {
         "original": "Rate Card No.",
         "singular": "No. Kard Kadar",
@@ -24717,7 +24719,17 @@
       "rateCardContractNotFound": "Kontrak tidak dijumpai",
       "rateCardIdExists": "Kad Kadar baru tidak boleh sudah mempunyai ID"
     },
-    "tooltips": {},
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "minutesAdded": {
+        "original": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "singular": "Minit yang ditambah ini akan digunakan untuk pengiraan jam. Sebagai contoh, jika anda memasukkan 15 minit, jika tempoh kerja kurang daripada 15 minit, ia tidak akan dikira sebagai satu jam. Jika tempoh kerja melebihi 15 minit, maka ia akan dianggap sebagai satu jam.",
+        "plural": "Minit yang ditambah ini akan digunakan untuk pengiraan jam. Sebagai contoh, jika anda memasukkan 15 minit, jika tempoh kerja kurang daripada 15 minit, ia tidak akan dikira sebagai satu jam. Jika tempoh kerja melebihi 15 minit, maka ia akan dianggap sebagai satu jam.",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "messages": {}
   }
 }

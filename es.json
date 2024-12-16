@@ -24666,6 +24666,8 @@
       }
     },
     "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
       "rateCardNo": {
         "original": "Rate Card No.",
         "singular": "Número de Tarjeta de Tarifas",
@@ -24717,7 +24719,17 @@
       "rateCardContractNotFound": "Contrato no encontrado",
       "rateCardIdExists": "Una nueva tarjeta de tarifas no puede tener ya una ID"
     },
-    "tooltips": {},
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "minutesAdded": {
+        "original": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "singular": "Este minuto añadido se usará para el cálculo de las horas. Por ejemplo, si ingresas 15 minutos, si la duración del trabajo es menor de 15 minutos, no se calculará como una hora. Si la duración del trabajo es mayor de 15 minutos, entonces se considerará como una hora.",
+        "plural": "Este minuto añadido se usará para el cálculo de las horas. Por ejemplo, si ingresas 15 minutos, si la duración del trabajo es menor de 15 minutos, no se calculará como una hora. Si la duración del trabajo es mayor de 15 minutos, entonces se considerará como una hora.",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "messages": {}
   }
 }

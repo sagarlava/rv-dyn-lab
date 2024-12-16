@@ -24719,7 +24719,17 @@
       "rateCardContractNotFound": "Contract not found",
       "rateCardIdExists": "A new rate card cannot already have an ID"
     },
-    "tooltips": {},
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "minutesAdded": {
+        "original": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "singular": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "plural": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "messages": {}
   }
 }

@@ -24662,6 +24662,20 @@
         "plural": "Festpreise",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "firstHour": {
+        "original": "First Hour",
+        "singular": "Erste Stunde",
+        "plural": "Erste Stunde",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsequentHour": {
+        "original": "Subsequent Hour",
+        "singular": "Folgende Stunde",
+        "plural": "Folgende Stunden",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

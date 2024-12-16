@@ -24662,6 +24662,20 @@
         "plural": "固定费率",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "firstHour": {
+        "original": "First Hour",
+        "singular": "第一小时",
+        "plural": "第一小时",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsequentHour": {
+        "original": "Subsequent Hour",
+        "singular": "后续小时",
+        "plural": "后续小时",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

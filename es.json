@@ -24662,6 +24662,20 @@
         "plural": "Tarifas Fijas",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "firstHour": {
+        "original": "First Hour",
+        "singular": "Primera Hora",
+        "plural": "Primera Hora",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsequentHour": {
+        "original": "Subsequent Hour",
+        "singular": "Hora Subsiguiente",
+        "plural": "Hora Subsiguiente",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

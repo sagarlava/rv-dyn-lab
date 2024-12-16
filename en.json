@@ -24681,6 +24681,20 @@
         "plural": "Fixed Rate",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "firstHour": {
+        "original": "First Hour",
+        "singular": "First Hour",
+        "plural": "First Hour",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsequentHour": {
+        "original": "Subsequent Hour",
+        "singular": "Subsequent Hour",
+        "plural": "Subsequent Hours",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

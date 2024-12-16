@@ -24658,9 +24658,9 @@
         "setupVisible": false
       },
       "sec1": {
-        "original": "Product Pricing",
-        "singular": "Product Pricing",
-        "plural": "Product Pricing",
+        "original": "Calculation for this hourly rate",
+        "singular": "Calculation for this hourly rate",
+        "plural": "Calculation for this hourly rate",
         "setupEdit": false,
         "setupVisible": false
       }
@@ -24693,6 +24693,13 @@
         "original": "Subsequent Hour",
         "singular": "Subsequent Hour",
         "plural": "Subsequent Hours",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
         "setupEdit": false,
         "setupVisible": false
       }

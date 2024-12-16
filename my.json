@@ -24647,7 +24647,24 @@
     "setupVisible": false,
     "setupEdit": false,
     "label": {},
-    "sections": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Butiran Am",
+        "plural": "Butiran Am",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Calculation for this hourly rate",
+        "singular": "Pengiraan untuk kadar setiap jam ini",
+        "plural": "Pengiraan untuk kadar setiap jam ini",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "fields": {
       "rateCardNo": {
         "original": "Rate Card No.",
@@ -24674,6 +24691,13 @@
         "original": "Subsequent Hour",
         "singular": "Jam Seterusnya",
         "plural": "Jam Seterusnya",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
         "setupEdit": false,
         "setupVisible": false
       }

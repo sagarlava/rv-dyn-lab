@@ -24647,7 +24647,24 @@
     "setupVisible": false,
     "setupEdit": false,
     "label": {},
-    "sections": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Allgemeine Details",
+        "plural": "Allgemeine Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Calculation for this hourly rate",
+        "singular": "Berechnung für diesen Stundensatz",
+        "plural": "Berechnungen für diese Stundensätze",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "fields": {
       "rateCardNo": {
         "original": "Rate Card No.",
@@ -24674,6 +24691,13 @@
         "original": "Subsequent Hour",
         "singular": "Folgende Stunde",
         "plural": "Folgende Stunden",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
         "setupEdit": false,
         "setupVisible": false
       }

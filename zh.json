@@ -24647,7 +24647,24 @@
     "setupVisible": false,
     "setupEdit": false,
     "label": {},
-    "sections": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息",
+        "plural": "基本信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Calculation for this hourly rate",
+        "singular": "此小时费率的计算",
+        "plural": "此小时费率的计算",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "fields": {
       "rateCardNo": {
         "original": "Rate Card No.",
@@ -24674,6 +24691,13 @@
         "original": "Subsequent Hour",
         "singular": "后续小时",
         "plural": "后续小时",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "状态",
         "setupEdit": false,
         "setupVisible": false
       }

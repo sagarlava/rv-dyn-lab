@@ -24501,8 +24501,8 @@
     "messages": {}
   },
   "priceBook": {
-    "setupVisible": true,
-    "setupEdit": true,
+    "setupVisible": false,
+    "setupEdit": false,
     "label": {},
     "sections": {
       "setupVisible": false,
@@ -24644,11 +24644,26 @@
     }
   },
   "rateCard": {
-    "setupVisible": true,
-    "setupEdit": true,
+    "setupVisible": false,
+    "setupEdit": false,
     "label": {},
     "sections": {},
-    "fields": {},
+    "fields": {
+      "rateCardNo": {
+        "original": "Rate Card No.",
+        "singular": "No. Kard Kadar",
+        "plural": "No. Kard Kadar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRate": {
+        "original": "Fixed Rate",
+        "singular": "Kadar Tetap",
+        "plural": "Kadar Tetap",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "Kad Kadar tidak dijumpai",

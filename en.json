@@ -24501,8 +24501,8 @@
     "messages": {}
   },
   "priceBook": {
-    "setupVisible": true,
-    "setupEdit": true,
+    "setupVisible": false,
+    "setupEdit": false,
     "label": {},
     "sections": {
       "setupVisible": false,
@@ -24644,11 +24644,45 @@
     }
   },
   "rateCard": {
-    "setupVisible": true,
-    "setupEdit": true,
+    "setupVisible": false,
+    "setupEdit": false,
     "label": {},
-    "sections": {},
-    "fields": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "General Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Product Pricing",
+        "singular": "Product Pricing",
+        "plural": "Product Pricing",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "rateCardNo": {
+        "original": "Rate Card No.",
+        "singular": "Rate Card No.",
+        "plural": "Rate Card No.",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRate": {
+        "original": "Fixed Rate",
+        "singular": "Fixed Rate",
+        "plural": "Fixed Rate",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "Rate Card not found",

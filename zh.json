@@ -24501,8 +24501,8 @@
     "messages": {}
   },
   "priceBook": {
-    "setupVisible": true,
-    "setupEdit": true,
+    "setupVisible": false,
+    "setupEdit": false,
     "label": {},
     "sections": {
       "setupVisible": false,
@@ -24644,11 +24644,26 @@
     }
   },
   "rateCard": {
-    "setupVisible": true,
-    "setupEdit": true,
+    "setupVisible": false,
+    "setupEdit": false,
     "label": {},
     "sections": {},
-    "fields": {},
+    "fields": {
+      "rateCardNo": {
+        "original": "Rate Card No.",
+        "singular": "费率卡编号",
+        "plural": "费率卡编号",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRate": {
+        "original": "Fixed Rate",
+        "singular": "固定费率",
+        "plural": "固定费率",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "未找到费率卡",

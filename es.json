@@ -24501,8 +24501,8 @@
     "messages": {}
   },
   "priceBook": {
-    "setupVisible": true,
-    "setupEdit": true,
+    "setupVisible": false,
+    "setupEdit": false,
     "label": {},
     "sections": {
       "setupVisible": false,
@@ -24644,11 +24644,26 @@
     }
   },
   "rateCard": {
-    "setupVisible": true,
-    "setupEdit": true,
+    "setupVisible": false,
+    "setupEdit": false,
     "label": {},
     "sections": {},
-    "fields": {},
+    "fields": {
+      "rateCardNo": {
+        "original": "Rate Card No.",
+        "singular": "Número de Tarjeta de Tarifas",
+        "plural": "Números de Tarjetas de Tarifas",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRate": {
+        "original": "Fixed Rate",
+        "singular": "Tarifa Fija",
+        "plural": "Tarifas Fijas",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "Tarjeta de tarifas no encontrada",

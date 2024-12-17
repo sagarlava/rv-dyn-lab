@@ -10656,7 +10656,9 @@
       "invalidFileType": "Ungültiger Dateityp. Nur Bilddateien (.jpg, .png, .svg usw.) können hochgeladen werden.",
       "onlyAllowVisualFiles": "Nur Bilder bis zu 100 KB und die folgenden Dateiformate: PNG und JPG/JPEG sind erlaubt",
       "maxUploadFileSize": "Maximale Upload-Dateigröße beträgt 25 MB",
-      "fileExtension": "Nur Dateien mit den Erweiterungen *.pdf, *.docx, *.jpg sind erlaubt"
+      "fileExtension": "Nur Dateien mit den Erweiterungen *.pdf, *.docx, *.jpg sind erlaubt",
+      "fileTypeUnsupported":"Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie eine andere Datei.",
+      "allowedFileSize4MB":"Die Dateigröße überschreitet das Limit von 4 MB. Bitte laden Sie eine kleinere Datei hoch."
     }
   },
   "history": {
@@ -18739,7 +18741,9 @@
         "selectServiceZone": "Servicezone auswählen",
         "selectEquipmentType": "Gerätetyp auswählen",
         "checklistName": "Name der Checkliste",
-        "previousFileOverwritten":"Sind Sie sicher, dass Sie eine neue Datei hochladen möchten? Die vorherige wird überschrieben. Diese Aktion kann nicht rückgängig gemacht werden."
+        "previousFileOverwritten":"Sind Sie sicher, dass Sie eine neue Datei hochladen möchten? Die vorherige wird überschrieben. Diese Aktion kann nicht rückgängig gemacht werden.",
+        "fileTypeUnsupported":"Dieser Dateityp wird nicht unterstützt. Bitte wählen Sie eine andere Datei.",
+        "exceedFileSizeSmall":"Die Dateigröße überschreitet das Limit von 4 MB. Bitte laden Sie eine kleinere Datei hoch."
       }
     },
     "department": {

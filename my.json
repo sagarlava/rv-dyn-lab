@@ -564,6 +564,20 @@
     "fields": {
       "setupVisible": true,
       "setupEdit": true,
+      "category": {
+        "original": "Category",
+        "singular": "Kategori",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory":{
+        "original": "Sub Category",
+        "singular": "Sub Kategori",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "type": {
         "original": "Type",
         "singular": "Jenis",
@@ -997,7 +1011,9 @@
       "assetSubCategoryExists": "Subkategori Aset sudah wujud",
       "assetSubCategorySystemGenerated": "Subkategori Aset yang dihasilkan oleh sistem tidak dibenarkan untuk dipadamkan",
       "assetCategoryIdExists": "Kategori Aset baharu tidak boleh sudah mempunyai ID",
-      "assetSubCategoryIdExists": "Subkategori Aset baharu tidak boleh sudah mempunyai ID"
+      "assetSubCategoryIdExists": "Subkategori Aset baharu tidak boleh sudah mempunyai ID",
+      "assetCategoryCannotDeleteByAssets":"Tidak dapat memadam: Kategori aset digunakan dalam satu atau lebih Aset",
+      "assetSubCategoryCannotDeleteByAssets":"Tidak dapat memadam: Subkategori aset digunakan dalam satu atau lebih Aset"
     },
     "tooltips": {
       "setupVisible": false,
@@ -5738,7 +5754,8 @@
       "ticketHasTicketType": "Data Jenis Tiket wujud dalam sistem untuk Tiket tersebut",
       "ticketTypeSystemGenerated": "Jenis Tiket yang dijana oleh sistem tidak dibenarkan untuk dipadam",
       "ticketTypeIdExists": "Jenis Tiket baru tidak boleh mempunyai ID sedia ada",
-      "slaTicketIdExists": "Tiket SLA baru tidak boleh sudah mempunyai ID"
+      "slaTicketIdExists": "Tiket SLA baru tidak boleh sudah mempunyai ID",
+      "ticketDuplicateTicketCannotBeSameAsTicket":"Tiket duplikasi tidak boleh sama seperti tiket asal"
     },
     "tooltips": {
       "setupVisible": true,
@@ -12053,21 +12070,21 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "proceedAnyway":{
+      "proceedAnyway": {
         "original": "Proceed anyway",
         "singular": "Teruskan juga",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
-      "addEmailNotification":{
+      "addEmailNotification": {
         "original": "Add Email Notification",
         "singular": "Tambah Notifikasi E-mel",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
-      "addAppNotification":{
+      "addAppNotification": {
         "original": "Add App Notification",
         "singular": "Tambah Notifikasi Aplikasi",
         "plural": "",
@@ -15414,18 +15431,18 @@
         },
         "messages": {
           "notificationsAllowNotify": "Notifikasi membolehkan anda memberi amaran kepada pengguna tentang tindakan penting dalam FieldEx, seperti kemas kini atau tugasan. Anda boleh menghantar amaran ini dalam aplikasi atau melalui e-mel. Gunakan aliran kerja untuk menetapkan dan mengawal bila notifikasi dihantar.",
-          "fillEmailNotificationDetails":"Isi butiran pemberitahuan e-mel anda dengan nama dan deskripsi.",
-          "fillAppNotificationDetails":"Isi butiran pemberitahuan aplikasi anda dengan nama dan deskripsi.",
+          "fillEmailNotificationDetails": "Isi butiran pemberitahuan e-mel anda dengan nama dan deskripsi.",
+          "fillAppNotificationDetails": "Isi butiran pemberitahuan aplikasi anda dengan nama dan deskripsi.",
           "typeOutMessage": "Tulis mesej anda, pilih medan yang hendak dimasukkan, dan salin teks yang ditunjukkan ke dalam kotak mesej di sebelah kiri.",
           "selectWhereLikeNotificationNavigate": "Pilih tempat notifikasi harus dipautkan.",
-          "textWithinCurly":"Nota: Teks dalam kurungan kerinting ({{}}) akan digantikan dengan nilai medan sebenar apabila pemberitahuan dihantar.",
+          "textWithinCurly": "Nota: Teks dalam kurungan kerinting ({{}}) akan digantikan dengan nilai medan sebenar apabila pemberitahuan dihantar.",
           "selectEmailTemplate": "Pilih templat e-mel yang anda ingin gunakan untuk notifikasi ini.",
-          "defineEmailRecipients":"Pilih siapa yang akan menerima e-mel ini dengan memilih pengguna sistem, alamat e-mel tertentu, atau kenalan dari medan (contohnya, e-mel kenalan pesanan kerja).",
-          "defineAppRecipients":"Pilih siapa yang akan menerima e-mel ini dengan memilih pengguna sistem atau kumpulan.",
+          "defineEmailRecipients": "Pilih siapa yang akan menerima e-mel ini dengan memilih pengguna sistem, alamat e-mel tertentu, atau kenalan dari medan (contohnya, e-mel kenalan pesanan kerja).",
+          "defineAppRecipients": "Pilih siapa yang akan menerima e-mel ini dengan memilih pengguna sistem atau kumpulan.",
           "makeKeyDataBold": "Jadikan data penting tebal.",
           "createEmailTemplate": "Buat Templat E-mel.",
           "selectModule": "Pilih Modul",
-          "selectTemplate":"Pilih Templat",
+          "selectTemplate": "Pilih Templat",
           "selectGroup": "Pilih Kumpulan",
           "selectUserInField": "Pilih Pengguna di Lapangan",
           "testEmailSentSuccessfully": "E-mel ujian berjaya dihantar",
@@ -20793,8 +20810,8 @@
         "andPartIsStrict": "Bahagian DAN adalah ketat:",
         "onlyOneThingNeedsToHappen": "Hanya satu perkara daripada kumpulan itu perlu berlaku.",
         "everythingInGroupMustHappen": "Semua dalam kumpulan itu mesti berlaku.",
-        "workflowHasNotBegun":"Tiada pencetus mula ditentukan.",
-        "clickHereToAdd":"Klik di sini untuk menambah."
+        "workflowHasNotBegun": "Tiada pencetus mula ditentukan.",
+        "clickHereToAdd": "Klik di sini untuk menambah."
       }
     },
     "templates": {
@@ -20919,10 +20936,10 @@
           "copyFieldsToAutoFillWithFieldExData": "Salin medan untuk diisi secara automatik dengan data FieldEx",
           "addAButton": "Tambah butang",
           "addATable": "Tambah jadual",
-          "fileSizeRestriction":"Sekatan Saiz Fail",
-          "acceptedFileFormats":"Format Fail yang Diterima",
-          "maxAllowedIs100Kb":"Saiz fail maksimum yang dibenarkan ialah 100kb",
-          "onlyImgFormat":"Hanya format JPEG, JPG, dan PNG disokong"
+          "fileSizeRestriction": "Sekatan Saiz Fail",
+          "acceptedFileFormats": "Format Fail yang Diterima",
+          "maxAllowedIs100Kb": "Saiz fail maksimum yang dibenarkan ialah 100kb",
+          "onlyImgFormat": "Hanya format JPEG, JPG, dan PNG disokong"
         },
         "settings": {
           "label": {
@@ -21218,7 +21235,7 @@
       "setupSystemCategoryIdExists": "Kategori Sistem baru tidak boleh sudah mempunyai ID",
       "setupSystemCategoryIdNotFound": "ID tidak ditemui",
       "setupSystemCategoryNameExists": "Nama sudah wujud",
-      "setupSystemCategoryCannotDeleteByJobOrderTemplates" : "Tidak dapat memadam: kategori sistem adalah sebahagian daripada satu atau lebih templat pesanan kerja",
+      "setupSystemCategoryCannotDeleteByJobOrderTemplates": "Tidak dapat memadam: kategori sistem adalah sebahagian daripada satu atau lebih templat pesanan kerja",
       "setupJobOrderTypeIdExists": "Jenis Pesanan Kerja baru tidak boleh sudah mempunyai ID",
       "setupJobOrderTypeIdNotFound": "ID tidak ditemui",
       "setupJobOrderTypeNameExists": "Nama sudah wujud",
@@ -21373,7 +21390,11 @@
       "setupUserShiftStartTimeNotFound": "Masa mula tidak dijumpai untuk syif",
       "setupUserShiftEndTimeNotFound": "Masa tamat tidak dijumpai untuk syif",
       "setupUserShiftNotFound": "Syif Pengguna tidak dijumpai",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "Tidak boleh menukar lokasi zon apabila mempunyai inventori"
+      "setupZoneHasInventoryNotAllowedChangeLocation": "Tidak boleh menukar lokasi zon apabila mempunyai inventori",
+      "setupWorkflowDeleteAlertInUse":"Notifikasi digunakan dalam satu atau lebih Aliran Kerja",
+      "setupWorkflowIdValuesRequired":"Nilai ID Aliran Kerja diperlukan",
+      "setupWorkflowLinkedToNotifications":"Aliran Kerja mempunyai Notifikasi yang ditetapkan. Sila padamkannya terlebih dahulu",
+      "setupWorkflowMaxAllowedCount":"Jumlah maksimum Aliran Kerja aktif telah dicapai"
     },
     "labelBE": {
       "profileTableColumnSetup": {

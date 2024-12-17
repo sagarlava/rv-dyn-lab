@@ -1,0 +1,55 @@
+asset.fields.category
+{
+  "original": "Category",
+  "singular": "Kategori",
+  "plural": "",
+  "setupEdit": true,
+  "setupVisible": true
+}
+
+
+
+//////////////////////////////
+
+
+asset.fields.subCategory
+{
+  "original": "Sub Category",
+  "singular": "Sub Kategori",
+  "plural": "",
+  "setupEdit": true,
+  "setupVisible": true
+},
+
+
+///////////
+
+
+asset.validationBE.assetCategoryCannotDeleteByAssets
+"Tidak dapat memadam: Kategori aset digunakan dalam satu atau lebih Aset"
+
+//////////////////////////////
+asset.validationBE.assetSubCategoryCannotDeleteByAssets
+"Tidak dapat memadam: Subkategori aset digunakan dalam satu atau lebih Aset"
+
+//////////////////////////////
+
+ticket.validationBE.ticketDuplicateTicketCannotBeSameAsTicket
+"Tiket duplikasi tidak boleh sama seperti tiket asal"
+
+//////////////////////////////
+
+setup.validationBE.setupWorkflowDeleteAlertInUse
+"Notifikasi digunakan dalam satu atau lebih Aliran Kerja"
+
+//////////////////////////////
+setup.validationBE.setupWorkflowIdValuesRequired
+"Nilai ID Aliran Kerja diperlukan"
+
+//////////////////////////////
+setup.validationBE.setupWorkflowLinkedToNotifications
+"Aliran Kerja mempunyai Notifikasi yang ditetapkan. Sila padamkannya terlebih dahulu"
+
+setup.validationBE.setupWorkflowMaxAllowedCount
+"Jumlah maksimum Aliran Kerja aktif telah dicapai"
+//////////////////////////////

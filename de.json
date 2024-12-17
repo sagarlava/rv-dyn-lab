@@ -564,6 +564,20 @@
     "fields": {
       "setupVisible": true,
       "setupEdit": true,
+      "category": {
+        "original": "Category",
+        "singular": "Kategorie",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory": {
+        "original": "Sub Category",
+        "singular": "Unterkategorie",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "type": {
         "original": "Type",
         "singular": "Typ",
@@ -997,7 +1011,9 @@
       "assetSubCategoryExists": "Asset-Unterkategorie existiert bereits",
       "assetSubCategorySystemGenerated": "Systemgenerierte Asset-Unterkategorien dürfen nicht gelöscht werden",
       "assetCategoryIdExists": "Eine neue Asset-Kategorie darf keine ID haben",
-      "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben"
+      "assetSubCategoryIdExists": "Eine neue Asset-Unterkategorie darf keine ID haben",
+      "assetCategoryCannotDeleteByAssets":"Löschen nicht möglich: Asset-Kategorie wird in einem oder mehreren Assets verwendet",
+      "assetSubCategoryCannotDeleteByAssets": "Löschen nicht möglich: Asset-Unterkategorie wird in einem oder mehreren Assets verwendet"
     },
     "tooltips": {
       "setupVisible": false,
@@ -5738,7 +5754,8 @@
       "ticketHasTicketType": "Tickettypdaten existieren im System für das Ticket",
       "ticketTypeSystemGenerated": "Systemgenerierte Tickettypen dürfen nicht gelöscht werden",
       "ticketTypeIdExists": "Ein neuer Tickettyp kann bereits keine ID haben",
-      "slaTicketIdExists": "Ein neues SLA-Ticket kann bereits keine ID haben"
+      "slaTicketIdExists": "Ein neues SLA-Ticket kann bereits keine ID haben",
+      "ticketDuplicateTicketCannotBeSameAsTicket": "Das doppelte Ticket kann nicht mit dem Originalticket identisch sein"
     },
     "tooltips": {
       "setupVisible": true,
@@ -12053,21 +12070,21 @@
         "setupEdit": true,
         "setupVisible": false
       },
-      "proceedAnyway":{
+      "proceedAnyway": {
         "original": "Proceed anyway",
         "singular": "Trotzdem fortfahren",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
-      "addEmailNotification":{
+      "addEmailNotification": {
         "original": "Add Email Notification",
         "singular": "E-Mail-Benachrichtigung hinzufügen",
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
       },
-      "addAppNotification":{
+      "addAppNotification": {
         "original": "Add App Notification",
         "singular": "App-Benachrichtigung hinzufügen",
         "plural": "",
@@ -15414,18 +15431,18 @@
         },
         "messages": {
           "notificationsAllowNotify": "Benachrichtigungen ermöglichen es Ihnen, Benutzer über spezifische Aktivitäten in FieldEx zu informieren, wie z. B. Updates und Zuweisungen, sowohl innerhalb der App als auch als E-Mail-Benachrichtigungen. Erstellen Sie Workflows, um Ihre Benachrichtigungen auszulösen und konfigurieren Sie diese, um Ihren Geschäftsprozessen gerecht zu werden.",
-          "fillEmailNotificationDetails":"Füllen Sie die Details Ihrer E-Mail-Benachrichtigung mit einem Namen und einer Beschreibung aus.",
-          "fillAppNotificationDetails":"Füllen Sie die Details Ihrer App-Benachrichtigung mit einem Namen und einer Beschreibung aus.",
+          "fillEmailNotificationDetails": "Füllen Sie die Details Ihrer E-Mail-Benachrichtigung mit einem Namen und einer Beschreibung aus.",
+          "fillAppNotificationDetails": "Füllen Sie die Details Ihrer App-Benachrichtigung mit einem Namen und einer Beschreibung aus.",
           "typeOutMessage": "Geben Sie Ihre Nachricht ein, wählen Sie die Felder aus, die Sie einfügen möchten, und kopieren Sie den angezeigten Text in den Nachrichteninhalt links.",
           "selectWhereLikeNotificationNavigate": "Wählen Sie, wohin die Benachrichtigung navigieren soll und ob Sie wichtige Informationen fett gedruckt haben möchten.",
-          "textWithinCurly":"Hinweis: Der Text in den geschweiften Klammern ({{}}) wird beim Senden der Benachrichtigung durch die tatsächlichen Feldwerte ersetzt.",
+          "textWithinCurly": "Hinweis: Der Text in den geschweiften Klammern ({{}}) wird beim Senden der Benachrichtigung durch die tatsächlichen Feldwerte ersetzt.",
           "selectEmailTemplate": "Wählen Sie die E-Mail-Vorlage aus, die für diese Benachrichtigung versendet werden soll.",
-          "defineEmailRecipients":"Wählen Sie, wer diese E-Mail erhält, indem Sie Systembenutzer, spezifische E-Mail-Adressen oder Kontakte aus Feldern auswählen (z. B. die Kontakt-E-Mail eines Arbeitsauftrags).",
-          "defineAppRecipients":"Wählen Sie, wer diese E-Mail erhält, indem Sie Systembenutzer oder Gruppen auswählen.",
+          "defineEmailRecipients": "Wählen Sie, wer diese E-Mail erhält, indem Sie Systembenutzer, spezifische E-Mail-Adressen oder Kontakte aus Feldern auswählen (z. B. die Kontakt-E-Mail eines Arbeitsauftrags).",
+          "defineAppRecipients": "Wählen Sie, wer diese E-Mail erhält, indem Sie Systembenutzer oder Gruppen auswählen.",
           "makeKeyDataBold": "Wichtige Daten fett formatieren",
           "createEmailTemplate": "E-Mail-Vorlage erstellen",
           "selectModule": "Modul auswählen",
-          "selectTemplate":"Vorlage auswählen",
+          "selectTemplate": "Vorlage auswählen",
           "selectGroup": "Gruppe auswählen",
           "selectUserInField": "Benutzer im Feld auswählen",
           "testEmailSentSuccessfully": "Test-E-Mail erfolgreich gesendet",
@@ -20793,8 +20810,8 @@
         "andPartIsStrict": "Der UND-Teil ist streng:",
         "onlyOneThingNeedsToHappen": "Nur eine Sache aus dieser Gruppe muss passieren.",
         "everythingInGroupMustHappen": "Alles in dieser Gruppe muss passieren.",
-        "workflowHasNotBegun":"Kein Startauslöser angegeben",
-        "clickHereToAdd":"Klicken Sie hier, um hinzuzufügen."
+        "workflowHasNotBegun": "Kein Startauslöser angegeben",
+        "clickHereToAdd": "Klicken Sie hier, um hinzuzufügen."
       }
     },
     "templates": {
@@ -20919,10 +20936,10 @@
           "copyFieldsToAutoFillWithFieldExData": "Kopieren Sie Felder, um sie automatisch mit FieldEx-Daten zu füllen",
           "addAButton": "Fügen Sie einen Button hinzu",
           "addATable": "Fügen Sie eine Tabelle hinzu",
-          "fileSizeRestriction":"Dateigrößenbeschränkung",
-          "acceptedFileFormats":"Akzeptierte Dateiformate",
-          "maxAllowedIs100Kb":"Die maximal zulässige Dateigröße beträgt 100kb.",
-          "onlyImgFormat":"Nur JPEG-, JPG- und PNG-Formate werden unterstützt"
+          "fileSizeRestriction": "Dateigrößenbeschränkung",
+          "acceptedFileFormats": "Akzeptierte Dateiformate",
+          "maxAllowedIs100Kb": "Die maximal zulässige Dateigröße beträgt 100kb.",
+          "onlyImgFormat": "Nur JPEG-, JPG- und PNG-Formate werden unterstützt"
         },
         "settings": {
           "label": {
@@ -21218,7 +21235,7 @@
       "setupSystemCategoryIdExists": "Eine neue Systemkategorie kann bereits keine ID haben.",
       "setupSystemCategoryIdNotFound": "ID nicht gefunden.",
       "setupSystemCategoryNameExists": "Name existiert bereits.",
-      "setupSystemCategoryCannotDeleteByJobOrderTemplates" : "Löschen nicht möglich: Die Systemkategorie ist Teil von einer oder mehreren Arbeitsauftragsvorlagen.",
+      "setupSystemCategoryCannotDeleteByJobOrderTemplates": "Löschen nicht möglich: Die Systemkategorie ist Teil von einer oder mehreren Arbeitsauftragsvorlagen.",
       "setupJobOrderTypeIdExists": "Ein neuer Auftragstyp kann bereits keine ID haben.",
       "setupJobOrderTypeIdNotFound": "ID nicht gefunden.",
       "setupJobOrderTypeNameExists": "Name existiert bereits.",
@@ -21373,7 +21390,11 @@
       "setupUserShiftStartTimeNotFound": "Startzeit für den Schichtwechsel nicht gefunden.",
       "setupUserShiftEndTimeNotFound": "Endzeit für den Schichtwechsel nicht gefunden.",
       "setupUserShiftNotFound": "Benutzerschicht nicht gefunden.",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "Standort der Zone kann bei bestehendem Inventar nicht geändert werden."
+      "setupZoneHasInventoryNotAllowedChangeLocation": "Standort der Zone kann bei bestehendem Inventar nicht geändert werden.",
+      "setupWorkflowDeleteAlertInUse":"Benachrichtigung wird in einem oder mehreren Workflows verwendet",
+      "setupWorkflowIdValuesRequired": "Workflow-ID-Wert ist erforderlich",
+      "setupWorkflowLinkedToNotifications": "Dem Workflow sind Benachrichtigungen zugewiesen. Bitte entfernen Sie diese zuerst",
+      "setupWorkflowMaxAllowedCount":"Die maximale Anzahl aktiver Workflows wurde erreicht"
     },
     "labelBE": {
       "profileTableColumnSetup": {

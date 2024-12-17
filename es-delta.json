@@ -1,0 +1,56 @@
+asset.fields.category
+
+{
+  "original": "Category",
+  "singular": "Categoría",
+  "plural": "",
+  "setupEdit": true,
+  "setupVisible": true
+},
+
+
+
+//////////////////////////////
+
+
+asset.fields.subCategory
+{
+  "original": "Sub Category",
+  "singular": "Subcategoría",
+  "plural": "",
+  "setupEdit": true,
+  "setupVisible": true
+},
+
+
+///////////
+
+
+asset.validationBE.assetCategoryCannotDeleteByAssets
+"No se puede eliminar: La categoría de activos se utiliza en uno o más activos"
+
+//////////////////////////////
+asset.validationBE.assetSubCategoryCannotDeleteByAssets
+"No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos"
+
+//////////////////////////////
+
+ticket.validationBE.ticketDuplicateTicketCannotBeSameAsTicket
+"El ticket duplicado no puede ser el mismo que el ticket original"
+
+//////////////////////////////
+
+setup.validationBE.setupWorkflowDeleteAlertInUse
+"La notificación se utiliza en uno o más flujos de trabajo"
+
+//////////////////////////////
+setup.validationBE.setupWorkflowIdValuesRequired
+"Se requiere el valor del ID del flujo de trabajo"
+
+//////////////////////////////
+setup.validationBE.setupWorkflowLinkedToNotifications
+"El flujo de trabajo tiene notificaciones asignadas. Por favor, elimínelas primero"
+
+setup.validationBE.setupWorkflowMaxAllowedCount
+"Se ha alcanzado el máximo de flujos de trabajo activos"
+//////////////////////////////

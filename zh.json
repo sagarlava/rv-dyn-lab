@@ -564,6 +564,20 @@
     "fields": {
       "setupEdit": true,
       "setupVisible": true,
+      "category":{
+        "original": "Category",
+        "singular": "类别",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
+      "subCategory":{
+        "original": "Sub Category",
+        "singular": "子类别",
+        "plural": "",
+        "setupEdit": true,
+        "setupVisible": true
+      },
       "type": {
         "original": "Type",
         "singular": "类型",
@@ -997,7 +1011,10 @@
       "assetSubCategoryExists": "资产子类别已存在",
       "assetSubCategorySystemGenerated": "系统生成的资产子类别不允许删除",
       "assetCategoryIdExists": "新资产类别不能已经有ID",
-      "assetSubCategoryIdExists": "新资产子类别不能已经有ID"
+      "assetSubCategoryIdExists": "新资产子类别不能已经有ID",
+      "assetCategoryCannotDeleteByAssets":"无法删除：资产类别在一个或多个资产中使用",
+      "assetSubCategoryCannotDeleteByAssets":"无法删除：资产子类别在一个或多个资产中使用"
+
     },
     "tooltips": {
       "setupVisible": false,
@@ -5738,7 +5755,8 @@
       "ticketHasTicketType": "系统中存在该工单的类型数据",
       "ticketTypeSystemGenerated": "系统生成的工单类型不允许删除",
       "ticketTypeIdExists": "新的工单类型不能已有ID",
-      "slaTicketIdExists": "新的SLA工单不能已有ID"
+      "slaTicketIdExists": "新的SLA工单不能已有ID",
+      "ticketDuplicateTicketCannotBeSameAsTicket":"重复票不能与原始票相同" 
     },
     "tooltips": {
       "setupVisible": true,
@@ -21373,7 +21391,11 @@
       "setupUserShiftStartTimeNotFound": "未找到班次开始时间",
       "setupUserShiftEndTimeNotFound": "未找到班次结束时间",
       "setupUserShiftNotFound": "未找到用户班次",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "有库存时无法更改区域位置"
+      "setupZoneHasInventoryNotAllowedChangeLocation": "有库存时无法更改区域位置",
+      "setupWorkflowDeleteAlertInUse":"通知已在一个或多个工作流中使用",
+      "setupWorkflowIdValuesRequired":"工作流ID值是必需的",
+      "setupWorkflowLinkedToNotifications":"工作流已分配通知。请先删除它们",
+      "setupWorkflowMaxAllowedCount":"已达到最大活动工作流数量"
     },
     "labelBE": {
       "profileTableColumnSetup": {

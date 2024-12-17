@@ -2575,6 +2575,20 @@
         "plural": "Add Spare Parts",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec14": {
+        "original": "Use the fields below to filter the Checklist(s) you'd like to add",
+        "singular": "Use the fields below to filter the Checklist(s) you'd like to add",
+        "plural": "Use the fields below to filter the Checklist(s) you'd like to add",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "Select the Checklist(s) you'd like to add to this Job Order",
+        "singular": "Select the Checklist(s) you'd like to add to this Job Order",
+        "plural": "Select the Checklist(s) you'd like to add to this Job Order",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -2674,6 +2688,13 @@
       "checklistToGenerate": {
         "original": "New Checklist to be Generated",
         "singular": "New Checklist to be Generated",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderType": {
+        "original": "Job Order Type",
+        "singular": "Job Order Type",
         "plural": "",
         "setupEdit": false,
         "setupVisible": false
@@ -10637,7 +10658,9 @@
       "invalidFileType":"Invalid file type. Only image files (.jpg, .png, .svg, etc.) can be uploaded.",
       "onlyAllowVisualFiles":"Only allow images up to 100kb and the following file formats: PNG and JPG/JPEG",
       "maxUploadFileSize": "Maximum upload file size is 25MB",
-      "fileExtension":"Only files with extensions *.pdf, *.docx, *.jpg are allowed"
+      "fileExtension":"Only files with extensions *.pdf, *.docx, *.jpg are allowed",
+      "fileTypeUnsupported":"This file type is Unsupported. Please choose a different file.",
+      "allowedFileSize4MB":"File size exceeds 4MB limit. Please upload a smaller file."
     }
   },
   "history": {
@@ -18556,6 +18579,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec15": {
+          "original": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.",
+          "singular": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -18678,6 +18708,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "whenWillChecklistPrompted": {
+          "original": "When Will Checklist be Prompted?",
+          "singular": "When Will Checklist be Prompted?",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "tooltips": {
@@ -18702,7 +18739,10 @@
         "selectAssetTypes": "Select Asset Types",
         "selectServiceZone": "Select Service Zone",
         "selectEquipmentType": "Select Equipment Type",
-        "checklistName": "Checklist Name"
+        "checklistName": "Checklist Name",
+        "previousFileOverwritten":"Are you sure you want to upload a new file? The previous one will be overwritten. This action cannot be undone",
+        "fileTypeUnsupported":"This file type is Unsupported. Please choose a different file.",
+        "exceedFileSizeSmall":"File size exceeds 4MB limit. Please upload a smaller file."
       }
     },
     "department": {
@@ -18874,6 +18914,34 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "photo": {
+          "original": "Photo",
+          "singular": "Photo",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "answerType": {
+          "original": "Answer Type",
+          "singular": "Answer Type",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "from": {
+          "original": "From",
+          "singular": "From",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "to": {
+          "original": "To",
+          "singular": "To",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -18903,6 +18971,20 @@
         "aJobOrderGeneratedSelectedTemplate": {
           "original": "A Job Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
           "singular": "A Job Order and it's associated Tasks and Spare Parts will be generated from the selected template if the answer is submitted",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "chooseTextOrNumber": {
+          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
+          "singular": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "enterRangeOfNumbers": {
+          "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
+          "singular": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

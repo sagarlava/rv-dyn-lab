@@ -2576,6 +2576,20 @@
         "plural": "添加产品",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "sec14": {
+        "original": "Use the fields below to filter the Checklist(s) you'd like to add",
+        "singular": "使用以下字段过滤您想要添加的检查清单",
+        "plural": "使用以下字段过滤您想要添加的检查清单",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec15": {
+        "original": "Select the Checklist(s) you'd like to add to this Job Order",
+        "singular": "选择您想添加到此工单的检查清单",
+        "plural": "选择您想添加到此工单的检查清单",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "fields": {
@@ -2677,6 +2691,13 @@
         "singular": "要生成的新清单",
         "plural": "",
         "setupEdit": false,
+        "setupVisible": false
+      },
+      "jobOrderType": {
+        "original": "Job Order Type",
+        "singular": "工作单类型",
+        "plural": "",
+        "setupEdit": true,
         "setupVisible": false
       }
     },
@@ -10637,7 +10658,9 @@
       "invalidFileType": "无效的文件类型。 只能上传图像文件（.jpg、.png、.svg 等）。",
       "onlyAllowVisualFiles": "仅允许大小不超过100kb的图像文件，支持的格式：PNG和JPG/JPEG",
       "maxUploadFileSize": "最大上传文件大小为 25MB",
-      "fileExtension": "仅允许扩展名为 *.pdf, *.docx, *.jpg 的文件"
+      "fileExtension": "仅允许扩展名为 *.pdf, *.docx, *.jpg 的文件",
+      "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
+      "allowedFileSize4MB":"文件大小超过4MB限制。请上传较小的文件。"
     }
   },
   "history": {
@@ -18556,6 +18579,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "sec15": {
+          "original": "Specify the details of the Job Orders this Checklist is for. Job Orders matching the below values will trigger this Checklist.", 
+          "singular": "指定此检查清单适用的工单详细信息。符合以下值的工单将触发此检查清单。",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "fields": {
@@ -18678,6 +18708,13 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "whenWillChecklistPrompted": {
+          "original": "When Will Checklist be Prompted?",
+          "singular": "何时会提示检查清单?",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "tooltips": {
@@ -18702,7 +18739,10 @@
         "selectAssetTypes": "选择资产类型",
         "selectServiceZone": "选择服务区域域",
         "selectEquipmentType": "选择设备类型",
-        "checklistName": "清单名称"
+        "checklistName": "清单名称",
+        "previousFileOverwritten":"您确定要上传新文件吗？之前的文件将被覆盖。此操作无法撤销。",
+        "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
+        "exceedFileSizeSmall":"文件大小超过4MB限制。请上传较小的文件。"
       }
     },
     "department": {
@@ -18874,6 +18914,34 @@
           "plural": "",
           "setupEdit": true,
           "setupVisible": false
+        },
+        "photo": {
+          "original": "Photo",
+          "singular": "照片",
+          "plural": "",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "answerType": {
+          "original": "Answer Type",
+          "singular": "答案类型",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "from": {
+          "original": "From",
+          "singular": "从",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "to": {
+          "original": "To",
+          "singular": "到",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
         }
       },
       "validationFE": {},
@@ -18903,6 +18971,20 @@
         "aJobOrderGeneratedSelectedTemplate": {
           "original": "A Job Order and it's associated Tasks and Products will be generated from the selected template if the answer is submitted",
           "singular": "如果提交答案，将从选定的模板生成工作订单及其相关任务和备件",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "chooseTextOrNumber": {
+          "original": "This choice sets the format for the Answer fields in the Answers section. Choose 'Text' for word answers or 'Number' for number range answers.",
+          "singular": "此选项设置答案部分中答案字段的格式。选择“文本”以输入文字答案，或选择“数字”以输入数字范围答案。",
+          "plural": "",
+          "setupEdit": true,
+          "setupVisible": false
+        },
+        "enterRangeOfNumbers": {
+          "original": "Enter the range of numbers that act as a threshold in the From and To fields. If the values fall within this range, the selected Job Order Template will be triggered. Note that the 'To' value must be equal to or greater than the 'From' value.",
+          "singular": "输入充当“从”和“到”字段阈值的数字范围。如果值在此范围内，则会触发所选的工单模板。请注意，“到”值必须等于或大于“从”值。",
           "plural": "",
           "setupEdit": true,
           "setupVisible": false

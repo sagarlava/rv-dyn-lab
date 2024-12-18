@@ -1014,7 +1014,6 @@
       "assetSubCategoryIdExists": "Una nueva subcategoría de activos no puede tener ya un ID",
       "assetCategoryCannotDeleteByAssets":"No se puede eliminar: La categoría de activos se utiliza en uno o más activos",
       "assetSubCategoryCannotDeleteByAssets":"No se puede eliminar: La subcategoría de activos se utiliza en uno o más activos"
-
     },
     "tooltips": {
       "setupVisible": false,
@@ -5778,7 +5777,6 @@
       "ticketTypeIdExists": "Un nuevo Tipo de Ticket no puede ya tener un ID",
       "slaTicketIdExists": "Un nuevo SlaTicket no puede ya tener un ID",
       "ticketDuplicateTicketCannotBeSameAsTicket":"El ticket duplicado no puede ser el mismo que el ticket original"
-
     },
     "tooltips": {
       "setupVisible": true,

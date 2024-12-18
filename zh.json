@@ -15450,6 +15450,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "用逗号分隔多个电子邮件地址",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

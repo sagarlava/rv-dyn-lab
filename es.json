@@ -5775,7 +5775,8 @@
       "ticketHasTicketType": "Los datos de Tipo de Ticket existen en el sistema para el Ticket",
       "ticketTypeSystemGenerated": "Los Tipos de Ticket generados por el sistema no pueden ser eliminados",
       "ticketTypeIdExists": "Un nuevo Tipo de Ticket no puede ya tener un ID",
-      "slaTicketIdExists": "Un nuevo SlaTicket no puede ya tener un ID"
+      "slaTicketIdExists": "Un nuevo SlaTicket no puede ya tener un ID",
+      "ticketDuplicateTicketCannotBeSameAsTicket":"El ticket duplicado no puede ser el mismo que el ticket original"
     },
     "tooltips": {
       "setupVisible": true,
@@ -15449,6 +15450,13 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "Separe múltiples direcciones de correo electrónico con comas",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
@@ -21475,7 +21483,11 @@
       "setupUserShiftStartTimeNotFound": "Hora de inicio no encontrada para el turno",
       "setupUserShiftEndTimeNotFound": "Hora de finalización no encontrada para el turno",
       "setupUserShiftNotFound": "Turno de usuario no encontrado",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "No se puede cambiar la ubicación de la zona cuando hay un inventario"
+      "setupZoneHasInventoryNotAllowedChangeLocation": "No se puede cambiar la ubicación de la zona cuando hay un inventario",
+      "setupWorkflowDeleteAlertInUse":"La notificación se utiliza en uno o más flujos de trabajo",
+      "setupWorkflowIdValuesRequired":"Se requiere el valor del ID del flujo de trabajo",
+      "setupWorkflowLinkedToNotifications":"El flujo de trabajo tiene notificaciones asignadas. Por favor, elimínelas primero",
+      "setupWorkflowMaxAllowedCount":"Se ha alcanzado el máximo de flujos de trabajo activos"
     },
     "labelBE": {
       "profileTableColumnSetup": {

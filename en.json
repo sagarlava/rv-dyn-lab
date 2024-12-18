@@ -5775,7 +5775,8 @@
       "ticketHasTicketType": "Ticket Type Data exists in the system for the Ticket",
       "ticketTypeSystemGenerated": "System generated Ticket Types are not allowed to be deleted",
       "ticketTypeIdExists": "A new Ticket Type cannot already have an ID",
-      "slaTicketIdExists": "A new SlaTicket cannot already have an ID"
+      "slaTicketIdExists": "A new SlaTicket cannot already have an ID",
+      "ticketDuplicateTicketCannotBeSameAsTicket": "Duplicate ticket can not be same as original ticket"
     },
     "tooltips": {
       "setupVisible": true,
@@ -15449,6 +15450,13 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "separateEmail": {
+            "original": "Separate multiple email addresses with commas",
+            "singular": "Separate multiple email addresses with commas",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
@@ -20846,7 +20854,7 @@
         "inAppNotifications":"In-App Notifications:",
         "inAppNotificationsDesc":"Write custom messsages to notify FieldEx users directly in the web or mobile app when conditions are met.",
         "emailNotifications":"Email Notifications:",
-        "emailNotificationsDesc":"Desgin custom email templates with field values to notify FieldEx users or external contacts.",
+        "emailNotificationsDesc":"Design custom email templates with field values to notify FieldEx users or external contacts.",
         "whetherRemindersCustomer":"Whether it's reminders, customer updates, or team alerts, workflows make staying connected simple and effective.",
         "useThisPageToCreateNewWorkflows": "Use this page to create new workflows or manage the ones you've already set up.",
         "triggerWhenNewRecordCreated":"The workflow will trigger when a new record is added and the set conditions are met.",
@@ -21475,7 +21483,11 @@
       "setupUserShiftStartTimeNotFound": "Start time not found for the shift",
       "setupUserShiftEndTimeNotFound": "End time not found for the shift",
       "setupUserShiftNotFound": "User Shift not found",
-      "setupZoneHasInventoryNotAllowedChangeLocation": "Cannot change the zone location when having an inventory"
+      "setupZoneHasInventoryNotAllowedChangeLocation": "Cannot change the zone location when having an inventory",
+      "setupWorkflowDeleteAlertInUse":"Notification is used in one or more Workflows",
+      "setupWorkflowIdValuesRequired": "Workflow id value required",
+      "setupWorkflowLinkedToNotifications": "Workflow has Notifications assigned to it. Please remove them first",
+      "setupWorkflowMaxAllowedCount":"Maximum active workflows reached"
     },
     "labelBE": {
       "profileTableColumnSetup": {

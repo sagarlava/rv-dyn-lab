@@ -1,0 +1,61 @@
+asset.fields.category
+  {
+  "original": "Category",
+  "singular": "Kategorie",
+  "plural": "",
+  "setupEdit": true,
+  "setupVisible": true
+}
+
+
+
+//////////////////////////////
+
+
+asset.fields.subCategory
+{
+  "original": "Sub Category",
+  "singular": "Unterkategorie",
+  "plural": "",
+  "setupEdit": true,
+  "setupVisible": true
+} 
+
+
+///////////
+
+
+asset.validationBE.assetCategoryCannotDeleteByAssets
+"Löschen nicht möglich: Asset-Kategorie wird in einem oder mehreren Assets verwendet",
+
+ 
+
+//////////////////////////////
+asset.validationBE.assetSubCategoryCannotDeleteByAssets
+"Löschen nicht möglich: Asset-Unterkategorie wird in einem oder mehreren Assets verwendet"
+
+
+//////////////////////////////
+
+ticket.validationBE.ticketDuplicateTicketCannotBeSameAsTicket
+"Das doppelte Ticket kann nicht mit dem Originalticket identisch sein"
+ 
+//////////////////////////////
+
+setup.validationBE.setupWorkflowDeleteAlertInUse
+"Benachrichtigung wird in einem oder mehreren Workflows verwendet",
+
+
+//////////////////////////////
+setup.validationBE.setupWorkflowIdValuesRequired
+"Workflow-ID-Wert ist erforderlich"
+ 
+
+//////////////////////////////
+setup.validationBE.setupWorkflowLinkedToNotifications
+ "Dem Workflow sind Benachrichtigungen zugewiesen. Bitte entfernen Sie diese zuerst"
+ 
+setup.validationBE.setupWorkflowMaxAllowedCount
+"setupWorkflowMaxAllowedCount": "Die maximale Anzahl aktiver Workflows wurde erreicht"
+
+//////////////////////////////

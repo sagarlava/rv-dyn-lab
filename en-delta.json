@@ -1,0 +1,55 @@
+asset.fields.category
+{
+    "original": "Category",
+    "singular": "Category",
+    "plural": "",
+    "setupEdit": true,
+    "setupVisible": true
+}
+
+
+
+//////////////////////////////
+
+
+asset.fields.subCategory
+{
+    "original": "Sub Category",
+    "singular": "Sub Category",
+    "plural": "",
+    "setupEdit": true,
+    "setupVisible": true
+}
+
+
+///////////
+
+
+asset.validationBE.assetCategoryCannotDeleteByAssets
+"Unable to delete: Asset Category is used in one or more Assets"
+
+//////////////////////////////
+asset.validationBE.assetSubCategoryCannotDeleteByAssets
+"Unable to delete: Asset Sub Category is used in one or more Assets"
+
+//////////////////////////////
+
+ticket.validationBE.ticketDuplicateTicketCannotBeSameAsTicket
+ "Duplicate ticket can not be same as original ticket"
+
+//////////////////////////////
+
+setup.validationBE.setupWorkflowDeleteAlertInUse
+ "Notification is used in one or more Workflows"
+
+//////////////////////////////
+setup.validationBE.setupWorkflowIdValuesRequired
+ "Workflow id value required"
+
+//////////////////////////////
+setup.validationBE.setupWorkflowLinkedToNotifications
+ "Workflow has Notifications assigned to it. Please remove them first"
+
+setup.validationBE.setupWorkflowMaxAllowedCount
+"Maximum active workflows reached"
+//////////////////////////////

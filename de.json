@@ -2698,6 +2698,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "assetStatusBeforeChecklist": {
+        "original": "Asset status before checklist",
+        "singular": "Anlagenstatus vor der Checklisten",
+        "plural": "Anlagenstatus vor den Checklisten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusAfterChecklist": {
+        "original": "Asset status after checklist",
+        "singular":"Anlagenstatus nach der Checkliste",
+        "plural": "Anlagenstatus nach den Checklisten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingBeforeChecklist": {
+        "original": "Equipment meter reading before checklist",
+        "singular": "Gerätezählerstand vor der Checkliste",
+        "plural": "Gerätezählerstände vor den Checklisten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingAfterChecklist": {
+        "original": "Equipment meter reading after checklist",
+        "singular": "Gerätezählerstand nach der Checkliste",
+        "plural": "Gerätezählerstände nach den Checklisten",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

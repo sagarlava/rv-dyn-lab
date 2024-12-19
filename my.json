@@ -2698,6 +2698,34 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "assetStatusBeforeChecklist": {
+        "original": "Asset status before checklist",
+        "singular": "Status aset sebelum senarai semak",
+        "plural": "Status aset sebelum senarai semak",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "assetStatusAfterChecklist": {
+        "original": "Asset status after checklist",
+        "singular":"Status aset selepas senarai semak",
+        "plural": "Status aset selepas senarai semak",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingBeforeChecklist": {
+        "original": "Equipment meter reading before checklist",
+        "singular": "Bacaan meter peralatan sebelum senarai semak",
+        "plural": "Bacaan meter peralatan sebelum senarai semak",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "equipmentMeterReadingAfterChecklist": {
+        "original": "Equipment meter reading after checklist",
+        "singular": "Bacaan meter peralatan selepas senarai semak",
+        "plural": "Bacaan meter peralatan selepas senarai semak",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "validationFE": {},

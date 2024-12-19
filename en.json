@@ -2235,7 +2235,8 @@
       "contractIdExists": "A new contract cannot already have an ID",
       "contractPriceBookNotFound": "Contract Price Book not found",
       "contractPriceBookIdNotFound": "Contract Price Book Id not found",
-      "contractPriceBookUpdateFailed": "Failed to update price book of contract"
+      "contractPriceBookUpdateFailed": "Failed to update price book of contract",
+      "contractAssetsSerialNumberExists": "Asset Serial Number is already assigned to an overlapping active contract"
     },
     "tooltips": {
       "setupVisible": false,

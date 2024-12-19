@@ -2235,7 +2235,8 @@
       "contractIdExists": "新合同不能已有ID",
       "contractPriceBookNotFound": "未找到合同价格手册",
       "contractPriceBookIdNotFound": "未找到合同价格手册ID",
-      "contractPriceBookUpdateFailed": "更新合同价格手册失败"
+      "contractPriceBookUpdateFailed": "更新合同价格手册失败",
+      "contractAssetsSerialNumberExists": "资产序列号已分配给重叠的活动合同"
     },
     "tooltips": {
       "setupVisible": false,

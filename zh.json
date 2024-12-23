@@ -15634,8 +15634,29 @@
             "setupVisible": false
           },
           "sec20":{
-            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available..",
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
             "singular": "选择将用于此表单的工作单类型。此外，您可以选择使此表单对某些工作单状态强制执行。为此，请通过单击复选框将此表单设置为强制性，然后从可用的工作单状态中进行选择。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec21":{
+            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "singular": "为此子表单选择一个记录类型。单记录子表单只能提交一次，用于一次性数据输入。列表记录子表单可以多次提交，用于需要现场代理或技术人员在工作期间多次输入数据的情况。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec22":{
+            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "为您的子表单命名并添加一个运行编号前缀。将鼠标悬停在运行编号前缀帮助文本图标上以获取更多信息。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec23":{
+            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "选择将用于此子表单的工作单类型。此外，您可以选择使此表单对某些工作单状态强制执行。为此，请通过单击复选框将此子表单设置为强制性，然后从可用的工作单状态中进行选择。",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false

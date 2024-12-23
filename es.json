@@ -15635,8 +15635,29 @@
             "setupVisible": false
           },
           "sec20":{
-            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available..",
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
             "singular": "Seleccione los Tipos de Orden de Trabajo que estarán disponibles para este formulario. Además, tiene la opción de hacer que este formulario sea obligatorio para ciertos Estados de Orden de Trabajo. Para ello, marque este formulario como obligatorio haciendo clic en la casilla de verificación y seleccione los Estados de Orden de Trabajo disponibles.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec21":{
+            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "singular": "Seleccione un tipo de registro para este subformulario. Los subformularios de registro único solo se pueden enviar una vez y se utilizan para entradas de datos únicas. Los subformularios de registro en lista se pueden enviar varias veces y se utilizan cuando se requiere que sus agentes de campo o técnicos ingresen datos varias veces durante un trabajo.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec22":{
+            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Asigne un nombre a su subformulario y un prefijo de número consecutivo. Pase el cursor sobre el icono de texto de ayuda del prefijo de número consecutivo para obtener más información.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec23":{
+            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Seleccione los Tipos de Orden de Trabajo que estarán disponibles para este subformulario. Además, tiene la opción de hacer que este subformulario sea obligatorio para ciertos Estados de Orden de Trabajo. Para ello, marque este subformulario como obligatorio haciendo clic en la casilla de verificación y seleccione los Estados de Orden de Trabajo disponibles.",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false

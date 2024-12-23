@@ -15634,8 +15634,29 @@
             "setupVisible": false
           },
           "sec20":{
-            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available..",
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
             "singular": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec21":{
+            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "singular": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec22":{
+            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec23":{
+            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
             "plural": "",
             "setupEdit": false,
             "setupVisible": false

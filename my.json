@@ -13730,14 +13730,14 @@
           "sec2": {
             "original": "Module Permission",
             "singular": "Kebenaran Modul",
-            "plural": "",
+            "plural": "Kebenaran Modul",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Picklist Permission",
             "singular": "Kebenaran Senarai Pilihan",
-            "plural": "",
+            "plural": "Kebenaran Senarai Pilihan",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -13899,15 +13899,15 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
-            "singular": "Benarkan Lihat Harga Pesanan Jualan",
+            "original": "Allowed to View Sales Order Price",
+            "singular": "Dibenarkan Untuk Lihat Harga Pesanan Jualan",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
-            "singular": "Benarkan Tugaskan Tugas",
+            "original": "Allowed to Assign Task",
+            "singular": "Dibenarkan Tugaskan Tugas",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13934,8 +13934,8 @@
             "setupVisible": false
           },
           "helpdeskUser": {
-            "original": "Helpdesk user",
-            "singular": "Pengguna Meja Bantuan",
+            "original": "Is a Helpdesk User",
+            "singular": "Merupakan Pengguna Helpdesk",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13948,8 +13948,8 @@
             "setupVisible": false
           },
           "binUser": {
-            "original": "Bin User",
-            "singular": "Pengguna Bin",
+            "original": "Is a Bin User",
+            "singular": "Merupakan Pengguna Bin",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -21550,7 +21550,7 @@
               "customers": "Pelanggan",
               "sales_order": "Pesanan Jualan",
               "job_order": "Pesanan Kerja",
-              "products": "Produk",
+              "products": "Alat Ganti",
               "teams": "Pasukan",
               "tasks": "Tugas",
               "customer_payment": "Bayaran Pelanggan",
@@ -21563,7 +21563,7 @@
               "packages": "Pakej",
               "vehicles": "Kenderaan",
               "assets": "Aset",
-              "assets_contracts": "Kontrak Aset",
+              "assets_contracts": "Kontrak",
               "scheduled_maintenance": "Penyelenggaraan Berjadual",
               "inventory": "Inventori",
               "tickets": "Tiket",
@@ -21582,7 +21582,7 @@
         "adminSettingsFeatures": {
           "feature": {
             "name": {
-              "manage_org_detail": "Urus Butiran Organisasi",
+              "manage_org_detail": "Urus Butiran Am",
               "manage_users": "Urus Pengguna",
               "manage_hierarchy": "Urus Hierarki",
               "manage_access": "Urus Akses",

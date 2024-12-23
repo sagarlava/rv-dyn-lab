@@ -13730,14 +13730,14 @@
           "sec2": {
             "original": "Module Permission",
             "singular": "Permiso del Módulo",
-            "plural": "",
+            "plural": "Permisos del módulo",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Picklist Permission",
             "singular": "Permiso de Lista de Selección",
-            "plural": "",
+            "plural": "Permisos de lista de selección",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -13899,15 +13899,15 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
-            "singular": "Permitir Ver Precio de Orden de Venta",
+            "original": "Allowed to View Sales Order Price",
+            "singular": "Permitido Ver Precio de la Orden de Venta",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
-            "singular": "Permitir Asignar Tarea",
+            "original": "Allowed to Assign Task",
+            "singular": "Permitido Asignar Tarea",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13934,8 +13934,8 @@
             "setupVisible": false
           },
           "helpdeskUser": {
-            "original": "Helpdesk user",
-            "singular": "Usuario del Soporte Técnico",
+            "original": "Is a Helpdesk User",
+            "singular": "Es un usuario de Helpdesk",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13948,8 +13948,8 @@
             "setupVisible": false
           },
           "binUser": {
-            "original": "Bin User",
-            "singular": "Usuario de Almacenamiento",
+            "original": "Is a Bin User",
+            "singular": "Es un usuario de almacenamiento",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -21547,12 +21547,12 @@
         "moduleAccessFeatures": {
           "feature": {
             "name": {
-              "customers": "Clientes",
+              "customers": "Cliente",
               "sales_order": "Orden de Venta",
               "job_order": "Orden de Trabajo",
-              "products": "Productos",
+              "products": "Pieza de repuesto",
               "teams": "Equipos",
-              "tasks": "Tareas",
+              "tasks": "Tarea",
               "customer_payment": "Pago del Cliente",
               "customer_purchase_history": "Historial de Compras del Cliente",
               "assets_tracking": "Seguimiento de Activos",
@@ -21562,14 +21562,14 @@
               "drivers": "Conductores",
               "packages": "Paquetes",
               "vehicles": "Vehículos",
-              "assets": "Activos",
-              "assets_contracts": "Contratos de Activos",
+              "assets": "Activo",
+              "assets_contracts": "Contratos",
               "scheduled_maintenance": "Mantenimiento Programado",
               "inventory": "Inventario",
-              "tickets": "Tickets",
+              "tickets": "Ticket",
               "project": "Proyecto",
               "site": "Sitio",
-              "checklists": "Listas de Verificación",
+              "checklists": "Lista de verificación",
               "attendance": "Asistencia",
               "productivity": "Productividad",
               "overtime": "Horas Extra",
@@ -21582,7 +21582,7 @@
         "adminSettingsFeatures": {
           "feature": {
             "name": {
-              "manage_org_detail": "Gestionar Detalles de la ORG",
+              "manage_org_detail": "Gestionar detalles generales",
               "manage_users": "Gestionar Usuarios",
               "manage_hierarchy": "Gestionar Jerarquía",
               "manage_access": "Gestionar Acceso",

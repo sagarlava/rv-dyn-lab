@@ -13899,14 +13899,14 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
+            "original": "Allowed to View Sales Order Price",
             "singular": "允许查看销售订单价格",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
+            "original": "Allowed to Assign Task",
             "singular": "允许分配任务",
             "plural": "",
             "setupEdit": true,
@@ -13934,8 +13934,8 @@
             "setupVisible": false
           },
           "helpdeskUser": {
-            "original": "Helpdesk user",
-            "singular": "帮助台用户",
+            "original": "Is a Helpdesk User",
+            "singular": "是帮助台用户",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13948,8 +13948,8 @@
             "setupVisible": false
           },
           "binUser": {
-            "original": "Bin User",
-            "singular": "用户",
+            "original": "Is a Bin User",
+            "singular": "是垃圾箱用户",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -21550,7 +21550,7 @@
               "customers": "客户",
               "sales_order": "销售订单",
               "job_order": "工作订单",
-              "products": "产品",
+              "products": "备件",
               "teams": "团队",
               "tasks": "任务",
               "customer_payment": "客户付款",
@@ -21563,10 +21563,10 @@
               "packages": "包裹",
               "vehicles": "车辆",
               "assets": "资产",
-              "assets_contracts": "资产合同",
+              "assets_contracts": "合同",
               "scheduled_maintenance": "计划维护",
               "inventory": "库存",
-              "tickets": "票务",
+              "tickets": "票据",
               "project": "项目",
               "site": "现场",
               "checklists": "清单",
@@ -21582,7 +21582,7 @@
         "adminSettingsFeatures": {
           "feature": {
             "name": {
-              "manage_org_detail": "管理组织详情",
+              "manage_org_detail": "管理一般详情",
               "manage_users": "管理用户",
               "manage_hierarchy": "管理层级",
               "manage_access": "管理访问权限",

@@ -13693,14 +13693,14 @@
           "sec2": {
             "original": "Module Permission",
             "singular": "Module Permission",
-            "plural": "",
+            "plural": "Module Permissions",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Picklist Permission",
             "singular": "Picklist Permission",
-            "plural": "",
+            "plural": "Picklist Permissions",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -13862,15 +13862,15 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
-            "singular": "Allow View Sales Order Price",
+            "original": "Allowed to View Sales Order Price",
+            "singular": "Allowed to View Sales Order Price",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
-            "singular": "Allow to Assign Task",
+            "original": "Allowed to Assign Task",
+            "singular": "Allowed to Assign Task",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13897,8 +13897,8 @@
             "setupVisible": false
           },
           "helpdeskUser": {
-            "original": "Helpdesk user",
-            "singular": "Helpdesk user",
+            "original": "Is a Helpdesk User",
+            "singular": "Is a Helpdesk User",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13911,8 +13911,8 @@
             "setupVisible": false
           },
           "binUser": {
-            "original": "Bin User",
-            "singular": "Bin User",
+            "original": "Is a Bin User",
+            "singular": "Is a Bin User",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -21499,12 +21499,12 @@
         "moduleAccessFeatures": {
           "feature": {
             "name": {
-              "customers": "Customers",
+              "customers": "Customer",
               "sales_order": "Sales Order",
               "job_order": "Job Order",
-              "products": "Products",
+              "products": "Spare Part",
               "teams": "Teams",
-              "tasks": "Tasks",
+              "tasks": "Task",
               "customer_payment": "Customer Payment",
               "customer_purchase_history": "Customer Purchase History",
               "assets_tracking": "Assets Tracking",
@@ -21514,14 +21514,14 @@
               "drivers": "Drivers",
               "packages": "Packages",
               "vehicles": "Vehicles",
-              "assets": "Assets",
-              "assets_contracts": "Asset Contracts",
+              "assets": "Asset",
+              "assets_contracts": "Contract",
               "scheduled_maintenance": "Scheduled Maintenance",
               "inventory": "Inventory",
-              "tickets": "Tickets",
+              "tickets": "Ticket",
               "project": "Project",
               "site": "Site",
-              "checklists": "Checklists",
+              "checklists": "Checklist",
               "attendance":  "Attendance",
               "productivity": "Productivity",
               "overtime": "Overtime",
@@ -21534,7 +21534,7 @@
         "adminSettingsFeatures": {
           "feature": {
             "name": {
-              "manage_org_detail": "Manage ORG Detail",
+              "manage_org_detail": "Manage General Details",
               "manage_users": "Manage Users",
               "manage_hierarchy": "Manage Hierarchy",
               "manage_access": "Manage Access",

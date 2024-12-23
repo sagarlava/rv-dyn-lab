@@ -13692,14 +13692,14 @@
           "sec2": {
             "original": "Module Permission",
             "singular": "Modulberechtigung",
-            "plural": "",
+            "plural": "Modulberechtigungen",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Picklist Permission",
             "singular": "Auswahllistenberechtigung",
-            "plural": "",
+            "plural": "Auswahllistenberechtigungen",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -13861,15 +13861,15 @@
             "setupVisible": false
           },
           "allowViewSalesOrdPrice": {
-            "original": "Allow View Sales Order Price",
-            "singular": "Erlauben, den Preis der Verkaufsbestellung anzuzeigen",
+            "original": "Allowed to View Sales Order Price",
+            "singular": "Erlaubt, den Preis der Verkaufsbestellung anzuzeigen",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
           },
           "allowAssignTask": {
-            "original": "Allow to Assign Task",
-            "singular": "Erlauben, Aufgaben zuzuweisen",
+            "original": "Allowed to Assign Task",
+            "singular": "Erlaubt, Aufgaben zuzuweisen",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13896,8 +13896,8 @@
             "setupVisible": false
           },
           "helpdeskUser": {
-            "original": "Helpdesk user",
-            "singular": "Helpdesk-Benutzer",
+            "original": "Is a Helpdesk User",
+            "singular": "Ist ein Helpdesk-Benutzer",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -13910,8 +13910,8 @@
             "setupVisible": false
           },
           "binUser": {
-            "original": "Bin User",
-            "singular": "Benutzer für die Ablage",
+            "original": "Is a Bin User",
+            "singular": "Ist ein Bin-Benutzer",
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
@@ -21498,12 +21498,12 @@
         "moduleAccessFeatures": {
           "feature": {
             "name": {
-              "customers": "Kunden",
+              "customers": "Kunde",
               "sales_order": "Verkaufsauftrag",
               "job_order": "Auftrag",
-              "products": "Produkte",
+              "products": "Ersatzteil",
               "teams": "Teams",
-              "tasks": "Aufgaben",
+              "tasks": "Aufgabe",
               "customer_payment": "Kundenzahlung",
               "customer_purchase_history": "Kundenkaufhistorie",
               "assets_tracking": "Vermögensverfolgung",
@@ -21513,14 +21513,14 @@
               "drivers": "Fahrer",
               "packages": "Pakete",
               "vehicles": "Fahrzeuge",
-              "assets": "Vermögenswerte",
-              "assets_contracts": "Vermögenswertverträge",
+              "assets": "Vermögenswert",
+              "assets_contracts": "Verträge",
               "scheduled_maintenance": "Geplante Wartung",
               "inventory": "Lager",
-              "tickets": "Tickets",
+              "tickets": "Ticket",
               "project": "Projekt",
               "site": "Standort",
-              "checklists": "Checklisten",
+              "checklists": "Checkliste",
               "attendance": "Anwesenheit",
               "productivity": "Produktivität",
               "overtime": "Überstunden",
@@ -21533,7 +21533,7 @@
         "adminSettingsFeatures": {
           "feature": {
             "name": {
-              "manage_org_detail": "Org-Daten verwalten",
+              "manage_org_detail": "Allgemeine Details verwalten",
               "manage_users": "Benutzer verwalten",
               "manage_hierarchy": "Hierarchie verwalten",
               "manage_access": "Zugriff verwalten",

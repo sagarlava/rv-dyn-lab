@@ -15660,6 +15660,27 @@
             "plural": "",
             "setupEdit": false,
             "setupVisible": false
+          },
+          "sec24":{
+            "original": "Form Creation",
+            "singular": "Form Creation",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec25":{
+            "original": "Field Creation",
+            "singular": "Field Creation",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec26":{
+            "original": "Page Layout",
+            "singular": "Page Layout",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -16045,7 +16066,8 @@
           "runningNoDesc":"Running Number Format Allows you to customize the Auto Number Field for your forms. This includes substitution variables and any characters you wish to prefix or append",
           "mapPicklistFields":"Map picklist fields by selecting a Parent Field and then selecting the necessary Picklist Fields for it. You can view the Mapped Fields below.",
           "addDescriptionHere":"Add description here...",
-          "selectJobOrderStatus":"Select Job Order Status"
+          "selectJobOrderStatus":"Select Job Order Status",
+          "looksLikeNoFormsCreated":"It looks like you don't have any forms created just yet. Don't worry, just follow these steps and we'll have your forms up and running in no time!"
         }
       }
     },

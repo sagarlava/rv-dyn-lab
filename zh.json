@@ -10660,7 +10660,8 @@
       "maxUploadFileSize": "最大上传文件大小为 25MB",
       "fileExtension": "仅允许扩展名为 *.pdf, *.docx, *.jpg 的文件",
       "fileTypeUnsupported":"此文件类型不受支持。请选择其他文件。",
-      "allowedFileSize4MB":"文件大小超过4MB限制。请上传较小的文件。"
+      "allowedFileSize4MB":"文件大小超过4MB限制。请上传较小的文件。",
+      "onlyAcceptImagesExt":"仅接受 JPG、JPEG 和 PNG"
     }
   },
   "history": {

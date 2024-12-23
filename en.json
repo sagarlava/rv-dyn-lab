@@ -15984,6 +15984,13 @@
             "plural": "Mapped Fields",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "enterFormName": {
+            "original": "Enter a name for your form",
+            "singular": "Enter a name for your form",
+            "plural": "Enter a name for your form",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{

@@ -15984,6 +15984,13 @@
             "plural": "映射字段",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "enterFormName": {
+            "original": "Enter a name for your form",
+            "singular": "为您的表单输入一个名称",
+            "plural": "为您的表单输入一个名称",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

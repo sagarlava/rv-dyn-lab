@@ -15983,6 +15983,13 @@
             "plural": "Zuordnungen",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "enterFormName": {
+            "original": "Enter a name for your form",
+            "singular": "Geben Sie einen Namen für Ihr Formular ein",
+            "plural": "Geben Sie Namen für Ihre Formulare ein",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

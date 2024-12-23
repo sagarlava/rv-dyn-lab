@@ -15985,6 +15985,13 @@
             "plural": "Campos Mapeados",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "enterFormName": {
+            "original": "Enter a name for your form",
+            "singular": "Ingrese un nombre para su formulario",
+            "plural": "Ingrese nombres para sus formularios",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {

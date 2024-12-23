@@ -15685,6 +15685,13 @@
             "setupEdit": true,
             "setupVisible": false
           },
+          "jobOrderStatus":{
+            "original": "Job Order Status",
+            "singular": "Estado de la Orden de Trabajo",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
           "isFormMandatory": {
             "original": "Is form mandatory?",
             "singular": "¿Es obligatorio el formulario?",

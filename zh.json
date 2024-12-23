@@ -15684,6 +15684,13 @@
             "setupEdit": true,
             "setupVisible": false
           },
+          "jobOrderStatus":{
+            "original": "Job Order Status",
+            "singular": "工作单状态",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
           "isFormMandatory": {
             "original": "Is form mandatory?",
             "singular": "表单是否必填?",

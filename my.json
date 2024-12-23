@@ -15683,6 +15683,13 @@
             "setupEdit": true,
             "setupVisible": false
           },
+          "jobOrderStatus":{
+            "original": "Job Order Status",
+            "singular": "Status Pesanan Kerja",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
           "isFormMandatory": {
             "original": "Is form mandatory?",
             "singular": "Adakah borang wajib?",

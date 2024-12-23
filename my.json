@@ -16105,7 +16105,13 @@
           "pageLayoutSubformDesc":"Klik pada butang Susun Atur Halaman di halaman pandangan subborang. Di sini anda boleh seret dan lepaskan medan yang telah anda cipta dari bahagian medan ke bahagian subborang.",
           "listSetupSubformDesc":"Jika anda telah memilih jenis subborang Rekod Senarai, anda boleh menyediakan paparan senarai untuk subborang. Ini akan dilihat dalam tab borang di halaman butiran Pesanan Kerja.",
           "optional":"Pilihan",
-          "onlyForListRec":"Hanya untuk Rekod Senarai"
+          "onlyForListRec":"Hanya untuk Rekod Senarai",
+          "createFieldsDesc":"Cipta medan yang akan digunakan dalam borang anda.",
+          "pageLayoutDesc":"Tetapkan susun atur halaman borang anda dengan medan yang telah anda cipta.",
+          "subformSetupDesc":"Sebagai pilihan, anda boleh menyediakan subborang untuk borang ini. Gunakan subborang jika anda memerlukan maklumat tambahan daripada juruteknik atau ejen lapangan anda semasa bertugas.",
+          "createFieldsSubformDesc":"Cipta medan yang akan digunakan dalam subborang anda.",
+          "pageLayoutDetsSubformDesc":"Tetapkan susun atur halaman subborang anda dengan medan yang telah anda cipta.",
+          "listViewSubformSetupDesc":"Anda boleh menyediakan paparan senarai untuk subborang anda jika anda telah memilih jenis rekod senarai untuknya. Ini membolehkan anda menyesuaikan susunan medan dalam jadual paparan senarai subborang."
         }
       }
     },

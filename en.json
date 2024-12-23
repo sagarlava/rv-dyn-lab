@@ -16106,7 +16106,13 @@
           "pageLayoutSubformDesc":"Click on the Page Layout button in the subform view page. Here you can drag and drop the fields that you have created from the fields section on into the subform sections.",
           "listSetupSubformDesc":"If you have selected the List Record subform type, you can set up the list view for the subform. This will be seen in the forms tab of the Job Order details page.",
           "optional":"Optional",
-          "onlyForListRec":"Only for List Records"
+          "onlyForListRec":"Only for List Records",
+          "createFieldsDesc":"Create fields that will be used in your form.",
+          "pageLayoutDesc":"Set the page layout of your form with the fields that you have created.",
+          "subformSetupDesc":"Optionally, you can set up subforms for this form. Use subforms if you need additional information from your technicians or field agents while on the job.",
+          "createFieldsSubformDesc":"Create fields that will be used in your subform.",
+          "pageLayoutDetsSubformDesc":"Set the page layout of your subform with the fields that you have created.",
+          "listViewSubformSetupDesc":"You can set up list views for your subform if  you have selected a list record type for it. This will enable you to customise the arrangement of the fields in the subform list view table."
         }
       }
     },

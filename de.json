@@ -16105,7 +16105,13 @@
           "pageLayoutSubformDesc":"Klicken Sie auf der Unterformularansichtsseite auf die Schaltfläche Seitenlayout. Hier können Sie die von Ihnen erstellten Felder aus dem Feldbereich in die Unterformularbereiche ziehen und ablegen.",
           "listSetupSubformDesc":"Wenn Sie den Unterformulartyp Listendatensatz ausgewählt haben, können Sie die Listenansicht für das Unterformular einrichten. Dies wird im Formular-Tab der Seite mit den Auftragsdetails angezeigt.",
           "optional":"Optional",
-          "onlyForListRec":"Nur für Listenaufzeichnungen"
+          "onlyForListRec":"Nur für Listenaufzeichnungen",
+          "createFieldsDesc":"Erstellen Sie Felder, die in Ihrem Formular verwendet werden.",
+          "pageLayoutDesc":"Legen Sie das Seitenlayout Ihres Formulars mit den von Ihnen erstellten Feldern fest.",
+          "subformSetupDesc":"Optional können Sie Unterformulare für dieses Formular einrichten. Verwenden Sie Unterformulare, wenn Sie zusätzliche Informationen von Ihren Technikern oder Außendienstmitarbeitern während der Arbeit benötigen.",
+          "createFieldsSubformDesc":"Erstellen Sie Felder, die in Ihrem Unterformular verwendet werden.",
+          "pageLayoutDetsSubformDesc":"Legen Sie das Seitenlayout Ihres Unterformulars mit den von Ihnen erstellten Feldern fest.",
+          "listViewSubformSetupDesc":"Sie können Listenansichten für Ihr Unterformular einrichten, wenn Sie einen Listendatensatztyp dafür ausgewählt haben. Dies ermöglicht es Ihnen, die Anordnung der Felder in der Listenansichtstabelle des Unterformulars anzupassen."
         }
       }
     },

@@ -16077,7 +16077,12 @@
           "formCreationDesc":"Erstellen Sie ein Formular, indem Sie auf die Schaltfläche + Neu klicken. Geben Sie Ihrem Formular einen Namen und ein Präfix für die laufende Nummer. Wählen Sie dann die Arbeitsauftragstypen aus, die auf dieses Formular zutreffen.",
           "fieldCreationFormDesc":"Klicken Sie auf der Formularansichtsseite auf die Schaltfläche Felderstellung. Klicken Sie auf die Schaltfläche +Neu und wählen Sie den Feldtyp aus, den Sie erstellen möchten.",
           "pageLayoutFormDesc":"Klicken Sie auf der Formularansichtsseite auf die Schaltfläche Seitenlayout. Hier können Sie die von Ihnen erstellten Felder aus dem Feldbereich in die Formularbereiche ziehen und ablegen.",
-          "subformSetupFormDesc":"Falls erforderlich, können Sie Ihrem Formular Unterformulare hinzufügen, indem Sie auf die Schaltfläche Unterformulare einrichten klicken. Der Einrichtungsprozess ähnelt dem der Formularerstellung."
+          "subformSetupFormDesc":"Falls erforderlich, können Sie Ihrem Formular Unterformulare hinzufügen, indem Sie auf die Schaltfläche Unterformulare einrichten klicken. Der Einrichtungsprozess ähnelt dem der Formularerstellung.",
+          "looksLikeNoSubformsCreated":"Es sieht so aus, als hätten Sie noch keine Unterformulare erstellt. Keine Sorge, folgen Sie einfach diesen Schritten und wir bringen Ihre Unterformulare im Handumdrehen zum Laufen!",
+          "subformCreationDesc":"Erstellen Sie ein Unterformular, indem Sie auf die Schaltfläche + Neu klicken. Geben Sie Ihrem Unterformular einen Namen und ein Präfix für die laufende Nummer. Wählen Sie dann die Arbeitsauftragstypen aus, die auf dieses Formular zutreffen.",
+          "fieldCreationSubformDesc":"Klicken Sie auf der Unterformularansichtsseite auf die Schaltfläche Felderstellung. Klicken Sie auf die Schaltfläche +Neu und wählen Sie den Feldtyp aus, den Sie erstellen möchten",
+          "pageLayoutSubformDesc":"Klicken Sie auf der Unterformularansichtsseite auf die Schaltfläche Seitenlayout. Hier können Sie die von Ihnen erstellten Felder aus dem Feldbereich in die Unterformularbereiche ziehen und ablegen.",
+          "listSetupSubformDesc":"Wenn Sie den Unterformulartyp Listendatensatz ausgewählt haben, können Sie die Listenansicht für das Unterformular einrichten. Dies wird im Formular-Tab der Seite mit den Auftragsdetails angezeigt."
         }
       }
     },

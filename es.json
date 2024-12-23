@@ -16079,7 +16079,12 @@
           "formCreationDesc":"Cree un formulario haciendo clic en el botón + Nuevo. Asigne un nombre a su formulario y un prefijo de número consecutivo. Luego, seleccione los Tipos de Orden de Trabajo que se aplican a este formulario.",
           "fieldCreationFormDesc":"Haga clic en el botón de Creación de Campos en la página de vista del formulario. Haga clic en el botón +Nuevo y seleccione el tipo de campo que desea crear.",
           "pageLayoutFormDesc":"Haga clic en el botón Diseño de Página en la página de vista del formulario. Aquí puede arrastrar y soltar los campos que ha creado desde la sección de campos a las secciones del formulario.",
-          "subformSetupFormDesc":"Si es necesario, puede agregar subformularios a su formulario haciendo clic en el botón de configuración de subformularios. El proceso de configuración es similar a cómo configuraría los formularios."
+          "subformSetupFormDesc":"Si es necesario, puede agregar subformularios a su formulario haciendo clic en el botón de configuración de subformularios. El proceso de configuración es similar a cómo configuraría los formularios.",
+          "looksLikeNoSubformsCreated":"Parece que aún no ha creado ningún subformulario. ¡No se preocupe, simplemente siga estos pasos y sus subformularios estarán listos en poco tiempo!",
+          "subformCreationDesc":"Cree un subformulario haciendo clic en el botón + Nuevo. Asigne un nombre a su subformulario y un prefijo de número consecutivo. Luego, seleccione los Tipos de Orden de Trabajo que se aplican a este formulario.",
+          "fieldCreationSubformDesc":"Haga clic en el botón de Creación de Campos en la página de vista del subformulario. Haga clic en el botón +Nuevo y seleccione el tipo de campo que desea crear.",
+          "pageLayoutSubformDesc":"Haga clic en el botón Diseño de Página en la página de vista del subformulario. Aquí puede arrastrar y soltar los campos que ha creado desde la sección de campos a las secciones del subformulario.",
+          "listSetupSubformDesc":"Si ha seleccionado el tipo de subformulario de Registro de Lista, puede configurar la vista de lista para el subformulario. Esto se verá en la pestaña de formularios de la página de detalles de la Orden de Trabajo."
         }
       }
     },

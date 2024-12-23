@@ -15625,6 +15625,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec19":{
+            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "为您的表单命名并添加一个运行编号前缀。将鼠标悬停在运行编号前缀帮助文本图标上以获取更多信息。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec20":{
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available..",
+            "singular": "选择将用于此表单的工作单类型。此外，您可以选择使此表单对某些工作单状态强制执行。为此，请通过单击复选框将此表单设置为强制性，然后从可用的工作单状态中进行选择。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

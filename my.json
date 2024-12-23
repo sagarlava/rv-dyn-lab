@@ -15624,6 +15624,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec19":{
+            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Berikan borang anda nama dan awalan nombor larian. Arahkan kursor ke ikon teks bantuan awalan nombor larian untuk maklumat lanjut.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec20":{
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available..",
+            "singular": "Pilih Jenis Pesanan Kerja yang akan tersedia untuk borang ini. Selain itu, anda mempunyai pilihan untuk menjadikan borang ini wajib untuk status Pesanan Kerja tertentu. Untuk melakukannya, tetapkan borang ini sebagai wajib dengan mengklik pada kotak pilihan dan buat pilihan status Pesanan Kerja daripada yang tersedia.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

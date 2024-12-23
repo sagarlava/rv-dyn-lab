@@ -15626,6 +15626,20 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec19":{
+            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Asigne un nombre a su formulario y un prefijo de número consecutivo. Pase el cursor sobre el icono de texto de ayuda del prefijo de número consecutivo para obtener más información.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec20":{
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available..",
+            "singular": "Seleccione los Tipos de Orden de Trabajo que estarán disponibles para este formulario. Además, tiene la opción de hacer que este formulario sea obligatorio para ciertos Estados de Orden de Trabajo. Para ello, marque este formulario como obligatorio haciendo clic en la casilla de verificación y seleccione los Estados de Orden de Trabajo disponibles.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {

@@ -16097,7 +16097,9 @@
           "subformCreationDesc":"Create a subform by clicking on the + New button. Give your subform a name and a running number prefix. Then, select the Job Order Types that apply to this form.",
           "fieldCreationSubformDesc":"Click on the Field Creation button in the subform view page. Click on the +New button and select the type of field you want to create.",
           "pageLayoutSubformDesc":"Click on the Page Layout button in the subform view page. Here you can drag and drop the fields that you have created from the fields section on into the subform sections.",
-          "listSetupSubformDesc":"If you have selected the List Record subform type, you can set up the list view for the subform. This will be seen in the forms tab of the Job Order details page."
+          "listSetupSubformDesc":"If you have selected the List Record subform type, you can set up the list view for the subform. This will be seen in the forms tab of the Job Order details page.",
+          "optional":"Optional",
+          "onlyForListRec":"Only for List Records"
         }
       }
     },

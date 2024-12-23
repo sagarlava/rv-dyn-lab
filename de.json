@@ -16096,7 +16096,9 @@
           "subformCreationDesc":"Erstellen Sie ein Unterformular, indem Sie auf die Schaltfläche + Neu klicken. Geben Sie Ihrem Unterformular einen Namen und ein Präfix für die laufende Nummer. Wählen Sie dann die Arbeitsauftragstypen aus, die auf dieses Formular zutreffen.",
           "fieldCreationSubformDesc":"Klicken Sie auf der Unterformularansichtsseite auf die Schaltfläche Felderstellung. Klicken Sie auf die Schaltfläche +Neu und wählen Sie den Feldtyp aus, den Sie erstellen möchten",
           "pageLayoutSubformDesc":"Klicken Sie auf der Unterformularansichtsseite auf die Schaltfläche Seitenlayout. Hier können Sie die von Ihnen erstellten Felder aus dem Feldbereich in die Unterformularbereiche ziehen und ablegen.",
-          "listSetupSubformDesc":"Wenn Sie den Unterformulartyp Listendatensatz ausgewählt haben, können Sie die Listenansicht für das Unterformular einrichten. Dies wird im Formular-Tab der Seite mit den Auftragsdetails angezeigt."
+          "listSetupSubformDesc":"Wenn Sie den Unterformulartyp Listendatensatz ausgewählt haben, können Sie die Listenansicht für das Unterformular einrichten. Dies wird im Formular-Tab der Seite mit den Auftragsdetails angezeigt.",
+          "optional":"Optional",
+          "onlyForListRec":"Nur für Listenaufzeichnungen"
         }
       }
     },

@@ -16067,7 +16067,11 @@
           "mapPicklistFields":"Map picklist fields by selecting a Parent Field and then selecting the necessary Picklist Fields for it. You can view the Mapped Fields below.",
           "addDescriptionHere":"Add description here...",
           "selectJobOrderStatus":"Select Job Order Status",
-          "looksLikeNoFormsCreated":"It looks like you don't have any forms created just yet. Don't worry, just follow these steps and we'll have your forms up and running in no time!"
+          "looksLikeNoFormsCreated":"It looks like you don't have any forms created just yet. Don't worry, just follow these steps and we'll have your forms up and running in no time!",
+          "formCreationDesc":"Create a form by clicking on the + New button. Give your form a name and a running number prefix. Then, select the Job Order Types that apply to this form.",
+          "fieldCreationFormDesc":"Click on the Field Creation button in the form view page. Click on the +New button and select the type of field you want to create.",
+          "pageLayoutFormDesc":"Click on the Page Layout button in the form view page. Here you can drag and drop the fields that you have created from the fields section on into the form sections.",
+          "subformSetupFormDesc":"If needed you can add subforms to your form by clicking on the setup subforms button. The setup process is similar to how you would set up forms."
         }
       }
     },

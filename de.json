@@ -16065,7 +16065,12 @@
           "runningNoDesc": "Das Format der laufenden Nummer ermöglicht es Ihnen, das automatische Nummernfeld für Ihre Formulare anzupassen. Dies umfasst Ersetzungsvariablen und beliebige Zeichen, die Sie als Präfix oder Suffix hinzufügen möchten.",
           "mapPicklistFields": "Ordnen Sie die Auswahllistenfelder zu, indem Sie ein übergeordnetes Feld auswählen und dann die erforderlichen Auswahllistenfelder dafür auswählen. Die zugeordneten Felder können Sie unten einsehen.",
           "addDescriptionHere": "Hier Beschreibung hinzufügen...",
-          "selectJobOrderStatus":"Wählen Sie den Arbeitsauftragsstatus"
+          "selectJobOrderStatus":"Wählen Sie den Arbeitsauftragsstatus",
+          "looksLikeNoFormsCreated":"Es sieht so aus, als hätten Sie noch keine Formulare erstellt. Keine Sorge, folgen Sie einfach diesen Schritten und wir bringen Ihre Formulare im Handumdrehen zum Laufen!",
+          "formCreationDesc":"Erstellen Sie ein Formular, indem Sie auf die Schaltfläche + Neu klicken. Geben Sie Ihrem Formular einen Namen und ein Präfix für die laufende Nummer. Wählen Sie dann die Arbeitsauftragstypen aus, die auf dieses Formular zutreffen.",
+          "fieldCreationFormDesc":"Klicken Sie auf der Formularansichtsseite auf die Schaltfläche Felderstellung. Klicken Sie auf die Schaltfläche +Neu und wählen Sie den Feldtyp aus, den Sie erstellen möchten.",
+          "pageLayoutFormDesc":"Klicken Sie auf der Formularansichtsseite auf die Schaltfläche Seitenlayout. Hier können Sie die von Ihnen erstellten Felder aus dem Feldbereich in die Formularbereiche ziehen und ablegen.",
+          "subformSetupFormDesc":"Falls erforderlich, können Sie Ihrem Formular Unterformulare hinzufügen, indem Sie auf die Schaltfläche Unterformulare einrichten klicken. Der Einrichtungsprozess ähnelt dem der Formularerstellung."
         }
       }
     },

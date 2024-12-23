@@ -16066,7 +16066,12 @@
           "runningNoDesc": "流水号格式允许您为表单的自动编号字段自定义格式。这包括替换变量以及您希望前缀或后缀的任何字符。",
           "mapPicklistFields": "通过选择父字段，然后选择其必要的选择列表字段来映射选择列表字段。您可以在下方查看映射的字段。",
           "addDescriptionHere": "在此添加描述...",
-          "selectJobOrderStatus":"选择工作单状态"
+          "selectJobOrderStatus":"选择工作单状态",
+          "looksLikeNoFormsCreated":"看起来您还没有创建任何表单。别担心，只需按照以下步骤操作，我们会让您的表单快速运行起来！",
+          "formCreationDesc":"通过单击+新建按钮创建表单。为您的表单命名并添加一个运行编号前缀。然后，选择适用于此表单的工作单类型。",
+          "fieldCreationFormDesc":"在表单视图页面上单击字段创建按钮。单击+新建按钮并选择您想要创建的字段类型。",
+          "pageLayoutFormDesc":"在表单视图页面上单击页面布局按钮。在这里，您可以将已创建的字段从字段部分拖放到表单部分。",
+          "subformSetupFormDesc":"如果需要，您可以通过单击设置子表单按钮将子表单添加到您的表单中。设置过程类似于设置表单的方式。"
         }
       }
     },

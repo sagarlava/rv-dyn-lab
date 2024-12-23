@@ -16067,7 +16067,12 @@
           "runningNoDesc": "El formato de número en serie te permite personalizar el campo de número automático para tus formularios. Esto incluye variables de sustitución y cualquier carácter que desees prefijar o agregar.",
           "mapPicklistFields": "Mapea los campos de la lista desplegable seleccionando un campo principal y luego seleccionando los campos de la lista desplegable necesarios para él. Puedes ver los campos mapeados a continuación.",
           "addDescriptionHere": "Agrega la descripción aquí...",
-          "selectJobOrderStatus":"Seleccione el Estado de la Orden de Trabajo"
+          "selectJobOrderStatus":"Seleccione el Estado de la Orden de Trabajo",
+          "looksLikeNoFormsCreated":"Parece que aún no ha creado ningún formulario. ¡No se preocupe, simplemente siga estos pasos y sus formularios estarán listos en poco tiempo!",
+          "formCreationDesc":"Cree un formulario haciendo clic en el botón + Nuevo. Asigne un nombre a su formulario y un prefijo de número consecutivo. Luego, seleccione los Tipos de Orden de Trabajo que se aplican a este formulario.",
+          "fieldCreationFormDesc":"Haga clic en el botón de Creación de Campos en la página de vista del formulario. Haga clic en el botón +Nuevo y seleccione el tipo de campo que desea crear.",
+          "pageLayoutFormDesc":"Haga clic en el botón Diseño de Página en la página de vista del formulario. Aquí puede arrastrar y soltar los campos que ha creado desde la sección de campos a las secciones del formulario.",
+          "subformSetupFormDesc":"Si es necesario, puede agregar subformularios a su formulario haciendo clic en el botón de configuración de subformularios. El proceso de configuración es similar a cómo configuraría los formularios."
         }
       }
     },

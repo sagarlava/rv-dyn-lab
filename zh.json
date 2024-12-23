@@ -16112,7 +16112,9 @@
           "subformSetupDesc":"您可以选择为此表单设置子表单。如果在工作期间需要从技术人员或现场代理获取其他信息，请使用子表单。",
           "createFieldsSubformDesc":"创建将在您的子表单中使用的字段。",
           "pageLayoutDetsSubformDesc":"使用您创建的字段设置子表单的页面布局。",
-          "listViewSubformSetupDesc":"如果您为子表单选择了列表记录类型，您可以设置子表单的列表视图。这将使您能够自定义子表单列表视图表中的字段排列。"
+          "listViewSubformSetupDesc":"如果您为子表单选择了列表记录类型，您可以设置子表单的列表视图。这将使您能够自定义子表单列表视图表中的字段排列。",
+          "completeAllStepForm":"完成所有步骤以完全设置您的表单",
+          "completeAllStepSubform":"完成所有步骤以完全设置您的子表单"
         }
       }
     },

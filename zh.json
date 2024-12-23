@@ -12142,6 +12142,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "addProduct":{
+        "original": "Add Spare Parts",
+        "singular": "添加备件",
+        "plural": "添加备件",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12620,6 +12627,7 @@
       "searchAddress": "搜索地址",
       "confirmAction": "你确定吗？",
       "confirmDelete": "你确定要删除",
+      "confirmRemove": "您确定要删除吗",
       "doYouWishToProceed": "您是否希望继续？",
       "irreversibleAction": "此操作不可撤销。",
       "step1": "步骤 1",
@@ -24673,8 +24681,112 @@
       "setupEdit": false,
       "setupVisible": false
     },
-    "sections": {},
-    "fields": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息",
+        "plural": "基本信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Product Pricing",
+        "singular": "产品定价",
+        "plural": "产品定价",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "priceBookName": {
+        "original": "Price Book Name",
+        "singular": "价格书名称",
+        "plural": "价格书名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "priceBookNo": {
+        "original": "Price Book No.",
+        "singular": "价格书编号",
+        "plural": "价格书编号",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "描述",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderType": {
+        "original": "Order Type",
+        "singular": "订单类型",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardRate": {
+        "original": "Standard Rate",
+        "singular": "标准费率",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sameAsStandardRate": {
+        "original": "Same as Standard Rate",
+        "singular": "与标准费率相同",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractPrice": {
+        "original": "Contract Price",
+        "singular": "合同价格",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "defaultPriceBook": {
+        "original": "Default Price Book",
+        "singular": "默认价格书",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardPriceBook": {
+        "original": "Standard Price Book",
+        "singular": "标准价格书",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productName": {
+        "original": "Spare Part Name",
+        "singular": "备件名称",
+        "plural": "备件名称",
+        "setupEdit": false,
+        "setupVisible": true
+      },
+      "sku": {
+        "original": "SKU",
+        "singular": "SKU",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "priceBookStandardNotChangeable": "标准价格书无法更改；请先将其他价格书设为标准",
@@ -24706,7 +24818,13 @@
       "PriceBookProductsDeletionNotAllowedForStandard": "标准价格表产品无法删除"
     },
     "tooltips": {},
-    "messages": {}
+    "messages": {
+      "fromThisPriceBook":"从此价格书中?",
+      "confirmPriceBookDeletion":"确认删除价格书",
+      "confirmContractRemoval":"确认移除合同",
+      "confirmRemovalPricing":"确认移除产品定价",
+      "areYouSureRemoveProduct":"您确定要将此产品移除吗？从"
+    }
   },
   "rateCard": {
     "setupVisible": false,
@@ -24718,8 +24836,77 @@
       "setupEdit": false,
       "setupVisible": false
     },
-    "sections": {},
-    "fields": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "基本信息",
+        "plural": "基本信息",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Calculation for this hourly rate",
+        "singular": "此小时费率的计算",
+        "plural": "此小时费率的计算",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "rateCardNo": {
+        "original": "Rate Card No.",
+        "singular": "费率卡编号",
+        "plural": "费率卡编号",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rateCardName": {
+        "original": "Rate Card Name",
+        "singular": "费率卡名称",
+        "plural": "费率卡名称",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRate": {
+        "original": "Fixed Rate",
+        "singular": "固定费率",
+        "plural": "固定费率",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "firstHour": {
+        "original": "First Hour",
+        "singular": "第一小时",
+        "plural": "第一小时",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsequentHour": {
+        "original": "Subsequent Hour",
+        "singular": "后续小时",
+        "plural": "后续小时",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "状态",
+        "plural": "状态",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "countOfMinutes": {
+        "original": "Count of Minutes",
+        "singular": "分钟计数",
+        "plural": "分钟计数",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "未找到费率卡",
@@ -24732,7 +24919,17 @@
       "rateCardVariableRatesEmpty": "可变费率卡需要第一小时费率和后续小时费率",
       "rateCardRateRoundingOffMinutesNotValid": "可变费率卡需要有效的舍入分钟"
     },
-    "tooltips": {},
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "minutesAdded": {
+        "original": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "singular": "添加的分钟将用于小时的计算。例如，如果您输入 15 分钟，如果工作的持续时间少于 15 分钟，则不会计算为一小时。如果工作的持续时间超过 15 分钟，则将其视为一小时。",
+        "plural": "添加的分钟将用于小时的计算。例如，如果您输入 15 分钟，如果工作的持续时间少于 15 分钟，则不会计算为一小时。如果工作的持续时间超过 15 分钟，则将其视为一小时。",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "messages": {}
   }
 }

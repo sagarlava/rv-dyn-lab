@@ -12142,6 +12142,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "addProduct":{
+        "original": "Add Spare Parts",
+        "singular": "Add Spare Part",
+        "plural": "Add Spare Parts",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12620,6 +12627,7 @@
       "searchAddress": "Search Address",
       "confirmAction": "Are you sure?",
       "confirmDelete": "Are you sure you want to delete",
+      "confirmRemove": "Are you sure you want to remove",
       "doYouWishToProceed": "Do you wish to proceed?",
       "irreversibleAction": "This action is irreversible.",
       "step1": "Step 1",
@@ -24673,8 +24681,112 @@
       "setupEdit": false,
       "setupVisible": false
     },
-    "sections": {},
-    "fields": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "General Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Product Pricing",
+        "singular": "Product Pricing",
+        "plural": "Product Pricing",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "priceBookName": {
+        "original": "Price Book Name",
+        "singular": "Price Book Name",
+        "plural": "Price Book Name",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "priceBookNo": {
+        "original": "Price Book No.",
+        "singular": "Price Book No.",
+        "plural": "Price Book No.",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Description",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderType": {
+        "original": "Order Type",
+        "singular": "Order Type",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardRate": {
+        "original": "Standard Rate",
+        "singular": "Standard Rate",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sameAsStandardRate": {
+        "original": "Same as Standard Rate",
+        "singular": "Same as Standard Rate",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractPrice": {
+        "original": "Contract Price",
+        "singular": "Contract Price",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "defaultPriceBook": {
+        "original": "Default Price Book",
+        "singular": "Default Price Book",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardPriceBook": {
+        "original": "Standard Price Book",
+        "singular": "Standard Price Book",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productName": {
+        "original": "Spare Part Name",
+        "singular": "Spare Part Name",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sku": {
+        "original": "SKU",
+        "singular": "SKU",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "priceBookStandardNotChangeable": "Cannot change the standard price book; set another as standard first",
@@ -24706,7 +24818,13 @@
       "PriceBookProductsDeletionNotAllowedForStandard": "Standard Price Book Products cannot be deleted"
     },
     "tooltips": {},
-    "messages": {}
+    "messages": {
+      "fromThisPriceBook":"from this price book?",
+      "confirmPriceBookDeletion":"Confirm Price Book Deletion",
+      "confirmContractRemoval":"Confirm Removal of Contract",
+      "confirmRemovalPricing":"Confirm Removal of Product Pricing",
+      "areYouSureRemoveProduct":"Are you sure you want to remove this product from"
+    }
   },
   "rateCard": {
     "setupVisible": false,
@@ -24718,8 +24836,77 @@
       "setupEdit": false,
       "setupVisible": false
     },
-    "sections": {},
-    "fields": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "General Details",
+        "plural": "General Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Calculation for this hourly rate",
+        "singular": "Calculation for this hourly rate",
+        "plural": "Calculation for this hourly rate",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "rateCardNo": {
+        "original": "Rate Card No.",
+        "singular": "Rate Card No.",
+        "plural": "Rate Card No.",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rateCardName": {
+        "original": "Rate Card Name",
+        "singular": "Rate Card Name",
+        "plural": "Rate Card Name",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRate": {
+        "original": "Fixed Rate",
+        "singular": "Fixed Rate",
+        "plural": "Fixed Rate",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "firstHour": {
+        "original": "First Hour",
+        "singular": "First Hour",
+        "plural": "First Hour",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsequentHour": {
+        "original": "Subsequent Hour",
+        "singular": "Subsequent Hour",
+        "plural": "Subsequent Hours",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "countOfMinutes": {
+        "original": "Count of Minutes",
+        "singular": "Count of Minutes",
+        "plural": "Count of Minutes",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "Rate Card not found",
@@ -24732,7 +24919,17 @@
       "rateCardVariableRatesEmpty": "First Hour Rate and Subsequent Hour Rate are required for Variable Rate Card",
       "rateCardRateRoundingOffMinutesNotValid": "Valid Rounding Off Minutes is required for Variable Rate Card"
     },
-    "tooltips": {},
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "minutesAdded": {
+        "original": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "singular": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "plural": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "messages": {}
   }
 }

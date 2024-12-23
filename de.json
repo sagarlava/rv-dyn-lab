@@ -12142,6 +12142,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "addProduct":{
+        "original": "Add Spare Parts",
+        "singular": "Ersatzteil hinzufügen",
+        "plural": "Ersatzteile hinzufügen",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12620,6 +12627,7 @@
       "searchAddress": "Adresse suchen",
       "confirmAction": "Sind Sie sicher?",
       "confirmDelete": "Sind Sie sicher, dass Sie löschen möchten",
+      "confirmRemove": "Sind Sie sicher, dass Sie entfernen möchten",
       "doYouWishToProceed": "Möchten Sie fortfahren?",
       "irreversibleAction": "Diese Aktion ist unwiderruflich.",
       "step1": "Schritt 1",
@@ -24673,8 +24681,112 @@
       "setupEdit": false,
       "setupVisible": false
     },
-    "sections": {},
-    "fields": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Allgemeine Details",
+        "plural": "Allgemeine Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Product Pricing",
+        "singular": "Produktpreise",
+        "plural": "Produktpreise",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "priceBookName": {
+        "original": "Price Book Name",
+        "singular": "Preislistenname",
+        "plural": "Preislistennamen",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "priceBookNo": {
+        "original": "Price Book No.",
+        "singular": "Preislistennummer",
+        "plural": "Preislistennummern",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Beschreibung",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderType": {
+        "original": "Order Type",
+        "singular": "Bestellart",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardRate": {
+        "original": "Standard Rate",
+        "singular": "Standardrate",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sameAsStandardRate": {
+        "original": "Same as Standard Rate",
+        "singular": "Gleich wie Standardrate",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractPrice": {
+        "original": "Contract Price",
+        "singular": "Vertragspreis",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "defaultPriceBook": {
+        "original": "Default Price Book",
+        "singular": "Standard-Preisliste",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardPriceBook": {
+        "original": "Standard Price Book",
+        "singular": "Standardpreisbuch",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productName": {
+        "original": "Spare Part Name",
+        "singular": "Ersatzteilname",
+        "plural": "Ersatzteilname",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sku": {
+        "original": "SKU",
+        "singular": "SKU",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "priceBookStandardNotChangeable": "Das Standard-Preisbuch kann nicht geändert werden; legen Sie zuerst ein anderes als Standard fest",
@@ -24706,7 +24818,13 @@
       "PriceBookProductsDeletionNotAllowedForStandard": "Produkte des Standard-Preisbuchs können nicht gelöscht werden"
     },
     "tooltips": {},
-    "messages": {}
+    "messages": {
+      "fromThisPriceBook":"aus diesem Preisbuch?",
+      "confirmPriceBookDeletion":"Bestätigen Sie das Löschen des Preisbuchs",
+      "confirmContractRemoval":"Bestätigen Sie die Entfernung des Vertrags",
+      "confirmRemovalPricing":"Bestätigen Sie die Entfernung der Produktpreise",
+      "areYouSureRemoveProduct":"Sind Sie sicher, dass Sie dieses Produkt entfernen möchten aus"
+    }
   },
   "rateCard": {
     "setupVisible": false,
@@ -24718,8 +24836,77 @@
       "setupEdit": false,
       "setupVisible": false
     },
-    "sections": {},
-    "fields": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Allgemeine Details",
+        "plural": "Allgemeine Details",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Calculation for this hourly rate",
+        "singular": "Berechnung für diesen Stundensatz",
+        "plural": "Berechnungen für diese Stundensätze",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "rateCardNo": {
+        "original": "Rate Card No.",
+        "singular": "Tarifkartennummer",
+        "plural": "Tarifkartennummern",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rateCardName": {
+        "original": "Rate Card Name",
+        "singular": "Name der Tarifkarte",
+        "plural": "Namen der Tarifkarten",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRate": {
+        "original": "Fixed Rate",
+        "singular": "Festpreis",
+        "plural": "Festpreise",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "firstHour": {
+        "original": "First Hour",
+        "singular": "Erste Stunde",
+        "plural": "Erste Stunde",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsequentHour": {
+        "original": "Subsequent Hour",
+        "singular": "Folgende Stunde",
+        "plural": "Folgende Stunden",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "countOfMinutes": {
+        "original": "Count of Minutes",
+        "singular": "Anzahl der Minuten",
+        "plural": "Anzahlen der Minuten",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "Ratekarte  nicht gefunden",
@@ -24732,7 +24919,17 @@
       "rateCardVariableRatesEmpty": "Der Erststundensatz und der Folgestundensatz sind für die variable Rate Card erforderlich",
       "rateCardRateRoundingOffMinutesNotValid": "Gültige Abrundungsminuten sind für die variable Rate Card erforderlich"
     },
-    "tooltips": {},
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "minutesAdded": {
+        "original": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "singular": "Diese hinzugefügte Minute wird zur Berechnung der Stunden verwendet. Zum Beispiel, wenn Sie 15 Minuten eingeben: Wenn die Dauer der Arbeit weniger als 15 Minuten beträgt, wird sie nicht als Stunde berechnet. Wenn die Dauer der Arbeit mehr als 15 Minuten beträgt, wird sie als eine Stunde angesehen.",
+        "plural": "Diese hinzugefügten Minuten werden zur Berechnung der Stunden verwendet. Zum Beispiel, wenn Sie 15 Minuten eingeben: Wenn die Dauer der Arbeit weniger als 15 Minuten beträgt, wird sie nicht als Stunde berechnet. Wenn die Dauer der Arbeit mehr als 15 Minuten beträgt, wird sie als eine Stunde angesehen.",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "messages": {}
   }
 }

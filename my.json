@@ -12142,6 +12142,13 @@
         "plural": "",
         "setupEdit": true,
         "setupVisible": false
+      },
+      "addProduct":{
+        "original": "Add Spare Parts",
+        "singular": "Tambah Alat Ganti",
+        "plural": "Tambah Alat Ganti",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12620,6 +12627,7 @@
       "searchAddress": "Cari Alamat",
       "confirmAction": "Adakah anda pasti?",
       "confirmDelete": "Adakah anda pasti mahu memadam",
+      "confirmRemove": "Adakah anda pasti mahu membuang",
       "doYouWishToProceed": "Adakah anda ingin meneruskan?",
       "irreversibleAction": "Tindakan ini tidak boleh dibatalkan.",
       "step1": "Langkah 1",
@@ -24673,8 +24681,112 @@
       "setupEdit": false,
       "setupVisible": false
     },
-    "sections": {},
-    "fields": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Butiran Am",
+        "plural": "Butiran Am",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Product Pricing",
+        "singular": "Harga Produk",
+        "plural": "Harga Produk",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "priceBookName": {
+        "original": "Price Book Name",
+        "singular": "Nama Buku Harga",
+        "plural": "Nama Buku Harga",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "priceBookNo": {
+        "original": "Price Book No.",
+        "singular": "No. Buku Harga",
+        "plural": "No. Buku Harga",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "description": {
+        "original": "Description",
+        "singular": "Penerangan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "orderType": {
+        "original": "Order Type",
+        "singular": "Jenis Pesanan",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardRate": {
+        "original": "Standard Rate",
+        "singular": "Kadar Piawai",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sameAsStandardRate": {
+        "original": "Same as Standard Rate",
+        "singular": "Sama seperti Kadar Piawai",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "contractPrice": {
+        "original": "Contract Price",
+        "singular": "Harga Kontrak",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "defaultPriceBook": {
+        "original": "Default Price Book",
+        "singular": "Buku Harga Lalai",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "standardPriceBook": {
+        "original": "Standard Price Book",
+        "singular": "Buku Harga Piawai",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "productName": {
+        "original": "Spare Part Name",
+        "singular": "Nama Alat Ganti",
+        "plural": "Nama Alat Ganti",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sku": {
+        "original": "SKU",
+        "singular": "SKU",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "priceBookStandardNotChangeable": "Tidak boleh mengubah buku harga standard; tetapkan yang lain sebagai standard terlebih dahulu",
@@ -24706,7 +24818,13 @@
       "PriceBookProductsDeletionNotAllowedForStandard": "Produk Buku Harga Standard tidak boleh dipadam"
     },
     "tooltips": {},
-    "messages": {}
+    "messages": {
+      "fromThisPriceBook":"daripada buku harga ini?",
+      "confirmPriceBookDeletion":"Sahkan Pemadaman Buku Harga",
+      "confirmContractRemoval":"Sahkan Penghapusan Kontrak",
+      "confirmRemovalPricing":"Sahkan Penghapusan Harga Produk",
+      "areYouSureRemoveProduct":"Adakah anda pasti mahu membuang produk ini daripada"
+    }
   },
   "rateCard": {
     "setupVisible": false,
@@ -24718,8 +24836,77 @@
       "setupEdit": false,
       "setupVisible": false
     },
-    "sections": {},
-    "fields": {},
+    "sections": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "sec0": {
+        "original": "General Details",
+        "singular": "Butiran Am",
+        "plural": "Butiran Am",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "sec1": {
+        "original": "Calculation for this hourly rate",
+        "singular": "Pengiraan untuk kadar setiap jam ini",
+        "plural": "Pengiraan untuk kadar setiap jam ini",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
+    "fields": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "rateCardNo": {
+        "original": "Rate Card No.",
+        "singular": "No. Kard Kadar",
+        "plural": "No. Kard Kadar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "rateCardName": {
+        "original": "Rate Card Name",
+        "singular": "Nama Kad Kadar",
+        "plural": "Nama Kad Kadar",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "fixedRate": {
+        "original": "Fixed Rate",
+        "singular": "Kadar Tetap",
+        "plural": "Kadar Tetap",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "firstHour": {
+        "original": "First Hour",
+        "singular": "Jam Pertama",
+        "plural": "Jam Pertama",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "subsequentHour": {
+        "original": "Subsequent Hour",
+        "singular": "Jam Seterusnya",
+        "plural": "Jam Seterusnya",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "status": {
+        "original": "Status",
+        "singular": "Status",
+        "plural": "Status",
+        "setupEdit": false,
+        "setupVisible": false
+      },
+      "countOfMinutes": {
+        "original": "Count of Minutes",
+        "singular": "Kiraan Minit",
+        "plural": "Kiraan Minit",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "validationFE": {},
     "validationBE": {
       "rateCardNotFound": "Kad Kadar tidak dijumpai",
@@ -24732,7 +24919,17 @@
       "rateCardVariableRatesEmpty": "Kadar Jam Pertama dan Kadar Jam Seterusnya diperlukan untuk Kad Kadar Boleh Ubah",
       "rateCardRateRoundingOffMinutesNotValid": "Minit Pembulatan Sah diperlukan untuk Kad Kadar Boleh Ubah"
     },
-    "tooltips": {},
+    "tooltips": {
+      "setupVisible": false,
+      "setupEdit": false,
+      "minutesAdded": {
+        "original": "This minute added will be used as a calculation for the hours. For example, if you input 15 mins, if the duration of the job is less than 15 mins it will not calculate as an hour. If the duration of the job is more than 15 mins then it will be considered as an hour.",
+        "singular": "Minit yang ditambah ini akan digunakan untuk pengiraan jam. Sebagai contoh, jika anda memasukkan 15 minit, jika tempoh kerja kurang daripada 15 minit, ia tidak akan dikira sebagai satu jam. Jika tempoh kerja melebihi 15 minit, maka ia akan dianggap sebagai satu jam.",
+        "plural": "Minit yang ditambah ini akan digunakan untuk pengiraan jam. Sebagai contoh, jika anda memasukkan 15 minit, jika tempoh kerja kurang daripada 15 minit, ia tidak akan dikira sebagai satu jam. Jika tempoh kerja melebihi 15 minit, maka ia akan dianggap sebagai satu jam.",
+        "setupEdit": false,
+        "setupVisible": false
+      }
+    },
     "messages": {}
   }
 }

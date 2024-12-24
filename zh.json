@@ -14116,10 +14116,10 @@
             "setupVisible": false
           },
           "leaveUncheckedMarkOnline": {
-            "original": "Leave unchecked to always be marked as 'Online' by default",
-            "singular": "保持未选中状态，以默认标记为“在线”",
+            "original": "If not selected, user will always be marked as 'Online' by default",
+            "singular": "如果未选择，用户默认始终会被标记为“在线”",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {

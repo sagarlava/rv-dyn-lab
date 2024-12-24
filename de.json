@@ -14116,10 +14116,10 @@
             "setupVisible": false
           },
           "leaveUncheckedMarkOnline": {
-            "original": "Leave unchecked to always be marked as 'Online' by default",
-            "singular": "Lassen Sie es unchecked, um standardmäßig immer als 'Online' markiert zu sein",
+            "original": "If not selected, user will always be marked as 'Online' by default",
+            "singular": "Wenn nicht ausgewählt, wird der Benutzer standardmäßig immer als 'Online' markiert",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {

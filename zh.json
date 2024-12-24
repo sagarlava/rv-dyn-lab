@@ -13730,14 +13730,14 @@
           "sec2": {
             "original": "Module Permission",
             "singular": "模块权限",
-            "plural": "",
+            "plural": "模块权限",
             "setupEdit": true,
             "setupVisible": false
           },
           "sec3": {
             "original": "Picklist Permission",
             "singular": "选择列表权限",
-            "plural": "",
+            "plural": "选择列表权限",
             "setupEdit": true,
             "setupVisible": false
           },
@@ -21564,7 +21564,7 @@
               "vehicles": "车辆",
               "assets": "资产",
               "assets_contracts": "合同",
-              "scheduled_maintenance": "计划维护",
+              "scheduled_maintenance": "预防性维护",
               "inventory": "库存",
               "tickets": "票据",
               "project": "项目",

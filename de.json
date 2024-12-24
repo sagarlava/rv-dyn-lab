@@ -14115,17 +14115,17 @@
         "descriptions": {
           "setupVisible": false,
           "userWithAccessAssignTask": {
-            "original": "Users with this access are able to assign tasks",
+            "original": "Users with this access can assign Tasks",
             "singular": "Benutzer mit diesem Zugriff können Aufgaben zuweisen",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessViewPricing": {
-            "original": "Users with this access are able to view pricing details for Sales Orders",
-            "singular": "Benutzer mit diesem Zugriff können Preisdaten für Verkaufsbestellungen einsehen",
+            "original": "Users with this access can view pricing details for Sales Orders",
+            "singular": "Benutzer mit diesem Zugriff können Preisinformationen für Verkaufsaufträge anzeigen",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessAssignShift": {
@@ -14143,17 +14143,17 @@
             "setupVisible": false
           },
           "userWithAccessCreateModifyTix": {
-            "original": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
-            "singular": "Benutzer mit diesem Zugriff können Tickets erstellen und ändern sowie das Helpdesk-Modul einsehen",
+            "original": "Users with this access can create and modify tickets as well as view Helpdesk Module",
+            "singular": "Benutzer mit diesem Zugriff können Tickets erstellen und bearbeiten sowie das Helpdesk-Modul anzeigen",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "leaveUncheckedMarkOnline": {
-            "original": "Leave unchecked to always be marked as 'Online' by default",
-            "singular": "Lassen Sie es unchecked, um standardmäßig immer als 'Online' markiert zu sein",
+            "original": "If not selected, user will always be marked as 'Online' by default",
+            "singular": "Wenn nicht ausgewählt, wird der Benutzer standardmäßig immer als 'Online' markiert",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userBinTransferReceiveProd": {
@@ -14164,10 +14164,10 @@
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "Urlaubsanträge werden für Benutzer mit diesem Zugriff automatisch genehmigt",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "Benutzer mit diesem Zugriff haben ihre Urlaubsanträge automatisch genehmigt",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {

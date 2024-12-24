@@ -14130,10 +14130,10 @@
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "Permohonan cuti akan diluluskan secara automatik untuk pengguna dengan akses ini",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "Pengguna dengan akses ini mempunyai permohonan cuti mereka diluluskan secara automatik",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {

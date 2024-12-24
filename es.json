@@ -14130,10 +14130,10 @@
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "Las solicitudes de licencia se aprobarán automáticamente para los usuarios con este acceso",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "Los usuarios con este acceso tienen sus solicitudes de permiso aprobadas automáticamente",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {

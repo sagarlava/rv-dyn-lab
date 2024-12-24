@@ -14130,10 +14130,10 @@
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "Leave requests will be automatically approved for users with this access",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "Users with this access have their leave requests automatically approved",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {

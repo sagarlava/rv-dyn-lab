@@ -14130,10 +14130,10 @@
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "Urlaubsanträge werden für Benutzer mit diesem Zugriff automatisch genehmigt",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "Benutzer mit diesem Zugriff haben ihre Urlaubsanträge automatisch genehmigt",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {

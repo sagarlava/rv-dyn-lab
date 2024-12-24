@@ -14130,10 +14130,10 @@
             "setupVisible": false
           },
           "leaveRequestAutoApprove": {
-            "original": "Leave requests will be automatically approved for users with this access",
-            "singular": "具有此访问权限的用户的请假请求将自动批准",
+            "original": "Users with this access have their leave requests automatically approved",
+            "singular": "具有此权限的用户其请假请求会被自动批准",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "allowUserSendViewSurvey": {

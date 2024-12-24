@@ -14109,10 +14109,10 @@
             "setupVisible": false
           },
           "userWithAccessCreateModifyTix": {
-            "original": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
-            "singular": "具有此访问权限的用户可以创建和修改票据以及查看帮助台模块",
+            "original": "Users with this access can create and modify tickets as well as view Helpdesk Module",
+            "singular": "具有此权限的用户可以创建和修改票据，并查看帮助台模块",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "leaveUncheckedMarkOnline": {

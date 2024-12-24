@@ -14109,10 +14109,10 @@
             "setupVisible": false
           },
           "userWithAccessCreateModifyTix": {
-            "original": "Users with this access are able to create and modify tickets as well as view the Helpdesk module",
-            "singular": "Benutzer mit diesem Zugriff können Tickets erstellen und ändern sowie das Helpdesk-Modul einsehen",
+            "original": "Users with this access can create and modify tickets as well as view Helpdesk Module",
+            "singular": "Benutzer mit diesem Zugriff können Tickets erstellen und bearbeiten sowie das Helpdesk-Modul anzeigen",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "leaveUncheckedMarkOnline": {

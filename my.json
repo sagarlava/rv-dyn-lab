@@ -12150,6 +12150,13 @@
         "plural": "Tambah Alat Ganti",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "Cipta melalui Templat",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12629,8 +12636,11 @@
       "confirmAction": "Adakah anda pasti?",
       "confirmDelete": "Adakah anda pasti mahu memadam",
       "confirmRemove": "Adakah anda pasti mahu membuang",
+      "confirmDeleteThis": "Adakah anda pasti mahu memadam ini",
+      "confirmRemoveThis": "Adakah anda pasti mahu membuang ini",
       "doYouWishToProceed": "Adakah anda ingin meneruskan?",
       "irreversibleAction": "Tindakan ini tidak boleh dibatalkan.",
+      "cannotBeUndone": "Tindakan ini tidak boleh dibatalkan.",
       "step1": "Langkah 1",
       "step2": "Langkah 2",
       "step3": "Langkah 3",
@@ -13403,6 +13413,20 @@
           "singular": "Pilih Tiket dari senarai",
           "plural": "",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "Job Order Template Selection",
+          "singular": "Pemilihan Templat Pesanan Kerja",
+          "plural": "Pemilihan Templat Tugasan",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec17": {
+          "original": "Task Template Selection",
+          "singular": "Pemilihan Templat Tugasan",
+          "plural": "Pemilihan Templat Tugasan",
+          "setupEdit": false,
           "setupVisible": false
         }
       },

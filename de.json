@@ -12150,6 +12150,13 @@
         "plural": "Ersatzteile hinzufügen",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "Erstellen über Vorlage",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12629,8 +12636,11 @@
       "confirmAction": "Sind Sie sicher?",
       "confirmDelete": "Sind Sie sicher, dass Sie löschen möchten",
       "confirmRemove": "Sind Sie sicher, dass Sie entfernen möchten",
+      "confirmDeleteThis": "Sind Sie sicher, dass Sie dies löschen möchten",
+      "confirmRemoveThis": "Sind Sie sicher, dass Sie dies entfernen möchten",
       "doYouWishToProceed": "Möchten Sie fortfahren?",
       "irreversibleAction": "Diese Aktion ist unwiderruflich.",
+      "cannotBeUndone": "Diese Aktion kann nicht rückgängig gemacht werden.",
       "step1": "Schritt 1",
       "step2": "Schritt 2",
       "step3": "Schritt 3",
@@ -13403,6 +13413,20 @@
           "singular": "Wählen Sie ein Ticket aus der Liste",
           "plural": "",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "Job Order Template Selection",
+          "singular": "Auswahl der Arbeitsauftragvorlage",
+          "plural": "Auswahl der Arbeitsauftragvorlage",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec17": {
+          "original": "Task Template Selection",
+          "singular": "Auswahl der Aufgaben-Vorlage",
+          "plural": "Auswahl der Aufgaben-Vorlage",
+          "setupEdit": false,
           "setupVisible": false
         }
       },

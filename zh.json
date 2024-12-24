@@ -12150,6 +12150,13 @@
         "plural": "添加备件",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "通过模板创建",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12628,9 +12635,12 @@
       "searchAddress": "搜索地址",
       "confirmAction": "你确定吗？",
       "confirmDelete": "你确定要删除",
-      "confirmRemove": "您确定要删除吗",
+      "confirmRemove": "您确定要删除",
+      "confirmDeleteThis": "您确定要删除此内容吗",
+      "confirmRemoveThis": "您确定要移除此内容吗",
       "doYouWishToProceed": "您是否希望继续？",
       "irreversibleAction": "此操作不可撤销。",
+      "cannotBeUndone": "此操作无法撤销。",
       "step1": "步骤 1",
       "step2": "步骤 2",
       "step3": "步骤 3",
@@ -13403,6 +13413,20 @@
           "singular": "从列表中选择票",
           "plural": "",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "Job Order Template Selection",
+          "singular": "工作单模板选择",
+          "plural": "工作单模板选择",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec17": {
+          "original": "Task Template Selection",
+          "singular": "任务模板选择",
+          "plural": "任务模板选择",
+          "setupEdit": false,
           "setupVisible": false
         }
       },

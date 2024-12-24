@@ -12150,6 +12150,13 @@
         "plural": "Agregar Repuestos",
         "setupEdit": false,
         "setupVisible": false
+      },
+      "createViaTemplate":{
+        "original": "Create via Template",
+        "singular": "Crear a través de Plantilla",
+        "plural": "",
+        "setupEdit": false,
+        "setupVisible": false
       }
     },
     "status": {
@@ -12627,10 +12634,13 @@
       "search": "Buscar",
       "searchAddress": "Buscar Dirección",
       "confirmAction": "¿Está seguro?",
-      "confirmDelete": "¿Está seguro de que desea eliminar",
+      "confirmDelete": "¿Está seguro de que desea eliminar?",
       "confirmRemove": "¿Está seguro de que desea eliminar",
+      "confirmDeleteThis": "¿Está seguro de que desea eliminar esto",
+      "confirmRemoveThis": "¿Está seguro de que desea eliminar esto",
       "doYouWishToProceed": "¿Desea continuar?",
       "irreversibleAction": "Esta acción es irreversible.",
+      "cannotBeUndone": "Esta acción no se puede deshacer.",
       "step1": "Paso 1",
       "step2": "Paso 2",
       "step3": "Paso 3",
@@ -13403,6 +13413,20 @@
           "singular": "Selecciona un ticket de la lista",
           "plural": "",
           "setupEdit": true,
+          "setupVisible": false
+        },
+        "sec16": {
+          "original": "Job Order Template Selection",
+          "singular": "Selección de Plantilla de Orden de Trabajo",
+          "plural": "Selección de Plantilla de Orden de Trabajo",
+          "setupEdit": false,
+          "setupVisible": false
+        },
+        "sec17": {
+          "original": "Task Template Selection",
+          "singular": "Selección de Plantilla de Tarea",
+          "plural": "Selección de Plantilla de Tarea",
+          "setupEdit": false,
           "setupVisible": false
         }
       },

@@ -14081,10 +14081,10 @@
         "descriptions": {
           "setupVisible": false,
           "userWithAccessAssignTask": {
-            "original": "Users with this access are able to assign tasks",
-            "singular": "Users with this access are able to assign tasks",
+            "original": "Users with this access can assign Tasks",
+            "singular": "Users with this access can assign Tasks",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessViewPricing": {

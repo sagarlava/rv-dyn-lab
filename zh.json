@@ -14082,9 +14082,9 @@
           "setupVisible": false,
           "userWithAccessAssignTask": {
             "original": "Users with this access are able to assign tasks",
-            "singular": "具有此访问权限的用户可以分配任务",
+            "singular": "具有此权限的用户可以分配任务",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessViewPricing": {

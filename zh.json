@@ -15554,10 +15554,10 @@
         "setupVisible": false,
         "setupEdit": false,
         "label": {
-          "original": "Custom Forms",
-          "singular": "自定义表单",
-          "plural": "自定义表单",
-          "setupEdit": true,
+          "original": "Forms",
+          "singular": "表单",
+          "plural": "表单",
+          "setupEdit": false,
           "setupVisible": false
         },
         "sections": {
@@ -15693,6 +15693,104 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec19":{
+            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "为您的表单命名并添加一个运行编号前缀。将鼠标悬停在运行编号前缀帮助文本图标上以获取更多信息。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec20":{
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "选择将用于此表单的工作单类型。此外，您可以选择使此表单对某些工作单状态强制执行。为此，请通过单击复选框将此表单设置为强制性，然后从可用的工作单状态中进行选择。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec21":{
+            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "singular": "为此子表单选择一个记录类型。单记录子表单只能提交一次，用于一次性数据输入。列表记录子表单可以多次提交，用于需要现场代理或技术人员在工作期间多次输入数据的情况。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec22":{
+            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "为您的子表单命名并添加一个运行编号前缀。将鼠标悬停在运行编号前缀帮助文本图标上以获取更多信息。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec23":{
+            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "选择将用于此子表单的工作单类型。此外，您可以选择使此表单对某些工作单状态强制执行。为此，请通过单击复选框将此子表单设置为强制性，然后从可用的工作单状态中进行选择。",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec24":{
+            "original": "Form Creation",
+            "singular": "表单创建",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec25":{
+            "original": "Field Creation",
+            "singular": "字段创建",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec26":{
+            "original": "Page Layout",
+            "singular": "页面布局",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec27":{
+            "original": "List View Setup",
+            "singular": "列表视图设置",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec28":{
+            "original": "Subform Creation",
+            "singular": "子表单创建",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec29":{
+            "original": "Create Fields",
+            "singular": "创建字段",
+            "plural": "创建字段",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec30":{
+            "original": "Save Form",
+            "singular": "保存表单",
+            "plural": "保存表单",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec31":{
+            "original": "Delete Section",
+            "singular": "删除部分",
+            "plural": "删除部分",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec32":{
+            "original": "Section Layout",
+            "singular": "部分布局",
+            "plural": "部分布局",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -15736,6 +15834,13 @@
             "singular": "工作订单类型",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderStatus":{
+            "original": "Job Order Status",
+            "singular": "工作单状态",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           },
           "isFormMandatory": {
@@ -16010,11 +16115,25 @@
             "plural": "映射字段",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "enterFormName": {
+            "original": "Enter a name for your form",
+            "singular": "为您的表单输入一个名称",
+            "plural": "为您的表单输入一个名称",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enterSubformName": {
+            "original": "Enter a name for your new subform",
+            "singular": "为您的新子表单输入一个名称",
+            "plural": "为您的新子表单输入一个名称",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
-          "createManageCustomForms": "创建和管理最适合您用例的自定义表单。自定义表单允许您在需要时获取有关某个场景的详细信息。",
-          "createManageCustomSubForms": "创建和管理最适合您用例的子表单。子表单作为表单中的表单，允许您在需要时获取与某个场景相关的额外详细信息。它们可以设置为记录单个或多个条目。",
+          "createManageCustomForms": "表单是现场代理或技术人员在工作中填写的表单的数字版本。专为特定用例设计且可定制，它们简化了数据收集，并可无缝运行于网页和移动应用程序上。",
+          "createManageCustomSubForms": "子表单是您可以用来获取有关任务更多信息的附加表单。您可以将子表单设置为单记录或列表记录。单记录类型的子表单只能提交一次，用于一次性数据输入。列表记录类型的子表单可以多次提交，用于需要现场代理或技术人员在工作期间多次输入数据的情况。",
           "setupForm": "创建最符合您业务需求的字段，按照您的喜好排列表单，并在需要时包含子表单。您需要先为此表单创建字段，然后才能进行排列。创建并排列好字段后，您可以将表单状态设置为激活。",
           "setupSubform": "创建最符合您业务需求的字段，按照您的喜好排列子表单，并在需要时为子表单添加列表视图。您需要先为此子表单创建字段，然后才能进行排列。创建并排列好字段后，您可以将表单状态设置为激活。",
           "manageFormFields": "管理此表单可用的字段",
@@ -16052,7 +16171,7 @@
           "selectLookupModule": "选择查找模块以将此字段与其他模块中的数据链接。这使您可以引入相关信息并在不同模块之间建立连接。",
           "chooseParentPicklistForDependency": "选择一个父选择列表以定义依赖关系。此选择将把此选择列表链接到父选择列表，允许您在映射页面中将父选择列表字段映射到此选择列表中的字段。映射后，在表单中对父选择列表的选择将影响此选择列表的可用选项。",
           "selectParentAndChildOptions": "选择父选项并选择其子选项。如果需要更改父选项，请先取消选择当前选项，然后选择一个新的父选项。要删除任何已映射的字段，请导航到预览选项卡并清除那里的选择。",
-          "arrangeFormFields": "通过点击可用字段框中的所需字段，然后将其拖放到画布上，按您的喜好排列表单。您可以通过点击旁边的编辑图标来重命名部分。要删除字段或部分，请点击旁边的 'x' 按钮。",
+          "arrangeFormFields": "通过将字段拖动到部分来安排您的表单，根据需要重命名标题，并重新定位字段或部分。使用提供的按钮添加或删除部分和移动分隔符。分隔符在移动应用程序中创建单独的页面。",
           "removeSectionAndFieldsWarning": "此部分及其相关的字段将从表单构建器中删除，且无法撤消。",
           "cannotPerformActionChildPicklistPresent": "无法执行此操作，因为存在子选择列表",
           "childPicklistIsPresent": "子选择列表在表单中存在。请先移除",
@@ -16063,7 +16182,30 @@
           "whatIsRunningNoFormat": "什么是流水号格式？",
           "runningNoDesc": "流水号格式允许您为表单的自动编号字段自定义格式。这包括替换变量以及您希望前缀或后缀的任何字符。",
           "mapPicklistFields": "通过选择父字段，然后选择其必要的选择列表字段来映射选择列表字段。您可以在下方查看映射的字段。",
-          "addDescriptionHere": "在此添加描述..."
+          "addDescriptionHere": "在此添加描述...",
+          "selectJobOrderStatus":"选择工作单状态",
+          "looksLikeNoFormsCreated":"看起来您还没有创建任何表单。别担心，只需按照以下步骤操作，我们会让您的表单快速运行起来！",
+          "formCreationDesc":"通过单击+新建按钮创建表单。为您的表单命名并添加一个运行编号前缀。然后，选择适用于此表单的工作单类型。",
+          "fieldCreationFormDesc":"在表单视图页面上单击字段创建按钮。单击+新建按钮并选择您想要创建的字段类型。",
+          "pageLayoutFormDesc":"在表单视图页面上单击页面布局按钮。在这里，您可以将已创建的字段从字段部分拖放到表单部分。",
+          "subformSetupFormDesc":"如果需要，您可以通过单击设置子表单按钮将子表单添加到您的表单中。设置过程类似于设置表单的方式。",
+          "looksLikeNoSubformsCreated":"看起来您还没有创建任何子表单。别担心，只需按照以下步骤操作，我们会让您的子表单快速运行起来！",
+          "subformCreationDesc":"通过单击+新建按钮创建子表单。为您的子表单命名并添加一个运行编号前缀。然后，选择适用于此子表单的工作单类型。",
+          "fieldCreationSubformDesc":"在子表单视图页面上单击字段创建按钮。单击+新建按钮并选择您想要创建的字段类型。",
+          "pageLayoutSubformDesc":"在子表单视图页面上单击页面布局按钮。在这里，您可以将已创建的字段从字段部分拖放到子表单部分。",
+          "listSetupSubformDesc":"如果您选择了列表记录子表单类型，可以为子表单设置列表视图。这将在工作单详细信息页面的表单选项卡中显示。",
+          "optional":"可选",
+          "onlyForListRec":"仅适用于列表记录",
+          "createFieldsDesc":"创建将在您的表单中使用的字段。",
+          "pageLayoutDesc":"使用您创建的字段设置表单的页面布局。",
+          "subformSetupDesc":"您可以选择为此表单设置子表单。如果在工作期间需要从技术人员或现场代理获取其他信息，请使用子表单。",
+          "createFieldsSubformDesc":"创建将在您的子表单中使用的字段。",
+          "pageLayoutDetsSubformDesc":"使用您创建的字段设置子表单的页面布局。",
+          "listViewSubformSetupDesc":"如果您为子表单选择了列表记录类型，您可以设置子表单的列表视图。这将使您能够自定义子表单列表视图表中的字段排列。",
+          "completeAllStepForm":"完成所有步骤以完全设置您的表单",
+          "completeAllStepSubform":"完成所有步骤以完全设置您的子表单",
+          "editFormArrangement":"您确定要编辑此表单的排列吗？所做的更改也将反映在以前的表单中。这无法撤销。",
+          "selectLayoutPreferred":"选择您希望为部分使用的布局。您添加到部分的字段将根据部分布局显示。"
         }
       }
     },

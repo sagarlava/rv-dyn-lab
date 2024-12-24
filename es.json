@@ -15554,10 +15554,10 @@
         "setupEdit": false,
         "setupVisible": false,
         "label": {
-          "original": "Custom Forms",
-          "singular": "Formulario Personalizado",
-          "plural": "Formularios Personalizados",
-          "setupEdit": true,
+          "original": "Forms",
+          "singular": "Formulario",
+          "plural": "Formularios",
+          "setupEdit": false,
           "setupVisible": false
         },
         "sections": {
@@ -15693,6 +15693,104 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec19":{
+            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Asigne un nombre a su formulario y un prefijo de número consecutivo. Pase el cursor sobre el icono de texto de ayuda del prefijo de número consecutivo para obtener más información.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec20":{
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Seleccione los Tipos de Orden de Trabajo que estarán disponibles para este formulario. Además, tiene la opción de hacer que este formulario sea obligatorio para ciertos Estados de Orden de Trabajo. Para ello, marque este formulario como obligatorio haciendo clic en la casilla de verificación y seleccione los Estados de Orden de Trabajo disponibles.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec21":{
+            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "singular": "Seleccione un tipo de registro para este subformulario. Los subformularios de registro único solo se pueden enviar una vez y se utilizan para entradas de datos únicas. Los subformularios de registro en lista se pueden enviar varias veces y se utilizan cuando se requiere que sus agentes de campo o técnicos ingresen datos varias veces durante un trabajo.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec22":{
+            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Asigne un nombre a su subformulario y un prefijo de número consecutivo. Pase el cursor sobre el icono de texto de ayuda del prefijo de número consecutivo para obtener más información.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec23":{
+            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Seleccione los Tipos de Orden de Trabajo que estarán disponibles para este subformulario. Además, tiene la opción de hacer que este subformulario sea obligatorio para ciertos Estados de Orden de Trabajo. Para ello, marque este subformulario como obligatorio haciendo clic en la casilla de verificación y seleccione los Estados de Orden de Trabajo disponibles.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec24":{
+            "original": "Form Creation",
+            "singular": "Creación de Formularios",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec25":{
+            "original": "Field Creation",
+            "singular": "Creación de Campos",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec26":{
+            "original": "Page Layout",
+            "singular": "Diseño de Página",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec27":{
+            "original": "List View Setup",
+            "singular": "Configuración de Vista de Lista",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec28":{
+            "original": "Subform Creation",
+            "singular": "Creación de Subformularios",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec29":{
+            "original": "Create Fields",
+            "singular": "Crear Campos",
+            "plural": "Crear Campos",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec30":{
+            "original": "Save Form",
+            "singular": "Guardar Formulario",
+            "plural": "Guardar Formularios",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec31":{
+            "original": "Delete Section",
+            "singular": "Eliminar Sección",
+            "plural": "Eliminar Secciones",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec32":{
+            "original": "Section Layout",
+            "singular": "Diseño de Sección",
+            "plural": "Diseños de Sección",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -15736,6 +15834,13 @@
             "singular": "Tipo de Orden de Trabajo",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderStatus":{
+            "original": "Job Order Status",
+            "singular": "Estado de la Orden de Trabajo",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           },
           "isFormMandatory": {
@@ -16010,11 +16115,25 @@
             "plural": "Campos Mapeados",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "enterFormName": {
+            "original": "Enter a name for your form",
+            "singular": "Ingrese un nombre para su formulario",
+            "plural": "Ingrese nombres para sus formularios",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enterSubformName": {
+            "original": "Enter a name for your new subform",
+            "singular": "Ingrese un nombre para su nuevo subformulario",
+            "plural": "Ingrese nombres para sus nuevos subformularios",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
-          "createManageCustomForms": "Crea y gestiona formularios personalizados que se adapten mejor a tu caso de uso. Los formularios personalizados te permiten obtener detalles sobre un escenario determinado cuando sea necesario.",
-          "createManageCustomSubForms": "Crea y gestiona subformularios que se adapten mejor a tu caso de uso. Los subformularios actúan como formularios dentro de tus formularios, permitiéndote obtener detalles adicionales relacionados con un escenario determinado cuando sea necesario. Se pueden configurar para registrar una o varias entradas.",
+          "createManageCustomForms": "Los formularios son versiones digitales de los formularios que los agentes de campo o técnicos completan en el trabajo. Diseñados y personalizables para casos de uso específicos, simplifican la recopilación de datos y funcionan perfectamente tanto en aplicaciones web como móviles.",
+          "createManageCustomSubForms": "Los subformularios son formularios adicionales que puede usar para obtener más información sobre una tarea. Puede configurar sus subformularios como un registro único o una lista de registros. Los subformularios de tipo de registro único solo se pueden enviar una vez y se utilizan para entradas de datos únicas. Los subformularios de tipo de lista de registros se pueden enviar varias veces y se utilizan cuando se requiere que sus agentes de campo o técnicos ingresen datos varias veces durante un trabajo.",
           "setupForm": "Crea campos que se adapten mejor a los requisitos de tu negocio, organiza el formulario a tu gusto e incluye subformularios si es necesario. Debes crear campos para este formulario antes de poder organizarlos. Una vez que hayas creado los campos para este formulario y lo hayas organizado, puedes establecer el estado del formulario como activo.",
           "setupSubform": "Crea campos que se adapten mejor a los requisitos de tu negocio, organiza el subformulario a tu gusto e incluye vistas de lista a tu subformulario si es necesario. Debes crear campos para este subformulario antes de poder organizarlos. Una vez que hayas creado los campos para este formulario y lo hayas organizado, puedes establecer el estado del formulario como activo.",
           "manageFormFields": "Gestiona los campos que estarán disponibles para este formulario.",
@@ -16052,7 +16171,7 @@
           "selectLookupModule": "Selecciona el módulo de búsqueda para vincular este campo con datos de otro módulo. Esto te permite obtener información relacionada y establecer conexiones entre diferentes módulos.",
           "chooseParentPicklistForDependency": "Elige una lista desplegable principal para definir una dependencia. Esta selección vinculará esta lista desplegable a una lista desplegable principal, lo que te permitirá mapear los campos de la lista desplegable principal a los campos en esta lista desplegable dentro de la página de mapeo. Después de mapear, las selecciones realizadas en una lista desplegable principal dentro del formulario afectarán las opciones disponibles para esta lista desplegable.",
           "selectParentAndChildOptions": "Selecciona una opción principal y elige sus opciones secundarias. Si necesitas cambiar la opción principal, primero deselecciona la actual y luego selecciona una nueva opción principal. Para eliminar cualquier campo mapeado, navega a la pestaña de vista previa y borra las selecciones allí.",
-          "arrangeFormFields": "Organiza el formulario a tu gusto haciendo clic en el campo deseado desde la caja de campos disponibles y luego arrastrándolo y soltándolo en el lienzo. Puedes renombrar las secciones haciendo clic en los íconos de edición junto a ellas. Para eliminar un campo o sección, haz clic en el botón 'x' junto a él.",
+          "arrangeFormFields": "Organice su formulario arrastrando campos a secciones, cambie el nombre de los encabezados según sea necesario y reubique campos o secciones. Agregue o elimine secciones y divisores móviles utilizando los botones proporcionados. Los divisores crean páginas separadas en la aplicación móvil.",
           "removeSectionAndFieldsWarning": "Esta sección y los campos asociados se eliminarán del constructor de formularios. Esto no se puede deshacer.",
           "cannotPerformActionChildPicklistPresent": "No se puede realizar esta acción ya que la lista desplegable secundaria",
           "childPicklistIsPresent": "está presente en el formulario. Elimina",
@@ -16063,7 +16182,30 @@
           "whatIsRunningNoFormat": "¿Qué es el formato de número en serie?",
           "runningNoDesc": "El formato de número en serie te permite personalizar el campo de número automático para tus formularios. Esto incluye variables de sustitución y cualquier carácter que desees prefijar o agregar.",
           "mapPicklistFields": "Mapea los campos de la lista desplegable seleccionando un campo principal y luego seleccionando los campos de la lista desplegable necesarios para él. Puedes ver los campos mapeados a continuación.",
-          "addDescriptionHere": "Agrega la descripción aquí..."
+          "addDescriptionHere": "Agrega la descripción aquí...",
+          "selectJobOrderStatus":"Seleccione el Estado de la Orden de Trabajo",
+          "looksLikeNoFormsCreated":"Parece que aún no ha creado ningún formulario. ¡No se preocupe, simplemente siga estos pasos y sus formularios estarán listos en poco tiempo!",
+          "formCreationDesc":"Cree un formulario haciendo clic en el botón + Nuevo. Asigne un nombre a su formulario y un prefijo de número consecutivo. Luego, seleccione los Tipos de Orden de Trabajo que se aplican a este formulario.",
+          "fieldCreationFormDesc":"Haga clic en el botón de Creación de Campos en la página de vista del formulario. Haga clic en el botón +Nuevo y seleccione el tipo de campo que desea crear.",
+          "pageLayoutFormDesc":"Haga clic en el botón Diseño de Página en la página de vista del formulario. Aquí puede arrastrar y soltar los campos que ha creado desde la sección de campos a las secciones del formulario.",
+          "subformSetupFormDesc":"Si es necesario, puede agregar subformularios a su formulario haciendo clic en el botón de configuración de subformularios. El proceso de configuración es similar a cómo configuraría los formularios.",
+          "looksLikeNoSubformsCreated":"Parece que aún no ha creado ningún subformulario. ¡No se preocupe, simplemente siga estos pasos y sus subformularios estarán listos en poco tiempo!",
+          "subformCreationDesc":"Cree un subformulario haciendo clic en el botón + Nuevo. Asigne un nombre a su subformulario y un prefijo de número consecutivo. Luego, seleccione los Tipos de Orden de Trabajo que se aplican a este formulario.",
+          "fieldCreationSubformDesc":"Haga clic en el botón de Creación de Campos en la página de vista del subformulario. Haga clic en el botón +Nuevo y seleccione el tipo de campo que desea crear.",
+          "pageLayoutSubformDesc":"Haga clic en el botón Diseño de Página en la página de vista del subformulario. Aquí puede arrastrar y soltar los campos que ha creado desde la sección de campos a las secciones del subformulario.",
+          "listSetupSubformDesc":"Si ha seleccionado el tipo de subformulario de Registro de Lista, puede configurar la vista de lista para el subformulario. Esto se verá en la pestaña de formularios de la página de detalles de la Orden de Trabajo.",
+          "optional":"Opcional",
+          "onlyForListRec":"Solo para Registros de Lista",
+          "createFieldsDesc":"Cree campos que se utilizarán en su formulario",
+          "pageLayoutDesc":"Configure el diseño de la página de su formulario con los campos que ha creado.",
+          "subformSetupDesc":"Opcionalmente, puede configurar subformularios para este formulario. Use subformularios si necesita información adicional de sus técnicos o agentes de campo mientras están en el trabajo.",
+          "createFieldsSubformDesc":"Cree campos que se utilizarán en su subformulario.",
+          "pageLayoutDetsSubformDesc":"Configure el diseño de la página de su subformulario con los campos que ha creado.",
+          "listViewSubformSetupDesc":"Puede configurar vistas de lista para su subformulario si ha seleccionado un tipo de registro de lista para él. Esto le permitirá personalizar la disposición de los campos en la tabla de vista de lista del subformulario.",
+          "completeAllStepForm":"Complete todos los pasos para configurar completamente su formulario",
+          "completeAllStepSubform":"Complete todos los pasos para configurar completamente su subformulario",
+          "editFormArrangement":"¿Está seguro de que desea editar la disposición de este formulario? Los cambios realizados también se reflejarán en los formularios anteriores. Esto no se puede deshacer.",
+          "selectLayoutPreferred":"Seleccione el diseño que prefiera para su sección. Los campos que agregue a la sección se mostrarán de acuerdo con el diseño de su sección."
         }
       }
     },

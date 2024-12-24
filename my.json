@@ -15554,10 +15554,10 @@
         "setupVisible": false,
         "setupEdit": false,
         "label": {
-          "original": "Custom Forms",
-          "singular": "Borang Tersuai",
-          "plural": "Borang Tersuai",
-          "setupEdit": true,
+          "original": "Forms",
+          "singular": "Borang",
+          "plural": "Borang-Borang",
+          "setupEdit": false,
           "setupVisible": false
         },
         "sections": {
@@ -15693,6 +15693,104 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec19":{
+            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Berikan borang anda nama dan awalan nombor larian. Arahkan kursor ke ikon teks bantuan awalan nombor larian untuk maklumat lanjut.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec20":{
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Pilih Jenis Pesanan Kerja yang akan tersedia untuk borang ini. Selain itu, anda mempunyai pilihan untuk menjadikan borang ini wajib untuk status Pesanan Kerja tertentu. Untuk melakukannya, tetapkan borang ini sebagai wajib dengan mengklik pada kotak pilihan dan buat pilihan status Pesanan Kerja daripada yang tersedia.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec21":{
+            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "singular": "Pilih jenis rekod untuk subborang ini. Subborang rekod tunggal hanya boleh dihantar sekali dan digunakan untuk kemasukan data sekali sahaja. Subborang rekod senarai boleh dihantar beberapa kali dan digunakan apabila anda memerlukan ejen lapangan atau juruteknik anda untuk memasukkan data beberapa kali semasa kerja.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec22":{
+            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Berikan subborang anda nama dan awalan nombor larian. Arahkan kursor ke ikon teks bantuan awalan nombor larian untuk maklumat lanjut.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec23":{
+            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Pilih Jenis Pesanan Kerja yang akan tersedia untuk subborang ini. Selain itu, anda mempunyai pilihan untuk menjadikan subborang ini wajib untuk status Pesanan Kerja tertentu. Untuk melakukannya, tetapkan subborang ini sebagai wajib dengan mengklik pada kotak pilihan dan buat pilihan status Pesanan Kerja daripada yang tersedia.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec24":{
+            "original": "Form Creation",
+            "singular": "Penciptaan Borang",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec25":{
+            "original": "Field Creation",
+            "singular": "Penciptaan Medan",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec26":{
+            "original": "Page Layout",
+            "singular": "Susun Atur Halaman",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec27":{
+            "original": "List View Setup",
+            "singular": "Persediaan Paparan Senarai",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec28":{
+            "original": "Subform Creation",
+            "singular": "Penciptaan Subborang",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec29":{
+            "original": "Create Fields",
+            "singular": "Cipta Medan",
+            "plural": "Cipta Medan",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec30":{
+            "original": "Save Form",
+            "singular": "Simpan Borang",
+            "plural": "Simpan Borang-Borang",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec31":{
+            "original": "Delete Section",
+            "singular": "Padam Bahagian",
+            "plural": "Padam Bahagian-Bahagian",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec32":{
+            "original": "Section Layout",
+            "singular": "Susun Atur Bahagian",
+            "plural": "Susun Atur Bahagian-Bahagian",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -15736,6 +15834,13 @@
             "singular": "Jenis Pesanan Kerja",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderStatus":{
+            "original": "Job Order Status",
+            "singular": "Status Pesanan Kerja",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           },
           "isFormMandatory": {
@@ -16010,11 +16115,25 @@
             "plural": "Medan Dipetakan",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "enterFormName": {
+            "original": "Enter a name for your form",
+            "singular": "Masukkan nama untuk borang anda",
+            "plural": "Masukkan nama untuk borang anda",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enterSubformName": {
+            "original": "Enter a name for your new subform",
+            "singular": "Masukkan nama untuk subborang baru anda",
+            "plural": "Masukkan nama untuk subborang baru anda",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
-          "createManageCustomForms": "Cipta dan urus borang tersuai yang paling sesuai dengan kes penggunaan anda. Borang Tersuai membolehkan anda mendapatkan butiran mengenai sesuatu senario apabila diperlukan.",
-          "createManageCustomSubForms": "Cipta dan urus borang sub yang paling sesuai dengan kes penggunaan anda. Borang Sub berfungsi sebagai borang dalam borang anda yang membolehkan anda mendapatkan butiran tambahan berkaitan sesuatu senario apabila diperlukan. Ia boleh disediakan untuk merekodkan satu atau beberapa entri.",
+          "createManageCustomForms": "Borang ialah versi digital borang yang diisi oleh ejen lapangan atau juruteknik semasa bekerja. Direka dan boleh disesuaikan untuk kes penggunaan tertentu, ia memudahkan pengumpulan data dan berfungsi dengan lancar pada kedua-dua aplikasi web dan mudah alih.",
+          "createManageCustomSubForms": "Subborang adalah borang tambahan yang boleh anda gunakan untuk mendapatkan maklumat lebih lanjut mengenai sesuatu tugas. Anda boleh menetapkan subborang anda sebagai rekod tunggal atau rekod senarai. Subborang jenis rekod tunggal hanya boleh dihantar sekali dan digunakan untuk kemasukan data sekali sahaja. Subborang jenis rekod senarai boleh dihantar beberapa kali dan digunakan apabila anda memerlukan ejen lapangan atau juruteknik anda memasukkan data beberapa kali semasa kerja.",
           "setupForm": "Cipta medan yang paling sesuai dengan keperluan perniagaan anda, susun borang mengikut kehendak anda, dan masukkan borang sub jika diperlukan. Anda dikehendaki mencipta medan untuk borang ini sebelum anda boleh menyusunnya. Setelah anda mencipta medan dan menyusunnya, anda boleh menetapkan status borang kepada aktif.",
           "setupSubform": "Cipta medan yang paling sesuai dengan keperluan perniagaan anda, susun borang sub mengikut kehendak anda, dan masukkan paparan senarai ke dalam borang sub anda jika diperlukan. Anda dikehendaki mencipta medan untuk borang sub ini sebelum anda boleh menyusunnya. Setelah anda mencipta medan untuk borang ini dan menyusunnya, anda boleh menetapkan status borang kepada aktif.",
           "manageFormFields": "Urus Medan yang akan tersedia untuk borang ini",
@@ -16052,7 +16171,7 @@
           "selectLookupModule": "Pilih modul carian untuk menghubungkan medan ini dengan data dari modul lain. Ini membolehkan anda menarik maklumat berkaitan dan mewujudkan hubungan antara modul yang berbeza.",
           "chooseParentPicklistForDependency": "Pilih senarai pilihan induk untuk menentukan pergantungan. Pilihan ini akan menghubungkan senarai pilihan ini kepada senarai pilihan induk, membolehkan anda memetakan medan senarai pilihan induk ke medan dalam senarai pilihan ini di halaman pemetaan. Selepas pemetaan, pilihan yang dibuat dalam senarai pilihan induk akan mempengaruhi pilihan yang tersedia dalam senarai pilihan ini.",
           "selectParentAndChildOptions": "Pilih Pilihan Induk dan pilih Pilihan Anak. Jika anda perlu menukar Pilihan Induk, batalkan pilihan semasa terlebih dahulu dan kemudian pilih Pilihan Induk baru. Untuk menghapus sebarang medan yang dipetakan, navigasi ke tab Pratonton dan kosongkan pilihan di sana.",
-          "arrangeFormFields": "Susun borang mengikut keinginan anda dengan mengklik medan yang dikehendaki dari kotak medan yang tersedia, kemudian seret dan lepaskan ke kanvas. Anda boleh menamakan semula bahagian dengan mengklik ikon suntingan di sebelahnya. Untuk membuang medan atau bahagian, klik pada butang 'x' di sebelahnya.",
+          "arrangeFormFields": "Susun borang anda dengan menyeret medan ke dalam bahagian, namakan semula tajuk mengikut keperluan, dan letakkan semula medan atau bahagian. Tambah atau keluarkan bahagian dan pembahagi mudah alih menggunakan butang yang disediakan. Pembahagi mencipta halaman berasingan dalam aplikasi mudah alih.",
           "removeSectionAndFieldsWarning": "Bahagian ini dan medan yang berkaitan akan dikeluarkan dari pembina Borang. Ini tidak boleh dibatalkan.",
           "cannotPerformActionChildPicklistPresent": "Tindakan ini tidak dapat dilakukan kerana terdapat senarai pilihan anak",
           "childPicklistIsPresent": "Senarai pilihan anak hadir dalam borang. Sila keluarkan",
@@ -16063,7 +16182,30 @@
           "whatIsRunningNoFormat": "Apakah Format Nombor Berjalan?",
           "runningNoDesc": "Format Nombor Berjalan membolehkan anda menyesuaikan Medan Nombor Auto untuk borang anda. Ini termasuk pembolehubah penggantian dan sebarang aksara yang anda ingin awalkan atau lampirkan.",
           "mapPicklistFields": "Peta medan senarai pilihan dengan memilih Medan Induk, kemudian memilih Medan Senarai Pilihan yang diperlukan. Anda boleh melihat Medan yang Dipetakan di bawah.",
-          "addDescriptionHere": "Tambah penerangan di sini..."
+          "addDescriptionHere": "Tambah penerangan di sini...",
+          "selectJobOrderStatus":"Pilih Status Pesanan Kerja",
+          "looksLikeNoFormsCreated":"Nampaknya anda belum mencipta sebarang borang. Jangan risau, ikut langkah ini dan borang anda akan siap dalam masa yang singkat!",
+          "formCreationDesc":"Cipta borang dengan mengklik pada butang + Baru. Berikan nama kepada borang anda dan awalan nombor larian. Kemudian, pilih Jenis Pesanan Kerja yang berkaitan dengan borang ini.",
+          "fieldCreationFormDesc":"Klik pada butang Penciptaan Medan di halaman pandangan borang. Klik pada butang +Baru dan pilih jenis medan yang ingin anda cipta.",
+          "pageLayoutFormDesc":"Klik pada butang Susun Atur Halaman di halaman pandangan borang. Di sini anda boleh seret dan lepaskan medan yang telah anda cipta dari bahagian medan ke bahagian borang.",
+          "subformSetupFormDesc":"Jika perlu, anda boleh menambah subborang ke borang anda dengan mengklik pada butang persediaan subborang. Proses persediaan adalah serupa dengan cara anda menyediakan borang.",
+          "looksLikeNoSubformsCreated":"Nampaknya anda belum mencipta sebarang subborang. Jangan risau, ikut langkah ini dan subborang anda akan siap dalam masa yang singkat!",
+          "subformCreationDesc":"Cipta subborang dengan mengklik pada butang + Baru. Berikan nama kepada subborang anda dan awalan nombor larian. Kemudian, pilih Jenis Pesanan Kerja yang berkaitan dengan subborang ini.",
+          "fieldCreationSubformDesc":"Klik pada butang Penciptaan Medan di halaman pandangan subborang. Klik pada butang +Baru dan pilih jenis medan yang ingin anda cipta.",
+          "pageLayoutSubformDesc":"Klik pada butang Susun Atur Halaman di halaman pandangan subborang. Di sini anda boleh seret dan lepaskan medan yang telah anda cipta dari bahagian medan ke bahagian subborang.",
+          "listSetupSubformDesc":"Jika anda telah memilih jenis subborang Rekod Senarai, anda boleh menyediakan paparan senarai untuk subborang. Ini akan dilihat dalam tab borang di halaman butiran Pesanan Kerja.",
+          "optional":"Pilihan",
+          "onlyForListRec":"Hanya untuk Rekod Senarai",
+          "createFieldsDesc":"Cipta medan yang akan digunakan dalam borang anda.",
+          "pageLayoutDesc":"Tetapkan susun atur halaman borang anda dengan medan yang telah anda cipta.",
+          "subformSetupDesc":"Sebagai pilihan, anda boleh menyediakan subborang untuk borang ini. Gunakan subborang jika anda memerlukan maklumat tambahan daripada juruteknik atau ejen lapangan anda semasa bertugas.",
+          "createFieldsSubformDesc":"Cipta medan yang akan digunakan dalam subborang anda.",
+          "pageLayoutDetsSubformDesc":"Tetapkan susun atur halaman subborang anda dengan medan yang telah anda cipta.",
+          "listViewSubformSetupDesc":"Anda boleh menyediakan paparan senarai untuk subborang anda jika anda telah memilih jenis rekod senarai untuknya. Ini membolehkan anda menyesuaikan susunan medan dalam jadual paparan senarai subborang.",
+          "completeAllStepForm":"Lengkapkan semua langkah untuk menetapkan borang anda sepenuhnya",
+          "completeAllStepSubform":"Lengkapkan semua langkah untuk menetapkan subborang anda sepenuhnya",
+          "editFormArrangement":"Adakah anda pasti mahu mengedit susunan borang ini? Perubahan yang dibuat juga akan dicerminkan pada borang sebelumnya. Ini tidak boleh dibatalkan.",
+          "selectLayoutPreferred":"Pilih susun atur yang anda inginkan untuk bahagian anda. Medan yang anda tambah ke bahagian akan dipaparkan mengikut susun atur bahagian anda."
         }
       }
     },

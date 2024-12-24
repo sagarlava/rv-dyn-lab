@@ -15554,10 +15554,10 @@
         "setupEdit": false,
         "setupVisible": false,
         "label": {
-          "original": "Custom Forms",
-          "singular": "Benutzerdefiniertes Formular",
-          "plural": "Benutzerdefinierte Formulare",
-          "setupEdit": true,
+          "original": "Forms",
+          "singular": "Formular",
+          "plural": "Formulare",
+          "setupEdit": false,
           "setupVisible": false
         },
         "sections": {
@@ -15693,6 +15693,104 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec19":{
+            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Geben Sie Ihrem Formular einen Namen und ein Präfix für die laufende Nummer. Bewegen Sie den Mauszeiger über das Hilfe-Text-Symbol des Präfixes für die laufende Nummer, um weitere Informationen zu erhalten.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec20":{
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Wählen Sie die Arbeitsauftragstypen aus, die für dieses Formular verfügbar sein sollen. Außerdem haben Sie die Möglichkeit, dieses Formular für bestimmte Arbeitsauftragsstatus verpflichtend zu machen. Dazu setzen Sie dieses Formular durch Anklicken des Kontrollkästchens auf verpflichtend und wählen Sie die verfügbaren Arbeitsauftragsstatus aus.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec21":{
+            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "singular": "Wählen Sie einen Datensatztyp für dieses Unterformular aus. Unterformulare mit Einzeldatensätzen können nur einmal eingereicht werden und dienen der einmaligen Dateneingabe. Unterformulare mit Listen-Datensätzen können mehrfach eingereicht werden und werden verwendet, wenn Ihre Außendienstmitarbeiter oder Techniker während eines Auftrags mehrfach Daten eingeben müssen.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec22":{
+            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Geben Sie Ihrem Unterformular einen Namen und ein Präfix für die laufende Nummer. Bewegen Sie den Mauszeiger über das Hilfe-Text-Symbol des Präfixes für die laufende Nummer, um weitere Informationen zu erhalten.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec23":{
+            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Wählen Sie die Arbeitsauftragstypen aus, die für dieses Unterformular verfügbar sein sollen. Außerdem haben Sie die Möglichkeit, dieses Unterformular für bestimmte Arbeitsauftragsstatus verpflichtend zu machen. Dazu setzen Sie dieses Unterformular durch Anklicken des Kontrollkästchens auf verpflichtend und wählen Sie die verfügbaren Arbeitsauftragsstatus aus.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec24":{
+            "original": "Form Creation",
+            "singular": "Formularerstellung",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec25":{
+            "original": "Field Creation",
+            "singular": "Felderstellung",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec26":{
+            "original": "Page Layout",
+            "singular": "Seitenlayout",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec27":{
+            "original": "List View Setup",
+            "singular": "Einrichtung der Listenansicht",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec28":{
+            "original": "Subform Creation",
+            "singular": "Unterformularerstellung",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec29":{
+            "original": "Create Fields",
+            "singular": "Felder erstellen",
+            "plural": "Felder erstellen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec30":{
+            "original": "Save Form",
+            "singular": "Formular speichern",
+            "plural": "Formulare speichern",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec31":{
+            "original": "Delete Section",
+            "singular": "Abschnitt löschen",
+            "plural": "Abschnitte löschen",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec32":{
+            "original": "Section Layout",
+            "singular": "Abschnitts-Layout",
+            "plural": "Abschnitts-Layouts",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields": {
@@ -15736,6 +15834,13 @@
             "singular": "Auftragsart",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderStatus":{
+            "original": "Job Order Status",
+            "singular": "Auftragsstatus",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           },
           "isFormMandatory": {
@@ -16010,11 +16115,25 @@
             "plural": "Zuordnungen",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "enterFormName": {
+            "original": "Enter a name for your form",
+            "singular": "Geben Sie einen Namen für Ihr Formular ein",
+            "plural": "Geben Sie Namen für Ihre Formulare ein",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enterSubformName": {
+            "original": "Enter a name for your new subform",
+            "singular": "Geben Sie einen Namen für Ihr neues Unterformular ein",
+            "plural": "Geben Sie Namen für Ihre neuen Unterformulare ein",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages": {
-          "createManageCustomForms": "Erstellen und verwalten Sie benutzerdefinierte Formulare, die am besten zu Ihrem Anwendungsfall passen. Benutzerdefinierte Formulare ermöglichen es Ihnen, bei Bedarf Details zu einem bestimmten Szenario zu erhalten.",
-          "createManageCustomSubForms": "Erstellen und verwalten Sie Unterformulare, die am besten zu Ihrem Anwendungsfall passen. Unterformulare fungieren als Formulare innerhalb Ihrer Formulare und ermöglichen es Ihnen, zusätzliche Details zu einem bestimmten Szenario zu erhalten, wenn dies erforderlich ist. Sie können eingerichtet werden, um einzelne oder mehrere Einträge zu erfassen.",
+          "createManageCustomForms": "Formulare sind digitale Versionen der Formulare, die Außendienstmitarbeiter oder Techniker bei der Arbeit ausfüllen. Sie sind für spezifische Anwendungsfälle entwickelt und anpassbar, vereinfachen die Datenerfassung und funktionieren nahtlos auf Web- und Mobilanwendungen.",
+          "createManageCustomSubForms": "Unterformulare sind zusätzliche Formulare, die Sie verwenden können, um weitere Informationen zu einer Aufgabe zu erhalten. Sie können Ihre Unterformulare als Einzeldatensatz oder Listendatensatz festlegen. Unterformulare vom Typ Einzeldatensatz können nur einmal eingereicht werden und dienen der einmaligen Dateneingabe. Unterformulare vom Typ Listendatensatz können mehrfach eingereicht werden und werden verwendet, wenn Ihre Außendienstmitarbeiter oder Techniker während eines Auftrags mehrfach Daten eingeben müssen.",
           "setupForm": "Erstellen Sie Felder, die am besten zu den Anforderungen Ihres Unternehmens passen, ordnen Sie das Formular nach Ihren Wünschen an und fügen Sie Unterformulare hinzu, wenn erforderlich. Sie müssen Felder für dieses Formular erstellen, bevor Sie sie anordnen können. Nachdem Sie die Felder für dieses Formular erstellt und angeordnet haben, können Sie den Formularstatus auf aktiv setzen.",
           "setupSubform": "Erstellen Sie Felder, die am besten zu den Anforderungen Ihres Unternehmens passen, ordnen Sie das Unterformular nach Ihren Wünschen an und fügen Sie Listenansichten zu Ihrem Unterformular hinzu, wenn erforderlich. Sie müssen Felder für dieses Unterformular erstellen, bevor Sie sie anordnen können. Nachdem Sie die Felder für dieses Formular erstellt und angeordnet haben, können Sie den Formularstatus auf aktiv setzen.",
           "manageFormFields": "Verwalten Sie die Felder, die für dieses Formular verfügbar sind.",
@@ -16052,7 +16171,7 @@
           "selectLookupModule": "Wählen Sie das Lookup-Modul aus, um dieses Feld mit Daten aus einem anderen Modul zu verknüpfen. Dies ermöglicht es Ihnen, verwandte Informationen zu importieren und Verbindungen zwischen verschiedenen Modulen herzustellen.",
           "chooseParentPicklistForDependency": "Wählen Sie eine übergeordnete Auswahlliste aus, um eine Abhängigkeit zu definieren. Diese Auswahl verknüpft diese Auswahlliste mit einer übergeordneten Auswahlliste, sodass Sie die Felder der übergeordneten Auswahlliste den Feldern in dieser Auswahlliste auf der Mapping-Seite zuordnen können. Nach der Zuordnung wirken sich die in einem Formular getätigten Auswahlmöglichkeiten einer übergeordneten Auswahlliste auf die verfügbaren Optionen für diese Auswahlliste aus.",
           "selectParentAndChildOptions": "Wählen Sie eine Elternoption aus und wählen Sie deren Kindoptionen. Wenn Sie die Elternoption ändern müssen, deselectieren Sie zuerst die aktuelle und wählen Sie dann eine neue Elternoption aus. Um zugehörige Felder zu entfernen, navigieren Sie zur Vorschau-Seite und löschen Sie dort die Auswahl.",
-          "arrangeFormFields": "Ordnen Sie das Formular nach Ihren Wünschen an, indem Sie auf Ihr gewünschtes Feld im Feldkasten klicken und es auf die Leinwand ziehen und ablegen. Sie können die Abschnitte umbenennen, indem Sie auf die Bearbeitungssymbole daneben klicken. Um ein Feld oder einen Abschnitt zu entfernen, klicken Sie auf die Schaltfläche 'x' daneben.",
+          "arrangeFormFields": "Ordnen Sie Ihr Formular, indem Sie Felder in Abschnitte ziehen, Überschriften nach Bedarf umbenennen und Felder oder Abschnitte neu positionieren. Fügen Sie Abschnitte und mobile Trennlinien mit den bereitgestellten Schaltflächen hinzu oder entfernen Sie sie. Trennlinien erstellen separate Seiten in der mobilen App.",
           "removeSectionAndFieldsWarning": "Dieser Abschnitt und die damit verbundenen Felder werden aus dem Formular-Builder entfernt. Dies kann nicht rückgängig gemacht werden.",
           "cannotPerformActionChildPicklistPresent": "Diese Aktion kann nicht ausgeführt werden, da die untergeordnete Auswahlliste",
           "childPicklistIsPresent": "im Formular vorhanden ist. Entfernen Sie",
@@ -16063,7 +16182,30 @@
           "whatIsRunningNoFormat": "Was ist das Format der laufenden Nummer?",
           "runningNoDesc": "Das Format der laufenden Nummer ermöglicht es Ihnen, das automatische Nummernfeld für Ihre Formulare anzupassen. Dies umfasst Ersetzungsvariablen und beliebige Zeichen, die Sie als Präfix oder Suffix hinzufügen möchten.",
           "mapPicklistFields": "Ordnen Sie die Auswahllistenfelder zu, indem Sie ein übergeordnetes Feld auswählen und dann die erforderlichen Auswahllistenfelder dafür auswählen. Die zugeordneten Felder können Sie unten einsehen.",
-          "addDescriptionHere": "Hier Beschreibung hinzufügen..."
+          "addDescriptionHere": "Hier Beschreibung hinzufügen...",
+          "selectJobOrderStatus":"Wählen Sie den Arbeitsauftragsstatus",
+          "looksLikeNoFormsCreated":"Es sieht so aus, als hätten Sie noch keine Formulare erstellt. Keine Sorge, folgen Sie einfach diesen Schritten und wir bringen Ihre Formulare im Handumdrehen zum Laufen!",
+          "formCreationDesc":"Erstellen Sie ein Formular, indem Sie auf die Schaltfläche + Neu klicken. Geben Sie Ihrem Formular einen Namen und ein Präfix für die laufende Nummer. Wählen Sie dann die Arbeitsauftragstypen aus, die auf dieses Formular zutreffen.",
+          "fieldCreationFormDesc":"Klicken Sie auf der Formularansichtsseite auf die Schaltfläche Felderstellung. Klicken Sie auf die Schaltfläche +Neu und wählen Sie den Feldtyp aus, den Sie erstellen möchten.",
+          "pageLayoutFormDesc":"Klicken Sie auf der Formularansichtsseite auf die Schaltfläche Seitenlayout. Hier können Sie die von Ihnen erstellten Felder aus dem Feldbereich in die Formularbereiche ziehen und ablegen.",
+          "subformSetupFormDesc":"Falls erforderlich, können Sie Ihrem Formular Unterformulare hinzufügen, indem Sie auf die Schaltfläche Unterformulare einrichten klicken. Der Einrichtungsprozess ähnelt dem der Formularerstellung.",
+          "looksLikeNoSubformsCreated":"Es sieht so aus, als hätten Sie noch keine Unterformulare erstellt. Keine Sorge, folgen Sie einfach diesen Schritten und wir bringen Ihre Unterformulare im Handumdrehen zum Laufen!",
+          "subformCreationDesc":"Erstellen Sie ein Unterformular, indem Sie auf die Schaltfläche + Neu klicken. Geben Sie Ihrem Unterformular einen Namen und ein Präfix für die laufende Nummer. Wählen Sie dann die Arbeitsauftragstypen aus, die auf dieses Formular zutreffen.",
+          "fieldCreationSubformDesc":"Klicken Sie auf der Unterformularansichtsseite auf die Schaltfläche Felderstellung. Klicken Sie auf die Schaltfläche +Neu und wählen Sie den Feldtyp aus, den Sie erstellen möchten",
+          "pageLayoutSubformDesc":"Klicken Sie auf der Unterformularansichtsseite auf die Schaltfläche Seitenlayout. Hier können Sie die von Ihnen erstellten Felder aus dem Feldbereich in die Unterformularbereiche ziehen und ablegen.",
+          "listSetupSubformDesc":"Wenn Sie den Unterformulartyp Listendatensatz ausgewählt haben, können Sie die Listenansicht für das Unterformular einrichten. Dies wird im Formular-Tab der Seite mit den Auftragsdetails angezeigt.",
+          "optional":"Optional",
+          "onlyForListRec":"Nur für Listenaufzeichnungen",
+          "createFieldsDesc":"Erstellen Sie Felder, die in Ihrem Formular verwendet werden.",
+          "pageLayoutDesc":"Legen Sie das Seitenlayout Ihres Formulars mit den von Ihnen erstellten Feldern fest.",
+          "subformSetupDesc":"Optional können Sie Unterformulare für dieses Formular einrichten. Verwenden Sie Unterformulare, wenn Sie zusätzliche Informationen von Ihren Technikern oder Außendienstmitarbeitern während der Arbeit benötigen.",
+          "createFieldsSubformDesc":"Erstellen Sie Felder, die in Ihrem Unterformular verwendet werden.",
+          "pageLayoutDetsSubformDesc":"Legen Sie das Seitenlayout Ihres Unterformulars mit den von Ihnen erstellten Feldern fest.",
+          "listViewSubformSetupDesc":"Sie können Listenansichten für Ihr Unterformular einrichten, wenn Sie einen Listendatensatztyp dafür ausgewählt haben. Dies ermöglicht es Ihnen, die Anordnung der Felder in der Listenansichtstabelle des Unterformulars anzupassen.",
+          "completeAllStepForm":"Schließen Sie alle Schritte ab, um Ihr Formular vollständig einzurichten",
+          "completeAllStepSubform":"Schließen Sie alle Schritte ab, um Ihr Unterformular vollständig einzurichten",
+          "editFormArrangement":"Sind Sie sicher, dass Sie die Anordnung dieses Formulars bearbeiten möchten? Änderungen werden auch in früheren Formularen übernommen. Dies kann nicht rückgängig gemacht werden.",
+          "selectLayoutPreferred":"Wählen Sie das Layout aus, das Sie für Ihren Abschnitt bevorzugen. Felder, die Sie dem Abschnitt hinzufügen, werden gemäß Ihrem Abschnitts-Layout angezeigt."
         }
       }
     },

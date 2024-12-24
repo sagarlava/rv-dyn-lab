@@ -15554,10 +15554,10 @@
         "setupEdit": false,
         "setupVisible": false,
         "label":{
-          "original": "Custom Forms",
-          "singular": "Custom Form",
-          "plural": "Custom Forms",
-          "setupEdit": true,
+          "original": "Forms",
+          "singular": "Form",
+          "plural": "Forms",
+          "setupEdit": false,
           "setupVisible": false
         },
         "sections":{
@@ -15693,6 +15693,104 @@
             "plural": "",
             "setupEdit": true,
             "setupVisible": false
+          },
+          "sec19":{
+            "original": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Give your form a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec20":{
+            "original": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Select the Job Order Types that will be available for this form. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this form as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec21":{
+            "original": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "singular": "Select a record type for this subform. Single record subforms can only be submitted once and are used for one time data entry. List record subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec22":{
+            "original": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "singular": "Give your subform a name and a running number prefix. Hover over the running number prefix helptext icon for more information.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec23":{
+            "original": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "singular": "Select the Job Order Types that will be available for this subform. Additionally, you have the option to make this form mandatory for certain Job Order Statuses. To do that, toggle this subform as mandatory by clicking on the checkbox and make your selection of Job Order Statuses from the ones available.",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec24":{
+            "original": "Form Creation",
+            "singular": "Form Creation",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec25":{
+            "original": "Field Creation",
+            "singular": "Field Creation",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec26":{
+            "original": "Page Layout",
+            "singular": "Page Layout",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec27":{
+            "original": "List View Setup",
+            "singular": "List View Setup",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec28":{
+            "original": "Subform Creation",
+            "singular": "Subform Creation",
+            "plural": "",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec29":{
+            "original": "Create Fields",
+            "singular": "Create Field",
+            "plural": "Create Fields",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec30":{
+            "original": "Save Form",
+            "singular": "Save Form",
+            "plural": "Save Forms",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec31":{
+            "original": "Delete Section",
+            "singular": "Delete Section",
+            "plural": "Delete Sections",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "sec32":{
+            "original": "Section Layout",
+            "singular": "Section Layout",
+            "plural": "Section Layout",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "fields":{
@@ -15736,6 +15834,13 @@
             "singular": "Job Order Type",
             "plural": "",
             "setupEdit": true,
+            "setupVisible": false
+          },
+          "jobOrderStatus":{
+            "original": "Job Order Status",
+            "singular": "Job Order Status",
+            "plural": "",
+            "setupEdit": false,
             "setupVisible": false
           },
           "isFormMandatory":{
@@ -16010,11 +16115,25 @@
             "plural": "Mapped Fields",
             "setupEdit": true,
             "setupVisible": true
+          },
+          "enterFormName": {
+            "original": "Enter a name for your form",
+            "singular": "Enter a name for your form",
+            "plural": "Enter a name for your form",
+            "setupEdit": false,
+            "setupVisible": false
+          },
+          "enterSubformName": {
+            "original": "Enter a name for your new subform",
+            "singular": "Enter a name for your new subform",
+            "plural": "Enter a name for your new subform",
+            "setupEdit": false,
+            "setupVisible": false
           }
         },
         "messages":{
-          "createManageCustomForms":"Create and manage custom forms which best fit your use case. Custom Forms allow you to get details regarding a certain scenario when needed",
-          "createManageCustomSubForms":"Create and manage subforms which best fit your use case. Subforms act as forms within your forms allowing you to get additional details related to a certain scenario when needed. They can be set up to record single or multiple entries.",
+          "createManageCustomForms":"Forms are digital versions of forms field agents or technicians fill out on the job. Designed and customizable for specific use cases, they simplify data collection and work seamlessly on both web and mobile apps.",
+          "createManageCustomSubForms":"Subforms are additional forms that you may use to get more information regarding a task. You may set your subforms to be a single record or a list record. Single record type subforms can only be submitted once and are used for one time data entry. List record type subforms can be submitted multiple times and are used when you require your field agents or technicians to enter data multiple times during a job.",
           "setupForm":"Create fields that best fit your business requirements, arrange the form to your liking, and include subforms if required. You are required to create fields for this form before you can arrange them. Once you have created the fields for this form and arranged it, you can then set the form status to active.",
           "setupSubform":"Create fields that best fit your business requirements, arrange the subform to your liking, and include list views to your subform if required. You are required to create fields for this subform before you can arrange them. Once you have created the fields for this form and arranged it, you can then set the form status to active.",
           "manageFormFields": "Manage Fields which will be available for this form",
@@ -16052,7 +16171,7 @@
           "selectLookupModule": "Select the lookup module to link this field with data from another module. This allows you to pull in related information and establish connections between different modules.",
           "chooseParentPicklistForDependency": "Choose a parent picklist to define a dependency. This selection will link this picklist to a parent picklist, allowing you to map the parent picklist fields to the fields in this picklist within the mapping page. After mapping, selections made on a parent picklist within the form will then affect the options available for this picklist.",
           "selectParentAndChildOptions": "Select a Parent Option and choose its Child Options. If you need to change the Parent Option, first deselect the current one and then select a new Parent Option. To remove any mapped fields, navigate to the Preview tab and clear the selections there.",
-          "arrangeFormFields": "Arrange the form to your liking by clicking on your desired field from the available fields box, then dragging and dropping it onto the canvas. You can rename the sections by clicking on the edit icons beside them. To remove a field or section, click on the 'x' button beside it.",
+          "arrangeFormFields": "Arrange your form by dragging fields into sections, rename headers as required, and reposition fields or sections. Add or remove sections and mobile dividers using the provided buttons. Dividers create separate pages in the mobile app.",
           "removeSectionAndFieldsWarning": "This section and the fields tied to it will be removed from the Form builder. This cannot be undone.",
           "cannotPerformActionChildPicklistPresent": "This action cannot be performed since the child picklist",
           "childPicklistIsPresent": "is present in form. Remove",
@@ -16063,7 +16182,30 @@
           "whatIsRunningNoFormat":"What is Running Number Format?",
           "runningNoDesc":"Running Number Format Allows you to customize the Auto Number Field for your forms. This includes substitution variables and any characters you wish to prefix or append",
           "mapPicklistFields":"Map picklist fields by selecting a Parent Field and then selecting the necessary Picklist Fields for it. You can view the Mapped Fields below.",
-          "addDescriptionHere":"Add description here..."
+          "addDescriptionHere":"Add description here...",
+          "selectJobOrderStatus":"Select Job Order Status",
+          "looksLikeNoFormsCreated":"It looks like you don't have any forms created just yet. Don't worry, just follow these steps and we'll have your forms up and running in no time!",
+          "formCreationDesc":"Create a form by clicking on the + New button. Give your form a name and a running number prefix. Then, select the Job Order Types that apply to this form.",
+          "fieldCreationFormDesc":"Click on the Field Creation button in the form view page. Click on the +New button and select the type of field you want to create.",
+          "pageLayoutFormDesc":"Click on the Page Layout button in the form view page. Here you can drag and drop the fields that you have created from the fields section on into the form sections.",
+          "subformSetupFormDesc":"If needed you can add subforms to your form by clicking on the setup subforms button. The setup process is similar to how you would set up forms.",
+          "looksLikeNoSubformsCreated":"It looks like you don't have any subforms created just yet. Don't worry, just follow these steps and we'll have your subforms up and running in no time!",
+          "subformCreationDesc":"Create a subform by clicking on the + New button. Give your subform a name and a running number prefix. Then, select the Job Order Types that apply to this form.",
+          "fieldCreationSubformDesc":"Click on the Field Creation button in the subform view page. Click on the +New button and select the type of field you want to create.",
+          "pageLayoutSubformDesc":"Click on the Page Layout button in the subform view page. Here you can drag and drop the fields that you have created from the fields section on into the subform sections.",
+          "listSetupSubformDesc":"If you have selected the List Record subform type, you can set up the list view for the subform. This will be seen in the forms tab of the Job Order details page.",
+          "optional":"Optional",
+          "onlyForListRec":"Only for List Records",
+          "createFieldsDesc":"Create fields that will be used in your form.",
+          "pageLayoutDesc":"Set the page layout of your form with the fields that you have created.",
+          "subformSetupDesc":"Optionally, you can set up subforms for this form. Use subforms if you need additional information from your technicians or field agents while on the job.",
+          "createFieldsSubformDesc":"Create fields that will be used in your subform.",
+          "pageLayoutDetsSubformDesc":"Set the page layout of your subform with the fields that you have created.",
+          "listViewSubformSetupDesc":"You can set up list views for your subform if  you have selected a list record type for it. This will enable you to customise the arrangement of the fields in the subform list view table.",
+          "completeAllStepForm":"Complete all steps to fully set up your form",
+          "completeAllStepSubform":"Complete all steps to fully set up your subform",
+          "editFormArrangement":"Are you sure you want to edit this form's arrangement? Changes made will also be reflected on previous forms. This cannot be undone.",
+          "selectLayoutPreferred":"Select the layout that you would prefer for your section. Fields that you add to the seciton will be displayed according to your section layout."
         }
       }
     },

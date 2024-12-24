@@ -14088,10 +14088,10 @@
             "setupVisible": false
           },
           "userWithAccessViewPricing": {
-            "original": "Users with this access are able to view pricing details for Sales Orders",
-            "singular": "Los usuarios con este acceso pueden ver los detalles de precios para las órdenes de venta",
+            "original": "Users with this access can view pricing details for Sales Orders",
+            "singular": "Los usuarios con este acceso pueden ver los detalles de precios para los Pedidos de Venta",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessAssignShift": {

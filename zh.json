@@ -14088,10 +14088,10 @@
             "setupVisible": false
           },
           "userWithAccessViewPricing": {
-            "original": "Users with this access are able to view pricing details for Sales Orders",
-            "singular": "具有此访问权限的用户可以查看销售订单的定价详情",
+            "original": "Users with this access can view pricing details for Sales Orders",
+            "singular": "具有此权限的用户可以查看销售订单的定价详细信息",
             "plural": "",
-            "setupEdit": true,
+            "setupEdit": false,
             "setupVisible": false
           },
           "userWithAccessAssignShift": {
